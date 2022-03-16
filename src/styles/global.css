@@ -1,18 +1,24 @@
 :root {
+	--color-accent: #fff067;
 	--color-background: #292d32;
 	--color-foreground: #e5e5e5;
 	--color-foreground-secondary: #7f99a8;
 	--color-foreground-tertiary: #586871;
-	--color-accent: #fff067;
+	--color-foreground-rating-poor: #ff7979;
+	--color-foreground-rating-mid: #ffd597;
+	--color-foreground-rating-good: #b9ffbc;
 }
 
 @supports (color: color(display-p3 1 1 1)) {
 	:root {
+		--color-accent: color(display-p3 1 0.94 0.4);
 		--color-background: color(display-p3 0.16 0.18 0.2);
 		--color-foreground: color(display-p3 0.9 0.9 0.9);
 		--color-foreground-secondary: color(display-p3 0.5 0.6 0.66);
 		--color-foreground-tertiary: color(display-p3 0.35 0.41 0.44);
-		--color-accent: color(display-p3 1 0.94 0.4);
+		--color-foreground-rating-poor: color(display-p3 1 0.47 0.47);
+		--color-foreground-rating-mid: color(display-p3 1 0.84 0.59);
+		--color-foreground-rating-good: color(display-p3 0.73 1 0.74);
 	}
 }
 

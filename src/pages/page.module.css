@@ -10,6 +10,18 @@
 	align-items: baseline;
 }
 
+.browserLow {
+	color: var(--color-foreground-rating-poor);
+}
+
+.browserMedium {
+	color: var(--color-foreground-rating-mid);
+}
+
+.browserHigh {
+	color: var(--color-foreground-rating-good);
+}
+
 .browserIcon {
 	align-self: center;
 	width: 24px;
@@ -32,8 +44,13 @@
 	text-align: right;
 }
 
-.browserVersion {
-	min-width: 100px;
+.browserVersion,
+.browserUsage {
+	min-width: 80px;
 	color: var(--color-foreground-secondary);
 	font-size: 15px;
+}
+
+.browserUsage {
+	text-align: right;
 }

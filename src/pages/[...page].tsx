@@ -1,4 +1,5 @@
 import Image, { isValidImageSrc } from '@/components/image'
+import classNames from 'classnames'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import getAllPages from '../utils/getAllPages'
@@ -52,7 +53,16 @@ export default function Home(props: Page) {
 
 function Browser({ browser, support }: { browser: string; support: Page['support']['x'] | null }) {
 	return (
-		<div className={styles.browser}>
+		<div
+			className={classNames({
+				[styles.browser]: true,
+				[styles.browserLow]:
+					!support?.release_date_added ||
+					(support?.usage.relative && support.usage.relative < 0.6),
+				[styles.browserMedium]: support?.usage.relative && support.usage.relative < 0.8,
+				[styles.browserHigh]: support?.usage.relative && support.usage.relative >= 0.8,
+			})}
+		>
 			{isValidImageSrc(browser) && <Image src={browser} className={styles.browserIcon} />}
 			<span className={styles.browserName}>{support?.name ?? browser}</span>
 			<span className={styles.browserReleaseDate}>
@@ -66,6 +76,17 @@ function Browser({ browser, support }: { browser: string; support: Page['support
 			</span>
 			{support?.version_added && (
 				<span className={styles.browserVersion}>v{support.version_added}</span>
+			)}
+			{support?.usage.global && support?.usage.relative && (
+				<span className={styles.browserUsage}>
+					{support.usage.global.toLocaleString(undefined, {
+						style: 'percent',
+					})}
+					{' / '}
+					{support.usage.relative.toLocaleString(undefined, {
+						style: 'percent',
+					})}
+				</span>
 			)}
 		</div>
 	)

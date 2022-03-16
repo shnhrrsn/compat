@@ -47,6 +47,10 @@ export type Page = {
 			name: string
 			version_added: string | null
 			release_date_added: number | null
+			usage: {
+				global: number | null
+				relative: number | null
+			}
 		}
 	}
 	md: string
@@ -79,16 +83,34 @@ export async function getPage(page: string[]): Promise<Page> {
 	const support = Object.fromEntries(
 		Object.entries(data.__compat.support).map(([name, support]) => {
 			const a = agent(name)
+			const version = semver.coerce(support.version_added)
+			const versionRange = version ? new semver.Range(`>=${version.format()}`) : undefined
+			const usage =
+				a && version && versionRange
+					? Array.from(a.versions.entries())
+							.filter(([range]) => range.intersects(versionRange))
+							.map(([, support]) => support.usage)
+							.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+					: null
+			const totalUsage = a
+				? Array.from(a.versions.values())
+						.map(({ usage }) => usage)
+						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+				: null
 			return [
 				name,
 				{
 					name: a?.name ?? name,
 					version_added: support.version_added
-						? semver.coerce(support.version_added)?.format() ?? support.version_added
+						? version?.format() ?? support.version_added
 						: null,
 					release_date_added:
 						(support.version_added ? a?.version(support.version_added)?.date : null) ??
 						null,
+					usage: {
+						global: usage ? usage / 100.0 : null,
+						relative: usage && totalUsage ? usage / totalUsage : null,
+					},
 				},
 			]
 		}),
