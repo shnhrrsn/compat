@@ -1,0 +1,103 @@
+:root {
+	--color-background: #292d32;
+	--color-foreground: #e5e5e5;
+	--color-foreground-secondary: #7f99a8;
+	--color-foreground-tertiary: #586871;
+	--color-accent: #fff067;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+	:root {
+		--color-background: color(display-p3 0.16 0.18 0.2);
+		--color-foreground: color(display-p3 0.9 0.9 0.9);
+		--color-foreground-secondary: color(display-p3 0.5 0.6 0.66);
+		--color-foreground-tertiary: color(display-p3 0.35 0.41 0.44);
+		--color-accent: color(display-p3 1 0.94 0.4);
+	}
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--color-foreground);
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.6em;
+	background: var(--color-background);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: var(--color-accent);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color-accent);
+	text-decoration: underline;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+header {
+	margin: 50px 0 70px;
+}
+
+h1 {
+	margin: 60px 0 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h1::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 100vw;
+	height: 1.5px;
+	margin-top: 10px;
+	background-color: var(--color-foreground-tertiary);
+}
+
+h3 {
+	margin: 60px 0 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+h3::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	display: block;
+	width: 100vw;
+	height: 1px;
+	margin-top: 10px;
+	border-bottom: 1px dashed var(--color-foreground-tertiary);
+}
+
+cite {
+	display: flex;
+	gap: 10px;
+	font-size: 13px;
+	font-style: normal;
+}
+
+cite a {
+	color: var(--color-foreground-tertiary);
+}
+
+p small,
+li small {
+	color: var(--color-foreground-tertiary);
+	font-size: 13px;
+}

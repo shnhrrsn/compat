@@ -1,0 +1,39 @@
+.browsers {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.browser {
+	display: flex;
+	gap: 0;
+	align-items: baseline;
+}
+
+.browserIcon {
+	align-self: center;
+	width: 24px;
+	height: 24px;
+	margin-right: 15px;
+}
+
+.browserIcon path {
+	fill: var(--color-foreground-secondary);
+}
+
+.browserName {
+	min-width: 100px;
+	font-weight: bold;
+}
+
+.browserReleaseDate {
+	min-width: 130px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+.browserVersion {
+	min-width: 100px;
+	color: var(--color-foreground-secondary);
+	font-size: 15px;
+}
