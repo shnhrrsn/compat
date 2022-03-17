@@ -2,7 +2,7 @@ import compatData from '@/@data/compatData'
 import assert from 'assert'
 import semver from 'semver'
 import agent from './agent'
-import { loadMetadata, generateMetadataFallback } from './page/loadMetadata'
+import { loadMetadata } from './page/loadMetadata'
 
 type MdnCompatSupport = {
 	version_added: string | null
@@ -62,9 +62,7 @@ export async function getPage(page: string[]): Promise<Page> {
 	const data: MdnCompat = page.reduce((data, key) => data[key], compatData)
 	assert(data.__compat)
 
-	const metadata =
-		(await loadMetadata(data.__compat.mdn_url)) ?? generateMetadataFallback(page, data.__compat)
-
+	const metadata = await loadMetadata(page, data.__compat)
 	const support = Object.fromEntries(
 		Object.entries(data.__compat.support).map(([name, support]) => {
 			const a = agent(name)
@@ -73,14 +71,14 @@ export async function getPage(page: string[]): Promise<Page> {
 			const usage =
 				a && version && versionRange
 					? Array.from(a.versions.entries())
-						.filter(([range]) => range.intersects(versionRange))
-						.map(([, support]) => support.usage)
-						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+							.filter(([range]) => range.intersects(versionRange))
+							.map(([, support]) => support.usage)
+							.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
 					: null
 			const totalUsage = a
 				? Array.from(a.versions.values())
-					.map(({ usage }) => usage)
-					.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+						.map(({ usage }) => usage)
+						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
 				: null
 			return [
 				name,
