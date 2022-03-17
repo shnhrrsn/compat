@@ -1,5 +1,6 @@
 import { Range } from 'semver'
 import caniuse from './agents/caniuse'
+import { deno } from './agents/deno'
 import node from './agents/node'
 
 export type AgentVersion = { date: number; usage: number | null }
@@ -19,6 +20,8 @@ export default function agent(name: string): Agent | undefined {
 	let agent: Agent | undefined
 	if (/^node(js)?/i.test(name)) {
 		agent = node()
+	} else if (/^deno/i.test(name)) {
+		agent = deno()
 	} else {
 		agent = caniuse(name)
 	}

@@ -78,7 +78,6 @@ export async function getPage(page: string[]): Promise<Page> {
 		await fs.readFile(path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md'))
 	).toString()
 	const matterResult = matter(md)
-	delete data.__compat.support.deno // TODO
 
 	const support = Object.fromEntries(
 		Object.entries(data.__compat.support).map(([name, support]) => {

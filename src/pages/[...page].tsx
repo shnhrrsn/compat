@@ -6,10 +6,7 @@ import getAllPages from '../utils/getAllPages'
 import { getPage, Page } from '../utils/getPage'
 import styles from './page.module.css'
 
-type TypeWithGeneric<T> = Promise<T>
-type extractGeneric<Type> = Type extends TypeWithGeneric<infer X> ? X : never
-
-const browsers = ['chrome', 'safari', 'edge', 'firefox', 'nodejs']
+const browsers = ['chrome', 'safari', 'edge', 'firefox', 'nodejs', 'deno']
 
 export default function Home(props: Page) {
 	return (
