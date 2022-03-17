@@ -1,4 +1,5 @@
-import compatData from '@/@data/compatData'
+import compatData from '@mdn/browser-compat-data'
+import { PrimaryIdentifier } from '@mdn/browser-compat-data/types'
 import cache from './cache'
 
 export default function getAllPages(): Promise<string[]> {
@@ -13,7 +14,7 @@ export default function getAllPages(): Promise<string[]> {
 	})
 }
 
-function findPaths(object: Record<string, any>, path: string[] = []) {
+function findPaths(object: PrimaryIdentifier, path: string[] = []) {
 	const paths: string[] = []
 
 	for (const key of Object.getOwnPropertyNames(object)) {

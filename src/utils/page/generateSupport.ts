@@ -1,13 +1,14 @@
+import { CompatStatement, SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import { coerce, Range } from 'semver'
 import agent, { Agent } from '../agent'
 import { findVersionDate } from '../agents/findVersionDate'
-import { MdnCompat, MdnCompatSupport, PageSupport } from '../getPage'
+import { PageSupport } from '../getPage'
 
-export function generateSupport(compat: Exclude<MdnCompat['__compat'], undefined>) {
+export function generateSupport(compat: CompatStatement) {
 	return Object.fromEntries(
 		Object.entries(compat.support).map(([name, support]) => [
 			name,
-			$generateSupport(agent(name), name, support),
+			$generateSupport(agent(name), name, Array.isArray(support) ? support : [support!]),
 		]),
 	)
 }
@@ -15,9 +16,15 @@ export function generateSupport(compat: Exclude<MdnCompat['__compat'], undefined
 function $generateSupport(
 	agent: Agent | undefined,
 	name: string,
-	support: MdnCompatSupport,
+	support: SimpleSupportStatement[],
 ): PageSupport {
-	if (!agent || !support.version_added) {
+	const fullSupport = support.find(support => !support.prefix) ?? support[0]
+	if (
+		!agent ||
+		!fullSupport ||
+		fullSupport.version_added === null ||
+		fullSupport.version_added === false
+	) {
 		return {
 			name,
 			added: null,
@@ -25,17 +32,19 @@ function $generateSupport(
 		}
 	}
 
-	const version = coerce(support.version_added)
+	// TODO: Handle true better
+	const rawVersion = fullSupport.version_added === true ? '1.0.0' : fullSupport.version_added
+	const version = coerce(rawVersion)
 	const range = version ? new Range(`>=${version.format()}`) : null
 	const usage = range ? computeUsage(agent, range) : null
 
 	return {
 		name: agent.name,
 		added: {
-			version: version?.format() ?? support.version_added,
+			version: version?.format() ?? rawVersion,
 			date:
 				(version ? findVersionDate(name, version) : undefined) ??
-				agent.version(support.version_added)?.date ??
+				agent.version(rawVersion)?.date ??
 				null,
 		},
 		usage: {

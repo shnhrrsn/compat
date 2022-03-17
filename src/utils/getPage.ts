@@ -1,36 +1,8 @@
-import compatData from '@/@data/compatData'
+import compatData from '@mdn/browser-compat-data'
+import { IdentifierMeta } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
 import { generateSupport } from './page/generateSupport'
 import { loadMetadata } from './page/loadMetadata'
-
-export type MdnCompatSupport = {
-	version_added: string | null
-}
-
-export type MdnCompat = {
-	__compat?: {
-		description?: string
-		mdn_url?: string
-		spec_url?: string
-		support: Partial<{
-			chrome: MdnCompatSupport
-			chrome_android: MdnCompatSupport
-			deno: MdnCompatSupport
-			edge: MdnCompatSupport
-			firefox: MdnCompatSupport
-			firefox_android: MdnCompatSupport
-			ie: MdnCompatSupport
-			nodejs: MdnCompatSupport
-			opera: MdnCompatSupport
-			opera_android: MdnCompatSupport
-			safari: MdnCompatSupport
-			safari_ios: MdnCompatSupport
-			samsunginternet_android: MdnCompatSupport
-			webview_android: MdnCompatSupport
-		}>
-		status: { experimental: boolean; standard_track: boolean; deprecated: boolean }
-	}
-}
 
 export type PageMetadata = {
 	title: string | null
@@ -62,7 +34,8 @@ export type Page = PageMetadata & {
 }
 
 export async function getPage(page: string[]): Promise<Page> {
-	const data: MdnCompat = page.reduce((data, key) => data[key], compatData)
+	const data = page.reduce((data, key) => data[key], compatData as any)
+	assert(isIdentifierMeta(data))
 	assert(data.__compat)
 
 	const metadata = await loadMetadata(page, data.__compat)
@@ -72,10 +45,14 @@ export async function getPage(page: string[]): Promise<Page> {
 		section: page[0] as any,
 		urls: {
 			mdn: data.__compat.mdn_url ?? null,
-			spec: data.__compat.spec_url ?? null,
+			spec: (data.__compat as any).spec_url ?? null, // Unsure why spec_url isn’t in types
 		},
 		usage: Object.values(support).reduce((curr, { usage }) => curr + (usage.global ?? 0), 0.0),
 		support,
 		...metadata,
 	}
+}
+
+function isIdentifierMeta(data: any): data is IdentifierMeta {
+	return '__compat' in data
 }
