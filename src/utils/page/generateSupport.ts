@@ -1,5 +1,6 @@
 import { coerce, Range } from 'semver'
 import agent, { Agent } from '../agent'
+import { findVersionDate } from '../agents/findVersionDate'
 import { MdnCompat, MdnCompatSupport, PageSupport } from '../getPage'
 
 export function generateSupport(compat: Exclude<MdnCompat['__compat'], undefined>) {
@@ -32,7 +33,10 @@ function $generateSupport(
 		name: agent.name,
 		added: {
 			version: version?.format() ?? support.version_added,
-			date: agent.version(support.version_added)?.date ?? null,
+			date:
+				(version ? findVersionDate(name, version) : undefined) ??
+				agent.version(support.version_added)?.date ??
+				null,
 		},
 		usage: {
 			global: usage ? usage / 100.0 : null,
