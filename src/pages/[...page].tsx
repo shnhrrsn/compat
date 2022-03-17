@@ -6,7 +6,8 @@ import getAllPages from '../utils/getAllPages'
 import { getPage, Page } from '../utils/getPage'
 import styles from './page.module.css'
 
-const browsers = ['chrome', 'safari', 'edge', 'firefox', 'nodejs', 'deno']
+const browsers = ['chrome', 'safari', 'edge', 'firefox']
+const servers = ['nodejs', 'deno']
 
 export default function Home(props: Page) {
 	const safeToUse = props.usage >= 0.8
@@ -75,9 +76,15 @@ export default function Home(props: Page) {
 				</div>
 				<h3>Browsers</h3>
 				<div className={styles.browsers}>
-					{browsers.map(browser => (
-						<Browser key={browser} browser={browser} support={props.support[browser]} />
-					))}
+					{[...browsers, ...(props.section === 'javascript' ? servers : [])].map(
+						browser => (
+							<Browser
+								key={browser}
+								browser={browser}
+								support={props.support[browser]}
+							/>
+						),
+					)}
 				</div>
 				<h3>Version Breakdown</h3>
 			</article>
@@ -90,10 +97,12 @@ function Browser({ browser, support }: { browser: string; support: Page['support
 		<div
 			className={classNames({
 				[styles.browser]: true,
-				[styles.browserLow]:
-					!support?.release_date_added ||
-					(support?.usage.relative && support.usage.relative < 0.6),
-				[styles.browserMedium]: support?.usage.relative && support.usage.relative < 0.8,
+				[styles.browserUnsupported]: !support?.release_date_added,
+				[styles.browserLow]: support?.usage.relative && support.usage.relative < 0.6,
+				[styles.browserMedium]:
+					support?.usage.relative &&
+					support.usage.relative >= 0.6 &&
+					support.usage.relative < 0.8,
 				[styles.browserHigh]: support?.usage.relative && support.usage.relative >= 0.8,
 			})}
 		>
@@ -106,6 +115,8 @@ function Browser({ browser, support }: { browser: string; support: Page['support
 							day: 'numeric',
 							year: 'numeric',
 					  })
+					: support?.version_added
+					? '???'
 					: 'Unsupported'}
 			</span>
 			{support?.version_added && (
@@ -113,13 +124,25 @@ function Browser({ browser, support }: { browser: string; support: Page['support
 			)}
 			{support?.usage.global && support?.usage.relative && (
 				<span className={styles.browserUsage}>
-					{support.usage.global.toLocaleString(undefined, {
-						style: 'percent',
-					})}
+					<span
+						title={`Global share of ${
+							support?.name ?? browser
+						} users running a supported version.`}
+					>
+						{support.usage.global.toLocaleString(undefined, {
+							style: 'percent',
+						})}
+					</span>
 					{' / '}
-					{support.usage.relative.toLocaleString(undefined, {
-						style: 'percent',
-					})}
+					<span
+						title={`Relative share of ${
+							support?.name ?? browser
+						} users running a supported version.`}
+					>
+						{support.usage.relative.toLocaleString(undefined, {
+							style: 'percent',
+						})}
+					</span>
 				</span>
 			)}
 		</div>
