@@ -20,11 +20,14 @@ process.env.TZ = 'UTC'
 		}
 
 		const versions = Object.fromEntries(
-			json.map(release => [
-				(release.name ?? release.tag_name).replace(/^v/, ''),
-				new Date(release.published_at ?? release.created_at).getTime() / 1000.0,
-			]),
+			json
+				.map(release => [
+					(release.name ?? release.tag_name).replace(/^v/, ''),
+					new Date(release.published_at ?? release.created_at).getTime() / 1000.0,
+				])
+				.filter(([name]) => (name?.length ?? 0) > 0),
 		)
+
 		const datadir = path.join(__dirname, '../src/@data')
 		await fs.mkdir(datadir, { recursive: true })
 		await fs.writeFile(
