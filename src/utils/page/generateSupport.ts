@@ -1,14 +1,14 @@
 import { CompatStatement, SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import { coerce, Range } from 'semver'
-import agent, { Agent } from '../agent'
 import { findVersionDate } from '../agents/findVersionDate'
+import getAgent, { Agent } from '../getAgent'
 import { PageSupport } from '../getPage'
 
 export function generateSupport(compat: CompatStatement) {
 	return Object.fromEntries(
 		Object.entries(compat.support).map(([name, support]) => [
 			name,
-			$generateSupport(agent(name), name, Array.isArray(support) ? support : [support!]),
+			$generateSupport(getAgent(name), name, Array.isArray(support) ? support : [support!]),
 		]),
 	)
 }

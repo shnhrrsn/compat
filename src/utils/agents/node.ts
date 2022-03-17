@@ -1,6 +1,6 @@
 import nodejsVersions from '@/@data/nodejsVersions'
 import { coerce, compare, Range, SemVer } from 'semver'
-import { AgentVersion } from '../agent'
+import { AgentVersion } from '../getAgent'
 import { makeAgent } from './makeAgent'
 
 export default function node() {

@@ -12,7 +12,7 @@ export type Agent = {
 
 const cache = new Map<string, Agent | undefined>()
 
-export default function agent(name: string): Agent | undefined {
+export default function getAgent(name: string): Agent | undefined {
 	if (cache.has(name)) {
 		return cache.get(name)!
 	}

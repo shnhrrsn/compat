@@ -1,6 +1,6 @@
 import { agents } from 'caniuse-lite'
 import { coerce, compare, Range, SemVer } from 'semver'
-import { Agent } from '../agent'
+import { Agent } from '../getAgent'
 import { makeAgent } from './makeAgent'
 
 // Map between mdn + caniuse names

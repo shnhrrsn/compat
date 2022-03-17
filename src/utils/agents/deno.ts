@@ -1,6 +1,6 @@
 import denoVersions from '@/@data/denoVersions'
 import { coerce, compare, Range, SemVer } from 'semver'
-import { AgentVersion } from '../agent'
+import { AgentVersion } from '../getAgent'
 import { makeAgent } from './makeAgent'
 
 export function deno() {
