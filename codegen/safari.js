@@ -2,6 +2,7 @@ const path = require('path')
 const fetch = require('node-fetch')
 const { promises: fs } = require('fs')
 const { JSDOM } = require('jsdom')
+const { coerce } = require('semver')
 process.env.TZ = 'UTC'
 ;(async () => {
 	try {
@@ -31,7 +32,6 @@ process.env.TZ = 'UTC'
 					continue
 				}
 
-				const version = td[0].textContent.trim()
 				const [date] = (
 					td[2].textContent.match(/\w+\s+\d+,\s+\d{4}/) ??
 					td[3]?.textContent.match(/\w+\s+\d+,\s+\d{4}/) ??
@@ -40,6 +40,11 @@ process.env.TZ = 'UTC'
 				).map(date => new Date(date).getTime() / 1000.0)
 
 				if (!date) {
+					continue
+				}
+
+				const version = coerce(td[0].textContent.trim())
+				if (!version) {
 					continue
 				}
 

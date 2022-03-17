@@ -1,6 +1,8 @@
 const path = require('path')
 const fetch = require('node-fetch')
 const { promises: fs } = require('fs')
+const { coerce } = require('semver')
+
 process.env.TZ = 'UTC'
 ;(async () => {
 	try {
@@ -25,7 +27,8 @@ process.env.TZ = 'UTC'
 					(release.name ?? release.tag_name).replace(/^v/, ''),
 					new Date(release.published_at ?? release.created_at).getTime() / 1000.0,
 				])
-				.filter(([name]) => (name?.length ?? 0) > 0),
+				.filter(([name]) => (name?.length ?? 0) > 0)
+				.map(([version, date]) => [coerce(version)?.format() ?? version, date]),
 		)
 
 		const datadir = path.join(__dirname, '../src/@data')

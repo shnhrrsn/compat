@@ -2,6 +2,8 @@ const path = require('path')
 const fetch = require('node-fetch')
 const { promises: fs } = require('fs')
 const { JSDOM } = require('jsdom')
+const { coerce } = require('semver')
+
 process.env.TZ = 'UTC'
 ;(async () => {
 	try {
@@ -32,7 +34,7 @@ process.env.TZ = 'UTC'
 			const version = tds[0].textContent.trim()
 
 			if (releaseDate) {
-				versions[version] = releaseDate
+				versions[coerce(version)?.format() ?? version] = releaseDate
 			}
 		}
 
@@ -63,7 +65,7 @@ process.env.TZ = 'UTC'
 			}
 
 			if (releaseDate) {
-				versions[version] = releaseDate
+				versions[coerce(version)?.format() ?? version] = releaseDate
 			}
 		}
 

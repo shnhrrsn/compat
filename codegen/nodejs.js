@@ -1,6 +1,8 @@
 const path = require('path')
 const fetch = require('node-fetch')
 const { promises: fs } = require('fs')
+const { coerce } = require('semver')
+
 process.env.TZ = 'UTC'
 ;(async () => {
 	try {
@@ -8,7 +10,7 @@ process.env.TZ = 'UTC'
 
 		const versions = Object.fromEntries(
 			json.map(({ version, date }) => [
-				version.replace(/^v/, ''),
+				coerce(version)?.format() ?? version.replace(/^v/, ''),
 				new Date(date).getTime() / 1000.0,
 			]),
 		)
