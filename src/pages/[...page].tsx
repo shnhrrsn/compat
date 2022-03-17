@@ -1,17 +1,14 @@
 import Agents from '@/components/page/agents'
-import Image from '@/components/shared/image'
+import SafeToUse from '@/components/page/safeToUse'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
 import { getPage, Page } from '@/utils/getPage'
-import classNames from 'classnames'
 import Head from 'next/head'
-import styles from './page.module.css'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
 const servers = ['nodejs', 'deno']
 
 export default function Home(props: Page) {
-	const safeToUse = props.usage >= 0.8
 	return (
 		<Layout home>
 			<Head>
@@ -38,42 +35,7 @@ export default function Home(props: Page) {
 					</cite>
 				)}
 				<h3>Safe to Use</h3>
-				<div className={styles.safeToUse}>
-					<div
-						className={classNames(
-							styles.safeToUseIcon,
-							safeToUse ? styles.safeToUseIconSafe : styles.safeToUseIconUnsafe,
-						)}
-					>
-						<Image src={safeToUse ? 'check' : 'times'} />
-					</div>
-					<div className={styles.safeToUseText}>
-						<p>
-							<code>{props.title}</code> is{' '}
-							{!safeToUse ? (
-								<strong>not safe</strong>
-							) : props.usage < 0.9 ? (
-								<strong>mostly safe</strong>
-							) : (
-								'considered safe'
-							)}{' '}
-							to use.
-						</p>
-						<p>
-							It’s supported by{' '}
-							<strong
-								className={
-									safeToUse
-										? styles.safeToUseTextSafe
-										: styles.safeToUseTextUnsafe
-								}
-							>
-								{props.usage.toLocaleString(undefined, { style: 'percent' })}
-							</strong>{' '}
-							of global browsers.
-						</p>
-					</div>
-				</div>
+				<SafeToUse title={props.title} usage={props.usage} />
 				<h3>Browsers</h3>
 				<Agents agents={browsers} support={props.support} />
 				{props.section === 'javascript' && (
