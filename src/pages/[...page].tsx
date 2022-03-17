@@ -93,36 +93,40 @@ export default function Home(props: Page) {
 }
 
 function Browser({ browser, support }: { browser: string; support: PageSupport | null }) {
+	const isRemoved = support && support.removed ? true : false
 	return (
 		<div
 			className={classNames({
 				[styles.browser]: true,
-				[styles.browserUnsupported]: !support?.added?.date,
-				[styles.browserLow]: support?.usage.relative && support.usage.relative < 0.6,
+				[styles.browserUnsupported]: isRemoved || !support?.added?.date,
+				[styles.browserLow]:
+					!isRemoved && support?.usage.relative && support.usage.relative < 0.6,
 				[styles.browserMedium]:
+					!isRemoved &&
 					support?.usage.relative &&
 					support.usage.relative >= 0.6 &&
 					support.usage.relative < 0.8,
-				[styles.browserHigh]: support?.usage.relative && support.usage.relative >= 0.8,
+				[styles.browserHigh]:
+					!isRemoved && support?.usage.relative && support.usage.relative >= 0.8,
 			})}
 		>
 			{isValidImageSrc(browser) && <Image src={browser} className={styles.browserIcon} />}
 			<span className={styles.browserName}>{support?.name ?? browser}</span>
 			<span className={styles.browserReleaseDate}>
-				{support?.added?.date
+				{!isRemoved && support?.added?.date
 					? new Date(support.added.date * 1000).toLocaleDateString(undefined, {
 							month: 'short',
 							day: 'numeric',
 							year: 'numeric',
 					  })
-					: support?.added
+					: !isRemoved && support?.added
 					? '???'
 					: 'Unsupported'}
 			</span>
-			{support?.added && (
+			{!isRemoved && support?.added && (
 				<span className={styles.browserVersion}>v{support.added.version}</span>
 			)}
-			{support?.usage.global && support?.usage.relative && (
+			{!isRemoved && support?.usage.global && support?.usage.relative && (
 				<span className={styles.browserUsage}>
 					<span
 						title={`Global share of ${

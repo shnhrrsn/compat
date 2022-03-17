@@ -9,12 +9,15 @@ export type PageMetadata = {
 	html: string | null
 }
 
+export type SupportVersion = {
+	version: string
+	date: number | null
+}
+
 export type PageSupport = {
 	name: string
-	added: null | {
-		version: string
-		date: number | null
-	}
+	added: SupportVersion | null
+	removed?: SupportVersion | null
 	usage: {
 		global: number | null
 		relative: number | null
