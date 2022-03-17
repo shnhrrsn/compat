@@ -1,4 +1,5 @@
 import Android from '@/public/images/android.svg'
+import Check from '@/public/images/check.svg'
 import Chrome from '@/public/images/chrome.svg'
 import Deno from '@/public/images/deno.svg'
 import Edge from '@/public/images/edge.svg'
@@ -10,20 +11,23 @@ import Nodejs from '@/public/images/nodejs.svg'
 import Opera from '@/public/images/opera.svg'
 import Safari from '@/public/images/safari.svg'
 import SamsungInternet from '@/public/images/samsung-internet.svg'
+import Times from '@/public/images/times.svg'
 
 const ImageSrc = {
 	'android': Android,
-	'deno': Deno,
-	'firefox': Firefox,
-	'ie': IE,
-	'nodejs': Nodejs,
-	'safari': Safari,
+	'check': Check,
 	'chrome': Chrome,
+	'deno': Deno,
 	'edge': Edge,
+	'firefox': Firefox,
 	'github': Github,
+	'ie': IE,
 	'logo': Logo,
+	'nodejs': Nodejs,
 	'opera': Opera,
+	'safari': Safari,
 	'samsung-internet': SamsungInternet,
+	'times': Times,
 }
 
 export default function Image({

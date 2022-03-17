@@ -9,6 +9,7 @@ import styles from './page.module.css'
 const browsers = ['chrome', 'safari', 'edge', 'firefox', 'nodejs', 'deno']
 
 export default function Home(props: Page) {
+	const safeToUse = props.usage >= 0.8
 	return (
 		<Layout home>
 			<Head>
@@ -19,7 +20,7 @@ export default function Home(props: Page) {
 
 			<article>
 				<h1>{props.title}</h1>
-				<div dangerouslySetInnerHTML={{ __html: props.html }} />
+				{props.html && <div dangerouslySetInnerHTML={{ __html: props.html }} />}
 				{(props.urls.mdn || props.urls.spec) && (
 					<cite>
 						{props.urls.mdn && (
@@ -36,6 +37,42 @@ export default function Home(props: Page) {
 				)}
 
 				<h3>Safe to Use</h3>
+				<div className={styles.safeToUse}>
+					<div
+						className={classNames(
+							styles.safeToUseIcon,
+							safeToUse ? styles.safeToUseIconSafe : styles.safeToUseIconUnsafe,
+						)}
+					>
+						<Image src={safeToUse ? 'check' : 'times'} />
+					</div>
+					<div className={styles.safeToUseText}>
+						<p>
+							<code>{props.title}</code> is{' '}
+							{!safeToUse ? (
+								<strong>not safe</strong>
+							) : props.usage < 0.9 ? (
+								<strong>mostly safe</strong>
+							) : (
+								'considered safe'
+							)}{' '}
+							to use.
+						</p>
+						<p>
+							It’s supported by{' '}
+							<strong
+								className={
+									safeToUse
+										? styles.safeToUseTextSafe
+										: styles.safeToUseTextUnsafe
+								}
+							>
+								{props.usage.toLocaleString(undefined, { style: 'percent' })}
+							</strong>{' '}
+							of global browsers.
+						</p>
+					</div>
+				</div>
 				<h3>Browsers</h3>
 				<div className={styles.browsers}>
 					{browsers.map(browser => (
