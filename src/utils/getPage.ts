@@ -1,20 +1,14 @@
 import compatData from '@/@data/compatData'
 import assert from 'assert'
-import { promises as fs } from 'fs'
-import matter from 'gray-matter'
-import path from 'path'
-import { remark } from 'remark'
-import html from 'remark-html'
 import semver from 'semver'
-import { URL } from 'url'
 import agent from './agent'
-import { docs } from './paths'
+import { loadMetadata, generateMetadataFallback } from './page/loadMetadata'
 
 type MdnCompatSupport = {
 	version_added: string | null
 }
 
-type MdnCompat = {
+export type MdnCompat = {
 	__compat?: {
 		description?: string
 		mdn_url?: string
@@ -79,14 +73,14 @@ export async function getPage(page: string[]): Promise<Page> {
 			const usage =
 				a && version && versionRange
 					? Array.from(a.versions.entries())
-							.filter(([range]) => range.intersects(versionRange))
-							.map(([, support]) => support.usage)
-							.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+						.filter(([range]) => range.intersects(versionRange))
+						.map(([, support]) => support.usage)
+						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
 					: null
 			const totalUsage = a
 				? Array.from(a.versions.values())
-						.map(({ usage }) => usage)
-						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
+					.map(({ usage }) => usage)
+					.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
 				: null
 			return [
 				name,
@@ -116,55 +110,5 @@ export async function getPage(page: string[]): Promise<Page> {
 		usage: Object.values(support).reduce((curr, { usage }) => curr + (usage.global ?? 0), 0.0),
 		support,
 		...metadata,
-	}
-}
-
-async function loadMetadata(mdn?: string | null): Promise<PageMetadata | null> {
-	if (!mdn) {
-		return null
-	}
-
-	const mdnURL = new URL(mdn)
-	if (mdnURL.host !== 'developer.mozilla.org' || !mdnURL.pathname.startsWith('/docs/')) {
-		throw new Error()
-	}
-
-	try {
-		const md = (
-			await fs.readFile(
-				path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md'),
-			)
-		).toString()
-		const matterResult = matter(md)
-
-		return {
-			title: matterResult.data.title as string,
-			html: (
-				await remark()
-					.use(html)
-					.process(
-						matterResult.content
-							.replace(/^(\s*\{\{.+?\}\}\s*)+/g, '')
-							.trim()
-							.split(/\n\n/)[0],
-					)
-			).toString(),
-		}
-	} catch (error: any) {
-		if (error.code === 'ENOENT') {
-			return null
-		}
-
-		throw error
-	}
-}
-
-function generateMetadataFallback(
-	page: string[],
-	compat: Exclude<MdnCompat['__compat'], undefined>,
-): PageMetadata {
-	return {
-		title: page.slice(page.length - 2).join(' '),
-		html: compat.description ?? null,
 	}
 }
