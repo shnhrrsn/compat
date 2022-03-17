@@ -1,9 +1,9 @@
-import Image, { isValidImageSrc } from '@/components/image'
+import Image, { isValidImageSrc } from '@/components/shared/image'
+import Layout, { siteTitle } from '@/components/shared/layout'
+import getAllPages from '@/utils/getAllPages'
+import { getPage, Page, PageSupport } from '@/utils/getPage'
 import classNames from 'classnames'
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import getAllPages from '../utils/getAllPages'
-import { getPage, Page, PageSupport } from '../utils/getPage'
 import styles from './page.module.css'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
