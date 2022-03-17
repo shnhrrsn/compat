@@ -1,7 +1,8 @@
-import Image, { isValidImageSrc } from '@/components/shared/image'
+import Agents from '@/components/page/agents'
+import Image from '@/components/shared/image'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
-import { getPage, Page, PageSupport } from '@/utils/getPage'
+import { getPage, Page } from '@/utils/getPage'
 import classNames from 'classnames'
 import Head from 'next/head'
 import styles from './page.module.css'
@@ -82,79 +83,30 @@ export default function Home(props: Page) {
 					</>
 				)}
 				<h3>Version Breakdown</h3>
+				<table>
+					<thead>
+						<th>Browser</th>
+						<th>Full Support</th>
+						<th>Notes</th>
+					</thead>
+					<tbody>
+						{Object.entries(props.support).map(([browser, support]) => (
+							<tr key={browser}>
+								<td>{support.name}</td>
+								<td>{support.added?.version}</td>
+								<td>
+									{support.notes?.map((note, index) => (
+										<p key={index} dangerouslySetInnerHTML={{ __html: note }} />
+									))}
+								</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+				<h3>Debug</h3>
+				<pre>{JSON.stringify(props, null, 2)}</pre>
 			</article>
 		</Layout>
-	)
-}
-
-function Agents({ agents, support }: { agents: string[]; support: Record<string, PageSupport> }) {
-	return (
-		<div className={styles.agents}>
-			{agents.map(agent => (
-				<Agent key={agent} agent={agent} support={support[agent]} />
-			))}
-		</div>
-	)
-}
-
-function Agent({ agent, support }: { agent: string; support: PageSupport | null }) {
-	const isRemoved = support && support.removed ? true : false
-	return (
-		<div
-			className={classNames({
-				[styles.agent]: true,
-				[styles.agentUnsupported]: isRemoved || !support?.added?.date,
-				[styles.agentLow]:
-					!isRemoved && support?.usage.relative && support.usage.relative < 0.6,
-				[styles.agentMedium]:
-					!isRemoved &&
-					support?.usage.relative &&
-					support.usage.relative >= 0.6 &&
-					support.usage.relative < 0.8,
-				[styles.agentHigh]:
-					!isRemoved && support?.usage.relative && support.usage.relative >= 0.8,
-			})}
-		>
-			{isValidImageSrc(agent) && <Image src={agent} className={styles.agentIcon} />}
-			<span className={styles.agentName}>{support?.name ?? agent}</span>
-			<span className={styles.agentReleaseDate}>
-				{!isRemoved && support?.added?.date
-					? new Date(support.added.date * 1000).toLocaleDateString(undefined, {
-							month: 'short',
-							day: 'numeric',
-							year: 'numeric',
-					  })
-					: !isRemoved && support?.added
-					? '???'
-					: 'Unsupported'}
-			</span>
-			{!isRemoved && support?.added && (
-				<span className={styles.agentVersion}>v{support.added.version}</span>
-			)}
-			{!isRemoved && support?.usage.global && support?.usage.relative && (
-				<span className={styles.agentUsage}>
-					<span
-						title={`Global share of ${
-							support?.name ?? agent
-						} users running a supported version.`}
-					>
-						{support.usage.global.toLocaleString(undefined, {
-							style: 'percent',
-						})}
-					</span>
-					{' / '}
-					<span
-						title={`Relative share of ${
-							support?.name ?? agent
-						} users running a supported version.`}
-					>
-						{support.usage.relative.toLocaleString(undefined, {
-							style: 'percent',
-						})}
-					</span>
-				</span>
-			)}
-		</div>
 	)
 }
 
