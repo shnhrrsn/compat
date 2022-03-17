@@ -1,8 +1,5 @@
-import { promises as fs } from 'fs'
-import { globby } from 'globby'
-import path from 'path'
+import compatData from '@/@data/compatData'
 import cache from './cache'
-import { compatData } from './paths'
 
 export default function getAllPages(): Promise<string[]> {
 	return cache.get('pages').then(async (pages: string[] | undefined) => {
@@ -10,32 +7,32 @@ export default function getAllPages(): Promise<string[]> {
 			return pages
 		}
 
-		pages = await $getAllPages()
+		pages = findPaths(compatData)
 		cache.set('pages', pages)
 		return pages
 	})
 }
 
-async function $getAllPages(): Promise<string[]> {
-	return (
-		await Promise.all(
-			(
-				await globby('javascript/**/*.json', {
-					cwd: compatData,
-				})
-			).map(async file => {
-				const pathname = file.substring(0, file.length - 5)
-				const data = JSON.parse((await fs.readFile(path.join(compatData, file))).toString())
-				return [
-					...Array.from(
-						Object.keys(
-							pathname.split(/\//).reduce((data, key) => data?.[key], data) ?? {},
-						),
-					)
-						.filter(name => name !== '__compat')
-						.map(abc => path.join('/', pathname, abc)),
-				]
-			}),
-		)
-	).flat()
+function findPaths(object: Record<string, any>, path: string[] = []) {
+	const paths: string[] = []
+
+	for (const key of Object.getOwnPropertyNames(object)) {
+		if (key === '__compat') {
+			continue
+		}
+
+		const value = object[key]
+
+		if (typeof value !== 'object' || Array.isArray(value) || value === null) {
+			continue
+		}
+
+		if (value.__compat) {
+			paths.push(['', ...path, key].join('/'))
+		}
+
+		paths.push(...findPaths(value, [...path, key]))
+	}
+
+	return paths
 }

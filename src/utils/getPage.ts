@@ -1,3 +1,5 @@
+import compatData from '@/@data/compatData'
+import assert from 'assert'
 import { promises as fs } from 'fs'
 import matter from 'gray-matter'
 import path from 'path'
@@ -6,7 +8,7 @@ import html from 'remark-html'
 import semver from 'semver'
 import { URL } from 'url'
 import agent from './agent'
-import { compatData, docs } from './paths'
+import { docs } from './paths'
 
 type MdnCompatSupport = {
 	version_added: string | null
@@ -58,12 +60,8 @@ export type Page = {
 }
 
 export async function getPage(page: string[]): Promise<Page> {
-	let pathname = path.join(compatData, ...page.slice(0, page.length - 1))
-
-	const data: MdnCompat = page.reduce(
-		(data, key) => data[key],
-		JSON.parse((await fs.readFile(`${pathname}.json`)).toString()),
-	)
+	const data: MdnCompat = page.reduce((data, key) => data[key], compatData)
+	assert(data.__compat)
 
 	if (!data.__compat?.mdn_url) {
 		throw new Error()
