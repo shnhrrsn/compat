@@ -3,7 +3,7 @@ import classNames from 'classnames'
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import getAllPages from '../utils/getAllPages'
-import { getPage, Page } from '../utils/getPage'
+import { getPage, Page, PageSupport } from '../utils/getPage'
 import styles from './page.module.css'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
@@ -92,12 +92,12 @@ export default function Home(props: Page) {
 	)
 }
 
-function Browser({ browser, support }: { browser: string; support: Page['support']['x'] | null }) {
+function Browser({ browser, support }: { browser: string; support: PageSupport | null }) {
 	return (
 		<div
 			className={classNames({
 				[styles.browser]: true,
-				[styles.browserUnsupported]: !support?.release_date_added,
+				[styles.browserUnsupported]: !support?.added?.date,
 				[styles.browserLow]: support?.usage.relative && support.usage.relative < 0.6,
 				[styles.browserMedium]:
 					support?.usage.relative &&
@@ -109,18 +109,18 @@ function Browser({ browser, support }: { browser: string; support: Page['support
 			{isValidImageSrc(browser) && <Image src={browser} className={styles.browserIcon} />}
 			<span className={styles.browserName}>{support?.name ?? browser}</span>
 			<span className={styles.browserReleaseDate}>
-				{support?.release_date_added
-					? new Date(support.release_date_added! * 1000).toLocaleDateString(undefined, {
+				{support?.added?.date
+					? new Date(support.added.date * 1000).toLocaleDateString(undefined, {
 							month: 'short',
 							day: 'numeric',
 							year: 'numeric',
 					  })
-					: support?.version_added
+					: support?.added
 					? '???'
 					: 'Unsupported'}
 			</span>
-			{support?.version_added && (
-				<span className={styles.browserVersion}>v{support.version_added}</span>
+			{support?.added && (
+				<span className={styles.browserVersion}>v{support.added.version}</span>
 			)}
 			{support?.usage.global && support?.usage.relative && (
 				<span className={styles.browserUsage}>

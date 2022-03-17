@@ -1,10 +1,9 @@
 import compatData from '@/@data/compatData'
 import assert from 'assert'
-import semver from 'semver'
-import agent from './agent'
+import { generateSupport } from './page/generateSupport'
 import { loadMetadata } from './page/loadMetadata'
 
-type MdnCompatSupport = {
+export type MdnCompatSupport = {
 	version_added: string | null
 }
 
@@ -38,6 +37,18 @@ export type PageMetadata = {
 	html: string | null
 }
 
+export type PageSupport = {
+	name: string
+	added: null | {
+		version: string
+		date: number | null
+	}
+	usage: {
+		global: number | null
+		relative: number | null
+	}
+}
+
 export type Page = PageMetadata & {
 	section: 'javascript' | 'html' | 'css'
 	urls: {
@@ -46,15 +57,7 @@ export type Page = PageMetadata & {
 	}
 	usage: number
 	support: {
-		[browser in string]: {
-			name: string
-			version_added: string | null
-			release_date_added: number | null
-			usage: {
-				global: number | null
-				relative: number | null
-			}
-		}
+		[browser in string]: PageSupport
 	}
 }
 
@@ -63,41 +66,7 @@ export async function getPage(page: string[]): Promise<Page> {
 	assert(data.__compat)
 
 	const metadata = await loadMetadata(page, data.__compat)
-	const support = Object.fromEntries(
-		Object.entries(data.__compat.support).map(([name, support]) => {
-			const a = agent(name)
-			const version = semver.coerce(support.version_added)
-			const versionRange = version ? new semver.Range(`>=${version.format()}`) : undefined
-			const usage =
-				a && version && versionRange
-					? Array.from(a.versions.entries())
-							.filter(([range]) => range.intersects(versionRange))
-							.map(([, support]) => support.usage)
-							.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
-					: null
-			const totalUsage = a
-				? Array.from(a.versions.values())
-						.map(({ usage }) => usage)
-						.reduce((usage, value) => (usage ?? 0) + (value ?? 0), 0)
-				: null
-			return [
-				name,
-				{
-					name: a?.name ?? name,
-					version_added: support.version_added
-						? version?.format() ?? support.version_added
-						: null,
-					release_date_added:
-						(support.version_added ? a?.version(support.version_added)?.date : null) ??
-						null,
-					usage: {
-						global: usage ? usage / 100.0 : null,
-						relative: usage && totalUsage ? usage / totalUsage : null,
-					},
-				},
-			]
-		}),
-	)
+	const support = generateSupport(data.__compat)
 
 	return {
 		section: page[0] as any,
