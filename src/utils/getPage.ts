@@ -31,9 +31,7 @@ export type Page = PageMetadata & {
 		spec: string | null
 	}
 	usage: number
-	support: {
-		[browser in string]: PageSupport
-	}
+	support: Record<string, PageSupport>
 }
 
 export async function getPage(page: string[]): Promise<Page> {

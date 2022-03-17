@@ -36,7 +36,6 @@ export default function Home(props: Page) {
 						)}
 					</cite>
 				)}
-
 				<h3>Safe to Use</h3>
 				<div className={styles.safeToUse}>
 					<div
@@ -75,44 +74,50 @@ export default function Home(props: Page) {
 					</div>
 				</div>
 				<h3>Browsers</h3>
-				<div className={styles.browsers}>
-					{[...browsers, ...(props.section === 'javascript' ? servers : [])].map(
-						browser => (
-							<Browser
-								key={browser}
-								browser={browser}
-								support={props.support[browser]}
-							/>
-						),
-					)}
-				</div>
+				<Agents agents={browsers} support={props.support} />
+				{props.section === 'javascript' && (
+					<>
+						<h3>Servers</h3>
+						<Agents agents={servers} support={props.support} />
+					</>
+				)}
 				<h3>Version Breakdown</h3>
 			</article>
 		</Layout>
 	)
 }
 
-function Browser({ browser, support }: { browser: string; support: PageSupport | null }) {
+function Agents({ agents, support }: { agents: string[]; support: Record<string, PageSupport> }) {
+	return (
+		<div className={styles.agents}>
+			{agents.map(agent => (
+				<Agent key={agent} agent={agent} support={support[agent]} />
+			))}
+		</div>
+	)
+}
+
+function Agent({ agent, support }: { agent: string; support: PageSupport | null }) {
 	const isRemoved = support && support.removed ? true : false
 	return (
 		<div
 			className={classNames({
-				[styles.browser]: true,
-				[styles.browserUnsupported]: isRemoved || !support?.added?.date,
-				[styles.browserLow]:
+				[styles.agent]: true,
+				[styles.agentUnsupported]: isRemoved || !support?.added?.date,
+				[styles.agentLow]:
 					!isRemoved && support?.usage.relative && support.usage.relative < 0.6,
-				[styles.browserMedium]:
+				[styles.agentMedium]:
 					!isRemoved &&
 					support?.usage.relative &&
 					support.usage.relative >= 0.6 &&
 					support.usage.relative < 0.8,
-				[styles.browserHigh]:
+				[styles.agentHigh]:
 					!isRemoved && support?.usage.relative && support.usage.relative >= 0.8,
 			})}
 		>
-			{isValidImageSrc(browser) && <Image src={browser} className={styles.browserIcon} />}
-			<span className={styles.browserName}>{support?.name ?? browser}</span>
-			<span className={styles.browserReleaseDate}>
+			{isValidImageSrc(agent) && <Image src={agent} className={styles.agentIcon} />}
+			<span className={styles.agentName}>{support?.name ?? agent}</span>
+			<span className={styles.agentReleaseDate}>
 				{!isRemoved && support?.added?.date
 					? new Date(support.added.date * 1000).toLocaleDateString(undefined, {
 							month: 'short',
@@ -124,13 +129,13 @@ function Browser({ browser, support }: { browser: string; support: PageSupport |
 					: 'Unsupported'}
 			</span>
 			{!isRemoved && support?.added && (
-				<span className={styles.browserVersion}>v{support.added.version}</span>
+				<span className={styles.agentVersion}>v{support.added.version}</span>
 			)}
 			{!isRemoved && support?.usage.global && support?.usage.relative && (
-				<span className={styles.browserUsage}>
+				<span className={styles.agentUsage}>
 					<span
 						title={`Global share of ${
-							support?.name ?? browser
+							support?.name ?? agent
 						} users running a supported version.`}
 					>
 						{support.usage.global.toLocaleString(undefined, {
@@ -140,7 +145,7 @@ function Browser({ browser, support }: { browser: string; support: PageSupport |
 					{' / '}
 					<span
 						title={`Relative share of ${
-							support?.name ?? browser
+							support?.name ?? agent
 						} users running a supported version.`}
 					>
 						{support.usage.relative.toLocaleString(undefined, {

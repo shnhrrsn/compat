@@ -42,63 +42,63 @@
 	color: var(--color-foreground-rating-none);
 }
 
-.browsers {
+.agents {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
 
-.browser {
+.agent {
 	display: flex;
 	gap: 0;
 	align-items: baseline;
 }
 
-.browserUnsupported {
+.agentUnsupported {
 	color: var(--color-foreground-rating-none);
 }
 
-.browserLow {
+.agentLow {
 	color: var(--color-foreground-rating-poor);
 }
 
-.browserMedium {
+.agentMedium {
 	color: var(--color-foreground-rating-mid);
 }
 
-.browserHigh {
+.agentHigh {
 	color: var(--color-foreground-rating-good);
 }
 
-.browserIcon {
+.agentIcon {
 	align-self: center;
 	width: 24px;
 	height: 24px;
 	margin-right: 15px;
 }
 
-.browserIcon path {
+.agentIcon path {
 	fill: var(--color-foreground-secondary);
 }
 
-.browserName {
+.agentName {
 	min-width: 100px;
 	font-weight: bold;
 }
 
-.browserReleaseDate {
+.agentReleaseDate {
 	min-width: 130px;
 	margin-right: 5px;
 	text-align: right;
 }
 
-.browserVersion,
-.browserUsage {
+.agentVersion,
+.agentUsage {
 	min-width: 80px;
 	color: var(--color-foreground-secondary);
 	font-size: 15px;
 }
 
-.browserUsage {
+.agentUsage {
 	text-align: right;
 }
