@@ -16,6 +16,7 @@ type MdnCompatSupport = {
 
 type MdnCompat = {
 	__compat?: {
+		description?: string
 		mdn_url?: string
 		spec_url?: string
 		support: Partial<{
@@ -38,12 +39,18 @@ type MdnCompat = {
 	}
 }
 
-export type Page = {
-	title: string
+export type PageMetadata = {
+	title: string | null
+	html: string | null
+}
+
+export type Page = PageMetadata & {
+	section: 'javascript' | 'html' | 'css'
 	urls: {
 		mdn: string | null
 		spec: string | null
 	}
+	usage: number
 	support: {
 		[browser in string]: {
 			name: string
@@ -55,27 +62,14 @@ export type Page = {
 			}
 		}
 	}
-	md: string
-	html: string
 }
 
 export async function getPage(page: string[]): Promise<Page> {
 	const data: MdnCompat = page.reduce((data, key) => data[key], compatData)
 	assert(data.__compat)
 
-	if (!data.__compat?.mdn_url) {
-		throw new Error()
-	}
-
-	const mdnURL = new URL(data.__compat.mdn_url)
-	if (mdnURL.host !== 'developer.mozilla.org' || !mdnURL.pathname.startsWith('/docs/')) {
-		throw new Error()
-	}
-
-	const md = (
-		await fs.readFile(path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md'))
-	).toString()
-	const matterResult = matter(md)
+	const metadata =
+		(await loadMetadata(data.__compat.mdn_url)) ?? generateMetadataFallback(page, data.__compat)
 
 	const support = Object.fromEntries(
 		Object.entries(data.__compat.support).map(([name, support]) => {
@@ -114,22 +108,63 @@ export async function getPage(page: string[]): Promise<Page> {
 	)
 
 	return {
+		section: page[0] as any,
 		urls: {
 			mdn: data.__compat.mdn_url ?? null,
 			spec: data.__compat.spec_url ?? null,
 		},
+		usage: Object.values(support).reduce((curr, { usage }) => curr + (usage.global ?? 0), 0.0),
 		support,
-		title: matterResult.data.title,
-		md: matterResult.content,
-		html: (
-			await remark()
-				.use(html)
-				.process(
-					matterResult.content
-						.replace(/^(\{\{\w+\}\}\s)+/g, '')
-						.trim()
-						.split(/\n\n/)[0],
-				)
-		).toString(),
+		...metadata,
+	}
+}
+
+async function loadMetadata(mdn?: string | null): Promise<PageMetadata | null> {
+	if (!mdn) {
+		return null
+	}
+
+	const mdnURL = new URL(mdn)
+	if (mdnURL.host !== 'developer.mozilla.org' || !mdnURL.pathname.startsWith('/docs/')) {
+		throw new Error()
+	}
+
+	try {
+		const md = (
+			await fs.readFile(
+				path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md'),
+			)
+		).toString()
+		const matterResult = matter(md)
+
+		return {
+			title: matterResult.data.title as string,
+			html: (
+				await remark()
+					.use(html)
+					.process(
+						matterResult.content
+							.replace(/^(\s*\{\{.+?\}\}\s*)+/g, '')
+							.trim()
+							.split(/\n\n/)[0],
+					)
+			).toString(),
+		}
+	} catch (error: any) {
+		if (error.code === 'ENOENT') {
+			return null
+		}
+
+		throw error
+	}
+}
+
+function generateMetadataFallback(
+	page: string[],
+	compat: Exclude<MdnCompat['__compat'], undefined>,
+): PageMetadata {
+	return {
+		title: page.slice(page.length - 2).join(' '),
+		html: compat.description ?? null,
 	}
 }
