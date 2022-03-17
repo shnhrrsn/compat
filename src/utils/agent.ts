@@ -9,10 +9,20 @@ export type Agent = {
 	version(version: string): AgentVersion | undefined
 }
 
+const cache = new Map<string, Agent | undefined>()
+
 export default function agent(name: string): Agent | undefined {
-	if (/^node(js)?/i.test(name)) {
-		return node()
+	if (cache.has(name)) {
+		return cache.get(name)!
 	}
 
-	return caniuse(name)
+	let agent: Agent | undefined
+	if (/^node(js)?/i.test(name)) {
+		agent = node()
+	} else {
+		agent = caniuse(name)
+	}
+
+	cache.set(name, agent)
+	return agent
 }
