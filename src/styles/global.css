@@ -1,25 +1,87 @@
 :root {
-	--color-accent: #fff067;
-	--color-background: #292d32;
-	--color-foreground: #e5e5e5;
-	--color-foreground-secondary: #7f99a8;
-	--color-foreground-tertiary: #586871;
-	--color-foreground-rating-poor: #ff7979;
-	--color-foreground-rating-mid: #ffd597;
-	--color-foreground-rating-good: #b9ffbc;
+	--one-dark-base00: #282c34;
+	--one-dark-base01: #353b45;
+	--one-dark-base02: #3e4451;
+	--one-dark-base03: #545862;
+	--one-dark-base04: #565c64;
+	--one-dark-base05: #abb2bf;
+	--one-dark-base06: #b6bdca;
+	--one-dark-base07: #c8ccd4;
+	--one-dark-base08: #e06c75;
+	--one-dark-base09: #d19a66;
+	--one-dark-base0A: #e6c07b;
+	--one-dark-base0B: #98c379;
+	--one-dark-base0C: #56b6c2;
+	--one-dark-base0D: #61afef;
+	--one-dark-base0E: #c678dd;
+	--one-dark-base0F: #be5046;
+
+	--one-light-base00: #fafafa;
+	--one-light-base01: #f0f0f1;
+	--one-light-base02: #e5e5e6;
+	--one-light-base03: #a0a1a7;
+	--one-light-base04: #696c77;
+	--one-light-base05: #383a42;
+	--one-light-base06: #202227;
+	--one-light-base07: #090a0b;
+	--one-light-base08: #ca1243;
+	--one-light-base09: #d75f00;
+	--one-light-base0A: #c18401;
+	--one-light-base0B: #50a14f;
+	--one-light-base0C: #0184bc;
+	--one-light-base0D: #4078f2;
+	--one-light-base0E: #a626a4;
+	--one-light-base0F: #986801;
 }
 
 @supports (color: color(display-p3 1 1 1)) {
 	:root {
-		--color-accent: color(display-p3 1 0.94 0.4);
-		--color-background: color(display-p3 0.16 0.18 0.2);
-		--color-foreground: color(display-p3 0.9 0.9 0.9);
-		--color-foreground-secondary: color(display-p3 0.5 0.6 0.66);
-		--color-foreground-tertiary: color(display-p3 0.35 0.41 0.44);
-		--color-foreground-rating-poor: color(display-p3 1 0.47 0.47);
-		--color-foreground-rating-mid: color(display-p3 1 0.84 0.59);
-		--color-foreground-rating-good: color(display-p3 0.73 1 0.74);
+		--one-dark-base00: color(display-p3 0.16 0.17 0.2);
+		--one-dark-base01: color(display-p3 0.21 0.23 0.27);
+		--one-dark-base02: color(display-p3 0.24 0.27 0.32);
+		--one-dark-base03: color(display-p3 0.33 0.35 0.38);
+		--one-dark-base04: color(display-p3 0.34 0.36 0.39);
+		--one-dark-base05: color(display-p3 0.67 0.7 0.75);
+		--one-dark-base06: color(display-p3 0.71 0.74 0.79);
+		--one-dark-base07: color(display-p3 0.78 0.8 0.83);
+		--one-dark-base08: color(display-p3 0.88 0.42 0.46);
+		--one-dark-base09: color(display-p3 0.82 0.6 0.4);
+		--one-dark-base0A: color(display-p3 0.9 0.75 0.48);
+		--one-dark-base0B: color(display-p3 0.6 0.76 0.47);
+		--one-dark-base0C: color(display-p3 0.34 0.71 0.76);
+		--one-dark-base0D: color(display-p3 0.38 0.69 0.94);
+		--one-dark-base0E: color(display-p3 0.78 0.47 0.87);
+		--one-dark-base0F: color(display-p3 0.75 0.31 0.27);
+
+		--one-light-base00: color(display-p3 0.98 0.98 0.98);
+		--one-light-base01: color(display-p3 0.94 0.94 0.95);
+		--one-light-base02: color(display-p3 0.9 0.9 0.9);
+		--one-light-base03: color(display-p3 0.63 0.63 0.65);
+		--one-light-base04: color(display-p3 0.41 0.42 0.47);
+		--one-light-base05: color(display-p3 0.22 0.23 0.26);
+		--one-light-base06: color(display-p3 0.13 0.13 0.15);
+		--one-light-base07: color(display-p3 0.04 0.04 0.04);
+		--one-light-base08: color(display-p3 0.79 0.07 0.26);
+		--one-light-base09: color(display-p3 0.84 0.37 0);
+		--one-light-base0A: color(display-p3 0.76 0.52 0);
+		--one-light-base0B: color(display-p3 0.31 0.63 0.31);
+		--one-light-base0C: color(display-p3 0 0.52 0.74);
+		--one-light-base0D: color(display-p3 0.25 0.47 0.95);
+		--one-light-base0E: color(display-p3 0.65 0.15 0.64);
+		--one-light-base0F: color(display-p3 0.6 0.41 0);
 	}
+}
+
+:root {
+	--color-accent: var(--one-dark-base09);
+	--color-background: var(--one-dark-base00);
+	--color-foreground: var(--one-dark-base05);
+	--color-foreground-secondary: var(--one-dark-base04);
+	--color-foreground-tertiary: var(--one-dark-base03);
+	--color-foreground-rating-none: var(--one-dark-base0F);
+	--color-foreground-rating-poor: var(--one-dark-base08);
+	--color-foreground-rating-mid: var(--one-dark-base09);
+	--color-foreground-rating-good: var(--one-dark-base0B);
 }
 
 html,
