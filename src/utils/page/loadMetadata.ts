@@ -5,6 +5,7 @@ import path from 'path'
 import { remark } from 'remark'
 import html from 'remark-html'
 import { URL } from 'url'
+import formatMacros from '../formatters/formatMacros'
 import { PageMetadata } from '../getPage'
 import { docs } from '../paths'
 
@@ -53,5 +54,11 @@ function renderMarkdown(markdown: string) {
 				.trim()
 				.split(/\n\n/)[0],
 		)
-		.then(result => result.toString())
+		.then(result =>
+			formatMacros(
+				result
+					.toString()
+					.replace(/\<a\s/g, '<a target="_blank" rel="noopener noreferrer" '),
+			),
+		)
 }
