@@ -22,7 +22,15 @@ export async function loadMetadata(page: string[], compat: CompatStatement): Pro
 	}
 
 	try {
-		const pathname = path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md')
+		const dirname = mdnURL.pathname
+			.toLowerCase()
+			.substring(5)
+			.replace(/\*/g, '_star_')
+			.replace(/::/g, '_doublecolon_')
+			.replace(/:/g, '_colon_')
+			.replace(/\?/g, '_question_')
+
+		const pathname = path.join(docs, dirname, 'index.md')
 		const md = await fs.readFile(pathname).then(data => data.toString())
 		const matter = parseMatter(md)
 
@@ -57,10 +65,10 @@ export async function loadMetadata(page: string[], compat: CompatStatement): Pro
 			commit,
 			lastModified,
 			urls: {
-				folder: path.join('en-us', mdnURL.pathname.toLowerCase().substring(5)),
+				folder: path.join('en-us', dirname),
 				github: `https://github.com/mdn/content/blob/main/files/${path.join(
 					'en-us',
-					mdnURL.pathname.toLowerCase().substring(5),
+					dirname,
 					'index.md',
 				)}`,
 			},
