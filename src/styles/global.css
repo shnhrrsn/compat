@@ -130,7 +130,8 @@ h1 {
 	font-size: 40px;
 }
 
-h1::after {
+h1::after,
+footer::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -139,6 +140,10 @@ h1::after {
 	height: 1.5px;
 	margin-top: 10px;
 	background-color: var(--color-foreground-tertiary);
+}
+
+footer::after {
+	margin-top: -60px;
 }
 
 h3 {
