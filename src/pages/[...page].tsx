@@ -1,5 +1,6 @@
 import Agents from '@/components/page/agents'
 import SafeToUse from '@/components/page/safeToUse'
+import ExternalLink from '@/components/shared/externalLink'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
 import { getPage, Page } from '@/utils/getPage'
@@ -23,14 +24,10 @@ export default function Home(props: Page) {
 				{(props.urls.mdn || props.urls.spec) && (
 					<cite>
 						{props.urls.mdn && (
-							<a href={props.urls.mdn} target="_blank">
-								Read More at MDN Docs
-							</a>
+							<ExternalLink href={props.urls.mdn}>Read More at MDN Docs</ExternalLink>
 						)}
 						{props.urls.spec && (
-							<a href={props.urls.spec} target="_blank">
-								View Spec
-							</a>
+							<ExternalLink href={props.urls.spec}>View Spec</ExternalLink>
 						)}
 					</cite>
 				)}
