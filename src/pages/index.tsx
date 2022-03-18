@@ -5,6 +5,7 @@ import maybeMap from '@/utils/maybeMap'
 import generateFallbackTitle from '@/utils/page/generateFallbackTitle'
 import loadCompat from '@/utils/page/loadCompat'
 import loadFrontMatter from '@/utils/page/loadFrontMatter'
+import { reduceUnique } from '@/utils/unique'
 import assert from 'assert'
 import escapeStringRegexp from 'escape-string-regexp'
 import Head from 'next/head'
@@ -94,6 +95,9 @@ export async function getStaticProps() {
 
 		// Filter out failed matches
 		.filter((page: any): page is string => typeof page === 'string')
+
+		// Remove any duplicates
+		.reduce(reduceUnique(), [])
 
 		// Grab the first 25
 		.slice(0, 25)
