@@ -6,23 +6,33 @@ export default async function formatMacros(content: string): Promise<string> {
 	return content
 		.replace(
 			/\{\{jsxref\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseJsxRef),
+			formatRef.bind(null, pages, parseJsxRef, null),
 		)
 		.replace(
 			/\{\{cssxref\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseCssxRef),
+			formatRef.bind(null, pages, parseCssxRef, null),
+		)
+		.replace(
+			/\{\{HTMLElement\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
+			formatRef.bind(null, pages, parseHTMLElement, formatHTMLElementTitle),
 		)
 }
 
-function formatRef<T extends (...args: string[]) => RegExp>(
+function formatRef<
+	T extends (...args: string[]) => RegExp,
+	F extends (ref: string, title: string) => string,
+>(
 	pages: string[],
 	parseHref: T,
+	formatTitle: F | undefined | null,
 	_: string,
 	ref: string,
 	title?: string,
 	...args: string[]
 ): string {
-	const content = `<code>${(title && title.length === 0 ? undefined : title) ?? ref}</code>`
+	title = (title && title.length === 0 ? undefined : title) ?? ref
+	title = formatTitle ? formatTitle(ref, title) : title
+	const content = `<code>${title}</code>`
 	const pattern = parseHref(ref, ...args)
 	const href = pages.find(page => pattern.test(page))
 
@@ -53,4 +63,17 @@ function parseCssxRef(ref: string, params?: string) {
 			.replace(/\(\)/g, ''),
 	)
 	return new RegExp(`^\/css\/properties.*\/${pathname}$`, 'i')
+}
+
+function parseHTMLElement(ref: string) {
+	const pathname = escapeStringRegexp(ref)
+	return new RegExp(`^\/html\/elements.*\/${pathname}$`, 'i')
+}
+
+function formatHTMLElementTitle(ref: string, title: string) {
+	if (title === ref && ref.indexOf(' ') === -1) {
+		return `&lt;${title}&gt;`
+	}
+
+	return title
 }
