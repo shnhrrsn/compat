@@ -5,8 +5,9 @@
 
 .header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .footer {
@@ -20,10 +21,22 @@
 	line-height: 1.6em;
 }
 
-.logo g {
+.logo,
+.github {
+	display: flex;
+}
+
+.logo g,
+.github path {
+	transition: fill 2s ease;
 	fill: var(--color-foreground-tertiary);
 }
 
 .logo g + g {
 	fill: var(--color-accent);
+}
+
+.logo:hover path,
+.github:hover path {
+	fill: currentColor;
 }

@@ -4,6 +4,7 @@ export default function ExternalLink({
 }: {
 	href: string
 	title?: string
+	className?: string
 	children: any
 }) {
 	return (
