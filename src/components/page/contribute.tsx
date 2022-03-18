@@ -1,14 +1,19 @@
 import { Page } from '@/utils/getPage'
+import useHydrated from '@/utils/hooks/useHydrated'
 import ExternalLink from '../shared/externalLink'
 
 export default function Contribute(props: Page) {
+	const isHydrated = useHydrated()
+
 	return (
 		<ul>
-			<li>
-				<ExternalLink href={getCompatDataNewIssueURL(props)}>
-					Report problems with compatibility data on GitHub
-				</ExternalLink>
-			</li>
+			{isHydrated && (
+				<li>
+					<ExternalLink href={getCompatDataNewIssueURL(props)}>
+						Report problems with compatibility data on GitHub
+					</ExternalLink>
+				</li>
+			)}
 			{props.urls.mdn && (
 				<>
 					<li>
@@ -49,7 +54,7 @@ function getCompatDataNewIssueURL(props: Page) {
 
 * Query: \`${props.query}\`
 * MDN URL: ${props.urls.mdn}
-* Report started: ${new Date().toISOString()}
+* Report started: ${new Date(Math.floor(Date.now() / 60_000) * 60_000).toISOString()}
 
 </details>
 		`.trim()
