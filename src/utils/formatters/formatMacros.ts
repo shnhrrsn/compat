@@ -75,8 +75,8 @@ function parseHTMLElement(ref: string) {
 }
 
 function parseDomxRef(ref: string) {
-	const pathname = escapeStringRegexp(ref)
-	return new RegExp(`^\/api\/.*${pathname}$`, 'i')
+	const pathname = escapeStringRegexp(ref.replace(/\./g, '/'))
+	return new RegExp(`^\/api\/.*${pathname.replace(/(\\\(\\\))/g, '(?:$1)?')}$`, 'i')
 }
 
 function formatHTMLElementTitle(ref: string, title: string) {
