@@ -5,9 +5,13 @@ import {
 } from '@mdn/browser-compat-data/types'
 import { coerce, Range, SemVer } from 'semver'
 import { findVersionDate } from '../agents/findVersionDate'
+import formatExternalLinks from '../formatters/formatExternaLinks'
 import getAgent, { Agent } from '../getAgent'
-import { PageSupport, SupportVersion } from '../getPage'
+import { PageSupport, PageSupportHistory, SupportVersion } from '../getPage'
 import maybeMap from '../maybeMap'
+import isFullySupported from './isFullySupported'
+
+const anyRange = new Range('*')
 
 export function generateSupport(compat: CompatStatement) {
 	return Object.fromEntries(
@@ -19,6 +23,7 @@ export function generateSupport(compat: CompatStatement) {
 					name: agent?.name ?? name,
 					added: null,
 					usage: { global: null, relative: null },
+					history: null,
 				},
 			]
 		}),
@@ -34,39 +39,72 @@ function $generateSupport(
 		return null
 	}
 
-	const added = maybeMap(
-		(
-			support.find(support => !support.prefix && support.version_added) ??
-			support.find(support => support.version_added)
-		)?.version_added,
-		version => formatVersion(agent, name, version),
-	)
-
-	const removed = maybeMap(
-		support.find(support => support.version_removed)?.version_removed,
-		version => formatVersion(agent, name, version),
-	)
-
-	if (!added) {
-		return null
-	}
-
-	const range = added.version
-		? removed?.version
-			? new Range(`${added.version.format()} - ${removed.version.format()}`)
-			: new Range(`>=${added.version.format()}`)
-		: null
-	const usage = range ? computeUsage(agent, range) : null
+	const history = support.map(support => generateHistory(agent, name, support))
+	const fullSupport = history.find(isFullySupported)
 
 	return {
 		name: agent.name,
+		added: fullSupport?.added ?? null,
+		removed: fullSupport?.removed ?? null,
+		usage: fullSupport?.usage ?? { global: null, relative: null },
+		history: history,
+	}
+}
+
+function generateHistory(
+	agent: Agent,
+	name: string,
+	support: SimpleSupportStatement,
+): PageSupportHistory {
+	const added = maybeMap(support.version_added, version => formatVersion(agent, name, version))
+
+	const removed = maybeMap(support.version_removed, version =>
+		formatVersion(agent, name, version),
+	)
+
+	let range: Range | null = null
+
+	if (added?.version) {
+		if (removed?.version) {
+			range = new Range(`${added.version.format()} - ${removed.version.format()}`)
+		} else {
+			range = new Range(`>=${added.version.format()}`)
+		}
+	} else if (removed?.version) {
+		range = new Range(`<${removed.version.format()}`)
+	}
+
+	const usage = range ? computeUsage(agent, range) : null
+	const history: PageSupportHistory = {
+		notes:
+			(typeof support.notes === 'string' ? [support.notes] : support.notes)?.map(
+				formatExternalLinks,
+			) ?? null,
 		added: added?.data ?? null,
 		removed: removed?.data ?? null,
 		usage: {
 			global: usage ? usage / 100.0 : null,
-			relative: usage ? usage / computeUsage(agent, new Range('*')) : null,
+			relative: usage ? usage / computeUsage(agent, anyRange) : null,
 		},
 	}
+
+	if (support.prefix) {
+		history.prefix = support.prefix
+	}
+
+	if (support.alternative_name) {
+		history.alternative_name = support.alternative_name
+	}
+
+	if (support.flags) {
+		history.flags = support.flags
+	}
+
+	if (support.partial_implementation) {
+		history.partial_implementation = support.partial_implementation
+	}
+
+	return history
 }
 
 function formatVersion(

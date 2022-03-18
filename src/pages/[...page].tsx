@@ -1,4 +1,5 @@
 import Agents from '@/components/page/agents'
+import Breakdown from '@/components/page/breakdown'
 import Contribute from '@/components/page/contribute'
 import SafeToUse from '@/components/page/safeToUse'
 import ExternalLink from '@/components/shared/externalLink'
@@ -43,26 +44,7 @@ export default function Home(props: Page) {
 					</>
 				)}
 				<h3>Version Breakdown</h3>
-				<table>
-					<thead>
-						<th>Browser</th>
-						<th>Full Support</th>
-						<th>Notes</th>
-					</thead>
-					<tbody>
-						{Object.entries(props.support).map(([browser, support]) => (
-							<tr key={browser}>
-								<td>{support.name}</td>
-								<td>{support.added?.version}</td>
-								<td>
-									{support.notes?.map((note, index) => (
-										<p key={index} dangerouslySetInnerHTML={{ __html: note }} />
-									))}
-								</td>
-							</tr>
-						))}
-					</tbody>
-				</table>
+				<Breakdown support={props.support} />
 				{props.html.seeAlso && (
 					<>
 						<h3>See Also</h3>

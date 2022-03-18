@@ -1,5 +1,5 @@
 import compatData from '@mdn/browser-compat-data'
-import { IdentifierMeta } from '@mdn/browser-compat-data/types'
+import { IdentifierMeta, SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
 import { generateSupport } from './page/generateSupport'
 import { loadMetadata } from './page/loadMetadata'
@@ -23,14 +23,23 @@ export type SupportVersion = {
 	date: number | null
 }
 
-export type PageSupport = {
-	name: string
+export type PageSupportVariant = {
 	added: SupportVersion | null
 	removed?: SupportVersion | null
 	usage: {
 		global: number | null
 		relative: number | null
 	}
+}
+
+export type PageSupportHistory = PageSupportVariant &
+	Omit<SimpleSupportStatement, 'version_added' | 'version_removed' | 'notes'> & {
+		notes: string[] | null
+	}
+
+export type PageSupport = PageSupportVariant & {
+	name: string
+	history: PageSupportHistory[] | null
 }
 
 export type Page = Omit<PageMetadata, 'urls'> & {

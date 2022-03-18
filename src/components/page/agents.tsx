@@ -1,6 +1,8 @@
 import Image, { isValidImageSrc } from '@/components/shared/image'
 import styles from '@/pages/page.module.css'
-import { PageSupport } from '@/utils/getPage'
+import formatDate from '@/utils/formatters/formatDate'
+import { PageSupport, PageSupportVariant } from '@/utils/getPage'
+import isAvailable from '@/utils/page/isAvailable'
 import classNames from 'classnames'
 
 export default function Agents({
@@ -28,28 +30,57 @@ function Agent({ agent, support }: { agent: string; support: PageSupport | null 
 			<span className={styles.agentName}>{support?.name ?? agent}</span>
 			<span className={styles.agentAvailability}>{formatAvailability(support)}</span>
 			{added && <span className={styles.agentVersion}>v{added.version}</span>}
-			{usage?.global && usage.relative && (
-				<span className={styles.agentUsage}>
-					<Usage name={support?.name ?? agent} usage={usage.global} kind="Global" />
-					{' / '}
-					<Usage name={support?.name ?? agent} usage={usage.relative} kind="Relative" />
-				</span>
+			{usage && (
+				<Usages className={styles.agentUsage} name={support?.name ?? agent} usage={usage} />
 			)}
 		</div>
 	)
 }
 
-function Usage({
+export function Usages({
+	name,
+	usage,
+	includeTitles,
+	className,
+}: {
+	name: string
+	usage: PageSupportVariant['usage']
+	includeTitles?: boolean
+	className?: string
+}) {
+	includeTitles ??= true
+	return (
+		<div className={classNames(styles.usages, className)}>
+			{usage.global && usage.relative && (
+				<>
+					<Usage
+						name={name}
+						usage={usage.global}
+						kind={includeTitles ? 'Global' : undefined}
+					/>
+					<span className={styles.usagesSeperator}>╱</span>
+					<Usage
+						name={name}
+						usage={usage.relative}
+						kind={includeTitles ? 'Relative' : undefined}
+					/>
+				</>
+			)}
+		</div>
+	)
+}
+
+export function Usage({
 	usage,
 	name,
 	kind,
 }: {
 	usage: number
 	name: string
-	kind: 'Relative' | 'Global'
+	kind?: 'Relative' | 'Global'
 }) {
 	return (
-		<span title={`${kind} share of ${name} users running a supported version.`}>
+		<span title={kind && `${kind} share of ${name} users running a supported version.`}>
 			{usage.toLocaleString(undefined, {
 				style: 'percent',
 			})}
@@ -57,18 +88,17 @@ function Usage({
 	)
 }
 
-function formatAvailability(support: PageSupport | null) {
-	if (!support || !support.added || support.removed) {
-		return 'Unsupported'
+export function formatAvailability(
+	support: PageSupportVariant | null,
+	classNames?: Partial<{ unsupported: string; unknown: string; date: string }>,
+) {
+	if (!isAvailable(support)) {
+		return <span className={classNames?.unsupported}>Unsupported</span>
 	} else if (!support.added.date) {
-		return 'Unknown'
+		return <span className={classNames?.unknown}>Unknown</span>
 	}
 
-	return new Date(support.added.date * 1000).toLocaleDateString(undefined, {
-		month: 'short',
-		day: 'numeric',
-		year: 'numeric',
-	})
+	return <span className={classNames?.date}>{formatDate(support.added.date)}</span>
 }
 
 function resolveSupportClassName(support: PageSupport | null) {

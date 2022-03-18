@@ -10,6 +10,7 @@ const browserMap: Record<string, string> = {
 	webview_android: 'android',
 	samsunginternet_android: 'samsung',
 	firefox_android: 'and_ff',
+	opera_android: 'op_mob',
 }
 
 type VersionRange = {

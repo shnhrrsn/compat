@@ -16,6 +16,17 @@
 	color: var(--color-foreground-rating-none);
 }
 
+.usages {
+	display: flex;
+	gap: 0.2em;
+	color: var(--color-foreground-tertiary);
+	font-family: var(--font-family-mono);
+}
+
+.usagesSeperator {
+	opacity: 0.5;
+}
+
 .agents {
 	display: flex;
 	flex-direction: column;
@@ -51,7 +62,9 @@
 	margin-right: 15px;
 }
 
-.agentIcon path {
+.agentIcon path,
+.agentIcon rect,
+.agentIcon circle {
 	fill: var(--color-foreground-secondary);
 }
 
@@ -69,10 +82,186 @@
 .agentVersion,
 .agentUsage {
 	min-width: 80px;
+}
+
+.agentVersion {
 	color: var(--color-foreground-secondary);
 	font-size: 15px;
 }
 
 .agentUsage {
+	font-size: 0.9em;
 	text-align: right;
+}
+
+.breakdown {
+	max-width: 650px;
+	font-size: 14px;
+}
+
+.breakdownGrid {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr auto;
+}
+
+.breakdownHeaders {
+	margin-bottom: 6px;
+	padding: 0 12px;
+	color: var(--color-foreground-secondary);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.breakdownHeader {
+	display: flex;
+}
+
+.breakdownRows {
+	border: 1px solid var(--color-foreground-secondary);
+	border-radius: 3px;
+}
+
+.breakdownRow {
+	align-items: center;
+	padding: 12px;
+	border-top: 1px solid var(--color-foreground-secondary);
+}
+
+.breakdownRow[tabindex]:not(:focus) {
+	cursor: pointer;
+}
+
+.breakdownRow[tabindex]:hover,
+.breakdownRow:focus {
+	color: var(--color-foreground-prominent);
+	background: rgba(255, 255, 255, 0.025);
+}
+
+.breakdownRow[tabindex]:hover:not(:focus) {
+	color: var(--color-accent);
+}
+
+.breakdownRow:focus {
+	outline: none;
+}
+
+.breakdownRow:first-child {
+	border-top: none;
+}
+
+.breakdownAgent {
+	display: flex;
+	gap: 6px;
+	font-weight: 500;
+}
+
+.breakdownIcon {
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+}
+
+.breakdownVersion,
+.breakdownUsage,
+.breakdownUnsupported {
+	color: var(--color-foreground-tertiary);
+}
+
+.breakdownUsage {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.breakdownHistory {
+	position: relative;
+	display: none;
+	flex-direction: column;
+	grid-column: 1 / span 5;
+	gap: 4px;
+	margin: 10px 0 0;
+	color: var(--color-foreground);
+	background: var(--color-background);
+	border-radius: 5px;
+}
+
+.breakdownHistory::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 22px;
+	z-index: 0;
+	width: 2px;
+	background-color: var(--color-foreground-secondary);
+	border-radius: 1px;
+}
+
+.breakdownRow:focus .breakdownHistory {
+	display: flex;
+}
+
+.breakdownHistoryTitle {
+	display: flex;
+	gap: 5px;
+}
+
+.breakdownHistoryAvailability {
+	color: var(--color-foreground-prominent);
+	font-weight: 600;
+}
+
+.breakdownHistoryHeader {
+	display: flex;
+	gap: 10px;
+	line-height: 1.6em;
+}
+
+.breakdownHistoryUsage {
+	flex: 1;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.breakdownHistoryEntry {
+	position: relative;
+	z-index: 2;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 8px 0;
+	align-items: flex-start;
+	padding: 12px;
+}
+
+.breakdownHistoryEntryBullet {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+
+.breakdownHistoryEntryBulletSimple::before {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background-color: var(--color-foreground-secondary);
+	border: 3px solid var(--color-background);
+	border-radius: 100%;
+}
+
+.breakdownHistoryEntryBulletIconImage {
+	width: inherit;
+	height: inherit;
+	border: 2px solid var(--color-background);
+}
+
+.breakdownNote {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
 }
