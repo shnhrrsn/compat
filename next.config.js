@@ -3,6 +3,7 @@
  */
 const nextConfig = {
 	poweredByHeader: false,
+	optimizeFonts: false,
 	webpack(config, ...{ webpack }) {
 		config.module.rules.push({
 			test: /\.svg$/,
