@@ -16,6 +16,10 @@ export default async function formatMacros(content: string): Promise<string> {
 			/\{\{HTMLElement\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
 			formatRef.bind(null, pages, parseHTMLElement, formatHTMLElementTitle),
 		)
+		.replace(
+			/\{\{DOMxRef\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
+			formatRef.bind(null, pages, parseDomxRef, null),
+		)
 }
 
 function formatRef<
@@ -37,7 +41,7 @@ function formatRef<
 	const href = pages.find(page => pattern.test(page))
 
 	if (!href) {
-		console.warn(`Could not find path for: ${ref}`)
+		console.warn(`Could not find path for: ${ref}`, pattern)
 		return content
 	}
 
@@ -68,6 +72,11 @@ function parseCssxRef(ref: string, params?: string) {
 function parseHTMLElement(ref: string) {
 	const pathname = escapeStringRegexp(ref)
 	return new RegExp(`^\/html\/elements.*\/${pathname}$`, 'i')
+}
+
+function parseDomxRef(ref: string) {
+	const pathname = escapeStringRegexp(ref)
+	return new RegExp(`^\/api\/.*${pathname}$`, 'i')
 }
 
 function formatHTMLElementTitle(ref: string, title: string) {
