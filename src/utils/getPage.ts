@@ -1,8 +1,9 @@
 import compatData from '@mdn/browser-compat-data'
-import { IdentifierMeta, SimpleSupportStatement } from '@mdn/browser-compat-data/types'
+import { SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
-import { generateSupport } from './page/generateSupport'
-import { loadMetadata } from './page/loadMetadata'
+import generateSupport from './page/generateSupport'
+import isIdentifierMeta from './page/isIdentifierMeta'
+import loadMetadata from './page/loadMetadata'
 
 export type PageMetadata = {
 	title: string | null
@@ -53,7 +54,7 @@ export type Page = Omit<PageMetadata, 'urls'> & {
 	support: Record<string, PageSupport>
 }
 
-export async function getPage(page: string[]): Promise<Page> {
+export default async function getPage(page: string[]): Promise<Page> {
 	const data = page.reduce((data, key) => data[key], compatData as any)
 	assert(isIdentifierMeta(data))
 	assert(data.__compat)
@@ -73,8 +74,4 @@ export async function getPage(page: string[]): Promise<Page> {
 		support,
 		...metadata,
 	}
-}
-
-function isIdentifierMeta(data: any): data is IdentifierMeta {
-	return '__compat' in data
 }

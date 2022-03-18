@@ -5,7 +5,7 @@ import SafeToUse from '@/components/page/safeToUse'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
-import { getPage, Page } from '@/utils/getPage'
+import getPage, { Page } from '@/utils/getPage'
 import Head from 'next/head'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']

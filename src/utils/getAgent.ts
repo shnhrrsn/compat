@@ -1,6 +1,6 @@
 import { Range } from 'semver'
 import caniuse from './agents/caniuse'
-import { deno } from './agents/deno'
+import deno from './agents/deno'
 import node from './agents/node'
 
 export type AgentVersion = { date: number; usage: number | null }

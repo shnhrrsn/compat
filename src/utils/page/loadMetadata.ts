@@ -11,7 +11,10 @@ import formatMacros from '../formatters/formatMacros'
 import { PageMetadata } from '../getPage'
 import { docs } from '../paths'
 
-export async function loadMetadata(page: string[], compat: CompatStatement): Promise<PageMetadata> {
+export default async function loadMetadata(
+	page: string[],
+	compat: CompatStatement,
+): Promise<PageMetadata> {
 	if (!compat.mdn_url) {
 		return generateFallback(page, compat)
 	}

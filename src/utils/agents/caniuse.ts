@@ -1,7 +1,7 @@
 import { agents } from 'caniuse-lite'
 import { coerce, compare, Range, SemVer } from 'semver'
 import { Agent } from '../getAgent'
-import { makeAgent } from './makeAgent'
+import makeAgent from './makeAgent'
 
 // Map between mdn + caniuse names
 const browserMap: Record<string, string> = {

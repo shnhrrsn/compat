@@ -1,7 +1,7 @@
 import Layout, { siteTitle } from '@/components/shared/layout'
 import cache from '@/utils/cache'
 import getAllPages from '@/utils/getAllPages'
-import { getPage } from '@/utils/getPage'
+import getPage from '@/utils/getPage'
 import maybeMap from '@/utils/maybeMap'
 import escapeStringRegexp from 'escape-string-regexp'
 import Head from 'next/head'

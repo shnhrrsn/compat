@@ -1,7 +1,7 @@
 import { coerce } from 'semver'
 import { Agent } from '../getAgent'
 
-export function makeAgent(name: string, versions: Agent['versions']): Agent {
+export default function makeAgent(name: string, versions: Agent['versions']): Agent {
 	return {
 		name,
 		versions,

@@ -4,7 +4,7 @@ import {
 	VersionValue,
 } from '@mdn/browser-compat-data/types'
 import { coerce, Range, SemVer } from 'semver'
-import { findVersionDate } from '../agents/findVersionDate'
+import findVersionDate from '../agents/findVersionDate'
 import formatExternalLinks from '../formatters/formatExternaLinks'
 import getAgent, { Agent } from '../getAgent'
 import { PageSupport, PageSupportHistory, SupportVersion } from '../getPage'
@@ -13,7 +13,7 @@ import isFullySupported from './isFullySupported'
 
 const anyRange = new Range('*')
 
-export function generateSupport(compat: CompatStatement) {
+export default function generateSupport(compat: CompatStatement) {
 	return Object.fromEntries(
 		Object.entries(compat.support).map(([name, support]) => {
 			const agent = getAgent(name)
