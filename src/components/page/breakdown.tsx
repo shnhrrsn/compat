@@ -41,14 +41,22 @@ function BreakdownEntry({ agent, support }: { agent: string; support: PageSuppor
 
 	return (
 		<div
-			className={classNames(styles.breakdownGrid, styles.breakdownRow)}
+			className={classNames(
+				styles.breakdownGrid,
+				styles.breakdownRow,
+				styles[`breakdownRow-${image.replace(/mobile/, '')}`],
+			)}
 			tabIndex={history ? -1 : undefined}
 		>
 			<div className={classNames(styles.breakdownAgent)} title={`${agent} vs ${image}`}>
 				{isValidImageSrc(image) ? (
 					<Image
 						src={image}
-						className={classNames(styles.agentIcon, styles.breakdownIcon)}
+						className={classNames(
+							styles.agentIcon,
+							styles.breakdownIcon,
+							styles[`breakdownIcon-${image}`],
+						)}
 					/>
 				) : (
 					<div className={styles.breakdownIcon}>&nbsp;</div>

@@ -144,6 +144,60 @@
 	color: var(--color-accent);
 }
 
+.breakdownRow[tabindex]:focus .breakdownIcon path,
+.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon path,
+.breakdownRow[tabindex]:focus .breakdownIcon rect,
+.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon rect,
+.breakdownRow[tabindex]:focus .breakdownIcon circle,
+.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon circle {
+	fill: currentColor;
+}
+
+.breakdownRow-chrome[tabindex]:focus,
+.breakdownRow-chrome[tabindex]:hover:not(:focus) {
+	color: #73a1fb;
+}
+
+.breakdownRow-ie[tabindex]:focus,
+.breakdownRow-ie[tabindex]:hover:not(:focus) {
+	color: #1ebbee;
+}
+
+.breakdownRow-edge[tabindex]:focus,
+.breakdownRow-edge[tabindex]:hover:not(:focus) {
+	color: #1595df;
+}
+
+.breakdownRow-firefox[tabindex]:focus,
+.breakdownRow-firefox[tabindex]:hover:not(:focus) {
+	color: #ff9500;
+}
+
+.breakdownRow-opera[tabindex]:focus,
+.breakdownRow-opera[tabindex]:hover:not(:focus) {
+	color: #ff1b2d;
+}
+
+.breakdownRow-safari[tabindex]:focus,
+.breakdownRow-safari[tabindex]:hover:not(:focus) {
+	color: #1d8ef8;
+}
+
+.breakdownRow-samsung-internet[tabindex]:focus,
+.breakdownRow-samsung-internet[tabindex]:hover:not(:focus) {
+	color: #7882ff;
+}
+
+.breakdownRow-android[tabindex]:focus,
+.breakdownRow-android[tabindex]:hover:not(:focus) {
+	color: #32de84;
+}
+
+.breakdownRow-nodejs[tabindex]:focus,
+.breakdownRow-nodejs[tabindex]:hover:not(:focus) {
+	color: #539e43;
+}
+
 .breakdownRow:focus {
 	outline: none;
 }
