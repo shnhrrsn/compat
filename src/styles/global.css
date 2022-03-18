@@ -72,7 +72,27 @@
 	}
 }
 
-:root {
+html[data-color-scheme='light'] {
+	--base00: var(--one-light-base00);
+	--base01: var(--one-light-base01);
+	--base02: var(--one-light-base02);
+	--base03: var(--one-light-base03);
+	--base04: var(--one-light-base04);
+	--base05: var(--one-light-base05);
+	--base06: var(--one-light-base06);
+	--base07: var(--one-light-base07);
+	--base08: var(--one-light-base08);
+	--base09: var(--one-light-base09);
+	--base0A: var(--one-light-base0A);
+	--base0B: var(--one-light-base0B);
+	--base0C: var(--one-light-base0C);
+	--base0D: var(--one-light-base0D);
+	--base0E: var(--one-light-base0E);
+	--base0F: var(--one-light-base0F);
+}
+
+html,
+html[data-color-scheme='dark'] {
 	--base00: var(--one-dark-base00);
 	--base01: var(--one-dark-base01);
 	--base02: var(--one-dark-base02);
@@ -89,6 +109,48 @@
 	--base0D: var(--one-dark-base0D);
 	--base0E: var(--one-dark-base0E);
 	--base0F: var(--one-dark-base0F);
+}
+
+@media screen and (prefers-color-scheme: light) {
+	html[data-color-scheme='auto'] {
+		--base00: var(--one-light-base00);
+		--base01: var(--one-light-base01);
+		--base02: var(--one-light-base02);
+		--base03: var(--one-light-base03);
+		--base04: var(--one-light-base04);
+		--base05: var(--one-light-base05);
+		--base06: var(--one-light-base06);
+		--base07: var(--one-light-base07);
+		--base08: var(--one-light-base08);
+		--base09: var(--one-light-base09);
+		--base0A: var(--one-light-base0A);
+		--base0B: var(--one-light-base0B);
+		--base0C: var(--one-light-base0C);
+		--base0D: var(--one-light-base0D);
+		--base0E: var(--one-light-base0E);
+		--base0F: var(--one-light-base0F);
+	}
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html[data-color-scheme='auto'] {
+		--base00: var(--one-dark-base00);
+		--base01: var(--one-dark-base01);
+		--base02: var(--one-dark-base02);
+		--base03: var(--one-dark-base03);
+		--base04: var(--one-dark-base04);
+		--base05: var(--one-dark-base05);
+		--base06: var(--one-dark-base06);
+		--base07: var(--one-dark-base07);
+		--base08: var(--one-dark-base08);
+		--base09: var(--one-dark-base09);
+		--base0A: var(--one-dark-base0A);
+		--base0B: var(--one-dark-base0B);
+		--base0C: var(--one-dark-base0C);
+		--base0D: var(--one-dark-base0D);
+		--base0E: var(--one-dark-base0E);
+		--base0F: var(--one-dark-base0F);
+	}
 }
 
 :root {

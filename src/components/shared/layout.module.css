@@ -12,13 +12,20 @@
 
 .footer {
 	display: flex;
-	flex-direction: column;
-	gap: 0px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 	margin: 80px 0 0;
 	padding: 60px 0;
 	color: var(--color-foreground-tertiary);
 	font-size: 14px;
 	line-height: 1.6em;
+}
+
+.credits {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
 }
 
 .logo,
