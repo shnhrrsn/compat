@@ -1,4 +1,5 @@
 import { CompatStatement } from '@mdn/browser-compat-data/types'
+import execa from 'execa'
 import { promises as fs } from 'fs'
 import parseMatter from 'gray-matter'
 import path from 'path'
@@ -20,14 +21,48 @@ export async function loadMetadata(page: string[], compat: CompatStatement): Pro
 	}
 
 	try {
-		const md = await fs
-			.readFile(path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md'))
-			.then(data => data.toString())
+		const pathname = path.join(docs, mdnURL.pathname.toLowerCase().substring(5), 'index.md')
+		const md = await fs.readFile(pathname).then(data => data.toString())
 		const matter = parseMatter(md)
+
+		let commit: string | null = null
+		let lastModified: string | null = null
+
+		try {
+			;[commit, lastModified] = JSON.parse(
+				(
+					await execa(
+						'git',
+						[
+							'--no-pager',
+							'log',
+							'-n',
+							'1',
+							'--pretty=["%H","%cI"]',
+							'-s',
+							path.relative(docs, pathname),
+						],
+						{ cwd: docs },
+					)
+				).stdout,
+			)
+		} catch (error) {
+			console.error(error)
+		}
 
 		return {
 			title: (matter.data.title as string) ?? null,
 			html: await renderPageMarkdown(matter.content),
+			commit,
+			lastModified,
+			urls: {
+				folder: path.join('en-us', mdnURL.pathname.toLowerCase().substring(5)),
+				github: `https://github.com/mdn/content/blob/main/files/${path.join(
+					'en-us',
+					mdnURL.pathname.toLowerCase().substring(5),
+					'index.md',
+				)}`,
+			},
 		}
 	} catch (error: any) {
 		if (error.code === 'ENOENT') {
@@ -44,6 +79,12 @@ function generateFallback(page: string[], compat: CompatStatement): PageMetadata
 		html: {
 			intro: compat.description ?? null,
 			seeAlso: null,
+		},
+		commit: null,
+		lastModified: null,
+		urls: {
+			folder: null,
+			github: null,
 		},
 	}
 }

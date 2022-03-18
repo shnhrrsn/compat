@@ -10,6 +10,12 @@ export type PageMetadata = {
 		intro: string | null
 		seeAlso: string | null
 	}
+	urls: {
+		folder: string | null
+		github: string | null
+	}
+	commit: string | null
+	lastModified: string | null
 }
 
 export type SupportVersion = {
@@ -27,9 +33,10 @@ export type PageSupport = {
 	}
 }
 
-export type Page = PageMetadata & {
+export type Page = Omit<PageMetadata, 'urls'> & {
 	section: 'javascript' | 'html' | 'css'
-	urls: {
+	query: string
+	urls: PageMetadata['urls'] & {
 		mdn: string | null
 		spec: string | null
 	}
@@ -42,14 +49,16 @@ export async function getPage(page: string[]): Promise<Page> {
 	assert(isIdentifierMeta(data))
 	assert(data.__compat)
 
-	const metadata = await loadMetadata(page, data.__compat)
+	const { urls, ...metadata } = await loadMetadata(page, data.__compat)
 	const support = generateSupport(data.__compat)
 
 	return {
 		section: page[0] as any,
+		query: page.join('.'),
 		urls: {
 			mdn: data.__compat.mdn_url ?? null,
 			spec: (data.__compat as any).spec_url ?? null, // Unsure why spec_url isn’t in types
+			...urls,
 		},
 		usage: Object.values(support).reduce((curr, { usage }) => curr + (usage.global ?? 0), 0.0),
 		support,

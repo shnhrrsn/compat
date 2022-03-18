@@ -1,4 +1,5 @@
 import Agents from '@/components/page/agents'
+import Contribute from '@/components/page/contribute'
 import SafeToUse from '@/components/page/safeToUse'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout, { siteTitle } from '@/components/shared/layout'
@@ -68,6 +69,8 @@ export default function Home(props: Page) {
 						<div dangerouslySetInnerHTML={{ __html: props.html.seeAlso }} />
 					</>
 				)}
+				<h3>Contribute</h3>
+				<Contribute {...props} />
 			</article>
 		</Layout>
 	)
