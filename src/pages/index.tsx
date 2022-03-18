@@ -1,8 +1,11 @@
 import Layout, { siteTitle } from '@/components/shared/layout'
 import cache from '@/utils/cache'
 import getAllPages from '@/utils/getAllPages'
-import getPage from '@/utils/getPage'
 import maybeMap from '@/utils/maybeMap'
+import generateFallbackTitle from '@/utils/page/generateFallbackTitle'
+import loadCompat from '@/utils/page/loadCompat'
+import loadFrontMatter from '@/utils/page/loadFrontMatter'
+import assert from 'assert'
 import escapeStringRegexp from 'escape-string-regexp'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -97,7 +100,20 @@ export async function getStaticProps() {
 
 		// Get page title
 		.map(async (href: string) => {
-			const { title } = await getPage(href.substring(1).split(/\//))
+			const page = href.substring(1).split(/\//)
+			const compat = await loadCompat(href.substring(1).split(/\//))
+			const title = await loadFrontMatter({ compat })
+				.then(({ data }) => data.title)
+				.catch(error => {
+					if (error.code !== 'ENOENT') {
+						throw error
+					}
+
+					return generateFallbackTitle(page, compat)
+				})
+
+			assert(typeof title === 'string')
+
 			return { href, title }
 		})
 
