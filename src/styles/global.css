@@ -73,15 +73,37 @@
 }
 
 :root {
-	--color-accent: var(--one-dark-base09);
-	--color-background: var(--one-dark-base00);
-	--color-foreground: var(--one-dark-base05);
-	--color-foreground-secondary: var(--one-dark-base04);
-	--color-foreground-tertiary: var(--one-dark-base03);
-	--color-foreground-rating-none: var(--one-dark-base0F);
-	--color-foreground-rating-poor: var(--one-dark-base08);
-	--color-foreground-rating-mid: var(--one-dark-base09);
-	--color-foreground-rating-good: var(--one-dark-base0B);
+	--base00: var(--one-dark-base00);
+	--base01: var(--one-dark-base01);
+	--base02: var(--one-dark-base02);
+	--base03: var(--one-dark-base03);
+	--base04: var(--one-dark-base04);
+	--base05: var(--one-dark-base05);
+	--base06: var(--one-dark-base06);
+	--base07: var(--one-dark-base07);
+	--base08: var(--one-dark-base08);
+	--base09: var(--one-dark-base09);
+	--base0A: var(--one-dark-base0A);
+	--base0B: var(--one-dark-base0B);
+	--base0C: var(--one-dark-base0C);
+	--base0D: var(--one-dark-base0D);
+	--base0E: var(--one-dark-base0E);
+	--base0F: var(--one-dark-base0F);
+}
+
+:root {
+	--color-accent: var(--base09);
+	--color-background: var(--base00);
+	--color-foreground: var(--base05);
+	--color-foreground-secondary: var(--base04);
+	--color-foreground-tertiary: var(--base03);
+	--color-foreground-rating-none: var(--base0F);
+	--color-foreground-rating-poor: var(--base08);
+	--color-foreground-rating-mid: var(--base09);
+	--color-foreground-rating-good: var(--base0B);
+	--color-foreground-prominent: var(--base07);
+	--font-family-text: 'Inter', sans-serif;
+	--font-family-mono: 'Source Code Pro', monospace;
 }
 
 html,
@@ -90,7 +112,7 @@ body {
 	padding: 0;
 	color: var(--color-foreground);
 	font-size: 18px;
-	font-family: 'Inter', sans-serif;
+	font-family: var(--font-family-text);
 	line-height: 1.6em;
 	background: var(--color-background);
 }
@@ -101,7 +123,7 @@ body {
 
 pre,
 code {
-	font-family: 'Source Code Pro', monospace;
+	font-family: var(--font-family-mono);
 }
 
 a {
