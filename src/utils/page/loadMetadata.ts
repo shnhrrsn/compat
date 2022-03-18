@@ -6,6 +6,7 @@ import path from 'path'
 import { remark } from 'remark'
 import html from 'remark-html'
 import { URL } from 'url'
+import formatExternalLinks from '../formatters/formatExternaLinks'
 import formatMacros from '../formatters/formatMacros'
 import { PageMetadata } from '../getPage'
 import { docs } from '../paths'
@@ -110,11 +111,5 @@ function renderMarkdown(markdown?: string | null) {
 	return remark()
 		.use(html)
 		.process(markdown)
-		.then(result =>
-			formatMacros(
-				result
-					.toString()
-					.replace(/\<a\s/g, '<a target="_blank" rel="noopener noreferrer" '),
-			),
-		)
+		.then(result => formatMacros(formatExternalLinks(result.toString())))
 }
