@@ -1,3 +1,4 @@
+import Search from '@/components/search/search'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import cache from '@/utils/cache'
 import getAllPages from '@/utils/getAllPages'
@@ -14,14 +15,11 @@ import fetch from 'node-fetch'
 
 export default function Index({ recent }: { recent: { href: string; title: string }[] }) {
 	return (
-		<Layout>
+		<Layout excludeSearch>
 			<Head>
 				<title>{siteTitle}</title>
 			</Head>
-			<h3>TODO</h3>
-			<ul>
-				<li>Search</li>
-			</ul>
+			<Search autoFocus />
 			<h3>Recently Updated</h3>
 			<ul>
 				{recent.map(({ href, title }) => (

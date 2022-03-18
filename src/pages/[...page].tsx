@@ -13,7 +13,7 @@ const servers = ['nodejs', 'deno']
 
 export default function Home(props: Page) {
 	return (
-		<Layout home>
+		<Layout>
 			<Head>
 				<title>
 					{props.title} | {siteTitle}

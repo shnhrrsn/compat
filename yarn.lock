@@ -1568,6 +1568,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fast-csv/parse@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "@fast-csv/parse@npm:4.3.6"
+  dependencies:
+    "@types/node": ^14.0.1
+    lodash.escaperegexp: ^4.1.2
+    lodash.groupby: ^4.6.0
+    lodash.isfunction: ^3.0.9
+    lodash.isnil: ^4.0.0
+    lodash.isundefined: ^3.0.1
+    lodash.uniq: ^4.5.0
+  checksum: 15434d2bc7a71af63a4cc45352a58f6edd69d464233fd6f9a808a8efb9ae326832b4f78d1ddcf9fc3bbf166e9c1dce19671c4de40371a926d60cb7c5a8bad08a
+  languageName: node
+  linkType: hard
+
 "@jridgewell/resolve-uri@npm:^3.0.3":
   version: 3.0.5
   resolution: "@jridgewell/resolve-uri@npm:3.0.5"
@@ -2010,6 +2025,13 @@ __metadata:
   version: 17.0.21
   resolution: "@types/node@npm:17.0.21"
   checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.0.1":
+  version: 14.18.12
+  resolution: "@types/node@npm:14.18.12"
+  checksum: 8a0273caa0584020adb8802784fc7d4f18f05e6c205335b7f3818a91d6b0c22736b9f51da3428d5bc54076ad47f1a4d6d57990a3ce8489a520ac66b2b3ff24bc
   languageName: node
   linkType: hard
 
@@ -2685,6 +2707,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^16.2.1
     "@commitlint/config-conventional": ^16.2.1
+    "@fast-csv/parse": ^4.3.6
     "@mdn/browser-compat-data": ^4.1.12
     "@svgr/webpack": ^6.2.1
     "@types/caniuse-lite": ^1.0.1
@@ -2700,6 +2723,7 @@ __metadata:
     deepmerge: ^4.2.2
     escape-string-regexp: ^4.0.0
     execa: ^5.1.1
+    fzf: ^0.5.1
     globby: ^11.1.0
     gray-matter: ^4.0.2
     husky: ^7.0.4
@@ -2716,9 +2740,11 @@ __metadata:
     prettier-plugin-rational-order: ^1.0.3
     react: 17.0.2
     react-dom: 17.0.2
+    regexp-match-indices: ^1.0.2
     remark: ^14.0.1
     remark-html: ^15.0.0
     semver: ^7.3.5
+    ts-node: ^10.7.0
     typescript: ^4.5.5
   languageName: unknown
   linkType: soft
@@ -3501,6 +3527,13 @@ __metadata:
   version: 1.1.1
   resolution: "function-bind@npm:1.1.1"
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
+  languageName: node
+  linkType: hard
+
+"fzf@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "fzf@npm:0.5.1"
+  checksum: 5c5f56ec9fdd83c7edba58425aa3fadd587aeb9d18b013b8a0f14c80f8eef6b068249786b2e3707be9306fe877f21107f9dce5b4aabb58ee7f488de32191e62a
   languageName: node
   linkType: hard
 
@@ -4344,10 +4377,52 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.escaperegexp@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "lodash.escaperegexp@npm:4.1.2"
+  checksum: 6d99452b1cfd6073175a9b741a9b09ece159eac463f86f02ea3bee2e2092923fce812c8d2bf446309cc52d1d61bf9af51c8118b0d7421388e6cead7bd3798f0f
+  languageName: node
+  linkType: hard
+
+"lodash.groupby@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "lodash.groupby@npm:4.6.0"
+  checksum: e2d4d13d12790a1cacab3f5f120b7c072a792224e83b2f403218866d18efde76024b2579996dfebb230a61ce06469332e16639103669a35a605287e19ced6b9b
+  languageName: node
+  linkType: hard
+
+"lodash.isfunction@npm:^3.0.9":
+  version: 3.0.9
+  resolution: "lodash.isfunction@npm:3.0.9"
+  checksum: 99e54c34b1e8a9ba75c034deb39cedbd2aca7af685815e67a2a8ec4f73ec9748cda6ebee5a07d7de4b938e90d421fd280e9c385cc190f903ac217ac8aff30314
+  languageName: node
+  linkType: hard
+
+"lodash.isnil@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "lodash.isnil@npm:4.0.0"
+  checksum: ebf8df69879badd6ad99c4f64c54c470248df5cf92b208ca730861b1d8ac058da7b632ac811d18b0929d93cbac8d8fc866e781ee816b0142c56952e85edc682f
+  languageName: node
+  linkType: hard
+
+"lodash.isundefined@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "lodash.isundefined@npm:3.0.1"
+  checksum: 52b4d99a47bd41daa4e2860200258f56b1f2c99263c11a5f607fbbd91d6447fe674bdafc172735d099908a09136d4a0f98cf79715e38ca4b490fdda7162be289
+  languageName: node
+  linkType: hard
+
 "lodash.map@npm:^4.5.1":
   version: 4.6.0
   resolution: "lodash.map@npm:4.6.0"
   checksum: 7369a41d7d24d15ce3bbd02a7faa3a90f6266c38184e64932571b9b21b758bd10c04ffd117d1859be1a44156f29b94df5045eff172bf8a97fddf68bf1002d12f
+  languageName: node
+  linkType: hard
+
+"lodash.uniq@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.uniq@npm:4.5.0"
+  checksum: a4779b57a8d0f3c441af13d9afe7ecff22dd1b8ce1129849f71d9bbc8e8ee4e46dfb4b7c28f7ad3d67481edd6e51126e4e2a6ee276e25906d10f7140187c392d
   languageName: node
   linkType: hard
 
@@ -5486,6 +5561,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regexp-match-indices@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "regexp-match-indices@npm:1.0.2"
+  dependencies:
+    regexp-tree: ^0.1.11
+  checksum: 8cc779f6cf8f404ead828d09970a7d4bd66bd78d43ab9eb2b5e65f2ef2ba1ed53536f5b5fa839fb90b350365fb44b6a851c7f16289afc3f37789c113ab2a7916
+  languageName: node
+  linkType: hard
+
+"regexp-tree@npm:^0.1.11":
+  version: 0.1.24
+  resolution: "regexp-tree@npm:0.1.24"
+  bin:
+    regexp-tree: bin/regexp-tree
+  checksum: 5807013289d9205288d665e0f8d8cff94843dfd55fdedd1833eb9d9bbd07188a37dfa02942ec5cdc671180037f715148fac1ba6f18fd6be4268e5a8feb49d340
+  languageName: node
+  linkType: hard
+
 "regexpu-core@npm:^5.0.1":
   version: 5.0.1
   resolution: "regexpu-core@npm:5.0.1"
@@ -6263,7 +6356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.6.0":
+"ts-node@npm:^10.6.0, ts-node@npm:^10.7.0":
   version: 10.7.0
   resolution: "ts-node@npm:10.7.0"
   dependencies:

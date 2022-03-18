@@ -1,16 +1,22 @@
 import useHydrated from '@/utils/hooks/useHydrated'
 import useTheme, { Themes } from '@/utils/hooks/useTheme'
 import Link from 'next/link'
+import Search from '../search/search'
 import ExternalLink from './externalLink'
 import Image from './image'
 import styles from './layout.module.css'
 
 export const siteTitle = 'compat.codes'
 
-export default function Layout({ children }: any) {
+export default function Layout({
+	children,
+	excludeSearch,
+}: {
+	children: any
+	excludeSearch?: boolean
+}) {
 	const isHydrated = useHydrated()
 	const [theme, setTheme] = useTheme()
-
 	return (
 		<div className={styles.container}>
 			<header className={styles.header}>
@@ -19,6 +25,7 @@ export default function Layout({ children }: any) {
 						<Image src="logo" />
 					</a>
 				</Link>
+				{!excludeSearch && <Search className={styles.search} floating />}
 				<ExternalLink
 					href="https://www.github.com/shnhrrsn/compat"
 					className={styles.github}
@@ -43,7 +50,11 @@ export default function Layout({ children }: any) {
 				</div>
 				<div>
 					{isHydrated && (
-						<select onChange={e => setTheme(e.target.value as any)} value={theme}>
+						<select
+							onChange={e => setTheme(e.target.value as any)}
+							value={theme}
+							tabIndex={-1}
+						>
 							{Themes.map(theme => (
 								<option key={theme} value={theme}>
 									{theme}
