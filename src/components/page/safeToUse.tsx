@@ -1,19 +1,11 @@
-import Image from '@/components/shared/image'
 import styles from '@/pages/page.module.css'
-import classNames from 'classnames'
+import CircledImage from '../shared/circledImage'
 
 export default function SafeToUse({ title, usage }: { title: string | null; usage: number }) {
 	const safeToUse = usage >= 0.8
 	return (
 		<div className={styles.safeToUse}>
-			<div
-				className={classNames(
-					styles.safeToUseIcon,
-					safeToUse ? styles.safeToUseIconSafe : styles.safeToUseIconUnsafe,
-				)}
-			>
-				<Image src={safeToUse ? 'check' : 'times'} />
-			</div>
+			<CircledImage src={safeToUse ? 'check' : 'times'} size="large" />
 			<div className={styles.safeToUseText}>
 				<p>
 					<code>{title}</code> is{' '}

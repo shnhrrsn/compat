@@ -1,0 +1,53 @@
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-background);
+	border-radius: 50%;
+}
+
+.src {
+	width: inherit;
+	height: inherit;
+}
+
+.src path,
+.src rect,
+.src circle {
+	fill: #fff;
+}
+
+.sizeLarge {
+	width: 48px;
+	height: 48px;
+}
+
+.sizeLarge .src {
+	width: 32px;
+	height: 32px;
+}
+
+.sizeSmall {
+	width: 18px;
+	height: 18px;
+}
+
+.styleAsterisk {
+	background: var(--color-foreground-rating-mid);
+}
+
+.styleCheck {
+	background: var(--color-foreground-rating-good);
+}
+
+.styleFlag {
+	background: var(--base0D);
+}
+
+.stylePrefix {
+	background: var(--base0E);
+}
+
+.styleTimes {
+	background: var(--color-foreground-rating-none);
+}
