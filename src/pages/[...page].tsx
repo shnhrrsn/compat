@@ -19,7 +19,7 @@ export default function Home(props: Page) {
 
 			<article>
 				<h1>{props.title}</h1>
-				{props.html && <div dangerouslySetInnerHTML={{ __html: props.html }} />}
+				{props.html.intro && <div dangerouslySetInnerHTML={{ __html: props.html.intro }} />}
 				{(props.urls.mdn || props.urls.spec) && (
 					<cite>
 						{props.urls.mdn && (
@@ -65,8 +65,12 @@ export default function Home(props: Page) {
 						))}
 					</tbody>
 				</table>
-				<h3>Debug</h3>
-				<pre>{JSON.stringify(props, null, 2)}</pre>
+				{props.html.seeAlso && (
+					<>
+						<h3>See Also</h3>
+						<div dangerouslySetInnerHTML={{ __html: props.html.seeAlso }} />
+					</>
+				)}
 			</article>
 		</Layout>
 	)

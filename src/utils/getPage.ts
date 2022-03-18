@@ -6,7 +6,10 @@ import { loadMetadata } from './page/loadMetadata'
 
 export type PageMetadata = {
 	title: string | null
-	html: string | null
+	html: {
+		intro: string | null
+		seeAlso: string | null
+	}
 }
 
 export type SupportVersion = {

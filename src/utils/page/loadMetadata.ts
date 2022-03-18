@@ -27,7 +27,7 @@ export async function loadMetadata(page: string[], compat: CompatStatement): Pro
 
 		return {
 			title: (matter.data.title as string) ?? null,
-			html: await renderMarkdown(matter.content),
+			html: await renderPageMarkdown(matter.content),
 		}
 	} catch (error: any) {
 		if (error.code === 'ENOENT') {
@@ -41,19 +41,34 @@ export async function loadMetadata(page: string[], compat: CompatStatement): Pro
 function generateFallback(page: string[], compat: CompatStatement): PageMetadata {
 	return {
 		title: page.slice(page.length - 2).join(' '),
-		html: compat.description ?? null,
+		html: {
+			intro: compat.description ?? null,
+			seeAlso: null,
+		},
 	}
 }
 
-function renderMarkdown(markdown: string) {
+function renderPageMarkdown(markdown: string) {
+	const intro = markdown
+		.replace(/^(\s*\{\{.+?\}\}\s*)+/g, '')
+		.trim()
+		.split(/\n\n/)[0]
+	const seeAlso = (markdown.match(/#\s*See\s+(?:also|more)\s+([\-\*][\s\S]+?)(\n#|$)/i) ??
+		[])[1]?.trim()
+
+	return Promise.all([renderMarkdown(intro), renderMarkdown(seeAlso)]).then(
+		([intro, seeAlso]) => ({ intro, seeAlso }),
+	)
+}
+
+function renderMarkdown(markdown?: string | null) {
+	if (!markdown) {
+		return null
+	}
+
 	return remark()
 		.use(html)
-		.process(
-			markdown
-				.replace(/^(\s*\{\{.+?\}\}\s*)+/g, '')
-				.trim()
-				.split(/\n\n/)[0],
-		)
+		.process(markdown)
 		.then(result =>
 			formatMacros(
 				result
