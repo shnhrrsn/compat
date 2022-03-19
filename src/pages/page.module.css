@@ -60,12 +60,7 @@
 	width: 24px;
 	height: 24px;
 	margin-right: 15px;
-}
-
-.agentIcon path,
-.agentIcon rect,
-.agentIcon circle {
-	fill: var(--color-foreground-secondary);
+	color: var(--color-foreground-secondary);
 }
 
 .agentName {
@@ -144,13 +139,9 @@
 	color: var(--color-accent);
 }
 
-.breakdownRow[tabindex]:focus .breakdownIcon path,
-.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon path,
-.breakdownRow[tabindex]:focus .breakdownIcon rect,
-.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon rect,
-.breakdownRow[tabindex]:focus .breakdownIcon circle,
-.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon circle {
-	fill: currentColor;
+.breakdownRow[tabindex]:focus .breakdownIcon,
+.breakdownRow[tabindex]:hover:not(:focus) .breakdownIcon {
+	color: currentColor;
 }
 
 .breakdownRow-chrome[tabindex]:focus,
