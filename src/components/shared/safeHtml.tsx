@@ -4,6 +4,7 @@ import rehypeReact from 'rehype-react'
 import { unified } from 'unified'
 import { Data, Node, NodeData, Parent } from 'unist'
 import ExternalLink from './externalLink'
+import Image from './image'
 
 export type SafeHtmlAst = {
 	id: string
@@ -25,7 +26,16 @@ export default function SafeHtml({ ast }: { ast: SafeHtmlAst }) {
 }
 
 function $createElement(type: any, props?: any, ...args: any[]) {
-	if (type !== 'a') {
+	if (type === 'icon') {
+		switch (props?.src) {
+			case 'nonstandard':
+				return <Image src="warning" inline />
+			case 'experimental':
+				return <Image src="experimental" inline />
+		}
+
+		return undefined
+	} else if (type !== 'a') {
 		return createElement(type, props, ...args)
 	} else if ('internal' in props) {
 		const { href, key, ...linkProps } = props
