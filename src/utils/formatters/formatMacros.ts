@@ -5,11 +5,13 @@ type Parser = (...args: string[]) => RegExp
 type TitleFormatter = (ref: string, title: string) => string
 
 const parsers: Record<string, Parser> = {
-	jsxref: parseJsxRef,
 	cssxref: parseCssxRef,
-	htmlelement: parseHTMLElement,
 	domxref: parseDomxRef,
+	event: parseEvent,
+	htmlelement: parseHTMLElement,
+	httpheader: parseHTTPHeader,
 	httpstatus: parseHTTPStatus,
+	jsxref: parseJsxRef,
 }
 
 const titleFormatters: Record<string, TitleFormatter> = {
@@ -26,6 +28,8 @@ export default async function formatMacros(content: string): Promise<string> {
 
 		if (macro === 'interwiki') {
 			return formatInterwiki(ref, title, ...args) ?? original
+		} else if (macro === 'glossary') {
+			return formatGlossary(ref, title) ?? original
 		}
 
 		const parseHref = parsers[macro.toLowerCase()]
@@ -95,6 +99,16 @@ function parseDomxRef(ref: string) {
 	return new RegExp(`^\/api\/.*${pathname.replace(/(\\\(\\\))/g, '(?:$1)?')}$`, 'i')
 }
 
+function parseEvent(ref: string) {
+	const name = escapeStringRegexp(ref.replace(/\./g, '/'))
+	return new RegExp(`^\/api\/.*${name}_event$`, 'i')
+}
+
+function parseHTTPHeader(ref: string) {
+	const name = escapeStringRegexp(ref)
+	return new RegExp(`^\/http\/headers\/.*${name}$`, 'i')
+}
+
 function formatHTMLElementTitle(ref: string, title: string) {
 	if (title === ref && ref.indexOf(' ') === -1) {
 		return `&lt;${title}&gt;`
@@ -118,4 +132,9 @@ function formatInterwiki(ref: string, path: string, title?: string) {
 		default:
 			return null
 	}
+}
+
+function formatGlossary(ref: string, title?: string) {
+	title = title ?? ref
+	return `<a href="/en-US/docs/Glossary/${ref.replace(/\s+/g, '_')}">${title}</a>`
 }
