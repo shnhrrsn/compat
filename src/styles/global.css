@@ -193,6 +193,11 @@ code {
 	display: inline-block;
 }
 
+strong code,
+code strong {
+	font-weight: 600;
+}
+
 code::before {
 	content: '';
 	position: absolute;
