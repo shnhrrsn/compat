@@ -21,6 +21,7 @@ import Prefix from '@/public/images/prefix.svg'
 import Safari from '@/public/images/safari.svg'
 import SamsungInternet from '@/public/images/samsung-internet.svg'
 import Times from '@/public/images/times.svg'
+import Trash from '@/public/images/trash.svg'
 import Warning from '@/public/images/warning.svg'
 import classNames from 'classnames'
 import styles from './image.module.css'
@@ -49,6 +50,7 @@ const ImageSrc = {
 	'safari': Safari,
 	'samsung-internet': SamsungInternet,
 	'times': Times,
+	'trash': Trash,
 	'warning': Warning,
 }
 
