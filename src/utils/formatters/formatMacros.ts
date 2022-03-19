@@ -1,25 +1,35 @@
 import escapeStringRegexp from 'escape-string-regexp'
 import getAllPages from '../getAllPages'
 
+type Parser = (...args: string[]) => RegExp
+type TitleFormatter = (ref: string, title: string) => string
+
+const parsers: Record<string, Parser> = {
+	jsxref: parseJsxRef,
+	cssxref: parseCssxRef,
+	htmlelement: parseHTMLElement,
+	domxref: parseDomxRef,
+}
+
+const titleFormatters: Record<string, TitleFormatter> = {
+	htmlelement: formatHTMLElementTitle,
+}
+
 export default async function formatMacros(content: string): Promise<string> {
 	const pages = (await getAllPages()).sort((lhs, rhs) => lhs.length - rhs.length)
-	return content
-		.replace(
-			/\{\{jsxref\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseJsxRef, null),
+	return content.replace(/\{\{\s*(\w+)\s*\((.+?)\)\s*\}\}/gi, (original, macro, rawParams) => {
+		const parseHref = parsers[macro]
+
+		if (!parseHref) {
+			console.warn(`Unsupported macro: ${macro}`)
+			return original
+		}
+
+		const [ref, title, ...args] = Array.from(rawParams.matchAll(/"(.+?)"/g)).map(
+			m => (m as string[])[1],
 		)
-		.replace(
-			/\{\{cssxref\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseCssxRef, null),
-		)
-		.replace(
-			/\{\{HTMLElement\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseHTMLElement, formatHTMLElementTitle),
-		)
-		.replace(
-			/\{\{DOMxRef\(\s*"(.+?)"(?:,\s*"(.+?)")?\s*\)\}\}/gi,
-			formatRef.bind(null, pages, parseDomxRef, null),
-		)
+		return formatRef(pages, parseHref, titleFormatters[macro], ref, title, ...args)
+	})
 }
 
 function formatRef<
@@ -29,7 +39,6 @@ function formatRef<
 	pages: string[],
 	parseHref: T,
 	formatTitle: F | undefined | null,
-	_: string,
 	ref: string,
 	title?: string,
 	...args: string[]
@@ -45,7 +54,7 @@ function formatRef<
 		return content
 	}
 
-	return `<a href="${href}">${content}</a>`
+	return `<a internal href="${href}">${content}</a>`
 }
 
 function parseJsxRef(ref: string) {
