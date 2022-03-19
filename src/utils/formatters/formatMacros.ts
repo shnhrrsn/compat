@@ -1,4 +1,3 @@
-import assert from 'assert'
 import getAllPages from '../getAllPages'
 import * as macros from '../macros'
 
@@ -42,9 +41,11 @@ export default async function formatMacros(content: string): Promise<string> {
 
 			if ('transform' in $macro) {
 				return $macro.transform(ref, title, ...args) ?? original
+			} else if (!('parse' in $macro)) {
+				console.warn(`Missing parse or transform macro: ${macro}`)
+				return original
 			}
 
-			assert('parse' in $macro)
 			return formatRef(pages, $macro.parse, $macro.formatTitle, ref, title, ...args)
 		},
 	)

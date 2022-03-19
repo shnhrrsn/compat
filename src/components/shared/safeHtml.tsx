@@ -32,6 +32,8 @@ function $createElement(type: any, props?: any, ...args: any[]) {
 				return <Image src="warning" inline />
 			case 'experimental':
 				return <Image src="experimental" inline />
+			case 'deprecated':
+				return <Image src="trash" inline />
 		}
 
 		return undefined
