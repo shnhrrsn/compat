@@ -305,3 +305,14 @@ li small {
 li::marker {
 	color: var(--color-foreground-secondary);
 }
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 30px;
+		word-break: break-all;
+	}
+
+	code {
+		word-break: break-all;
+	}
+}

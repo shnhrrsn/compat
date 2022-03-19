@@ -48,7 +48,13 @@ export default function Search({
 	})
 
 	return (
-		<div className={classNames(styles.container, floating ? styles.floating : className)}>
+		<div
+			className={classNames(
+				styles.container,
+				floating ? styles.floating : undefined,
+				className,
+			)}
+		>
 			<div className={styles.search}>
 				<input
 					type="text"

@@ -14,6 +14,8 @@
 }
 
 .icon {
+	flex-grow: 0;
+	flex-shrink: 0;
 	width: 48px;
 	height: 48px;
 }
@@ -35,4 +37,10 @@
 
 .deprecated {
 	background: var(--base0F);
+}
+
+@media only screen and (max-width: 600px) {
+	.icon {
+		display: none;
+	}
 }
