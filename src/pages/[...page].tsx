@@ -2,6 +2,7 @@ import Agents from '@/components/page/agents'
 import Breakdown from '@/components/page/breakdown'
 import Contribute from '@/components/page/contribute'
 import SafeToUse from '@/components/page/safeToUse'
+import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
@@ -35,6 +36,8 @@ export default function Home(props: Page) {
 					</cite>
 				)}
 				<h3>Safe to Use</h3>
+				{props.status?.experimental && <ExperimentalCard />}
+				{props.status?.deprecated && <DeprecatedCard />}
 				<SafeToUse title={props.title} usage={props.usage} />
 				<h3>Browsers</h3>
 				<Agents agents={browsers} support={props.support} />

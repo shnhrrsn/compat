@@ -1,0 +1,38 @@
+.card {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	margin: 0 0 40px;
+	padding: 16px 20px;
+	color: #fff;
+	background: var(--base01);
+	border-radius: 8px;
+}
+
+.content {
+	padding-top: 1px;
+}
+
+.icon {
+	width: 48px;
+	height: 48px;
+}
+
+.card a {
+	color: currentColor;
+	font-size: 0.8em;
+	opacity: 0.75;
+	transition: opacity 0.2s ease;
+}
+
+.card a:hover {
+	opacity: 1;
+}
+
+.experimental {
+	background: var(--base0D);
+}
+
+.deprecated {
+	background: var(--base0F);
+}

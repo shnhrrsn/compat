@@ -1,6 +1,6 @@
 import { SafeHtmlAst } from '@/components/shared/safeHtml'
 import compatData from '@mdn/browser-compat-data'
-import { SimpleSupportStatement } from '@mdn/browser-compat-data/types'
+import { SimpleSupportStatement, StatusBlock } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
 import generateSupport from './page/generateSupport'
 import isIdentifierMeta from './page/isIdentifierMeta'
@@ -45,7 +45,16 @@ export type PageSupport = PageSupportVariant & {
 }
 
 export type Page = Omit<PageMetadata, 'urls'> & {
-	section: 'javascript' | 'html' | 'css'
+	section:
+		| 'api'
+		| 'css'
+		| 'html'
+		| 'http'
+		| 'javascript'
+		| 'mathml'
+		| 'svg'
+		| 'webdriver'
+		| 'webextensions'
 	query: string
 	urls: PageMetadata['urls'] & {
 		mdn: string | null
@@ -53,6 +62,7 @@ export type Page = Omit<PageMetadata, 'urls'> & {
 	}
 	usage: number
 	support: Record<string, PageSupport>
+	status: StatusBlock | null
 }
 
 export default async function getPage(page: string[]): Promise<Page> {
@@ -73,6 +83,7 @@ export default async function getPage(page: string[]): Promise<Page> {
 		},
 		usage: Object.values(support).reduce((curr, { usage }) => curr + (usage.global ?? 0), 0.0),
 		support,
+		status: data.__compat.status ?? null,
 		...metadata,
 	}
 }
