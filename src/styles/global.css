@@ -188,6 +188,25 @@ code {
 	font-family: var(--font-family-mono);
 }
 
+code {
+	position: relative;
+	display: inline-block;
+}
+
+code::before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	right: -2.5px;
+	bottom: 2px;
+	left: -2.5px;
+	display: block;
+	background: currentColor;
+	border-radius: 3px;
+	opacity: 0.1;
+	pointer-events: none;
+}
+
 a {
 	color: var(--color-accent);
 	text-decoration: none;
