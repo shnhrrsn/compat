@@ -22,6 +22,8 @@ import Safari from '@/public/images/safari.svg'
 import SamsungInternet from '@/public/images/samsung-internet.svg'
 import Times from '@/public/images/times.svg'
 import Warning from '@/public/images/warning.svg'
+import classNames from 'classnames'
+import styles from './image.module.css'
 
 const ImageSrc = {
 	'android': Android,
@@ -52,9 +54,27 @@ const ImageSrc = {
 
 export type ImageSrc = keyof typeof ImageSrc
 
-export default function Image({ src, className }: { src: ImageSrc; className?: string }) {
+export default function Image({
+	src,
+	className,
+	inline,
+	title,
+}: {
+	src: ImageSrc
+	className?: string
+	inline?: boolean
+	title?: string
+}) {
 	const Src = ImageSrc[src]
-	return <Src className={className} viewBox={src === 'logo' ? undefined : '0 0 32 32'} />
+	title ??= `${src} icon`
+	return (
+		<Src
+			className={classNames(inline ? styles.inline : undefined, className)}
+			viewBox={src === 'logo' ? undefined : '0 0 32 32'}
+			title={title}
+			alt={title}
+		/>
+	)
 }
 
 export function isValidImageSrc(src: string): src is keyof typeof ImageSrc {
