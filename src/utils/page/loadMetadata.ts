@@ -1,9 +1,14 @@
 import { CompatStatement } from '@mdn/browser-compat-data/types'
+import crypto from 'crypto'
 import execa from 'execa'
 import path from 'path'
-import { remark } from 'remark'
-import html from 'remark-html'
-import formatExternalLinks from '../formatters/formatExternaLinks'
+import rehypeParse from 'rehype-parse'
+import rehypeRaw from 'rehype-raw'
+import rehypeStringify from 'rehype-stringify'
+import remarkParse from 'remark-parse'
+import remarkRehype from 'remark-rehype'
+import { unified } from 'unified'
+import { removePosition } from 'unist-util-remove-position'
 import formatMacros from '../formatters/formatMacros'
 import { PageMetadata } from '../getPage'
 import { docs } from '../paths'
@@ -77,7 +82,7 @@ function generateFallback(page: string[], compat: CompatStatement): PageMetadata
 	return {
 		title: generateFallbackTitle(page, compat),
 		html: {
-			intro: compat.description ?? null,
+			intro: transformHtml(compat.description) ?? null,
 			seeAlso: null,
 		},
 		commit: null,
@@ -97,18 +102,33 @@ function renderPageMarkdown(markdown: string) {
 	const seeAlso = (markdown.match(/#\s*See\s+(?:also|more)\s+([\-\*][\s\S]+?)(\n#|$)/i) ??
 		[])[1]?.trim()
 
-	return Promise.all([renderMarkdown(intro), renderMarkdown(seeAlso)]).then(
+	return Promise.all([transformMarkdown(intro), transformMarkdown(seeAlso)]).then(
 		([intro, seeAlso]) => ({ intro, seeAlso }),
 	)
 }
 
-function renderMarkdown(markdown?: string | null) {
+function transformMarkdown(markdown?: string | null) {
 	if (!markdown) {
 		return null
 	}
 
-	return remark()
-		.use(html)
+	return unified()
+		.use(remarkParse)
+		.use(remarkRehype)
+		.use(rehypeRaw)
+		.use(rehypeStringify)
 		.process(markdown)
-		.then(result => formatMacros(formatExternalLinks(result.toString())))
+		.then(result => formatMacros(result.toString()))
+		.then(transformHtml)
+}
+
+function transformHtml(html?: string | null) {
+	if (!html) {
+		return null
+	}
+
+	return {
+		id: crypto.createHash('md5').update(html).digest('hex'),
+		tree: removePosition(unified().use(rehypeParse, { fragment: true }).parse(html), true),
+	}
 }

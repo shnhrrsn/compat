@@ -1,3 +1,4 @@
+import { SafeHtmlAst } from '@/components/shared/safeHtml'
 import compatData from '@mdn/browser-compat-data'
 import { SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
@@ -8,8 +9,8 @@ import loadMetadata from './page/loadMetadata'
 export type PageMetadata = {
 	title: string | null
 	html: {
-		intro: string | null
-		seeAlso: string | null
+		intro: SafeHtmlAst | null
+		seeAlso: SafeHtmlAst | null
 	}
 	urls: {
 		folder: string | null

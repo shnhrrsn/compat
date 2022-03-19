@@ -7,6 +7,7 @@ import Layout, { siteTitle } from '@/components/shared/layout'
 import getAllPages from '@/utils/getAllPages'
 import getPage, { Page } from '@/utils/getPage'
 import Head from 'next/head'
+import SafeHtml from '../components/shared/safeHtml'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
 const servers = ['nodejs', 'deno']
@@ -22,7 +23,7 @@ export default function Home(props: Page) {
 
 			<article>
 				<h1>{props.title}</h1>
-				{props.html.intro && <div dangerouslySetInnerHTML={{ __html: props.html.intro }} />}
+				{props.html.intro && <SafeHtml ast={props.html.intro} />}
 				{(props.urls.mdn || props.urls.spec) && (
 					<cite>
 						{props.urls.mdn && (
@@ -48,7 +49,7 @@ export default function Home(props: Page) {
 				{props.html.seeAlso && (
 					<>
 						<h3>See Also</h3>
-						<div dangerouslySetInnerHTML={{ __html: props.html.seeAlso }} />
+						<SafeHtml ast={props.html.seeAlso} />
 					</>
 				)}
 				<h3>Contribute</h3>
