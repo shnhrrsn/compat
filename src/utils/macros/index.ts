@@ -1,3 +1,4 @@
+export * as bug from './bug'
 export * as cssxref from './cssxref'
 export * as domxref from './domxref'
 export * as event from './event'
