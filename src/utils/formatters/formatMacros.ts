@@ -9,6 +9,7 @@ const parsers: Record<string, Parser> = {
 	cssxref: parseCssxRef,
 	htmlelement: parseHTMLElement,
 	domxref: parseDomxRef,
+	httpstatus: parseHTTPStatus,
 }
 
 const titleFormatters: Record<string, TitleFormatter> = {
@@ -18,16 +19,22 @@ const titleFormatters: Record<string, TitleFormatter> = {
 export default async function formatMacros(content: string): Promise<string> {
 	const pages = (await getAllPages()).sort((lhs, rhs) => lhs.length - rhs.length)
 	return content.replace(/\{\{\s*(\w+)\s*\((.+?)\)\s*\}\}/gi, (original, macro, rawParams) => {
-		const parseHref = parsers[macro]
+		macro = macro.toLowerCase()
+		const [ref, title, ...args] = Array.from(
+			rawParams.matchAll(/(?:(?:(?:^|,\s*)(\d+)(?:$|\s*,))|(?:["'])(.+?)(?:["']))/g),
+		).map(m => (m as string[])[1] ?? (m as string[])[2])
+
+		if (macro === 'interwiki') {
+			return formatInterwiki(ref, title, ...args) ?? original
+		}
+
+		const parseHref = parsers[macro.toLowerCase()]
 
 		if (!parseHref) {
 			console.warn(`Unsupported macro: ${macro}`)
 			return original
 		}
 
-		const [ref, title, ...args] = Array.from(rawParams.matchAll(/"(.+?)"/g)).map(
-			m => (m as string[])[1],
-		)
 		return formatRef(pages, parseHref, titleFormatters[macro], ref, title, ...args)
 	})
 }
@@ -94,4 +101,21 @@ function formatHTMLElementTitle(ref: string, title: string) {
 	}
 
 	return title
+}
+
+function parseHTTPStatus(ref: string) {
+	return new RegExp(`^\/http\/status\/${ref}$`)
+}
+
+function formatInterwiki(ref: string, path: string, title?: string) {
+	title = title ?? path
+
+	switch (ref) {
+		case 'wikipedia':
+			return `<a href="https://en.wikipedia.org/wiki/${path}">${title}</a>`
+		case 'wikimo':
+			return `<a href="https://wiki.mozilla.org/${path}">${title}</a>`
+		default:
+			return null
+	}
 }
