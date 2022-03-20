@@ -1,0 +1,72 @@
+.themes {
+	display: flex;
+	align-items: center;
+	height: 26px;
+	padding: 0;
+	color: var(--color-foreground-secondary);
+	font-size: 12px;
+	background-color: var(--color-background);
+	border-radius: 13px;
+	box-shadow: 0 0 0 2px var(--color-background), 0 0 0 4px currentColor;
+	transition: color 0.2s ease;
+}
+
+.themes:hover {
+	color: var(--color-accent);
+}
+
+.theme {
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: inherit;
+	margin: 0;
+	padding: 0 10px;
+	color: inherit;
+	font-weight: 500;
+	font-family: var(--font-family-text);
+	background: none;
+	border: none;
+	border-radius: inherit;
+	outline: none;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+	appearance: none;
+}
+
+.theme + .theme {
+	margin-left: -3px;
+}
+
+.title {
+	position: relative;
+	z-index: 1;
+}
+
+.theme::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	display: block;
+	background-color: currentColor;
+	border-radius: inherit;
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.theme:hover::before {
+	opacity: 0.2;
+}
+
+.active::before,
+.active:hover::before {
+	opacity: 1;
+}
+
+.active .title {
+	color: var(--color-background);
+}

@@ -6,6 +6,7 @@ import Search from '../search/search'
 import ExternalLink from './externalLink'
 import Image from './image'
 import styles from './layout.module.css'
+import { ThemePicker } from './themePicker'
 
 export const siteTitle = 'compat.codes'
 
@@ -66,17 +67,7 @@ export default function Layout({
 					</div>
 					<div>
 						{isHydrated && (
-							<select
-								onChange={e => setTheme(e.target.value as any)}
-								value={theme}
-								tabIndex={-1}
-							>
-								{Themes.map(theme => (
-									<option key={theme} value={theme}>
-										{theme}
-									</option>
-								))}
-							</select>
+							<ThemePicker themes={Themes} theme={theme} setTheme={setTheme} />
 						)}
 					</div>
 				</footer>
