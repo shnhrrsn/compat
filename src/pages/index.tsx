@@ -1,137 +1,65 @@
 import Search from '@/components/search/search'
 import Layout from '@/components/shared/layout'
-import { cached } from '@/utils/cache'
-import getAllPages from '@/utils/getAllPages'
-import maybeMap from '@/utils/maybeMap'
-import generateFallbackTitle from '@/utils/page/generateFallbackTitle'
-import loadCompat from '@/utils/page/loadCompat'
-import loadFrontMatter from '@/utils/page/loadFrontMatter'
-import { reduceUnique } from '@/utils/unique'
-import assert from 'assert'
-import escapeStringRegexp from 'escape-string-regexp'
+import getRecents from '@/utils/getRecents'
+import compatData from '@mdn/browser-compat-data'
 import Link from 'next/link'
-import fetch from 'node-fetch'
+import styles from './index.module.css'
 
-export default function Index({ recent }: { recent: { href: string; title: string }[] }) {
+type PageRef = { href: string; title: string }
+
+export default function Index({
+	recent,
+	popular,
+	sections,
+}: {
+	recent: PageRef[]
+	popular: PageRef[]
+	sections: PageRef[]
+}) {
 	return (
 		<Layout excludeSearch>
 			<Search autoFocus />
-			<h3>Recently Updated</h3>
-			<ul>
-				{recent.map(({ href, title }) => (
-					<li key={href}>
-						<Link href={href}>
-							<a>{title ?? <code>{href}</code>}</a>
-						</Link>
-					</li>
-				))}
-			</ul>
+			<div className={styles.sections}>
+				<Section title="Popular" pages={popular} tag="ol" />
+				<Section title="Recently Updated" pages={recent} />
+				<Section title="Sections" pages={sections} />
+			</div>
 		</Layout>
 	)
 }
 
-export async function getStaticProps() {
-	const pages = (await getAllPages()).sort((lhs, rhs) => lhs.length - rhs.length)
-	const compare = await getCompare()
+function Section({ title, pages, tag }: { title: string; pages: PageRef[]; tag?: 'ol' | 'ul' }) {
+	const List = (tag ?? 'ul') as any
+	return (
+		<div className={styles.section}>
+			<h4>{title}</h4>
+			<List className={styles.list}>
+				{pages.map(({ href, title }) => (
+					<li key={href}>
+						<Link href={href}>
+							<a className={styles.item}>{title ?? <code>{href}</code>}</a>
+						</Link>
+					</li>
+				))}
+			</List>
+		</div>
+	)
+}
 
-	// Map commit sha to date
-	const commits = new Map(
-		compare.commits.map((commit: any) => [
-			commit.sha,
-			maybeMap(
-				commit.commit?.committer?.date ?? commit.commit?.author?.date,
-				(date: any) => new Date(date),
-			),
-		]),
+export async function getStaticProps() {
+	const popular = await import('@/public/@data/search-index.json').then(({ data }) =>
+		data.slice(0, 15),
 	)
 
-	const recent = (compare.files as any[])
-		// Filter out any removed files + non-json files
-		.filter(
-			({ filename, status }: any) =>
-				status !== 'removed' && filename.includes('/') && filename.endsWith('.json'),
-		)
-
-		// Get date of change + path pattern
-		.map((file: any) => {
-			const date = commits.get(new URL(file.contents_url).searchParams.get('ref')) as Date
-			const patch: string = file.patch.replace(/^\-.*$/gm, '').replace(/^\+/gm, ' ')
-			const keys = Array.from(patch.matchAll(/"([^"]+?)":\s*\{\s*"__compat"/gm)).map(
-				([, key]) => key,
-			)
-			const patterns = keys.map(
-				(key: string) =>
-					new RegExp(
-						`^\/${escapeStringRegexp(
-							file.filename.substring(0, file.filename.length - 5),
-						)}.*${escapeStringRegexp(key)}$`,
-						'i',
-					),
-			)
-
-			return { date, patterns }
-		})
-
-		// Filter out missing dates
-		.filter(({ date }) => date && date instanceof Date)
-
-		// Sort by most recent
-		.sort((lhs, rhs) => lhs.date.getTime() - rhs.date.getTime())
-
-		// Map to patterns
-		.map(({ patterns }) => patterns)
-
-		// Flatten array of array of patterns
-		.flat()
-
-		// Match to page
-		.map((pattern: RegExp) => pages.find(page => pattern.test(page)))
-
-		// Filter out failed matches
-		.filter((page: any): page is string => typeof page === 'string')
-
-		// Remove any duplicates
-		.reduce(reduceUnique(), [])
-
-		// Grab the first 25
-		.slice(0, 25)
-
-		// Get page title
-		.map(async (href: string) => {
-			const page = href.substring(1).split(/\//)
-			const compat = await loadCompat(href.substring(1).split(/\//))
-			const title = await loadFrontMatter({ compat })
-				.then(({ data }) => data.title)
-				.catch(error => {
-					if (error.code !== 'ENOENT') {
-						throw error
-					}
-
-					return generateFallbackTitle(page, compat)
-				})
-
-			assert(typeof title === 'string')
-
-			return { href, title }
-		})
+	const sections = Object.keys(compatData)
+		.filter(key => key !== 'browsers')
+		.map(key => ({ title: key, href: key }))
 
 	return {
 		props: {
-			recent: await Promise.all(recent),
+			recent: (await getRecents()).slice(0, 15),
+			popular,
+			sections,
 		},
 	}
-}
-
-async function getCompare() {
-	return cached('compare', 5 * 60 * 1_000, () =>
-		fetch('https://api.github.com/repos/mdn/browser-compat-data/compare/main~50...main').then(
-			result => {
-				if (!result.ok) {
-					throw new Error(`Failed: ${result.status}`)
-				}
-
-				return result.json()
-			},
-		),
-	).then(compare => JSON.parse(JSON.stringify(compare)))
 }
