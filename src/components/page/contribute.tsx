@@ -65,16 +65,14 @@ function getCompatDataNewIssueURL(props: Page) {
 
 // Source: https://github.com/mdn/yari/blob/dae87b2b0e92c55ab9f7be8fabac3c4770bf43b6/client/src/document/on-github.tsx
 function getDocsNewIssueURL(props: Page) {
-	const labelPrefixes = {
+	const labelPrefixes: Record<string, string> = {
 		javascript: 'JS',
 		css: 'CSS',
 		html: 'HTML',
 		api: 'WebAPI',
 		http: 'HTTP',
 		svg: 'SVG',
-		media: 'Media',
 		mathml: 'MathML',
-		accessibility: 'Accessibility',
 	}
 
 	const url = 'https://github.com/mdn/content/issues/new'
