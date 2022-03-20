@@ -2,6 +2,7 @@ import Agents from '@/components/page/agents'
 import Breakdown from '@/components/page/breakdown'
 import Contribute from '@/components/page/contribute'
 import SafeToUse from '@/components/page/safeToUse'
+import Breadcrumbs from '@/components/shared/breadcrumbs'
 import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout from '@/components/shared/layout'
@@ -41,7 +42,7 @@ export default function Page(props: PageProps) {
 	}
 
 	return (
-		<Layout title={props.title}>
+		<Layout title={props.title} aside={<Breadcrumbs crumbs={props.path} />}>
 			<article>
 				<h1>{props.title}</h1>
 				{props.html.intro && <SafeHtml ast={props.html.intro} />}
