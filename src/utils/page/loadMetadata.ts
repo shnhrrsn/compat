@@ -96,7 +96,7 @@ function generateFallback(page: string[], compat: CompatStatement): PageMetadata
 
 function renderPageMarkdown(markdown: string) {
 	const intro = markdown
-		.replace(/^(\s*\{\{.+?\}\}\s*)+/g, '')
+		.replace(/^(\s*\{\{[\s\S]+?\}\}\s*)+/g, '')
 		.trim()
 		.split(/\n\n/)[0]
 	const seeAlso = (markdown.match(/#\s*See\s+(?:also|more)\s+([\-\*][\s\S]+?)(\n#|$)/i) ??
