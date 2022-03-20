@@ -76,7 +76,7 @@ function computePageviews(data) {
 	/** @type {(href:string) => ReturnType<loadPage>} */
 	const $loadPage = loadPage.bind(null, pageviews)
 
-	const pages = await getAllPages()
+	const pages = await getAllPages({ listings: false })
 	const data = await Promise.all(pages.map($loadPage))
 	data.sort((lhs, rhs) => rhs.pageviews - lhs.pageviews)
 
