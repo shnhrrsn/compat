@@ -4,16 +4,42 @@ import Contribute from '@/components/page/contribute'
 import SafeToUse from '@/components/page/safeToUse'
 import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import ExternalLink from '@/components/shared/externalLink'
-import Layout, { siteTitle } from '@/components/shared/layout'
-import getAllPages from '@/utils/getAllPages'
-import getPage, { Page } from '@/utils/getPage'
-import Head from 'next/head'
-import SafeHtml from '../components/shared/safeHtml'
+import Layout from '@/components/shared/layout'
+import SafeHtml from '@/components/shared/safeHtml'
+import { PageMetadata, PageSupport } from '@/utils/getPage'
+import { StatusBlock } from '@mdn/browser-compat-data/types'
+import Error404 from './404'
+
+export type PageProps = Omit<PageMetadata, 'urls'> & {
+	section:
+		| 'api'
+		| 'css'
+		| 'html'
+		| 'http'
+		| 'javascript'
+		| 'mathml'
+		| 'svg'
+		| 'webdriver'
+		| 'webextensions'
+	path: string[]
+	query: string
+	urls: PageMetadata['urls'] & {
+		mdn: string | null
+		spec: string | null
+	}
+	usage: number
+	support: Record<string, PageSupport>
+	status: StatusBlock | null
+}
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
 const servers = ['nodejs', 'deno']
 
-export default function Home(props: Page) {
+export default function Page(props: PageProps) {
+	if (!props?.title) {
+		return <Error404 />
+	}
+
 	return (
 		<Layout title={props.title}>
 			<article>
@@ -54,17 +80,4 @@ export default function Home(props: Page) {
 			</article>
 		</Layout>
 	)
-}
-
-export async function getStaticPaths() {
-	return {
-		paths: await getAllPages(),
-		fallback: false,
-	}
-}
-
-export async function getStaticProps({ params }: any) {
-	return {
-		props: await getPage(params.page),
-	}
 }

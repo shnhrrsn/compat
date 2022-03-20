@@ -20,10 +20,7 @@ function findPaths(object: PrimaryIdentifier, path: string[] = []) {
 			continue
 		}
 
-		if (value.__compat) {
-			paths.push(['', ...path, key].join('/'))
-		}
-
+		paths.push(['', ...path, key].join('/'))
 		paths.push(...findPaths(value, [...path, key]))
 	}
 

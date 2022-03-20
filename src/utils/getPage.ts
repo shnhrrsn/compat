@@ -1,9 +1,8 @@
 import { SafeHtmlAst } from '@/components/shared/safeHtml'
-import compatData from '@mdn/browser-compat-data'
-import { SimpleSupportStatement, StatusBlock } from '@mdn/browser-compat-data/types'
+import { PageProps } from '@/pages/page'
+import { IdentifierMeta, SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 import assert from 'assert'
 import generateSupport from './page/generateSupport'
-import isIdentifierMeta from './page/isIdentifierMeta'
 import loadMetadata from './page/loadMetadata'
 
 export type PageMetadata = {
@@ -44,30 +43,7 @@ export type PageSupport = PageSupportVariant & {
 	history: PageSupportHistory[] | null
 }
 
-export type Page = Omit<PageMetadata, 'urls'> & {
-	section:
-		| 'api'
-		| 'css'
-		| 'html'
-		| 'http'
-		| 'javascript'
-		| 'mathml'
-		| 'svg'
-		| 'webdriver'
-		| 'webextensions'
-	query: string
-	urls: PageMetadata['urls'] & {
-		mdn: string | null
-		spec: string | null
-	}
-	usage: number
-	support: Record<string, PageSupport>
-	status: StatusBlock | null
-}
-
-export default async function getPage(page: string[]): Promise<Page> {
-	const data = page.reduce((data, key) => data[key], compatData as any)
-	assert(isIdentifierMeta(data))
+export default async function getPage(page: string[], data: IdentifierMeta): Promise<PageProps> {
 	assert(data.__compat)
 
 	const { urls, ...metadata } = await loadMetadata(page, data.__compat)
@@ -75,6 +51,7 @@ export default async function getPage(page: string[]): Promise<Page> {
 
 	return {
 		section: page[0] as any,
+		path: page,
 		query: page.join('.'),
 		urls: {
 			mdn: data.__compat.mdn_url ?? null,

@@ -1,8 +1,8 @@
-import { Page } from '@/utils/getPage'
+import { PageProps } from '@/pages/page'
 import useHydrated from '@/utils/hooks/useHydrated'
 import ExternalLink from '../shared/externalLink'
 
-export default function Contribute(props: Page) {
+export default function Contribute(props: PageProps) {
 	const isHydrated = useHydrated()
 
 	return (
@@ -35,7 +35,7 @@ export default function Contribute(props: Page) {
 }
 
 // Source: https://github.com/mdn/yari/blob/dbaddf2c7578cde358dd974b35587d22b63d94dd/client/src/document/ingredients/browser-compatibility-table/index.tsx
-function getCompatDataNewIssueURL(props: Page) {
+function getCompatDataNewIssueURL(props: PageProps) {
 	const url = 'https://github.com/mdn/browser-compat-data/issues/new'
 	const sp = new URLSearchParams()
 	const body = `
@@ -64,7 +64,7 @@ function getCompatDataNewIssueURL(props: Page) {
 }
 
 // Source: https://github.com/mdn/yari/blob/dae87b2b0e92c55ab9f7be8fabac3c4770bf43b6/client/src/document/on-github.tsx
-function getDocsNewIssueURL(props: Page) {
+function getDocsNewIssueURL(props: PageProps) {
 	const labelPrefixes: Record<string, string> = {
 		javascript: 'JS',
 		css: 'CSS',
