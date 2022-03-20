@@ -1,6 +1,6 @@
 import Search from '@/components/search/search'
 import Layout, { siteTitle } from '@/components/shared/layout'
-import cache from '@/utils/cache'
+import { cached } from '@/utils/cache'
 import getAllPages from '@/utils/getAllPages'
 import maybeMap from '@/utils/maybeMap'
 import generateFallbackTitle from '@/utils/page/generateFallbackTitle'
@@ -127,25 +127,15 @@ export async function getStaticProps() {
 }
 
 async function getCompare() {
-	return cache
-		.get('compare')
-		.then(async (compare: any) => {
-			if (compare) {
-				return compare
-			}
-
-			compare = await fetch(
-				'https://api.github.com/repos/mdn/browser-compat-data/compare/main~50...main',
-			).then(result => {
+	return cached('compare', 5 * 60 * 1_000, () =>
+		fetch('https://api.github.com/repos/mdn/browser-compat-data/compare/main~50...main').then(
+			result => {
 				if (!result.ok) {
 					throw new Error(`Failed: ${result.status}`)
 				}
 
 				return result.json()
-			})
-
-			cache.set('compare', compare, 5 * 60 * 1_000)
-			return compare
-		})
-		.then(compare => JSON.parse(JSON.stringify(compare)))
+			},
+		),
+	).then(compare => JSON.parse(JSON.stringify(compare)))
 }

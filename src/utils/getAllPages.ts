@@ -1,17 +1,9 @@
 import compatData from '@mdn/browser-compat-data'
 import { PrimaryIdentifier } from '@mdn/browser-compat-data/types'
-import cache from './cache'
+import { cached } from './cache'
 
 export default function getAllPages(): Promise<string[]> {
-	return cache.get('pages').then(async (pages: string[] | undefined) => {
-		if (pages) {
-			return pages
-		}
-
-		pages = findPaths(compatData)
-		cache.set('pages', pages)
-		return pages
-	})
+	return cached('pages', () => findPaths(compatData))
 }
 
 function findPaths(object: PrimaryIdentifier, path: string[] = []) {
