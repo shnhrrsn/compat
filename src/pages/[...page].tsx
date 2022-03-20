@@ -15,13 +15,7 @@ const servers = ['nodejs', 'deno']
 
 export default function Home(props: Page) {
 	return (
-		<Layout>
-			<Head>
-				<title>
-					{props.title} | {siteTitle}
-				</title>
-			</Head>
-
+		<Layout title={props.title}>
 			<article>
 				<h1>{props.title}</h1>
 				{props.html.intro && <SafeHtml ast={props.html.intro} />}

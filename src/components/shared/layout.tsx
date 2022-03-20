@@ -1,5 +1,6 @@
 import useHydrated from '@/utils/hooks/useHydrated'
 import useTheme, { Themes } from '@/utils/hooks/useTheme'
+import Head from 'next/head'
 import Link from 'next/link'
 import Search from '../search/search'
 import ExternalLink from './externalLink'
@@ -9,9 +10,11 @@ import styles from './layout.module.css'
 export const siteTitle = 'compat.codes'
 
 export default function Layout({
+	title,
 	children,
 	excludeSearch,
 }: {
+	title?: string | null
 	children: any
 	excludeSearch?: boolean
 }) {
@@ -19,6 +22,13 @@ export default function Layout({
 	const [theme, setTheme] = useTheme()
 	return (
 		<div className={styles.container}>
+			<Head>
+				<title>
+					{title}
+					{title && ' | '}
+					{siteTitle}
+				</title>
+			</Head>
 			<header className={styles.header}>
 				<Link href="/">
 					<a className={styles.logo}>

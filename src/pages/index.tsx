@@ -1,5 +1,5 @@
 import Search from '@/components/search/search'
-import Layout, { siteTitle } from '@/components/shared/layout'
+import Layout from '@/components/shared/layout'
 import { cached } from '@/utils/cache'
 import getAllPages from '@/utils/getAllPages'
 import maybeMap from '@/utils/maybeMap'
@@ -9,16 +9,12 @@ import loadFrontMatter from '@/utils/page/loadFrontMatter'
 import { reduceUnique } from '@/utils/unique'
 import assert from 'assert'
 import escapeStringRegexp from 'escape-string-regexp'
-import Head from 'next/head'
 import Link from 'next/link'
 import fetch from 'node-fetch'
 
 export default function Index({ recent }: { recent: { href: string; title: string }[] }) {
 	return (
 		<Layout excludeSearch>
-			<Head>
-				<title>{siteTitle}</title>
-			</Head>
 			<Search autoFocus />
 			<h3>Recently Updated</h3>
 			<ul>
