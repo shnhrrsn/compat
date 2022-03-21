@@ -6,7 +6,7 @@ import isFullySupported from '@/utils/page/isFullySupported'
 import classNames from 'classnames'
 import CircledImage, { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
-import { formatAvailability, Usage, Usages } from './agents'
+import { formatAvailability, Usages } from './agents'
 
 export default function Breakdown({ support }: { support: Record<string, PageSupport> }) {
 	return (
@@ -74,11 +74,12 @@ function BreakdownEntry({ agent, support }: { agent: string; support: PageSuppor
 			</div>
 			<div>
 				{isAvailable && support.usage?.global && support.usage.relative && (
-					<span className={styles.breakdownUsage}>
-						<Usage name={support?.name ?? agent} usage={support.usage.global} />
-						{' / '}
-						<Usage name={support?.name ?? agent} usage={support.usage.relative} />
-					</span>
+					<Usages
+						className={styles.breakdownUsage}
+						name={support?.name ?? agent}
+						usage={support.usage}
+						includeTitles={false}
+					/>
 				)}
 			</div>
 			<CircledImage src={isAvailable ? 'check' : 'times'} />

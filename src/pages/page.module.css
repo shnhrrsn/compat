@@ -28,9 +28,11 @@
 }
 
 .agents {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+	display: grid;
+	grid-template-columns: auto 1fr 2fr 1fr;
+	align-items: baseline;
+	max-width: 500px;
+	row-gap: 20px;
 }
 
 .agent {
@@ -56,6 +58,8 @@
 }
 
 .agentIcon {
+	position: relative;
+	top: -0.5px;
 	align-self: center;
 	width: 24px;
 	height: 24px;
@@ -64,19 +68,13 @@
 }
 
 .agentName {
-	min-width: 100px;
 	font-weight: bold;
 }
 
 .agentAvailability {
-	min-width: 130px;
-	margin-right: 5px;
-	text-align: right;
-}
-
-.agentVersion,
-.agentUsage {
-	min-width: 80px;
+	display: flex;
+	gap: 5px;
+	align-items: baseline;
 }
 
 .agentVersion {
@@ -313,5 +311,45 @@
 	.safeToUse {
 		flex-direction: column;
 		gap: 30px;
+	}
+
+	.agentAvailability,
+	.breakdownAvailability {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.agentAvailability,
+	.agentVersion,
+	.agentUsage {
+		gap: 0;
+		font-size: 13px;
+	}
+
+	.agents {
+		grid-template-columns: auto 1fr 1fr auto;
+		align-items: center;
+		column-gap: 5px;
+		row-gap: 10px;
+	}
+
+	.agentUsage {
+		text-align: left;
+	}
+
+	.usages {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap: 0;
+		align-items: baseline;
+	}
+
+	.usages :last-child {
+		grid-column: 1 / span 2;
+	}
+
+	.usagesSeperator {
+		font-size: 0.8em;
+		opacity: 1;
 	}
 }

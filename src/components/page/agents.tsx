@@ -24,16 +24,27 @@ export default function Agents({
 function Agent({ agent, support }: { agent: string; support: PageSupport | null }) {
 	const added = support?.removed ? null : support?.added
 	const usage = support?.removed ? null : support?.usage
+	const supportClassName = resolveSupportClassName(support)
 	return (
-		<div className={classNames(styles.agent, resolveSupportClassName(support))}>
-			{isValidImageSrc(agent) && <Image src={agent} className={styles.agentIcon} />}
-			<span className={styles.agentName}>{support?.name ?? agent}</span>
-			<span className={styles.agentAvailability}>{formatAvailability(support)}</span>
-			{added && <span className={styles.agentVersion}>v{added.version}</span>}
-			{usage && (
-				<Usages className={styles.agentUsage} name={support?.name ?? agent} usage={usage} />
+		<>
+			{isValidImageSrc(agent) ? (
+				<Image src={agent} className={styles.agentIcon} />
+			) : (
+				<div className={styles.agentIcon} />
 			)}
-		</div>
+			<span className={classNames(styles.agentName, supportClassName)}>
+				{support?.name ?? agent}
+			</span>
+			<span className={styles.agentAvailability}>
+				<span className={supportClassName}>{formatAvailability(support)}</span>
+				<span className={styles.agentVersion}>{added && `v${added.version}`}</span>
+			</span>
+			{usage ? (
+				<Usages className={styles.agentUsage} name={support?.name ?? agent} usage={usage} />
+			) : (
+				<div className={styles.agentUsage} />
+			)}
+		</>
 	)
 }
 
