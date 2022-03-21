@@ -1,0 +1,48 @@
+name: data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.COMPAT_BOT_TOKEN }}
+          submodules: true
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: yarn install
+        uses: bahmutov/npm-install@HEAD
+        with:
+          install-command: yarn install
+
+      - name: mdn/browser-compat-data
+        run: yarn add '@mdn/browser-compat-data@4.*'
+
+      - name: mdn/content
+        run: |
+          pushd data/mdn/content
+          git fetch --depth=1 origin main
+          git checkout origin/main
+          popd
+
+      - name: codegen
+        run: >
+          find codegen -type f | while read script; do echo "running $script"; node "$script"; done
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore(data): update data'
+          file_pattern: ./src/@data/* ./public/@data/* data/mdn/content package.json yarn.lock
+          commit_user_name: compatbot
+          commit_user_email: 102001024+compatbot@users.noreply.github.com
+          commit_author: compatbot <102001024+compatbot@users.noreply.github.com>
+          branch: main
