@@ -1,0 +1,24 @@
+.safeToUse {
+	display: flex;
+	gap: 14px;
+	align-items: center;
+}
+
+.text {
+	margin: 0;
+}
+
+.safe {
+	color: var(--color-foreground-rating-good);
+}
+
+.unsafe {
+	color: var(--color-foreground-rating-none);
+}
+
+@media only screen and (max-width: 600px) {
+	.safeToUse {
+		flex-direction: column;
+		gap: 30px;
+	}
+}

@@ -1,0 +1,28 @@
+.usages {
+	display: flex;
+	gap: 0.2em;
+	color: var(--color-foreground-tertiary);
+	font-family: var(--font-family-mono);
+}
+
+.seperator {
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+	.usages {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		gap: 0;
+		align-items: baseline;
+	}
+
+	.usages :last-child {
+		grid-column: 1 / span 2;
+	}
+
+	.seperator {
+		font-size: 0.8em;
+		opacity: 1;
+	}
+}

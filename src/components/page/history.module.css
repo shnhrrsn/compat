@@ -1,0 +1,86 @@
+.history {
+	position: relative;
+	display: none;
+	flex-direction: column;
+	grid-column: 1 / span 5;
+	gap: 4px;
+	margin: 10px 0 0;
+	color: var(--color-foreground);
+	background: var(--color-background);
+	border-radius: 5px;
+}
+
+.history::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	bottom: 10px;
+	left: 22px;
+	z-index: 0;
+	width: 2px;
+	background-color: var(--color-foreground-secondary);
+	border-radius: 1px;
+}
+
+:focus > .history {
+	display: flex;
+}
+
+.availability {
+	color: var(--color-foreground-prominent);
+	font-weight: 600;
+}
+
+.header {
+	display: flex;
+	gap: 10px;
+}
+
+.usage {
+	flex: 1;
+	justify-content: flex-end;
+	text-align: right;
+}
+
+.version {
+	composes: version from './breakdown.module.css';
+}
+
+.entry {
+	position: relative;
+	z-index: 2;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 8px 0;
+	align-items: flex-start;
+	padding: 12px;
+}
+
+.entryBullet {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+
+.entryBulletSimple::before {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background-color: var(--color-foreground-secondary);
+	border: 3px solid var(--color-background);
+	border-radius: 100%;
+}
+
+.entryBulletIconImage {
+	width: inherit;
+	height: inherit;
+	border: 2px solid var(--color-background);
+}
+
+.note {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,139 @@
+.breakdown {
+	max-width: 650px;
+	font-size: 14px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr auto;
+}
+
+.headers {
+	margin-bottom: 6px;
+	padding: 0 12px;
+	color: var(--color-foreground-secondary);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.header {
+	display: flex;
+}
+
+.rows {
+	border: 1px solid var(--color-foreground-secondary);
+	border-radius: 3px;
+}
+
+.row {
+	align-items: center;
+	padding: 12px;
+	border-top: 1px solid var(--color-foreground-secondary);
+}
+
+.row[tabindex]:not(:focus) {
+	cursor: pointer;
+}
+
+.row[tabindex]:hover,
+.row:focus {
+	color: var(--color-foreground-prominent);
+	background: rgba(255, 255, 255, 0.025);
+}
+
+.row[tabindex]:hover:not(:focus) {
+	color: var(--color-accent);
+}
+
+.row[tabindex]:focus .icon,
+.row[tabindex]:hover:not(:focus) .icon {
+	color: currentColor;
+}
+
+.chrome[tabindex]:focus,
+.chrome[tabindex]:hover:not(:focus) {
+	color: #73a1fb;
+}
+
+.ie[tabindex]:focus,
+.ie[tabindex]:hover:not(:focus) {
+	color: #1ebbee;
+}
+
+.edge[tabindex]:focus,
+.edge[tabindex]:hover:not(:focus) {
+	color: #1595df;
+}
+
+.firefox[tabindex]:focus,
+.firefox[tabindex]:hover:not(:focus) {
+	color: #ff9500;
+}
+
+.opera[tabindex]:focus,
+.opera[tabindex]:hover:not(:focus) {
+	color: #ff1b2d;
+}
+
+.safari[tabindex]:focus,
+.safari[tabindex]:hover:not(:focus) {
+	color: #1d8ef8;
+}
+
+.samsung-internet[tabindex]:focus,
+.samsung-internet[tabindex]:hover:not(:focus) {
+	color: #7882ff;
+}
+
+.android[tabindex]:focus,
+.android[tabindex]:hover:not(:focus) {
+	color: #32de84;
+}
+
+.nodejs[tabindex]:focus,
+.nodejs[tabindex]:hover:not(:focus) {
+	color: #539e43;
+}
+
+.row:focus {
+	outline: none;
+}
+
+.row:first-child {
+	border-top: none;
+}
+
+.agent {
+	display: flex;
+	gap: 6px;
+	font-weight: 500;
+}
+
+.icon {
+	composes: icon from './agents.module.css';
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+}
+
+.version,
+.usage,
+.unsupported {
+	color: var(--color-foreground-tertiary);
+}
+
+.usage {
+	font-family: 'Source Code Pro', monospace;
+}
+
+@media only screen and (max-width: 600px) {
+	.availability {
+		display: flex;
+		flex-direction: column;
+	}
+}

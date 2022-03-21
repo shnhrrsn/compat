@@ -1,9 +1,10 @@
 import Image, { isValidImageSrc } from '@/components/shared/image'
-import styles from '@/pages/page.module.css'
 import formatDate from '@/utils/formatters/formatDate'
 import { PageSupport, PageSupportVariant } from '@/utils/getPage'
 import isAvailable from '@/utils/page/isAvailable'
 import classNames from 'classnames'
+import styles from './agents.module.css'
+import Usages from './usages'
 
 export default function Agents({
 	agents,
@@ -28,74 +29,23 @@ function Agent({ agent, support }: { agent: string; support: PageSupport | null 
 	return (
 		<>
 			{isValidImageSrc(agent) ? (
-				<Image src={agent} className={styles.agentIcon} />
+				<Image src={agent} className={styles.icon} />
 			) : (
-				<div className={styles.agentIcon} />
+				<div className={styles.icon} />
 			)}
-			<span className={classNames(styles.agentName, supportClassName)}>
+			<span className={classNames(styles.name, supportClassName)}>
 				{support?.name ?? agent}
 			</span>
-			<span className={styles.agentAvailability}>
+			<span className={styles.availability}>
 				<span className={supportClassName}>{formatAvailability(support)}</span>
-				<span className={styles.agentVersion}>{added && `v${added.version}`}</span>
+				<span className={styles.version}>{added && `v${added.version}`}</span>
 			</span>
 			{usage ? (
-				<Usages className={styles.agentUsage} name={support?.name ?? agent} usage={usage} />
+				<Usages className={styles.usage} name={support?.name ?? agent} usage={usage} />
 			) : (
-				<div className={styles.agentUsage} />
+				<div className={styles.usage} />
 			)}
 		</>
-	)
-}
-
-export function Usages({
-	name,
-	usage,
-	includeTitles,
-	className,
-}: {
-	name: string
-	usage: PageSupportVariant['usage']
-	includeTitles?: boolean
-	className?: string
-}) {
-	includeTitles ??= true
-	return (
-		<div className={classNames(styles.usages, className)}>
-			{usage.global && usage.relative && (
-				<>
-					<Usage
-						name={name}
-						usage={usage.global}
-						kind={includeTitles ? 'Global' : undefined}
-					/>
-					<span className={styles.usagesSeperator}>╱</span>
-					<Usage
-						name={name}
-						usage={usage.relative}
-						kind={includeTitles ? 'Relative' : undefined}
-					/>
-				</>
-			)}
-		</div>
-	)
-}
-
-export function Usage({
-	usage,
-	name,
-	kind,
-}: {
-	usage: number
-	name: string
-	kind?: 'Relative' | 'Global'
-}) {
-	return (
-		<span title={kind && `${kind} share of ${name} users running a supported version.`}>
-			{usage.toLocaleString(undefined, {
-				style: 'percent',
-			})}
-		</span>
 	)
 }
 
@@ -114,16 +64,16 @@ export function formatAvailability(
 
 function resolveSupportClassName(support: PageSupport | null) {
 	if (!support || support.removed || !support.added) {
-		return styles.agentUnsupported
+		return styles.unsupported
 	}
 
 	if (support.usage.relative === null) {
 		return undefined
 	} else if (support.usage.relative < 0.6) {
-		return styles.agentLow
+		return styles.low
 	} else if (support.usage.relative < 0.8) {
-		return styles.agentMedium
+		return styles.medium
 	}
 
-	return styles.agentHigh
+	return styles.high
 }
