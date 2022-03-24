@@ -99,7 +99,6 @@ const chromeVersions: { desktop: Record<string, number>; android: Record<string,
     "98.0.0": 1643673600,
     "99.0.0": 1646092800,
     "100.0.0": 1646265600,
-    "101.0.0": 1646265600,
     "102.0.0": 1647648000
   },
   "android": {
@@ -179,7 +178,6 @@ const chromeVersions: { desktop: Record<string, number>; android: Record<string,
     "98.0.0": 1643673600,
     "99.0.0": 1646092800,
     "100.0.0": 1646265600,
-    "101.0.0": 1646784000,
     "102.0.0": 1647648000
   },
   "ios": {
@@ -259,7 +257,7 @@ const chromeVersions: { desktop: Record<string, number>; android: Record<string,
     "98.0.0": 1643673600,
     "99.0.0": 1646092800,
     "100.0.0": 1645660800,
-    "101.0.0": 1645488000
+    "102.0.0": 1647907200
   }
 }
 
