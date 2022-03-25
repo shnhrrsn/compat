@@ -1,7 +1,6 @@
-const path = require('path')
-const fetch = require('node-fetch')
-const { promises: fs } = require('fs')
-const { coerce } = require('semver')
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
+import SemVer from 'semver'
 
 process.env.TZ = 'UTC'
 ;(async () => {
@@ -28,13 +27,13 @@ process.env.TZ = 'UTC'
 					new Date(release.published_at ?? release.created_at).getTime() / 1000.0,
 				])
 				.filter(([name]) => (name?.length ?? 0) > 0)
-				.map(([version, date]) => [coerce(version)?.format() ?? version, date]),
+				.map(([version, date]) => [SemVer.coerce(version)?.format() ?? version, date]),
 		)
 
-		const datadir = path.join(__dirname, '../src/@data')
-		await fs.mkdir(datadir, { recursive: true })
+		const output = new URL('../src/@data/denoVersions.ts', import.meta.url)
+		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
-			path.join(datadir, 'denoVersions.ts'),
+			output,
 			`const denoVersions: Record<string, number> = ${JSON.stringify(
 				versions,
 				null,

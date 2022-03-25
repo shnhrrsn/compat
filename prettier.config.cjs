@@ -10,7 +10,7 @@ module.exports = {
 	useTabs: false,
 	overrides: [
 		{
-			files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.cjs', '**/*.css'],
+			files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.mjs', '**/*.cjs', '**/*.css'],
 			options: {
 				tabWidth: 4,
 				useTabs: true,

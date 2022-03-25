@@ -1,8 +1,7 @@
-const path = require('path')
-const fetch = require('node-fetch')
-const { promises: fs } = require('fs')
-const { JSDOM } = require('jsdom')
-const { coerce } = require('semver')
+import { promises as fs } from 'fs'
+import { JSDOM } from 'jsdom'
+import fetch from 'node-fetch'
+import SemVer from 'semver'
 
 process.env.TZ = 'UTC'
 ;(async () => {
@@ -44,7 +43,7 @@ process.env.TZ = 'UTC'
 				continue
 			}
 
-			const semver = coerce(version)?.format() ?? version
+			const semver = SemVer.coerce(version)?.format() ?? version
 
 			if (desktop) {
 				versions.desktop[semver] = new Date(desktop).getTime() / 1000.0
@@ -57,10 +56,10 @@ process.env.TZ = 'UTC'
 			}
 		}
 
-		const datadir = path.join(__dirname, '../src/@data')
-		await fs.mkdir(datadir, { recursive: true })
+		const output = new URL('../src/@data/chromeVersions.ts', import.meta.url)
+		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
-			path.join(datadir, 'chromeVersions.ts'),
+			output,
 			`const chromeVersions: { desktop: Record<string, number>; android: Record<string, number>; ios: Record<string, number>; } = ${JSON.stringify(
 				versions,
 				null,

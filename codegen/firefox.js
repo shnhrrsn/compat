@@ -1,8 +1,7 @@
-const path = require('path')
-const fetch = require('node-fetch')
-const { promises: fs } = require('fs')
-const { JSDOM } = require('jsdom')
-const { coerce } = require('semver')
+import { promises as fs } from 'fs'
+import { JSDOM } from 'jsdom'
+import fetch from 'node-fetch'
+import SemVer from 'semver'
 
 process.env.TZ = 'UTC'
 ;(async () => {
@@ -34,7 +33,7 @@ process.env.TZ = 'UTC'
 			const version = tds[0].textContent.trim()
 
 			if (releaseDate) {
-				versions[coerce(version)?.format() ?? version] = releaseDate
+				versions[SemVer.coerce(version)?.format() ?? version] = releaseDate
 			}
 		}
 
@@ -65,14 +64,14 @@ process.env.TZ = 'UTC'
 			}
 
 			if (releaseDate) {
-				versions[coerce(version)?.format() ?? version] = releaseDate
+				versions[SemVer.coerce(version)?.format() ?? version] = releaseDate
 			}
 		}
 
-		const datadir = path.join(__dirname, '../src/@data')
-		await fs.mkdir(datadir, { recursive: true })
+		const output = new URL('../src/@data/firefoxVersions.ts', import.meta.url)
+		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
-			path.join(datadir, 'firefoxVersions.ts'),
+			output,
 			`const firefoxVersions: Record<string, number> = ${JSON.stringify(
 				versions,
 				null,

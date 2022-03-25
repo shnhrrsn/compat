@@ -10,8 +10,9 @@ const nextConfig = {
 			issuer: /\.tsx$/,
 			use: ['@svgr/webpack'],
 		})
+
 		return config
 	},
 }
 
-module.exports = nextConfig
+export default nextConfig

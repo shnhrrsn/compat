@@ -1,17 +1,15 @@
-require('ts-node/register')
-
 /**
  * @typedef {Map<string,number>} Pageviews
  */
 
-const fs = require('fs').promises
-const path = require('path')
-const getAllPages = require('../src/utils/getAllPages').default
-const loadCompat = require('../src/utils/page/loadCompat').default
-const loadFrontMatter = require('../src/utils/page/loadFrontMatter').default
-const generateFallbackTitle = require('../src/utils/page/generateFallbackTitle').default
-const fetch = require('node-fetch')
-const csv = require('@fast-csv/parse')
+import csv from '@fast-csv/parse'
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
+import path from 'path'
+import getAllPages from '../src/utils/getAllPages.ts'
+import generateFallbackTitle from '../src/utils/page/generateFallbackTitle.ts'
+import loadCompat from '../src/utils/page/loadCompat.ts'
+import loadFrontMatter from '../src/utils/page/loadFrontMatter.ts'
 
 /**
  * @param {Pageviews} pageview

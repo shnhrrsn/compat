@@ -1,8 +1,8 @@
-const path = require('path')
-const fetch = require('node-fetch')
-const { promises: fs } = require('fs')
-const { JSDOM } = require('jsdom')
-const { coerce } = require('semver')
+import { promises as fs } from 'fs'
+import { JSDOM } from 'jsdom'
+import fetch from 'node-fetch'
+import SemVer from 'semver'
+
 process.env.TZ = 'UTC'
 ;(async () => {
 	try {
@@ -43,7 +43,7 @@ process.env.TZ = 'UTC'
 					continue
 				}
 
-				const version = coerce(td[0].textContent.trim())
+				const version = SemVer.coerce(td[0].textContent.trim())
 				if (!version) {
 					continue
 				}
@@ -56,10 +56,10 @@ process.env.TZ = 'UTC'
 			}
 		}
 
-		const datadir = path.join(__dirname, '../src/@data')
-		await fs.mkdir(datadir, { recursive: true })
+		const output = new URL('../src/@data/safariVersions.ts', import.meta.url)
+		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
-			path.join(datadir, 'safariVersions.ts'),
+			output,
 			`const safariVersions: { desktop: Record<string, number>; ios: Record<string, number>; } = ${JSON.stringify(
 				versions,
 				null,

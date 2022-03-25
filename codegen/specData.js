@@ -1,6 +1,5 @@
-const fetch = require('node-fetch')
-const path = require('path')
-const { promises: fs } = require('fs')
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
 
 fetch('https://raw.githubusercontent.com/mdn/content/main/files/jsondata/SpecData.json')
 	.then(result => result.json())
@@ -23,7 +22,7 @@ fetch('https://raw.githubusercontent.com/mdn/content/main/files/jsondata/SpecDat
 	})
 	.then(json =>
 		fs.writeFile(
-			path.join(__dirname, '../src/@data/specData.ts'),
+			new URL('../src/@data/specData.ts', import.meta.url),
 			`const specData: Readonly<Record<string, { name: string; status: string; url: string }>> = Object.freeze(${JSON.stringify(
 				json,
 				null,

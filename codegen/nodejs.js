@@ -1,7 +1,6 @@
-const path = require('path')
-const fetch = require('node-fetch')
-const { promises: fs } = require('fs')
-const { coerce } = require('semver')
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
+import SemVer from 'semver'
 
 process.env.TZ = 'UTC'
 ;(async () => {
@@ -10,15 +9,15 @@ process.env.TZ = 'UTC'
 
 		const versions = Object.fromEntries(
 			json.map(({ version, date }) => [
-				coerce(version)?.format() ?? version.replace(/^v/, ''),
+				SemVer.coerce(version)?.format() ?? version.replace(/^v/, ''),
 				new Date(date).getTime() / 1000.0,
 			]),
 		)
 
-		const datadir = path.join(__dirname, '../src/@data')
-		await fs.mkdir(datadir, { recursive: true })
+		const output = new URL('../src/@data/nodejsVersions.ts', import.meta.url)
+		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
-			path.join(datadir, 'nodejsVersions.ts'),
+			output,
 			`const nodejsVersions: Record<string, number> = ${JSON.stringify(
 				versions,
 				null,
