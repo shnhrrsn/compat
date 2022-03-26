@@ -5,12 +5,12 @@ import execa from 'execa'
 import { existsSync, promises as fs } from 'fs'
 import { oraPromise as ora } from 'ora'
 import path from 'path'
-import generateFallbackTitle from '../src/utils/page/generateFallbackTitle.js'
-import generateSupport from '../src/utils/page/generateSupport.js'
-import loadFrontMatter from '../src/utils/page/loadFrontMatter.js'
-import markdownToHtml from '../src/utils/page/markdownToHtml.js'
-import parseMarkdown from '../src/utils/page/parseMarkdown.js'
-import resolveMdnUrl from '../src/utils/page/resolveMdnUrl.js'
+import generateFallbackTitle from '../packages/web/src/utils/page/generateFallbackTitle.js'
+import generateSupport from '../packages/web/src/utils/page/generateSupport.js'
+import loadFrontMatter from '../packages/web/src/utils/page/loadFrontMatter.js'
+import markdownToHtml from '../packages/web/src/utils/page/markdownToHtml.js'
+import parseMarkdown from '../packages/web/src/utils/page/parseMarkdown.js'
+import resolveMdnUrl from '../packages/web/src/utils/page/resolveMdnUrl.js'
 
 /**
  * @typedef {import('@mdn/browser-compat-data/types').StatusBlock} StatusBlock

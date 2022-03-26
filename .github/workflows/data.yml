@@ -31,8 +31,7 @@ jobs:
         run: node contentgen/update.js
 
       - name: codegen
-        run: >
-          find codegen -type f | while read script; do echo "running $script"; node "$script"; done
+        run: yarn codegen
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

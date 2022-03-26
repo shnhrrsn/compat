@@ -1552,6 +1552,57 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@compat/agents@workspace:^, @compat/agents@workspace:packages/agents":
+  version: 0.0.0-use.local
+  resolution: "@compat/agents@workspace:packages/agents"
+  dependencies:
+    "@types/jsdom": ^16.2.14
+    caniuse-lite: ^1.0.30001320
+    jsdom: ^19.0.0
+    node-fetch: ^3.2.3
+    semver: ^7.3.5
+  languageName: unknown
+  linkType: soft
+
+"@compat/web@workspace:packages/web":
+  version: 0.0.0-use.local
+  resolution: "@compat/web@workspace:packages/web"
+  dependencies:
+    "@compat/agents": "workspace:^"
+    "@fast-csv/parse": ^4.3.6
+    "@mdn/browser-compat-data": 4.*
+    "@svgr/webpack": ^6.2.1
+    "@types/keyv": ^3.1.3
+    "@types/node": ^16.3.3
+    "@types/react": ^17.0.14
+    "@types/semver": ^7.3.9
+    classnames: ^2.3.1
+    escape-string-regexp: ^4.0.0
+    execa: ^5.1.1
+    fzf: ^0.5.1
+    globby: ^11.1.0
+    gray-matter: ^4.0.2
+    jsdom: ^19.0.0
+    keyv: ^4.1.1
+    keyv-file: ^0.2.0
+    next: ^12.0.10
+    normalize.css: ^8.0.1
+    ora: ^6.1.0
+    prettier-plugin-rational-order: ^1.0.3
+    react: 17.0.2
+    react-dom: 17.0.2
+    regexp-match-indices: ^1.0.2
+    rehype-parse: ^8.0.4
+    rehype-raw: ^6.1.1
+    rehype-react: ^7.0.4
+    rehype-stringify: ^9.0.3
+    remark-parse: ^10.0.1
+    remark-rehype: ^10.1.0
+    semver: ^7.3.5
+    unist-util-remove-position: ^4.0.1
+  languageName: unknown
+  linkType: soft
+
 "@cspotcode/source-map-consumer@npm:0.8.0":
   version: 0.8.0
   resolution: "@cspotcode/source-map-consumer@npm:0.8.0"
@@ -1974,6 +2025,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jsdom@npm:^16.2.14":
+  version: 16.2.14
+  resolution: "@types/jsdom@npm:16.2.14"
+  dependencies:
+    "@types/node": "*"
+    "@types/parse5": "*"
+    "@types/tough-cookie": "*"
+  checksum: 12bb926fa74ea07c0ba0bfd5bf185ac0fd771b28666a5e8784b9af4bb96bb0c51fc5f494eff7da1d3cd804e4757f640a23c344c1cd5d188f95ab0ab51770d88b
+  languageName: node
+  linkType: hard
+
 "@types/keyv@npm:^3.1.3":
   version: 3.1.3
   resolution: "@types/keyv@npm:3.1.3"
@@ -2065,7 +2127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/parse5@npm:^6.0.0":
+"@types/parse5@npm:*, @types/parse5@npm:^6.0.0":
   version: 6.0.3
   resolution: "@types/parse5@npm:6.0.3"
   checksum: ddb59ee4144af5dfcc508a8dcf32f37879d11e12559561e65788756b95b33e6f03ea027d88e1f5408f9b7bfb656bf630ace31a2169edf44151daaf8dd58df1b7
@@ -2101,6 +2163,13 @@ __metadata:
   version: 7.3.9
   resolution: "@types/semver@npm:7.3.9"
   checksum: 60bfcfdfa7f937be2c6f4b37ddb6714fb0f27b05fe4cbdfdd596a97d35ed95d13ee410efdd88e72a66449d0384220bf20055ab7d6b5df10de4990fbd20e5cbe0
+  languageName: node
+  linkType: hard
+
+"@types/tough-cookie@npm:*":
+  version: 4.0.1
+  resolution: "@types/tough-cookie@npm:4.0.1"
+  checksum: 7570c1c2d74201f4ead3512cf8e4c99e97d92ab8a02ae2fb987fd720ced0ca1a2baf250c98a861a170b86762606c9bf6d32207675f13dffc5ab75c08c96578d2
   languageName: node
   linkType: hard
 
@@ -2507,10 +2576,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001283, caniuse-lite@npm:^1.0.30001317":
-  version: 1.0.30001317
-  resolution: "caniuse-lite@npm:1.0.30001317"
-  checksum: 0a5fc7fb8c54dde515c2d468e5fc9e0cf2e82dd40d596cdffed90f64c50b5dadd0ab0c25e04769d86488b3115f949abd31d54d1f74d0029b45fa8206a031f47a
+"caniuse-lite@npm:^1.0.30001283, caniuse-lite@npm:^1.0.30001317, caniuse-lite@npm:^1.0.30001320":
+  version: 1.0.30001320
+  resolution: "caniuse-lite@npm:1.0.30001320"
+  checksum: d1f52e9d8e2316f2dba4c7adb4c5957e535b07a4a90ac5432bef3a83b4dab487f0efaa6eff3cda75a52bf044d09886ec583299595389fe0a92cf135f4f07692e
   languageName: node
   linkType: hard
 
@@ -2782,7 +2851,6 @@ __metadata:
     "@commitlint/cli": ^16.2.1
     "@commitlint/config-conventional": ^16.2.1
     "@fast-csv/parse": ^4.3.6
-    "@mdn/browser-compat-data": 4.*
     "@svgr/webpack": ^6.2.1
     "@types/caniuse-lite": ^1.0.1
     "@types/deepmerge": ^2.2.0
@@ -2791,41 +2859,19 @@ __metadata:
     "@types/node-fetch": ^2.6.1
     "@types/react": ^17.0.14
     "@types/semver": ^7.3.9
-    classnames: ^2.3.1
     commitizen: ^4.2.4
     cz-conventional-changelog: ^3.3.0
-    deepmerge: ^4.2.2
-    escape-string-regexp: ^4.0.0
-    execa: ^5.1.1
-    fzf: ^0.5.1
-    globby: ^11.1.0
-    gray-matter: ^4.0.2
     husky: ^7.0.4
-    jsdom: ^19.0.0
-    keyv: ^4.1.1
-    keyv-file: ^0.2.0
     lint-staged: ^12.3.5
-    next: ^12.0.10
     node-fetch: ^3.2.3
-    normalize.css: ^8.0.1
     ora: ^6.1.0
     prettier: ^2.5.1
     prettier-plugin-organize-imports: ^2.3.4
     prettier-plugin-packagejson: ^2.2.16
-    prettier-plugin-rational-order: ^1.0.3
     react: 17.0.2
     react-dom: 17.0.2
-    regexp-match-indices: ^1.0.2
-    rehype-parse: ^8.0.4
-    rehype-raw: ^6.1.1
-    rehype-react: ^7.0.4
-    rehype-stringify: ^9.0.3
-    remark-parse: ^10.0.1
-    remark-rehype: ^10.1.0
-    semver: ^7.3.5
     ts-node: ^10.7.0
     typescript: ^4.5.5
-    unist-util-remove-position: ^4.0.1
   languageName: unknown
   linkType: soft
 

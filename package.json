@@ -2,42 +2,23 @@
   "name": "compat",
   "private": true,
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "build": "next build",
+    "build": "yarn workspaces foreach -vpi --topological-dev run build",
+    "codegen": "yarn workspaces foreach -vpi --topological-dev run codegen",
     "commit": "git-cz",
-    "dev": "next dev",
+    "dev": "cd packages/web && yarn dev",
     "prepare": "husky install",
-    "start": "next start"
+    "start": "cd packages/web && yarn start",
+    "t:prettier": "cd $INIT_CWD && prettier",
+    "t:tsc": "cd $INIT_CWD && tsc"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "@mdn/browser-compat-data": "4.*",
-    "classnames": "^2.3.1",
-    "deepmerge": "^4.2.2",
-    "escape-string-regexp": "^4.0.0",
-    "execa": "^5.1.1",
-    "fzf": "^0.5.1",
-    "globby": "^11.1.0",
-    "gray-matter": "^4.0.2",
-    "jsdom": "^19.0.0",
-    "keyv": "^4.1.1",
-    "keyv-file": "^0.2.0",
-    "next": "^12.0.10",
-    "normalize.css": "^8.0.1",
-    "prettier-plugin-rational-order": "^1.0.3",
-    "regexp-match-indices": "^1.0.2",
-    "rehype-parse": "^8.0.4",
-    "rehype-raw": "^6.1.1",
-    "rehype-react": "^7.0.4",
-    "rehype-stringify": "^9.0.3",
-    "remark-parse": "^10.0.1",
-    "remark-rehype": "^10.1.0",
-    "semver": "^7.3.5",
-    "unist-util-remove-position": "^4.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
