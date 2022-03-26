@@ -1,0 +1,617 @@
+{
+  "self": [
+    "javascript",
+    "builtins",
+    "Reflect",
+    "defineProperty"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "303a6c3b8ec6658d2956c191c50aee0a0e9e4da5",
+    "date": "2022-02-18T09:30:25.000Z"
+  },
+  "title": "Reflect.defineProperty()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/defineProperty",
+    "spec": "https://tc39.es/ecma262/multipage/reflection.html#sec-reflect.defineproperty",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/reflect/defineproperty/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5a56c828d2f9ceb71df1a54712c9e655",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The static "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Reflect.defineProperty()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method is like\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Object/defineProperty"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Object.defineProperty()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " but returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Boolean"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Boolean"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "e85ba4357077ae0e7a6e9d04a837a2ae",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/zloirock/core-js#ecmascript-reflect"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Polyfill of "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Reflect.defineProperty"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " in "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "core-js"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Reflect"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Reflect"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Object/defineProperty"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Object.defineProperty()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.932681641,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "49.0.0",
+        "date": 1456876800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25735907999999996,
+        "relative": 0.9865902447512357
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25735907999999996,
+            "relative": 0.9865902447512357
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "49.0.0",
+        "date": 1457481600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "42.0.0",
+        "date": 1446508800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03890713,
+        "relative": 0.9333745478221214
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03890713,
+            "relative": 0.9333745478221214
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "42.0.0",
+        "date": 1446508800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "6.0.0",
+        "date": 1461628800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1461628800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "36.0.0",
+        "date": 1457308800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013604150000000002,
+        "relative": 0.8682151495618766
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013604150000000002,
+            "relative": 0.8682151495618766
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "36.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.0.0",
+        "date": 1474329600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.032709669999999996,
+        "relative": 0.9780666856241884
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1474329600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.032709669999999996,
+            "relative": 0.9780666856241884
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.0.0",
+        "date": 1473724800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146706944,
+        "relative": 0.9829949283427131
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1473724800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146706944,
+            "relative": 0.9829949283427131
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "49.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

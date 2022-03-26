@@ -1,0 +1,429 @@
+{
+  "self": [
+    "api",
+    "Touch",
+    "target"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "e9d054bed500fbfb003c8ca31758afe577f43e31",
+    "date": "2022-01-21T19:13:55.000Z"
+  },
+  "title": "Touch.target",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Touch/target",
+    "spec": "https://w3c.github.io/touch-events/#dom-touch-target",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/touch/target/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a6cfa5a6f1900c579cb04751c1509917",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The read-only "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "target"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "  property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Touch"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns the ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/EventTarget"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "EventTarget"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") on which the touch contact started when it was first placed on the surface, even if the touch point has since moved outside the interactive area of that element or even been removed from the document. Note that if the target element is removed from the document, events will still be targeted at it, and hence won't necessarily bubble up to the window or document anymore. If there is any risk of an element being removed while it is being touched, the best practice is to attach the touch listeners directly to the target."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.904416911,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "22.0.0",
+        "date": 1348531200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25972489,
+        "relative": 0.9956596161017041
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1348531200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25972489,
+            "relative": 0.9956596161017041
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "25.0.0",
+        "date": 1361923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "18.0.0",
+        "date": 1542067200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04079077,
+        "relative": 0.9888525284838212
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1542067200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04079077,
+            "relative": 0.9888525284838212
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037976039999999996,
+        "relative": 0.9110378782262991
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037976039999999996,
+            "relative": 0.9110378782262991
+          }
+        },
+        {
+          "notes": [
+            "Removed in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1357603200
+          },
+          "removed": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "usage": {
+            "global": 0.00047854,
+            "relative": 0.011480082342614271
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "6.0.0",
+        "date": 1313452800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1313452800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014890890000000004,
+        "relative": 0.9503347352432496
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.0.0",
+        "date": 1473724800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146706944,
+        "relative": 0.9829949283427131
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1473724800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146706944,
+            "relative": 0.9829949283427131
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.5.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

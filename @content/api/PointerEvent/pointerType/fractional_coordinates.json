@@ -1,0 +1,334 @@
+{
+  "self": [
+    "api",
+    "PointerEvent",
+    "pointerType",
+    "fractional_coordinates"
+  ],
+  "type": "page",
+  "title": "pointerType / fractional_coordinates",
+  "links": {},
+  "content": {},
+  "usage": 0,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "64.0.0",
+            "date": 1516752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25506921,
+            "relative": 0.9778119906334929
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "64.0.0",
+            "date": 1516665600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Only <code>clientX</code>, <code>clientY</code>, <code>pageX</code> and <code>pageY</code> are fractional."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "usage": {
+            "global": 0.00120882,
+            "relative": 0.029304293924380758
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1680669'>bug 1680669</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1680669'>bug 1680669</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Only <code>clientX</code>, <code>clientY</code>, <code>pageX</code> and <code>pageY</code> are fractional."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00619584,
+            "relative": 0.8010650250943073
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "51.0.0",
+            "date": 1517961600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01281485,
+            "relative": 0.8178421223937559
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "47.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/133180'>bug 133180</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/133180'>bug 133180</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026097004000000004,
+            "relative": 0.8901278131523876
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "<code>movementX</code> and <code>movementY</code> are not fractional, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/802067'>Chromium bug 802067</a>."
+          ],
+          "added": {
+            "version": "64.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

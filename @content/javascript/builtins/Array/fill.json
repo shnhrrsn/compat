@@ -1,0 +1,615 @@
+{
+  "self": [
+    "javascript",
+    "builtins",
+    "Array",
+    "fill"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "88508ebe5c73264be2cf03f1a949d8099d68d1ea",
+    "date": "2022-02-04T02:05:25.000Z"
+  },
+  "title": "Array.prototype.fill()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.fill",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/array/fill/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "45cdddcf931c8c8b4739876c5b4ae8d6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "fill()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method changes all elements in an array to a static value, from a start index (default "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") to an end index (default "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "array.length"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ").\nIt returns the modified array."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "195c43025518450c73cd7e986ebf7d0e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/zloirock/core-js#ecmascript-array"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Polyfill of "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.fill"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " in "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "core-js"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/TypedArray/fill"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "TypedArray.prototype.fill()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9352638388000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "45.0.0",
+        "date": 1441065600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25774568,
+        "relative": 0.9880722821777793
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1441065600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25774568,
+            "relative": 0.9880722821777793
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "45.0.0",
+        "date": 1441065600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1441065600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "31.0.0",
+        "date": 1405987200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03955076,
+        "relative": 0.9488151074371521
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "31.0.0",
+            "date": 1405987200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03955076,
+            "relative": 0.9488151074371521
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "31.0.0",
+        "date": 1405987200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "31.0.0",
+            "date": 1405987200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "4.0.0",
+        "date": 1441670400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1441670400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "0.12.0",
+            "date": 1423180800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "runtime_flag",
+              "name": "--harmony"
+            }
+          ]
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "32.0.0",
+        "date": 1442448000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01385218,
+        "relative": 0.8840443931049008
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "32.0.0",
+            "date": 1442448000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01385218,
+            "relative": 0.8840443931049008
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "32.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "32.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "8.0.0",
+        "date": 1413417600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03296858,
+        "relative": 0.9858084710220527
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1413417600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03296858,
+            "relative": 0.9858084710220527
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "8.0.0",
+        "date": 1410912000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14775197180000002,
+        "relative": 0.9899970306247778
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1410912000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14775197180000002,
+            "relative": 0.9899970306247778
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "45.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

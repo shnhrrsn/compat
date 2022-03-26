@@ -1,0 +1,602 @@
+{
+  "self": [
+    "api",
+    "Window",
+    "webkitConvertPointFromPageToNode"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "672bace59f60c4931e5cdde8eb32919c924bd191",
+    "date": "2022-03-14T00:26:56.000Z"
+  },
+  "title": "Window.convertPointFromPageToNode",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Window/webkitConvertPointFromPageToNode",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/window/webkitconvertpointfrompagetonode/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "3afe6b672fbaa56c72f645996a2fed56",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Given a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/WebKitPoint"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebKitPoint"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " specified in the page's coordinate system, the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Window"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "convertPointFromPageToNode()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nreturns a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Point"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object specifying the same location in the coordinate\nsystem of the specified DOM "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Node"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Node"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f080999d20d572e784429478952f073b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/webkitConvertPointFromNodeToPage"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window.webkitConvertPointFromNodeToPage"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Mozilla implementation bug: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://bugzilla.mozilla.org/show_bug.cgi?id=850808"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "bug 850808"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://msdn.microsoft.com/library/ie/dn760735(v=vs.85).aspx"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "webkitConvertPointFromPageToNode"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\ndocumentation at IE Dev Center"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.18817823359999997,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": {
+        "version": "39.0.0",
+        "date": 1416268800
+      },
+      "usage": {
+        "global": 0.0025797999999999993,
+        "relative": 0.009889705517323258
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": {
+            "version": "39.0.0",
+            "date": 1416268800
+          },
+          "usage": {
+            "global": 0.0025797999999999993,
+            "relative": 0.009889705517323258
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": {
+        "version": "39.0.0",
+        "date": 1415750400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": {
+            "version": "39.0.0",
+            "date": 1415750400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": {
+        "version": "26.0.0",
+        "date": 1417132800
+      },
+      "usage": {
+        "global": 0.0008139800000000002,
+        "relative": 0.051948101677824515
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "26.0.0",
+            "date": 1417132800
+          },
+          "usage": {
+            "global": 0.0008139800000000002,
+            "relative": 0.051948101677824515
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "26.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "26.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "4.0.0",
+        "date": 1244419200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "3.0.0",
+        "date": 1183075200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": 1183075200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "usage": {
+        "global": 0.00218332,
+        "relative": 0.07446961563142922
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "usage": {
+            "global": 0.00218332,
+            "relative": 0.07446961563142922
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "39.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "39.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": false,
+    "deprecated": false
+  }
+}

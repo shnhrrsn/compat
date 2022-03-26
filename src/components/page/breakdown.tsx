@@ -1,6 +1,6 @@
-import { PageSupport } from '@/utils/getPage'
 import $isAvailable from '@/utils/page/isAvailable'
 import classNames from 'classnames'
+import { PageSupport } from '../../types/Page'
 import CircledImage, { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
 import { formatAvailability } from './agents'

@@ -1,0 +1,203 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "contextualIdentities",
+    "remove"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
+  "title": "contextualIdentities.remove()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities/remove",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/contextualidentities/remove/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "83d331d274fafed24d315b83dd687b2a",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Removes a contextual identity, given its cookie store ID."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.04015461,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "53.0.0",
+        "date": 1492560000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03735189,
+        "relative": 0.896064640055733
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 57, this method resolves its promise with <code>false</code> if the contextual identities feature is disabled.",
+            "Before version 57, this method resolves its promise with <code>null</code> if the given identity was not found."
+          ],
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03735189,
+            "relative": 0.896064640055733
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "53.0.0",
+        "date": 1492560000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 57, this method resolves its promise with <code>false</code> if the contextual identities feature is disabled.",
+            "Before version 57, this method resolves its promise with <code>null</code> if the given identity was not found."
+          ],
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  }
+}

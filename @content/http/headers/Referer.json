@@ -1,0 +1,620 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "Referer"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "303a6c3b8ec6658d2956c191c50aee0a0e9e4da5",
+    "date": "2022-02-18T09:30:25.000Z"
+  },
+  "title": "Referer",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Referer",
+    "spec": "https://httpwg.org/specs/rfc7231.html#header.referer",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/referer/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9ea7f0e635141cc303c7040a9564144e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Referer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " HTTP request header contains an absolute or partial address of the page that makes the request.\nThe "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Referer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header allows a server to identify a page where people are visiting it from.\nThis data can be used for analytics, logging, optimized caching, and more."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "16dee66f7695a3827e39c1affdacfbf4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://en.wikipedia.org/wiki/HTTP_referer"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTTP referer on Wikipedia"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Fetch_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Fetch"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Request/referrerPolicy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Request.referrerPolicy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The obsolete "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy/referrer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "referrer"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "icon",
+                    "properties": {
+                      "src": "deprecated"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": " directive."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Security/Same-origin_policy"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Same-origin policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://blog.mozilla.org/security/2015/01/21/meta-referrer/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Tighter Control Over Your Referrers – Mozilla Security Blog"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9577145288,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0077345032,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0077345032,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.003503405,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

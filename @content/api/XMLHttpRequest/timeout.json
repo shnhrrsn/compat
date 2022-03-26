@@ -1,0 +1,478 @@
+{
+  "self": [
+    "api",
+    "XMLHttpRequest",
+    "timeout"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "XMLHttpRequest.timeout",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout",
+    "spec": "https://xhr.spec.whatwg.org/#the-timeout-attribute",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/xmlhttprequest/timeout/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "124195584ef62ac974b2d0fa4aad3c1d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "XMLHttpRequest.timeout"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property is an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "unsigned long"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " representing the number of milliseconds a request can take before automatically being terminated. The default value is 0, which means there is no timeout. Timeout shouldn't be used for synchronous XMLHttpRequests requests used in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/document_environment"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "document environment"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or it will throw an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "InvalidAccessError"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " exception. When a timeout happens, a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/XMLHttpRequest/timeout_event"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "timeout"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9513592768,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "29.0.0",
+        "date": 1376956800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25921109000000003,
+        "relative": 0.9936899553935872
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1376956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25921109000000003,
+            "relative": 0.9936899553935872
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "29.0.0",
+        "date": 1377043200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1377043200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "12.0.0",
+        "date": 1335225600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040763480000000005,
+        "relative": 0.9779080264377272
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1335225600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040763480000000005,
+            "relative": 0.9779080264377272
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "14.0.0",
+        "date": 1340668800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1340668800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "8.0.0",
+        "date": 1237420800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007448191,
+        "relative": 0.9629824705483345
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1237420800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007448191,
+            "relative": 0.9629824705483345
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "17.0.0",
+        "date": 1381104000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014753890000000002,
+        "relative": 0.9415914123976491
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1381104000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014753890000000002,
+            "relative": 0.9415914123976491
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1323129600
+          },
+          "removed": {
+            "version": "16.0.0",
+            "date": 1377561600
+          },
+          "usage": {
+            "global": 0.00022737,
+            "relative": 0.014510724929957688
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "18.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1330300800
+          },
+          "removed": {
+            "version": "16.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "7.0.0",
+        "date": 1382400000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03305606,
+        "relative": 0.9884242501986206
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1382400000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03305606,
+            "relative": 0.9884242501986206
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "7.0.0",
+        "date": 1394409600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1479460488,
+        "relative": 0.9912974237861811
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1394409600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1479460488,
+            "relative": 0.9912974237861811
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "2.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

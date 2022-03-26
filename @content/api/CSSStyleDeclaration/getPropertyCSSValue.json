@@ -1,0 +1,468 @@
+{
+  "self": [
+    "api",
+    "CSSStyleDeclaration",
+    "getPropertyCSSValue"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "CSSStyleDeclaration.getPropertyCSSValue()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cssstyledeclaration/getpropertycssvalue/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7575a7ca67ccfa9107a9c4d79e093292",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSSStyleDeclaration.getPropertyCSSValue()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nmethod interface returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CSSValue"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSSValue"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " containing the CSS value for a\nproperty. Note that it returns "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "null"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if the property name is a\nshorthand property."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.1959207736,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "usage": {
+        "global": 0.0027046299999999995,
+        "relative": 0.0103682433651128
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "usage": {
+            "global": 0.0027046299999999995,
+            "relative": 0.0103682433651128
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": {
+        "version": "61.0.0",
+        "date": 1529971200
+      },
+      "usage": {
+        "global": 0.00488433,
+        "relative": 0.11717413505349847
+      },
+      "history": [
+        {
+          "notes": [
+            "Only returns a result if called on the result of <code>getComputedStyle()</code>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "usage": {
+            "global": 0.00488433,
+            "relative": 0.11717413505349847
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": {
+        "version": "61.0.0",
+        "date": 1529971200
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": {
+        "version": "27.0.0",
+        "date": 1422316800
+      },
+      "usage": {
+        "global": 0.00085791,
+        "relative": 0.054751708777147384
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "27.0.0",
+            "date": 1422316800
+          },
+          "usage": {
+            "global": 0.00085791,
+            "relative": 0.054751708777147384
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "27.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "27.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "usage": {
+        "global": 0.00218332,
+        "relative": 0.07446961563142922
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "usage": {
+            "global": 0.00218332,
+            "relative": 0.07446961563142922
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": {
+        "version": "41.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/331608'>bug 331608</a>."
+          ],
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": {
+            "version": "41.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": true
+  }
+}

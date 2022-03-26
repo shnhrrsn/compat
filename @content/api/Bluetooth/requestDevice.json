@@ -1,0 +1,423 @@
+{
+  "self": [
+    "api",
+    "Bluetooth",
+    "requestDevice"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "c1be872363ef4132db76ed446f7b41a9ee275e8f",
+    "date": "2021-12-07T10:49:24.000Z"
+  },
+  "title": "Bluetooth.requestDevice()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice",
+    "spec": "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetooth-requestdevice",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/bluetooth/requestdevice/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "b5b730bc1e84482e6073fb2fb439eb8e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Bluetooth.requestDevice()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Bluetooth"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Bluetooth"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to a\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/BluetoothDevice"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "BluetoothDevice"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object with the specified options. If there is no chooser\nUI, this method returns the first device matching the criteria."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7086916839999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "56.0.0",
+        "date": 1485302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25615107,
+        "relative": 0.9819593186476689
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1485302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25615107,
+            "relative": 0.9819593186476689
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "56.0.0",
+        "date": 1485907200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1485907200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "43.0.0",
+        "date": 1486425600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013261030000000002,
+        "relative": 0.8463172741255083
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1486425600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013261030000000002,
+            "relative": 0.8463172741255083
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": false,
+    "deprecated": false
+  }
+}

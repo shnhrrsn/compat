@@ -1,0 +1,417 @@
+{
+  "self": [
+    "api",
+    "Navigator",
+    "onLine"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "Navigator.onLine",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Navigator/onLine",
+    "spec": "https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-online-dev",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigator/online/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a9cd69d563ec28833f208ebe357da2ec",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Returns the online status of the browser. The property returns a boolean value, with\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " meaning online and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "false"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " meaning offline. The property\nsends updates whenever the browser's ability to connect to the network changes. The\nupdate occurs when the user follows links or when a script requests a remote page. For\nexample, the property should return "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "false"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when users click links soon after\nthey lose internet connection."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9541242038,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Earlier versions of Chrome incorrectly return true when a tab is first opened, but it starts reporting the correct connectivity status after the first network event. Windows: 11, macOS: 14, Chrome OS: 13, Linux: Always returns <code>true</code>. For history, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/7469'>crbug.com/7469</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.5.0",
+        "date": 1180483200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Since Firefox 4 the browser returns <code>true</code> when 'Work Offline' mode is disabled and <code>false</code> when it is enabled, regardless of actual connectivity. Since Firefox 41, on OS X and Windows, the returned values follow the actual network connectivity, unless 'Work offline' mode is selected (where it will always return <code>false</code>)."
+          ],
+          "added": {
+            "version": "1.5.0",
+            "date": 1180483200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "4.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0077345032,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "in Internet Explorer 8 'online' and 'offline' events are raised on the <code>document.body</code>; under IE 9 they are raised on both <code>document.body</code> and <code>window</code>."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0077345032,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "From Opera 11.1 until Opera 12.1, the browser returns <code>true</code> when 'Work Offline' mode is disabled and <code>false</code> when it is enabled, regardless of actual connectivity."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "10.1.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "From Opera 11.1 until Opera 12.1, the browser returns <code>true</code> when 'Work Offline' mode is disabled and <code>false</code> when it is enabled, regardless of actual connectivity."
+          ],
+          "added": {
+            "version": "10.1.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "4.0.0",
+        "date": 1244419200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "3.2.0",
+        "date": 1270252800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.2.0",
+            "date": 1270252800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Can incorrectly return true, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/811122'>bug 811122</a>."
+          ],
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

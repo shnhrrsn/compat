@@ -1,0 +1,768 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "print-color-adjust"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "56da604e4fc9c926015751a990496f0284bf4e41",
+    "date": "2022-03-18T17:18:24.000Z"
+  },
+  "title": "print-color-adjust",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust",
+    "spec": "https://drafts.csswg.org/css-color-adjust/#propdef-print-color-adjust",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/print-color-adjust/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ffd36ce61941f54022c3d49c7559a16d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "print-color-adjust"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " CSS property sets what, if anything, the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/user_agent"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "user agent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " may do to optimize the appearance of the element on the output device.\nBy default, the browser is allowed to make any adjustments to the element's appearance it determines to be necessary and prudent given the type and capabilities of the output device."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "170ac4d9e9b00fbd34bfaef2038305cc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTML/Applying_color"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Applying color to HTML elements using CSS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other color-related properties: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/types/color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/background-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "background-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/border-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "border-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/outline-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "outline-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-decoration-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-decoration-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-emphasis-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-emphasis-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-shadow"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-shadow"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/caret-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "caret-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/column-rule-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "column-rule-color"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/background-image"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "background-image"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.020958451999999995,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Chrome does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants.",
+            "Before version 26, if background images are clipped (for example, when using <code>background-image</code> sprites) and <code>-webkit-print-color-adjust</code> is set to <code>exact</code>, then backgrounds will appear distorted when printed. Solid backgrounds and background images that are not clipped (i.e., backgrounds that have narrower and shorter than the element to which they are applied) are printed correctly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/131054'>Chromium bug 131054</a>."
+          ],
+          "added": {
+            "version": "17.0.0",
+            "date": 1328659200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26002566,
+            "relative": 0.9968126228186767
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Chrome does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants.",
+            "Before version 26, if background images are clipped (for example, when using <code>background-image</code> sprites) and <code>-webkit-print-color-adjust</code> is set to <code>exact</code>, then backgrounds will appear distorted when printed. Solid backgrounds and background images that are not clipped (i.e., backgrounds that have narrower and shorter than the element to which they are applied) are printed correctly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/131054'>Chromium bug 131054</a>."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Edge does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "97.0.0",
+        "date": 1644278400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.020430539999999997,
+        "relative": 0.4901247158107463
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "97.0.0",
+            "date": 1644278400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.020430539999999997,
+            "relative": 0.4901247158107463
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03822907,
+            "relative": 0.9171080191448258
+          },
+          "alternative_name": "color-adjust"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "97.0.0",
+        "date": 1644278400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "97.0.0",
+            "date": 1644278400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "alternative_name": "color-adjust"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Opera does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Opera does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00012482999999999998,
+        "relative": 0.0037325984752052664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00012482999999999998,
+            "relative": 0.0037325984752052664
+          }
+        },
+        {
+          "notes": [
+            "Safari does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "6.0.0",
+            "date": 1343174400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03314822,
+            "relative": 0.991179968178873
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00040308200000000003,
+        "relative": 0.002700809865593257
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00040308200000000003,
+            "relative": 0.002700809865593257
+          }
+        },
+        {
+          "notes": [
+            "Safari does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "6.0.0",
+            "date": 1359331200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1491702188,
+            "relative": 0.9994998501241552
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Samsung Internet does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants.",
+            "In version 1, if background images are clipped (for example, when using <code>background-image</code> sprites) and <code>-webkit-print-color-adjust</code> is set to <code>exact</code>, then backgrounds will appear distorted when printed. Solid backgrounds and background images that are not clipped (i.e., backgrounds that have narrower and shorter than the element to which they are applied) are printed correctly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/131054'>Chromium bug 131054</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "WebView does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants."
+          ],
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

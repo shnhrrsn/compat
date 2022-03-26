@@ -1,0 +1,589 @@
+{
+  "self": [
+    "api",
+    "Clients",
+    "openWindow"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "Clients.openWindow()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Clients/openWindow",
+    "spec": "https://w3c.github.io/ServiceWorker/#clients-openwindow",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/clients/openwindow/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "514412b690629f16fd489eaf39599b7d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "openWindow()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Clients"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Clients"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\ninterface creates a new top level browsing context and loads a given URL. If the calling\nscript doesn't have permission to show popups, "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "openWindow()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " will throw an\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "InvalidAccessError"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.932619609,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25827731,
+        "relative": 0.9901102944826768
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25827731,
+            "relative": 0.9901102944826768
+          }
+        },
+        {
+          "notes": [
+            "Can only open URLs on the same origin."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1428969600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25791648,
+            "relative": 0.9887270467728483
+          }
+        },
+        {
+          "notes": [
+            "Can open any URL. "
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25787355,
+            "relative": 0.9885624739153172
+          }
+        },
+        {
+          "notes": [
+            "URLs may open inside an existing browsing context provided by a standalone web app"
+          ],
+          "added": {
+            "version": "51.0.0",
+            "date": 1464134400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25660878,
+            "relative": 0.9837139574228971
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Can only open URLs on the same origin."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1429056000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Can open any URL. "
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "URLs may open inside an existing browsing context provided by a standalone web app"
+          ],
+          "added": {
+            "version": "51.0.0",
+            "date": 1464739200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "17.0.0",
+        "date": 1525046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040915599999999996,
+        "relative": 0.9918786655518548
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1525046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040915599999999996,
+            "relative": 0.9918786655518548
+          }
+        },
+        {
+          "notes": [
+            "URLs may open inside an existing browsing context provided by a standalone web app"
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038360809999999995,
+        "relative": 0.9202684363467649
+      },
+      "history": [
+        {
+          "notes": [
+            "<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+          ],
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038360809999999995,
+            "relative": 0.9202684363467649
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "38.0.0",
+        "date": 1465344000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013519710000000002,
+        "relative": 0.862826199334997
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1465344000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013519710000000002,
+            "relative": 0.862826199334997
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "41.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.1.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03249741,
+        "relative": 0.9717198030451043
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03249741,
+            "relative": 0.9717198030451043
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.3.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.144721392,
+        "relative": 0.9696909395011166
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.3.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.144721392,
+            "relative": 0.9696909395011166
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "URLs may open inside an existing browsing context provided by a standalone web app"
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "40.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "40.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Can only open URLs on the same origin."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Can open any URL. "
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "URLs may open inside an existing browsing context provided by a standalone web app"
+          ],
+          "added": {
+            "version": "51.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

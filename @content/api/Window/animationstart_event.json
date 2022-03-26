@@ -1,0 +1,846 @@
+{
+  "self": [
+    "api",
+    "Window",
+    "animationstart_event"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
+  "title": "Window: animationstart event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Window/animationstart_event",
+    "spec": "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/window/animationstart_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a32b40527f613c92182a314a5a77e9d6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationstart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired when a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Animation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " has started. If there is an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/properties/animation-delay"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animation-delay"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", this event will fire once the delay period has expired. A negative delay will cause the event to fire with an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AnimationEvent/elapsedTime"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "elapsedTime"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "86cac7593fc9a66897034009e9afcc8a",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/AnimationEvent"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "AnimationEvent"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related events: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/animationend_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationend"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/animationiteration_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationiteration"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/animationcancel_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationcancel"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/animationstart_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationstart"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLElement"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLElement"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLElement/animationstart_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationstart"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9355958840000002,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "43.0.0",
+        "date": 1431993600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25787355,
+        "relative": 0.9885624739153172
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25787355,
+            "relative": 0.9885624739153172
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "43.0.0",
+        "date": 1432684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "18.0.0",
+        "date": 1542067200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04079077,
+        "relative": 0.9888525284838212
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1542067200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04079077,
+            "relative": 0.9888525284838212
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "51.0.0",
+        "date": 1485216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03805926,
+        "relative": 0.9130343099823747
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1485216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03805926,
+            "relative": 0.9130343099823747
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "51.0.0",
+        "date": 1485216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1485216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "30.0.0",
+        "date": 1433808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013942580000000003,
+        "relative": 0.8898137097855016
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "30.0.0",
+            "date": 1433808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013942580000000003,
+            "relative": 0.8898137097855016
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "30.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "30.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03292502,
+        "relative": 0.984505963695449
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03292502,
+            "relative": 0.984505963695449
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.147677327,
+        "relative": 0.989496880748933
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.147677327,
+            "relative": 0.989496880748933
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

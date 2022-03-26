@@ -1,0 +1,448 @@
+{
+  "self": [
+    "api",
+    "IDBTransaction",
+    "complete_event"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "fee3648cd885c167c95fc765093f8a51781fc79b",
+    "date": "2022-03-03T03:06:28.000Z"
+  },
+  "title": "IDBTransaction: complete event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/complete_event",
+    "spec": [
+      "https://w3c.github.io/IndexedDB/#eventdef-transaction-complete",
+      "https://w3c.github.io/IndexedDB/#dom-idbtransaction-oncomplete"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/idbtransaction/complete_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a6d0b919ac9736432bcb5625b9ddd881",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "complete"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/IndexedDB_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "IndexedDB API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is fired when the transaction successfully completed."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "6d6e58f0738465e0e01da1d7c22070f7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using IndexedDB"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9417680688000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "23.0.0",
+        "date": 1352160000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25964166999999994,
+        "relative": 0.9953405908698444
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "23.0.0",
+            "date": 1352160000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25964166999999994,
+            "relative": 0.9953405908698444
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "25.0.0",
+        "date": 1361923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "10.0.0",
+        "date": 1327968000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04084949000000001,
+        "relative": 0.9799713897559207
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1327968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04084949000000001,
+            "relative": 0.9799713897559207
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "22.0.0",
+        "date": 1372118400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1372118400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1346716800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.006459493,
+            "relative": 0.8351529287621214
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014890890000000004,
+        "relative": 0.9503347352432496
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "7.0.0",
+        "date": 1382400000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03305606,
+        "relative": 0.9884242501986206
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1382400000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03305606,
+            "relative": 0.9884242501986206
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "8.0.0",
+        "date": 1410912000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14775197180000002,
+        "relative": 0.9899970306247778
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1410912000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14775197180000002,
+            "relative": 0.9899970306247778
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.5.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

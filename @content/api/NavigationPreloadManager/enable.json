@@ -1,0 +1,431 @@
+{
+  "self": [
+    "api",
+    "NavigationPreloadManager",
+    "enable"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "5364d599e0747e9798b6715e6e37b2f0c87a0031",
+    "date": "2022-03-24T06:30:29.000Z"
+  },
+  "title": "NavigationPreloadManager.enable()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager/enable",
+    "spec": "https://w3c.github.io/ServiceWorker/#dom-navigationpreloadmanager-enable",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigationpreloadmanager/enable/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "6ed374375b22cee41c04c9a43c4e6261",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "enable()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/NavigationPreloadManager"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NavigationPreloadManager"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is used to enable preloading of resources managed by the service worker.\nIt returns a promise that resolves with "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "undefined"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.709110256,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "59.0.0",
+        "date": 1496620800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25552692,
+        "relative": 0.9795666294087213
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "59.0.0",
+            "date": 1496620800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25552692,
+            "relative": 0.9795666294087213
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "59.0.0",
+        "date": 1496707200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "59.0.0",
+            "date": 1496707200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "18.0.0",
+        "date": 1542067200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04079077,
+        "relative": 0.9888525284838212
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1542067200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04079077,
+            "relative": 0.9888525284838212
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "preview",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "97.0.0",
+            "date": 1644278400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.020430539999999997,
+            "relative": 0.4901247158107463
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.serviceWorkers.navigationPreload.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "46.0.0",
+        "date": 1498003200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013129900000000002,
+        "relative": 0.837948573944898
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "46.0.0",
+            "date": 1498003200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013129900000000002,
+            "relative": 0.837948573944898
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00012482999999999998,
+        "relative": 0.0037325984752052664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00012482999999999998,
+            "relative": 0.0037325984752052664
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00040308200000000003,
+        "relative": 0.002700809865593257
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00040308200000000003,
+            "relative": 0.002700809865593257
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "7.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026928363,
+        "relative": 0.9184841627400474
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026928363,
+            "relative": 0.9184841627400474
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "59.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "59.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

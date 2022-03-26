@@ -1,0 +1,468 @@
+{
+  "self": [
+    "api",
+    "ReadableStreamDefaultReader",
+    "cancel"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "ReadableStreamDefaultReader.cancel()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/cancel",
+    "spec": "https://streams.spec.whatwg.org/#ref-for-generic-reader-cancel②",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/readablestreamdefaultreader/cancel/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "993c87df8551d14cfc7989790b6e8dbe",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "cancel()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ReadableStreamDefaultReader"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ReadableStreamDefaultReader"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that resolves when the stream is canceled. Calling this method signals a loss of interest in the stream by a consumer."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.739071744,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25049211,
+        "relative": 0.9602656028812097
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25049211,
+            "relative": 0.9602656028812097
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "65.0.0",
+        "date": 1548633600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.036631069999999995,
+        "relative": 0.8787723072221074
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "65.0.0",
+            "date": 1548633600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.036631069999999995,
+            "relative": 0.8787723072221074
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "65.0.0",
+        "date": 1548633600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "65.0.0",
+            "date": 1548633600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "16.5.0",
+        "date": 1626220800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.5.0",
+            "date": 1626220800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "65.0.0",
+        "date": 1573689600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01194538,
+        "relative": 0.7623526558640893
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "65.0.0",
+            "date": 1573689600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01194538,
+            "relative": 0.7623526558640893
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "56.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024952283,
+        "relative": 0.851083177975123
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024952283,
+            "relative": 0.851083177975123
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "78.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

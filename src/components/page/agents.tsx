@@ -1,8 +1,8 @@
 import Image, { isValidImageSrc } from '@/components/shared/image'
 import formatDate from '@/utils/formatters/formatDate'
-import { PageSupport, PageSupportVariant } from '@/utils/getPage'
 import isAvailable from '@/utils/page/isAvailable'
 import classNames from 'classnames'
+import { PageSupport, SupportVariant } from '../../types/Page'
 import styles from './agents.module.css'
 import Usages from './usages'
 
@@ -50,7 +50,7 @@ function Agent({ agent, support }: { agent: string; support: PageSupport | null 
 }
 
 export function formatAvailability(
-	support: PageSupportVariant | null,
+	support: SupportVariant | null,
 	classNames?: Partial<{ unsupported: string; unknown: string; date: string }>,
 ) {
 	if (!isAvailable(support)) {

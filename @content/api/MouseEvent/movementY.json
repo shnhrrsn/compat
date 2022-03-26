@@ -1,0 +1,713 @@
+{
+  "self": [
+    "api",
+    "MouseEvent",
+    "movementY"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "811402ca79d02c0b66fec8a5216b0a61d82db337",
+    "date": "2022-01-02T22:30:28.000Z"
+  },
+  "title": "MouseEvent.movementY",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY",
+    "spec": "https://w3c.github.io/pointerlock/#dom-mouseevent-movementy",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/mouseevent/movementy/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "02680505a535b9c4ac2d7b874b09e3c8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "movementY"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/MouseEvent"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "MouseEvent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface provides the difference in the Y coordinate of the mouse pointer between the given event and the previous "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Element/mousemove_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "mousemove"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event.\nIn other words, the value of the property is computed like this: "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "currentEvent.movementY = currentEvent.screenY - previousEvent.screenY"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3fd810845b6ac5b4aa5b78f02cab6341",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/MouseEvent/movementX"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "MouseEvent.movementX"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/MouseEvent"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "MouseEvent"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Pointer_Lock_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Pointer Lock"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9379638488,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "37.0.0",
+        "date": 1409011200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25857464,
+        "relative": 0.9912501139033552
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": 1409011200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25857464,
+            "relative": 0.9912501139033552
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1348531200
+          },
+          "removed": {
+            "version": "37.0.0",
+            "date": 1409011200
+          },
+          "usage": {
+            "global": 0.00119489,
+            "relative": 0.004580630368863629
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "37.0.0",
+        "date": 1409702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": 1409702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": {
+            "version": "37.0.0",
+            "date": 1409702400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "13.0.0",
+        "date": 1447286400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04116739,
+        "relative": 0.9979825752879776
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1447286400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04116739,
+            "relative": 0.9979825752879776
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "41.0.0",
+        "date": 1442880000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03895742,
+        "relative": 0.934580995226748
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": 1442880000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03895742,
+            "relative": 0.934580995226748
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": {
+            "version": "41.0.0",
+            "date": 1442880000
+          },
+          "usage": {
+            "global": 0.00277724,
+            "relative": 0.06662545217787866
+          },
+          "prefix": "moz"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "41.0.0",
+        "date": 1442880000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": 1442880000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": {
+            "version": "41.0.0",
+            "date": 1442880000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "moz"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "24.0.0",
+        "date": 1409616000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014260030000000002,
+        "relative": 0.9100733290361285
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "24.0.0",
+            "date": 1409616000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014260030000000002,
+            "relative": 0.9100733290361285
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "24.0.0",
+            "date": 1409616000
+          },
+          "usage": {
+            "global": 0.00069788,
+            "relative": 0.044538614215238914
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "24.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "24.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "24.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03292502,
+        "relative": 0.984505963695449
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03292502,
+            "relative": 0.984505963695449
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1343174400
+          },
+          "removed": {
+            "version": "8.0.0",
+            "date": 1413417600
+          },
+          "usage": {
+            "global": 0.0002232,
+            "relative": 0.00667400448342398
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "8.0.0",
+        "date": 1410912000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14775197180000002,
+        "relative": 0.9899970306247778
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1410912000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14775197180000002,
+            "relative": 0.9899970306247778
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1359331200
+          },
+          "removed": {
+            "version": "8.0.0",
+            "date": 1410912000
+          },
+          "usage": {
+            "global": 0.001418247,
+            "relative": 0.009502819499377396
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

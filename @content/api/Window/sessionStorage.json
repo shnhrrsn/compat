@@ -1,0 +1,615 @@
+{
+  "self": [
+    "api",
+    "Window",
+    "sessionStorage"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "6f4e4cc27b9461828672334aed33a892485cf0a2",
+    "date": "2022-03-25T05:28:44.000Z"
+  },
+  "title": "Window.sessionStorage",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Window/sessionStorage",
+    "spec": "https://html.spec.whatwg.org/multipage/webstorage.html#dom-sessionstorage-dev",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/window/sessionstorage/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "11d579866f2123acad7045c7e245d4f8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The read-only "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "sessionStorage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nproperty accesses a session "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Storage"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Storage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object for the current\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/origin"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "origin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "sessionStorage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is similar to\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/localStorage"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "localStorage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "; the difference is that while data\nin "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "localStorage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " doesn't expire, data in "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "sessionStorage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is\ncleared when the "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "page session"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " ends."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f6449532b6b28aade766923c8b3e06ef",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using the\nWeb Storage API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/localStorage"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window.localStorage"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9535987216,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "5.0.0",
+        "date": 1274400000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26081004999999996,
+        "relative": 0.9998195947198832
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1274400000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26081004999999996,
+            "relative": 0.9998195947198832
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.10.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.10.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "2.0.0",
+        "date": 1229558400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": 1229558400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "8.0.0",
+        "date": 1237420800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007448191,
+        "relative": 0.9629824705483345
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1237420800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007448191,
+            "relative": 0.9629824705483345
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "10.5.0",
+        "date": 1267488000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015476990000000001,
+        "relative": 0.9877395638549759
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.5.0",
+            "date": 1267488000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015476990000000001,
+            "relative": 0.9877395638549759
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "11.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "4.0.0",
+        "date": 1244419200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "3.2.0",
+        "date": 1270252800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.2.0",
+            "date": 1270252800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

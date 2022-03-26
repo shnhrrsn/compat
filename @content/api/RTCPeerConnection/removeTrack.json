@@ -1,0 +1,474 @@
+{
+  "self": [
+    "api",
+    "RTCPeerConnection",
+    "removeTrack"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "efd21b7b7368624dcd3492e73f443573832ef04d",
+    "date": "2021-10-27T06:18:11.000Z"
+  },
+  "title": "RTCPeerConnection.removeTrack()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/removeTrack",
+    "spec": "https://w3c.github.io/webrtc-pc/#dom-rtcpeerconnection-removetrack",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/rtcpeerconnection/removetrack/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ce580e81d41a4ff4e19c944dbddada90",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The\n"
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCPeerConnection.removeTrack()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method tells the local\nend of the connection to stop sending media from the specified track, without actually\nremoving the corresponding "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCRtpSender"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCRtpSender"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " from the list of senders as\nreported by "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCPeerConnection/getSenders"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCPeerConnection.getSenders()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". If the track is\nalready stopped, or is not in the connection's senders list, this method has no effect."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "d381b089700fcc93f3f2d4d34b684692",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebRTC API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9281151710000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "64.0.0",
+        "date": 1516752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25506921,
+        "relative": 0.9778119906334929
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1516752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25506921,
+            "relative": 0.9778119906334929
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "64.0.0",
+        "date": 1516665600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1516665600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "22.0.0",
+        "date": 1372118400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04024488000000001,
+        "relative": 0.9654669124182519
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1372118400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04024488000000001,
+            "relative": 0.9654669124182519
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "44.0.0",
+        "date": 1453766400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "44.0.0",
+            "date": 1453766400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "51.0.0",
+        "date": 1517961600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01281485,
+        "relative": 0.8178421223937559
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1517961600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01281485,
+            "relative": 0.8178421223937559
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "47.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.145363337,
+        "relative": 0.9739922265572696
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.145363337,
+            "relative": 0.9739922265572696
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "64.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

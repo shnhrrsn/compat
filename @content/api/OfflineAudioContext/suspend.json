@@ -1,0 +1,391 @@
+{
+  "self": [
+    "api",
+    "OfflineAudioContext",
+    "suspend"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
+  "title": "OfflineAudioContext.suspend()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/suspend",
+    "spec": "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-suspend",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/offlineaudiocontext/suspend/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "59b3401fd75f61d16ebbd763e2929674",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suspend()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/OfflineAudioContext"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "OfflineAudioContext"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface schedules a suspension of the time\nprogression in the audio context at the specified time and returns a promise. This is\ngenerally useful at the time of manipulating the audio graph synchronously on\nOfflineAudioContext."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.8954371839999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "41.0.0",
+        "date": 1425340800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25815247999999996,
+        "relative": 0.9896317566348872
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": 1425340800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25815247999999996,
+            "relative": 0.9896317566348872
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "41.0.0",
+        "date": 1426032000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": 1426032000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.041124720000000003,
+        "relative": 0.9969481663422676
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.041124720000000003,
+            "relative": 0.9969481663422676
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "28.0.0",
+        "date": 1425945600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014032980000000004,
+        "relative": 0.8955830264661023
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "28.0.0",
+            "date": 1425945600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014032980000000004,
+            "relative": 0.8955830264661023
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "28.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "28.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03292502,
+        "relative": 0.984505963695449
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03292502,
+            "relative": 0.984505963695449
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.147677327,
+        "relative": 0.989496880748933
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.147677327,
+            "relative": 0.989496880748933
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "41.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

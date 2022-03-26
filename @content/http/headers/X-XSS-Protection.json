@@ -1,0 +1,584 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "X-XSS-Protection"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "303a6c3b8ec6658d2956c191c50aee0a0e9e4da5",
+    "date": "2022-02-18T09:30:25.000Z"
+  },
+  "title": "X-XSS-Protection",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/X-XSS-Protection",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/x-xss-protection/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a40a6ee242ebd0cced597e4b1537f8f4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The HTTP "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "X-XSS-Protection"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/Cross-site_scripting"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "XSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") attacks. These protections are largely unnecessary in modern browsers when sites implement a strong "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/csp/Content-Security-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Security-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that disables the use of inline JavaScript ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "'unsafe-inline'"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ")."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f1d7d47eb148ffa0778a13a65a980c11",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://blogs.msdn.microsoft.com/ieinternals/2011/01/31/controlling-the-xss-filter/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Controlling the XSS Filter – Microsoft"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.virtuesecurity.com/blog/understanding-xss-auditor/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Understanding XSS Auditor – Virtue Security"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://blog.innerht.ml/the-misunderstood-x-xss-protection/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The misunderstood X-XSS-Protection – blog.innerht.ml"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.20982388059999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "4.0.0",
+        "date": 1268784000
+      },
+      "removed": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "usage": {
+        "global": 0.010739490000000003,
+        "relative": 0.04117001066215908
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1268784000
+          },
+          "removed": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "usage": {
+            "global": 0.010739490000000003,
+            "relative": 0.04117001066215908
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": {
+        "version": "17.0.0",
+        "date": 1525046400
+      },
+      "usage": {
+        "global": 0.00045984,
+        "relative": 0.011147471516178791
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "17.0.0",
+            "date": 1525046400
+          },
+          "usage": {
+            "global": 0.00045984,
+            "relative": 0.011147471516178791
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "8.0.0",
+        "date": 1237420800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007448191,
+        "relative": 0.9629824705483345
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1237420800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007448191,
+            "relative": 0.9629824705483345
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "65.0.0",
+        "date": 1573689600
+      },
+      "usage": {
+        "global": 0.003810420000000001,
+        "relative": 0.24318052727980555
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "65.0.0",
+            "date": 1573689600
+          },
+          "usage": {
+            "global": 0.003810420000000001,
+            "relative": 0.24318052727980555
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "56.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "56.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "usage": {
+        "global": 0.004677886000000001,
+        "relative": 0.15955534341628524
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "usage": {
+            "global": 0.004677886000000001,
+            "relative": 0.15955534341628524
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": false,
+    "deprecated": false
+  }
+}

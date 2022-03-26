@@ -1,8 +1,8 @@
 import Search from '@/components/search/search'
 import Layout from '@/components/shared/layout'
-import getRecents from '@/utils/getRecents'
 import compatData from '@mdn/browser-compat-data'
 import Link from 'next/link'
+import manifest from '../../@content/$manifest.json'
 import styles from './index.module.css'
 
 type PageRef = { href: string; title: string }
@@ -57,7 +57,10 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			recent: (await getRecents()).slice(0, 15),
+			recent: manifest
+				.filter(page => page.type === 'page' && typeof page.commit?.date === 'string')
+				.sort((lhs, rhs) => rhs.commit.date.localeCompare(lhs.commit.date))
+				.slice(0, 15),
 			popular,
 			sections,
 		},

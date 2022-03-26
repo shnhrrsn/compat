@@ -1,0 +1,436 @@
+{
+  "self": [
+    "api",
+    "SVGGraphicsElement",
+    "getBBox"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "SVGGraphicsElement.getBBox()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/SVGGraphicsElement/getBBox",
+    "spec": "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/svggraphicselement/getbbox/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "93c6bddbad45bd75b26efd4656c8ba84",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SVGGraphicsElement.getBBox()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method allows us to determine\nthe coordinates of the smallest rectangle in which the object fits. The coordinates\nreturned are with respect to the current SVG space (after the application of all\ngeometry attributes on all the elements contained in the target element)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "728b669dc6c79bc256c9cb081954d7ff",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html#getBBox"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getBBox\nin SVG Primer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9563017276,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.5.0",
+        "date": 1180483200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>getBBox()</code> method returns an empty <code>DOMRect</code> when there is no fill (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1019326'>bug 1019326</a>).",
+            "This method doesn't work for <code>&lt;textPath&gt;</code> and <code>&lt;tspan&gt;</code> elements (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/937268'>bug 937268</a>)."
+          ],
+          "added": {
+            "version": "1.5.0",
+            "date": 1180483200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>getBBox()</code> method returns an empty <code>DOMRect</code> when there is no fill (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1019326'>bug 1019326</a>).",
+            "This method doesn't work for <code>&lt;textPath&gt;</code> and <code>&lt;tspan&gt;</code> elements (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/937268'>bug 937268</a>)."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "9.0.0",
+        "date": 1300060800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007052712,
+        "relative": 0.9118506796920065
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1300060800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007052712,
+            "relative": 0.9118506796920065
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.1.0",
+        "date": 1352073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014938090000000001,
+        "relative": 0.9533470333331207
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014938090000000001,
+            "relative": 0.9533470333331207
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "12.1.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "3.0.0",
+        "date": 1181520000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": 1181520000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "3.0.0",
+        "date": 1298332800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.003503405,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": 1298332800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

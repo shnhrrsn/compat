@@ -1,0 +1,562 @@
+{
+  "self": [
+    "api",
+    "EXT_texture_filter_anisotropic"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "EXT_texture_filter_anisotropic",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/EXT_texture_filter_anisotropic",
+    "spec": "https://www.khronos.org/registry/webgl/extensions/EXT_texture_filter_anisotropic/",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/ext_texture_filter_anisotropic/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "e0fc50903710cda67554474a313b95a4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "EXT_texture_filter_anisotropic"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " extension is part of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/WebGL_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebGL API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and exposes two constants for "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://en.wikipedia.org/wiki/Anisotropic_filtering"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "anisotropic filtering (AF)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1712af962931c090175d30d55829172e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WebGLRenderingContext/getExtension"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WebGLRenderingContext.getExtension()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9444418957999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "34.0.0",
+        "date": 1396915200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25886764999999995,
+        "relative": 0.9923733725333382
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "34.0.0",
+            "date": 1396915200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25886764999999995,
+            "relative": 0.9923733725333382
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "35.0.0",
+            "date": 1400544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25878442999999995,
+            "relative": 0.9920543473014786
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "34.0.0",
+        "date": 1396396800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "34.0.0",
+            "date": 1396396800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "35.0.0",
+            "date": 1400544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "47.0.0",
+        "date": 1465257600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038272,
+        "relative": 0.9181379015683816
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1465257600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038272,
+            "relative": 0.9181379015683816
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "47.0.0",
+        "date": 1465257600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1465257600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "11.0.0",
+        "date": 1381968000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00619584,
+        "relative": 0.8010650250943073
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00619584,
+            "relative": 0.8010650250943073
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "21.0.0",
+        "date": 1399334400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014526310000000002,
+        "relative": 0.9270672852939864
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "21.0.0",
+            "date": 1399334400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014526310000000002,
+            "relative": 0.9270672852939864
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1401753600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01446034,
+            "relative": 0.922857088154393
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "21.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "21.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "7.0.0",
+        "date": 1382400000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03305606,
+        "relative": 0.9884242501986206
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1382400000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03305606,
+            "relative": 0.9884242501986206
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "7.0.0",
+        "date": 1394409600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1479460488,
+        "relative": 0.9912974237861811
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1394409600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1479460488,
+            "relative": 0.9912974237861811
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "WEBKIT_"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

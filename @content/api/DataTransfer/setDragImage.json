@@ -1,0 +1,595 @@
+{
+  "self": [
+    "api",
+    "DataTransfer",
+    "setDragImage"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "DataTransfer.setDragImage()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/DataTransfer/setDragImage",
+    "spec": "https://html.spec.whatwg.org/multipage/dnd.html#dom-datatransfer-setdragimage-dev",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/datatransfer/setdragimage/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f6bb53b6fe73fbc192d3603e8f1fafc6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "When a drag occurs, a translucent image is generated from the drag target (the element\nthe "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Document/dragstart_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "dragstart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired at), and follows the mouse pointer during the\ndrag. This image is created automatically, so you do not need to create it yourself.\nHowever, if a custom image is desired, the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DataTransfer.setDragImage()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method can be used to set the\ncustom image to be used. The image will typically be an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/image"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<image>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element\nbut it can also be a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/canvas"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<canvas>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or any other visible element."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "49640eb15a4ce1ba31183e786ac429e8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/HTML_Drag_and_Drop_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Drag and drop"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Drag Operations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Recommended Drag Types"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Multiple_items"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Dragging and Dropping Multiple Items"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://codepen.io/tech_query/pen/MqGgap"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DataTransfer test - Paste or Drag"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9450729205999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "3.0.0",
+        "date": 1255305600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": 1255305600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "18.0.0",
+        "date": 1542067200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04079077,
+        "relative": 0.9888525284838212
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1542067200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04079077,
+            "relative": 0.9888525284838212
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "3.5.0",
+        "date": 1246320000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04155844000000001,
+        "relative": 0.9969789635779552
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.5.0",
+            "date": 1246320000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04155844000000001,
+            "relative": 0.9969789635779552
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.1.0",
+        "date": 1352073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014938090000000001,
+        "relative": 0.9533470333331207
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014938090000000001,
+            "relative": 0.9533470333331207
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "12.1.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "4.0.0",
+        "date": 1244419200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "3.2.0",
+        "date": 1270252800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.2.0",
+            "date": 1270252800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

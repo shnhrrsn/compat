@@ -1,0 +1,484 @@
+{
+  "self": [
+    "api",
+    "Navigator",
+    "vibrate"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "34e31397054e6adc92d7d37341e97e6102fe0359",
+    "date": "2021-09-14T20:30:39.000Z"
+  },
+  "title": "Navigator.vibrate()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Navigator/vibrate",
+    "spec": "https://w3c.github.io/vibration/#dom-navigator-vibrate",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigator/vibrate/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a2464a966b8b02fc5139a32b4017b18d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Navigator.vibrate()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method pulses the vibration\nhardware on the device, if such hardware exists. If the device doesn't support\nvibration, this method has no effect. If a vibration pattern is already in progress when\nthis method is called, the previous pattern is halted and the new one begins instead."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "196a11b72abaf76c02fb48dc793b00be",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Vibration_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Vibration API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7583461469999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "32.0.0",
+        "date": 1389657600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25899653,
+        "relative": 0.9928674361224045
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "32.0.0",
+            "date": 1389657600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25899653,
+            "relative": 0.9928674361224045
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "32.0.0",
+        "date": 1389744000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Beginning in Chrome 55, this is not supported in cross-origin iframes.",
+            "Beginning in Chrome 60, this method requires a user gesture. Otherwise it returns <code>false</code>."
+          ],
+          "added": {
+            "version": "32.0.0",
+            "date": 1389744000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "16.0.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04054539,
+        "relative": 0.972676089383143
+      },
+      "history": [
+        {
+          "notes": [
+            "Until Firefox 26 included, when the vibration pattern was too long or any of its elements too large, Firefox threw an exception instead of returning <code>false</code> (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/884935'>bug 884935</a>).",
+            "From Firefox 32 onwards, when the vibration pattern is too long or any of its elements too large, it returns <code>true</code> but truncates the pattern (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1014581'>bug 1014581</a>).",
+            "Beginning in Firefox 72, this is not supported in cross-origin iframes."
+          ],
+          "added": {
+            "version": "16.0.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04054539,
+            "relative": 0.972676089383143
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1331596800
+          },
+          "removed": {
+            "version": "16.0.0",
+            "date": 1349740800
+          },
+          "usage": {
+            "global": 0.00030544000000000003,
+            "relative": 0.0073274467144399695
+          },
+          "prefix": "moz"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "16.0.0",
+        "date": 1349740800
+      },
+      "removed": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Vibration is disabled. If the window is visible, then <code>navigator.vibrate()</code> returns <code>true</code>, but no vibration takes place (regardless of hardware support). See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1591113'>bug 1591113</code>."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Until Firefox 26 included, when the vibration pattern was too long or any of its elements too large, Firefox threw an exception instead of returning <code>false</code> (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/884935'>bug 884935</a>).",
+            "From Firefox 32 onwards, when the vibration pattern is too long or any of its elements too large, it returns <code>true</code> but truncates the pattern (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1014581'>bug 1014581</a>)."
+          ],
+          "added": {
+            "version": "16.0.0",
+            "date": 1349740800
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1340668800
+          },
+          "removed": {
+            "version": "16.0.0",
+            "date": 1349740800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "moz"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "19.0.0",
+        "date": 1390867200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014635250000000002,
+        "relative": 0.9340198224531084
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "19.0.0",
+            "date": 1390867200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014635250000000002,
+            "relative": 0.9340198224531084
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "19.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Beginning in Opera 42, this is not supported in cross-origin iframes.",
+            "Beginning in Opera 47, this method requires a user gesture. Otherwise it returns <code>false</code>."
+          ],
+          "added": {
+            "version": "19.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "2.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Beginning in Samsung Internet 6.0, this is not supported in cross-origin iframes.",
+            "Beginning in Samsung Internet 8.0, this method requires a user gesture. Otherwise it returns <code>false</code>."
+          ],
+          "added": {
+            "version": "2.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.3",
+        "date": 1401667200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": [
+            "Beginning in version 55, this is not supported in cross-origin iframes.",
+            "Beginning in version 60, this method requires a user gesture. Otherwise it returns <code>false</code>."
+          ],
+          "added": {
+            "version": "4.4.3",
+            "date": 1401667200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

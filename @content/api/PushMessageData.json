@@ -1,0 +1,380 @@
+{
+  "self": [
+    "api",
+    "PushMessageData"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "PushMessageData",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PushMessageData",
+    "spec": "https://w3c.github.io/push-api/#pushmessagedata-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/pushmessagedata/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "0dd6dae4b28828c1acbfe8ea1d7b19b8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PushMessageData"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Push_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Push API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " provides methods which let you retrieve the push data sent by a server in various formats."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7517179370000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "50.0.0",
+        "date": 1460505600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25665171000000003,
+        "relative": 0.9838785302804284
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1460505600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25665171000000003,
+            "relative": 0.9838785302804284
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "50.0.0",
+        "date": 1461628800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1461628800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "17.0.0",
+        "date": 1525046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040915599999999996,
+        "relative": 0.9918786655518548
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1525046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040915599999999996,
+            "relative": 0.9918786655518548
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "44.0.0",
+        "date": 1453766400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03844403,
+        "relative": 0.9222648681028405
+      },
+      "history": [
+        {
+          "notes": [
+            "<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+          ],
+          "added": {
+            "version": "44.0.0",
+            "date": 1453766400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03844403,
+            "relative": 0.9222648681028405
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "37.0.0",
+        "date": 1462320000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013562540000000003,
+        "relative": 0.865559604572056
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": 1462320000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013562540000000003,
+            "relative": 0.865559604572056
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/421921'>bug 421921</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

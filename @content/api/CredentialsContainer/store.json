@@ -1,0 +1,453 @@
+{
+  "self": [
+    "api",
+    "CredentialsContainer",
+    "store"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "c1be872363ef4132db76ed446f7b41a9ee275e8f",
+    "date": "2021-12-07T10:49:24.000Z"
+  },
+  "title": "CredentialsContainer.store()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CredentialsContainer/store",
+    "spec": "https://w3c.github.io/webappsec-credential-management/#dom-credentialscontainer-store",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/credentialscontainer/store/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7c64fbea4562e400b644f6c593ea48a4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "store()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CredentialsContainer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CredentialsContainer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " stores a set of credentials for the user inside a\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Credential"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Credential"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instance, returning this in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9191165109999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "51.0.0",
+        "date": 1464134400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25660878,
+        "relative": 0.9837139574228971
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1464134400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25660878,
+            "relative": 0.9837139574228971
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "51.0.0",
+        "date": 1464739200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1464739200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "61.0.0",
+        "date": 1529971200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0368436,
+        "relative": 0.8838708609486
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0368436,
+            "relative": 0.8838708609486
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "61.0.0",
+        "date": 1529971200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "38.0.0",
+        "date": 1465344000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013519710000000002,
+        "relative": 0.862826199334997
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1465344000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013519710000000002,
+            "relative": 0.862826199334997
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "41.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "13.0.0",
+        "date": 1568851200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03158199,
+        "relative": 0.9443474142269324
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1568851200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03158199,
+            "relative": 0.9443474142269324
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "13.0.0",
+        "date": 1568851200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.138376584,
+        "relative": 0.9271782000543166
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1568851200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.138376584,
+            "relative": 0.9271782000543166
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "51.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

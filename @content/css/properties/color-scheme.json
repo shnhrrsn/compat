@@ -1,0 +1,724 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "color-scheme"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "008f3fb65925484cdb29e8bf0506697096cd0b6a",
+    "date": "2022-02-01T11:36:33.000Z"
+  },
+  "title": "color-scheme",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/color-scheme",
+    "spec": "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/color-scheme/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "800e5a26bcc2c40b17d621dff277fa0f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "color-scheme"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " CSS property allows an element to indicate which color schemes it can comfortably be rendered in."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "c368820fcb9df82e7cbc65ec9884a93d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTML/Applying_color"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Applying color to HTML elements using CSS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other color-related properties: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/types/color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/background-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "background-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/border-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "border-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/outline-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "outline-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-decoration-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-decoration-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-emphasis-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-emphasis-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/text-shadow"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-shadow"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/caret-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "caret-color"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/column-rule-color"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "column-rule-color"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/background-image"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "background-image"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/print-color-adjust"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "print-color-adjust"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9008668849999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24741296999999995,
+        "relative": 0.9484616693024008
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24741296999999995,
+            "relative": 0.9484616693024008
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586736000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.039998809999999996,
+        "relative": 0.9696537820895255
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586736000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039998809999999996,
+            "relative": 0.9696537820895255
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "96.0.0",
+        "date": 1641859200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03208134,
+        "relative": 0.7696251616613133
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "96.0.0",
+            "date": 1641859200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03208134,
+            "relative": 0.7696251616613133
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "96.0.0",
+        "date": 1641859200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "96.0.0",
+            "date": 1641859200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "68.0.0",
+        "date": 1587513600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0117657,
+        "relative": 0.7508855007626476
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1587513600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0117657,
+            "relative": 0.7508855007626476
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "58.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "13.0.0",
+        "date": 1568851200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03158199,
+        "relative": 0.9443474142269324
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1568851200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03158199,
+            "relative": 0.9443474142269324
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "13.0.0",
+        "date": 1568851200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.138376584,
+        "relative": 0.9271782000543166
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1568851200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.138376584,
+            "relative": 0.9271782000543166
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "13.0.0",
+        "date": 1605657600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024640380000000003,
+        "relative": 0.8404446565837148
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1605657600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024640380000000003,
+            "relative": 0.8404446565837148
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "81.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

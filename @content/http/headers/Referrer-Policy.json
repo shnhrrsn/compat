@@ -1,0 +1,697 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "Referrer-Policy"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93e4d6b49e1d041f922c6fdb2c4485a12ed5abc0",
+    "date": "2021-10-03T12:31:22.000Z"
+  },
+  "title": "Referrer-Policy",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy",
+    "spec": "https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/referrer-policy/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c0031d0b267fc657d347d06df4d73d62",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Referrer-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/HTTP_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "HTTP header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " controls how much "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "referrer information"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (sent with the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Referer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Referer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header) should be included with requests. Aside from the HTTP header, you can "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#integration_with_html"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "set this policy in HTML"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "dd5a64c3ec5680306d8593065322a6a4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Security/Referer_header:_privacy_and_security_concerns"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Web security > Referer header: privacy and security concerns"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://en.wikipedia.org/wiki/HTTP_referer"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTTP referer on Wikipedia"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "When using "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Fetch_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Fetch"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Request/referrerPolicy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Request.referrerPolicy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The obsolete "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "'s "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy/referrer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "referrer"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "icon",
+                    "properties": {
+                      "src": "deprecated"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": " directive."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Security/Same-origin_policy"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Same-origin policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://blog.mozilla.org/security/2015/01/21/meta-referrer/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Tighter Control Over Your Referrers – Mozilla Security Blog"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7820308539999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "56.0.0",
+        "date": 1485302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25615107,
+        "relative": 0.9819593186476689
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1485302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25615107,
+            "relative": 0.9819593186476689
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "56.0.0",
+        "date": 1485907200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1485907200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "50.0.0",
+        "date": 1479168000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038142079999999995,
+        "relative": 0.9150211458155658
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1479168000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038142079999999995,
+            "relative": 0.9150211458155658
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "50.0.0",
+        "date": 1479168000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1479168000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "43.0.0",
+        "date": 1486425600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013261030000000002,
+        "relative": 0.8463172741255083
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1486425600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013261030000000002,
+            "relative": 0.8463172741255083
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.1.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03249741,
+        "relative": 0.9717198030451043
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03249741,
+            "relative": 0.9717198030451043
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "7.2.0",
+        "date": 1528329600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026928363,
+        "relative": 0.9184841627400474
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.2.0",
+            "date": 1528329600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026928363,
+            "relative": 0.9184841627400474
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "56.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

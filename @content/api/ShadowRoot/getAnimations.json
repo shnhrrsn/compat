@@ -1,0 +1,759 @@
+{
+  "self": [
+    "api",
+    "ShadowRoot",
+    "getAnimations"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "792f5b9a1c0f1d0a82258c70d668a5099f511d48",
+    "date": "2021-09-24T07:31:16.000Z"
+  },
+  "title": "ShadowRoot.getAnimations()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/getAnimations",
+    "spec": "https://drafts.csswg.org/web-animations-1/#dom-documentorshadowroot-getanimations",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/shadowroot/getanimations/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f6c1c1609459b073062dc5f575444926",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getAnimations()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ShadowRoot"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ShadowRoot"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface\nreturns an array of all "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Animation"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Animation"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " objects currently in effect whose\ntarget elements are descendants of the shadow tree. This array includes "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Animations"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Transitions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Transitions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Web_Animations_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Web Animations"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f048c32b0d56365a76a7b1366b0a3b7d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Web_Animations_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Web Animations API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Transitions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Transitions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/getAnimations"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Element.getAnimations()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " - Fetch only the animations on a single\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Element"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " and its descendants."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Animation"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Animation"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.8931374230000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24599822999999998,
+        "relative": 0.9430382403607861
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24599822999999998,
+            "relative": 0.9430382403607861
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24703847999999998,
+            "relative": 0.9470260557590322
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features"
+            }
+          ]
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594857600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03986398,
+        "relative": 0.9663852243639549
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594857600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03986398,
+            "relative": 0.9663852243639549
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1590019200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039904409999999994,
+            "relative": 0.9673653310823768
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "75.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03608049,
+        "relative": 0.8655639991680335
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03608049,
+            "relative": 0.8655639991680335
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1578355200
+          },
+          "removed": {
+            "version": "75.0.0",
+            "date": 1586217600
+          },
+          "usage": {
+            "global": 0.0002094,
+            "relative": 0.005023465629923158
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.animations-api.getAnimations.enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "70.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.011628120000000002,
+        "relative": 0.7421051623896715
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "70.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.011628120000000002,
+            "relative": 0.7421051623896715
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "69.0.0",
+            "date": 1592956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01172252,
+            "relative": 0.7481297585694138
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features"
+            }
+          ]
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "60.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.13465927200000002,
+        "relative": 0.9022707298048681
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.13465927200000002,
+            "relative": 0.9022707298048681
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "14.0.0",
+        "date": 1618531200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.023600700000000002,
+        "relative": 0.8049828049175896
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1618531200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.023600700000000002,
+            "relative": 0.8049828049175896
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "84.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

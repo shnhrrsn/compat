@@ -4,25 +4,26 @@ import Link from 'next/link'
 import Error404 from './404'
 
 export type ListingProps = {
+	self: string[]
+	type: 'index'
 	title: string
-	path: string[]
-	pages: {
+	links: {
 		title: string
 		href: string
 	}[]
 }
 
-export default function Listing({ title, pages, path }: ListingProps) {
+export default function Listing({ title, links, self: ref }: ListingProps) {
 	if (!title) {
 		return <Error404 />
 	}
 
 	return (
-		<Layout title={title} aside={<Breadcrumbs crumbs={path} />}>
+		<Layout title={title} aside={<Breadcrumbs crumbs={ref} />}>
 			<article>
 				<h1>{title}</h1>
 				<ul>
-					{pages.map(index => (
+					{links.map(index => (
 						<li key={index.href}>
 							<Link href={index.href}>
 								<a>{index.title}</a>

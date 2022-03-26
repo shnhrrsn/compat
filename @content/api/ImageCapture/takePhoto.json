@@ -1,0 +1,566 @@
+{
+  "self": [
+    "api",
+    "ImageCapture",
+    "takePhoto"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "ImageCapture.takePhoto()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ImageCapture/takePhoto",
+    "spec": "https://w3c.github.io/mediacapture-image/#dom-imagecapture-takephoto",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/imagecapture/takephoto/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "99e986f43e115bc51f26ca907f5c9adc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "takePhoto()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ImageCapture"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ImageCapture"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface takes a single exposure using the video capture\ndevice sourcing a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/MediaStreamTrack"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "MediaStreamTrack"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nthat resolves with a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Blob"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Blob"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " containing the data."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7069807589999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "60.0.0",
+        "date": 1500940800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25548530999999997,
+        "relative": 0.9794071167927912
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": 1500940800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25548530999999997,
+            "relative": 0.9794071167927912
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1496620800
+          },
+          "removed": {
+            "version": "60.0.0",
+            "date": 1500940800
+          },
+          "usage": {
+            "global": 0.00024966,
+            "relative": 0.0009570756955790856
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "60.0.0",
+        "date": 1501459200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": 1501459200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1496707200
+          },
+          "removed": {
+            "version": "60.0.0",
+            "date": 1501459200
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/888177'>bug 888177</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/888177'>bug 888177</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "47.0.0",
+        "date": 1502236800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013046680000000001,
+        "relative": 0.8326374839652565
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1502236800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013046680000000001,
+            "relative": 0.8326374839652565
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "46.0.0",
+            "date": 1498003200
+          },
+          "removed": {
+            "version": "47.0.0",
+            "date": 1502236800
+          },
+          "usage": {
+            "global": 0.00017264000000000003,
+            "relative": 0.011017863182952435
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "44.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "44.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "44.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026200588000000004,
+        "relative": 0.8936609006821891
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026200588000000004,
+            "relative": 0.8936609006821891
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "7.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.000727775,
+            "relative": 0.024823262057858397
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "60.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "<code>photoSettings</code> parameter not supported."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "60.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

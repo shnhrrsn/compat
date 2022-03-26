@@ -1,0 +1,681 @@
+{
+  "self": [
+    "api",
+    "PerformanceMeasure"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "e9d054bed500fbfb003c8ca31758afe577f43e31",
+    "date": "2022-01-21T19:13:55.000Z"
+  },
+  "title": "PerformanceMeasure",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PerformanceMeasure",
+    "spec": "https://w3c.github.io/user-timing/#performancemeasure",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performancemeasure/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fa8a17aea69a9ab5ab25f88e56a2aaa0",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PerformanceMeasure"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is an "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "abstract"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface for "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/PerformanceEntry"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PerformanceEntry"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " objects with an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/PerformanceEntry/entryType"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "entryType"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of \""
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "measure"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\". Entries of this type are created by calling "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Performance/measure"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "performance.measure()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to add a "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "named"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "DOMHighResTimeStamp"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (the "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "measure"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") between two "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "marks"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to the browser's "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "performance timeline"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "aeb88cb013334e1fdef434f6bd16493f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/User_Timing_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "User Timing (Overview)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/User_Timing_API/Using_the_User_Timing_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using the User Timing API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.944828627,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "25.0.0",
+        "date": 1361404800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25938736999999995,
+        "relative": 0.9943657276583338
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25938736999999995,
+            "relative": 0.9943657276583338
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "25.0.0",
+        "date": 1361923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.2.0",
+        "date": 1594661193
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.2.0",
+            "date": 1594661193
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "38.0.0",
+        "date": 1431388800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03909666,
+        "relative": 0.9379213359827677
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03909666,
+            "relative": 0.9379213359827677
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "38.0.0",
+        "date": 1431388800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "10.0.0",
+        "date": 1346716800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.006459493,
+        "relative": 0.8351529287621214
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1346716800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.006459493,
+            "relative": 0.8351529287621214
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "8.5.0",
+        "date": 1505174400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.5.0",
+            "date": 1505174400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "33.0.0",
+        "date": 1445904000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013800660000000003,
+        "relative": 0.8807563931559568
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "33.0.0",
+            "date": 1445904000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013800660000000003,
+            "relative": 0.8807563931559568
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "33.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "33.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.145363337,
+        "relative": 0.9739922265572696
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.145363337,
+            "relative": 0.9739922265572696
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.5.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

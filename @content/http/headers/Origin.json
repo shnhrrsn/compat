@@ -1,0 +1,616 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "Origin"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "281e3b21178946c8301232a8eb50d11770ee8450",
+    "date": "2022-02-18T09:53:31.000Z"
+  },
+  "title": "Origin",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Origin",
+    "spec": [
+      "https://www.rfc-editor.org/rfc/rfc6454#section-7",
+      "https://fetch.spec.whatwg.org/#origin-header"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/origin/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5c49427dcf1927b873c96339349355b6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Origin"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " request header indicates the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/origin"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "origin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (scheme, hostname, and port) that "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "caused"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " the request.\nFor example, if a user agent needs to request resources included in a page, or fetched by scripts that it executes, then the origin of the page may be included in the request."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "0d05e14cee2d0f716793855a2a84d19e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Host"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Host"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Referer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Referer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Security/Same-origin_policy"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Same-origin policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://stackoverflow.com/a/42242802/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "When do browsers send the Origin header? When do browsers set the origin to null?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " (Stack Overflow)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9495613287999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Edge 79, this header was not sent with sent with <code>POST</code> requests."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "70.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03633389,
+        "relative": 0.8716430163152279
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "70.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03633389,
+            "relative": 0.8716430163152279
+          }
+        },
+        {
+          "notes": [
+            "Sent with non-CORS requests since Fx59, unless they are <code>GET</code> or <code>HEAD</code>."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03696843,
+            "relative": 0.8868655085827134
+          },
+          "flags": [
+            {
+              "name": "network.http.sendOriginHeader",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Not sent with <code>POST</code> requests until Firefox 58, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/446344'>bug 446344</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Sent with non-CORS requests since Fx59, unless they are <code>GET</code> or <code>HEAD</code>."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "name": "network.http.sendOriginHeader",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Not sent with <code>POST</code> requests until Firefox 58, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/446344'>bug 446344</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0077345032,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0077345032,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.003503405,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

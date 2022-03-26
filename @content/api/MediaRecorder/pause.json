@@ -1,0 +1,580 @@
+{
+  "self": [
+    "api",
+    "MediaRecorder",
+    "pause"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "281e3b21178946c8301232a8eb50d11770ee8450",
+    "date": "2022-02-18T09:53:31.000Z"
+  },
+  "title": "MediaRecorder.pause()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/pause",
+    "spec": "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-pause",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/mediarecorder/pause/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7267241d281f42808625e61da3939498",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Media.pause()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method (part\nof the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/MediaStream_Recording_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "MediaRecorder API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") is used\nto pause recording of media streams."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "9c392db5b1162bae93e8fd237f2a7fa3",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using\nthe MediaRecorder API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://mdn.github.io/web-dictaphone/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Web Dictaphone"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": MediaRecorder +\ngetUserMedia + Web Audio API visualization demo, by "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://twitter.com/chrisdavidmills"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Chris Mills"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " ("
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/mdn/web-dictaphone/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "source on Github"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ".)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "http://simpl.info/mediarecorder/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "simpl.info MediaStream Recording\ndemo"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", by "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://twitter.com/sw12"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Sam Dutton"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Navigator/getUserMedia"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Navigator.getUserMedia"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9039345389999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "49.0.0",
+        "date": 1456876800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25735907999999996,
+        "relative": 0.9865902447512357
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25735907999999996,
+            "relative": 0.9865902447512357
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "49.0.0",
+        "date": 1457481600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "25.0.0",
+        "date": 1383004800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03997843,
+        "relative": 0.9590748282869574
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1383004800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03997843,
+            "relative": 0.9590748282869574
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "25.0.0",
+        "date": 1383004800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1383004800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "36.0.0",
+        "date": 1457308800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013604150000000002,
+        "relative": 0.8682151495618766
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013604150000000002,
+            "relative": 0.8682151495618766
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "36.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.1.0",
+        "date": 1619395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02392575,
+        "relative": 0.715414707747676
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.1.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02392575,
+            "relative": 0.715414707747676
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "14.5.0",
+        "date": 1619395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.12688128199999998,
+        "relative": 0.8501551004131173
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.5.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.12688128199999998,
+            "relative": 0.8501551004131173
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "49.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

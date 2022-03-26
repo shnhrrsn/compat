@@ -1,0 +1,328 @@
+{
+  "self": [
+    "html",
+    "elements",
+    "fieldset",
+    "disabled"
+  ],
+  "type": "page",
+  "title": "fieldset / disabled",
+  "links": {},
+  "content": {},
+  "usage": 0.914394198,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Does not work with nested fieldsets. For example: <code>&lt;fieldset disabled&gt;&lt;fieldset&gt;&lt;!--Still enabled--&gt;&lt;/fieldset&gt;&lt;/fieldset&gt;</code>"
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0077345032,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Not all form control descendants of a disabled fieldset are properly disabled in IE11; see IE <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://connect.microsoft.com/IE/feedbackdetail/view/817488'>bug 817488: input[type='file'] not disabled inside disabled fieldset</a> and IE <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://connect.microsoft.com/IE/feedbackdetail/view/962368/can-still-edit-input-type-text-within-fieldset-disabled'>bug 962368: Can still edit input[type='text'] within fieldset[disabled]</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0077345032,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.0.0",
+        "date": 1323129600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014981260000000001,
+        "relative": 0.9561021373276066
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1323129600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014981260000000001,
+            "relative": 0.9561021373276066
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "6.0.0",
+        "date": 1343174400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03314822,
+        "relative": 0.991179968178873
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1343174400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03314822,
+            "relative": 0.991179968178873
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "6.0.0",
+        "date": 1359331200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1491702188,
+        "relative": 0.9994998501241552
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1359331200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1491702188,
+            "relative": 0.9994998501241552
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

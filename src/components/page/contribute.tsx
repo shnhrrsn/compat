@@ -14,16 +14,16 @@ export default function Contribute(props: PageProps) {
 					</ExternalLink>
 				</li>
 			)}
-			{props.urls.mdn && (
+			{props.links.mdn && (
 				<>
 					<li>
 						<ExternalLink href={getDocsNewIssueURL(props)}>
 							Report problems with docs on GitHub
 						</ExternalLink>
 					</li>
-					{props.urls.github && (
+					{props.links.github && (
 						<li>
-							<ExternalLink href={props.urls.github}>
+							<ExternalLink href={props.links.github}>
 								Edit docs on GitHub
 							</ExternalLink>
 						</li>
@@ -52,14 +52,14 @@ function getCompatDataNewIssueURL(props: PageProps) {
 <details>
 <summary>MDN page report details</summary>
 
-* Query: \`${props.query}\`
-* MDN URL: ${props.urls.mdn}
+* Query: \`${props.self.join('.')}\`
+* MDN URL: ${props.links.mdn}
 * Report started: ${new Date(Math.floor(Date.now() / 60_000) * 60_000).toISOString()}
 
 </details>
 		`.trim()
 	sp.set('body', body)
-	sp.set('title', `${props.query} - <PUT TITLE HERE>`)
+	sp.set('title', `${props.self.join('.')} - <PUT TITLE HERE>`)
 	return `${url}?${sp.toString()}`
 }
 
@@ -76,9 +76,10 @@ function getDocsNewIssueURL(props: PageProps) {
 	}
 
 	const url = 'https://github.com/mdn/content/issues/new'
+	const folder = new URL(props.links.mdn!).pathname.split(/\//).slice(6).join('/')
 	const sp = new URLSearchParams()
 	const body = `
-MDN URL: ${props.urls.mdn}
+MDN URL: ${props.links.mdn}
 
 #### What information was incorrect, unhelpful, or incomplete?
 
@@ -96,11 +97,11 @@ MDN URL: ${props.urls.mdn}
 <details>
 <summary>MDN Content page report details</summary>
 
-* Folder: \`${props.urls.folder}\`
-* MDN URL: ${props.urls.mdn}
-* GitHub URL: ${props.urls.github}
-* Last commit: https://github.com/mdn/content/commit/${props.commit}
-* Document last modified: ${props.lastModified ?? '*date not known*'}
+* Folder: \`${folder}\`
+* MDN URL: ${props.links.mdn}
+* GitHub URL: ${props.links.github}
+* Last commit: https://github.com/mdn/content/commit/${props.commit?.sha}
+* Document last modified: ${props.commit?.date ?? '*date not known*'}
 
 </details>
 			`.trim()
@@ -113,7 +114,7 @@ MDN URL: ${props.urls.mdn}
 
 	sp.set(
 		'labels',
-		['needs-triage', `Content:${labelPrefixes[props.section] ?? 'Other'}`].join(','),
+		['needs-triage', `Content:${labelPrefixes[props.self[0]] ?? 'Other'}`].join(','),
 	)
 
 	return `${url}?${sp.toString()}`

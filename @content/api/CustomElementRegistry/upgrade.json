@@ -1,0 +1,428 @@
+{
+  "self": [
+    "api",
+    "CustomElementRegistry",
+    "upgrade"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "CustomElementRegistry.upgrade()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/upgrade",
+    "spec": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-customelementregistry-upgrade-dev",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/customelementregistry/upgrade/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "166b8358ae6b82f44a2d4915c215d8fe",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "upgrade()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CustomElementRegistry"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CustomElementRegistry"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface upgrades all shadow-containing custom\nelements in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Node"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Node"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " subtree, even before they are connected to the main\ndocument."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.920626526,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "68.0.0",
+        "date": 1532390400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25440345000000003,
+        "relative": 0.9752597887786154
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1532390400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25440345000000003,
+            "relative": 0.9752597887786154
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "68.0.0",
+        "date": 1532390400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1532390400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "63.0.0",
+        "date": 1540252800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.036755789999999997,
+        "relative": 0.8817643159774274
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.036755789999999997,
+            "relative": 0.8817643159774274
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "63.0.0",
+        "date": 1540252800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "55.0.0",
+        "date": 1534982400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01249181,
+        "relative": 0.7972257500430785
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1534982400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01249181,
+            "relative": 0.7972257500430785
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "48.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "12.1.0",
+        "date": 1553472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03216453,
+        "relative": 0.9617662071112235
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1553472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03216453,
+            "relative": 0.9617662071112235
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "12.2.0",
+        "date": 1553472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14397494400000002,
+        "relative": 0.9646894407426695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.2.0",
+            "date": 1553472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14397494400000002,
+            "relative": 0.9646894407426695
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "10.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025785100999999998,
+        "relative": 0.8794892917609791
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025785100999999998,
+            "relative": 0.8794892917609791
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "68.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

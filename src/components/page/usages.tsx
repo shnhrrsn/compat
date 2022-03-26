@@ -1,5 +1,5 @@
-import { PageSupportVariant } from '@/utils/getPage'
 import classNames from 'classnames'
+import { SupportVariant } from '../../types/Page'
 import styles from './usages.module.css'
 
 export default function Usages({
@@ -9,7 +9,7 @@ export default function Usages({
 	className,
 }: {
 	name: string
-	usage: PageSupportVariant['usage']
+	usage: SupportVariant['usage']
 	includeTitles?: boolean
 	className?: string
 }) {

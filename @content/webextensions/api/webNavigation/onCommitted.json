@@ -1,0 +1,243 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "webNavigation",
+    "onCommitted"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "title": "webNavigation.onCommitted",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCommitted",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/webnavigation/oncommitted/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "dc87aade4f67279eb637cdc53ebf3eb4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Fired when a navigation is committed. At least part of the new document has been received from the server and the browser has decided to switch to the new document."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.4832952519999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "If the filter parameter is empty, Chrome matches all URLs."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.041124720000000003,
+        "relative": 0.9969481663422676
+      },
+      "history": [
+        {
+          "notes": [
+            "Filtering is not supported."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.041124720000000003,
+            "relative": 0.9969481663422676
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038360809999999995,
+        "relative": 0.9202684363467649
+      },
+      "history": [
+        {
+          "notes": [
+            "Filtering is supported from version 50.",
+            "If the filter parameter is empty, Firefox raises an exception."
+          ],
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038360809999999995,
+            "relative": 0.9202684363467649
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Filtering is supported from version 50.",
+            "If the filter parameter is empty, Firefox raises an exception."
+          ],
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "17.0.0",
+        "date": 1381104000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014753890000000002,
+        "relative": 0.9415914123976491
+      },
+      "history": [
+        {
+          "notes": [
+            "If the filter parameter is empty, Opera matches all URLs."
+          ],
+          "added": {
+            "version": "17.0.0",
+            "date": 1381104000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014753890000000002,
+            "relative": 0.9415914123976491
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": [
+            "If the filter parameter is empty, Safari matches all URLs."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": [
+            "If the filter parameter is empty, Safari matches all URLs."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}

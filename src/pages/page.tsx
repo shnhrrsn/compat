@@ -6,31 +6,31 @@ import Breadcrumbs from '@/components/shared/breadcrumbs'
 import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout from '@/components/shared/layout'
-import SafeHtml from '@/components/shared/safeHtml'
-import { PageMetadata, PageSupport } from '@/utils/getPage'
+import SafeHtml, { SafeHtmlAst } from '@/components/shared/safeHtml'
 import { StatusBlock } from '@mdn/browser-compat-data/types'
+import { PageSupport } from '../types/Page'
 import Error404 from './404'
 
-export type PageProps = Omit<PageMetadata, 'urls'> & {
-	section:
-		| 'api'
-		| 'css'
-		| 'html'
-		| 'http'
-		| 'javascript'
-		| 'mathml'
-		| 'svg'
-		| 'webdriver'
-		| 'webextensions'
-	path: string[]
-	query: string
-	urls: PageMetadata['urls'] & {
-		mdn: string | null
-		spec: string | null
+export type PageProps = {
+	self: string[]
+	type: 'page'
+	commit?: {
+		date: string
+		sha: string
+	}
+	title: string
+	links: {
+		mdn?: string
+		spec?: string
+		github?: string
+	}
+	content: {
+		intro?: SafeHtmlAst
+		seeAlso?: SafeHtmlAst
 	}
 	usage: number
 	support: Record<string, PageSupport>
-	status: StatusBlock | null
+	status?: StatusBlock
 }
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
@@ -41,18 +41,22 @@ export default function Page(props: PageProps) {
 		return <Error404 />
 	}
 
+	console.log(props)
+
 	return (
-		<Layout title={props.title} aside={<Breadcrumbs crumbs={props.path} />}>
+		<Layout title={props.title} aside={<Breadcrumbs crumbs={props.self} />}>
 			<article>
 				<h1>{props.title}</h1>
-				{props.html.intro && <SafeHtml ast={props.html.intro} />}
-				{(props.urls.mdn || props.urls.spec) && (
+				{props.content.intro && <SafeHtml ast={props.content.intro} />}
+				{(props.links.mdn || props.links.spec) && (
 					<cite>
-						{props.urls.mdn && (
-							<ExternalLink href={props.urls.mdn}>Read More at MDN Docs</ExternalLink>
+						{props.links.mdn && (
+							<ExternalLink href={props.links.mdn}>
+								Read More at MDN Docs
+							</ExternalLink>
 						)}
-						{props.urls.spec && (
-							<ExternalLink href={props.urls.spec}>View Spec</ExternalLink>
+						{props.links.spec && (
+							<ExternalLink href={props.links.spec}>View Spec</ExternalLink>
 						)}
 					</cite>
 				)}
@@ -62,7 +66,7 @@ export default function Page(props: PageProps) {
 				<SafeToUse title={props.title} usage={props.usage} />
 				<h3>Browsers</h3>
 				<Agents agents={browsers} support={props.support} />
-				{props.section === 'javascript' && (
+				{props.self[0] === 'javascript' && (
 					<>
 						<h3>Servers</h3>
 						<Agents agents={servers} support={props.support} />
@@ -70,10 +74,10 @@ export default function Page(props: PageProps) {
 				)}
 				<h3>Version Breakdown</h3>
 				<Breakdown support={props.support} />
-				{props.html.seeAlso && (
+				{props.content.seeAlso && (
 					<>
 						<h3>See Also</h3>
-						<SafeHtml ast={props.html.seeAlso} />
+						<SafeHtml ast={props.content.seeAlso} />
 					</>
 				)}
 				<h3>Contribute</h3>

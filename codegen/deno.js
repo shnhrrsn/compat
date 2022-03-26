@@ -30,11 +30,11 @@ process.env.TZ = 'UTC'
 				.map(([version, date]) => [SemVer.coerce(version)?.format() ?? version, date]),
 		)
 
-		const output = new URL('../src/@data/denoVersions.ts', import.meta.url)
+		const output = new URL('../src/@data/denoVersions.js', import.meta.url)
 		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
 			output,
-			`const denoVersions: Record<string, number> = ${JSON.stringify(
+			`/** @type {Record<string, number>} */\nconst denoVersions = ${JSON.stringify(
 				versions,
 				null,
 				2,

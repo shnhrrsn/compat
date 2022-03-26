@@ -1,0 +1,581 @@
+{
+  "self": [
+    "api",
+    "RTCPeerConnection",
+    "addIceCandidate"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "18df3e5ba2ea569e7d78dbb0f1c87fe3341ba46d",
+    "date": "2022-01-24T00:42:02.000Z"
+  },
+  "title": "RTCPeerConnection.addIceCandidate()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/addIceCandidate",
+    "spec": "https://w3c.github.io/webrtc-pc/#dom-peerconnection-addicecandidate",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/rtcpeerconnection/addicecandidate/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "4eca687cee3da3d25d4fc6e69ebbe8a2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "When a web site or app using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCPeerConnection"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCPeerConnection"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " receives a new ICE candidate from the remote peer over its signaling channel, it delivers the newly-received candidate to the browser's "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/ICE"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ICE"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " agent by calling "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCPeerConnection.addIceCandidate()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ".\nThis adds this new remote candidate to the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "RTCPeerConnection"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "'s remote description, which describes the state of the remote end of the connection."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a34f8fe55a65eef799a5d6a5ca69462f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebRTC API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Signaling and video calling"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Protocols"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Introduction to WebRTC protocols"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Connectivity"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebRTC connectivity"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Session_lifetime"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Lifetime of a WebRTC session"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9380029240000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "24.0.0",
+        "date": 1357776000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25955380999999994,
+        "relative": 0.9950037781220531
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "24.0.0",
+            "date": 1357776000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25955380999999994,
+            "relative": 0.9950037781220531
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "25.0.0",
+        "date": 1361923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "15.0.0",
+        "date": 1491868800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04108204,
+        "relative": 0.9959135149758997
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1491868800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04108204,
+            "relative": 0.9959135149758997
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "22.0.0",
+        "date": 1372118400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04024488000000001,
+        "relative": 0.9654669124182519
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting in Firefox 68, the <code>candidate</code> parameter is optional when calling <code>addIceCandidate()</code>. A <code>null</code> value for <code>candidate</code> indicates no more candidates will be sent, while an empty <code>candidate</code> string indicates that no more candidates will be sent for the current generation of candidates."
+          ],
+          "added": {
+            "version": "22.0.0",
+            "date": 1372118400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04024488000000001,
+            "relative": 0.9654669124182519
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "44.0.0",
+        "date": 1453766400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting in Firefox 68, the <code>candidate</code> parameter is optional when calling <code>addIceCandidate()</code>. A <code>null</code> value for <code>candidate</code> indicates no more candidates will be sent, while an empty <code>candidate</code> string indicates that no more candidates will be sent for the current generation of candidates."
+          ],
+          "added": {
+            "version": "44.0.0",
+            "date": 1453766400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014890890000000004,
+        "relative": 0.9503347352432496
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.145363337,
+        "relative": 0.9739922265572696
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.145363337,
+            "relative": 0.9739922265572696
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.5.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

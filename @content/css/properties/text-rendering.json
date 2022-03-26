@@ -1,0 +1,931 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "text-rendering"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "26f50bdaeb1228f458d21dbdf7dc110387b20daa",
+    "date": "2021-08-12T23:59:09.000Z"
+  },
+  "title": "text-rendering",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/text-rendering",
+    "spec": "https://svgwg.org/svg2-draft/painting.html#TextRenderingProperty",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/text-rendering/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9056cae207687ac68fc1f6e6d8154a0b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "text-rendering"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " CSS property provides information to the rendering engine about what to optimize for when rendering text."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "7a7694f6d9279a53ad1a3e5a3b2f1555",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Drawing text in a "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "<canvas>"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/CSS/CSS_Text_Decoration"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CSS Text Decoration"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " CSS module"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Related CSS properties"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "ul",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-decoration"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-decoration"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " (and its longhand properties, such as "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-decoration-line"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-decoration-line"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ", "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-decoration-style"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-decoration-style"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ", and "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-decoration-thickness"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-decoration-thickness"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ")"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-emphasis"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-emphasis"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " (and its longhand properties, including "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-emphasis-color"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-emphasis-color"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ", "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-emphasis-position"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-emphasis-position"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ", and "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-emphasis-style"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-emphasis-style"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ")"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-shadow"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-shadow"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/CSS/text-transform"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "text-transform"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/SVG"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "SVG"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "text-rendering"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " attribute"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "SVG and CSS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9479060756,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "4.0.0",
+        "date": 1268784000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "This property is only supported on Windows and Linux.",
+            "Initial versions had bugs on Windows and Linux that broke <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/114719'>font substitition</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/51973'>small-caps</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/55458'>letter-spacing</a> or caused <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/149548'>text to overlap</a>."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1268784000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "This property is only supported on Windows and Linux.",
+            "Initial versions had bugs on Windows and Linux that broke <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/114719'>font substitition</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/51973'>small-caps</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/55458'>letter-spacing</a> or caused <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/149548'>text to overlap</a>."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": [
+            "This property is only supported on Windows and Linux.",
+            "Initial versions had bugs on Windows and Linux that broke <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/114719'>font substitition</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/51973'>small-caps</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/55458'>letter-spacing</a> or caused <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/149548'>text to overlap</a>."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "This property is only supported on Windows and Linux.",
+            "The <code>optimizeSpeed</code> option has no effect on Firefox 4 because the standard code for text rendering is already fast and there is not a faster code path at this time. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/595688'>bug 595688</a> for details."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "46.0.0",
+        "date": 1461628800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "46.0.0",
+            "date": 1461628800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014890890000000004,
+        "relative": 0.9503347352432496
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "5.0.0",
+        "date": 1275868800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1275868800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "4.2.0",
+        "date": 1299628800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.2.0",
+            "date": 1299628800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "This property is only supported on Windows and Linux. Samsung Internet is not on Windows or Linux."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "3.0.0",
+        "date": 1298332800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.003503405,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "From version 3 to 4.3, there is a serious bug where <code>text-rendering: optimizeLegibility</code> causes custom web fonts to not render. This was fixed in version 4.4."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": 1298332800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": false,
+    "deprecated": false
+  }
+}

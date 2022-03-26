@@ -1,0 +1,422 @@
+{
+  "self": [
+    "api",
+    "NetworkInformation",
+    "rtt"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "NetworkInformation.rtt",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/rtt",
+    "spec": "https://wicg.github.io/netinfo/#dom-networkinformation-rtt",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/networkinformation/rtt/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "894b601630e58c8adfb20dbfdf019859",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NetworkInformation.rtt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property returns the\nestimated effective round-trip time of the current connection, rounded to the nearest\nmultiple of 25 milliseconds. This value is based on recently observed application-layer\nRTT measurements across recently active connections. It excludes connections made to a\nprivate address space. If no recent measurement data is available, the value is based on\nthe properties of the underlying connection technology."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a10ddd9cda5fbb242bc39dc2447cd213",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/rtt"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "RTT"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.709800967,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "61.0.0",
+        "date": 1504569600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25527725999999995,
+        "relative": 0.9786095537131421
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "61.0.0",
+            "date": 1504569600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25527725999999995,
+            "relative": 0.9786095537131421
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "38.0.0",
+        "date": 1412726400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "38.0.0",
+            "date": 1412726400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "48.0.0",
+        "date": 1506470400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.012957260000000002,
+        "relative": 0.8269307107619456
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "48.0.0",
+            "date": 1506470400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.012957260000000002,
+            "relative": 0.8269307107619456
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "25.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "25.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "50.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The value is never greater than 3000 ms, as a non-standard anti-fingerprinting measure."
+          ],
+          "added": {
+            "version": "50.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

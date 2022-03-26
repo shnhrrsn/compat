@@ -1,0 +1,629 @@
+{
+  "self": [
+    "api",
+    "PaymentResponse",
+    "payerdetailchange_event"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "ea032ab86280848d3842a7e4455b831ea2545603",
+    "date": "2022-03-15T02:11:20.000Z"
+  },
+  "title": "PaymentResponse: payerdetailchange event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/payerdetailchange_event",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/paymentresponse/payerdetailchange_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "08d100d5b0dc5cd71bd5917d3db92b52",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "payerdetailchange"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired by the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Payment_Request_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Payment Request API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/PaymentResponse"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PaymentResponse"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object when the user makes changes to their personal information while filling out a payment request form. This can happen when the payer is retrying to submit its details after an error has been detected."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "eb6639ec97b0c831a35b2e418a29e605",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Payment_Request_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Payment Request API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Payment_Request_API/Using_the_Payment_Request_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using the Payment Request API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PaymentResponse"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PaymentResponse"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/PaymentRequest/paymentmethodchange_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "paymentmethodchange"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/PaymentRequest/shippingaddresschange_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "shippingaddresschange"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/PaymentRequest/shippingoptionchange_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "shippingoptionchange"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.8768787279999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25049211,
+        "relative": 0.9602656028812097
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25049211,
+            "relative": 0.9602656028812097
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037222679999999994,
+            "relative": 0.8929649170660369
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.payments.request.enabled",
+              "value_to_set": "true"
+            },
+            {
+              "name": "dom.payments.request.supportedRegions",
+              "type": "preference",
+              "value_to_set": "A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>)."
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.payments.request.enabled",
+              "value_to_set": "true"
+            },
+            {
+              "name": "dom.payments.request.supportedRegions",
+              "type": "preference",
+              "value_to_set": "A comma-delimited list of one or more 2-character ISO country codes indicating the countries in which to support payments (for example, <code>US,CA</code>)."
+            }
+          ]
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "47.0.0",
+        "date": 1502236800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013046680000000001,
+        "relative": 0.8326374839652565
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1502236800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013046680000000001,
+            "relative": 0.8326374839652565
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "12.1.0",
+        "date": 1553472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03216453,
+        "relative": 0.9617662071112235
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1553472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03216453,
+            "relative": 0.9617662071112235
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "12.2.0",
+        "date": 1553472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14397494400000002,
+        "relative": 0.9646894407426695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.2.0",
+            "date": 1553472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14397494400000002,
+            "relative": 0.9646894407426695
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024952283,
+        "relative": 0.851083177975123
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024952283,
+            "relative": 0.851083177975123
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": false,
+    "deprecated": true
+  }
+}

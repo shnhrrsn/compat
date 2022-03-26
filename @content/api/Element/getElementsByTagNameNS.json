@@ -1,0 +1,455 @@
+{
+  "self": [
+    "api",
+    "Element",
+    "getElementsByTagNameNS"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "Element.getElementsByTagNameNS()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByTagNameNS",
+    "spec": "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/getelementsbytagnamens/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c6c0add718c7fdbd1f7836bc0066e46e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Element.getElementsByTagNameNS()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method returns a\nlive "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/HTMLCollection"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTMLCollection"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of elements with the given tag name belonging to the\ngiven namespace. It is similar to "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Document/getElementsByTagNameNS"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Document.getElementsByTagNameNS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", except\nthat its search is restricted to descendants of the specified element."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9563017276,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "The behavior of <code>element.getElementsByTagNameNS</code> changed between Firefox 3.5 and Firefox 3.6. In Firefox 3.5 and before, this function would automatically case-fold any queries so that a search for \"foo\" would match \"Foo\" or \"foo\". In Firefox 3.6 and later this function is now case-sensitive so that a query for \"foo\" will only match \"foo\" and not \"Foo\". For more background on this, please see the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/542185#c5'>comment from Henri Sivonen about the change</a>. You can also look at the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Case_Sensitivity_in_class_and_id_Names'>relevant part of the standard, which states which parts of the API are case-sensitive and which parts aren't</a>.",
+            "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflects the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Firefox 19, this method was returning a <code>NodeList</code>; it was then changed to reflects the spec change."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "9.0.0",
+        "date": 1300060800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007052712,
+        "relative": 0.9118506796920065
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1300060800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007052712,
+            "relative": 0.9118506796920065
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.1.0",
+        "date": 1352073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014938090000000001,
+        "relative": 0.9533470333331207
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014938090000000001,
+            "relative": 0.9533470333331207
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "12.1.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.003503405,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Initially, this method was returning a <code>NodeList</code>; it was then changed to reflect the spec change."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

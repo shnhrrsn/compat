@@ -1,0 +1,494 @@
+{
+  "self": [
+    "api",
+    "DedicatedWorkerGlobalScope",
+    "postMessage"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "06650f2804ebe3792906df38497a46a10cd30431",
+    "date": "2022-03-25T11:50:56.000Z"
+  },
+  "title": "DedicatedWorkerGlobalScope.postMessage()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/DedicatedWorkerGlobalScope/postMessage",
+    "spec": "https://html.spec.whatwg.org/multipage/workers.html#dom-dedicatedworkerglobalscope-postmessage-dev",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/dedicatedworkerglobalscope/postmessage/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7a21aa65703fbb4bffee4b58b2bf44ee",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "postMessage()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/DedicatedWorkerGlobalScope"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DedicatedWorkerGlobalScope"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface sends a message to the main thread that spawned it."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9550199057,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "4.0.0",
+        "date": 1268784000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1268784000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.14.0",
+        "date": 1631659318
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>message</code> parameter does not support cloning <code>Blob</code> values."
+          ],
+          "added": {
+            "version": "1.14.0",
+            "date": 1631659318
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>message</code> parameter does not support cloning <code>Blob</code> values.",
+            "The <code>transfer</code> parameter does not accept <code>ArrayBuffer</code> items. Passing an <code>ArrayBuffer</code> results in an error being thrown."
+          ],
+          "added": {
+            "version": "1.12.0",
+            "date": 1626187406
+          },
+          "removed": {
+            "version": "1.14.0",
+            "date": 1631659318
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "The <code>message</code> parameter does not support cloning <code>SharedArrayBuffer</code> or <code>Blob</code> values.",
+            "The <code>transfer</code> parameter is ignored."
+          ],
+          "added": {
+            "version": "1.10.0",
+            "date": null
+          },
+          "removed": {
+            "version": "1.12.0",
+            "date": 1626187406
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Data passed in the <code>message</code> parameter is serialized with JSON, not the structured clone algorithm.",
+            "The <code>transfer</code> parameter is ignored."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": {
+            "version": "1.10.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "3.5.0",
+        "date": 1246320000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04155844000000001,
+        "relative": 0.9969789635779552
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.5.0",
+            "date": 1246320000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04155844000000001,
+            "relative": 0.9969789635779552
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "10.0.0",
+        "date": 1346716800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.006459493,
+        "relative": 0.8351529287621214
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1346716800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.006459493,
+            "relative": 0.8351529287621214
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "10.6.0",
+        "date": 1277942400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015393070000000002,
+        "relative": 0.9823837999629846
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.6.0",
+            "date": 1277942400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015393070000000002,
+            "relative": 0.9823837999629846
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "11.0.0",
+        "date": 1300752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1300752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "4.0.0",
+        "date": 1244419200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03335626999999999,
+        "relative": 0.9974009656375483
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03335626999999999,
+            "relative": 0.9974009656375483
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "5.0.0",
+        "date": 1331078400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14921500570000001,
+        "relative": 0.99979994018367
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1331078400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14921500570000001,
+            "relative": 0.99979994018367
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

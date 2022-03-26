@@ -1,0 +1,340 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "runtime",
+    "connectNative"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
+  "title": "runtime.connectNative()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connectNative",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/runtime/connectnative/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9ccd939ac804e2ddc4d7b155b38208b0",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Connects the extension to a native application on the user's computer.This takes the name of a native application as a parameter. It starts the native application and returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/runtime/Port"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "runtime.Port"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object to the caller.The caller can then use the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Port"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to exchange messages with the native application using "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Port.postMessage()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "port.onMessage"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ".The native application will run until it exits itself, or the caller calls "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Port.disconnect()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or the page that created the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Port"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is destroyed. Once the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Port"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is disconnected the browser will give the process a few seconds to exit gracefully, and then kill it if it has not exited."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.478653602,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "29.0.0",
+        "date": 1376956800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25921109000000003,
+        "relative": 0.9936899553935872
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1376956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25921109000000003,
+            "relative": 0.9936899553935872
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "15.0.0",
+        "date": 1491868800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04108204,
+        "relative": 0.9959135149758997
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1491868800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04108204,
+            "relative": 0.9959135149758997
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "50.0.0",
+        "date": 1479168000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038142079999999995,
+        "relative": 0.9150211458155658
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1479168000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038142079999999995,
+            "relative": 0.9150211458155658
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "16.0.0",
+        "date": 1377561600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014822390000000003,
+        "relative": 0.9459630738204493
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1377561600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014822390000000003,
+            "relative": 0.9459630738204493
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": [
+            "See the documentation on developer.apple.com about native messaging in Safari."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": [
+            "See the documentation on developer.apple.com about native messaging in Safari."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}

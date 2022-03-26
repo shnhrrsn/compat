@@ -1,0 +1,584 @@
+{
+  "self": [
+    "api",
+    "BatteryManager",
+    "dischargingTime"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "bb7fff343a0fd506f46ee7e1844b474550d7a572",
+    "date": "2022-02-19T09:49:21.000Z"
+  },
+  "title": "BatteryManager.dischargingTime",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/BatteryManager/dischargingTime",
+    "spec": "https://w3c.github.io/battery/#dom-batterymanager-dischargingtime",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/batterymanager/dischargingtime/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "1e07fb1965e992734ce3ea6d269d2e3b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "BatteryManager.dischargingTime"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property indicates the amount of time, in seconds, that remains until the battery is fully\ndischarged,\nor "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Infinity"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nif the battery is currently charging rather than discharging,\nor if the system is unable to report the remaining discharging time.\nWhen its value changes, the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/BatteryManager/dischargingtimechange_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "dischargingtimechange"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "59b40502afbf0193d2db2184c1f38f3c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/BatteryManager"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "BatteryManager"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Navigator/getBattery"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Navigator.getBattery"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.715797697,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "38.0.0",
+        "date": 1412640000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25853000000000004,
+        "relative": 0.9910789857328407
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1412640000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25853000000000004,
+            "relative": 0.9910789857328407
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "42.0.0",
+        "date": 1429056000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1429056000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Always equal to <code>Infinity</code>."
+          ],
+          "added": {
+            "version": "38.0.0",
+            "date": 1412726400
+          },
+          "removed": {
+            "version": "42.0.0",
+            "date": 1429056000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "43.0.0",
+        "date": 1450137600
+      },
+      "removed": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "usage": {
+        "global": 0.00150824,
+        "relative": 0.036182386827484744
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1450137600
+          },
+          "removed": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "usage": {
+            "global": 0.00150824,
+            "relative": 0.036182386827484744
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "43.0.0",
+        "date": 1450137600
+      },
+      "removed": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1450137600
+          },
+          "removed": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "25.0.0",
+        "date": 1413331200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01419301,
+        "relative": 0.9057961210280107
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1413331200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01419301,
+            "relative": 0.9057961210280107
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "29.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Always equal to <code>Infinity</code>."
+          ],
+          "added": {
+            "version": "25.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "29.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Always equal to <code>Infinity</code>."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "usage": {
+            "global": 0.00218332,
+            "relative": 0.07446961563142922
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "42.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Always equal to <code>Infinity</code>."
+          ],
+          "added": {
+            "version": "38.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "42.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

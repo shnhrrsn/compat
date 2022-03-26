@@ -27,12 +27,8 @@ jobs:
       - name: mdn/browser-compat-data
         run: yarn add '@mdn/browser-compat-data@4.*'
 
-      - name: mdn/content
-        run: |
-          pushd data/mdn/content
-          git fetch --depth=1 origin main
-          git checkout origin/main
-          popd
+      - name: contentgen
+        run: node contentgen/update.js
 
       - name: codegen
         run: >
@@ -41,7 +37,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore(data): update data'
-          file_pattern: ./src/@data/* ./public/@data/* data/mdn/content package.json yarn.lock
+          file_pattern: ./src/@data/* ./public/@data/* @content package.json yarn.lock
           commit_user_name: compatbot
           commit_user_email: 102001024+compatbot@users.noreply.github.com
           commit_author: compatbot <102001024+compatbot@users.noreply.github.com>

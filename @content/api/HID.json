@@ -1,0 +1,388 @@
+{
+  "self": [
+    "api",
+    "HID"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "caaae4e675413aa1c44054883d7e1baa3fa910ff",
+    "date": "2022-02-03T16:33:06.000Z"
+  },
+  "title": "HID",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/HID",
+    "spec": "https://wicg.github.io/webhid/#dom-hid",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/hid/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2009a23a8d049582f7b8c36c4ad8d300",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HID"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface provides methods for connecting to "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "HID devices"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", listing attached HID devices and event handlers for connected HID devices."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "c3da92547a486477fe7d76ef8ebe46b6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebHID API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.29231482,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "89.0.0",
+        "date": 1614643200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24225333,
+        "relative": 0.9286821049270998
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": 1614643200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24225333,
+            "relative": 0.9286821049270998
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "89.0.0",
+        "date": 1614816000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03957114,
+        "relative": 0.959286177828643
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": 1614816000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03957114,
+            "relative": 0.959286177828643
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "75.0.0",
+        "date": 1616544000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.010490349999999999,
+        "relative": 0.6694928234550803
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1616544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.010490349999999999,
+            "relative": 0.6694928234550803
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

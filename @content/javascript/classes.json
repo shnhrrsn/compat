@@ -1,0 +1,835 @@
+{
+  "self": [
+    "javascript",
+    "classes"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "303a6c3b8ec6658d2956c191c50aee0a0e9e4da5",
+    "date": "2022-02-18T09:30:25.000Z"
+  },
+  "title": "Classes",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/classes/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "13508486d604a8895f4831f95b164e8b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Classes are a template for creating objects.\nThey encapsulate data with code to work on that data.\nClasses in JS are built on prototypes but also have some syntax and semantics that are not shared with ES5 class-like semantics."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "15976b36384df7db866e2e1650b02bfc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "class declaration"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "class expression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Public class fields"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Private class features"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "super"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://hacks.mozilla.org/2015/07/es6-in-depth-classes/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Blog post: \"ES6 In Depth: Classes\""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/tc39/proposal-class-fields"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Fields and public/private class properties proposal (stage 3)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.933237834,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "49.0.0",
+        "date": 1456876800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25735907999999996,
+        "relative": 0.9865902447512357
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25735907999999996,
+            "relative": 0.9865902447512357
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1428969600
+          },
+          "removed": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "usage": {
+            "global": 0.0012647700000000001,
+            "relative": 0.004848516492419932
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1428969600
+          },
+          "removed": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "usage": {
+            "global": 0.0012647700000000001,
+            "relative": 0.004848516492419932
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "Experimental JavaScript",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "49.0.0",
+        "date": 1457481600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1429056000
+          },
+          "removed": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1429056000
+          },
+          "removed": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "Experimental JavaScript",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "13.0.0",
+        "date": 1447286400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04116739,
+        "relative": 0.9979825752879776
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1447286400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04116739,
+            "relative": 0.9979825752879776
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038360809999999995,
+        "relative": 0.9202684363467649
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038360809999999995,
+            "relative": 0.9202684363467649
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "6.0.0",
+        "date": 1461628800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1461628800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1441670400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "runtime_flag",
+              "name": "--use_strict"
+            }
+          ]
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1446076800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "runtime_flag",
+              "name": "--harmony"
+            }
+          ]
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "36.0.0",
+        "date": 1457308800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013604150000000002,
+        "relative": 0.8682151495618766
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013604150000000002,
+            "relative": 0.8682151495618766
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "29.0.0",
+            "date": 1430179200
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "usage": {
+            "global": 0.00042883,
+            "relative": 0.027367876904225513
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1430179200
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "usage": {
+            "global": 0.00042883,
+            "relative": 0.027367876904225513
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "Experimental JavaScript",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "36.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "29.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "Experimental JavaScript",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03292502,
+        "relative": 0.984505963695449
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03292502,
+            "relative": 0.984505963695449
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.147677327,
+        "relative": 0.989496880748933
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.147677327,
+            "relative": 0.989496880748933
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "usage": {
+            "global": 0.002286863,
+            "relative": 0.07800130471563359
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "49.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Strict mode is required."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "49.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

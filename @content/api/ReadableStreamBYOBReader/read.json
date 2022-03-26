@@ -1,0 +1,466 @@
+{
+  "self": [
+    "api",
+    "ReadableStreamBYOBReader",
+    "read"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "55f17d4608c3bdc3e31d0abfaba6fc61d78a0ff5",
+    "date": "2022-01-31T23:00:43.000Z"
+  },
+  "title": "ReadableStreamBYOBReader.read()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/read",
+    "spec": "https://streams.spec.whatwg.org/#ref-for-byob-reader-read③",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/readablestreambyobreader/read/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ee3b74c2b3ef589dbbf6047c8aa72256",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "read()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ReadableStreamBYOBReader"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ReadableStreamBYOBReader"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that resolves with an object representing the next chunk in the stream's queue."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.6869782609999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "89.0.0",
+        "date": 1614643200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24225333,
+        "relative": 0.9286821049270998
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": 1614643200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24225333,
+            "relative": 0.9286821049270998
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "89.0.0",
+        "date": 1614643200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": 1614643200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.16.0",
+        "date": 1636466183
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.16.0",
+            "date": 1636466183
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "89.0.0",
+        "date": 1614816000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03957114,
+        "relative": 0.959286177828643
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": 1614816000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03957114,
+            "relative": 0.959286177828643
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "99.0.0",
+            "date": 1649116800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.streams.byte_streams.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "16.5.0",
+        "date": 1626220800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.5.0",
+            "date": 1626220800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "75.0.0",
+        "date": 1616544000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.010490349999999999,
+        "relative": 0.6694928234550803
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1616544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.010490349999999999,
+            "relative": 0.6694928234550803
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "63.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "15.0.0",
+        "date": 1629072000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02245705,
+        "relative": 0.7659746998679935
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1629072000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02245705,
+            "relative": 0.7659746998679935
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "89.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "89.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

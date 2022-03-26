@@ -56,11 +56,11 @@ process.env.TZ = 'UTC'
 			}
 		}
 
-		const output = new URL('../src/@data/safariVersions.ts', import.meta.url)
+		const output = new URL('../src/@data/safariVersions.js', import.meta.url)
 		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
 			output,
-			`const safariVersions: { desktop: Record<string, number>; ios: Record<string, number>; } = ${JSON.stringify(
+			`/** @type {{ desktop: Record<string, number>; ios: Record<string, number>; }} */\nconst safariVersions = ${JSON.stringify(
 				versions,
 				null,
 				2,

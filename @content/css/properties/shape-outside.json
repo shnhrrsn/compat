@@ -1,0 +1,638 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "shape-outside"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "56da604e4fc9c926015751a990496f0284bf4e41",
+    "date": "2022-03-18T17:18:24.000Z"
+  },
+  "title": "shape-outside",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
+    "spec": "https://drafts.csswg.org/css-shapes/#shape-outside-property",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/shape-outside/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5c22fd1fbbf49821f112ee4b70636d24",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "shape-outside"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property defines a shape—which may be non-rectangular—around which adjacent inline content should wrap. By default, inline content wraps around its margin box; "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shape-outside"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " provides a way to customize this wrapping, making it possible to wrap text around complex objects rather than simple boxes."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "0e3359d6766c81530f90fe4468f2e0da",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Shapes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes/Overview_of_CSS_Shapes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Overview of CSS Shapes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes/From_box_values"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Shapes from Box Values"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes/Basic_Shapes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Basic Shapes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes/Shapes_From_Images"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Shapes from Images"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<basic-shape>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/shape-margin"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "shape-margin"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/shape-image-threshold"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "shape-image-threshold"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.932988088,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "37.0.0",
+        "date": 1409011200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25857464,
+        "relative": 0.9912501139033552
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": 1409011200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25857464,
+            "relative": 0.9912501139033552
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "37.0.0",
+        "date": 1409702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": 1409702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "62.0.0",
+        "date": 1536105600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03680004,
+        "relative": 0.8828258649465015
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1536105600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03680004,
+            "relative": 0.8828258649465015
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "62.0.0",
+        "date": 1536105600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1536105600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "24.0.0",
+        "date": 1409616000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014260030000000002,
+        "relative": 0.9100733290361285
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "24.0.0",
+            "date": 1409616000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014260030000000002,
+            "relative": 0.9100733290361285
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "24.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "24.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.1.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03266542,
+        "relative": 0.9767435462944773
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.1.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03266542,
+            "relative": 0.9767435462944773
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.3.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146318791,
+        "relative": 0.9803941487203047
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146318791,
+            "relative": 0.9803941487203047
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

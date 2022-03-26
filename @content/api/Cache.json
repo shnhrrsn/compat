@@ -1,0 +1,648 @@
+{
+  "self": [
+    "api",
+    "Cache"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "7126c9335c973a96e71ed16100260d414360c8eb",
+    "date": "2022-03-03T06:18:07.000Z"
+  },
+  "title": "Cache",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Cache",
+    "spec": "https://w3c.github.io/ServiceWorker/#cache-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cache/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "33ba014dd7f968f91d5a75dc2765e63c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Cache"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface provides a persistent storage mechanism for "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Request"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Request"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " / "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Response"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Response"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object pairs that are cached in long lived memory. How long a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Cache"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object lives is browser dependent, but a single origin's scripts can typically rely on the presence of a previously populated "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Cache"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object. Note that the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Cache"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is exposed to windowed scopes as well as workers. You don't have to use it in conjunction with service workers, even though it is defined in the service worker spec."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "750aa0bad77ae3e21ca0bc359cf7c0fb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using Service Workers"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/mdn/sw-test"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Service workers basic code example"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://jakearchibald.github.io/isserviceworkerready/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Is ServiceWorker ready?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using web workers"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9345966840000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25827731,
+        "relative": 0.9901102944826768
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported."
+          ],
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25827731,
+            "relative": 0.9901102944826768
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "40.0.0",
+        "date": 1421798400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported."
+          ],
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "16.0.0",
+        "date": 1508198400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040957209999999994,
+        "relative": 0.992887377907866
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1508198400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040957209999999994,
+            "relative": 0.992887377907866
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "39.0.0",
+        "date": 1435795200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03905395,
+        "relative": 0.9368967313167981
+      },
+      "history": [
+        {
+          "notes": [
+            "<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+          ],
+          "added": {
+            "version": "39.0.0",
+            "date": 1435795200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03905395,
+            "relative": 0.9368967313167981
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "39.0.0",
+        "date": 1435795200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "39.0.0",
+            "date": 1435795200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "27.0.0",
+        "date": 1422316800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014076910000000003,
+        "relative": 0.8983866335654251
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 30, only service workers are supported. From version 30, all worker types and the main thread are supported."
+          ],
+          "added": {
+            "version": "27.0.0",
+            "date": 1422316800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014076910000000003,
+            "relative": 0.8983866335654251
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "27.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 30, only service workers are supported. From version 30, all worker types and the main thread are supported."
+          ],
+          "added": {
+            "version": "27.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.145363337,
+        "relative": 0.9739922265572696
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.145363337,
+            "relative": 0.9739922265572696
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "40.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported."
+          ],
+          "added": {
+            "version": "40.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

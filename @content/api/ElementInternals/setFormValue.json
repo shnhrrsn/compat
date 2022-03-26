@@ -1,0 +1,413 @@
+{
+  "self": [
+    "api",
+    "ElementInternals",
+    "setFormValue"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "c570353978457c93112b6a1473c65515da8d8742",
+    "date": "2021-11-01T11:36:37.000Z"
+  },
+  "title": "ElementInternals.setFormValue()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ElementInternals/setFormValue",
+    "spec": "https://html.spec.whatwg.org/multipage/custom-elements.html#dom-elementinternals-setformvalue",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/elementinternals/setformvalue/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9873cc85a0009f63d079efcb3ae36519",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "setFormValue()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ElementInternals"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ElementInternals"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface sets the element's submission value and state, communicating these to the user agent."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7001991339999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "77.0.0",
+        "date": 1568073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25065855,
+        "relative": 0.9609036533449291
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": 1568073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25065855,
+            "relative": 0.9609036533449291
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "77.0.0",
+        "date": 1568073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": 1568073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "98.0.0",
+        "date": 1646697600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00016643999999999999,
+        "relative": 0.003992863512150957
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00016643999999999999,
+            "relative": 0.003992863512150957
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "95.0.0",
+            "date": 1638835200
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "usage": {
+            "global": 0.03253904999999999,
+            "relative": 0.7806055363197284
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.webcomponents.formAssociatedCustomElement.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "98.0.0",
+        "date": 1646697600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "64.0.0",
+        "date": 1570406400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01217368,
+        "relative": 0.7769227332775973
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1570406400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01217368,
+            "relative": 0.7769227332775973
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "55.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024952283,
+        "relative": 0.851083177975123
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024952283,
+            "relative": 0.851083177975123
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "77.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

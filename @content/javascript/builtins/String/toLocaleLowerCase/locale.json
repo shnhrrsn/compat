@@ -1,0 +1,418 @@
+{
+  "self": [
+    "javascript",
+    "builtins",
+    "String",
+    "toLocaleLowerCase",
+    "locale"
+  ],
+  "type": "page",
+  "title": "toLocaleLowerCase / locale",
+  "links": {},
+  "content": {},
+  "usage": 0.9362145811999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "58.0.0",
+        "date": 1492560000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25556852999999996,
+        "relative": 0.979726142024651
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25556852999999996,
+            "relative": 0.979726142024651
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "58.0.0",
+        "date": 1492646400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1492646400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.8.0",
+        "date": 1614731094
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.8.0",
+            "date": 1614731094
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Only the locale data for <code>en-US</code> is available."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": {
+            "version": "1.8.0",
+            "date": 1614731094
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037222679999999994,
+        "relative": 0.8929649170660369
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037222679999999994,
+            "relative": 0.8929649170660369
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "6.0.0",
+        "date": 998870400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0076415232,
+        "relative": 0.9879785426942482
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 998870400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0076415232,
+            "relative": 0.9879785426942482
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "13.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Before version 13.0.0, only the locale data for <code>en-US</code> is available by default. When other locales are specified, the function silently falls back to <code>en-US</code>. To make full ICU (locale) data available before version 13, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://nodejs.org/docs/latest/api/intl.html#intl_options_for_building_node_js'>Node.js documentation on the <code>--with-intl</code> option</a> and how to provide the data."
+          ],
+          "added": {
+            "version": "0.12.0",
+            "date": 1423180800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "45.0.0",
+        "date": 1494374400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013177150000000002,
+        "relative": 0.8409640630285085
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1494374400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013177150000000002,
+            "relative": 0.8409640630285085
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.0.0",
+        "date": 1474329600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.032709669999999996,
+        "relative": 0.9780666856241884
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1474329600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.032709669999999996,
+            "relative": 0.9780666856241884
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.0.0",
+        "date": 1473724800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146706944,
+        "relative": 0.9829949283427131
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1473724800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146706944,
+            "relative": 0.9829949283427131
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "7.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026928363,
+        "relative": 0.9184841627400474
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026928363,
+            "relative": 0.9184841627400474
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "58.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

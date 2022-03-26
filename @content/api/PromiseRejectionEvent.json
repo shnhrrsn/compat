@@ -1,0 +1,626 @@
+{
+  "self": [
+    "api",
+    "PromiseRejectionEvent"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "157ca1c242371cebc74fdd06c4898a7e4bfae6bf",
+    "date": "2022-01-13T03:50:09.000Z"
+  },
+  "title": "PromiseRejectionEvent",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PromiseRejectionEvent",
+    "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#the-promiserejectionevent-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/promiserejectionevent/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "255b02efdac078af36ac44f80b2becb0",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PromiseRejectionEvent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface represents events which are sent to the global script context when JavaScript "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "s are rejected. These events are particularly useful for telemetry and debugging purposes."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "56730eb8f8a496af8828909a6927beda",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Archive/Add-ons/Techniques/Promises"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promises"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Using_promises"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using promises"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WindowEventHandlers/onrejectionhandled"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WindowEventHandlers.onrejectionhandled"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WindowEventHandlers/onunhandledrejection"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WindowEventHandlers.onunhandledrejection"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.926786449,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "49.0.0",
+        "date": 1456876800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25735907999999996,
+        "relative": 0.9865902447512357
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1456876800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25735907999999996,
+            "relative": 0.9865902447512357
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "49.0.0",
+        "date": 1457481600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1457481600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "69.0.0",
+        "date": 1567468800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03637539,
+        "relative": 0.8726385933144726
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "69.0.0",
+            "date": 1567468800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03637539,
+            "relative": 0.8726385933144726
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1562630400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.036458609999999995,
+            "relative": 0.8746350250705479
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.promise_rejection_events.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1562630400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.promise_rejection_events.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "36.0.0",
+        "date": 1457308800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013604150000000002,
+        "relative": 0.8682151495618766
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": 1457308800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013604150000000002,
+            "relative": 0.8682151495618766
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "36.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "36.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.3.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.144721392,
+        "relative": 0.9696909395011166
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.3.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.144721392,
+            "relative": 0.9696909395011166
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "5.0.0",
+        "date": 1481846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027134946000000004,
+        "relative": 0.9255303843685707
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027134946000000004,
+            "relative": 0.9255303843685707
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "49.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

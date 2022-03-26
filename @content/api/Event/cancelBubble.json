@@ -1,0 +1,583 @@
+{
+  "self": [
+    "api",
+    "Event",
+    "cancelBubble"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "672bace59f60c4931e5cdde8eb32919c924bd191",
+    "date": "2022-03-14T00:26:56.000Z"
+  },
+  "title": "Event.cancelBubble",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Event/cancelBubble",
+    "spec": "https://dom.spec.whatwg.org/#ref-for-dom-event-cancelbubble①",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/event/cancelbubble/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "8da1867f864062e43369b75e4efecdc2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "cancelBubble"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Event"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\ninterface is deprecated. Use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Event/stopPropagation"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Event.stopPropagation()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instead.\nSetting its value to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " before returning from an event handler prevents propagation\nof the event. In later implementations, setting this to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "false"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " does nothing.\nSee "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#browser_compatibility"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Browser compatibility"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for details."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9484658425999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "53.0.0",
+        "date": 1492560000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03735189,
+        "relative": 0.896064640055733
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03735189,
+            "relative": 0.896064640055733
+          }
+        },
+        {
+          "notes": [
+            "Only supported for <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/UIEvent'><code>UIEvent</code></a>, not all <code>Event</code> objects."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "usage": {
+            "global": 0.00437583,
+            "relative": 0.10497531808685125
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "53.0.0",
+        "date": 1492560000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Only supported for <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/UIEvent'><code>UIEvent</code></a>, not all <code>Event</code> objects."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "9.0.0",
+        "date": 1300060800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.007052712,
+        "relative": 0.9118506796920065
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1300060800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.007052712,
+            "relative": 0.9118506796920065
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "14.5.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "This is not used in Node.js and is provided purely for completeness."
+          ],
+          "added": {
+            "version": "14.5.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.1.0",
+        "date": 1352073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014938090000000001,
+        "relative": 0.9533470333331207
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014938090000000001,
+            "relative": 0.9533470333331207
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "12.1.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "1.0.0",
+        "date": 1056326400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03344319,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1056326400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03344319,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1492448636,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1492448636,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Samsung Internet 7.0 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 58 and Opera 45, setting this property to false does nothing, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/whatwg/dom/issues/211'>spec discussion</a>."
+          ],
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

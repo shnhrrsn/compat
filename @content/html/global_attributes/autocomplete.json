@@ -1,0 +1,686 @@
+{
+  "self": [
+    "html",
+    "global_attributes",
+    "autocomplete"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "672bace59f60c4931e5cdde8eb32919c924bd191",
+    "date": "2022-03-14T00:26:56.000Z"
+  },
+  "title": "The HTML autocomplete attribute",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Attributes/autocomplete",
+    "spec": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/html/attributes/autocomplete/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "daf2656bf3b7d79651463b8067663b2b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The HTML "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "autocomplete"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " attribute lets web developers specify what if any permission the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/user_agent"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "user agent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " has to provide automated assistance in filling out form field values, as well as guidance to the browser as to the type of information expected in the field."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "e416271b5960477b70883eb1b18b1016",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/input"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<input>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " element."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/select"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<select>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " element."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/textarea"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<textarea>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " element."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/form"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<form>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " element."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Learn/Forms"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTML forms"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "All "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTML/Global_attributes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "global attributes"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7532377050000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "66.0.0",
+        "date": 1523923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25473633,
+        "relative": 0.9765358897060541
+      },
+      "history": [
+        {
+          "notes": [
+            "Support added for <code>autocomplete</code> on the <code>&lt;textarea&gt;</code> and <code>&lt;select&gt;</code> elements.",
+            "Chrome does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25473633,
+            "relative": 0.9765358897060541
+          }
+        },
+        {
+          "notes": [
+            "Originally only supported on the <code>&lt;input&gt;</code> element.",
+            "Chrome does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "66.0.0",
+        "date": 1523923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Support added for <code>autocomplete</code> on the <code>&lt;textarea&gt;</code> and <code>&lt;select&gt;</code> elements.",
+            "Chrome does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Originally only supported on the <code>&lt;input&gt;</code> element.",
+            "Chrome does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04168437,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04168437,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "1.0.0",
+        "date": 1099958400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "9.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026097004000000004,
+        "relative": 0.8901278131523876
+      },
+      "history": [
+        {
+          "notes": [
+            "Support added for <code>autocomplete</code> on the <code>&lt;textarea&gt;</code> and <code>&lt;select&gt;</code> elements.",
+            "Samsung Internet does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026097004000000004,
+            "relative": 0.8901278131523876
+          }
+        },
+        {
+          "notes": [
+            "Originally only supported on the <code>&lt;input&gt;</code> element.",
+            "Samsung Internet does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "66.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Support added for <code>autocomplete</code> on the <code>&lt;textarea&gt;</code> and <code>&lt;select&gt;</code> elements.",
+            "WebView does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Originally only supported on the <code>&lt;input&gt;</code> element.",
+            "WebView does not accept <code>off</code> as a value.  See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/587466'>bug 587466</a>."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

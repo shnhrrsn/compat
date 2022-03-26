@@ -1,0 +1,513 @@
+{
+  "self": [
+    "api",
+    "Touch",
+    "rotationAngle"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
+  "title": "Touch.rotationAngle",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Touch/rotationAngle",
+    "spec": "https://w3c.github.io/touch-events/#dom-touch-rotationangle",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/touch/rotationangle/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d8e5f505dd23b391e02473f2d6bfd6cb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Returns the rotation angle, in degrees, of the contact area ellipse defined by "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Touch/radiusX"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Touch.radiusX"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Touch/radiusY"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Touch.radiusY"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The value may be between 0 and 90. Together, these three values describe an ellipse that approximates the size and shape of the area of contact between the user and the screen. This may be a relatively large ellipse representing the contact between a fingertip and the screen or a small area representing the tip of a stylus, for example."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9008682810000002,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "43.0.0",
+        "date": 1431993600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25787355,
+        "relative": 0.9885624739153172
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25787355,
+            "relative": 0.9885624739153172
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "22.0.0",
+            "date": 1348531200
+          },
+          "removed": {
+            "version": "47.0.0",
+            "date": 1448928000
+          },
+          "usage": {
+            "global": 0.00215776,
+            "relative": 0.008271808270819225
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "43.0.0",
+        "date": 1432684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": {
+            "version": "47.0.0",
+            "date": 1449014400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037976039999999996,
+        "relative": 0.9110378782262991
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037976039999999996,
+            "relative": 0.9110378782262991
+          }
+        },
+        {
+          "notes": [
+            "Removed in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/888304'>bug 888304</a> due to web compatibility issues."
+          ],
+          "added": {
+            "version": "18.0.0",
+            "date": 1357603200
+          },
+          "removed": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "usage": {
+            "global": 0.00047854,
+            "relative": 0.011480082342614271
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "6.0.0",
+        "date": 1313452800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": 1313452800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "30.0.0",
+        "date": 1433808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013942580000000003,
+        "relative": 0.8898137097855016
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "30.0.0",
+            "date": 1433808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013942580000000003,
+            "relative": 0.8898137097855016
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "34.0.0",
+            "date": 1449100800
+          },
+          "usage": {
+            "global": 0.00123795,
+            "relative": 0.07900581399059295
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "30.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "30.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "34.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.0.0",
+        "date": 1473724800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146706944,
+        "relative": 0.9829949283427131
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1473724800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146706944,
+            "relative": 0.9829949283427131
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "4.0.0",
+        "date": 1461024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1461024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": {
+            "version": "5.0.0",
+            "date": 1481846400
+          },
+          "usage": {
+            "global": 0.002286863,
+            "relative": 0.07800130471563359
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "47.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

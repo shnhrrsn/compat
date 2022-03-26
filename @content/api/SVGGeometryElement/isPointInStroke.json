@@ -1,0 +1,418 @@
+{
+  "self": [
+    "api",
+    "SVGGeometryElement",
+    "isPointInStroke"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
+  "title": "SVGGeometryElement.isPointInStroke()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/isPointInStroke",
+    "spec": "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/svggeometryelement/ispointinstroke/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5c7af569cc7ec8135c5ba23c2fac9afd",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SVGGeometryElement.isPointInStroke()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method\ndetermines whether a given point is within the stroke shape of an element. Normal hit\ntesting rules apply; the value of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/properties/pointer-events"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "pointer-events"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property on the\nelement determines whether a point is considered to be within the stroke. The\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "point"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " argument is interpreted as a point in the local coordinate system of\nthe element."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9334273649999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "33.0.0",
+        "date": 1392854400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25895086999999994,
+        "relative": 0.992692397765198
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "33.0.0",
+            "date": 1392854400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25895086999999994,
+            "relative": 0.992692397765198
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "33.0.0",
+        "date": 1393372800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "33.0.0",
+            "date": 1393372800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "69.0.0",
+        "date": 1567468800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03637539,
+        "relative": 0.8726385933144726
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "69.0.0",
+            "date": 1567468800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03637539,
+            "relative": 0.8726385933144726
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "20.0.0",
+        "date": 1393891200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0145751,
+        "relative": 0.9301810569847663
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "20.0.0",
+            "date": 1393891200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0145751,
+            "relative": 0.9301810569847663
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "20.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "20.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "12.0.0",
+        "date": 1537142400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03220614,
+        "relative": 0.9630104066029587
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03220614,
+            "relative": 0.9630104066029587
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "12.0.0",
+        "date": 1537142400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.144348168,
+        "relative": 0.967190190121893
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.144348168,
+            "relative": 0.967190190121893
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.3",
+        "date": 1401667200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.3",
+            "date": 1401667200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

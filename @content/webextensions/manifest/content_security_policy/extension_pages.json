@@ -1,0 +1,259 @@
+{
+  "self": [
+    "webextensions",
+    "manifest",
+    "content_security_policy",
+    "extension_pages"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "e752a8fe731fbdb9061e39a6e2b797a7ccb7e2b5",
+    "date": "2022-01-19T17:57:58.000Z"
+  },
+  "title": "content_security_policy",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy#extension_pages",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/manifest.json/content_security_policy/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "16882957810a45f535cb575612ca5784",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Extensions have a content security policy applied to them by default. The default policy restricts the sources from which they can load "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/script"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<script>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/object"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<object>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " resources, and disallows potentially unsafe practices such as the use of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "eval()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". See "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy#default_content_security_policy"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Default content security policy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to learn more about the implications of this."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available in Canary builds."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available in Canary builds."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1578355200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.036246709999999994,
+            "relative": 0.869551584922598
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "extensions.content_script_csp.enabled",
+              "value_to_set": "true"
+            },
+            {
+              "type": "preference",
+              "name": "extensions.content_script_csp.report_only",
+              "value_to_set": "false"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  }
+}

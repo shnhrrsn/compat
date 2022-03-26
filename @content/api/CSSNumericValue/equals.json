@@ -1,0 +1,394 @@
+{
+  "self": [
+    "api",
+    "CSSNumericValue",
+    "equals"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "516c74d03bd44861eca7da5a96d287aef846b89d",
+    "date": "2022-01-27T16:52:19.000Z"
+  },
+  "title": "CSSNumericValue.equals()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/equals",
+    "spec": "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-equals",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cssnumericvalue/equals/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "4568704898572d0efc4423c85ed84981",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "equals()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CSSNumericValue"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSSNumericValue"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a boolean indicating whether the passed\nvalue are strictly equal. To return a value of "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", all passed values must\nbe of the same type and value and must be in the same order. This allows structural\nequality to be tested quickly."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.705806035,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "66.0.0",
+        "date": 1523923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25473633,
+        "relative": 0.9765358897060541
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25473633,
+            "relative": 0.9765358897060541
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "66.0.0",
+        "date": 1523923200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "53.0.0",
+        "date": 1525910400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.012724520000000001,
+        "relative": 0.8120772731043903
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "53.0.0",
+            "date": 1525910400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.012724520000000001,
+            "relative": 0.8120772731043903
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "47.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "9.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026097004000000004,
+        "relative": 0.8901278131523876
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026097004000000004,
+            "relative": 0.8901278131523876
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "66.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

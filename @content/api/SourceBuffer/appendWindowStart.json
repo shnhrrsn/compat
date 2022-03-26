@@ -1,0 +1,529 @@
+{
+  "self": [
+    "api",
+    "SourceBuffer",
+    "appendWindowStart"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "55f17d4608c3bdc3e31d0abfaba6fc61d78a0ff5",
+    "date": "2022-01-31T23:00:43.000Z"
+  },
+  "title": "SourceBuffer.appendWindowStart",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/appendWindowStart",
+    "spec": "https://w3c.github.io/media-source/#dom-sourcebuffer-appendwindowstart",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/sourcebuffer/appendwindowstart/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "0c07ce3c24c5992d0a4574ef47ed0fdb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "appendWindowStart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/SourceBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SourceBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface controls the timestamp for the start of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://w3c.github.io/media-source/#append-window"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "append window"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", a\ntimestamp range that can be used to filter what media data is appended to the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "SourceBuffer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". Coded media frames with timestamps within this range will be\nappended, whereas those outside the range will be filtered out."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "7d8d5ac36e35e725135fbb682266ce64",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/MediaSource"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "MediaSource"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/SourceBufferList"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "SourceBufferList"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.800784627,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "23.0.0",
+        "date": 1352160000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25964166999999994,
+        "relative": 0.9953405908698444
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "23.0.0",
+            "date": 1352160000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25964166999999994,
+            "relative": 0.9953405908698444
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "33.0.0",
+        "date": 1393372800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "33.0.0",
+            "date": 1393372800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "42.0.0",
+        "date": 1446508800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03890713,
+        "relative": 0.9333745478221214
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03890713,
+            "relative": 0.9333745478221214
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "42.0.0",
+        "date": 1446508800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "11.0.0",
+        "date": 1381968000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00619584,
+        "relative": 0.8010650250943073
+      },
+      "history": [
+        {
+          "notes": [
+            "Only works on Windows 8+."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00619584,
+            "relative": 0.8010650250943073
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014890890000000004,
+        "relative": 0.9503347352432496
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "8.0.0",
+        "date": 1413417600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03296858,
+        "relative": 0.9858084710220527
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1413417600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03296858,
+            "relative": 0.9858084710220527
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Exposed in Mobile Safari on iPad but not on iPhone."
+          ],
+          "added": {
+            "version": "13.0.0",
+            "date": 1568851200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.138376584,
+            "relative": 0.9271782000543166
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.3",
+        "date": 1401667200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.3",
+            "date": 1401667200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

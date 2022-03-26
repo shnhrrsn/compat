@@ -1,0 +1,495 @@
+{
+  "self": [
+    "api",
+    "ElementInternals"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "f821558ecca2f9b6aaa3d5547eb01d804befadb9",
+    "date": "2022-03-15T03:07:30.000Z"
+  },
+  "title": "ElementInternals",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ElementInternals",
+    "spec": "https://html.spec.whatwg.org/multipage/custom-elements.html#the-elementinternals-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/elementinternals/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "52e46bdb202d52a56c72543da2523af6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ElementInternals"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "',"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " gives web developers a way to allow custom elements to fully participate in HTML forms. It provides utilities for working with these elements in the same way you would work with any standard HTML form element, and also exposes the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://wicg.github.io/aom/explainer.html"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Accessibility Object Model"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to the element."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "64061f4487f7ae135bb79a6978095d2e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/more-capable-form-controls/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "More capable form controls"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://css-tricks.com/creating-custom-form-controls-with-elementinternals/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Creating custom form controls with ElementInternals"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.npmjs.com/package/element-internals-polyfill"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ElementInternals polyfill"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.735957004,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "77.0.0",
+        "date": 1568073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25065855,
+        "relative": 0.9609036533449291
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": 1568073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25065855,
+            "relative": 0.9609036533449291
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "77.0.0",
+        "date": 1568073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": 1568073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "93.0.0",
+        "date": 1633392000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03312159,
+        "relative": 0.7945805586122568
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "93.0.0",
+            "date": 1633392000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03312159,
+            "relative": 0.7945805586122568
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "93.0.0",
+        "date": 1633392000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "93.0.0",
+            "date": 1633392000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "64.0.0",
+        "date": 1570406400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01217368,
+        "relative": 0.7769227332775973
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1570406400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01217368,
+            "relative": 0.7769227332775973
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "55.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/197960'>bug 197960</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/197960'>bug 197960</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024952283,
+        "relative": 0.851083177975123
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024952283,
+            "relative": 0.851083177975123
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "77.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "77.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

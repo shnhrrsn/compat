@@ -1,0 +1,269 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "i18n",
+    "getAcceptLanguages"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
+  "title": "i18n.getAcceptLanguages()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getAcceptLanguages",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/i18n/getacceptlanguages/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "057d28e16ac22dbdd404f63c896f1bd9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Gets the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Content_negotiation#the_accept-language_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "accept-languages"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of the browser. This is different from the locale used by the browser. To get the locale, use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/i18n/getUILanguage"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "i18n.getUILanguage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.478996312,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "47.0.0",
+        "date": 1448928000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25765035,
+        "relative": 0.9877068330627446
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1448928000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25765035,
+            "relative": 0.9877068330627446
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.041124720000000003,
+        "relative": 0.9969481663422676
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.041124720000000003,
+            "relative": 0.9969481663422676
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "47.0.0",
+        "date": 1465257600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.038272,
+        "relative": 0.9181379015683816
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1465257600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.038272,
+            "relative": 0.9181379015683816
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "34.0.0",
+        "date": 1449100800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013750520000000002,
+        "relative": 0.8775564646342164
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "34.0.0",
+            "date": 1449100800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013750520000000002,
+            "relative": 0.8775564646342164
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "permissions",
+    "request"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
+  "title": "permissions.request()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/request",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/permissions/request/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fbfdac3f573a412df5e05e6e3781ce78",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Ask for the set of permissions listed in the given "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/permissions/Permissions"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "permissions.Permissions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.479186682,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037222679999999994,
+        "relative": 0.8929649170660369
+      },
+      "history": [
+        {
+          "notes": [
+            "It's not possible to request permissions from a sidebar document (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1493396'>bug 1493396</a>).",
+            "Before version 75, permissions cannot be requested from popup panels (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1432083'>bug 1432083</a>).",
+            "Before version 61, permissions cannot be requested from options pages embedded in <code>about:addons</code> (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1382953'>bug 1382953</a>)."
+          ],
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037222679999999994,
+            "relative": 0.8929649170660369
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "From version 79, the user interface to approve the permission request is missing (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1601420'>bug 1601420</a>).",
+            "<code>browserAction.onClicked</code> is not recognized as a user action (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/mozilla-mobile/fenix/issues/22348'>mozilla-mobile/fenix#22348</a>)."
+          ],
+          "added": {
+            "version": "1.0.0",
+            "date": 1099958400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": [
+            "Requesting <code>&lt;all_urls&gt;</code> or <code>*://*/*</code> origins will grant permission to request specific origin patterns and automatically prompt the user for access to any visited website via the extension's access popover in the toolbar.",
+            "The user will be prompted again for permissions that have been previously granted and then removed.",
+            "Supported permissions will be granted without prompting the user. Only specific origin patterns will prompt the user."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": [
+            "Requesting <code>&lt;all_urls&gt;</code> or <code>*://*/*</code> origins will grant permission to request specific origin patterns and automatically prompt the user for access to any visited website via the extension's banner.",
+            "The user will be prompted again for permissions that have been previously granted and then removed.",
+            "Supported permissions will be granted without prompting the user. Only specific origin patterns will prompt the user."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}

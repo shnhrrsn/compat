@@ -1,0 +1,590 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "csp",
+    "Content-Security-Policy",
+    "trusted-types"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "170b5bab17465129222c4a758b5fc68352d4b12b",
+    "date": "2022-03-03T03:02:25.000Z"
+  },
+  "title": "CSP: trusted-types",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types",
+    "spec": "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-security-policy/trusted-types/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "808403de9f38004de4df5d2de11e176d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The HTTP "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/csp/Content-Security-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Security-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (CSP) "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "trusted-types"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "icon",
+                "properties": {
+                  "src": "experimental"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": " directive instructs user agents to restrict the creation of Trusted Types policies - functions that build non-spoofable, typed values intended to be passed to DOM XSS sinks in place of strings."
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "093c42318c177d1e2c04c79b92fc748c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Glossary/Cross-site_scripting"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Cross-Site Scripting (XSS)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/trusted-types"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Prevent DOM-based cross-site scripting vulnerabilities with Trusted Types"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Trusted Types with "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/cure53/DOMPurify#what-about-dompurify-and-trusted-types"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DOMPurify"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " XSS sanitizer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/w3c/webappsec-trusted-types#polyfill"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Trusted Types polyfill"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.69540079,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "83.0.0",
+        "date": 1589846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24703847999999998,
+        "relative": 0.9470260557590322
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24703847999999998,
+            "relative": 0.9470260557590322
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "73.0.0",
+            "date": 1552348800
+          },
+          "removed": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "usage": {
+            "global": 0.00153957,
+            "relative": 0.005901966789404361
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-productivity-features",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "83.0.0",
+        "date": 1589846400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "73.0.0",
+            "date": 1552348800
+          },
+          "removed": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-productivity-features",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "83.0.0",
+        "date": 1590019200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.039904409999999994,
+        "relative": 0.9673653310823768
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": 1590019200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039904409999999994,
+            "relative": 0.9673653310823768
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "69.0.0",
+        "date": 1592956800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01172252,
+        "relative": 0.7481297585694138
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "69.0.0",
+            "date": 1592956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01172252,
+            "relative": 0.7481297585694138
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "13.0.0",
+        "date": 1605657600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024640380000000003,
+        "relative": 0.8404446565837148
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1605657600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024640380000000003,
+            "relative": 0.8404446565837148
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "83.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "83.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

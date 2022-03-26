@@ -1,0 +1,447 @@
+{
+  "self": [
+    "api",
+    "InputEvent",
+    "getTargetRanges"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "2279e5ae6c229c707a014a22aa1ec4635a0f981f",
+    "date": "2021-09-14T18:08:09.000Z"
+  },
+  "title": "InputEvent.getTargetRanges()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/InputEvent/getTargetRanges",
+    "spec": "https://w3c.github.io/input-events/#dom-inputevent-gettargetranges",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/inputevent/gettargetranges/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7e0b716d372257c9187ae5cf580e6af4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getTargetRanges()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/InputEvent"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "InputEvent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns an array of static ranges that will be affected by a change to the DOM if the input event is not canceled."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.92355368,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "60.0.0",
+        "date": 1500940800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25548530999999997,
+        "relative": 0.9794071167927912
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": 1500940800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25548530999999997,
+            "relative": 0.9794071167927912
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "60.0.0",
+        "date": 1501459200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": 1501459200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "87.0.0",
+        "date": 1616457600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.034785989999999996,
+        "relative": 0.8345091937337663
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.034785989999999996,
+            "relative": 0.8345091937337663
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1586217600
+          },
+          "removed": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "usage": {
+            "global": 0.0014193299999999997,
+            "relative": 0.0340494530683803
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.input_events.beforeinput.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "87.0.0",
+        "date": 1616457600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.input_events.beforeinput.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "47.0.0",
+        "date": 1502236800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013046680000000001,
+        "relative": 0.8326374839652565
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1502236800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013046680000000001,
+            "relative": 0.8326374839652565
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "44.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "44.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.1.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03266542,
+        "relative": 0.9767435462944773
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.1.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03266542,
+            "relative": 0.9767435462944773
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.3.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146318791,
+        "relative": 0.9803941487203047
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146318791,
+            "relative": 0.9803941487203047
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026200588000000004,
+        "relative": 0.8936609006821891
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026200588000000004,
+            "relative": 0.8936609006821891
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "60.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

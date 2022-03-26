@@ -1,0 +1,508 @@
+{
+  "self": [
+    "api",
+    "VRDisplayEvent",
+    "reason"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
+  "title": "VRDisplayEvent.reason",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/VRDisplayEvent/reason",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/vrdisplayevent/reason/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "542d2e9045beffa5649e85f7bbf4ac6f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "reason"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VRDisplayEvent"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "VRDisplayEvent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a human-readable reason why the event was fired."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "7401ee55bfc0946925c3a31eada986c5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebVR_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebVR API homepage"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://mixedreality.mozilla.org/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "https://mixedreality.mozilla.org/"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " — demos, downloads, and other resources from the Mozilla VR team."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.06809705299999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Only works in an <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webvr.info/get-chrome/'>experimental version of Chrome</a>. (Other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked.)",
+            "Daydream View supported in Chrome 56.",
+            "Google Cardboard supported in Chrome 57."
+          ],
+          "added": {
+            "version": "56.0.0",
+            "date": 1485907200
+          },
+          "removed": {
+            "version": "80.0.0",
+            "date": 1580774400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "WebVR"
+            }
+          ]
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "15.0.0",
+        "date": 1491868800
+      },
+      "removed": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "usage": {
+        "global": 0.0010402500000000002,
+        "relative": 0.025217808900280508
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1491868800
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "usage": {
+            "global": 0.0010402500000000002,
+            "relative": 0.025217808900280508
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": {
+        "version": "98.0.0",
+        "date": 1646697600
+      },
+      "usage": {
+        "global": 0.037222679999999994,
+        "relative": 0.8929649170660369
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00016643999999999999,
+            "relative": 0.003992863512150957
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.vr.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Windows support was enabled in Firefox 55."
+          ],
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "usage": {
+            "global": 0.037222679999999994,
+            "relative": 0.8929649170660369
+          }
+        },
+        {
+          "notes": [
+            "macOS support was enabled in Firefox 64."
+          ],
+          "added": {
+            "version": "64.0.0",
+            "date": 1544486400
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "usage": {
+            "global": 0.036672569999999995,
+            "relative": 0.879767884221352
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": {
+        "version": "98.0.0",
+        "date": 1646697600
+      },
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1646697600
+          },
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": [
+            "Google Cardboard supported in Samsung Internet 7.0."
+          ],
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": false,
+    "deprecated": true
+  }
+}

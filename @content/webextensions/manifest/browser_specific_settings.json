@@ -1,0 +1,269 @@
+{
+  "self": [
+    "webextensions",
+    "manifest",
+    "browser_specific_settings"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "title": "browser_specific_settings",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/manifest.json/browser_specific_settings/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2860de6273a6939da151590d23318f03",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "browser_specific_settings"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " key contains keys that are specific to a particular host application."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.16746804199999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "15.0.0",
+        "date": 1491868800
+      },
+      "removed": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "usage": {
+        "global": 0.0010402500000000002,
+        "relative": 0.025217808900280508
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1491868800
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "usage": {
+            "global": 0.0010402500000000002,
+            "relative": 0.025217808900280508
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03822907,
+        "relative": 0.9171080191448258
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03822907,
+            "relative": 0.9171080191448258
+          }
+        },
+        {
+          "notes": [
+            "Mandatory before Firefox 48."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03890713,
+            "relative": 0.9333745478221214
+          },
+          "alternative_name": "applications"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Mandatory before Firefox 48."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1446508800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "alternative_name": "applications"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": [
+            "Supports <code>strict_min_version</code> and <code>strict_max_version</code> in a <code>safari</code> block."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": [
+            "Supports <code>strict_min_version</code> and <code>strict_max_version</code> in a <code>safari</code> block."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}

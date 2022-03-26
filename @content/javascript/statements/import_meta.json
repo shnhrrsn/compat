@@ -1,0 +1,499 @@
+{
+  "self": [
+    "javascript",
+    "statements",
+    "import_meta"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "c676a50ec1a843bc75b06d95a1b56d8225e1efff",
+    "date": "2021-11-23T23:56:09.000Z"
+  },
+  "title": "import.meta",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import.meta",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+      "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/statements/import.meta/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fbfdaf82f787eb9bc933a4ac76fba689",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "import.meta"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object exposes context-specific metadata\nto a JavaScript module. It contains information about the module, like the module's URL."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "5ea2082b6092e834a9436ed9e63fedad",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "import"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "export"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9226775830000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "64.0.0",
+        "date": 1516752000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25506921,
+        "relative": 0.9778119906334929
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1516752000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25506921,
+            "relative": 0.9778119906334929
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "64.0.0",
+        "date": 1516665600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1516665600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "62.0.0",
+        "date": 1536105600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03680004,
+        "relative": 0.8828258649465015
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1536105600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03680004,
+            "relative": 0.8828258649465015
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "62.0.0",
+        "date": 1536105600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1536105600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "10.4.0",
+        "date": 1528243200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.4.0",
+            "date": 1528243200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "51.0.0",
+        "date": 1517961600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01281485,
+        "relative": 0.8178421223937559
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1517961600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01281485,
+            "relative": 0.8178421223937559
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "47.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.1.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03249741,
+        "relative": 0.9717198030451043
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03249741,
+            "relative": 0.9717198030451043
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "12.0.0",
+        "date": 1537142400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.144348168,
+        "relative": 0.967190190121893
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.144348168,
+            "relative": 0.967190190121893
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "9.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026097004000000004,
+        "relative": 0.8901278131523876
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026097004000000004,
+            "relative": 0.8901278131523876
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "64.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

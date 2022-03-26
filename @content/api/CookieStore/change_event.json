@@ -1,0 +1,375 @@
+{
+  "self": [
+    "api",
+    "CookieStore",
+    "change_event"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "b5b5322f8fc6203a12df866a1802d0b09952b19a",
+    "date": "2022-02-11T16:19:19.000Z"
+  },
+  "title": "CookieStore: change event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CookieStore/change_event",
+    "spec": [
+      "https://wicg.github.io/cookie-store/#intro-monitor",
+      "https://wicg.github.io/cookie-store/#dom-cookiestore-onchange"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cookiestore/change_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c189057b4ccb94f76cae2345222e080e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "change"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired at a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CookieStore"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CookieStore"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object when a change is made to any cookie."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.6909216410000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24391773,
+        "relative": 0.9350626095642938
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24391773,
+            "relative": 0.9350626095642938
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605830400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03969754,
+        "relative": 0.96235037493991
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605830400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03969754,
+            "relative": 0.96235037493991
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "73.0.0",
+        "date": 1613520000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01149928,
+        "relative": 0.7338826097223198
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "73.0.0",
+            "date": 1613520000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01149928,
+            "relative": 0.7338826097223198
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "62.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "14.0.0",
+        "date": 1618531200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.023600700000000002,
+        "relative": 0.8049828049175896
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1618531200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.023600700000000002,
+            "relative": 0.8049828049175896
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "87.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

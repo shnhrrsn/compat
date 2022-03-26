@@ -1,0 +1,749 @@
+{
+  "self": [
+    "api",
+    "Clipboard",
+    "read"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "672bace59f60c4931e5cdde8eb32919c924bd191",
+    "date": "2022-03-14T00:26:56.000Z"
+  },
+  "title": "Clipboard.read()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Clipboard/read",
+    "spec": "https://w3c.github.io/clipboard-apis/#dom-clipboard-read",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/clipboard/read/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "6dbfc70b2a703eb6f32b144db7af2065",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "read()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Clipboard"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Clipboard"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface requests a copy of the clipboard's contents,\ndelivering the data to the returned "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when the promise is\nresolved. Unlike "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Clipboard/readText"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "readText()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "read()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method can return arbitrary data, such as images. This method can\nalso return text."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3838165a9049eabfcd4dcc646a7d2fa7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Clipboard_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Clipboard API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://async-clipboard-api.glitch.me/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Async Clipboard API demo on\nGlitch"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/image-support-for-async-clipboard/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Image support for Async\nClipboard article"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.24551509599999996,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "From version 86, the <code>text/html</code> MIME type is supported."
+          ],
+          "added": {
+            "version": "86.0.0",
+            "date": 1601942400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24462509999999998,
+            "relative": 0.9377743240351011
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "From version 76, the <code>image/png</code> MIME type is supported."
+          ],
+          "added": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25124108999999994,
+            "relative": 0.9631368299679468
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Images are not supported."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25473633,
+            "relative": 0.9765358897060541
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "From version 86, the <code>text/html</code> MIME type is supported."
+          ],
+          "added": {
+            "version": "86.0.0",
+            "date": 1601942400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "From version 84, the <code>image/png</code> MIME type is supported."
+          ],
+          "added": {
+            "version": "84.0.0",
+            "date": 1594684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Images are not supported."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": 1523923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0344115,
+            "relative": 0.8255252508314266
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.read",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "removed": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "usage": {
+            "global": 0.00058254,
+            "relative": 0.01397502229252835
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.clipboardItem",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "This method returns a <code>DataTransfer</code> object instead of an array of <code>ClipboardItem</code> objects.",
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
+          "removed": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "usage": {
+            "global": 0.0020946299999999997,
+            "relative": 0.05024976987777432
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.dataTransfer",
+              "value_to_set": "true"
+            }
+          ],
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.read",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "removed": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.clipboardItem",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "This method returns a <code>DataTransfer</code> object instead of an array of <code>ClipboardItem</code> objects.",
+            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
+          ],
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
+          "removed": {
+            "version": "87.0.0",
+            "date": 1616457600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.events.asyncClipboard.dataTransfer",
+              "value_to_set": "true"
+            }
+          ],
+          "partial_implementation": true
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "63.0.0",
+        "date": 1566259200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01221934,
+        "relative": 0.779836748760299
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1566259200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01221934,
+            "relative": 0.779836748760299
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "54.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "13.1.0",
+        "date": 1585008000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031082669999999996,
+        "relative": 0.9294170203261113
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.1.0",
+            "date": 1585008000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031082669999999996,
+            "relative": 0.9294170203261113
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "13.4.0",
+        "date": 1585008000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.13710762199999998,
+        "relative": 0.9186756494847973
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.4.0",
+            "date": 1585008000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.13710762199999998,
+            "relative": 0.9186756494847973
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.024952283,
+        "relative": 0.851083177975123
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.024952283,
+            "relative": 0.851083177975123
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "From version 84, the <code>image/png</code> MIME type is supported."
+          ],
+          "added": {
+            "version": "84.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Images are not supported."
+          ],
+          "added": {
+            "version": "66.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

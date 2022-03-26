@@ -22,8 +22,8 @@ fetch('https://raw.githubusercontent.com/mdn/content/main/files/jsondata/SpecDat
 	})
 	.then(json =>
 		fs.writeFile(
-			new URL('../src/@data/specData.ts', import.meta.url),
-			`const specData: Readonly<Record<string, { name: string; status: string; url: string }>> = Object.freeze(${JSON.stringify(
+			new URL('../src/@data/specData.js', import.meta.url),
+			`/** @type {Readonly<Record<string, { name: string; status: string; url: string }>>} */\nconst specData = Object.freeze(${JSON.stringify(
 				json,
 				null,
 				'\t',

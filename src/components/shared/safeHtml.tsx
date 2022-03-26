@@ -1,14 +1,14 @@
+import type { Root } from 'hast'
 import Link from 'next/link'
 import { createElement, Fragment, useEffect, useState } from 'react'
 import rehypeReact from 'rehype-react'
 import { unified } from 'unified'
-import { Data, Node, NodeData, Parent } from 'unist'
 import ExternalLink from './externalLink'
 import Image from './image'
 
 export type SafeHtmlAst = {
 	id: string
-	tree: Parent<any, NodeData<Node<Data>>> & { type: 'root' }
+	tree: Root
 }
 
 export default function SafeHtml({ ast }: { ast: SafeHtmlAst }) {

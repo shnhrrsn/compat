@@ -1,7 +1,7 @@
 import formatDate from '@/utils/formatters/formatDate'
-import { PageSupport, PageSupportHistory, SupportVersion } from '@/utils/getPage'
 import isFullySupported from '@/utils/page/isFullySupported'
 import classNames from 'classnames'
+import { PageSupport, SupportHistory, SupportVersion } from '../../types/Page'
 import CircledImage from '../shared/circledImage'
 import styles from './history.module.css'
 import Usages from './usages'
@@ -40,7 +40,7 @@ function BreakdownHistoryEntry({
 }: {
 	agent: string
 	support: PageSupport
-	history: PageSupportHistory
+	history: SupportHistory
 }) {
 	return (
 		<>
@@ -127,11 +127,7 @@ function BreakdownHistoryEntry({
 	)
 }
 
-function SupportRemoved({
-	history,
-}: {
-	history: PageSupportHistory & { removed: SupportVersion }
-}) {
+function SupportRemoved({ history }: { history: SupportHistory & { removed: SupportVersion } }) {
 	return (
 		<div className={styles.entry}>
 			<Event icon={'unsupported'}>

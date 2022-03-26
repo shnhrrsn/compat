@@ -68,11 +68,11 @@ process.env.TZ = 'UTC'
 			}
 		}
 
-		const output = new URL('../src/@data/firefoxVersions.ts', import.meta.url)
+		const output = new URL('../src/@data/firefoxVersions.js', import.meta.url)
 		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
 			output,
-			`const firefoxVersions: Record<string, number> = ${JSON.stringify(
+			`/** @type {Record<string, number>} */\nconst firefoxVersions = ${JSON.stringify(
 				versions,
 				null,
 				2,

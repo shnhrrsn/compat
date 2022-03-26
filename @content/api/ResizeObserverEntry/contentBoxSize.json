@@ -1,0 +1,439 @@
+{
+  "self": [
+    "api",
+    "ResizeObserverEntry",
+    "contentBoxSize"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "6feee1bce022f8734d3ac7e7d1dbdf972b45780a",
+    "date": "2021-09-30T13:33:46.000Z"
+  },
+  "title": "ResizeObserverEntry.contentBoxSize",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/contentBoxSize",
+    "spec": "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-contentboxsize",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/resizeobserverentry/contentboxsize/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "0ac0c37a51b9a58138196218340d35ab",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "contentBoxSize"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property of\nthe "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ResizeObserverEntry"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ResizeObserverEntry"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns an array containing the new\ncontent box size of the observed element when the callback is run."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.729832863,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24599822999999998,
+        "relative": 0.9430382403607861
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24599822999999998,
+            "relative": 0.9430382403607861
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594684800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594857600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03986398,
+        "relative": 0.9663852243639549
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594857600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03986398,
+            "relative": 0.9663852243639549
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "92.0.0",
+        "date": 1630972800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.033204809999999994,
+        "relative": 0.7965769903683322
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "92.0.0",
+            "date": 1630972800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.033204809999999994,
+            "relative": 0.7965769903683322
+          }
+        },
+        {
+          "notes": [
+            "Implemented as a single object representing a content box size, rather than an array of content box size objects."
+          ],
+          "added": {
+            "version": "69.0.0",
+            "date": 1567468800
+          },
+          "removed": {
+            "version": "92.0.0",
+            "date": 1630972800
+          },
+          "usage": {
+            "global": 0.0032537999999999994,
+            "relative": 0.07805803470221571
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "92.0.0",
+        "date": 1630972800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "92.0.0",
+            "date": 1630972800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Implemented as a single object representing a content box size, rather than an array of content box size objects."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": {
+            "version": "92.0.0",
+            "date": 1630972800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "70.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.011628120000000002,
+        "relative": 0.7421051623896715
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "70.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.011628120000000002,
+            "relative": 0.7421051623896715
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "60.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00012482999999999998,
+        "relative": 0.0037325984752052664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00012482999999999998,
+            "relative": 0.0037325984752052664
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00040308200000000003,
+        "relative": 0.002700809865593257
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00040308200000000003,
+            "relative": 0.002700809865593257
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "14.0.0",
+        "date": 1618531200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.023600700000000002,
+        "relative": 0.8049828049175896
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1618531200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.023600700000000002,
+            "relative": 0.8049828049175896
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "84.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

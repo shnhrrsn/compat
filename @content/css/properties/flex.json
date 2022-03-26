@@ -1,0 +1,669 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "flex"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "56cef13241e8d9e9ba980840e28202152e099f36",
+    "date": "2022-02-02T09:01:58.000Z"
+  },
+  "title": "flex",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/flex",
+    "spec": "https://drafts.csswg.org/css-flexbox/#flex-property",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/flex/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "15b66bf3e66d33f15cb455b9cde42896",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "flex"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/Shorthand_properties"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shorthand property"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " sets how a flex "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "item"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " will grow or shrink to fit the space available in its flex container."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "fa772f5e38b487ecdaca24b1bcf7ea4f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Flexbox Guide: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Basic Concepts of Flexbox"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Flexbox Guide: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Controlling Ratios of flex items along the main axis"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.949498814,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "29.0.0",
+        "date": 1376956800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25921109000000003,
+        "relative": 0.9936899553935872
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1376956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25921109000000003,
+            "relative": 0.9936899553935872
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "21.0.0",
+            "date": 1343692800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25976805999999997,
+            "relative": 0.9958251090031627
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "29.0.0",
+        "date": 1377043200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "29.0.0",
+            "date": 1377043200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438128000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04125060999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "20.0.0",
+        "date": 1364860800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040370930000000006,
+        "relative": 0.9684908276171621
+      },
+      "history": [
+        {
+          "notes": [
+            "Since Firefox 28, multi-line flexbox is supported.",
+            "Before Firefox 32, Firefox wasn't able to animate values starting or stopping at <code>0</code>.",
+            "Until Firefox 61, flex items that are sized according to their content are sized using <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://drafts.csswg.org/css-sizing-3/#column-sizing'><code>fit-content</code>, not <code>max-content</code></a>."
+          ],
+          "added": {
+            "version": "20.0.0",
+            "date": 1364860800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040370930000000006,
+            "relative": 0.9684908276171621
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1474329600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03818745999999999,
+            "relative": 0.9161098032667879
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "20.0.0",
+        "date": 1364860800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Since Firefox 28, multi-line flexbox is supported.",
+            "Before Firefox 32, Firefox wasn't able to animate values starting or stopping at <code>0</code>.",
+            "Until Firefox 61, flex items that are sized according to their content are sized using <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://drafts.csswg.org/css-sizing-3/#column-sizing'>fit-content, not max-content</a>."
+          ],
+          "added": {
+            "version": "20.0.0",
+            "date": 1364860800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "49.0.0",
+            "date": 1474329600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "11.0.0",
+        "date": 1381968000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00619584,
+        "relative": 0.8010650250943073
+      },
+      "history": [
+        {
+          "notes": [
+            "Internet Explorer 11 ignores uses of <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/calc'><code>calc()</code></a> in the <code>flex-basis</code> part of the <code>flex</code> syntax. This can be worked around by using the longhand properties instead of the shorthand. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/philipwalton/flexbugs#8-flex-basis-doesnt-support-calc'>Flexbug #8</a> for more info.",
+            "Internet Explorer 11 considers a unitless value in the <code>flex-basis</code> part to be syntactically invalid (and will thus be ignored). A workaround is to always include a unit in the <code>flex-basis</code> part of the <code>flex</code> shorthand value. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored'>Flexbug #4</a> for more info."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00619584,
+            "relative": 0.8010650250943073
+          }
+        },
+        {
+          "notes": [
+            "Internet Explorer 10 and 11 ignore uses of <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/calc'><code>calc()</code></a> in the <code>flex-basis</code> part of the <code>flex</code> syntax. This can be worked around by using the longhand properties instead of the shorthand. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/philipwalton/flexbugs#8-flex-basis-doesnt-support-calc'>Flexbug #8</a> for more info.",
+            "Internet Explorer 10 and 11 consider a unitless value in the <code>flex-basis</code> part to be syntactically invalid (and will thus be ignored). A workaround is to always include a unit in the <code>flex-basis</code> part of the <code>flex</code> shorthand value. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://github.com/philipwalton/flexbugs#4-flex-shorthand-declarations-with-unitless-flex-basis-values-are-ignored'>Flexbug #4</a> for more info."
+          ],
+          "added": {
+            "version": "10.0.0",
+            "date": 1346716800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.006459493,
+            "relative": 0.8351529287621214
+          },
+          "prefix": "-ms-"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.1.0",
+        "date": 1352073600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.014938090000000001,
+        "relative": 0.9533470333331207
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014938090000000001,
+            "relative": 0.9533470333331207
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "12.1.0",
+        "date": 1349740800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03292502,
+        "relative": 0.984505963695449
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03292502,
+            "relative": 0.984505963695449
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1382400000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03305606,
+            "relative": 0.9884242501986206
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.147677327,
+        "relative": 0.989496880748933
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.147677327,
+            "relative": 0.989496880748933
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1394409600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1479460488,
+            "relative": 0.9912974237861811
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "2.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00260253,
+        "relative": 0.7428573059637695
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

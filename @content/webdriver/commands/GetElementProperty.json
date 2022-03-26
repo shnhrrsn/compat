@@ -1,0 +1,558 @@
+{
+  "self": [
+    "webdriver",
+    "commands",
+    "GetElementProperty"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "9157a5f692a322498329435c0c6f05bca0296e36",
+    "date": "2022-01-28T00:41:55.000Z"
+  },
+  "title": "Get Element Property",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetElementProperty",
+    "spec": "https://w3c.github.io/webdriver/#dfn-get-element-property",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/webdriver/commands/getelementproperty/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "27bd331f0847967e75703bf284a93a93",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Get Element Property"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/WebDriver/Commands"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "command"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/WebDriver"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebDriver"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API returns the property of the referenced "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/WebDriver/WebElement"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "web element"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". Given "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<input value=foo>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " where the user changes the value to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "bar"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the returned property is "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "bar"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " rather than the initial value "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "foo"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". This is equivalent to calling "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Element.getProperty"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " on the element."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "c48555f8128f30d8baa409f9870e6b3f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/WebDriver/Commands/GetElementAttribute"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Get Element Attribute"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " command"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "What is the difference between properties and attributes?"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on Stack Overflow"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.3396359362,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "65.0.0",
+        "date": 1520294400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25486116,
+        "relative": 0.9770144275538435
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": {
+            "version": "65.0.0",
+            "date": 1520294400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25486116,
+            "relative": 0.9770144275538435
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "55.0.0",
+        "date": 1502150400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037222679999999994,
+        "relative": 0.8929649170660369
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037222679999999994,
+            "relative": 0.8929649170660369
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": {
+        "version": "7.0.0",
+        "date": 1161129600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0075103062,
+        "relative": 0.9710133935945621
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": 1161129600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0075103062,
+            "relative": 0.9710133935945621
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The vendor-supported implementation for Safari is non spec-conforming and incompatible."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The vendor-supported implementation for Safari is non spec-conforming and incompatible."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The vendor-supported implementation for Samsung Internet is non-spec-conforming and incompatible."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "To enable Chromium support, include <code>{\"goog:chromeOptions\": {\"w3c\": true}}</code> in the <a target=\"_blank\" rel=\"noopener noreferrer\" href=https://developer.mozilla.org/docs/Web/WebDriver/Capabilities>capabilities</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

@@ -1,0 +1,731 @@
+{
+  "self": [
+    "api",
+    "Element",
+    "requestFullscreen"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "672bace59f60c4931e5cdde8eb32919c924bd191",
+    "date": "2022-03-14T00:26:56.000Z"
+  },
+  "title": "Element.requestFullscreen()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Element/requestFullscreen",
+    "spec": "https://fullscreen.spec.whatwg.org/#ref-for-dom-element-requestfullscreen①",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/requestfullscreen/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d75b417de108d966ff7276c28be4ae52",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Element.requestFullscreen()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nmethod issues an asynchronous request to make the element be displayed in fullscreen\nmode."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1c175ef464c8d66f8d6acab7613bbcf6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Fullscreen_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Fullscreen API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/exitFullscreen"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.exitFullscreen()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/fullscreen"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.fullscreen"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/fullscreenElement"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.fullscreenElement"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/selectors/fullscreen"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": ":fullscreen"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": []
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7431446620000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "71.0.0",
+        "date": 1543881600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25327998,
+        "relative": 0.9709529481485095
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "71.0.0",
+            "date": 1543881600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25327998,
+            "relative": 0.9709529481485095
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1319500800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26022046,
+            "relative": 0.9975593918064951
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "71.0.0",
+        "date": 1543881600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "71.0.0",
+            "date": 1543881600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04125060999999999,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "usage": {
+            "global": 0.00016857,
+            "relative": 0.00408648502410025
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "64.0.0",
+        "date": 1544486400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.036672569999999995,
+        "relative": 0.879767884221352
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1544486400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.036672569999999995,
+            "relative": 0.879767884221352
+          }
+        },
+        {
+          "notes": [
+            "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or <code>&lt;object&gt;</code> element to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code>&lt;iframe&gt;</code> element with the <code>allowfullscreen</code> attribute can be displayed fullscreen."
+          ],
+          "added": {
+            "version": "9.0.0",
+            "date": 1324339200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040902789999999994,
+            "relative": 0.9812500464802514
+          },
+          "alternative_name": "mozRequestFullScreen"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "64.0.0",
+        "date": 1544486400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "64.0.0",
+            "date": 1544486400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "Before Firefox 44, Firefox incorrectly allowed elements inside a <code>&lt;frame&gt;</code> or an <code>&lt;object&gt;</code> to request, and to be granted, fullscreen. In Firefox 44 and onwards this has been fixed: only elements in the top-level document or in an <code><code>&lt;iframe&gt;</code></code> with the <code>allowfullscreen</code> attribute can be displayed fullscreen."
+          ],
+          "added": {
+            "version": "9.0.0",
+            "date": 1324339200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "alternative_name": "mozRequestFullScreen"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00619584,
+            "relative": 0.8010650250943073
+          },
+          "alternative_name": "msRequestFullscreen"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "58.0.0",
+        "date": 1548201600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01235611,
+        "relative": 0.7885653930346989
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1548201600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01235611,
+            "relative": 0.7885653930346989
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.014890890000000004,
+            "relative": 0.9503347352432496
+          },
+          "prefix": "webkit"
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1352073600
+          },
+          "removed": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "usage": {
+            "global": 0.00011570000000000001,
+            "relative": 0.007383959512671436
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "50.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.1.0",
+            "date": 1349740800
+          },
+          "removed": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.1.0",
+            "date": 1311120000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03327305,
+            "relative": 0.9949125666540782
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Only available on iPad, not on iPhone. Shows an overlay button which can not be disabled."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.144348168,
+            "relative": 0.967190190121893
+          },
+          "prefix": "webkit",
+          "partial_implementation": true
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "10.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025785100999999998,
+        "relative": 0.8794892917609791
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025785100999999998,
+            "relative": 0.8794892917609791
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "71.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "71.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

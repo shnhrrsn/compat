@@ -1,0 +1,593 @@
+{
+  "self": [
+    "api",
+    "BroadcastChannel"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "e56ebea7f4ccc28b49e788ebe1f760005494a3bc",
+    "date": "2022-02-14T09:21:58.000Z"
+  },
+  "title": "BroadcastChannel",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/BroadcastChannel",
+    "spec": "https://html.spec.whatwg.org/multipage/web-messaging.html#broadcasting-to-other-browsing-contexts",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/broadcastchannel/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "15958bf2af27260f4e281393ffe73f6a",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "BroadcastChannel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface represents a named channel that any "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/browsing_context"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "browsing context"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of a given "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/origin"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "origin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " can subscribe to. It allows communication between different documents (in different windows, tabs, frames or iframes) of the same origin. Messages are broadcasted via a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/message_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "message"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event fired at all "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "BroadcastChannel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " objects listening to the channel."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "979b5d8609d0a171b4628c582d9afae2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Another, more heavyweight, way of communicating between browser contexts: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/ServiceWorker"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ServiceWorker"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Broadcast_Channel_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Broadcast Channel API overview"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.751413476,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "54.0.0",
+        "date": 1476230400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25635912,
+        "relative": 0.9827568817273181
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": 1476230400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25635912,
+            "relative": 0.9827568817273181
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "54.0.0",
+        "date": 1476835200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": 1476835200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.11.0",
+            "date": 1623184621
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "runtime_flag",
+              "name": "--unstable"
+            }
+          ]
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "38.0.0",
+        "date": 1431388800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03909666,
+        "relative": 0.9379213359827677
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03909666,
+            "relative": 0.9379213359827677
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "38.0.0",
+        "date": 1431388800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Experimental implementation",
+            "Must be imported using either <code>require('worker_threads')</code> or <code>import * from 'worker_threads'</code>."
+          ],
+          "added": {
+            "version": "15.4.0",
+            "date": 1607472000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "alternative_name": "worker_threads.BroadcastChannel"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "41.0.0",
+        "date": 1477267200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013347480000000002,
+        "relative": 0.8518345023007067
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": 1477267200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013347480000000002,
+            "relative": 0.8518345023007067
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "41.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "41.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00012482999999999998,
+        "relative": 0.0037325984752052664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00012482999999999998,
+            "relative": 0.0037325984752052664
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00040308200000000003,
+        "relative": 0.002700809865593257
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00040308200000000003,
+            "relative": 0.002700809865593257
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "54.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

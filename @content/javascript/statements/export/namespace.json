@@ -1,0 +1,592 @@
+{
+  "self": [
+    "javascript",
+    "statements",
+    "export",
+    "namespace"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "56cef13241e8d9e9ba980840e28202152e099f36",
+    "date": "2022-02-02T09:01:58.000Z"
+  },
+  "title": "export",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/export",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-exports",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/statements/export/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "b75437ca283dfd119006a01ee7846ba4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "export"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " statement is used\nwhen creating JavaScript modules to export live bindings to functions, objects, or\nprimitive values from the module so they can be used by other programs with the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "import"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " statement. The value of an imported binding\nis subject to change in the module that exports it. When a module updates the value of\na binding that it exports, the update will be visible in its imported value."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "4e1be9337004dd96ea3f27b564fcb012",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "import"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Modules"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "JavaScript modules"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " guide"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://hacks.mozilla.org/2015/08/es6-in-depth-modules/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ES6 in Depth:\nModules"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", Hacks blog post by Jason Orendorff"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ES\nmodules: A cartoon deep-dive"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", Hacks blog post by Lin Clark"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://exploringjs.com/es6/ch_modules.html"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Axel Rauschmayer's book:\n\"Exploring JS: Modules\""
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.8922497709999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "72.0.0",
+        "date": 1548720000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25311353999999997,
+        "relative": 0.9703148976847901
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1548720000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25311353999999997,
+            "relative": 0.9703148976847901
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "72.0.0",
+        "date": 1548720000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1548720000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "80.0.0",
+        "date": 1598313600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03528637999999999,
+        "relative": 0.8465134533639346
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "80.0.0",
+            "date": 1598313600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03528637999999999,
+            "relative": 0.8465134533639346
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "80.0.0",
+        "date": 1598313600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "80.0.0",
+            "date": 1598313600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "12.0.0",
+        "date": 1555977600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1555977600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "60.0.0",
+        "date": 1554768000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01231186,
+        "relative": 0.7857413635754448
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "60.0.0",
+            "date": 1554768000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01231186,
+            "relative": 0.7857413635754448
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "51.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.1.0",
+        "date": 1619395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02392575,
+        "relative": 0.715414707747676
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.1.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02392575,
+            "relative": 0.715414707747676
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "14.5.0",
+        "date": 1619395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.12688128199999998,
+        "relative": 0.8501551004131173
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.5.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.12688128199999998,
+            "relative": 0.8501551004131173
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "11.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025680058000000002,
+        "relative": 0.8759064400329815
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025680058000000002,
+            "relative": 0.8759064400329815
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

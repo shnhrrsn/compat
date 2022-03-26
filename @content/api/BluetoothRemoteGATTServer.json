@@ -1,0 +1,429 @@
+{
+  "self": [
+    "api",
+    "BluetoothRemoteGATTServer"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "BluetoothRemoteGATTServer",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/BluetoothRemoteGATTServer",
+    "spec": "https://webbluetoothcg.github.io/web-bluetooth/#bluetoothgattremoteserver-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/bluetoothremotegattserver/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c6eb657ecf955f14bc4c34d518eedca4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "BluetoothRemoteGATTServer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Web_Bluetooth_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Web Bluetooth API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents a GATT\nServer on a remote device."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.39923779400000003,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Chrome 70, this feature was only supported in macOS.  In Chrome 70, support was added for Windows 10. Linux support is not enabled by default."
+          ],
+          "added": {
+            "version": "56.0.0",
+            "date": 1485302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25615107,
+            "relative": 0.9819593186476689
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
+          ],
+          "added": {
+            "version": "56.0.0",
+            "date": 1485302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25615107,
+            "relative": 0.9819593186476689
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features",
+              "value_to_set": "enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "56.0.0",
+        "date": 1485907200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1485907200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Supported by default only on macOS and Windows 10. Linux support is not enabled by default."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features",
+              "value_to_set": "enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Opera 57, this feature was only supported in macOS.  In Opera 57, support was added for Windows 10. Linux support is not enabled by default."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1486425600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013261030000000002,
+            "relative": 0.8463172741255083
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1486425600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013261030000000002,
+            "relative": 0.8463172741255083
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#enable-experimental-web-platform-features",
+              "value_to_set": "enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1100993'>bug 1100993</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": false,
+    "deprecated": false
+  }
+}

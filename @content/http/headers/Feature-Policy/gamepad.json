@@ -1,0 +1,665 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "Feature-Policy",
+    "gamepad"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "46234997b6257b619423a11ce31154afa336143f",
+    "date": "2021-08-13T16:17:49.000Z"
+  },
+  "title": "Feature-Policy: gamepad",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/gamepad",
+    "spec": "https://w3c.github.io/gamepad/#permission-policy",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/feature-policy/gamepad/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "11df48966d193a95f828021748fd4619",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The HTTP "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Feature-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Feature-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "gamepad"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " directive controls whether the current document is allowed to use the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Gamepad_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Gamepad API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ".\nWhen this policy is disabled, calls to "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Navigator/getGamepads"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Navigator.getGamepads()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " will throw a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "SecurityError"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/DOMException"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DOMException"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ".\nIn addition, the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/gamepadconnected_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "gamepadconnected"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/gamepaddisconnected_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "gamepaddisconnected"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " events will not fire."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "bb9325dc20d5e9c044454b8f7cdd32fc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Feature-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Feature-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTTP/Feature_Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Feature Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTTP/Feature_Policy/Using_Feature_Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using Feature\nPolicy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1601942400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24462509999999998,
+            "relative": 0.9377743240351011
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#restrict-gamepad-access",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1601942400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#restrict-gamepad-access",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1602201600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03973915,
+            "relative": 0.9633590872959212
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#restrict-gamepad-access",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Only supported through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements.",
+            "The default allowlist is <code>*</code> instead of <code>self</code> (as required by the specification)."
+          ],
+          "added": {
+            "version": "91.0.0",
+            "date": 1628553600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.034203449999999996,
+            "relative": 0.820534171441238
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "The default allowlist is <code>*</code> instead of <code>self</code> (as required by the specification)."
+          ],
+          "added": {
+            "version": "91.0.0",
+            "date": 1628553600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.034203449999999996,
+            "relative": 0.820534171441238
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.security.featurePolicy.header.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Only supported through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements.",
+            "The default allowlist is <code>*</code> instead of <code>self</code> (as required by the specification)."
+          ],
+          "added": {
+            "version": "91.0.0",
+            "date": 1628553600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "The default allowlist is <code>*</code> instead of <code>self</code> (as required by the specification)."
+          ],
+          "added": {
+            "version": "91.0.0",
+            "date": 1628553600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.security.featurePolicy.header.enabled",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1603238400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01154226,
+            "relative": 0.7366255879405964
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "#restrict-gamepad-access",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

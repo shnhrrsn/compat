@@ -1,0 +1,488 @@
+{
+  "self": [
+    "api",
+    "Element",
+    "createShadowRoot"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "Element.createShadowRoot()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Element/createShadowRoot",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/createshadowroot/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "958c065892ffcb02e70b3f1abf5ab717",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Use "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Element.createShadowRoot"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to create an instance of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Web_Components/Using_shadow_DOM"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shadow DOM"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". When shadow DOM is\ncreated, it is always attached to an existing element. After the shadow DOM is created,\nthe element that it is attached to is called the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/shadow_root"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shadow root"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.7148112169999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "35.0.0",
+        "date": 1400544000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25878442999999995,
+        "relative": 0.9920543473014786
+      },
+      "history": [
+        {
+          "notes": [
+            "In Chrome 45, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "35.0.0",
+            "date": 1400544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25878442999999995,
+            "relative": 0.9920543473014786
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361404800
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1405468800
+          },
+          "usage": {
+            "global": 0.0008127299999999998,
+            "relative": 0.003115613754978731
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "35.0.0",
+        "date": 1400544000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "In Chrome 45, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "35.0.0",
+            "date": 1400544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1405468800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "22.0.0",
+        "date": 1401753600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01446034,
+        "relative": 0.922857088154393
+      },
+      "history": [
+        {
+          "notes": [
+            "In Opera 32, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "22.0.0",
+            "date": 1401753600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01446034,
+            "relative": 0.922857088154393
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "23.0.0",
+            "date": 1405987200
+          },
+          "usage": {
+            "global": 0.00063086,
+            "relative": 0.04026140620712102
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "22.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "In Opera 32, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "22.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "24.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "3.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029318266000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "In Samsung Internet 5.0, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029318266000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.5.0",
+            "date": null
+          },
+          "removed": {
+            "version": "3.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "37.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "In version 45, the ability to have multiple shadow roots was deprecated."
+          ],
+          "added": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": {
+            "version": "37.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.00260253,
+            "relative": 0.7428573059637695
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": false,
+    "deprecated": true
+  }
+}

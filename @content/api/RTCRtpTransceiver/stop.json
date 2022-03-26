@@ -1,0 +1,555 @@
+{
+  "self": [
+    "api",
+    "RTCRtpTransceiver",
+    "stop"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "f54efbc85c712e770c7b27a93672f7178e48fb06",
+    "date": "2021-10-25T08:50:08.000Z"
+  },
+  "title": "RTCRtpTransceiver.stop()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/stop",
+    "spec": "https://w3c.github.io/webrtc-pc/#dom-rtcrtptransceiver-stop",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/rtcrtptransceiver/stop/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2810e4b2c3ac33e3a1445907129cae33",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "stop()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method in the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCRtpTransceiver"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCRtpTransceiver"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface permanently stops the transceiver by\nstopping both the associated "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCRtpSender"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCRtpSender"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCRtpReceiver"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCRtpReceiver"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "512f3d7e66853e300afc69e301092250",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebRTC API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Introduction to the Real-time\nTransport Protocol (RTP)"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/MediaStreamTrack"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "MediaStreamTrack"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.905113018,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.24262781999999997,
+        "relative": 0.9301177184704684
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24262781999999997,
+            "relative": 0.9301177184704684
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611360000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03961432,
+        "relative": 0.9603329502278876
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611360000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03961432,
+            "relative": 0.9603329502278876
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "59.0.0",
+        "date": 1520899200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03696843,
+        "relative": 0.8868655085827134
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03696843,
+            "relative": 0.8868655085827134
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "59.0.0",
+        "date": 1520899200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "74.0.0",
+        "date": 1612224000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.010532360000000001,
+        "relative": 0.6721738963948153
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "74.0.0",
+            "date": 1612224000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.010532360000000001,
+            "relative": 0.6721738963948153
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "63.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03254059,
+        "relative": 0.9730109478192721
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03254059,
+            "relative": 0.9730109478192721
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.0.0",
+        "date": 1505779200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.145363337,
+        "relative": 0.9739922265572696
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.145363337,
+            "relative": 0.9739922265572696
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "15.0.0",
+        "date": 1629072000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02245705,
+        "relative": 0.7659746998679935
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1629072000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02245705,
+            "relative": 0.7659746998679935
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "88.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

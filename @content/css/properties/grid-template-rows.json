@@ -1,0 +1,621 @@
+{
+  "self": [
+    "css",
+    "properties",
+    "grid-template-rows"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "56da604e4fc9c926015751a990496f0284bf4e41",
+    "date": "2022-03-18T17:18:24.000Z"
+  },
+  "title": "grid-template-rows",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
+    "spec": [
+      "https://drafts.csswg.org/css-grid/#track-sizing",
+      "https://drafts.csswg.org/css-grid/#subgrids",
+      "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/grid-template-rows/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "53341f621def21ceedadae620e7963e4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "grid-template-rows"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " CSS property defines the line names and track sizing functions of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/grid_rows"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "grid rows"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "46b67f4d05c839319888da09fe9e2810",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related CSS properties: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/grid-template-columns"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "grid-template-columns"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/grid-template-areas"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "grid-template-areas"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/grid-template"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "grid-template"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Grid Layout Guide: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout#grid_tracks"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Basic concepts of grid layout - Grid Tracks"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Video tutorial: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "a",
+                        "properties": {
+                          "href": "http://gridbyexample.com/video/series-define-a-grid/"
+                        },
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Defining a Grid"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Subgrid"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9287875349999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "57.0.0",
+        "date": 1489017600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25561014,
+        "relative": 0.979885654640581
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "57.0.0",
+            "date": 1489017600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25561014,
+            "relative": 0.979885654640581
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "57.0.0",
+        "date": 1489622400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "57.0.0",
+            "date": 1489622400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "16.0.0",
+        "date": 1508198400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040957209999999994,
+        "relative": 0.992887377907866
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1508198400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040957209999999994,
+            "relative": 0.992887377907866
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "usage": {
+            "global": 0.00120882,
+            "relative": 0.029304293924380758
+          },
+          "alternative_name": "-ms-grid-rows"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.037976039999999996,
+        "relative": 0.9110378782262991
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.037976039999999996,
+            "relative": 0.9110378782262991
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "52.0.0",
+        "date": 1488844800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "52.0.0",
+            "date": 1488844800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1346716800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.006459493,
+            "relative": 0.8351529287621214
+          },
+          "alternative_name": "-ms-grid-rows"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "44.0.0",
+        "date": 1490054400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013219420000000003,
+        "relative": 0.8436617291356875
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "44.0.0",
+            "date": 1490054400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013219420000000003,
+            "relative": 0.8436617291356875
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "43.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.1.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03266542,
+        "relative": 0.9767435462944773
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.1.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03266542,
+            "relative": 0.9767435462944773
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.3.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146318791,
+        "relative": 0.9803941487203047
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146318791,
+            "relative": 0.9803941487203047
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "6.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.027031403000000002,
+        "relative": 0.9219986952843664
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "6.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027031403000000002,
+            "relative": 0.9219986952843664
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "57.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "57.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "self": [
+    "api",
+    "DOMRect"
+  ],
+  "type": "page",
+  "commit": {
+    "sha": "89c8199b06e7fb2b76da4087cb9eedef065b2506",
+    "date": "2022-02-18T09:24:31.000Z"
+  },
+  "title": "DOMRect",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/DOMRect",
+    "spec": "https://drafts.fxtf.org/geometry/#DOMRect",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/domrect/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "28d670aa4ebefd45815988783315bf99",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DOMRect"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " describes the size and position of a rectangle."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1b0e4d459d197fb1e2c8d09f9d533ab8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/DOMPoint"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "DOMPoint"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "usage": 0.9282806499999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "61.0.0",
+        "date": 1504569600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.25527725999999995,
+        "relative": 0.9786095537131421
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "61.0.0",
+            "date": 1504569600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.25527725999999995,
+            "relative": 0.9786095537131421
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": 1243123200
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": 1504569600
+          },
+          "usage": {
+            "global": 0.005621459999999998,
+            "relative": 0.02154995890278781
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome for Android",
+      "added": {
+        "version": "61.0.0",
+        "date": 1504569600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.372095,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "61.0.0",
+            "date": 1504569600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.372095,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": 1504569600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "usage": {
+            "global": 0.00120882,
+            "relative": 0.029304293924380758
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "27.0.0",
+        "date": 1391472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03981043,
+        "relative": 0.9550445406755578
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "27.0.0",
+            "date": 1391472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03981043,
+            "relative": 0.9550445406755578
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "3.0.0",
+            "date": 1213660800
+          },
+          "removed": {
+            "version": "27.0.0",
+            "date": 1391472000
+          },
+          "usage": {
+            "global": 0.0018346499999999995,
+            "relative": 0.04401289979913334
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "27.0.0",
+        "date": 1391472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0028027200000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "27.0.0",
+            "date": 1391472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0028027200000000003,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
+          "removed": {
+            "version": "27.0.0",
+            "date": 1391472000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "ie": {
+      "name": "IE",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0077345032,
+            "relative": 1
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "48.0.0",
+        "date": 1506470400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.012957260000000002,
+        "relative": 0.8269307107619456
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1506470400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.012957260000000002,
+            "relative": 0.8269307107619456
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "9.5.0",
+            "date": 1223424000
+          },
+          "removed": {
+            "version": "48.0.0",
+            "date": 1506470400
+          },
+          "usage": {
+            "global": 0.0026769100000000002,
+            "relative": 0.1708400610118003
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Mobile",
+      "added": {
+        "version": "45.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.000111391,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.000111391,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "10.1.0",
+            "date": null
+          },
+          "removed": {
+            "version": "45.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "10.1.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03266542,
+        "relative": 0.9767435462944773
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.1.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03266542,
+            "relative": 0.9767435462944773
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1244419200
+          },
+          "removed": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "usage": {
+            "global": 0.0008588599999999999,
+            "relative": 0.025681162592444084
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "10.3.0",
+        "date": 1490572800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.146318791,
+        "relative": 0.9803941487203047
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.146318791,
+            "relative": 0.9803941487203047
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "3.2.0",
+            "date": 1270252800
+          },
+          "removed": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "usage": {
+            "global": 0.0045234716,
+            "relative": 0.030309060498883388
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026200588000000004,
+        "relative": 0.8936609006821891
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026200588000000004,
+            "relative": 0.8936609006821891
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.0031176780000000005,
+            "relative": 0.10633909931781095
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "Android Browser",
+      "added": {
+        "version": "61.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "61.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.003503405,
+            "relative": 1
+          },
+          "alternative_name": "ClientRect"
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": false,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

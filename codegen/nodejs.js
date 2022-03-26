@@ -14,11 +14,11 @@ process.env.TZ = 'UTC'
 			]),
 		)
 
-		const output = new URL('../src/@data/nodejsVersions.ts', import.meta.url)
+		const output = new URL('../src/@data/nodejsVersions.js', import.meta.url)
 		await fs.mkdir(new URL('..', output), { recursive: true })
 		await fs.writeFile(
 			output,
-			`const nodejsVersions: Record<string, number> = ${JSON.stringify(
+			`/** @type {Record<string, number>} */\nconst nodejsVersions = ${JSON.stringify(
 				versions,
 				null,
 				2,

@@ -1,0 +1,226 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "tabs",
+    "query",
+    "queryInfo",
+    "highlighted"
+  ],
+  "type": "page",
+  "title": "queryInfo / highlighted",
+  "links": {},
+  "content": {},
+  "usage": 0.478890822,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.26085710999999995,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.26085710999999995,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040041789999999994,
+        "relative": 0.9706957060756193
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040041789999999994,
+            "relative": 0.9706957060756193
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "60.0.0",
+        "date": 1525824000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03692682,
+        "relative": 0.8858672927046756
+      },
+      "history": [
+        {
+          "notes": [
+            "Treated as an alias for <code>queryInfo.active</code>."
+          ],
+          "added": {
+            "version": "60.0.0",
+            "date": 1525824000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03692682,
+            "relative": 0.8858672927046756
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "61.0.0",
+        "date": 1529971200
+      },
+      "removed": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Treated as an alias for <code>queryInfo.active</code>."
+          ],
+          "added": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Treated as an alias for <code>queryInfo.active</code> except when an extension has a popup open. In this situation, <code>queryInfo.highlighted</code> will return the popup, while <code>queryInfo.active</code> will return the tab that was selected before the popup opened."
+          ],
+          "added": {
+            "version": "60.0.0",
+            "date": 1525824000
+          },
+          "removed": {
+            "version": "61.0.0",
+            "date": 1529971200
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.015669100000000002,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.015669100000000002,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026297519999999998,
+        "relative": 0.7863340787765761
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026297519999999998,
+            "relative": 0.7863340787765761
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.099098482,
+        "relative": 0.6639992801735524
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.099098482,
+            "relative": 0.6639992801735524
+          }
+        }
+      ]
+    }
+  }
+}
