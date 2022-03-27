@@ -25,10 +25,16 @@ jobs:
           install-command: yarn install
 
       - name: mdn/browser-compat-data
-        run: yarn add '@mdn/browser-compat-data@4.*'
+        run: >
+          pushd packages/content
+          yarn add '@mdn/browser-compat-data@4.*'
+          popd
 
-      - name: contentgen
-        run: node contentgen/update.js
+      - name: content update/run.js
+        run: >
+          pushd packages/content
+          node update/run.js
+          popd
 
       - name: codegen
         run: yarn codegen
@@ -36,7 +42,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore(data): update data'
-          file_pattern: ./src/@data/* ./public/@data/* @content package.json yarn.lock
           commit_user_name: compatbot
           commit_user_email: 102001024+compatbot@users.noreply.github.com
           commit_author: compatbot <102001024+compatbot@users.noreply.github.com>

@@ -6,37 +6,14 @@ import Breadcrumbs from '@/components/shared/breadcrumbs'
 import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout from '@/components/shared/layout'
-import SafeHtml, { SafeHtmlAst } from '@/components/shared/safeHtml'
-import { StatusBlock } from '@mdn/browser-compat-data/types'
-import { PageSupport } from '../types/Page'
+import SafeHtml from '@/components/shared/safeHtml'
+import { PageMetadata } from '@compat/content'
 import Error404 from './404'
-
-export type PageProps = {
-	self: string[]
-	type: 'page'
-	commit?: {
-		date: string
-		sha: string
-	}
-	title: string
-	links: {
-		mdn?: string
-		spec?: string
-		github?: string
-	}
-	content: {
-		intro?: SafeHtmlAst
-		seeAlso?: SafeHtmlAst
-	}
-	usage: number
-	support: Record<string, PageSupport>
-	status?: StatusBlock
-}
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
 const servers = ['nodejs', 'deno']
 
-export default function Page(props: PageProps) {
+export default function Page(props: PageMetadata) {
 	if (!props?.title) {
 		return <Error404 />
 	}

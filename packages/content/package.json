@@ -1,0 +1,25 @@
+{
+  "name": "@compat/content",
+  "type": "module",
+  "main": "./src/index.js",
+  "browser": "./src/browser.js",
+  "scripts": {
+    "build": "yarn t:tsc -p ./jsconfig.json"
+  },
+  "dependencies": {
+    "@mdn/browser-compat-data": "4.*"
+  },
+  "devDependencies": {
+    "@compat/agents": "workspace:^",
+    "chalk": "^5.0.1",
+    "gray-matter": "^4.0.3",
+    "mdast": "^3.0.0",
+    "rehype-parse": "^8.0.4",
+    "rehype-raw": "^6.1.1",
+    "rehype-stringify": "^9.0.3",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "unist-util-remove-position": "^4.0.1"
+  },
+  "packageManager": "yarn@3.2.0"
+}

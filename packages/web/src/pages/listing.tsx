@@ -1,19 +1,10 @@
 import Breadcrumbs from '@/components/shared/breadcrumbs'
 import Layout from '@/components/shared/layout'
+import { ListingMetadata } from '@compat/content'
 import Link from 'next/link'
 import Error404 from './404'
 
-export type ListingProps = {
-	self: string[]
-	type: 'index'
-	title: string
-	links: {
-		title: string
-		href: string
-	}[]
-}
-
-export default function Listing({ title, links, self: ref }: ListingProps) {
+export default function Listing({ title, links, self: ref }: ListingMetadata) {
 	if (!title) {
 		return <Error404 />
 	}

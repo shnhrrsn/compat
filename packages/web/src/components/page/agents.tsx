@@ -1,8 +1,7 @@
 import Image, { isValidImageSrc } from '@/components/shared/image'
 import formatDate from '@/utils/formatters/formatDate'
-import isAvailable from '@/utils/page/isAvailable'
+import { isAvailable, PageSupport, SupportVariant } from '@compat/content'
 import classNames from 'classnames'
-import { PageSupport, SupportVariant } from '../../types/Page'
 import styles from './agents.module.css'
 import Usages from './usages'
 

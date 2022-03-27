@@ -1,4 +1,4 @@
-import type { Root } from 'hast'
+import { HtmlTree } from '@compat/content'
 import Link from 'next/link'
 import { createElement, Fragment, useEffect, useState } from 'react'
 import rehypeReact from 'rehype-react'
@@ -6,12 +6,7 @@ import { unified } from 'unified'
 import ExternalLink from './externalLink'
 import Image from './image'
 
-export type SafeHtmlAst = {
-	id: string
-	tree: Root
-}
-
-export default function SafeHtml({ ast }: { ast: SafeHtmlAst }) {
+export default function SafeHtml({ ast }: { ast: HtmlTree }) {
 	const [content, setContent] = useState(Fragment as any)
 
 	useEffect(() => {

@@ -1,11 +1,9 @@
-import { promises as fs } from 'fs'
-import path from 'path'
-import manifest from '../../../../@content/$manifest.json'
-import Listing, { ListingProps } from './listing'
-import Page, { PageProps } from './page'
+import { getManifest, getRef, ListingMetadata, PageMetadata } from '@compat/content'
+import Listing from './listing'
+import Page from './page'
 
-export default function Path(props: PageProps | ListingProps) {
-	if (props.type === 'index') {
+export default function Path(props: PageMetadata | ListingMetadata) {
+	if (props.type === 'listing') {
 		return <Listing {...props} />
 	}
 
@@ -14,24 +12,13 @@ export default function Path(props: PageProps | ListingProps) {
 
 export async function getStaticPaths() {
 	return {
-		paths: manifest.map(({ href }) => href),
+		paths: (await getManifest()).map(({ href }) => href),
 		fallback: false,
 	}
 }
 
 export async function getStaticProps({ params }: any) {
 	return {
-		props: JSON.parse(
-			(
-				await fs.readFile(
-					path.join(
-						process.cwd(),
-						'../../@content',
-						...params.path.slice(0, params.path.length - 1),
-						`${params.path[params.path.length - 1]}.json`,
-					),
-				)
-			).toString(),
-		),
+		props: await getRef(params.path),
 	}
 }

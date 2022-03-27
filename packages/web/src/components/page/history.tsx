@@ -1,7 +1,6 @@
 import formatDate from '@/utils/formatters/formatDate'
-import isFullySupported from '@/utils/page/isFullySupported'
+import { isFullySupported, PageSupport, SupportHistory, SupportVersion } from '@compat/content'
 import classNames from 'classnames'
-import { PageSupport, SupportHistory, SupportVersion } from '../../types/Page'
 import CircledImage from '../shared/circledImage'
 import styles from './history.module.css'
 import Usages from './usages'

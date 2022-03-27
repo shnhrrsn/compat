@@ -1,5 +1,5 @@
+import { SupportVariant } from '@compat/content'
 import classNames from 'classnames'
-import { SupportVariant } from '../../types/Page'
 import styles from './usages.module.css'
 
 export default function Usages({

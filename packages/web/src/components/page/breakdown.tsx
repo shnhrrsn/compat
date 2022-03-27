@@ -1,6 +1,5 @@
-import $isAvailable from '@/utils/page/isAvailable'
+import { isAvailable as $isAvailable, PageSupport } from '@compat/content'
 import classNames from 'classnames'
-import { PageSupport } from '../../types/Page'
 import CircledImage, { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
 import { formatAvailability } from './agents'
