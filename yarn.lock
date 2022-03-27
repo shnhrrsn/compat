@@ -1590,34 +1590,17 @@ __metadata:
     "@compat/content": "workspace:^"
     "@fast-csv/parse": ^4.3.6
     "@svgr/webpack": ^6.2.1
-    "@types/keyv": ^3.1.3
     "@types/node": ^16.3.3
     "@types/react": ^17.0.14
-    "@types/semver": ^7.3.9
     classnames: ^2.3.1
     escape-string-regexp: ^4.0.0
-    execa: ^5.1.1
     fzf: ^0.5.1
-    globby: ^11.1.0
-    gray-matter: ^4.0.2
-    jsdom: ^19.0.0
-    keyv: ^4.1.1
-    keyv-file: ^0.2.0
     next: ^12.0.10
     normalize.css: ^8.0.1
-    ora: ^6.1.0
-    prettier-plugin-rational-order: ^1.0.3
     react: 17.0.2
     react-dom: 17.0.2
     regexp-match-indices: ^1.0.2
-    rehype-parse: ^8.0.4
-    rehype-raw: ^6.1.1
     rehype-react: ^7.0.4
-    rehype-stringify: ^9.0.3
-    remark-parse: ^10.0.1
-    remark-rehype: ^10.1.0
-    semver: ^7.3.5
-    unist-util-remove-position: ^4.0.1
   languageName: unknown
   linkType: soft
 
@@ -2886,6 +2869,7 @@ __metadata:
     prettier: ^2.5.1
     prettier-plugin-organize-imports: ^2.3.4
     prettier-plugin-packagejson: ^2.2.16
+    prettier-plugin-rational-order: ^1.0.3
     react: 17.0.2
     react-dom: 17.0.2
     ts-node: ^10.7.0
@@ -3518,7 +3502,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.0.3":
   version: 3.2.11
   resolution: "fast-glob@npm:3.2.11"
   dependencies:
@@ -3681,17 +3665,6 @@ __metadata:
     jsonfile: ^6.0.1
     universalify: ^2.0.0
   checksum: c1faaa5eb9e1c5c7c7ff09f966e93922ecb068ae1b04801cfc983ef05fcc1f66bfbb8d8d0b745c910014c7a2e7317fb6cf3bfe7390450c1157e3cc1a218f221d
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:^4.0.1":
-  version: 4.0.3
-  resolution: "fs-extra@npm:4.0.3"
-  dependencies:
-    graceful-fs: ^4.1.2
-    jsonfile: ^4.0.0
-    universalify: ^0.1.0
-  checksum: c5ae3c7043ad7187128e619c0371da01b58694c1ffa02c36fb3f5b459925d9c27c3cb1e095d9df0a34a85ca993d8b8ff6f6ecef868fd5ebb243548afa7fc0936
   languageName: node
   linkType: hard
 
@@ -3863,28 +3836,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.1.0":
-  version: 11.1.0
-  resolution: "globby@npm:11.1.0"
-  dependencies:
-    array-union: ^2.1.0
-    dir-glob: ^3.0.1
-    fast-glob: ^3.2.9
-    ignore: ^5.2.0
-    merge2: ^1.4.1
-    slash: ^3.0.0
-  checksum: b4be8885e0cfa018fc783792942d53926c35c50b3aefd3fdcfb9d22c627639dc26bd2327a40a0b74b074100ce95bb7187bfeae2f236856aa3de183af7a02aea6
-  languageName: node
-  linkType: hard
-
-"graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0":
+"graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0":
   version: 4.2.9
   resolution: "graceful-fs@npm:4.2.9"
   checksum: 68ea4e07ff2c041ada184f9278b830375f8e0b75154e3f080af6b70f66172fabb4108d19b3863a96b53fc068a310b9b6493d86d1291acc5f3861eb4b79d26ad6
   languageName: node
   linkType: hard
 
-"gray-matter@npm:^4.0.2, gray-matter@npm:^4.0.3":
+"gray-matter@npm:^4.0.3":
   version: 4.0.3
   resolution: "gray-matter@npm:4.0.3"
   dependencies:
@@ -4157,7 +4116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.1.1, ignore@npm:^5.2.0":
+"ignore@npm:^5.1.1":
   version: 5.2.0
   resolution: "ignore@npm:5.2.0"
   checksum: 6b1f926792d614f64c6c83da3a1f9c83f6196c2839aa41e1e32dd7b8d174cef2e329d75caabb62cb61ce9dc432f75e67d07d122a037312db7caa73166a1bdb77
@@ -4470,13 +4429,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-buffer@npm:3.0.1":
-  version: 3.0.1
-  resolution: "json-buffer@npm:3.0.1"
-  checksum: 9026b03edc2847eefa2e37646c579300a1f3a4586cfb62bf857832b60c852042d0d6ae55d1afb8926163fa54c2b01d83ae24705f34990348bdac6273a29d4581
-  languageName: node
-  linkType: hard
-
 "json-parse-even-better-errors@npm:^2.3.0":
   version: 2.3.1
   resolution: "json-parse-even-better-errors@npm:2.3.1"
@@ -4531,26 +4483,6 @@ __metadata:
   version: 1.3.1
   resolution: "jsonparse@npm:1.3.1"
   checksum: 6514a7be4674ebf407afca0eda3ba284b69b07f9958a8d3113ef1005f7ec610860c312be067e450c569aab8b89635e332cee3696789c750692bb60daba627f4d
-  languageName: node
-  linkType: hard
-
-"keyv-file@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "keyv-file@npm:0.2.0"
-  dependencies:
-    debug: ^4.1.1
-    fs-extra: ^4.0.1
-    tslib: ^1.9.3
-  checksum: f8e33e9a623217b892f63a620aee65cdc48fe12bb301385b061e1508fbf0472c2e1e1b5833739a1d2cee11f0a997eeb8540210dfd1d7899d2219127c17fa7c7c
-  languageName: node
-  linkType: hard
-
-"keyv@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "keyv@npm:4.1.1"
-  dependencies:
-    json-buffer: 3.0.1
-  checksum: b141fe29405413e7ca4ea0dfd19a48e25d909834f032aafdf4b0c6be177087cc1177b9c0ffdabd41ac8a65c13b92dcd2ec8688f540fbb458efdb9c8730bbd102
   languageName: node
   linkType: hard
 
@@ -4890,7 +4822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"merge2@npm:^1.2.3, merge2@npm:^1.3.0, merge2@npm:^1.4.1":
+"merge2@npm:^1.2.3, merge2@npm:^1.3.0":
   version: 1.4.1
   resolution: "merge2@npm:1.4.1"
   checksum: 7268db63ed5169466540b6fb947aec313200bcf6d40c5ab722c22e242f651994619bcd85601602972d3c85bd2cc45a358a4c61937e9f11a061919a1da569b0c2
@@ -6730,7 +6662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.9.0, tslib@npm:^1.9.3":
+"tslib@npm:^1.9.0":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
@@ -6781,17 +6713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.3":
-  version: 4.6.2
-  resolution: "typescript@npm:4.6.2"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 8a44ed7e6f6c4cb1ebe8cf236ecda2fb119d84dcf0fbd77e707b2dfea1bbcfc4e366493a143513ce7f57203c75da9d4e20af6fe46de89749366351046be7577c
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^4.5.5":
+"typescript@npm:^4.4.3, typescript@npm:^4.5.5":
   version: 4.6.3
   resolution: "typescript@npm:4.6.3"
   bin:
@@ -6801,17 +6723,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
-  version: 4.6.2
-  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=bda367"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.5.5#~builtin<compat/typescript>":
   version: 4.6.3
   resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
   bin:
@@ -6898,9 +6810,11 @@ __metadata:
   linkType: hard
 
 "unist-util-position@npm:^4.0.0":
-  version: 4.0.1
-  resolution: "unist-util-position@npm:4.0.1"
-  checksum: 0fad25db3906eda7a4f6b769e094f124ab99c528db2f3d140d85abd9133e0e89dde2e4b593c69830d58921b089323067bbc6c4832529352d879b32b7297a3aa3
+  version: 4.0.2
+  resolution: "unist-util-position@npm:4.0.2"
+  dependencies:
+    "@types/unist": ^2.0.0
+  checksum: 6da7320689c387c6c4740c8d27edc42c4582ee19736143604005ccad51b1239d65fed29b7bf966a778935985d5a6036e27dc35108d050a94a9757dbf76bf2d10
   languageName: node
   linkType: hard
 
