@@ -1,38 +1,25 @@
 /**
  * @typedef {Map<string,number>} Pageviews
+ * @typedef {import('@compat/content').ManifestEntry} ManifestEntry
+ * @typedef {import('@compat/content').ManifestPage} ManifestPage
  */
 
+import { filterPages, getManifest } from '@compat/content'
 import csv from '@fast-csv/parse'
 import { promises as fs } from 'fs'
 import fetch from 'node-fetch'
-import path from 'path'
-import getAllPages from '../src/utils/getAllPages.ts'
-import generateFallbackTitle from '../src/utils/page/generateFallbackTitle.ts'
-import loadCompat from '../src/utils/page/loadCompat.ts'
-import loadFrontMatter from '../src/utils/page/loadFrontMatter.ts'
 
 /**
  * @param {Pageviews} pageview
- * @param {string} href
+ * @param {ManifestPage} page
  * @returns {Promise<{href: string; title: string; pageviews: number}>}
  */
-async function loadPage(pageviews, href) {
-	const page = href.substring(1).split(/\//)
-	const compat = await loadCompat(href.substring(1).split(/\//))
-	const { title, tags, slug } = await loadFrontMatter({ compat })
-		.then(({ data: { title, slug } }) => ({ title, slug }))
-		.catch(error => {
-			if (error.code !== 'ENOENT') {
-				throw error
-			}
-
-			return { title: generateFallbackTitle(page, compat), slug: null }
-		})
-
+async function loadPage(pageviews, page) {
+	const url = page.mdn && new URL(page.mdn)
 	return {
-		href,
-		title,
-		pageviews: (slug ? pageviews.get(path.join('/docs', slug).toLowerCase()) : undefined) ?? 0,
+		href: page.href,
+		title: page.title,
+		pageviews: (url ? pageviews.get(url.pathname.toLowerCase()) : undefined) ?? 0,
 	}
 }
 
@@ -71,11 +58,8 @@ function computePageviews(data) {
 		.then(result => result.text())
 		.then(computePageviews)
 
-	/** @type {(href:string) => ReturnType<loadPage>} */
-	const $loadPage = loadPage.bind(null, pageviews)
-
-	const pages = await getAllPages({ listings: false })
-	const data = await Promise.all(pages.map($loadPage))
+	const pages = await getManifest().then(manifest => manifest.filter(filterPages))
+	const data = await Promise.all(pages.map(loadPage.bind(null, pageviews)))
 	data.sort((lhs, rhs) => rhs.pageviews - lhs.pageviews)
 
 	for (const item of data) {
@@ -84,7 +68,7 @@ function computePageviews(data) {
 	}
 
 	await fs.writeFile(
-		path.join(__dirname, '../public/@data/search-index.json'),
+		new URL('../public/@data/search-index.json', import.meta.url),
 		JSON.stringify({ data }),
 	)
 })()
