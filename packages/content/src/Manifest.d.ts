@@ -10,6 +10,7 @@ export type ManifestPage = {
 	type: 'page'
 	href: string
 	title: string
+	mdn?: string
 	commit?: CommitInfo
 }
 

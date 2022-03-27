@@ -64,7 +64,7 @@ async function walk(commits, object, tree, progress) {
 					type: page.type,
 					href: path.join('/', ...page.self),
 					title: page.title,
-					...(page.type === 'page' ? { commit: page.commit } : {}),
+					...(page.type === 'page' ? { commit: page.commit, mdn: page.links.mdn } : {}),
 				})
 			}
 
