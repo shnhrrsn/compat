@@ -2,7 +2,7 @@
  * @param {import('./Page').SupportHistory} support
  * @returns {support is Omit<import('./Page').SupportHistory, 'added'> & { added: import('./Page').SupportVersion }}
  */
-export default function isFullySupported(support) {
+export function isFullySupported(support) {
 	return (
 		!!support.added &&
 		!support.prefix &&

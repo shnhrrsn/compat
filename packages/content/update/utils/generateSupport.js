@@ -1,7 +1,7 @@
 import { findVersionDate, getAgent } from '@compat/agents'
 import assert from 'assert'
 import SemVer from 'semver'
-import isFullySupported from '../../src/isFullySupported.js'
+import { isFullySupported } from '../../src/isFullySupported.js'
 import formatExternalLinks from './formatExternaLinks.js'
 
 /**
