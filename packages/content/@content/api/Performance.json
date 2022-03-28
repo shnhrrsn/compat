@@ -1,18 +1,23 @@
 {
   "self": [
     "api",
-    "performance"
+    "Performance"
   ],
   "type": "page",
-  "title": "self.performance",
+  "title": "Performance",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/performance_property",
-    "spec": "https://w3c.github.io/hr-time/#the-performance-attribute",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performance_property/index.md"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Performance",
+    "spec": [
+      "https://w3c.github.io/hr-time/#sec-performance",
+      "https://w3c.github.io/performance-timeline/#extensions-to-the-performance-interface",
+      "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+      "https://w3c.github.io/user-timing/#extensions-performance-interface"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performance/index.md"
   },
   "content": {
     "intro": {
-      "id": "a5bbaf0b0a855d784aa9844dd1757314",
+      "id": "f94187ee72f6076deec1ab2984542775",
       "tree": {
         "type": "root",
         "children": [
@@ -23,37 +28,12 @@
             "children": [
               {
                 "type": "text",
-                "value": "The global "
+                "value": "The "
               },
               {
                 "type": "element",
                 "tagName": "strong",
                 "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "performance"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " property returns a "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/Performance"
-                },
                 "children": [
                   {
                     "type": "element",
@@ -70,7 +50,24 @@
               },
               {
                 "type": "text",
-                "value": " object, which can be used to gather performance information about the current document. It serves as the point of exposure for the Performance Timeline API, the High Resolution Time API, the "
+                "value": " interface provides access to performance-related information for the current page. It's part of the High Resolution Time API, but is enhanced by the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Performance_Timeline"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Performance Timeline API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the "
               },
               {
                 "type": "element",
@@ -133,8 +130,8 @@
     }
   },
   "commit": {
-    "sha": "853a70ce5db3a25da4d962208c547bb210138200",
-    "date": "2021-09-29T00:58:02.000Z"
+    "sha": "c6b8023b194f66023741c034faea1d9d3c2bdbb2",
+    "date": "2022-03-07T14:49:42.000Z"
   },
   "usage": 0.9499340460000001,
   "support": {
@@ -317,6 +314,32 @@
             "global": 0.007052712,
             "relative": 0.9118506796920065
           }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Exported from the <code>perf_hooks</code> module"
+          ],
+          "added": {
+            "version": "8.5.0",
+            "date": 1505174400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
