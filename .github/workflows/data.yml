@@ -25,13 +25,13 @@ jobs:
           install-command: yarn install
 
       - name: mdn/browser-compat-data
-        run: >
+        run: |
           pushd packages/content
           yarn add '@mdn/browser-compat-data@4.*'
           popd
 
       - name: content update/run.js
-        run: >
+        run: |
           pushd packages/content
           node update/run.js
           popd
