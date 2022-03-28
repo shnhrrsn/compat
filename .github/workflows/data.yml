@@ -33,6 +33,7 @@ jobs:
       - name: content update/run.js
         run: |
           pushd packages/content
+          rm -fr @content
           node update/run.js
           popd
 
