@@ -10,6 +10,7 @@
     "codegen": "yarn workspaces foreach -vpi --topological-dev run codegen",
     "commit": "git-cz",
     "dev": "cd packages/web && yarn dev",
+    "export": "cd packages/web && yarn next export",
     "prepare": "husky install",
     "start": "cd packages/web && yarn start",
     "t:prettier": "cd $INIT_CWD && prettier",
