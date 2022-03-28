@@ -1,5 +1,10 @@
 {
-  "self": ["webextensions", "api", "browserAction", "setIcon"],
+  "self": [
+    "webextensions",
+    "api",
+    "browserAction",
+    "setIcon"
+  ],
   "type": "page",
   "title": "browserAction.setIcon()",
   "links": {
@@ -119,7 +124,9 @@
           }
         },
         {
-          "notes": ["Tab-specific icons are not cleared when a new page is loaded."],
+          "notes": [
+            "Tab-specific icons are not cleared when a new page is loaded."
+          ],
           "added": {
             "version": "45.0.0",
             "date": 1457395200

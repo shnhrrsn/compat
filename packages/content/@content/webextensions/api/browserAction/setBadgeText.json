@@ -1,5 +1,10 @@
 {
-  "self": ["webextensions", "api", "browserAction", "setBadgeText"],
+  "self": [
+    "webextensions",
+    "api",
+    "browserAction",
+    "setBadgeText"
+  ],
   "type": "page",
   "title": "browserAction.setBadgeText()",
   "links": {
@@ -113,7 +118,9 @@
           }
         },
         {
-          "notes": ["Tab-specific badge text is not cleared when a new page is loaded."],
+          "notes": [
+            "Tab-specific badge text is not cleared when a new page is loaded."
+          ],
           "added": {
             "version": "45.0.0",
             "date": 1457395200

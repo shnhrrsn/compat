@@ -1,17 +1,17 @@
 import { findVersionDate, getAgent } from '@compat/agents'
 import assert from 'assert'
 import SemVer from 'semver'
-import { isFullySupported } from '../../src/isFullySupported.js'
-import formatExternalLinks from './formatExternaLinks.js'
+import { isFullySupported } from '../../../src/isFullySupported.js'
+import formatExternalLinks from '../../utils/formatExternaLinks.js'
 
 /**
  * @typedef {import('@mdn/browser-compat-data/types').CompatStatement} CompatStatement
  * @typedef {import('@mdn/browser-compat-data/types').SimpleSupportStatement} SimpleSupportStatement
  * @typedef {import('@mdn/browser-compat-data/types').VersionValue} VersionValue
  *
- * @typedef {import('../../src/Metadata').PageSupport} PageSupport
- * @typedef {import('../../src/Metadata').SupportHistory} SupportHistory
- * @typedef {import('../../src/Metadata').SupportVersion} SupportVersion
+ * @typedef {import('../../../src/Metadata').PageSupport} PageSupport
+ * @typedef {import('../../../src/Metadata').SupportHistory} SupportHistory
+ * @typedef {import('../../../src/Metadata').SupportVersion} SupportVersion
  *
  * @typedef {import('@compat/agents').Agent} Agent
  */

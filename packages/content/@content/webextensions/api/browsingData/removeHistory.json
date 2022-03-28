@@ -1,5 +1,10 @@
 {
-  "self": ["webextensions", "api", "browsingData", "removeHistory"],
+  "self": [
+    "webextensions",
+    "api",
+    "browsingData",
+    "removeHistory"
+  ],
   "type": "page",
   "title": "browsingData.removeHistory()",
   "links": {
@@ -101,7 +106,9 @@
       },
       "history": [
         {
-          "notes": ["This function also removes download history and service workers."],
+          "notes": [
+            "This function also removes download history and service workers."
+          ],
           "added": {
             "version": "53.0.0",
             "date": 1492560000

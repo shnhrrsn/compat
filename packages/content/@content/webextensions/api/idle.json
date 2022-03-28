@@ -1,5 +1,9 @@
 {
-  "self": ["webextensions", "api", "idle"],
+  "self": [
+    "webextensions",
+    "api",
+    "idle"
+  ],
   "type": "listing",
   "title": "idle",
   "links": {
@@ -36,19 +40,19 @@
   },
   "children": [
     {
-      "title": "IdleState",
+      "title": "idle.IdleState",
       "href": "/webextensions/api/idle/IdleState"
     },
     {
-      "title": "onStateChanged",
+      "title": "idle.onStateChanged",
       "href": "/webextensions/api/idle/onStateChanged"
     },
     {
-      "title": "queryState",
+      "title": "idle.queryState()",
       "href": "/webextensions/api/idle/queryState"
     },
     {
-      "title": "setDetectionInterval",
+      "title": "idle.setDetectionInterval()",
       "href": "/webextensions/api/idle/setDetectionInterval"
     }
   ]
