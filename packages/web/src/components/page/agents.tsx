@@ -54,7 +54,7 @@ export function formatAvailability(
 ) {
 	if (!isAvailable(support)) {
 		return <span className={classNames?.unsupported}>Unsupported</span>
-	} else if (!support.added.date) {
+	} else if (!support.added?.date) {
 		return <span className={classNames?.unknown}>Unknown</span>
 	}
 

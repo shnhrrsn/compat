@@ -1,12 +1,55 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "history"
-  ],
+  "self": ["webextensions", "api", "history"],
   "type": "listing",
   "title": "history",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/history",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/history/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "bfa8889dcb665e23a669ec41426b15cd",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Use the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "history"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API to interact with the browser history."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "09bc26fb8264fff6396e75b45481187866cb9493",
+    "date": "2022-01-20T18:54:53.000Z"
+  },
+  "children": [
     {
       "title": "HistoryItem",
       "href": "/webextensions/api/history/HistoryItem"

@@ -1,13 +1,55 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "devtools",
-    "network"
-  ],
+  "self": ["webextensions", "api", "devtools", "network"],
   "type": "listing",
-  "title": "network",
-  "links": [
+  "title": "devtools.network",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/devtools/network/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2b57c0c021a105ee9291b81bc4e1f467",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "devtools.network"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API lets a devtools extension get information about network requests associated with the window that the devtools are attached to (the inspected window)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "getHAR",
       "href": "/webextensions/api/devtools/network/getHAR"

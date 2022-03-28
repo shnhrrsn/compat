@@ -1,13 +1,62 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "tabs",
-    "Tab"
-  ],
+  "self": ["webextensions", "api", "tabs", "Tab"],
   "type": "listing",
-  "title": "Tab",
-  "links": [
+  "title": "tabs.Tab",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/Tab",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/tabs/tab/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fcb79f19e2683adaeab93da702761aa9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The type "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "tabs.Tab"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " contains information about a tab. This provides access to information about what content is in the tab, how large the content is, what special states or restrictions are in effect, and so forth."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "active",
       "href": "/webextensions/api/tabs/Tab/active"

@@ -1,15 +1,6 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "browsingData",
-    "removeHistory"
-  ],
+  "self": ["webextensions", "api", "browsingData", "removeHistory"],
   "type": "page",
-  "commit": {
-    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
-    "date": "2022-03-24T22:25:40.000Z"
-  },
   "title": "browsingData.removeHistory()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/removeHistory",
@@ -38,6 +29,10 @@
         }
       }
     }
+  },
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
   },
   "usage": 0.35391988999999996,
   "support": {
@@ -106,9 +101,7 @@
       },
       "history": [
         {
-          "notes": [
-            "This function also removes download history and service workers."
-          ],
+          "notes": ["This function also removes download history and service workers."],
           "added": {
             "version": "53.0.0",
             "date": 1492560000

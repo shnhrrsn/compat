@@ -1,12 +1,57 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "identity"
-  ],
+  "self": ["webextensions", "api", "identity"],
   "type": "listing",
   "title": "identity",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/identity/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "cec3ba72132477ae5af9fc180c781de5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Use the identity API to get an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://oauth.net/2/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "OAuth2"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " authorization code or access token, which an extension can then use to access user data from a service that supports OAuth2 access (such as Google or Facebook)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "getRedirectURL",
       "href": "/webextensions/api/identity/getRedirectURL"

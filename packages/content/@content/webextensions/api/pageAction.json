@@ -1,12 +1,57 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "pageAction"
-  ],
+  "self": ["webextensions", "api", "pageAction"],
   "type": "listing",
   "title": "pageAction",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/pageaction/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7d1e39a82f739dc9bb0b114221d552b2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "page action"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is a clickable icon inside the browser's address bar."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "ImageDataType",
       "href": "/webextensions/api/pageAction/ImageDataType"

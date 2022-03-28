@@ -1,5 +1,30 @@
 import { SimpleSupportStatement } from '@mdn/browser-compat-data/types'
 
+export type Metadata = {
+	self: string[]
+	title: string
+	commit?: CommitInfo
+	links?: {
+		mdn?: string
+		spec?: string
+		github?: string
+	}
+	content?: {
+		intro?: HtmlTree
+		seeAlso?: HtmlTree
+	}
+}
+
+export type ListingMetadata = Metadata & {
+	self: string[]
+	type: 'listing'
+	title: string
+	children: {
+		title: string
+		href: string
+	}[]
+}
+
 export type HtmlTree = {
 	id: string
 	tree: import('hast').Root
@@ -10,20 +35,8 @@ export type CommitInfo = {
 	date: string
 }
 
-export type PageMetadata = {
-	self: string[]
+export type PageMetadata = Metadata & {
 	type: 'page'
-	commit?: CommitInfo
-	title: string
-	links: {
-		mdn?: string
-		spec?: string
-		github?: string
-	}
-	content: {
-		intro?: HtmlTree
-		seeAlso?: HtmlTree
-	}
 	usage: number
 	support: Record<string, PageSupport>
 	status?: StatusBlock

@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "theme"
-  ],
+  "self": ["webextensions", "api", "theme"],
   "type": "listing",
   "title": "theme",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/theme",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/theme/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "79bcf7e5ad2e3b95b380c803abc257ed",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enables browser extensions to update the browser theme."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0160aac0e623dacdce4019205f32f7b3d3e58019",
+    "date": "2022-02-18T09:33:58.000Z"
+  },
+  "children": [
     {
       "title": "Theme",
       "href": "/webextensions/api/theme/Theme"

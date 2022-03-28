@@ -1,11 +1,255 @@
 {
-  "self": [
-    "javascript",
-    "grammar"
-  ],
+  "self": ["javascript", "grammar"],
   "type": "listing",
-  "title": "grammar",
-  "links": [
+  "title": "Lexical grammar",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/lexical_grammar/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "cea7162a4f2cd19a9abfda5eafc984f7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "This page describes JavaScript's lexical grammar. The source text of ECMAScript scripts gets scanned from left to right and is converted into a sequence of input elements which are tokens, control characters, line terminators, comments or "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/Whitespace"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "white space"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". ECMAScript also defines certain keywords and literals and has rules for automatic insertion of semicolons to end statements."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "0803e6b18b636986182119fb04e120e6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://tc39.es/ecma262/#sec-ecmascript-language-lexical-grammar"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Lexical grammar in the ECMAScript specification"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://whereswalden.com/2013/08/12/micro-feature-from-es6-now-in-firefox-aurora-and-nightly-binary-and-octal-numbers/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Jeff Walden: Binary and octal numbers"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://mathiasbynens.be/notes/javascript-escapes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Mathias Bynens: JavaScript character escape sequences"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Data_structures#boolean_type"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Boolean"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Data_structures#number_type"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Number"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Data_structures#string_type"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "string"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/RegExp"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "RegExp"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "303a6c3b8ec6658d2956c191c50aee0a0e9e4da5",
+    "date": "2022-02-18T09:30:25.000Z"
+  },
+  "children": [
     {
       "title": "array_literals",
       "href": "/javascript/grammar/array_literals"

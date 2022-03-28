@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "storage"
-  ],
+  "self": ["webextensions", "api", "storage"],
   "type": "listing",
   "title": "storage",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/storage/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "8b70f73011ec01c77a98c6a6be0abb93",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enables extensions to store and retrieve data, and listen for changes to stored items."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "StorageArea",
       "href": "/webextensions/api/storage/StorageArea"

@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "captivePortal"
-  ],
+  "self": ["webextensions", "api", "captivePortal"],
   "type": "listing",
   "title": "captivePortal",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/captiveportal/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5287d6af115aca26f0b183e9dda6a69b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Determine the captive portal state of the user's connection. A captive portal is a web page displayed when a user first connects to a Wi-Fi network. The user provides information or acts on the captive portal web page to gain broader access to network resources, such as accepting terms and conditions or making a payment."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0160aac0e623dacdce4019205f32f7b3d3e58019",
+    "date": "2022-02-18T09:33:58.000Z"
+  },
+  "children": [
     {
       "title": "canonicalURL",
       "href": "/webextensions/api/captivePortal/canonicalURL"

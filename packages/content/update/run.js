@@ -11,6 +11,7 @@ import commitInfo from './steps/commitInfo.js'
 import generate from './steps/generate.js'
 import lsFiles from './steps/ls-files.js'
 import manifest from './steps/manifest.js'
+import sitemap from './steps/sitemap.js'
 import makeProgress from './utils/makeProgress.js'
 import rimraf from './utils/rimraf.js'
 
@@ -21,10 +22,13 @@ await step(`Cloning ${repo}`, clone)
 const files = await step('Getting files', lsFiles)
 
 // Get commit info
-const map = await stepProgress('Get commit info', commitInfo.bind(null, files))
+const sitemapMap = await stepProgress('Sitemap', sitemap.bind(null, files))
+
+// Get commit info
+const commitInfoMap = await stepProgress('Get commit info', commitInfo.bind(null, files))
 
 // Generate content
-const pages = await stepProgress('Generating', generate.bind(null, map))
+const pages = await stepProgress('Generating', generate.bind(null, commitInfoMap, sitemapMap))
 
 // Write manifest
 await step('Writing manifest', manifest.bind(null, pages))

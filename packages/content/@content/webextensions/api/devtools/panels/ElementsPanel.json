@@ -1,14 +1,55 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "devtools",
-    "panels",
-    "ElementsPanel"
-  ],
+  "self": ["webextensions", "api", "devtools", "panels", "ElementsPanel"],
   "type": "listing",
-  "title": "ElementsPanel",
-  "links": [
+  "title": "devtools.panels.ElementsPanel",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ElementsPanel",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/devtools/panels/elementspanel/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "1ece5acb13b7678447490e44a1f696e9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "An "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ElementsPanel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents the HTML/CSS inspector in the browser's devtools. This is called the Page Inspector in Firefox and the Elements panel in Chrome."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "createSidebarPane",
       "href": "/webextensions/api/devtools/panels/ElementsPanel/createSidebarPane"

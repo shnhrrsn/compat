@@ -1,13 +1,90 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "privacy",
-    "services"
-  ],
+  "self": ["webextensions", "api", "privacy", "services"],
   "type": "listing",
-  "title": "services",
-  "links": [
+  "title": "privacy.services",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/privacy/services",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/privacy/services/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c48b84e346d91f9d30f166e5c9dd89b1",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/privacy/services"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "privacy.services"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property contains privacy-related settings controlling services offered by the browser or by third parties. Each property is a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/types/BrowserSetting"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "types.BrowserSetting"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
+  "children": [
     {
       "title": "autofillAddressEnabled",
       "href": "/webextensions/api/privacy/services/autofillAddressEnabled"

@@ -1,12 +1,88 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "alarms"
-  ],
+  "self": ["webextensions", "api", "alarms"],
   "type": "listing",
   "title": "alarms",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/alarms/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "baf8849f5640ca196a56c5721da6e893",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Schedule code to run at a specific time in the future. This is like "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/setTimeout"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "setTimeout()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/setInterval"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "setInterval()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", except that those functions don't work with background pages that are loaded on demand."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "Alarm",
       "href": "/webextensions/api/alarms/Alarm"

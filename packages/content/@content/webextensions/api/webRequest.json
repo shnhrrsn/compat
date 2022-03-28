@@ -1,12 +1,70 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "webRequest"
-  ],
+  "self": ["webextensions", "api", "webRequest"],
   "type": "listing",
   "title": "webRequest",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/webrequest/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "8644923f2c6f9acf4843e9e1f389dced",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Add event listeners for the various stages of making an HTTP request, which includes websocket requests on "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ws://"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "wss://"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The event listener receives detailed information about the request and can modify or cancel the request."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "529663b77721cded2c6ea2634d89d0fc38481bcb",
+    "date": "2022-03-18T22:24:30.000Z"
+  },
+  "children": [
     {
       "title": "BlockingResponse",
       "href": "/webextensions/api/webRequest/BlockingResponse"

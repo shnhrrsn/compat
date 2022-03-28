@@ -1,13 +1,62 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "browsingData",
-    "RemovalOptions"
-  ],
+  "self": ["webextensions", "api", "browsingData", "RemovalOptions"],
   "type": "listing",
-  "title": "RemovalOptions",
-  "links": [
+  "title": "browsingData.RemovalOptions",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/RemovalOptions",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/browsingdata/removaloptions/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "59cb49f8df10ba42b964587495d18084",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "browsingData.RemovalOptions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " type contains options to control certain aspects of browsing data removal."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "cookieStoreId",
       "href": "/webextensions/api/browsingData/RemovalOptions/cookieStoreId"

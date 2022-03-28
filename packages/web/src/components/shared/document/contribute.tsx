@@ -1,31 +1,32 @@
 import useHydrated from '@/utils/hooks/useHydrated'
-import { PageMetadata } from '@compat/content'
-import ExternalLink from '../shared/externalLink'
+import { Metadata } from '@compat/content'
+import ExternalLink from '../externalLink'
 
-export default function Contribute(props: PageMetadata) {
+export type MetadataWithLinks = Metadata & { links: Exclude<Metadata['links'], undefined> }
+
+export default function Contribute(props: MetadataWithLinks) {
 	const isHydrated = useHydrated()
+	const links = props.links
 
 	return (
 		<ul>
-			{isHydrated && (
+			{isHydrated && links && (
 				<li>
-					<ExternalLink href={getCompatDataNewIssueURL(props)}>
+					<ExternalLink href={getCompatDataNewIssueURL({ ...props, links })}>
 						Report problems with compatibility data on GitHub
 					</ExternalLink>
 				</li>
 			)}
-			{props.links.mdn && (
+			{links?.mdn && (
 				<>
 					<li>
-						<ExternalLink href={getDocsNewIssueURL(props)}>
+						<ExternalLink href={getDocsNewIssueURL({ ...props, links })}>
 							Report problems with docs on GitHub
 						</ExternalLink>
 					</li>
-					{props.links.github && (
+					{links.github && (
 						<li>
-							<ExternalLink href={props.links.github}>
-								Edit docs on GitHub
-							</ExternalLink>
+							<ExternalLink href={links.github}>Edit docs on GitHub</ExternalLink>
 						</li>
 					)}
 				</>
@@ -35,7 +36,7 @@ export default function Contribute(props: PageMetadata) {
 }
 
 // Source: https://github.com/mdn/yari/blob/dbaddf2c7578cde358dd974b35587d22b63d94dd/client/src/document/ingredients/browser-compatibility-table/index.tsx
-function getCompatDataNewIssueURL(props: PageMetadata) {
+function getCompatDataNewIssueURL(props: MetadataWithLinks) {
 	const url = 'https://github.com/mdn/browser-compat-data/issues/new'
 	const sp = new URLSearchParams()
 	const body = `
@@ -64,7 +65,7 @@ function getCompatDataNewIssueURL(props: PageMetadata) {
 }
 
 // Source: https://github.com/mdn/yari/blob/dae87b2b0e92c55ab9f7be8fabac3c4770bf43b6/client/src/document/on-github.tsx
-function getDocsNewIssueURL(props: PageMetadata) {
+function getDocsNewIssueURL(props: MetadataWithLinks) {
 	const labelPrefixes: Record<string, string> = {
 		javascript: 'JS',
 		css: 'CSS',

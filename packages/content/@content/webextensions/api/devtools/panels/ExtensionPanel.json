@@ -1,14 +1,103 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "devtools",
-    "panels",
-    "ExtensionPanel"
-  ],
+  "self": ["webextensions", "api", "devtools", "panels", "ExtensionPanel"],
   "type": "listing",
-  "title": "ExtensionPanel",
-  "links": [
+  "title": "devtools.panels.ExtensionPanel",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/ExtensionPanel",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/devtools/panels/extensionpanel/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "36567a61ce0ce9b02b509ee66fc25e64",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "An "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ExtensionPanel"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents a panel added to the devtools. It's the resolution of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " returned by "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/panels/create"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "browser.devtools.panels.create()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "onHidden",
       "href": "/webextensions/api/devtools/panels/ExtensionPanel/onHidden"

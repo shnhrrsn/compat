@@ -9,7 +9,7 @@ export function getRef(ref) {
 		.readFile(new URL(`../@content/${ref.join('/')}.json`, import.meta.url))
 		.then(
 			result =>
-				/** @type {import('./Page').PageMetadata | import('./Listing').ListingMetadata} */ (
+				/** @type {import('./Metadata').PageMetadata | import('./Metadata').ListingMetadata} */ (
 					JSON.parse(result.toString())
 				),
 		)

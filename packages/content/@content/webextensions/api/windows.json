@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "windows"
-  ],
+  "self": ["webextensions", "api", "windows"],
   "type": "listing",
   "title": "windows",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/windows/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d8185446dfe6e4c34fb5a5c044d7f1b0",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Interact with browser windows. You can use this API to get information about open windows and to open, modify, and close windows. You can also listen for window open, close, and activate events."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "CreateType",
       "href": "/webextensions/api/windows/CreateType"

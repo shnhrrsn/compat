@@ -1,15 +1,6 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "browserAction",
-    "setBadgeText"
-  ],
+  "self": ["webextensions", "api", "browserAction", "setBadgeText"],
   "type": "page",
-  "commit": {
-    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
-    "date": "2022-03-24T22:25:40.000Z"
-  },
   "title": "browserAction.setBadgeText()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeText",
@@ -38,6 +29,10 @@
         }
       }
     }
+  },
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
   },
   "usage": 0.4842104619999999,
   "support": {
@@ -118,9 +113,7 @@
           }
         },
         {
-          "notes": [
-            "Tab-specific badge text is not cleared when a new page is loaded."
-          ],
+          "notes": ["Tab-specific badge text is not cleared when a new page is loaded."],
           "added": {
             "version": "45.0.0",
             "date": 1457395200

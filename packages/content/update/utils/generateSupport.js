@@ -9,9 +9,9 @@ import formatExternalLinks from './formatExternaLinks.js'
  * @typedef {import('@mdn/browser-compat-data/types').SimpleSupportStatement} SimpleSupportStatement
  * @typedef {import('@mdn/browser-compat-data/types').VersionValue} VersionValue
  *
- * @typedef {import('../../src/Page.d.js').PageSupport} PageSupport
- * @typedef {import('../../src/Page.d.js').SupportHistory} SupportHistory
- * @typedef {import('../../src/Page.d.js').SupportVersion} SupportVersion
+ * @typedef {import('../../src/Metadata').PageSupport} PageSupport
+ * @typedef {import('../../src/Metadata').SupportHistory} SupportHistory
+ * @typedef {import('../../src/Metadata').SupportVersion} SupportVersion
  *
  * @typedef {import('@compat/agents').Agent} Agent
  */

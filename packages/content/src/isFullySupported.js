@@ -1,6 +1,6 @@
 /**
- * @param {import('./Page').SupportHistory} support
- * @returns {support is Omit<import('./Page').SupportHistory, 'added'> & { added: import('./Page').SupportVersion }}
+ * @param {import('./Metadata').SupportHistory} support
+ * @returns {support is Omit<import('./Metadata').SupportHistory, 'added'> & { added: import('./Metadata').SupportVersion }}
  */
 export function isFullySupported(support) {
 	return (

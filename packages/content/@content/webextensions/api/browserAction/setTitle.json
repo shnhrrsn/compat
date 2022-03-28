@@ -1,15 +1,6 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "browserAction",
-    "setTitle"
-  ],
+  "self": ["webextensions", "api", "browserAction", "setTitle"],
   "type": "page",
-  "commit": {
-    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
-    "date": "2022-03-24T22:25:40.000Z"
-  },
   "title": "browserAction.setTitle()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setTitle",
@@ -117,6 +108,10 @@
       }
     }
   },
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
+  },
   "usage": 0.38506929999999995,
   "support": {
     "chrome": {
@@ -196,9 +191,7 @@
           }
         },
         {
-          "notes": [
-            "Tab-specific titles are not cleared when a new page is loaded."
-          ],
+          "notes": ["Tab-specific titles are not cleared when a new page is loaded."],
           "added": {
             "version": "45.0.0",
             "date": 1457395200
@@ -239,9 +232,7 @@
           }
         },
         {
-          "notes": [
-            "Tab-specific titles are not cleared when a new page is loaded."
-          ],
+          "notes": ["Tab-specific titles are not cleared when a new page is loaded."],
           "added": {
             "version": "55.0.0",
             "date": 1502150400
@@ -319,9 +310,7 @@
       },
       "history": [
         {
-          "notes": [
-            "The API exists, but the title not visible in the UI."
-          ],
+          "notes": ["The API exists, but the title not visible in the UI."],
           "added": {
             "version": "15.0.0",
             "date": 1632096000

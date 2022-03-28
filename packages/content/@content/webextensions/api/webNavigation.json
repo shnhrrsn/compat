@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "webNavigation"
-  ],
+  "self": ["webextensions", "api", "webNavigation"],
   "type": "listing",
   "title": "webNavigation",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/webnavigation/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d292812eba273c04f5075f704e728431",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Add event listeners for the various stages of a navigation. A navigation consists of a frame in the browser transitioning from one URL to another, usually (but not always) in response to a user action like clicking a link or entering a URL in the location bar."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "TransitionQualifier",
       "href": "/webextensions/api/webNavigation/TransitionQualifier"

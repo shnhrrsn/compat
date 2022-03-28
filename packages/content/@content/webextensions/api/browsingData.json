@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "browsingData"
-  ],
+  "self": ["webextensions", "api", "browsingData"],
   "type": "listing",
   "title": "browsingData",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browsingData",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/browsingdata/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a3fded7b464a47fc07cb3079fb2a9618",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enables extensions to clear the data that is accumulated while the user is browsing."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "DataTypeSet",
       "href": "/webextensions/api/browsingData/DataTypeSet"

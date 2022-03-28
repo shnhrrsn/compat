@@ -1,12 +1,64 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "extension"
-  ],
+  "self": ["webextensions", "api", "extension"],
   "type": "listing",
   "title": "extension",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/extension/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "69f05c6c0d8949ece4ce8acfccbabdbf",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Utilities related to your extension. Get URLs to resources packages with your extension. Get the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Window"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Window"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object for your extension's pages. Get the values for various settings."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "ViewType",
       "href": "/webextensions/api/extension/ViewType"

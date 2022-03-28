@@ -1,13 +1,55 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "devtools",
-    "inspectedWindow"
-  ],
+  "self": ["webextensions", "api", "devtools", "inspectedWindow"],
   "type": "listing",
-  "title": "inspectedWindow",
-  "links": [
+  "title": "devtools.inspectedWindow",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools/inspectedWindow",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/devtools/inspectedwindow/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "24df668b7eff37e2b03507620386b52f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "devtools.inspectedWindow"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API lets a devtools extension interact with the window that the developer tools are attached to."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "eval",
       "href": "/webextensions/api/devtools/inspectedWindow/eval"

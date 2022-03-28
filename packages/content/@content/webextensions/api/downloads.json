@@ -1,12 +1,40 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "downloads"
-  ],
+  "self": ["webextensions", "api", "downloads"],
   "type": "listing",
   "title": "downloads",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/downloads/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "b5e5d3c5f0205aee9e8a2b818b846f36",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enables extensions to interact with the browser's download manager. You can use this API module to download files, cancel, pause, resume downloads, and show downloaded files in the file manager."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "BooleanDelta",
       "href": "/webextensions/api/downloads/BooleanDelta"

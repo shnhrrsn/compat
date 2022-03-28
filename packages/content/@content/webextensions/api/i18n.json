@@ -1,12 +1,165 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "i18n"
-  ],
+  "self": ["webextensions", "api", "i18n"],
   "type": "listing",
   "title": "i18n",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/i18n/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "88876190cb9c97ae56ddaf587483c908",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Functions to internationalize your extension. You can use these APIs to get localized strings from locale files packaged with your extension, find out the browser's current language, and find out the value of its "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Content_negotiation#the_accept-language_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Accept-Language header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a72638fca6e844e7f0990c3ee2e6541e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Internationalization"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": a guide to using the WebExtension i18n system."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n/Locale-Specific_Message_reference"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Locale-Specific Message reference"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": extensions supply locale-specific strings in files called "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "messages.json"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ". This page describes the format of "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "messages.json"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0baf49fec367afb6e593067ed872e53e7626c2dd",
+    "date": "2021-11-29T00:46:14.000Z"
+  },
+  "children": [
     {
       "title": "LanguageCode",
       "href": "/webextensions/api/i18n/LanguageCode"

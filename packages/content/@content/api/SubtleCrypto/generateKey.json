@@ -1,14 +1,6 @@
 {
-  "self": [
-    "api",
-    "SubtleCrypto",
-    "generateKey"
-  ],
+  "self": ["api", "SubtleCrypto", "generateKey"],
   "type": "page",
-  "commit": {
-    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
-    "date": "2022-02-18T09:26:54.000Z"
-  },
   "title": "SubtleCrypto.generateKey()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
@@ -164,6 +156,10 @@
       }
     }
   },
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
   "usage": 0.9352430127999999,
   "support": {
     "chrome": {
@@ -228,9 +224,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Not supported: ECDSA P-521, ECDH P-521."
-          ],
+          "notes": ["Not supported: ECDSA P-521, ECDH P-521."],
           "added": {
             "version": "1.14.0",
             "date": 1631659318
@@ -287,10 +281,7 @@
           }
         },
         {
-          "notes": [
-            "Not supported: RSA-PSS, ECDSA, ECDH.",
-            "Not supported: AES-CTR."
-          ],
+          "notes": ["Not supported: RSA-PSS, ECDSA, ECDH.", "Not supported: AES-CTR."],
           "added": {
             "version": "12.0.0",
             "date": 1438128000
@@ -369,9 +360,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Returns <code>KeyOperation</code> instead of <code>Promise</code>"
-          ],
+          "notes": ["Returns <code>KeyOperation</code> instead of <code>Promise</code>"],
           "added": {
             "version": "11.0.0",
             "date": 1381968000
@@ -398,10 +387,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Supports: NODE-DSA",
-            "Supports: NODE-DH"
-          ],
+          "notes": ["Supports: NODE-DSA", "Supports: NODE-DH"],
           "added": {
             "version": "15.0.0",
             "date": 1603152000

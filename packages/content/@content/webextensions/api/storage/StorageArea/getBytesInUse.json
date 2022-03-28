@@ -1,16 +1,6 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "storage",
-    "StorageArea",
-    "getBytesInUse"
-  ],
+  "self": ["webextensions", "api", "storage", "StorageArea", "getBytesInUse"],
   "type": "page",
-  "commit": {
-    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
-    "date": "2022-03-24T22:25:40.000Z"
-  },
   "title": "StorageArea.getBytesInUse()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/getBytesInUse",
@@ -39,6 +29,10 @@
         }
       }
     }
+  },
+  "commit": {
+    "sha": "fb095a1c00c6b07aa356f80538627517a87c0f2a",
+    "date": "2022-03-24T22:25:40.000Z"
   },
   "usage": 0.47713063199999994,
   "support": {
@@ -107,9 +101,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Only supported by the <code>sync</code> storage area."
-          ],
+          "notes": ["Only supported by the <code>sync</code> storage area."],
           "added": {
             "version": "78.0.0",
             "date": 1593475200

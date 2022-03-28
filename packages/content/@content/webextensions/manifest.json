@@ -1,11 +1,55 @@
 {
-  "self": [
-    "webextensions",
-    "manifest"
-  ],
+  "self": ["webextensions", "manifest"],
   "type": "listing",
-  "title": "manifest",
-  "links": [
+  "title": "manifest.json",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/manifest.json/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ab4e372ab9bb85e0d7b56bf4e46cfa79",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "manifest.json"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " file is the only file that every extension using WebExtension APIs must contain."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "934fa5fcedcbd1855c45782424b9ff6e6a04e89a",
+    "date": "2022-02-18T09:16:12.000Z"
+  },
+  "children": [
     {
       "title": "author",
       "href": "/webextensions/manifest/author"

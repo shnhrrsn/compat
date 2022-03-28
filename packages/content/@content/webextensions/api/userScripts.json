@@ -1,12 +1,129 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "userScripts"
-  ],
+  "self": ["webextensions", "api", "userScripts"],
   "type": "listing",
   "title": "userScripts",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/userScripts",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/userscripts/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "02068168e16c73f7f29df4f9672b0cb4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Use this API to register user scripts, third-party scripts designed to manipulate webpages or provide new features. Registering a user script instructs the browser to attach the script to pages that match the URL patterns specified during registration."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "5cad8a6dfb5388f5c21e2d4c64e630e6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts/Working_with_userScripts"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Working with "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "userScripts"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/webextensions/api/contentScripts"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "browser.contentScripts"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0160aac0e623dacdce4019205f32f7b3d3e58019",
+    "date": "2022-02-18T09:33:58.000Z"
+  },
+  "children": [
     {
       "title": "RegisteredUserScript",
       "href": "/webextensions/api/userScripts/RegisteredUserScript"

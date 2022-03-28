@@ -1,13 +1,40 @@
 {
-  "self": [
-    "svg",
-    "attributes",
-    "events",
-    "global"
-  ],
+  "self": ["svg", "attributes", "events", "global"],
   "type": "listing",
-  "title": "global",
-  "links": [
+  "title": "SVG Event Attributes",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/SVG/Attribute/Events",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/svg/attribute/events/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "22ebbb07abb64cc99f30f602208ca949",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Event attributes always have their name starting with \"on\" followed by the name of the event for which they are intended. They specifies some script to run when the event of the given type is dispatched to the element on which the attributes are specified."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "bd3f490ef78b600a1435dfe3611a27f3f2fbf4ef",
+    "date": "2021-09-23T21:22:12.000Z"
+  },
+  "children": [
     {
       "title": "oncancel",
       "href": "/svg/attributes/events/global/oncancel"

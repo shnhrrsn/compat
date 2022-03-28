@@ -1,14 +1,6 @@
 {
-  "self": [
-    "api",
-    "SubtleCrypto",
-    "importKey"
-  ],
+  "self": ["api", "SubtleCrypto", "importKey"],
   "type": "page",
-  "commit": {
-    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
-    "date": "2022-02-18T09:26:54.000Z"
-  },
   "title": "SubtleCrypto.importKey()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
@@ -265,6 +257,10 @@
       }
     }
   },
+  "commit": {
+    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
+    "date": "2022-02-18T09:26:54.000Z"
+  },
   "usage": 0.9352430127999999,
   "support": {
     "chrome": {
@@ -329,9 +325,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Not supported: ECDSA P-521, ECDH P-521."
-          ],
+          "notes": ["Not supported: ECDSA P-521, ECDH P-521."],
           "added": {
             "version": "1.17.0",
             "date": 1639683054
@@ -344,9 +338,7 @@
           "partial_implementation": true
         },
         {
-          "notes": [
-            "Not supported: ECDH."
-          ],
+          "notes": ["Not supported: ECDH."],
           "added": {
             "version": "1.15.0",
             "date": 1634069458
@@ -362,9 +354,7 @@
           "partial_implementation": true
         },
         {
-          "notes": [
-            "Not supported: ECDSA, ECDH, AES-CTR, AES-CBC, AES-GCM, AES-KW."
-          ],
+          "notes": ["Not supported: ECDSA, ECDH, AES-CTR, AES-CBC, AES-GCM, AES-KW."],
           "added": {
             "version": "1.14.0",
             "date": 1631659318
@@ -488,9 +478,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Returns <code>KeyOperation</code> instead of <code>Promise</code>"
-          ],
+          "notes": ["Returns <code>KeyOperation</code> instead of <code>Promise</code>"],
           "added": {
             "version": "11.0.0",
             "date": 1381968000
@@ -517,11 +505,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Supports: NODE-DSA",
-            "Supports: NODE-DH",
-            "Supports: NODE-SCRYPT"
-          ],
+          "notes": ["Supports: NODE-DSA", "Supports: NODE-DH", "Supports: NODE-SCRYPT"],
           "added": {
             "version": "15.0.0",
             "date": 1603152000

@@ -1,12 +1,81 @@
 {
-  "self": [
-    "webextensions",
-    "match_patterns",
-    "scheme"
-  ],
+  "self": ["webextensions", "match_patterns", "scheme"],
   "type": "listing",
-  "title": "scheme",
-  "links": [
+  "title": "Match patterns in extension manifests",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Match_patterns",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/match_patterns/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "4d652ec4e21fa7bd49fa83bb07d674ac",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Match patterns are a way to specify groups of URLs: a match pattern matches a specific set of URLs. They are used in WebExtensions APIs in a few places, most notably to specify which documents to load "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "content scripts"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " into, and to specify which URLs to add "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "webRequest"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " listeners to."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0160aac0e623dacdce4019205f32f7b3d3e58019",
+    "date": "2022-02-18T09:33:58.000Z"
+  },
+  "children": [
     {
       "title": "wildcard",
       "href": "/webextensions/match_patterns/scheme/wildcard"

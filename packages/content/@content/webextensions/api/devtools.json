@@ -1,12 +1,57 @@
 {
-  "self": [
-    "webextensions",
-    "api",
-    "devtools"
-  ],
+  "self": ["webextensions", "api", "devtools"],
   "type": "listing",
   "title": "devtools",
-  "links": [
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/devtools",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/devtools/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a0892e10d83374cf76f1d4ef38c5efb7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Enables extensions to interact with the browser's "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/Developer_Tools"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Developer Tools"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". You can use this API to create Developer Tools pages, interact with the window that is being inspected, inspect the page network usage."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "629960fa07e15f2354d75daf14f149d4942539ec",
+    "date": "2021-10-26T21:28:18.000Z"
+  },
+  "children": [
     {
       "title": "inspectedWindow",
       "href": "/webextensions/api/devtools/inspectedWindow"
