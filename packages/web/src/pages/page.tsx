@@ -4,11 +4,16 @@ import SafeToUse from '@/components/page/safeToUse'
 import { DeprecatedCard, ExperimentalCard } from '@/components/shared/card'
 import Document from '@/components/shared/document'
 import { PageMetadata } from '@compat/content'
+import Error404 from './404'
 
 const browsers = ['chrome', 'safari', 'edge', 'firefox']
 const servers = ['nodejs', 'deno']
 
 export default function Page(props: PageMetadata) {
+	if (!props.title) {
+		return <Error404 />
+	}
+
 	return (
 		<Document {...props}>
 			<h3>Safe to Use</h3>

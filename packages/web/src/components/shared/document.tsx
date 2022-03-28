@@ -2,15 +2,10 @@ import Breadcrumbs from '@/components/shared/breadcrumbs'
 import ExternalLink from '@/components/shared/externalLink'
 import Layout from '@/components/shared/layout'
 import SafeHtml from '@/components/shared/safeHtml'
-import Error404 from '@/pages/404'
 import { Metadata } from '@compat/content'
 import Contribute from './document/contribute'
 
 export default function Document({ children, ...props }: Metadata & { children: any }) {
-	if (!props.title) {
-		return <Error404 />
-	}
-
 	const { links, content } = props
 	const intro = content?.intro
 
