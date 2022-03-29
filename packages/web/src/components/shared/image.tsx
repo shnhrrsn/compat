@@ -5,6 +5,7 @@ import Chrome from '@/public/images/chrome.svg'
 import Deno from '@/public/images/deno.svg'
 import Edge from '@/public/images/edge.svg'
 import Experimental from '@/public/images/experimental.svg'
+import External from '@/public/images/external.svg'
 import Firefox from '@/public/images/firefox.svg'
 import Flag from '@/public/images/flag.svg'
 import Github from '@/public/images/github.svg'
@@ -34,6 +35,7 @@ const ImageSrc = {
 	'deno': Deno,
 	'edge': Edge,
 	'experimental': Experimental,
+	'external': External,
 	'firefox': Firefox,
 	'flag': Flag,
 	'github': Github,
