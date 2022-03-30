@@ -74,7 +74,6 @@ export default function Image({
 	return (
 		<Src
 			className={classNames(inline ? styles.inline : undefined, className)}
-			viewBox={src === 'logo' ? undefined : '0 0 32 32'}
 			title={title}
 			alt={title}
 		/>
