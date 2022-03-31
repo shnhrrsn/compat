@@ -1,6 +1,6 @@
 .agents {
 	display: grid;
-	grid-template-columns: auto 1fr 2fr 1fr;
+	grid-template-columns: auto 1fr 2fr 1fr auto;
 	align-items: baseline;
 	max-width: 500px;
 	row-gap: 20px;
@@ -10,22 +10,6 @@
 	display: flex;
 	gap: 0;
 	align-items: baseline;
-}
-
-.unsupported {
-	color: var(--color-sentiment-negative);
-}
-
-.low {
-	color: var(--color-sentiment-low);
-}
-
-.medium {
-	color: var(--color-sentiment-mid);
-}
-
-.high {
-	color: var(--color-sentiment-positive);
 }
 
 .icon {

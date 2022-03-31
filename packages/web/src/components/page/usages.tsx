@@ -16,7 +16,7 @@ export default function Usages({
 	includeTitles ??= true
 	return (
 		<div className={classNames(styles.usages, className)}>
-			{usage.global && usage.relative && (
+			{typeof usage.global === 'number' && typeof usage.relative === 'number' && (
 				<>
 					<Usage
 						name={name}
