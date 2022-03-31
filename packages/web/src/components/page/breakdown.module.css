@@ -11,7 +11,7 @@
 .headers {
 	margin-bottom: 6px;
 	padding: 0 12px;
-	color: var(--color-foreground-secondary);
+	color: var(--color-foreground-quaternary);
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 15px;
@@ -24,14 +24,14 @@
 }
 
 .rows {
-	border: 1px solid var(--color-foreground-secondary);
+	border: 1px solid var(--color-background-tertiary);
 	border-radius: 3px;
 }
 
 .row {
 	align-items: center;
 	padding: 12px;
-	border-top: 1px solid var(--color-foreground-secondary);
+	border-top: 1px solid var(--color-background-tertiary);
 }
 
 .row[tabindex]:not(:focus) {
@@ -41,7 +41,7 @@
 .row[tabindex]:hover,
 .row:focus {
 	color: var(--color-foreground-prominent);
-	background: rgba(255, 255, 255, 0.025);
+	background: var(--color-background-selection);
 }
 
 .row[tabindex]:hover:not(:focus) {
