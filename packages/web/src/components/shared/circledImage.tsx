@@ -15,6 +15,7 @@ const styleClassNames: Record<CircledImageSrc, string> = {
 const sizeClassName = {
 	large: styles.sizeLarge,
 	small: styles.sizeSmall,
+	medium: styles.sizeMedium,
 }
 
 export default function CircledImage({
