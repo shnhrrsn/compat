@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "main": "./src/index.js",
+  "browser": "./src/browser.js",
   "scripts": {
     "build": "yarn t:tsc -p ./jsconfig.json",
     "codegen": "bash -c 'find bin -type f | while read script; do echo \"running $script\"; node \"$script\"; done'"
