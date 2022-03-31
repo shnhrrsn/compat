@@ -2,7 +2,7 @@ import { isAvailable as $isAvailable, PageSupport } from '@compat/content'
 import classNames from 'classnames'
 import CircledImage, { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
-import { formatAvailability } from './agents'
+import { fillUsage, formatAvailability } from './agents'
 import styles from './breakdown.module.css'
 import { BreakdownHistory } from './history'
 import Usages from './usages'
@@ -29,6 +29,7 @@ export default function Breakdown({ support }: { support: Record<string, PageSup
 }
 
 function Entry({ agent, support }: { agent: string; support: PageSupport }) {
+	support = fillUsage(agent, support)
 	const image =
 		agent === 'webview_android'
 			? 'android'
@@ -64,7 +65,7 @@ function Entry({ agent, support }: { agent: string; support: PageSupport }) {
 				)}
 			</div>
 			<div>
-				{isAvailable && support.usage?.global && support.usage.relative && (
+				{isAvailable && (
 					<Usages
 						className={styles.usage}
 						name={support?.name ?? agent}

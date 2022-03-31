@@ -1,5 +1,6 @@
 import Image, { isValidImageSrc } from '@/components/shared/image'
 import formatDate from '@/utils/formatters/formatDate'
+import { isBrowser } from '@compat/agents'
 import { isAvailable, PageSupport, SupportVariant } from '@compat/content'
 import classNames from 'classnames'
 import styles from './agents.module.css'
@@ -22,6 +23,7 @@ export default function Agents({
 }
 
 function Agent({ agent, support }: { agent: string; support: PageSupport | null }) {
+	support = fillUsage(agent, support)
 	const added = support?.removed ? null : support?.added
 	const usage = support?.removed ? null : support?.usage
 	const supportClassName = resolveSupportClassName(support)
@@ -75,4 +77,20 @@ function resolveSupportClassName(support: PageSupport | null) {
 	}
 
 	return styles.high
+}
+
+export function fillUsage<T extends PageSupport | null>(agent: string, support: T): T {
+	if (!support) {
+		return support
+	}
+
+	const shouldFill = isBrowser(agent) && isAvailable(support)
+
+	return {
+		...support,
+		usage: {
+			global: !support.usage.global && shouldFill ? 0.0 : support.usage.global,
+			relative: !support.usage.relative && shouldFill ? 0.0 : support.usage.relative,
+		},
+	}
 }
