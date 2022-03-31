@@ -1,8 +1,9 @@
 import { isAvailable as $isAvailable, PageSupport } from '@compat/content'
 import classNames from 'classnames'
-import CircledImage, { CircledSpacer } from '../shared/circledImage'
+import { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
 import { fillUsage, formatAvailability } from './agents'
+import AvailabilityIndicator from './availabilityIndicator'
 import styles from './breakdown.module.css'
 import { BreakdownHistory } from './history'
 import Usages from './usages'
@@ -74,7 +75,7 @@ function Entry({ agent, support }: { agent: string; support: PageSupport }) {
 					/>
 				)}
 			</div>
-			<CircledImage src={isAvailable ? 'check' : 'times'} />
+			<AvailabilityIndicator name={support.name} support={support} />
 			{history}
 		</div>
 	)

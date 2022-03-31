@@ -1,8 +1,14 @@
 import CircledImage from '../shared/circledImage'
 import styles from './safeToUse.module.css'
 
+export const thresholds = {
+	unsafe: 0.6,
+	safe: 0.8,
+	verySafe: 0.9,
+}
+
 export default function SafeToUse({ title, usage }: { title: string | null; usage: number }) {
-	const safeToUse = usage >= 0.8
+	const safeToUse = usage >= thresholds.safe
 	return (
 		<div className={styles.safeToUse}>
 			<CircledImage src={safeToUse ? 'check' : 'times'} size="large" />
@@ -11,7 +17,7 @@ export default function SafeToUse({ title, usage }: { title: string | null; usag
 					<code>{title}</code> is{' '}
 					{!safeToUse ? (
 						<strong>not safe</strong>
-					) : usage < 0.9 ? (
+					) : usage < thresholds.verySafe ? (
 						<strong>mostly safe</strong>
 					) : (
 						'considered safe'
