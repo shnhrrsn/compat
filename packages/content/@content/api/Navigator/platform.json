@@ -5,7 +5,7 @@
     "platform"
   ],
   "type": "page",
-  "title": "Navigator.platform",
+  "title": "navigator.platform",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/Navigator/platform",
     "spec": "https://html.spec.whatwg.org/multipage/system-state.html#dom-navigator-platform-dev",
@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "124781a7908f1a1fc8d02c394b98d67b",
+      "id": "950844c05927787d76e2af1d21acd943",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,107 @@
             "children": [
               {
                 "type": "text",
-                "value": "Returns a string representing the platform of the browser.\nThe specification allows browsers to always return the empty string, so don't rely on this property to get a reliable answer."
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "platform"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property read-only property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Navigator"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Navigator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a string identifying the platform on which the user’s browser is running."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "d94c624a61a440f38cc4d961f40aa04c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/NavigatorUAData/platform"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "navigator.userAgentData.platform"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -36,8 +136,8 @@
     }
   },
   "commit": {
-    "sha": "dc13bbc18ba23a2d86e15ff8deff8e6825ae9934",
-    "date": "2022-03-31T05:23:18.000Z"
+    "sha": "f440461824ab7366dceb95412a30216e63ce211f",
+    "date": "2022-03-31T13:17:37.000Z"
   },
   "usage": 0.9569835188,
   "support": {
