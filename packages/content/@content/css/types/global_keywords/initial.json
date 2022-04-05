@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "481acfc6c76020caae20dfc57be4f22a",
+      "id": "0c913e9c9700ecb98144bbdc8b6ba87b",
       "tree": {
         "type": "root",
         "children": [
@@ -64,7 +64,7 @@
               },
               {
                 "type": "text",
-                "value": " of a property to an element. It can be applied to any CSS property. This includes the CSS shorthand "
+                "value": " of a property to an element. It can be applied to any CSS property, including the CSS shorthand property "
               },
               {
                 "type": "element",
@@ -89,7 +89,22 @@
               },
               {
                 "type": "text",
-                "value": ", with which "
+                "value": ". With "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "all"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " set to "
               },
               {
                 "type": "element",
@@ -104,7 +119,7 @@
               },
               {
                 "type": "text",
-                "value": " can be used to restore all CSS properties to their initial state."
+                "value": ", all CSS properties can be restored to their respective initial values in one go instead of restoring each one separately."
               }
             ]
           }
@@ -115,7 +130,7 @@
       }
     },
     "seeAlso": {
-      "id": "2809e6727b09e4a7f71b712cbc9e36b9",
+      "id": "d9c4917ced743ad7fc2829eb79a35fdb",
       "tree": {
         "type": "root",
         "children": [
@@ -135,87 +150,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Use "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/global_keywords/unset"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "unset"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " to set a property to its inherited value if it inherits, or to its initial value if not."
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Use "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/all/revert"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "revert"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " to reset a property to the value established by the user-agent stylesheet (or by user styles, if any exist)."
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Use "
+                    "value": "Use the "
                   },
                   {
                     "type": "element",
@@ -240,7 +175,117 @@
                   },
                   {
                     "type": "text",
-                    "value": " to make an element's property the same as its parent."
+                    "value": " keyword to make an element's property the same as its parent."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Use the "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/all/revert"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "revert"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " keyword to reset a property to the value established by the user-agent stylesheet (or by user styles, if any exist)."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Use the "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "revert-layer"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " keyword to reset a property to the value established in a previous cascade layer."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Use the "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/types/global_keywords/unset"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "unset"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " keyword to set a property to its inherited value if it inherits or to its initial value if not."
                   }
                 ]
               },
@@ -298,8 +343,8 @@
     }
   },
   "commit": {
-    "sha": "e8ab37fa181d07346397b2dfd62ed3561d01c241",
-    "date": "2022-02-21T15:08:36.000Z"
+    "sha": "6d596cd6a28e057b46ad97fa02704baf51ffced2",
+    "date": "2022-04-04T12:55:00.000Z"
   },
   "usage": 0.9478495856,
   "support": {
