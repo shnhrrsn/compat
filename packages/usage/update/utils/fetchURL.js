@@ -10,7 +10,7 @@ export default async function fetchURL(url) {
 	url = url.toString()
 
 	const hash = createHash('md5').update(url).digest('hex')
-	const cacheURL = new URL(`../.cache/${hash}.csv`, import.meta.url)
+	const cacheURL = new URL(`../../.cache/${hash}.csv`, import.meta.url)
 
 	if (existsSync(cacheURL)) {
 		return createReadStream(cacheURL)

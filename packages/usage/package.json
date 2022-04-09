@@ -6,7 +6,7 @@
   "browser": "./src/browser.js",
   "scripts": {
     "build": "yarn t:tsc -p ./jsconfig.json",
-    "codegen": "node bin/codegen.js"
+    "codegen": "node update/run.js"
   },
   "devDependencies": {
     "node-fetch": "^3.2.3",

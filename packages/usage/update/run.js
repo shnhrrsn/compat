@@ -2,10 +2,10 @@ import assert from 'assert'
 import { promises as fs } from 'fs'
 import { roundTo } from 'round-to'
 import SemVer from 'semver'
-import buildStatcounterURL from '../src/utils/buildStatcounterURL.js'
-import fetchURL from '../src/utils/fetchURL.js'
-import parseStatcounter from '../src/utils/parseStatcounter.js'
-import parseWikimedia from '../src/utils/parseWikimedia.js'
+import buildStatcounterURL from './utils/buildStatcounterURL.js'
+import fetchURL from './utils/fetchURL.js'
+import parseStatcounter from './utils/parseStatcounter.js'
+import parseWikimedia from './utils/parseWikimedia.js'
 
 /** @type {Record<string, string>} */
 const gsToMdn = {
