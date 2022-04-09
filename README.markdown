@@ -6,7 +6,7 @@
 <a href="./LICENSE"><img alt="License" src="https://img.shields.io/github/license/shnhrrsn/compat"></a>
 </p>
 
-[compat.codes](https://compat.codes/) is powered by data from [mdn](https://developer.mozilla.org/en-US/) and [caniuse.com](https://caniuse.com/) to provide clear compatibility for web features.
+[compat.codes](https://compat.codes/) is powered by data from [mdn](https://developer.mozilla.org/en-US/) and [gs.statcounter.com](https://gs.statcounter.com/) to provide clear compatibility for web features.
 
 ## Development
 

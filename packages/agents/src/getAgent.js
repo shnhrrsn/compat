@@ -1,5 +1,5 @@
-import caniuse from './agents/caniuse.js'
 import deno from './agents/deno.js'
+import mdn from './agents/mdn.js'
 import node from './agents/node.js'
 
 /**
@@ -26,7 +26,7 @@ export default function getAgent(name) {
 	} else if (/^deno/i.test(name)) {
 		agent = deno()
 	} else {
-		agent = caniuse(name)
+		agent = mdn(name)
 	}
 
 	cache.set(name, agent)

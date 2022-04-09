@@ -61,8 +61,12 @@ export default function Layout({
 							<ExternalLink href="https://developer.mozilla.org/en-US/">
 								mdn
 							</ExternalLink>
-							{' + '}
-							<ExternalLink href="https://caniuse.com/">caniuse</ExternalLink>
+						</div>
+						<div>
+							Usage data via{' '}
+							<ExternalLink href="https://gs.statcounter.com/">
+								statcounter
+							</ExternalLink>
 						</div>
 					</div>
 					<div>

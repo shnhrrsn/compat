@@ -1,4 +1,4 @@
-import { findVersionDate, getAgent } from '@compat/agents'
+import { getAgent } from '@compat/agents'
 import assert from 'assert'
 import SemVer from 'semver'
 import { isFullySupported } from '../../../src/isFullySupported.js'
@@ -143,10 +143,7 @@ function formatVersion(agent, agentName, value) {
 		version,
 		data: {
 			version: version?.format() ?? rawVersion,
-			date:
-				(version ? findVersionDate(agentName, version) : undefined) ??
-				agent.version(rawVersion)?.date ??
-				null,
+			date: agent.version(rawVersion)?.date ?? null,
 		},
 	}
 }
