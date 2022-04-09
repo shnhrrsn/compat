@@ -1,4 +1,5 @@
 import usage from '@compat/usage'
+import compatData from '@mdn/browser-compat-data'
 import SemVer from 'semver'
 import mdnVersions from '../@versions/mdn.js'
 import makeAgent from './makeAgent.js'
@@ -24,7 +25,7 @@ export default function mdn(name) {
 	}
 
 	return makeAgent(
-		name,
+		compatData.browsers[name]?.name ?? name,
 		new Map(
 			Object.entries(agent).map(([key, date]) => [
 				new SemVer.Range(key),
