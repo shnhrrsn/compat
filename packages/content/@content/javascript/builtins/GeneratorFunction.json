@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "37ec7e51947fe888ca118983d4cbb15b",
+      "id": "709e8ba06a05b72fe4b2c9607d69c0cd",
       "tree": {
         "type": "root",
         "children": [
@@ -24,48 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "GeneratorFunction"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " constructor"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " creates a new\n"
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "generator function"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " object. In JavaScript,\nevery generator function is actually a "
+                "value": "In JavaScript, every generator function is actually a "
               },
               {
                 "type": "element",
@@ -80,7 +39,37 @@
               },
               {
                 "type": "text",
-                "value": " object."
+                "value": " object. There is no global object with the name "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "GeneratorFunction"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", but you can create a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "GeneratorFunction()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " constructor using the following code:"
               }
             ]
           }
@@ -246,8 +235,8 @@
     }
   },
   "commit": {
-    "sha": "cf607d68522cd35ee7670782d3ee3a361eaef2e4",
-    "date": "2021-07-20T18:47:57.000Z"
+    "sha": "5909fddde6ad6a3976395730f609f271090815f3",
+    "date": "2022-04-08T07:59:32.000Z"
   },
   "usage": 0.9372197910000002,
   "support": {
