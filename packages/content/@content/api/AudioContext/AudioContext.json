@@ -148,7 +148,7 @@
     "sha": "982de46757e3c9f7d066da5bcba9ac75ddc35e14",
     "date": "2022-03-17T02:01:16.000Z"
   },
-  "usage": 0.9096082189999999,
+  "usage": 0.9173600000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -158,52 +158,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.25878442999999995,
-        "relative": 0.9920543473014786
-      },
-      "history": [
-        {
-          "notes": [
-            "Before Chrome 66, each tab is limited to 6 audio contexts in Chrome; attempting to create more will throw a <code>DOMException</code>. For details see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Per-tab_audio_context_limitation_in_Chrome'>Per-tab audio context limitation in Chrome</a>.",
-            "If <code>latencyHint</code> isn't valid, Chrome throws a <code>TypeError</code> exception. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Non-standard_exceptions_in_Chrome'>Non-standard exceptions in Chrome</a> for details."
-          ],
-          "added": {
-            "version": "35.0.0",
-            "date": 1400544000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.25878442999999995,
-            "relative": 0.9920543473014786
-          }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "14.0.0",
-            "date": 1316131200
-          },
-          "removed": {
-            "version": "57.0.0",
-            "date": 1489017600
-          },
-          "usage": {
-            "global": 0.00469899,
-            "relative": 0.018013655061960936
-          },
-          "prefix": "webkit"
-        }
-      ]
-    },
-    "chrome_android": {
-      "name": "Chrome for Android",
-      "added": {
-        "version": "35.0.0",
-        "date": 1400544000
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.372095,
+        "global": 0.26490000000000014,
         "relative": 1
       },
       "history": [
@@ -218,7 +173,52 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.372095,
+            "global": 0.26490000000000014,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1316131200
+          },
+          "removed": {
+            "version": "57.0.0",
+            "date": 1489017600
+          },
+          "usage": {
+            "global": 0.0024000000000000002,
+            "relative": 0.009060022650056622
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "35.0.0",
+        "date": 1400544000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.3619200000000001,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Chrome 66, each tab is limited to 6 audio contexts in Chrome; attempting to create more will throw a <code>DOMException</code>. For details see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Per-tab_audio_context_limitation_in_Chrome'>Per-tab audio context limitation in Chrome</a>.",
+            "If <code>latencyHint</code> isn't valid, Chrome throws a <code>TypeError</code> exception. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Non-standard_exceptions_in_Chrome'>Non-standard exceptions in Chrome</a> for details."
+          ],
+          "added": {
+            "version": "35.0.0",
+            "date": 1400544000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3619200000000001,
             "relative": 1
           }
         },
@@ -233,8 +233,8 @@
             "date": 1489622400
           },
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.00319,
+            "relative": 0.008814102564102562
           },
           "prefix": "webkit"
         }
@@ -244,11 +244,11 @@
       "name": "Edge",
       "added": {
         "version": "12.0.0",
-        "date": 1438128000
+        "date": 1438041600
       },
       "removed": null,
       "usage": {
-        "global": 0.04125060999999999,
+        "global": 0.04079999999999999,
         "relative": 1
       },
       "history": [
@@ -256,11 +256,11 @@
           "notes": null,
           "added": {
             "version": "12.0.0",
-            "date": 1438128000
+            "date": 1438041600
           },
           "removed": null,
           "usage": {
-            "global": 0.04125060999999999,
+            "global": 0.04079999999999999,
             "relative": 1
           }
         }
@@ -274,8 +274,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.03997843,
-        "relative": 0.9590748282869574
+        "global": 0.03119999999999997,
+        "relative": 0.9936305732484076
       },
       "history": [
         {
@@ -286,8 +286,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03997843,
-            "relative": 0.9590748282869574
+            "global": 0.03119999999999997,
+            "relative": 0.9936305732484076
           }
         }
       ]
@@ -300,8 +300,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0028027200000000003,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
@@ -312,14 +312,14 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0028027200000000003,
-            "relative": 1
+            "global": null,
+            "relative": null
           }
         }
       ]
     },
     "ie": {
-      "name": "IE",
+      "name": "Internet Explorer",
       "added": null,
       "removed": null,
       "usage": {
@@ -346,8 +346,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.01446034,
-        "relative": 0.922857088154393
+        "global": 0.0181,
+        "relative": 1
       },
       "history": [
         {
@@ -361,8 +361,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.01446034,
-            "relative": 0.922857088154393
+            "global": 0.0181,
+            "relative": 1
           }
         },
         {
@@ -376,23 +376,23 @@
             "date": 1490054400
           },
           "usage": {
-            "global": 0.0017137400000000005,
-            "relative": 0.10937067221474114
+            "global": null,
+            "relative": null
           },
           "prefix": "webkit"
         }
       ]
     },
     "opera_android": {
-      "name": "Opera Mobile",
+      "name": "Opera Android",
       "added": {
         "version": "22.0.0",
-        "date": null
+        "date": 1402963200
       },
       "removed": null,
       "usage": {
-        "global": 0.000111391,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
@@ -402,23 +402,23 @@
           ],
           "added": {
             "version": "22.0.0",
-            "date": null
+            "date": 1402963200
           },
           "removed": null,
           "usage": {
-            "global": 0.000111391,
-            "relative": 1
+            "global": null,
+            "relative": null
           }
         },
         {
           "notes": null,
           "added": {
             "version": "14.0.0",
-            "date": null
+            "date": 1369094400
           },
           "removed": {
             "version": "43.0.0",
-            "date": null
+            "date": 1506470400
           },
           "usage": {
             "global": null,
@@ -436,8 +436,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02392575,
-        "relative": 0.715414707747676
+        "global": 0.0304,
+        "relative": 0.7855297157622739
       },
       "history": [
         {
@@ -448,8 +448,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02392575,
-            "relative": 0.715414707747676
+            "global": 0.0304,
+            "relative": 0.7855297157622739
           }
         },
         {
@@ -460,8 +460,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03314822,
-            "relative": 0.991179968178873
+            "global": 0.0387,
+            "relative": 1
           },
           "prefix": "webkit"
         }
@@ -475,8 +475,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.12688128199999998,
-        "relative": 0.8501551004131173
+        "global": 0.14343999999999998,
+        "relative": 0.8626413278806834
       },
       "history": [
         {
@@ -487,20 +487,20 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.12688128199999998,
-            "relative": 0.8501551004131173
+            "global": 0.14343999999999998,
+            "relative": 0.8626413278806834
           }
         },
         {
           "notes": null,
           "added": {
             "version": "6.0.0",
-            "date": 1359331200
+            "date": 1347235200
           },
           "removed": null,
           "usage": {
-            "global": 0.1491702188,
-            "relative": 0.9994998501241552
+            "global": 0.1662,
+            "relative": 0.9995188838104403
           },
           "prefix": "webkit"
         }
@@ -510,12 +510,12 @@
       "name": "Samsung Internet",
       "added": {
         "version": "3.0.0",
-        "date": null
+        "date": 1428624000
       },
       "removed": null,
       "usage": {
-        "global": 0.029318266000000003,
-        "relative": 1
+        "global": 0.026599999999999988,
+        "relative": 0.9708029197080293
       },
       "history": [
         {
@@ -525,37 +525,37 @@
           ],
           "added": {
             "version": "3.0.0",
-            "date": null
+            "date": 1428624000
           },
           "removed": null,
           "usage": {
-            "global": 0.029318266000000003,
-            "relative": 1
+            "global": 0.026599999999999988,
+            "relative": 0.9708029197080293
           }
         },
         {
           "notes": null,
           "added": {
             "version": "1.0.0",
-            "date": null
+            "date": 1367020800
           },
           "removed": {
             "version": "7.0.0",
-            "date": null
+            "date": 1521158400
           },
           "usage": {
-            "global": 0.002389903,
-            "relative": 0.08151583725995254
+            "global": 0.0021000000000000003,
+            "relative": 0.0766423357664234
           },
           "prefix": "webkit"
         }
       ]
     },
     "webview_android": {
-      "name": "Android Browser",
+      "name": "WebView Android",
       "added": {
         "version": "37.0.0",
-        "date": null
+        "date": 1409702400
       },
       "removed": null,
       "usage": {
@@ -570,7 +570,7 @@
           ],
           "added": {
             "version": "37.0.0",
-            "date": null
+            "date": 1409702400
           },
           "removed": null,
           "usage": {
@@ -582,11 +582,11 @@
           "notes": null,
           "added": {
             "version": "37.0.0",
-            "date": null
+            "date": 1409702400
           },
           "removed": {
             "version": "57.0.0",
-            "date": null
+            "date": 1489622400
           },
           "usage": {
             "global": null,
