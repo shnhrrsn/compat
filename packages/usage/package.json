@@ -1,0 +1,16 @@
+{
+  "name": "@compat/usage",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "browser": "./src/browser.js",
+  "scripts": {
+    "build": "yarn t:tsc -p ./jsconfig.json",
+    "codegen": "node bin/codegen.js"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.2.3",
+    "semver": "^7.3.5"
+  },
+  "packageManager": "yarn@3.2.0"
+}
