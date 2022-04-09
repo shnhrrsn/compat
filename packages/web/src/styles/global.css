@@ -48,7 +48,8 @@ code {
 }
 
 strong code,
-code strong {
+code strong,
+p strong {
 	font-weight: 600;
 }
 
@@ -130,7 +131,11 @@ footer::after {
 h4 {
 	margin: 0 0 10px;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 20px;
+}
+
+p + h4 {
+	margin: 40px 0 20px;
 }
 
 p {
@@ -139,7 +144,7 @@ p {
 }
 
 p + p {
-	margin-top: 0.5em;
+	margin-top: 1em;
 }
 
 cite {

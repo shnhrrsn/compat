@@ -5,7 +5,7 @@ import assert from 'assert'
  * @param {NodeJS.ReadableStream} stream
  * @returns {Promise<Map<string, Map<string, number>>>}
  */
-export default function parseStream(stream) {
+export default function parseStatcounter(stream) {
 	return new Promise((resolve, reject) => {
 		/** @type {Map<string, Map<string, number>>} */
 		const map = new Map()

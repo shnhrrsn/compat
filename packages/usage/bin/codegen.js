@@ -1,13 +1,16 @@
 import assert from 'assert'
 import { promises as fs } from 'fs'
+import { roundTo } from 'round-to'
 import SemVer from 'semver'
-import buildURL from '../src/utils/buildURL.js'
+import buildStatcounterURL from '../src/utils/buildStatcounterURL.js'
 import fetchURL from '../src/utils/fetchURL.js'
-import parseStream from '../src/utils/parseStream.js'
+import parseStatcounter from '../src/utils/parseStatcounter.js'
+import parseWikimedia from '../src/utils/parseWikimedia.js'
 
 /** @type {Record<string, string>} */
 const gsToMdn = {
 	'chrome': 'chrome',
+	'chrome_android': 'chrome_android',
 	'edge': 'edge',
 	'firefox': 'firefox',
 	'ie': 'ie',
@@ -16,30 +19,43 @@ const gsToMdn = {
 	'safari_ios': 'safari_ios',
 	'samsung internet': 'samsunginternet_android',
 	// MDN browsers that are currently unsupported:
-	// 'chrome_android': 'chrome_android',
 	// 'firefox_android': 'firefox_android',
 	// 'opera_android': 'opera_android',
 	// 'webview_android': 'webview_android',
 }
 
-const [browsers, ios] = await Promise.all([
+const date = new Date()
+date.setUTCHours(0, 0, 0, 0)
+date.setUTCMonth(date.getUTCMonth() - 1, 1)
+
+const monthYear = date.toISOString().substring(0, 7)
+
+const [browsers, ios, chromeAndroidViews] = await Promise.all([
 	fetchURL(
-		buildURL({
+		buildStatcounterURL({
+			monthYear,
 			devices: ['desktop', 'mobile', 'tablet'],
 			type: 'browser_version',
 		}),
-	).then(parseStream),
+	).then(parseStatcounter),
 	fetchURL(
-		buildURL({
+		buildStatcounterURL({
+			monthYear,
 			devices: ['mobile', 'tablet'],
 			type: 'ios_version',
 		}),
 	)
-		.then(parseStream)
+		.then(parseStatcounter)
 		.then(map => map.get('ios')),
+	fetchURL(
+		'https://analytics.wikimedia.org/published/datasets/periodic/reports/metrics/browser/all_sites_by_browser_family_and_major.tsv',
+	)
+		.then(parseWikimedia.bind(null, monthYear))
+		.then(map => map.get('Chrome Mobile')),
 ])
 
 let iosBrowsers = 0.0
+let chromeAndroidShare = 0.0
 
 for (const [family, versions] of browsers) {
 	for (const [version, share] of versions) {
@@ -51,7 +67,7 @@ for (const [family, versions] of browsers) {
 			iosBrowsers += share
 			versions.delete(version)
 		} else if (version === 'android' && family === 'chrome') {
-			// No reliable way to determine Chrome Android versions, so better off not reporting
+			chromeAndroidShare = share
 			versions.delete(version)
 		}
 	}
@@ -66,7 +82,27 @@ const iosSafari = new Map()
 browsers.set('safari_ios', iosSafari)
 
 for (const [version, share] of ios) {
-	iosSafari.set(version, Math.round(iosBrowsers * (share / 100) * 1_000) / 1_000)
+	iosSafari.set(version, roundTo(iosBrowsers * (share / 100), 3))
+}
+
+// GS doesn’t report versions of Chrome Android, so usage is inferred from Wikimedia.
+// Mixing data between GS/Wikimedia is less than ideal and assumes the same version distribution
+// between the two, which is unlikely, however it should provide a relatively accurate signal
+// vs no signal at all.
+assert(chromeAndroidViews)
+assert(chromeAndroidShare > 0.0)
+
+const chromeAndroidTotalViews = Array.from(chromeAndroidViews.values()).reduce(
+	(total, current) => total + current,
+	0,
+)
+
+const chromeAndroid = new Map()
+browsers.set('chrome_android', chromeAndroid)
+
+for (const [version, views] of chromeAndroidViews) {
+	const share = views / chromeAndroidTotalViews
+	chromeAndroid.set(version, roundTo(chromeAndroidShare * share, 3))
 }
 
 // Remap browsers to MDN names

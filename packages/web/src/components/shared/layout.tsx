@@ -63,10 +63,10 @@ export default function Layout({
 							</ExternalLink>
 						</div>
 						<div>
-							Usage data via{' '}
-							<ExternalLink href="https://gs.statcounter.com/">
-								statcounter
-							</ExternalLink>
+							Usage data{' '}
+							<Link href="/usage-data">
+								<a>methodology</a>
+							</Link>
 						</div>
 					</div>
 					<div>
