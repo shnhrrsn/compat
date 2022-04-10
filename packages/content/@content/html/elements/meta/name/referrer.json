@@ -9,7 +9,7 @@
   "type": "page",
   "title": "name / referrer",
   "links": {},
-  "usage": 0.7434200000000002,
+  "usage": 0.9435300000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -159,13 +159,19 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Browsers initially supported an <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://wiki.whatwg.org/wiki/Meta_referrer'>early draft</a> of the specification which can only use a meta tag and is only compatible with the <code>origin</code> value from the new spec."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0032,
+            "relative": 0.8648648648648649
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -219,40 +225,52 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "11.1.0",
+        "date": 1523491200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0384,
+        "relative": 0.992248062015504
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1523491200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0384,
+            "relative": 0.992248062015504
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "12.0.0",
+        "date": 1537142400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.16171,
+        "relative": 0.9725162376713978
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.16171,
+            "relative": 0.9725162376713978
           }
         }
       ]

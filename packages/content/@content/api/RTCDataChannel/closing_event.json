@@ -1,0 +1,464 @@
+{
+  "self": [
+    "api",
+    "RTCDataChannel",
+    "closing_event"
+  ],
+  "type": "page",
+  "title": "RTCDataChannel: closing event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/RTCDataChannel/closing_event",
+    "spec": [
+      "https://w3c.github.io/webrtc-pc/#event-datachannel-closing",
+      "https://w3c.github.io/webrtc-pc/#dom-rtcdatachannel-onclosing"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/rtcdatachannel/closing_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "553db6663847d94fe72a6b355e784602",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "closing"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is sent to an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCDataChannel"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCDataChannel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " just before the channel begins the process of shutting down its underlying data transport."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "e72cd5b31691b9a64c4c07af9ef5f8a6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebRTC API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Signaling and video calling"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "34b5c4ca63a1cb4c58d852d8beac7b2895b17526",
+    "date": "2022-03-23T11:00:21.000Z"
+  },
+  "usage": 0.69183,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.255,
+        "relative": 0.962627406568516
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.255,
+            "relative": 0.962627406568516
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.35158,
+        "relative": 0.9714301503094604
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.35158,
+            "relative": 0.9714301503094604
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586736000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03989999999999999,
+        "relative": 0.9779411764705883
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586736000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03989999999999999,
+            "relative": 0.9779411764705883
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "68.0.0",
+        "date": 1587513600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0104,
+        "relative": 0.574585635359116
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1587513600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0104,
+            "relative": 0.574585635359116
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "58.0.0",
+        "date": 1589328000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1589328000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0017000000000000001,
+        "relative": 0.043927648578811374
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0017000000000000001,
+            "relative": 0.043927648578811374
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.00945,
+        "relative": 0.056831849891748866
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.00945,
+            "relative": 0.056831849891748866
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "13.0.0",
+        "date": 1606867200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.023799999999999998,
+        "relative": 0.8686131386861319
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1606867200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.023799999999999998,
+            "relative": 0.8686131386861319
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "81.0.0",
+        "date": 1586217600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "experimental": true,
+    "standard_track": true,
+    "deprecated": false
+  }
+}

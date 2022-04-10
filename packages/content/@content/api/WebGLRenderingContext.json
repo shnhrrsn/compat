@@ -139,7 +139,7 @@
     "sha": "09bc26fb8264fff6396e75b45481187866cb9493",
     "date": "2022-01-20T18:54:53.000Z"
   },
-  "usage": 0.9524051688,
+  "usage": 0.95162,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -149,8 +149,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.26060065,
-        "relative": 0.999016856393142
+        "global": 0.26490000000000014,
+        "relative": 1
       },
       "history": [
         {
@@ -161,21 +161,21 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.26060065,
-            "relative": 0.999016856393142
+            "global": 0.26490000000000014,
+            "relative": 1
           }
         }
       ]
     },
     "chrome_android": {
-      "name": "Chrome for Android",
+      "name": "Chrome Android",
       "added": {
         "version": "25.0.0",
         "date": 1361923200
       },
       "removed": null,
       "usage": {
-        "global": 0.372095,
+        "global": 0.3619200000000001,
         "relative": 1
       },
       "history": [
@@ -187,7 +187,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.372095,
+            "global": 0.3619200000000001,
             "relative": 1
           }
         }
@@ -197,11 +197,11 @@
       "name": "Edge",
       "added": {
         "version": "12.0.0",
-        "date": 1438128000
+        "date": 1438041600
       },
       "removed": null,
       "usage": {
-        "global": 0.04125060999999999,
+        "global": 0.04079999999999999,
         "relative": 1
       },
       "history": [
@@ -211,11 +211,11 @@
           ],
           "added": {
             "version": "12.0.0",
-            "date": 1438128000
+            "date": 1438041600
           },
           "removed": null,
           "usage": {
-            "global": 0.04125060999999999,
+            "global": 0.04079999999999999,
             "relative": 1
           }
         }
@@ -229,33 +229,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04142188,
-        "relative": 0.9937029155052601
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "4.0.0",
-            "date": 1300752000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.04142188,
-            "relative": 0.9937029155052601
-          }
-        }
-      ]
-    },
-    "firefox_android": {
-      "name": "Firefox for Android",
-      "added": {
-        "version": "4.0.0",
-        "date": 1300752000
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.0028027200000000003,
+        "global": 0.03139999999999997,
         "relative": 1
       },
       "history": [
@@ -267,22 +241,48 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0028027200000000003,
+            "global": 0.03139999999999997,
             "relative": 1
           }
         }
       ]
     },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "4.0.0",
+        "date": 1301356800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.0.0",
+            "date": 1301356800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
     "ie": {
-      "name": "IE",
+      "name": "Internet Explorer",
       "added": {
         "version": "11.0.0",
         "date": 1381968000
       },
       "removed": null,
       "usage": {
-        "global": 0.00619584,
-        "relative": 0.8010650250943073
+        "global": 0.0032,
+        "relative": 0.8648648648648649
       },
       "history": [
         {
@@ -295,8 +295,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.00619584,
-            "relative": 0.8010650250943073
+            "global": 0.0032,
+            "relative": 0.8648648648648649
           }
         }
       ]
@@ -305,37 +305,11 @@
       "name": "Opera",
       "added": {
         "version": "12.0.0",
-        "date": 1323129600
+        "date": 1339632000
       },
       "removed": null,
       "usage": {
-        "global": 0.014981260000000001,
-        "relative": 0.9561021373276066
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "12.0.0",
-            "date": 1323129600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.014981260000000001,
-            "relative": 0.9561021373276066
-          }
-        }
-      ]
-    },
-    "opera_android": {
-      "name": "Opera Mobile",
-      "added": {
-        "version": "12.0.0",
-        "date": 1330300800
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.000111391,
+        "global": 0.0181,
         "relative": 1
       },
       "history": [
@@ -343,12 +317,38 @@
           "notes": null,
           "added": {
             "version": "12.0.0",
-            "date": 1330300800
+            "date": 1339632000
           },
           "removed": null,
           "usage": {
-            "global": 0.000111391,
+            "global": 0.0181,
             "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "12.0.0",
+        "date": 1330128000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1330128000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
           }
         }
       ]
@@ -361,8 +361,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.03327305,
-        "relative": 0.9949125666540782
+        "global": 0.0387,
+        "relative": 1
       },
       "history": [
         {
@@ -373,8 +373,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03327305,
-            "relative": 0.9949125666540782
+            "global": 0.0387,
+            "relative": 1
           }
         }
       ]
@@ -387,8 +387,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.14775197180000002,
-        "relative": 0.9899970306247778
+        "global": 0.16529999999999997,
+        "relative": 0.9941063266778928
       },
       "history": [
         {
@@ -399,8 +399,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.14775197180000002,
-            "relative": 0.9899970306247778
+            "global": 0.16529999999999997,
+            "relative": 0.9941063266778928
           }
         }
       ]
@@ -409,38 +409,38 @@
       "name": "Samsung Internet",
       "added": {
         "version": "1.5.0",
-        "date": null
+        "date": 1380067200
       },
       "removed": null,
       "usage": {
-        "global": 0.029318266000000003,
-        "relative": 1
+        "global": 0.027299999999999987,
+        "relative": 0.9963503649635037
       },
       "history": [
         {
           "notes": null,
           "added": {
             "version": "1.5.0",
-            "date": null
+            "date": 1380067200
           },
           "removed": null,
           "usage": {
-            "global": 0.029318266000000003,
-            "relative": 1
+            "global": 0.027299999999999987,
+            "relative": 0.9963503649635037
           }
         }
       ]
     },
     "webview_android": {
-      "name": "Android Browser",
+      "name": "WebView Android",
       "added": {
         "version": "4.4.3",
         "date": 1401667200
       },
       "removed": null,
       "usage": {
-        "global": 0.00260253,
-        "relative": 0.7428573059637695
+        "global": null,
+        "relative": null
       },
       "history": [
         {
@@ -451,8 +451,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.00260253,
-            "relative": 0.7428573059637695
+            "global": null,
+            "relative": null
           }
         }
       ]

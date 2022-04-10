@@ -136,7 +136,7 @@
     "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
     "date": "2022-02-18T09:26:54.000Z"
   },
-  "usage": 0.9382400000000001,
+  "usage": 0.7377300000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -344,18 +344,17 @@
     },
     "safari": {
       "name": "Safari",
-      "added": {
-        "version": "11.1.0",
-        "date": 1523491200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.0384,
-        "relative": 0.992248062015504
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "This method exists, but always throws <code>NotSupportedError</code>."
+          ],
           "added": {
             "version": "11.1.0",
             "date": 1523491200
@@ -364,24 +363,24 @@
           "usage": {
             "global": 0.0384,
             "relative": 0.992248062015504
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "11.3.0",
-        "date": 1522281600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.16210999999999998,
-        "relative": 0.9749218186191967
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "This method exists, but always throws <code>NotSupportedError</code>."
+          ],
           "added": {
             "version": "11.3.0",
             "date": 1522281600
@@ -390,7 +389,8 @@
           "usage": {
             "global": 0.16210999999999998,
             "relative": 0.9749218186191967
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

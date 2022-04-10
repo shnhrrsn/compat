@@ -191,16 +191,20 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.029899999999999975,
+            "relative": 0.9522292993630574
           },
           "flags": [
             {
               "type": "preference",
-              "name": "dom.payments.request.enabled"
+              "name": "dom.payments.request.enabled",
+              "value_to_set": "true"
             }
           ]
         }
@@ -217,12 +221,25 @@
       "history": [
         {
           "notes": null,
-          "added": null,
-          "removed": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1502150400
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.payments.request.enabled",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
