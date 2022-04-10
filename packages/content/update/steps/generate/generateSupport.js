@@ -155,7 +155,7 @@ function formatVersion(agent, agentName, value) {
  */
 function computeUsage(agent, range) {
 	return Array.from(agent.versions.entries())
-		.filter(([r]) => r.intersects(range))
+		.filter(([version]) => range.test(version))
 		.map(([, support]) => support.usage ?? 0)
 		.reduce((usage, value) => usage + value, 0)
 }

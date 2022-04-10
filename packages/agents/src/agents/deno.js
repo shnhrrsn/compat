@@ -8,14 +8,10 @@ export default function deno() {
 		new Map(
 			Object.entries(versions)
 				.map(
-					([version, date]) =>
-						/** @type {[SemVer.SemVer, import('../Agent.d.js').AgentVersion]} */ ([
-							SemVer.coerce(version),
-							{ date, usage: null },
-						]),
+					/** @returns {[string, import('../Agent.d.js').AgentVersion]} */
+					([version, date]) => [version, { date, usage: null }],
 				)
-				.sort(([lhs], [rhs]) => SemVer.compare(lhs, rhs))
-				.map(([semver, agentVersion]) => [new SemVer.Range(semver.format()), agentVersion]),
+				.sort(([lhs], [rhs]) => SemVer.compare(lhs, rhs)),
 		),
 	)
 }

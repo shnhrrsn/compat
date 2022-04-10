@@ -1,8 +1,6 @@
-import { Range } from 'semver'
-
 export type Agent = {
 	name: string
-	versions: Map<Range, AgentVersion>
+	versions: Map<string, AgentVersion>
 	version(version: string): AgentVersion | undefined
 }
 

@@ -5,7 +5,6 @@ import SemVer from 'semver'
  */
 
 /**
- *
  * @param {string} name
  * @param {Agent['versions']} versions
  * @returns {Agent}
@@ -15,19 +14,7 @@ export default function makeAgent(name, versions) {
 		name,
 		versions,
 		version(version) {
-			const v = SemVer.coerce(version)
-
-			if (!v) {
-				return undefined
-			}
-
-			for (const [range, info] of versions) {
-				if (range.test(v)) {
-					return info
-				}
-			}
-
-			return undefined
+			return versions.get(SemVer.coerce(version)?.format() ?? version)
 		},
 	}
 }

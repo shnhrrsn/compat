@@ -28,11 +28,11 @@ export default function mdn(name) {
 	return makeAgent(
 		compatData.browsers[name]?.name ?? name,
 		new Map(
-			entries.map(([key, date], index) => [
-				new SemVer.Range(key),
+			entries.map(([version, date], index) => [
+				version,
 				{
 					date: date,
-					usage: computeUsage(name, key, entries[index - 1]?.[0]),
+					usage: computeUsage(name, version, entries[index - 1]?.[0]),
 				},
 			]),
 		),
