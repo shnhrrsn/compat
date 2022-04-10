@@ -1,11 +1,13 @@
 import SemVer from 'semver'
 import versions from '../@versions/nodejs.js'
-import makeAgent from './makeAgent.js'
 
+/**
+ * @returns {import('../Agent.d.js').Agent}
+ */
 export default function node() {
-	return makeAgent(
-		'Node.js',
-		new Map(
+	return {
+		name: 'Node.js',
+		versions: new Map(
 			Object.entries(versions)
 				.map(
 					/** @returns {[string, import('../Agent.d.js').AgentVersion]} */
@@ -13,5 +15,5 @@ export default function node() {
 				)
 				.sort(([lhs], [rhs]) => SemVer.compare(lhs, rhs)),
 		),
-	)
+	}
 }

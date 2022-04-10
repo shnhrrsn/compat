@@ -1,11 +1,13 @@
 import SemVer from 'semver'
 import versions from '../@versions/deno.js'
-import makeAgent from './makeAgent.js'
 
+/**
+ * @returns {import('../Agent.d.js').Agent}
+ */
 export default function deno() {
-	return makeAgent(
-		'Deno',
-		new Map(
+	return {
+		name: 'Deno',
+		versions: new Map(
 			Object.entries(versions)
 				.map(
 					/** @returns {[string, import('../Agent.d.js').AgentVersion]} */
@@ -13,5 +15,5 @@ export default function deno() {
 				)
 				.sort(([lhs], [rhs]) => SemVer.compare(lhs, rhs)),
 		),
-	)
+	}
 }

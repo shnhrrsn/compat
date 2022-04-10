@@ -138,12 +138,13 @@ function formatVersion(agent, agentName, value) {
 	// TODO: Handle true better
 	const rawVersion = value === true ? '1.0.0' : value
 	const version = SemVer.coerce(rawVersion)
+	const formattedVersion = version?.format() ?? rawVersion
 
 	return {
 		version,
 		data: {
-			version: version?.format() ?? rawVersion,
-			date: agent.version(rawVersion)?.date ?? null,
+			version: formattedVersion,
+			date: agent.versions.get(formattedVersion)?.date ?? null,
 		},
 	}
 }

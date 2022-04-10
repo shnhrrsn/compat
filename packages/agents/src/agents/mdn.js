@@ -2,7 +2,6 @@ import usage from '@compat/usage'
 import compatData from '@mdn/browser-compat-data'
 import SemVer from 'semver'
 import mdnVersions from '../@versions/mdn.js'
-import makeAgent from './makeAgent.js'
 
 /**
  @typedef {import('../Agent.js').Agent} Agent
@@ -15,7 +14,7 @@ import makeAgent from './makeAgent.js'
 
 /**
  * @param {string} name
- * @returns
+ * @returns {Agent | undefined}
  */
 export default function mdn(name) {
 	const agent = mdnVersions[name]
@@ -25,9 +24,9 @@ export default function mdn(name) {
 	}
 
 	const entries = Object.entries(agent)
-	return makeAgent(
-		compatData.browsers[name]?.name ?? name,
-		new Map(
+	return {
+		name: compatData.browsers[name]?.name ?? name,
+		versions: new Map(
 			entries.map(([version, date], index) => [
 				version,
 				{
@@ -36,7 +35,7 @@ export default function mdn(name) {
 				},
 			]),
 		),
-	)
+	}
 }
 
 /**
