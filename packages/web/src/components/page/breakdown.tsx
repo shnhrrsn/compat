@@ -2,6 +2,7 @@ import { isAvailable as $isAvailable, PageSupport } from '@compat/content'
 import classNames from 'classnames'
 import { CircledSpacer } from '../shared/circledImage'
 import Image, { isValidImageSrc } from '../shared/image'
+import Table, { TableHeader, TableHeaders, TableRow } from '../shared/table'
 import { formatAvailability } from './agents'
 import AvailabilityIndicator from './availabilityIndicator'
 import styles from './breakdown.module.css'
@@ -10,26 +11,32 @@ import Usages from './usages'
 
 export default function Breakdown({ support }: { support: Record<string, PageSupport> }) {
 	return (
-		<div className={styles.breakdown}>
-			<div className={classNames(styles.grid, styles.headers)}>
-				<div className={styles.header}>
+		<Table className={styles.breakdown} gridClassName={styles.grid}>
+			<TableHeaders className={classNames(styles.headers)}>
+				<TableHeader className={styles.header}>
 					<div className={styles.icon}>&nbsp;</div>
 					Agent
-				</div>
-				<div className={styles.header}>Support</div>
-				<div className={styles.header}>Adoption</div>
+				</TableHeader>
+				<TableHeader className={styles.header}>Support</TableHeader>
+				<TableHeader className={styles.header}>Adoption</TableHeader>
 				<CircledSpacer />
-			</div>
-			<div className={styles.rows}>
-				{Object.entries(support).map(([browser, support]) => (
-					<Entry key={browser} agent={browser} support={support} />
-				))}
-			</div>
-		</div>
+			</TableHeaders>
+			{Object.entries(support).map(([browser, support]) => (
+				<Entry key={browser} agent={browser} support={support} />
+			))}
+		</Table>
 	)
 }
 
-function Entry({ agent, support }: { agent: string; support: PageSupport }) {
+function Entry({
+	agent,
+	support,
+	className,
+}: {
+	agent: string
+	support: PageSupport
+	className?: string
+}) {
 	const image =
 		agent === 'webview_android'
 			? 'android'
@@ -40,8 +47,8 @@ function Entry({ agent, support }: { agent: string; support: PageSupport }) {
 	const isAvailable = $isAvailable(support)
 
 	return (
-		<div
-			className={classNames(styles.grid, styles.row, styles[image.replace(/mobile/, '')])}
+		<TableRow
+			className={classNames(className, styles[image.replace(/mobile/, '')])}
 			tabIndex={history ? -1 : undefined}
 		>
 			<div className={styles.agent} title={`${agent} vs ${image}`}>
@@ -76,6 +83,6 @@ function Entry({ agent, support }: { agent: string; support: PageSupport }) {
 			</div>
 			<AvailabilityIndicator name={support.name} support={support} />
 			{history}
-		</div>
+		</TableRow>
 	)
 }
