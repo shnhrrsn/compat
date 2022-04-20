@@ -297,7 +297,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "From version 4 to 24, this property could give a wrong value before page load in certain circumstances (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/641188'>bug 641188</a>)."
+          ],
           "added": {
             "version": "1.0.0",
             "date": 1099958400
@@ -306,23 +308,6 @@
           "usage": {
             "global": 0.03139999999999997,
             "relative": 1
-          }
-        },
-        {
-          "notes": [
-            "This property was buggy and could give a wrong value before page load in certain circumstances, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/641188'>bug 641188</a>."
-          ],
-          "added": {
-            "version": "4.0.0",
-            "date": 1300752000
-          },
-          "removed": {
-            "version": "24.0.0",
-            "date": 1379376000
-          },
-          "usage": {
-            "global": 0.0002,
-            "relative": 0.006369426751592363
           }
         }
       ]
@@ -340,29 +325,14 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": {
-            "version": "4.0.0",
-            "date": 1301356800
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          }
-        },
-        {
           "notes": [
-            "This property was buggy and could give a wrong value before page load in certain circumstances, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/641188'>bug 641188</a>."
+            "Before version 24, this property could give a wrong value before page load in certain circumstances (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/641188'>bug 641188</a>)."
           ],
           "added": {
             "version": "4.0.0",
             "date": 1301356800
           },
-          "removed": {
-            "version": "24.0.0",
-            "date": 1379376000
-          },
+          "removed": null,
           "usage": {
             "global": null,
             "relative": null

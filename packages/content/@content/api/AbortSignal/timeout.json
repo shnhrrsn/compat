@@ -5,10 +5,86 @@
     "timeout"
   ],
   "type": "page",
-  "title": "AbortSignal / timeout",
+  "title": "AbortSignal.timeout()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/AbortSignal/timeout",
-    "spec": "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-timeout①"
+    "spec": "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-timeout①",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/abortsignal/timeout/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "366d7c5db3caec5decce666a9a15d757",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The static "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal.timeout()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method returns an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that will automatically abort after a specified time."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "9f3e3281c742d781441cc5dcee18feca3f445edd",
+    "date": "2022-04-19T17:48:24.000Z"
   },
   "usage": 0,
   "support": {
@@ -172,7 +248,10 @@
     },
     "nodejs": {
       "name": "Node.js",
-      "added": null,
+      "added": {
+        "version": "17.3.0",
+        "date": 1639699200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -181,7 +260,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "17.3.0",
+            "date": 1639699200
+          },
           "removed": null,
           "usage": {
             "global": null,
