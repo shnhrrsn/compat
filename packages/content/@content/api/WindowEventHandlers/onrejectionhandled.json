@@ -113,53 +113,15 @@
             "global": 0.02959999999999998,
             "relative": 0.9426751592356691
           }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "68.0.0",
-            "date": 1562630400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02969999999999998,
-            "relative": 0.9458598726114652
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "dom.promise_rejection_events.enabled",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": [
-            "This event handler was added in Firefox 55 but was disabled since it wasn't fully implemented. It was fully implemented in Firefox 68 and enabled by default in Firefox 69."
-          ],
-          "added": {
-            "version": "55.0.0",
-            "date": 1502150400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029899999999999975,
-            "relative": 0.9522292993630574
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "dom.promise_rejection_events.enabled",
-              "value_to_set": "true"
-            }
-          ],
-          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -168,7 +130,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "removed": null,
           "usage": {
             "global": null,

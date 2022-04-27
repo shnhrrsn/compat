@@ -217,7 +217,7 @@
       "history": [
         {
           "notes": [
-            "Disabled by default in web pages, except for an empty <code>url-prefix()</code> value, which is supported due to its <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/'>use in Firefox browser detection</a>. Still supported in user stylesheets."
+            "Only supports an empty <code>url-prefix()</code> value, which is supported due to its <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/'>use in Firefox browser detection</a>. Still supported in user stylesheets."
           ],
           "added": {
             "version": "61.0.0",
@@ -229,13 +229,7 @@
             "relative": 0.9458598726114652
           },
           "prefix": "-moz-",
-          "flags": [
-            {
-              "type": "preference",
-              "name": "layout.css.moz-document.content.enabled",
-              "value_to_set": "true"
-            }
-          ]
+          "partial_implementation": true
         },
         {
           "notes": null,
@@ -266,7 +260,7 @@
       "history": [
         {
           "notes": [
-            "Disabled by default in web pages, except for an empty <code>url-prefix()</code> value, which is supported due to its <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/'>use in Firefox browser detection</a>. Still supported in user stylesheets."
+            "Only supports an empty <code>url-prefix()</code> value, which is supported due to its <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/'>use in Firefox browser detection</a>. Still supported in user stylesheets."
           ],
           "added": {
             "version": "61.0.0",
@@ -278,13 +272,7 @@
             "relative": null
           },
           "prefix": "-moz-",
-          "flags": [
-            {
-              "type": "preference",
-              "name": "layout.css.moz-document.content.enabled",
-              "value_to_set": "true"
-            }
-          ]
+          "partial_implementation": true
         },
         {
           "notes": null,
