@@ -141,7 +141,7 @@
     "sha": "cf607d68522cd35ee7670782d3ee3a361eaef2e4",
     "date": "2021-07-20T18:47:57.000Z"
   },
-  "usage": 0.82812,
+  "usage": 0.8446199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -166,23 +166,6 @@
             "global": 0.2422999999999999,
             "relative": 0.9821645723550868
           }
-        },
-        {
-          "notes": [
-            "Chrome disabled SharedArrayBuffer on January 5, 2018 to help reduce the efficacy of <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.chromium.org/Home/chromium-security/ssca'>speculative side-channel attacks</a>. This was a temporary removal while mitigations were put in place."
-          ],
-          "added": {
-            "version": "60.0.0",
-            "date": 1500940800
-          },
-          "removed": {
-            "version": "63.0.0",
-            "date": 1512518400
-          },
-          "usage": {
-            "global": 0.0008,
-            "relative": 0.003242805026347791
-          }
         }
       ]
     },
@@ -199,9 +182,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>SharedArrayBuffer</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "89.0.0",
             "date": 1614643200
@@ -210,23 +191,6 @@
           "usage": {
             "global": 0.35379,
             "relative": 0.9369438559322034
-          }
-        },
-        {
-          "notes": [
-            "Chrome disabled SharedArrayBuffer on January 5, 2018 to help reduce the efficacy of <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.chromium.org/Home/chromium-security/ssca'>speculative side-channel attacks</a>. This is intended as a temporary measure until other mitigations are in place."
-          ],
-          "added": {
-            "version": "60.0.0",
-            "date": 1501545600
-          },
-          "removed": {
-            "version": "63.0.0",
-            "date": 1512432000
-          },
-          "usage": {
-            "global": null,
-            "relative": null
           }
         }
       ]
@@ -280,107 +244,32 @@
             "global": 0.03949999999999999,
             "relative": 0.9681372549019608
           }
-        },
-        {
-          "notes": [
-            "Support was removed to mitigate <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://blogs.windows.com/msedgedev/2018/01/03/speculative-execution-mitigations-microsoft-edge-internet-explorer'>speculative execution side-channel attacks (Windows blog)</a>."
-          ],
-          "added": {
-            "version": "16.0.0",
-            "date": 1508198400
-          },
-          "removed": {
-            "version": "17.0.0",
-            "date": 1525046400
-          },
-          "usage": {
-            "global": 0.0003,
-            "relative": 0.00735294117647059
-          }
         }
       ]
     },
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "79.0.0",
-        "date": 1595894400
+        "version": "78.0.0",
+        "date": 1593475200
       },
       "removed": null,
       "usage": {
-        "global": 0.02849999999999999,
-        "relative": 0.9018987341772152
+        "global": 0.02899999999999999,
+        "relative": 0.9177215189873418
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "79.0.0",
-            "date": 1595894400
+            "version": "78.0.0",
+            "date": 1593475200
           },
           "removed": null,
           "usage": {
-            "global": 0.02849999999999999,
-            "relative": 0.9018987341772152
+            "global": 0.02899999999999999,
+            "relative": 0.9177215189873418
           }
-        },
-        {
-          "notes": [
-            "Support was disabled by default to mitigate <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/'>speculative execution side-channel attacks (Mozilla Security Blog)</a>."
-          ],
-          "added": {
-            "version": "57.0.0",
-            "date": 1510617600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02929999999999999,
-            "relative": 0.9272151898734177
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "javascript.options.shared_memory",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "55.0.0",
-            "date": 1502150400
-          },
-          "removed": {
-            "version": "57.0.0",
-            "date": 1510617600
-          },
-          "usage": {
-            "global": 0.0005,
-            "relative": 0.01582278481012659
-          }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "46.0.0",
-            "date": 1461628800
-          },
-          "removed": {
-            "version": "55.0.0",
-            "date": 1502150400
-          },
-          "usage": {
-            "global": 0.0015,
-            "relative": 0.047468354430379764
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "javascript.options.shared_memory",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
@@ -407,64 +296,6 @@
             "global": null,
             "relative": null
           }
-        },
-        {
-          "notes": [
-            "Support was disabled by default to mitigate <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://blog.mozilla.org/security/2018/01/03/mitigations-landing-new-class-timing-attack/'>speculative execution side-channel attacks (Mozilla Security Blog)</a>."
-          ],
-          "added": {
-            "version": "57.0.0",
-            "date": 1511827200
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "javascript.options.shared_memory",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "55.0.0",
-            "date": 1502150400
-          },
-          "removed": {
-            "version": "57.0.0",
-            "date": 1511827200
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "46.0.0",
-            "date": 1461628800
-          },
-          "removed": {
-            "version": "55.0.0",
-            "date": 1502150400
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "javascript.options.shared_memory",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
@@ -516,27 +347,36 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "55.0.0",
+        "date": 1534377600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.016000000000000004,
+        "relative": 0.9876543209876543
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "55.0.0",
+            "date": 1534377600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.016000000000000004,
+            "relative": 0.9876543209876543
           }
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "63.0.0",
+        "date": 1618531200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -545,7 +385,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1618531200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -567,9 +410,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>SharedArrayBuffer</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "15.2.0",
             "date": 1639353600
@@ -578,21 +419,6 @@
           "usage": {
             "global": 0.0217,
             "relative": 0.5864864864864866
-          }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "10.1.0",
-            "date": 1490572800
-          },
-          "removed": {
-            "version": "11.0.0",
-            "date": 1505779200
-          },
-          "usage": {
-            "global": null,
-            "relative": null
           }
         }
       ]
@@ -610,9 +436,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>SharedArrayBuffer</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "15.2.0",
             "date": 1639353600
@@ -621,21 +445,6 @@
           "usage": {
             "global": 0.12023,
             "relative": 0.6999476043546604
-          }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "10.3.0",
-            "date": 1490572800
-          },
-          "removed": {
-            "version": "11.0.0",
-            "date": 1505779200
-          },
-          "usage": {
-            "global": 0.0017699999999999999,
-            "relative": 0.01030447691680736
           }
         }
       ]
@@ -653,9 +462,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>SharedArrayBuffer</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "15.0.0",
             "date": 1628812800
@@ -671,30 +478,22 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "60.0.0",
-        "date": 1501545600
+        "version": "89.0.0",
+        "date": 1614643200
       },
-      "removed": {
-        "version": "63.0.0",
-        "date": 1512432000
-      },
+      "removed": null,
       "usage": {
         "global": null,
         "relative": null
       },
       "history": [
         {
-          "notes": [
-            "Chrome disabled SharedArrayBuffer on January 5, 2018 to help reduce the efficacy of <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.chromium.org/Home/chromium-security/ssca'>speculative side-channel attacks</a>. This is intended as a temporary measure until other mitigations are in place."
-          ],
+          "notes": null,
           "added": {
-            "version": "60.0.0",
-            "date": 1501545600
+            "version": "89.0.0",
+            "date": 1614643200
           },
-          "removed": {
-            "version": "63.0.0",
-            "date": 1512432000
-          },
+          "removed": null,
           "usage": {
             "global": null,
             "relative": null

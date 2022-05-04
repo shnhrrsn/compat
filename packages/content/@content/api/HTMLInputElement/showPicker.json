@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "4ffa3ac0a1bd92f77a29b2577a7e5026",
+      "id": "3d707729f1ada6dccd8aa023e723ea47",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,22 @@
               },
               {
                 "type": "text",
-                "value": " method shows a browser picker to the\nuser."
+                "value": " method displays the browser picker for an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "input"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element."
               }
             ]
           }
@@ -57,7 +72,7 @@
       }
     },
     "seeAlso": {
-      "id": "67048575e4e05db74fc651719249f9f9",
+      "id": "e9c18a0d2c442671aef9a4356392da6e",
       "tree": {
         "type": "root",
         "children": [
@@ -133,6 +148,69 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/datalist"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<datalist>"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTML/Attributes/autocomplete"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "autocomplete"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -144,8 +222,8 @@
     }
   },
   "commit": {
-    "sha": "a7e844d1169af2ab8224553057cec5fce7d9812d",
-    "date": "2022-05-03T03:02:34.000Z"
+    "sha": "998fe42f73d84850689305ff6366129e13e53ff1",
+    "date": "2022-05-04T04:36:32.000Z"
   },
   "usage": 0.5705,
   "support": {
@@ -229,7 +307,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -237,10 +318,11 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1745005'>bug 1745005</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -251,7 +333,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -259,10 +344,11 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1745005'>bug 1745005</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -319,7 +405,10 @@
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "68.0.0",
+        "date": 1648598400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -328,7 +417,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1648598400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -429,7 +521,7 @@
     }
   },
   "status": {
-    "experimental": true,
+    "experimental": false,
     "standard_track": true,
     "deprecated": false
   }

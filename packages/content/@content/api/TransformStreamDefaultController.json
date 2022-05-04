@@ -251,7 +251,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -260,12 +263,34 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.streams.transform_streams.enabled",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
@@ -494,7 +519,7 @@
   },
   "status": {
     "experimental": false,
-    "standard_track": false,
+    "standard_track": true,
     "deprecated": false
   }
 }
