@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "77e3e70f93cf56618bb2e18baaa75b83",
+      "id": "4f26842fc76f7a5c75686825e891c8c7",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method traverses the "
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -71,16 +71,18 @@
               },
               {
                 "type": "text",
-                "value": "\nand its parents (heading toward the document root) until it finds a node that matches\nthe provided selector string. Will return itself or the matching ancestor. If no such\nelement exists, it returns "
+                "value": " interface traverses the element and its parents (heading toward the document root) until it finds a node that matches the specified "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Learn/CSS/Building_blocks/Selectors"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "null"
+                    "value": "CSS selector"
                   }
                 ]
               },
@@ -97,7 +99,7 @@
       }
     },
     "seeAlso": {
-      "id": "effdf582358198fd05e6cb13989fe7d1",
+      "id": "1d2a5022ecad18c513336c98cd2545dd",
       "tree": {
         "type": "root",
         "children": [
@@ -116,8 +118,32 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Selectors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS selectors reference"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
                     "type": "text",
-                    "value": "The "
+                    "value": "Other "
                   },
                   {
                     "type": "element",
@@ -142,46 +168,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " interface."
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Learn/CSS/Building_blocks/Selectors"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "The syntax of\nSelectors"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Other methods that take selectors: "
+                    "value": " methods that take selectors: "
                   },
                   {
                     "type": "element",
@@ -198,7 +185,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "element.querySelector()"
+                            "value": "Element.querySelector()"
                           }
                         ]
                       }
@@ -206,7 +193,32 @@
                   },
                   {
                     "type": "text",
-                    "value": " and\n"
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/querySelectorAll"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Element.querySelectorAll()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
                   },
                   {
                     "type": "element",
@@ -223,7 +235,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "element.matches()"
+                            "value": "Element.matches()"
                           }
                         ]
                       }
@@ -249,8 +261,8 @@
     }
   },
   "commit": {
-    "sha": "35fc6f203052625260151c4f0cbfd3f84a9516ae",
-    "date": "2022-04-19T06:17:43.000Z"
+    "sha": "708670bef32b19072f0bf2c6e998bf64aee89772",
+    "date": "2022-05-05T00:18:22.000Z"
   },
   "usage": 0.9433299999999999,
   "support": {
