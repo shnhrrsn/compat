@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "1c70290172c8cedfbb0afabae9e3feb1",
+      "id": "3b313dfc7203bba4091275432110d290",
       "tree": {
         "type": "root",
         "children": [
@@ -38,7 +38,7 @@
               },
               {
                 "type": "text",
-                "value": " interface represents the position and behavior of an audio source signal in space. It is an "
+                "value": " interface defines an audio-processing object that represents the location, direction, and behavior of an audio source signal in a simulated physical space. This "
               },
               {
                 "type": "element",
@@ -63,7 +63,37 @@
               },
               {
                 "type": "text",
-                "value": " audio-processing module describing its position with right-hand Cartesian coordinates, its movement using a velocity vector and its directionality using a directionality cone."
+                "value": " uses right-hand Cartesian coordinates to describe the source's "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "position"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " as a vector and its "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "orientation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " as a 3D directional cone."
               }
             ]
           }
@@ -121,8 +151,8 @@
     }
   },
   "commit": {
-    "sha": "93ae23dec42bba9d71d6f1ed45668d8d26847e9c",
-    "date": "2022-02-18T09:26:54.000Z"
+    "sha": "1948c07ee7877b946195728f8cd6aaec18e602b9",
+    "date": "2022-05-05T17:10:57.000Z"
   },
   "usage": 0.9196099999999999,
   "support": {
