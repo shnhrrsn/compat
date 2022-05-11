@@ -265,30 +265,32 @@
     "sha": "e54fd25240b825391b109769334b8e977c746aea",
     "date": "2022-03-30T06:51:38.000Z"
   },
-  "usage": 0.7042199999999998,
+  "usage": 0.7050199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "45.0.0",
-        "date": 1441065600
+        "version": "40.0.0",
+        "date": 1421798400
       },
       "removed": null,
       "usage": {
-        "global": 0.24619999999999997,
-        "relative": 0.9979732468585326
+        "global": 0.2465,
+        "relative": 0.9991892987434131
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "May be removed in a future release, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/652994'>bug 652994</a>."
+          ],
           "added": {
-            "version": "45.0.0",
-            "date": 1441065600
+            "version": "40.0.0",
+            "date": 1421798400
           },
           "removed": null,
           "usage": {
-            "global": 0.24619999999999997,
-            "relative": 0.9979732468585326
+            "global": 0.2465,
+            "relative": 0.9991892987434131
           }
         }
       ]
@@ -296,8 +298,8 @@
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "45.0.0",
-        "date": 1441065600
+        "version": "40.0.0",
+        "date": 1421798400
       },
       "removed": null,
       "usage": {
@@ -306,10 +308,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "May be removed in a future release, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/652994'>bug 652994</a>."
+          ],
           "added": {
-            "version": "45.0.0",
-            "date": 1441065600
+            "version": "40.0.0",
+            "date": 1421798400
           },
           "removed": null,
           "usage": {
@@ -361,9 +365,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
-          ],
+          "notes": null,
           "added": {
             "version": "44.0.0",
             "date": 1453766400
@@ -385,7 +387,10 @@
         "version": "44.0.0",
         "date": 1453766400
       },
-      "removed": null,
+      "removed": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
       "usage": {
         "global": null,
         "relative": null
@@ -397,7 +402,10 @@
             "version": "44.0.0",
             "date": 1453766400
           },
-          "removed": null,
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "usage": {
             "global": null,
             "relative": null
@@ -428,8 +436,8 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "32.0.0",
-        "date": 1442275200
+        "version": "27.0.0",
+        "date": 1422316800
       },
       "removed": null,
       "usage": {
@@ -440,8 +448,8 @@
         {
           "notes": null,
           "added": {
-            "version": "32.0.0",
-            "date": 1442275200
+            "version": "27.0.0",
+            "date": 1422316800
           },
           "removed": null,
           "usage": {
@@ -454,8 +462,8 @@
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "32.0.0",
-        "date": 1442966400
+        "version": "27.0.0",
+        "date": 1422489600
       },
       "removed": null,
       "usage": {
@@ -466,8 +474,8 @@
         {
           "notes": null,
           "added": {
-            "version": "32.0.0",
-            "date": 1442966400
+            "version": "27.0.0",
+            "date": 1422489600
           },
           "removed": null,
           "usage": {
@@ -520,25 +528,25 @@
     "samsunginternet_android": {
       "name": "Samsung Internet",
       "added": {
-        "version": "5.0.0",
-        "date": 1481760000
+        "version": "4.0.0",
+        "date": 1457654400
       },
       "removed": null,
       "usage": {
-        "global": 0.02559999999999999,
-        "relative": 0.9241877256317692
+        "global": 0.02609999999999999,
+        "relative": 0.9422382671480146
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "5.0.0",
-            "date": 1481760000
+            "version": "4.0.0",
+            "date": 1457654400
           },
           "removed": null,
           "usage": {
-            "global": 0.02559999999999999,
-            "relative": 0.9241877256317692
+            "global": 0.02609999999999999,
+            "relative": 0.9422382671480146
           }
         }
       ]
@@ -546,8 +554,8 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "45.0.0",
-        "date": 1441065600
+        "version": "40.0.0",
+        "date": 1421798400
       },
       "removed": null,
       "usage": {
@@ -558,8 +566,8 @@
         {
           "notes": null,
           "added": {
-            "version": "45.0.0",
-            "date": 1441065600
+            "version": "40.0.0",
+            "date": 1421798400
           },
           "removed": null,
           "usage": {
@@ -571,8 +579,8 @@
     }
   },
   "status": {
-    "experimental": true,
-    "standard_track": true,
+    "experimental": false,
+    "standard_track": false,
     "deprecated": true
   }
 }

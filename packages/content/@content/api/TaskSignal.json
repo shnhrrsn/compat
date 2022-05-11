@@ -6,6 +6,7 @@
   "type": "page",
   "title": "api / TaskSignal",
   "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/TaskSignal",
     "spec": "https://wicg.github.io/scheduling-apis/#tasksignal"
   },
   "usage": 0.61844,
@@ -90,7 +91,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -99,12 +103,34 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "type": "preference",
+              "name": "dom.enable_web_task_scheduling",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
