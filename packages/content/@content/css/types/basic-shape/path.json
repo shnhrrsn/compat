@@ -6,15 +6,15 @@
     "path"
   ],
   "type": "page",
-  "title": "<basic-shape>",
+  "title": "path()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/CSS/basic-shape#path()",
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/path",
     "spec": "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-path",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/basic-shape/index.md"
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/path/index.md"
   },
   "content": {
     "intro": {
-      "id": "a3492bc8a0f7f578e2a1384a0ce78295",
+      "id": "ea8ef023c4eb8677d7dfe46e75efe680",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "<basic-shape>"
+                        "value": "path()"
                       }
                     ]
                   }
@@ -70,93 +70,35 @@
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/CSS/CSS_Types"
+                  "href": "/en-US/docs/Web/CSS/CSS_Functions"
                 },
                 "children": [
                   {
                     "type": "text",
-                    "value": "data type"
+                    "value": "function"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " represents a shape used in the "
+                "value": " accepts an SVG path string, and is used in "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/css/properties/clip-path"
+                  "href": "/en-US/docs/Web/CSS/CSS_Shapes"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "clip-path"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "CSS Shapes"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ", "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/css/properties/shape-outside"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "shape-outside"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", and "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/css/properties/offset-path"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "offset-path"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " properties."
+                "value": " and CSS Motion Path to enable a shape to be drawn."
               }
             ]
           }
@@ -167,7 +109,7 @@
       }
     },
     "seeAlso": {
-      "id": "af709272342ab108c2b80375519f8ac5",
+      "id": "d7f8e3af7932f0022bb0746df92c898a",
       "tree": {
         "type": "root",
         "children": [
@@ -186,52 +128,13 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "Properties that use this data type: "
-                  },
-                  {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/clip-path"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "clip-path"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/shape-outside"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "shape-outside"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "<shape-outside>"
                       }
                     ]
                   }
@@ -250,12 +153,12 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/edit_css_shapes/index.html"
+                      "href": "/en-US/docs/Web/CSS/CSS_Shapes"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Edit Shape Paths in CSS — Firefox Developer Tools"
+                        "value": "CSS Shapes"
                       }
                     ]
                   }
@@ -288,6 +191,30 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://css-tricks.com/svg-path-syntax-illustrated-guide/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SVG Path Syntax Illustrated Guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -299,8 +226,8 @@
     }
   },
   "commit": {
-    "sha": "fb07d8179ca0d3b649da3253f71f424268871920",
-    "date": "2022-05-03T10:47:37.000Z"
+    "sha": "56da604e4fc9c926015751a990496f0284bf4e41",
+    "date": "2022-03-18T17:18:24.000Z"
   },
   "usage": 0,
   "support": {
@@ -424,8 +351,8 @@
           },
           "flags": [
             {
-              "type": "preference",
               "name": "layout.css.d-property.enabled",
+              "type": "preference",
               "value_to_set": "true"
             }
           ],
@@ -685,8 +612,8 @@
     }
   },
   "status": {
+    "deprecated": false,
     "experimental": false,
-    "standard_track": true,
-    "deprecated": false
+    "standard_track": true
   }
 }

@@ -5,9 +5,86 @@
     "flush"
   ],
   "type": "page",
-  "title": "AudioEncoder / flush",
+  "title": "AudioEncoder.flush()",
   "links": {
-    "spec": "https://w3c.github.io/webcodecs/#dom-audioencoder-flush"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/flush",
+    "spec": "https://w3c.github.io/webcodecs/#dom-audioencoder-flush",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/audioencoder/flush/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d1cdb02ea1d541c38be1dd84bbe0da83",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "flush()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AudioEncoder"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AudioEncoder"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a Promise that resolves once all pending messages in the queue have been completed."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "8a27b1d996de03a8cb687d8b5a0fd9fb04f2ab8d",
+    "date": "2022-04-16T05:53:55.000Z"
   },
   "usage": 0.61844,
   "support": {
@@ -295,8 +372,8 @@
     }
   },
   "status": {
+    "deprecated": false,
     "experimental": true,
-    "standard_track": true,
-    "deprecated": false
+    "standard_track": true
   }
 }

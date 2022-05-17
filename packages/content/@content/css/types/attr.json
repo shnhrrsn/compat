@@ -5,10 +5,236 @@
     "attr"
   ],
   "type": "page",
-  "title": "types / attr",
+  "title": "attr()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/CSS/attr()",
-    "spec": "https://drafts.csswg.org/css-values-5/#attr-notation"
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/attr",
+    "spec": "https://drafts.csswg.org/css-values-5/#attr-notation",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/attr/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9fd6908d78656a18fc1f24cbf16a14d0",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "attr()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Functions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "function"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/Pseudo-elements"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "pseudo-elements"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", in which case the value of the attribute on the pseudo-element's originating element is returned."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "cd8970e1626c540f232a631cec2943ee",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/Attribute_selectors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Attribute selectors"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTML/Global_attributes/data-*"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTML "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "data-*"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " attributes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/SVG/Attribute/data-*"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SVG "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "data-*"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " attributes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "e36ab31479b957d8cb4862d19eceec05e81b6be4",
+    "date": "2022-04-15T05:44:51.000Z"
   },
   "usage": 0.9530699999999999,
   "support": {
@@ -326,8 +552,8 @@
     }
   },
   "status": {
+    "deprecated": false,
     "experimental": false,
-    "standard_track": true,
-    "deprecated": false
+    "standard_track": true
   }
 }

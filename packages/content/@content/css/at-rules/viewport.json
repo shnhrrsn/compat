@@ -234,12 +234,12 @@
           },
           "flags": [
             {
-              "type": "runtime_flag",
-              "name": "--enable-experimental-webkit-features"
+              "name": "--enable-experimental-webkit-features",
+              "type": "runtime_flag"
             },
             {
-              "type": "runtime_flag",
-              "name": "--enable-viewport"
+              "name": "--enable-viewport",
+              "type": "runtime_flag"
             }
           ]
         }
@@ -272,12 +272,12 @@
           },
           "flags": [
             {
-              "type": "runtime_flag",
-              "name": "--enable-experimental-webkit-features"
+              "name": "--enable-experimental-webkit-features",
+              "type": "runtime_flag"
             },
             {
-              "type": "runtime_flag",
-              "name": "--enable-viewport"
+              "name": "--enable-viewport",
+              "type": "runtime_flag"
             }
           ]
         }
@@ -306,8 +306,8 @@
           "prefix": "-ms-",
           "flags": [
             {
-              "type": "preference",
-              "name": "Enable @-ms-viewport rules"
+              "name": "Enable @-ms-viewport rules",
+              "type": "preference"
             }
           ]
         }
@@ -403,12 +403,12 @@
           },
           "flags": [
             {
-              "type": "runtime_flag",
-              "name": "--enable-experimental-webkit-features"
+              "name": "--enable-experimental-webkit-features",
+              "type": "runtime_flag"
             },
             {
-              "type": "runtime_flag",
-              "name": "--enable-viewport"
+              "name": "--enable-viewport",
+              "type": "runtime_flag"
             }
           ]
         },
@@ -439,28 +439,6 @@
         "relative": null
       },
       "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "16.0.0",
-            "date": 1379462400
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "flags": [
-            {
-              "type": "runtime_flag",
-              "name": "--enable-experimental-webkit-features"
-            },
-            {
-              "type": "runtime_flag",
-              "name": "--enable-viewport"
-            }
-          ]
-        },
         {
           "notes": null,
           "added": {
@@ -583,8 +561,8 @@
     }
   },
   "status": {
+    "deprecated": true,
     "experimental": false,
-    "standard_track": false,
-    "deprecated": true
+    "standard_track": false
   }
 }

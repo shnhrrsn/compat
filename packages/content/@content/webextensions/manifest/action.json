@@ -1,0 +1,319 @@
+{
+  "self": [
+    "webextensions",
+    "manifest",
+    "action"
+  ],
+  "type": "page",
+  "title": "browser_action",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/manifest.json/browser_action/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "56c6375f96a8a68a2d01e6f4c8b6cbf1",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A browser action is a button that your extension adds to the browser's toolbar. The button has an icon, and may optionally have a popup whose content is specified using HTML, CSS, and JavaScript."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "dd4e5bfec1e87cdbc7d85759a5de49bc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "page_action"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sidebar_action"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "sidebar_action"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Browser styles"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "abdf172ffc52e69ea7987a1142d0f1da22589218",
+    "date": "2022-05-13T00:24:19.000Z"
+  },
+  "usage": 0.2781,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2305,
+        "relative": 0.9343331982164573
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later.",
+            "If an extension defines a browser action, it is not allowed to define a page action as well."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2305,
+            "relative": 0.9343331982164573
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611187200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03949999999999999,
+        "relative": 0.9681372549019608
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1611187200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03949999999999999,
+            "relative": 0.9681372549019608
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later.",
+            "Extension developers can turn on Manifest V3 for testing purposes using the <code>extensions.manifestV3.enabled</code> preference."
+          ],
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later.",
+            "Extension developers can turn on Manifest V3 for testing purposes using the <code>extensions.manifestV3.enabled</code> preference."
+          ],
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "74.0.0",
+        "date": 1612224000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.008100000000000001,
+        "relative": 0.49999999999999994
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later.",
+            "If an extension defines a browser action, it is not allowed to define a page action as well."
+          ],
+          "added": {
+            "version": "74.0.0",
+            "date": 1612224000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.008100000000000001,
+            "relative": 0.49999999999999994
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 or later.",
+            "If an extension defines a browser action, it is not allowed to define a page action as well."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  }
+}

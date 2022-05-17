@@ -5,10 +5,246 @@
     "calc"
   ],
   "type": "page",
-  "title": "types / calc",
+  "title": "calc()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/CSS/calc()",
-    "spec": "https://drafts.csswg.org/css-values/#calc-func"
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/calc",
+    "spec": "https://drafts.csswg.org/css-values/#calc-func",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/calc/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "e8852e7fb8bfae8b0477a9fb17f7836b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "calc()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Functions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "function"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " lets you perform calculations when specifying CSS property values. It can be used anywhere a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<length>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<frequency>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<angle>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<time>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<percentage>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<number>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<integer>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is allowed."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "4e999c9882b4a02b752439982b32fb4e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://hacks.mozilla.org/2010/06/css3-calc/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Firefox 4: CSS3 calc() ✩ Mozilla Hacks – the Web developer blog"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "f01246f406289c4c5222a5f340bcb8668118592a",
+    "date": "2022-04-06T08:08:41.000Z"
   },
   "usage": 0.9520799999999998,
   "support": {
@@ -418,8 +654,8 @@
     }
   },
   "status": {
+    "deprecated": false,
     "experimental": false,
-    "standard_track": true,
-    "deprecated": false
+    "standard_track": true
   }
 }

@@ -1,0 +1,330 @@
+{
+  "self": [
+    "webextensions",
+    "manifest",
+    "host_permissions"
+  ],
+  "type": "page",
+  "title": "host_permissions",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/host_permissions",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/manifest.json/host_permissions/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fa317a11720cec919e1c66c9925b1816",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Use the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "host_permissions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " key to request access for the APIs in your extension that read or modify host data, such as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/cookies"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "cookies"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/webRequest"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "webRequest"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/tabs"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "tabs"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". This key is an array of strings, and each string is a request for a permission."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "5b490497eea8d4f3e1a7da443afa017ae80c3d37",
+    "date": "2022-05-13T16:06:55.000Z"
+  },
+  "usage": 0.34962,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2305,
+        "relative": 0.9343331982164573
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2305,
+            "relative": 0.9343331982164573
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611187200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.03949999999999999,
+        "relative": 0.9681372549019608
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1611187200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03949999999999999,
+            "relative": 0.9681372549019608
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "74.0.0",
+        "date": 1612224000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.008100000000000001,
+        "relative": 0.49999999999999994
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "74.0.0",
+            "date": 1612224000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.008100000000000001,
+            "relative": 0.49999999999999994
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0101,
+        "relative": 0.272972972972973
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0101,
+            "relative": 0.272972972972973
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.061419999999999995,
+        "relative": 0.35757117075158645
+      },
+      "history": [
+        {
+          "notes": [
+            "Available for use in Manifest V3 only."
+          ],
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.061419999999999995,
+            "relative": 0.35757117075158645
+          }
+        }
+      ]
+    }
+  }
+}

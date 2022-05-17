@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "0cde553c3435158b45b78e02a79f632c",
+      "id": "c7e72bef47a8c1b1d366873f16abd4da",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": ", returns a promise with the tested media configuration's capabilities info; this contains the three Boolean properties "
+                "value": ", returns a promise with the tested media configuration's capabilities info.\nThis contains the three boolean properties "
               },
               {
                 "type": "element",
@@ -119,7 +119,7 @@
       }
     },
     "seeAlso": {
-      "id": "e044b27c5cbe3c8226f5fdf890b1542b",
+      "id": "6e96e755ce32007b9fc9cd8600fd2677",
       "tree": {
         "type": "root",
         "children": [
@@ -128,72 +128,6 @@
             "tagName": "ul",
             "properties": {},
             "children": [
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "MediaDecodingConfiguration"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "VideoConfiguration"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "AudioConfiguration"
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "type": "text",
                 "value": "\n"
@@ -229,6 +163,78 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLMediaElement/canPlayType"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLMediaElement.canPlayType()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for file"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/MediaSource/isTypeSupported"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "MediaSource.isTypeSupported()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for media-source"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -240,8 +246,8 @@
     }
   },
   "commit": {
-    "sha": "71e15c419b606875a6ee77adde4b39de607de5e6",
-    "date": "2022-04-28T06:41:36.000Z"
+    "sha": "fb478878ddd913568a94e64ca118a7020aaa6538",
+    "date": "2022-05-17T05:07:09.000Z"
   },
   "usage": 0.92365,
   "support": {
@@ -553,8 +559,8 @@
     }
   },
   "status": {
-    "experimental": true,
-    "standard_track": true,
-    "deprecated": false
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
   }
 }

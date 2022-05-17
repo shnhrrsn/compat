@@ -186,8 +186,8 @@
           },
           "flags": [
             {
-              "type": "preference",
-              "name": "#enable-experimental-web-platform-features"
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference"
             }
           ]
         }
@@ -230,8 +230,8 @@
           },
           "flags": [
             {
-              "type": "preference",
-              "name": "#enable-experimental-web-platform-features"
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference"
             }
           ]
         }
@@ -287,13 +287,13 @@
           },
           "flags": [
             {
-              "type": "preference",
               "name": "layout.css.backdrop-filter.enabled",
+              "type": "preference",
               "value_to_set": "true"
             },
             {
-              "type": "preference",
               "name": "gfx.webrender.all",
+              "type": "preference",
               "value_to_set": "true"
             }
           ]
@@ -379,8 +379,8 @@
           },
           "flags": [
             {
-              "type": "preference",
-              "name": "#enable-experimental-web-platform-features"
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference"
             }
           ]
         }
@@ -409,24 +409,6 @@
             "global": null,
             "relative": null
           }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "34.0.0",
-            "date": 1450224000
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "flags": [
-            {
-              "type": "preference",
-              "name": "#enable-experimental-web-platform-features"
-            }
-          ]
         }
       ]
     },
@@ -532,8 +514,8 @@
     }
   },
   "status": {
+    "deprecated": false,
     "experimental": false,
-    "standard_track": true,
-    "deprecated": false
+    "standard_track": true
   }
 }

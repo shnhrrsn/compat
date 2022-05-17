@@ -114,48 +114,62 @@
     "sha": "92464d051aa49207774d9033f5c29c6a94e6b71f",
     "date": "2022-05-15T18:41:22.000Z"
   },
-  "usage": 0,
+  "usage": 0.2781,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.2305,
+        "relative": 0.9343331982164573
       },
       "history": [
         {
           "notes": [
-            "Available in Canary builds."
+            "Available in Canary builds.",
+            "Available to Manifest V3 only."
           ],
-          "added": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.2305,
+            "relative": 0.9343331982164573
           }
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "88.0.0",
+        "date": 1611187200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.03949999999999999,
+        "relative": 0.9681372549019608
       },
       "history": [
         {
           "notes": [
-            "Available in Canary builds."
+            "Available in Canary builds.",
+            "Available to Manifest V3 only."
           ],
-          "added": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611187200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.03949999999999999,
+            "relative": 0.9681372549019608
           }
         }
       ]
@@ -182,14 +196,9 @@
           },
           "flags": [
             {
+              "name": "extensions.manifestV3.enabled",
               "type": "preference",
-              "name": "extensions.content_script_csp.enabled",
               "value_to_set": "true"
-            },
-            {
-              "type": "preference",
-              "name": "extensions.content_script_csp.report_only",
-              "value_to_set": "false"
             }
           ]
         }
@@ -217,20 +226,28 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "74.0.0",
+        "date": 1612224000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.008100000000000001,
+        "relative": 0.49999999999999994
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Available to Manifest V3 only."
+          ],
+          "added": {
+            "version": "74.0.0",
+            "date": 1612224000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.008100000000000001,
+            "relative": 0.49999999999999994
           }
         }
       ]
@@ -245,7 +262,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Available to Manifest V3 only."
+          ],
           "added": null,
           "removed": null,
           "usage": {
