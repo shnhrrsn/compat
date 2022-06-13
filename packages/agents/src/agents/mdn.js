@@ -1,10 +1,11 @@
 import usage from '@compat/usage'
-import compatData from '@mdn/browser-compat-data'
+import compatData from '@mdn/browser-compat-data' assert { type: 'json' }
 import SemVer from 'semver'
 import mdnVersions from '../@versions/mdn.js'
 
 /**
  @typedef {import('../Agent.js').Agent} Agent
+ @typedef {import('@mdn/browser-compat-data').BrowserName} BrowserName
  @typedef {{
 	key: string
 	start: SemVer.SemVer
@@ -25,7 +26,7 @@ export default function mdn(name) {
 
 	const entries = Object.entries(agent)
 	return {
-		name: compatData.browsers[name]?.name ?? name,
+		name: compatData.browsers[/** @type{BrowserName} */ (name)]?.name ?? name,
 		versions: new Map(
 			entries.map(([version, date], index) => [
 				version,

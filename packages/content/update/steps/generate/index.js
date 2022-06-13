@@ -1,4 +1,4 @@
-import compatData from '@mdn/browser-compat-data'
+import compatData from '@mdn/browser-compat-data' assert { type: 'json' }
 import path from 'path'
 import generateListing from './generateListing.js'
 import generatePage from './generatePage.js'

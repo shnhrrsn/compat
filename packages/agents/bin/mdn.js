@@ -1,4 +1,4 @@
-import compatData from '@mdn/browser-compat-data'
+import compatData from '@mdn/browser-compat-data' assert { type: 'json' }
 import { promises as fs } from 'fs'
 import SemVer from 'semver'
 import isServer from '../src/isServer.js'

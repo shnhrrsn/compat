@@ -1,11 +1,13 @@
-import compatData from '@mdn/browser-compat-data'
+import compatData from '@mdn/browser-compat-data' assert { type: 'json' }
 
-const allPages = findPaths(compatData).sort((lhs, rhs) => lhs.length - rhs.length)
+const allPages = findPaths(/** @type {*} */ (compatData)).sort(
+	(lhs, rhs) => lhs.length - rhs.length,
+)
 export default allPages
 
 /**
  *
- * @param {import('@mdn/browser-compat-data/types').PrimaryIdentifier} object
+ * @param {import('@mdn/browser-compat-data/types').Identifier} object
  * @param {string[]} path
  * @returns
  */
@@ -14,7 +16,7 @@ function findPaths(object, path = []) {
 	const paths = []
 
 	for (const key of Object.getOwnPropertyNames(object)) {
-		if (key === '__compat') {
+		if (key === '__compat' || key === '__meta') {
 			continue
 		}
 
