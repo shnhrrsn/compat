@@ -1,6 +1,6 @@
-import deno from './agents/deno.js'
-import mdn from './agents/mdn.js'
-import node from './agents/node.js'
+import deno from './@data/deno.js'
+import mdn from './@data/mdn.js'
+import nodejs from './@data/nodejs.js'
 
 /**
  * @typedef {import('./Agent.d.js').Agent} Agent
@@ -11,7 +11,7 @@ const cache = new Map()
 
 /**
  * @param {string} name
- * @returns {Agent | undefined}
+ * @returns {Readonly<Agent> | undefined}
  */
 export default function getAgent(name) {
 	if (cache.has(name)) {
@@ -22,11 +22,11 @@ export default function getAgent(name) {
 	let agent = undefined
 
 	if (/^node(js)?/i.test(name)) {
-		agent = node()
+		agent = nodejs
 	} else if (/^deno/i.test(name)) {
-		agent = deno()
+		agent = deno
 	} else {
-		agent = mdn(name)
+		agent = mdn[name]
 	}
 
 	cache.set(name, agent)

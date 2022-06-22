@@ -3,4 +3,4 @@ export type Agent = {
 	versions: Map<string, AgentVersion>
 }
 
-export type AgentVersion = { date: number; usage: number | null }
+export type AgentVersion = { date: number; usage?: number | null }
