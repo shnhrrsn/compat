@@ -53,8 +53,7 @@ function getCompatDataNewIssueURL(props: MetadataWithLinks) {
 <details>
 <summary>MDN page report details</summary>
 
-* Query: \`${props.self.join('.')}\`
-* MDN URL: ${props.links.mdn}
+* Query: \`${props.self.join('.')}\`${props.links.mdn ? `\n* MDN URL: ${props.links.mdn}` : ''}
 * Report started: ${new Date(Math.floor(Date.now() / 60_000) * 60_000).toISOString()}
 
 </details>
