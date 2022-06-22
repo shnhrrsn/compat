@@ -1,0 +1,539 @@
+{
+  "self": [
+    "javascript",
+    "operators",
+    "import"
+  ],
+  "type": "page",
+  "title": "import",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Import",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/operators/import/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "8e877ac8b7066a7bd7eb60da490229c5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "import()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " call, commonly called "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "dynamic import"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", is a function-like expression that allows loading an ECMAScript module asynchronously and dynamically into a potentially non-module environment."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "bcab4602073dc47fb68469d599c2ad6c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Statements/import"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "import"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " declaration"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "d2b50123d485c68c5321339446cf77a4bb16dd82",
+    "date": "2022-06-20T12:20:22.000Z"
+  },
+  "usage": 0.93881,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "63.0.0",
+        "date": 1512518400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.23799999999999996,
+        "relative": 0.9891936824605153
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1512518400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23799999999999996,
+            "relative": 0.9891936824605153
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "63.0.0",
+        "date": 1512432000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.38477000000000006,
+        "relative": 0.9916241430854079
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1512432000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.38477000000000006,
+            "relative": 0.9916241430854079
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.039299999999999995,
+        "relative": 0.9538834951456311
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039299999999999995,
+            "relative": 0.9538834951456311
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "67.0.0",
+        "date": 1558396800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.028399999999999984,
+        "relative": 0.9466666666666669
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "67.0.0",
+            "date": 1558396800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.028399999999999984,
+            "relative": 0.9466666666666669
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1552953600
+          },
+          "removed": {
+            "version": "67.0.0",
+            "date": 1558396800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "javascript.options.dynamicImport",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "67.0.0",
+        "date": 1558396800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "67.0.0",
+            "date": 1558396800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "13.2.0",
+        "date": 1574294400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Dynamic <code>import</code> can be used in either CommonJS or ES module files, to import either CommonJS or ES module files. See Node's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://nodejs.org/api/esm.html#esm_import_expressions'>ECMAScript Modules documentation</a> for more details."
+          ],
+          "added": {
+            "version": "13.2.0",
+            "date": 1574294400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Dynamic <code>import</code> can be used in either CommonJS or ES module files, to import either CommonJS or ES module files. See Node's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://nodejs.org/api/esm.html#esm_import_expressions'>ECMAScript Modules documentation</a> for more details."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1555977600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "--experimental-modules",
+              "type": "runtime_flag"
+            }
+          ]
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "50.0.0",
+        "date": 1515024000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0174,
+        "relative": 0.9886363636363636
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "50.0.0",
+            "date": 1515024000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0174,
+            "relative": 0.9886363636363636
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "46.0.0",
+        "date": 1526256000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "46.0.0",
+            "date": 1526256000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "11.1.0",
+        "date": 1523491200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0346,
+        "relative": 0.9942528735632183
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1523491200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0346,
+            "relative": 0.9942528735632183
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "11.3.0",
+        "date": 1522281600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.17114000000000001,
+        "relative": 0.9818140095232636
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.3.0",
+            "date": 1522281600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.17114000000000001,
+            "relative": 0.9818140095232636
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "8.0.0",
+        "date": 1531872000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025199999999999997,
+        "relative": 0.9064748201438854
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1531872000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025199999999999997,
+            "relative": 0.9064748201438854
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "63.0.0",
+        "date": 1512432000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1512432000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

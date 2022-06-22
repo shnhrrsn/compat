@@ -7,9 +7,10 @@
   "type": "page",
   "title": "PushSubscriptionChangeEvent / newSubscription",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent/newSubscription"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent/newSubscription",
+    "spec": "https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-newsubscription"
   },
-  "usage": 0.0003,
+  "usage": 0.0013,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -62,8 +63,8 @@
         "date": 1579046400
       },
       "usage": {
-        "global": 0.0003,
-        "relative": 0.007263922518159807
+        "global": 0.0013,
+        "relative": 0.031553398058252434
       },
       "history": [
         {
@@ -77,8 +78,8 @@
             "date": 1579046400
           },
           "usage": {
-            "global": 0.0003,
-            "relative": 0.007263922518159807
+            "global": 0.0013,
+            "relative": 0.031553398058252434
           }
         }
       ]
@@ -193,13 +194,19 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Supported on macOS 13 and later"
+          ],
+          "added": {
+            "version": "16.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

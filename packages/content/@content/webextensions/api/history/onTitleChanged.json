@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "0d1e386274968223562200c3410ef0b9",
+      "id": "0256d873346fd4006c6470c1f44c6f7c",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "Fired when the title of a page visited by the user is recorded.To listen for visits to a page you can use "
+                "value": "Fired when the title of a page visited by the user is recorded. To listen for visits to a page you use "
               },
               {
                 "type": "element",
@@ -89,7 +89,7 @@
               },
               {
                 "type": "text",
-                "value": " is sent.Instead, the stored "
+                "value": " is sent. Instead, the stored "
               },
               {
                 "type": "element",
@@ -114,7 +114,22 @@
               },
               {
                 "type": "text",
-                "value": " is updated with the page title after the page has loaded, once the title is known. The history.onTitleChanged event is fired at that time. So if you need to know the titles of pages as they are visited, listen for "
+                "value": " is updated with the page title after the page has loaded, once the title is known. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "history.onTitleChanged"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired at that time. So if you need to know the titles of pages as they are visited, listen for "
               },
               {
                 "type": "element",
@@ -141,10 +156,10 @@
     }
   },
   "commit": {
-    "sha": "41276ffc6899705658b01d81a903f216a3c4f5f0",
-    "date": "2022-05-04T05:04:14.000Z"
+    "sha": "c4c131c0c2e7c2180834429869d2e73c19cb1dba",
+    "date": "2022-06-20T02:39:50.000Z"
   },
-  "usage": 0.02969999999999999,
+  "usage": 0.028699999999999982,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -194,8 +209,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02969999999999999,
-        "relative": 0.939873417721519
+        "global": 0.028699999999999982,
+        "relative": 0.9566666666666668
       },
       "history": [
         {
@@ -206,8 +221,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02969999999999999,
-            "relative": 0.939873417721519
+            "global": 0.028699999999999982,
+            "relative": 0.9566666666666668
           }
         }
       ]

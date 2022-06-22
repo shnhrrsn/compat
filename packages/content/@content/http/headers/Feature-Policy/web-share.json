@@ -293,31 +293,10 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02849999999999999,
-            "relative": 0.9018987341772152
+            "global": 0.027899999999999987,
+            "relative": 0.9300000000000003
           },
           "partial_implementation": true
-        },
-        {
-          "notes": [
-            "Firefox recognizes the <code>web-share</code> permissions policy, but this has no effect in versions of Firefox that do not support the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Navigator/share'><code>share()</code></a> method."
-          ],
-          "added": {
-            "version": "81.0.0",
-            "date": 1600732800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02849999999999999,
-            "relative": 0.9018987341772152
-          },
-          "flags": [
-            {
-              "name": "dom.security.featurePolicy.header.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
@@ -344,25 +323,6 @@
             "relative": null
           },
           "partial_implementation": true
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "81.0.0",
-            "date": 1600732800
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "flags": [
-            {
-              "name": "dom.security.featurePolicy.header.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },

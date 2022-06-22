@@ -9,7 +9,7 @@
   "type": "page",
   "title": "launchWebAuthFlow / redirect_uri",
   "links": {},
-  "usage": 0.029999999999999985,
+  "usage": 0.027799999999999988,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -54,39 +54,27 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "53.0.0",
-        "date": 1492560000
+        "version": "86.0.0",
+        "date": 1614038400
       },
       "removed": null,
       "usage": {
-        "global": 0.029999999999999985,
-        "relative": 0.9493670886075949
+        "global": 0.027799999999999988,
+        "relative": 0.926666666666667
       },
       "history": [
         {
-          "notes": null,
-          "added": {
-            "version": "53.0.0",
-            "date": 1492560000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029999999999999985,
-            "relative": 0.9493670886075949
-          }
-        },
-        {
           "notes": [
-            "The <code>redirect_uri</code> URL parameter is now optional."
+            "The <code>redirect_url</code> parameter now supports a loopback address, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity#getting_the_redirect_url'>Getting the redirect URL</a> for details."
           ],
           "added": {
-            "version": "63.0.0",
-            "date": 1540252800
+            "version": "86.0.0",
+            "date": 1614038400
           },
           "removed": null,
           "usage": {
-            "global": 0.02919999999999999,
-            "relative": 0.9240506329113924
+            "global": 0.027799999999999988,
+            "relative": 0.926666666666667
           }
         },
         {
@@ -99,22 +87,34 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02899999999999999,
-            "relative": 0.9177215189873418
+            "global": 0.02829999999999999,
+            "relative": 0.9433333333333336
           }
         },
         {
           "notes": [
-            "The <code>redirect_url</code> parameter now supports a loopback address, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity#getting_the_redirect_url'>Getting the redirect URL</a> for details."
+            "The <code>redirect_uri</code> URL parameter is now optional."
           ],
           "added": {
-            "version": "86.0.0",
-            "date": 1614038400
+            "version": "63.0.0",
+            "date": 1540252800
           },
           "removed": null,
           "usage": {
-            "global": 0.028299999999999992,
-            "relative": 0.8955696202531647
+            "global": 0.028399999999999984,
+            "relative": 0.9466666666666669
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.028799999999999982,
+            "relative": 0.9600000000000001
           }
         }
       ]

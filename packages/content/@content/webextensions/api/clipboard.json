@@ -6,6 +6,85 @@
   ],
   "type": "listing",
   "title": "clipboard",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/clipboard",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/clipboard/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "eddc96682c19e3aefe1fbb364a116e8a",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The WebExtension "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "clipboard"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API (which is different from the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Clipboard_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "standard Clipboard API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") enables an extension to copy items to the system clipboard. Currently the WebExtension "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "clipboard"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " API only supports copying images, but it's intended to support copying text and HTML in the future."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "e2cd6ab858159401c4dc93cd1146e7cf9eae737f",
+    "date": "2022-06-02T03:10:03.000Z"
+  },
   "children": [
     {
       "title": "clipboard.setImageData()",

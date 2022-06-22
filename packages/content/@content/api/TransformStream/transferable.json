@@ -1,0 +1,549 @@
+{
+  "self": [
+    "api",
+    "TransformStream",
+    "transferable"
+  ],
+  "type": "page",
+  "title": "Transferable objects",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Glossary/Transferable_objects",
+    "spec": "https://streams.spec.whatwg.org/#ts-transfer",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/glossary/transferable_objects/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f89e1bd20b3d27db75c1a25d1a2f5a47",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Transferable objects"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " are objects that own resources that can be "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "transferred"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " from one context to another, ensuring that the resources are only available in one context at a time.\nFollowing a transfer, the original object is no longer usable; it no longer points to the transferred resource, and any attempt to read or write the object will throw an exception."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1d12e8c5a8f5b48d55a327f829afadc1",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/blog/transferable-objects-lightning-fast/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Transferable Objects: Lightning Fast!"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using Web Workers"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://html.spec.whatwg.org/multipage/structured-data.html#transferable-objects"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Transferable objects in the HTML specification"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/DedicatedWorkerGlobalScope/postMessage"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "DedicatedWorkerGlobalScope.postMessage()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "27a5786305407aeeee832114aac94e5683dfce24",
+    "date": "2022-06-06T06:53:09.000Z"
+  },
+  "usage": 0.67377,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.22719999999999996,
+        "relative": 0.9443059019118868
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.22719999999999996,
+            "relative": 0.9443059019118868
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.37406999999999996,
+        "relative": 0.9640482449358277
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.37406999999999996,
+            "relative": 0.9640482449358277
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605744000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.039299999999999995,
+        "relative": 0.9538834951456311
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605744000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039299999999999995,
+            "relative": 0.9538834951456311
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "preview",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "102.0.0",
+            "date": 1656374400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "dom.streams.transferable.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "73.0.0",
+        "date": 1607472000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0096,
+        "relative": 0.5454545454545454
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "73.0.0",
+            "date": 1607472000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0096,
+            "relative": 0.5454545454545454
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "62.0.0",
+        "date": 1613433600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1613433600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "14.0.0",
+        "date": 1618617600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0236,
+        "relative": 0.8489208633093531
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1618617600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0236,
+            "relative": 0.8489208633093531
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "87.0.0",
+        "date": 1605571200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "87.0.0",
+            "date": 1605571200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

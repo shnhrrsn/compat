@@ -230,10 +230,10 @@
     }
   },
   "commit": {
-    "sha": "31e72279d20bd7a0da353f42b7be83dbc954eaa7",
-    "date": "2022-05-25T00:54:55.000Z"
+    "sha": "a8bc68c6d7c25e8118e305948bf0857459eb7f16",
+    "date": "2022-06-16T04:11:41.000Z"
   },
-  "usage": 0.87378,
+  "usage": 0.8840300000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -243,8 +243,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2305,
-        "relative": 0.9343331982164573
+        "global": 0.22609999999999997,
+        "relative": 0.9397339983374895
       },
       "history": [
         {
@@ -255,9 +255,24 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2305,
-            "relative": 0.9343331982164573
+            "global": 0.22609999999999997,
+            "relative": 0.9397339983374895
           }
+        },
+        {
+          "notes": [
+            "Doesn't support combinators."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1307404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.24059999999999998,
+            "relative": 1
+          },
+          "alternative_name": ":-webkit-any()"
         },
         {
           "notes": [
@@ -272,8 +287,8 @@
             "date": 1611014400
           },
           "usage": {
-            "global": 0.012100000000000001,
-            "relative": 0.049047426023510345
+            "global": 0.011200000000000003,
+            "relative": 0.04655029093931839
           },
           "flags": [
             {
@@ -282,21 +297,6 @@
               "value_to_set": "Enabled"
             }
           ]
-        },
-        {
-          "notes": [
-            "Doesn't support combinators."
-          ],
-          "added": {
-            "version": "12.0.0",
-            "date": 1307404800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.24669999999999997,
-            "relative": 1
-          },
-          "alternative_name": ":-webkit-any()"
         }
       ]
     },
@@ -308,8 +308,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.35552999999999996,
-        "relative": 0.9415519067796609
+        "global": 0.36690999999999996,
+        "relative": 0.9455955878562958
       },
       "history": [
         {
@@ -320,8 +320,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.35552999999999996,
-            "relative": 0.9415519067796609
+            "global": 0.36690999999999996,
+            "relative": 0.9455955878562958
           }
         },
         {
@@ -334,7 +334,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3776,
+            "global": 0.3880200000000001,
             "relative": 1
           },
           "alternative_name": ":-webkit-any()"
@@ -349,8 +349,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.039999999999999994,
-        "relative": 0.9685230024213073
+        "global": 0.03919999999999999,
+        "relative": 0.9514563106796117
       },
       "history": [
         {
@@ -361,9 +361,24 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.039999999999999994,
-            "relative": 0.9685230024213073
+            "global": 0.03919999999999999,
+            "relative": 0.9514563106796117
           }
+        },
+        {
+          "notes": [
+            "Doesn't support combinators."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.039299999999999995,
+            "relative": 0.9538834951456311
+          },
+          "alternative_name": ":-webkit-any()"
         },
         {
           "notes": [
@@ -378,8 +393,8 @@
             "date": 1611187200
           },
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0001,
+            "relative": 0.002427184466019418
           },
           "flags": [
             {
@@ -388,21 +403,6 @@
               "value_to_set": "Enabled"
             }
           ]
-        },
-        {
-          "notes": [
-            "Doesn't support combinators."
-          ],
-          "added": {
-            "version": "79.0.0",
-            "date": 1579046400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.039999999999999994,
-            "relative": 0.9685230024213073
-          },
-          "alternative_name": ":-webkit-any()"
         }
       ]
     },
@@ -414,8 +414,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02899999999999999,
-        "relative": 0.9177215189873418
+        "global": 0.02829999999999999,
+        "relative": 0.9433333333333336
       },
       "history": [
         {
@@ -426,30 +426,9 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02899999999999999,
-            "relative": 0.9177215189873418
+            "global": 0.02829999999999999,
+            "relative": 0.9433333333333336
           }
-        },
-        {
-          "notes": [
-            "Enabled by default in Firefox Nightly."
-          ],
-          "added": {
-            "version": "77.0.0",
-            "date": 1591056000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02899999999999999,
-            "relative": 0.9177215189873418
-          },
-          "flags": [
-            {
-              "name": "layout.css.is-where-selectors.enabled",
-              "type": "preference",
-              "value_to_set": "enabled"
-            }
-          ]
         },
         {
           "notes": [
@@ -462,10 +441,31 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03159999999999999,
+            "global": 0.029999999999999978,
             "relative": 1
           },
           "alternative_name": ":-moz-any()"
+        },
+        {
+          "notes": [
+            "Enabled by default in Firefox Nightly."
+          ],
+          "added": {
+            "version": "77.0.0",
+            "date": 1591056000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02829999999999999,
+            "relative": 0.9433333333333336
+          },
+          "flags": [
+            {
+              "name": "layout.css.is-where-selectors.enabled",
+              "type": "preference",
+              "value_to_set": "enabled"
+            }
+          ]
         }
       ]
     },
@@ -539,8 +539,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.008100000000000001,
-        "relative": 0.49999999999999994
+        "global": 0.0096,
+        "relative": 0.5454545454545454
       },
       "history": [
         {
@@ -551,9 +551,24 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.008100000000000001,
-            "relative": 0.49999999999999994
+            "global": 0.0096,
+            "relative": 0.5454545454545454
           }
+        },
+        {
+          "notes": [
+            "Doesn't support combinators."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0175,
+            "relative": 0.9943181818181818
+          },
+          "alternative_name": ":-webkit-any()"
         },
         {
           "notes": [
@@ -568,8 +583,8 @@
             "date": 1612224000
           },
           "usage": {
-            "global": 0.0079,
-            "relative": 0.48765432098765427
+            "global": 0.0078000000000000005,
+            "relative": 0.4431818181818182
           },
           "flags": [
             {
@@ -578,21 +593,6 @@
               "value_to_set": "Enabled"
             }
           ]
-        },
-        {
-          "notes": [
-            "Doesn't support combinators."
-          ],
-          "added": {
-            "version": "15.0.0",
-            "date": 1372723200
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.016100000000000003,
-            "relative": 0.9938271604938271
-          },
-          "alternative_name": ":-webkit-any()"
         }
       ]
     },
@@ -645,8 +645,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0317,
-        "relative": 0.8567567567567569
+        "global": 0.0308,
+        "relative": 0.8850574712643678
       },
       "history": [
         {
@@ -657,8 +657,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0317,
-            "relative": 0.8567567567567569
+            "global": 0.0308,
+            "relative": 0.8850574712643678
           }
         },
         {
@@ -669,7 +669,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03699999999999999,
+            "global": 0.0348,
             "relative": 1
           },
           "alternative_name": ":matches()"
@@ -684,7 +684,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03699999999999999,
+            "global": 0.0348,
             "relative": 1
           },
           "alternative_name": ":-webkit-any()"
@@ -699,8 +699,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.15685000000000002,
-        "relative": 0.9131396635035224
+        "global": 0.16042,
+        "relative": 0.9203143824221219
       },
       "history": [
         {
@@ -711,8 +711,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.15685000000000002,
-            "relative": 0.9131396635035224
+            "global": 0.16042,
+            "relative": 0.9203143824221219
           }
         },
         {
@@ -723,8 +723,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.17111,
-            "relative": 0.996157652675089
+            "global": 0.17389,
+            "relative": 0.9975904996844706
           },
           "alternative_name": ":matches()"
         },
@@ -738,8 +738,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.17173999999999995,
-            "relative": 0.9998253478488677
+            "global": 0.17425999999999994,
+            "relative": 0.9997131547243417
           },
           "alternative_name": ":-webkit-any()"
         }
@@ -753,8 +753,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.022099999999999998,
-        "relative": 0.797833935018051
+        "global": 0.0227,
+        "relative": 0.8165467625899286
       },
       "history": [
         {
@@ -765,9 +765,22 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.022099999999999998,
-            "relative": 0.797833935018051
+            "global": 0.0227,
+            "relative": 0.8165467625899286
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1367020800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02779999999999998,
+            "relative": 1
+          },
+          "alternative_name": ":-webkit-any()"
         },
         {
           "notes": null,
@@ -781,22 +794,9 @@
           },
           "usage": {
             "global": 0.0001,
-            "relative": 0.0036101083032490998
+            "relative": 0.003597122302158276
           },
           "alternative_name": ":matches()"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "1.0.0",
-            "date": 1367020800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02769999999999998,
-            "relative": 1
-          },
-          "alternative_name": ":-webkit-any()"
         }
       ]
     },

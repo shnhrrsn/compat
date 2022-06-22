@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "f14bcf09b4c0c91423b240f13c08e93d",
+      "id": "bd4ebbaecc1f4e364e75e64bee5e6035",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method returns a new array formed by\napplying a given callback function to each element of the array, and then flattening the\nresult by one level. It is identical to a "
+                "value": " method returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level. It is identical to a "
               },
               {
                 "type": "element",
@@ -72,7 +72,7 @@
               },
               {
                 "type": "text",
-                "value": "\nfollowed by a "
+                "value": " followed by a "
               },
               {
                 "type": "element",
@@ -97,7 +97,22 @@
               },
               {
                 "type": "text",
-                "value": " of depth 1, but slightly more\nefficient than calling those two methods separately."
+                "value": " of depth 1 ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "arr.map(...args).flat()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), but slightly more efficient than calling those two methods separately."
               }
             ]
           }
@@ -333,10 +348,10 @@
     }
   },
   "commit": {
-    "sha": "88308b53c02a86b6e346af1c012c0287b11499b4",
-    "date": "2022-05-22T17:34:58.000Z"
+    "sha": "32f72d5baf3022ff82bc859f2d40921221b667e5",
+    "date": "2022-06-14T08:55:25.000Z"
   },
-  "usage": 0.93101,
+  "usage": 0.93724,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -346,8 +361,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2422999999999999,
-        "relative": 0.9821645723550868
+        "global": 0.23709999999999998,
+        "relative": 0.9854530340814629
       },
       "history": [
         {
@@ -358,8 +373,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2422999999999999,
-            "relative": 0.9821645723550868
+            "global": 0.23709999999999998,
+            "relative": 0.9854530340814629
           }
         }
       ]
@@ -372,8 +387,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37451999999999996,
-        "relative": 0.9918432203389831
+        "global": 0.38477000000000006,
+        "relative": 0.9916241430854079
       },
       "history": [
         {
@@ -384,8 +399,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37451999999999996,
-            "relative": 0.9918432203389831
+            "global": 0.38477000000000006,
+            "relative": 0.9916241430854079
           }
         }
       ]
@@ -424,8 +439,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.039999999999999994,
-        "relative": 0.9685230024213073
+        "global": 0.039299999999999995,
+        "relative": 0.9538834951456311
       },
       "history": [
         {
@@ -436,8 +451,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.039999999999999994,
-            "relative": 0.9685230024213073
+            "global": 0.039299999999999995,
+            "relative": 0.9538834951456311
           }
         }
       ]
@@ -450,8 +465,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02919999999999999,
-        "relative": 0.9240506329113924
+        "global": 0.028399999999999984,
+        "relative": 0.9466666666666669
       },
       "history": [
         {
@@ -462,8 +477,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02919999999999999,
-            "relative": 0.9240506329113924
+            "global": 0.028399999999999984,
+            "relative": 0.9466666666666669
           }
         }
       ]
@@ -548,8 +563,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.016000000000000004,
-        "relative": 0.9876543209876543
+        "global": 0.0174,
+        "relative": 0.9886363636363636
       },
       "history": [
         {
@@ -560,8 +575,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.016000000000000004,
-            "relative": 0.9876543209876543
+            "global": 0.0174,
+            "relative": 0.9886363636363636
           }
         }
       ]
@@ -600,8 +615,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.036599999999999994,
-        "relative": 0.9891891891891893
+        "global": 0.0344,
+        "relative": 0.9885057471264368
       },
       "history": [
         {
@@ -612,8 +627,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.036599999999999994,
-            "relative": 0.9891891891891893
+            "global": 0.0344,
+            "relative": 0.9885057471264368
           }
         }
       ]
@@ -626,8 +641,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16749,
-        "relative": 0.975082959771788
+        "global": 0.17077,
+        "relative": 0.9796913544833921
       },
       "history": [
         {
@@ -638,8 +653,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16749,
-            "relative": 0.975082959771788
+            "global": 0.17077,
+            "relative": 0.9796913544833921
           }
         }
       ]
@@ -652,8 +667,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0249,
-        "relative": 0.8989169675090257
+        "global": 0.025099999999999997,
+        "relative": 0.9028776978417272
       },
       "history": [
         {
@@ -664,8 +679,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0249,
-            "relative": 0.8989169675090257
+            "global": 0.025099999999999997,
+            "relative": 0.9028776978417272
           }
         }
       ]

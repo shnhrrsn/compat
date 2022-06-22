@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "3fe4a64b8c37bf3b7d03d35a68bec21b",
+      "id": "0918196aaa9a9972ea8815d3385d38cb",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method returns a "
+                "value": " method of a "
               },
               {
                 "type": "element",
@@ -72,7 +72,92 @@
               },
               {
                 "type": "text",
-                "value": ".\nWhen the promise is finally either fulfilled or rejected, the specified callback\nfunction is executed. This provides a way for code to be run whether the promise was\nfulfilled successfully, or instead rejected."
+                "value": " schedules a function,\nthe "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "callback function"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", to be called when the promise is settled.\nLike "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "then()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "catch()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", it immediately returns an equivalent "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object,\nallowing you to chain calls to another promise method, an operation called "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "composition"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -252,10 +337,10 @@
     }
   },
   "commit": {
-    "sha": "adf23aeba76556fa501e58763ef7c0ccf884f0f1",
-    "date": "2022-05-22T21:40:42.000Z"
+    "sha": "a37a3a69ed4851723a29d4c520b1b47432122195",
+    "date": "2022-06-11T04:09:43.000Z"
   },
-  "usage": 0.9330999999999999,
+  "usage": 0.9401099999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -265,8 +350,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2432999999999999,
-        "relative": 0.9862180786380216
+        "global": 0.23799999999999996,
+        "relative": 0.9891936824605153
       },
       "history": [
         {
@@ -277,8 +362,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2432999999999999,
-            "relative": 0.9862180786380216
+            "global": 0.23799999999999996,
+            "relative": 0.9891936824605153
           }
         }
       ]
@@ -291,8 +376,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37451999999999996,
-        "relative": 0.9918432203389831
+        "global": 0.38477000000000006,
+        "relative": 0.9916241430854079
       },
       "history": [
         {
@@ -303,8 +388,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37451999999999996,
-            "relative": 0.9918432203389831
+            "global": 0.38477000000000006,
+            "relative": 0.9916241430854079
           }
         }
       ]
@@ -343,8 +428,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.040299999999999996,
-        "relative": 0.9757869249394672
+        "global": 0.0406,
+        "relative": 0.9854368932038836
       },
       "history": [
         {
@@ -355,8 +440,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.040299999999999996,
-            "relative": 0.9757869249394672
+            "global": 0.0406,
+            "relative": 0.9854368932038836
           }
         }
       ]
@@ -369,8 +454,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02919999999999999,
-        "relative": 0.9240506329113924
+        "global": 0.028399999999999984,
+        "relative": 0.9466666666666669
       },
       "history": [
         {
@@ -381,8 +466,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02919999999999999,
-            "relative": 0.9240506329113924
+            "global": 0.028399999999999984,
+            "relative": 0.9466666666666669
           }
         }
       ]
@@ -467,8 +552,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.016000000000000004,
-        "relative": 0.9876543209876543
+        "global": 0.0174,
+        "relative": 0.9886363636363636
       },
       "history": [
         {
@@ -479,8 +564,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.016000000000000004,
-            "relative": 0.9876543209876543
+            "global": 0.0174,
+            "relative": 0.9886363636363636
           }
         }
       ]
@@ -519,8 +604,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.036899999999999995,
-        "relative": 0.9972972972972973
+        "global": 0.0346,
+        "relative": 0.9942528735632183
       },
       "history": [
         {
@@ -531,8 +616,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.036899999999999995,
-            "relative": 0.9972972972972973
+            "global": 0.0346,
+            "relative": 0.9942528735632183
           }
         }
       ]
@@ -545,8 +630,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16788,
-        "relative": 0.9773534377365084
+        "global": 0.17114000000000001,
+        "relative": 0.9818140095232636
       },
       "history": [
         {
@@ -557,8 +642,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16788,
-            "relative": 0.9773534377365084
+            "global": 0.17114000000000001,
+            "relative": 0.9818140095232636
           }
         }
       ]
@@ -571,8 +656,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.024999999999999994,
-        "relative": 0.9025270758122748
+        "global": 0.025199999999999997,
+        "relative": 0.9064748201438854
       },
       "history": [
         {
@@ -583,8 +668,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.024999999999999994,
-            "relative": 0.9025270758122748
+            "global": 0.025199999999999997,
+            "relative": 0.9064748201438854
           }
         }
       ]

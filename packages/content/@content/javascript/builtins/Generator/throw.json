@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "d6bf9dba057d11cac69d62c1a9e4b92e",
+      "id": "63785aefef6f936885fe42f571619a7c",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method resumes the\nexecution of a generator by throwing an error into it and returns an object with two\nproperties "
+                "value": " method of a generator acts as if a "
               },
               {
                 "type": "element",
@@ -56,28 +56,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "done"
+                    "value": "throw"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "value"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "."
+                "value": " statement is inserted in the generator's body at the current suspended position, which informs the generator of an error condition and allows it to handle the error, or perform cleanup and close itself."
               }
             ]
           }
@@ -133,10 +118,10 @@
     }
   },
   "commit": {
-    "sha": "d0c1207d17782d101c4592e697695de9a4e73d34",
-    "date": "2021-07-26T19:24:23.000Z"
+    "sha": "4d7aa86ff44bfe23d1a4b60a2c3aafb25f9a118a",
+    "date": "2022-06-20T13:20:39.000Z"
   },
-  "usage": 0.9427099999999999,
+  "usage": 0.9472499999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -146,8 +131,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2465,
-        "relative": 0.9991892987434131
+        "global": 0.2404,
+        "relative": 0.999168744804655
       },
       "history": [
         {
@@ -158,8 +143,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2465,
-            "relative": 0.9991892987434131
+            "global": 0.2404,
+            "relative": 0.999168744804655
           }
         }
       ]
@@ -172,8 +157,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37451999999999996,
-        "relative": 0.9918432203389831
+        "global": 0.38477000000000006,
+        "relative": 0.9916241430854079
       },
       "history": [
         {
@@ -184,8 +169,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37451999999999996,
-            "relative": 0.9918432203389831
+            "global": 0.38477000000000006,
+            "relative": 0.9916241430854079
           }
         }
       ]
@@ -224,7 +209,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.041299999999999996,
+        "global": 0.041199999999999994,
         "relative": 1
       },
       "history": [
@@ -236,7 +221,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.041299999999999996,
+            "global": 0.041199999999999994,
             "relative": 1
           }
         }
@@ -250,8 +235,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.03139999999999999,
-        "relative": 0.9936708860759493
+        "global": 0.02979999999999998,
+        "relative": 0.9933333333333333
       },
       "history": [
         {
@@ -262,8 +247,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03139999999999999,
-            "relative": 0.9936708860759493
+            "global": 0.02979999999999998,
+            "relative": 0.9933333333333333
           }
         }
       ]
@@ -366,8 +351,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.016100000000000003,
-        "relative": 0.9938271604938271
+        "global": 0.0175,
+        "relative": 0.9943181818181818
       },
       "history": [
         {
@@ -378,8 +363,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.016100000000000003,
-            "relative": 0.9938271604938271
+            "global": 0.0175,
+            "relative": 0.9943181818181818
           }
         }
       ]
@@ -418,8 +403,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.036899999999999995,
-        "relative": 0.9972972972972973
+        "global": 0.0346,
+        "relative": 0.9942528735632183
       },
       "history": [
         {
@@ -430,8 +415,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.036899999999999995,
-            "relative": 0.9972972972972973
+            "global": 0.0346,
+            "relative": 0.9942528735632183
           }
         }
       ]
@@ -444,8 +429,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16989,
-        "relative": 0.9890551318623744
+        "global": 0.17278000000000002,
+        "relative": 0.9912225345648562
       },
       "history": [
         {
@@ -456,8 +441,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16989,
-            "relative": 0.9890551318623744
+            "global": 0.17278000000000002,
+            "relative": 0.9912225345648562
           }
         }
       ]
@@ -470,8 +455,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02609999999999999,
-        "relative": 0.9422382671480146
+        "global": 0.026199999999999987,
+        "relative": 0.9424460431654679
       },
       "history": [
         {
@@ -482,8 +467,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02609999999999999,
-            "relative": 0.9422382671480146
+            "global": 0.026199999999999987,
+            "relative": 0.9424460431654679
           }
         }
       ]

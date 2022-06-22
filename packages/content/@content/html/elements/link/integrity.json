@@ -6,9 +6,213 @@
     "integrity"
   ],
   "type": "page",
-  "title": "link / integrity",
-  "links": {},
-  "usage": 0.9389,
+  "title": "Subresource Integrity",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/Security/Subresource_Integrity",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-integrity",
+      "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/security/subresource_integrity/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "502eea02f0e530c80d1212ed3aa652b3",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Subresource Integrity"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (SRI) is a security feature that enables browsers to verify that resources they fetch (for example, from a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/CDN"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CDN"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") are delivered without unexpected manipulation. It works by allowing you to provide a cryptographic hash that a fetched resource must match."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a7a94e72788cbe7a22822dc5135da485",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Content Security Policy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/csp/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://frederik-braun.com/using-subresource-integrity.html"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "A CDN that can not XSS you: Using Subresource Integrity"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://w3c-test.org/subresource-integrity/subresource-integrity.html"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Subresource Integrity test from W3C"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.srihash.org/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SRI Hash Generator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "54e3339c1e6036a74d27bcaf927942c4b2315dd7",
+    "date": "2022-06-21T06:33:12.000Z"
+  },
+  "usage": 0.94431,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -18,8 +222,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.24619999999999997,
-        "relative": 0.9979732468585326
+        "global": 0.24009999999999998,
+        "relative": 0.9979218620116376
       },
       "history": [
         {
@@ -30,8 +234,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.24619999999999997,
-            "relative": 0.9979732468585326
+            "global": 0.24009999999999998,
+            "relative": 0.9979218620116376
           }
         }
       ]
@@ -44,8 +248,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37451999999999996,
-        "relative": 0.9918432203389831
+        "global": 0.38477000000000006,
+        "relative": 0.9916241430854079
       },
       "history": [
         {
@@ -56,8 +260,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37451999999999996,
-            "relative": 0.9918432203389831
+            "global": 0.38477000000000006,
+            "relative": 0.9916241430854079
           }
         }
       ]
@@ -70,8 +274,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.040299999999999996,
-        "relative": 0.9757869249394672
+        "global": 0.0406,
+        "relative": 0.9854368932038836
       },
       "history": [
         {
@@ -82,8 +286,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.040299999999999996,
-            "relative": 0.9757869249394672
+            "global": 0.0406,
+            "relative": 0.9854368932038836
           }
         }
       ]
@@ -96,8 +300,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.03139999999999999,
-        "relative": 0.9936708860759493
+        "global": 0.02979999999999998,
+        "relative": 0.9933333333333333
       },
       "history": [
         {
@@ -108,8 +312,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03139999999999999,
-            "relative": 0.9936708860759493
+            "global": 0.02979999999999998,
+            "relative": 0.9933333333333333
           }
         }
       ]
@@ -168,8 +372,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.016100000000000003,
-        "relative": 0.9938271604938271
+        "global": 0.0175,
+        "relative": 0.9943181818181818
       },
       "history": [
         {
@@ -180,8 +384,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.016100000000000003,
-            "relative": 0.9938271604938271
+            "global": 0.0175,
+            "relative": 0.9943181818181818
           }
         }
       ]
@@ -220,8 +424,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.036899999999999995,
-        "relative": 0.9972972972972973
+        "global": 0.0346,
+        "relative": 0.9942528735632183
       },
       "history": [
         {
@@ -232,8 +436,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.036899999999999995,
-            "relative": 0.9972972972972973
+            "global": 0.0346,
+            "relative": 0.9942528735632183
           }
         }
       ]
@@ -246,8 +450,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16788,
-        "relative": 0.9773534377365084
+        "global": 0.17114000000000001,
+        "relative": 0.9818140095232636
       },
       "history": [
         {
@@ -258,8 +462,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16788,
-            "relative": 0.9773534377365084
+            "global": 0.17114000000000001,
+            "relative": 0.9818140095232636
           }
         }
       ]
@@ -272,8 +476,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02559999999999999,
-        "relative": 0.9241877256317692
+        "global": 0.025799999999999993,
+        "relative": 0.9280575539568349
       },
       "history": [
         {
@@ -284,8 +488,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02559999999999999,
-            "relative": 0.9241877256317692
+            "global": 0.025799999999999993,
+            "relative": 0.9280575539568349
           }
         }
       ]
