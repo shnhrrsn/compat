@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "92b306449a04e85a6129a7027261744b",
+      "id": "dc9f2a1c6f6752b0dfe50c042c4a656b",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " element is a semantic alternative to "
+                "value": " element is described in the HTML specification as a semantic alternative to "
               },
               {
                 "type": "element",
@@ -88,7 +88,32 @@
               },
               {
                 "type": "text",
-                "value": ". It represents an unordered list of items (represented by "
+                "value": ", but treated by browsers (and exposed through the accessibility tree) as no different than "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/ul"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<ul>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". It represents an unordered list of items (which are represented by "
               },
               {
                 "type": "element",
@@ -113,7 +138,7 @@
               },
               {
                 "type": "text",
-                "value": " elements), each of which represents a link or other command that the user can activate."
+                "value": " elements)."
               }
             ]
           }
@@ -237,8 +262,8 @@
     }
   },
   "commit": {
-    "sha": "2ec681bd9ad77115496f551c62fee2ba50c9007f",
-    "date": "2022-05-01T05:13:11.000Z"
+    "sha": "19030726388f7e680ede2ab437ff121d65ec93db",
+    "date": "2022-06-22T20:05:46.000Z"
   },
   "usage": 0.96063,
   "support": {
