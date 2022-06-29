@@ -325,7 +325,7 @@
     "sha": "34824110fdb96935876ef49348813a4405682d5c",
     "date": "2022-06-01T05:44:30.000Z"
   },
-  "usage": 0.90369,
+  "usage": 0.93199,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -407,27 +407,54 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "72.0.0",
+        "date": 1578355200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.02829999999999999,
+        "relative": 0.9433333333333336
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "72.0.0",
+            "date": 1578355200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.02829999999999999,
+            "relative": 0.9433333333333336
           }
+        },
+        {
+          "notes": [
+            "Before Firefox 72, the event handler was exposed but had no effect."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": {
+            "version": "72.0.0",
+            "date": 1578355200
+          },
+          "usage": {
+            "global": 0.0001,
+            "relative": 0.0033333333333333357
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -436,12 +463,33 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Before Firefox 72, the event handler was exposed but had no effect."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },

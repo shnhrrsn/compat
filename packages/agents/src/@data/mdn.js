@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"106.0.0",
+				{
+					"date": 1664236800,
+					"usage": null
+				}
+			],
+			[
 				"105.0.0",
 				{
 					"date": 1661817600,
@@ -737,6 +744,13 @@ const mdn = {
 		name: 'Chrome Android',
 		versions: new Map([
 			[
+				"106.0.0",
+				{
+					"date": 1664236800,
+					"usage": null
+				}
+			],
+			[
 				"105.0.0",
 				{
 					"date": 1661817600,
@@ -1308,6 +1322,13 @@ const mdn = {
 	edge: {
 		name: 'Edge',
 		versions: new Map([
+			[
+				"105.0.0",
+				{
+					"date": 1661990400,
+					"usage": null
+				}
+			],
 			[
 				"104.0.0",
 				{
@@ -4795,6 +4816,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"106.0.0",
+				{
+					"date": 1664236800,
+					"usage": null
+				}
+			],
 			[
 				"105.0.0",
 				{
