@@ -17,7 +17,7 @@
   },
   "content": {
     "intro": {
-      "id": "968f4a1906674e16602ef3b597016034",
+      "id": "1b81dbb12c3fee32f5539f038f2c65bc",
       "tree": {
         "type": "root",
         "children": [
@@ -50,7 +50,35 @@
               },
               {
                 "type": "text",
-                "value": " method returns a string with a\nlanguage-sensitive representation of the time portion of the date. The newer\n"
+                "value": " method returns a string with a language-sensitive representation of the time portion of the date. In implementations with "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Intl.DateTimeFormat"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " support, this method simply calls "
               },
               {
                 "type": "element",
@@ -59,28 +87,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "locales"
+                    "value": "Intl.DateTimeFormat"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "options"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " arguments let applications specify the\nlanguage formatting conventions to use. These arguments can also customize the behavior of the\nfunction."
+                "value": "."
               }
             ]
           }
@@ -264,10 +277,10 @@
     }
   },
   "commit": {
-    "sha": "f68ee0cbd3b0adc97250e098f614866a901268d8",
-    "date": "2022-05-22T22:34:59.000Z"
+    "sha": "164729eb8ef441d158fcc4ddf4c1dac2f85683df",
+    "date": "2022-07-01T09:23:39.000Z"
   },
-  "usage": 0.96063,
+  "usage": 0.9617,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -277,7 +290,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.24059999999999998,
+        "global": 0.23900000000000013,
         "relative": 1
       },
       "history": [
@@ -289,7 +302,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.24059999999999998,
+            "global": 0.23900000000000013,
             "relative": 1
           }
         }
@@ -303,7 +316,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3880200000000001,
+        "global": 0.39848000000000006,
         "relative": 1
       },
       "history": [
@@ -315,7 +328,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3880200000000001,
+            "global": 0.39848000000000006,
             "relative": 1
           }
         }
@@ -355,7 +368,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.041199999999999994,
+        "global": 0.04069999999999999,
         "relative": 1
       },
       "history": [
@@ -367,7 +380,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.041199999999999994,
+            "global": 0.04069999999999999,
             "relative": 1
           }
         }
@@ -381,7 +394,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.029999999999999978,
+        "global": 0.03029999999999998,
         "relative": 1
       },
       "history": [
@@ -393,7 +406,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.029999999999999978,
+            "global": 0.03029999999999998,
             "relative": 1
           }
         }
@@ -433,7 +446,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0063,
+        "global": 0.0027,
         "relative": 1
       },
       "history": [
@@ -445,7 +458,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0063,
+            "global": 0.0027,
             "relative": 1
           }
         }
@@ -537,7 +550,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0348,
+        "global": 0.033,
         "relative": 1
       },
       "history": [
@@ -549,7 +562,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0348,
+            "global": 0.033,
             "relative": 1
           }
         }
@@ -563,7 +576,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.17430999999999994,
+        "global": 0.17181999999999992,
         "relative": 1
       },
       "history": [
@@ -575,7 +588,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.17430999999999994,
+            "global": 0.17181999999999992,
             "relative": 1
           }
         }
@@ -589,7 +602,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02779999999999998,
+        "global": 0.028099999999999983,
         "relative": 1
       },
       "history": [
@@ -601,7 +614,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02779999999999998,
+            "global": 0.028099999999999983,
             "relative": 1
           }
         }
