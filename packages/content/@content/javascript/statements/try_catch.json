@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "4ee0e4ea9c09c8555eaad55d3402f6de",
+      "id": "9ae99e1f56f3148d4250d09ab71850de",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " statement marks a "
+                "value": " statement is comprised of a "
               },
               {
                 "type": "element",
@@ -61,7 +61,7 @@
               },
               {
                 "type": "text",
-                "value": " block and a "
+                "value": " block and either a "
               },
               {
                 "type": "element",
@@ -76,7 +76,22 @@
               },
               {
                 "type": "text",
-                "value": " block. If the code in the "
+                "value": " block, a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "finally"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " block, or both. The code in the "
               },
               {
                 "type": "element",
@@ -91,7 +106,7 @@
               },
               {
                 "type": "text",
-                "value": " block throws an exception then the code in the "
+                "value": " block is executed first, and if it throws an exception, the code in the "
               },
               {
                 "type": "element",
@@ -106,7 +121,22 @@
               },
               {
                 "type": "text",
-                "value": " block will be executed."
+                "value": " block will be executed. The code in the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "finally"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " block will always be executed before control flow exits the entire construct."
               }
             ]
           }
@@ -194,8 +224,8 @@
     }
   },
   "commit": {
-    "sha": "7abcdfb82115baf9f3d64bc395c606b0819b967f",
-    "date": "2022-03-11T16:42:52.000Z"
+    "sha": "8780c8021b123ae64e553dde00f0c6a1fa0fea47",
+    "date": "2022-07-05T08:10:57.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {
