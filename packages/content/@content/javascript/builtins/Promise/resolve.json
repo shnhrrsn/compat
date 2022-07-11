@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "6d5d37a8ed5e98a74fdba51494864bb3",
+      "id": "3decb658ac44d12af5ec8c1799eee3de",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method returns a\n"
+                "value": " method \"resolves\" a given value to a "
               },
               {
                 "type": "element",
@@ -72,32 +72,54 @@
               },
               {
                 "type": "text",
-                "value": " object that is resolved with a given value. If the value is a\npromise, that promise is returned; if the value is a thenable (i.e. has a\n"
+                "value": ". If the value is a promise, that promise is returned; if the value is a "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/Promise/then"
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise#thenables"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "\"then"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "thenable"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "), the returned promise will \"follow\" that\nthenable, adopting its eventual state; otherwise the returned promise will be fulfilled\nwith the value. This function flattens nested layers of promise-like objects (e.g. a\npromise that resolves to a promise that resolves to something) into a single layer."
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Promise.resolve()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " will call the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "then()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method with two callbacks it prepared; otherwise the returned promise will be fulfilled with the value."
               }
             ]
           }
@@ -163,8 +185,8 @@
     }
   },
   "commit": {
-    "sha": "b8e48dd3770bbc3054ef86600a7bbd6592a91244",
-    "date": "2022-05-22T21:50:14.000Z"
+    "sha": "600d504d3f2aa8d1a2e9c7711f8af7b8ee62197f",
+    "date": "2022-07-10T06:10:44.000Z"
   },
   "usage": 0.9585100000000003,
   "support": {
