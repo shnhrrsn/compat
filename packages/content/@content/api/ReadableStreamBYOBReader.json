@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "86ec651d7309165fc37abeff33f15abe",
+      "id": "38cfe891d524062e4e115a4e7fb2aa96",
       "tree": {
         "type": "root",
         "children": [
@@ -55,14 +55,14 @@
               },
               {
                 "type": "text",
-                "value": " represents a BYOB (\"bring your own buffer\") reader that can be used to read stream data supplied by the developer (e.g. a custom "
+                "value": " defines a reader for a "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/ReadableStream/ReadableStream"
+                  "href": "/api/ReadableStream"
                 },
                 "children": [
                   {
@@ -72,7 +72,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "ReadableStream()"
+                        "value": "ReadableStream"
                       }
                     ]
                   }
@@ -80,7 +80,53 @@
               },
               {
                 "type": "text",
-                "value": " constructor)."
+                "value": " that supports zero-copy reading from an underlying byte source.\nIt is used for efficient copying from underlying sources where the data is delivered as an \"anonymous\" sequence of bytes, such as files."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "76f980258f884144d6b66a4896444514",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using readable byte stream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -92,8 +138,8 @@
     }
   },
   "commit": {
-    "sha": "875eef5ce2cd92c56d8ab8cb58c85d85bb341d4a",
-    "date": "2022-06-02T05:03:51.000Z"
+    "sha": "5f38ba432b8f002911fbbf3b2333fbbe73b4eeba",
+    "date": "2022-07-12T00:16:19.000Z"
   },
   "usage": 0.67505,
   "support": {
