@@ -153,7 +153,7 @@
     "sha": "9afd3c79e10cb71a3cd2a6b6c8e4ac766a2701b4",
     "date": "2022-06-03T03:59:30.000Z"
   },
-  "usage": 0.63608,
+  "usage": 0.65598,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -406,6 +406,54 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "18.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "18.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": {
@@ -429,6 +477,28 @@
             "global": 0.0101,
             "relative": 0.5674157303370786
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1631577600
+          },
+          "removed": {
+            "version": "81.0.0",
+            "date": 1635984000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
@@ -500,20 +570,26 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": 1651622400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0199,
+        "relative": 0.7081850533807833
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1651622400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0199,
+            "relative": 0.7081850533807833
           }
         }
       ]

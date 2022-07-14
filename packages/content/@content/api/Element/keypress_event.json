@@ -8,7 +8,10 @@
   "title": "Element: keypress event",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/Element/keypress_event",
-    "spec": "https://w3c.github.io/uievents/#event-type-keypress",
+    "spec": [
+      "https://w3c.github.io/uievents/#event-type-keypress",
+      "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeypress"
+    ],
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/keypress_event/index.md"
   },
   "content": {
@@ -438,6 +441,34 @@
           "usage": {
             "global": 0.0027,
             "relative": 1
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Chrome does not fire the <code>keypress</code> event for <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/13891#c50'>known keyboard shortcuts</a>. Which keyboard shortcuts are known depends on the user's system. Use the <code>keydown</code> event to implement keyboard shortcuts."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
           }
         }
       ]

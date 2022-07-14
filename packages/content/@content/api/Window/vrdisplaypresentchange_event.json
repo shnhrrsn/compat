@@ -363,6 +363,41 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "9.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Chrome for Android 56 supports only Google Daydream View.",
+            "Chrome for Android 57 adds support for Google Cardboard."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": null,
@@ -374,12 +409,25 @@
       "history": [
         {
           "notes": null,
-          "added": null,
-          "removed": null,
+          "added": {
+            "version": "52.0.0",
+            "date": 1521676800
+          },
+          "removed": {
+            "version": "67.0.0",
+            "date": 1583193600
+          },
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.004000000000000001,
+            "relative": 0.22471910112359553
+          },
+          "flags": [
+            {
+              "name": "WebVR",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },

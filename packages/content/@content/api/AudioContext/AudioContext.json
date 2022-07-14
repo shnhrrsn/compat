@@ -359,6 +359,35 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Before Chrome 66, each tab is limited to 6 audio contexts in Chrome; attempting to create more will throw a <code>DOMException</code>. For details see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Per-tab_audio_context_limitation_in_Chrome'>Per-tab audio context limitation in Chrome</a>.",
+            "If <code>latencyHint</code> isn't valid, Chrome throws a <code>TypeError</code> exception. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext#Non-standard_exceptions_in_Chrome'>Non-standard exceptions in Chrome</a> for details."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": {

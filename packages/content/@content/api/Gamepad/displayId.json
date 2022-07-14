@@ -474,6 +474,40 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": {
+        "version": "9.0.0",
+        "date": null
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Currently supported only by Google Daydream."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": null,
@@ -484,13 +518,27 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
-          "removed": null,
+          "notes": [
+            "Only works on desktop in an <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webvr.info/get-chrome/'>experimental version of Opera</a> (other builds won't return any devices when <code>Navigator.getVRDisplays()</code> is invoked)."
+          ],
+          "added": {
+            "version": "42.0.0",
+            "date": 1481587200
+          },
+          "removed": {
+            "version": "67.0.0",
+            "date": 1583193600
+          },
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.004100000000000001,
+            "relative": 0.2303370786516854
+          },
+          "flags": [
+            {
+              "name": "WebVR",
+              "type": "preference"
+            }
+          ]
         }
       ]
     },

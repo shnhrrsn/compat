@@ -1559,6 +1559,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"104.0.0",
+				{
+					"date": 1661212800,
+					"usage": null
+				}
+			],
+			[
 				"103.0.0",
 				{
 					"date": 1658793600,
@@ -2306,6 +2313,13 @@ const mdn = {
 		name: 'Firefox for Android',
 		versions: new Map([
 			[
+				"104.0.0",
+				{
+					"date": 1661212800,
+					"usage": null
+				}
+			],
+			[
 				"103.0.0",
 				{
 					"date": 1658793600,
@@ -3009,6 +3023,83 @@ const mdn = {
 		name: 'Oculus Browser',
 		versions: new Map([
 			[
+				"22.0.0",
+				{
+					"date": 1654473600,
+					"usage": null
+				}
+			],
+			[
+				"21.0.0",
+				{
+					"date": 1650844800,
+					"usage": null
+				}
+			],
+			[
+				"20.0.0",
+				{
+					"date": 1647216000,
+					"usage": null
+				}
+			],
+			[
+				"19.0.0",
+				{
+					"date": 1643587200,
+					"usage": null
+				}
+			],
+			[
+				"18.0.0",
+				{
+					"date": 1638230400,
+					"usage": null
+				}
+			],
+			[
+				"17.0.0",
+				{
+					"date": 1631491200,
+					"usage": null
+				}
+			],
+			[
+				"16.6.0",
+				{
+					"date": 1630281600,
+					"usage": null
+				}
+			],
+			[
+				"16.5.0",
+				{
+					"date": 1629072000,
+					"usage": null
+				}
+			],
+			[
+				"16.4.0",
+				{
+					"date": 1627862400,
+					"usage": null
+				}
+			],
+			[
+				"16.3.0",
+				{
+					"date": 1626652800,
+					"usage": null
+				}
+			],
+			[
+				"16.2.0",
+				{
+					"date": 1625529600,
+					"usage": null
+				}
+			],
+			[
 				"16.1.0",
 				{
 					"date": 1624320000,
@@ -3027,6 +3118,13 @@ const mdn = {
 	opera: {
 		name: 'Opera',
 		versions: new Map([
+			[
+				"89.0.0",
+				{
+					"date": 1657152000,
+					"usage": null
+				}
+			],
 			[
 				"88.0.0",
 				{
@@ -3739,6 +3837,13 @@ const mdn = {
 	opera_android: {
 		name: 'Opera Android',
 		versions: new Map([
+			[
+				"70.0.0",
+				{
+					"date": 1656460800,
+					"usage": null
+				}
+			],
 			[
 				"69.0.0",
 				{

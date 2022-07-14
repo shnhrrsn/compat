@@ -572,6 +572,33 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Chrome does not print backgrounds of the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/body'><code>&lt;body&gt;</code></a> element. If this property is set to <code>exact</code> for the <code>&lt;body&gt;</code> element, it will apply only to its descendants.",
+            "Before version 26, if background images are clipped (for example, when using <code>background-image</code> sprites) and <code>-webkit-print-color-adjust</code> is set to <code>exact</code>, then backgrounds will appear distorted when printed. Solid backgrounds and background images that are not clipped (i.e., backgrounds that have narrower and shorter than the element to which they are applied) are printed correctly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/131054'>Chromium bug 131054</a>."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-"
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": null,

@@ -312,6 +312,38 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1051189'>bug 1051189</a>."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": null,
@@ -322,13 +354,25 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1051189'>bug 1051189</a>."
+          ],
+          "added": {
+            "version": "71.0.0",
+            "date": 1600128000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0101,
+            "relative": 0.5674157303370786
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },

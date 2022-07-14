@@ -396,6 +396,35 @@
         }
       ]
     },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Starting with Chrome 46, update() returns a promise that resolves with 'undefined' if the operation completed successfully or there was no update, and rejects if update failed. If the new worker ran but installation failed, the promise still resolves. Formerly, it raised an exception.",
+            "Before Chrome 48, this method always bypassed the browser cache. Starting with Chrome 48, it only bypasses the cache when the previous service worker check was more than twenty-four hours ago."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
     "opera": {
       "name": "Opera",
       "added": {
