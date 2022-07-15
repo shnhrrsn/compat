@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "382efad7d3f8d57eebf3045651048b9a",
+      "id": "7afb7c79604520445383743648f42691",
       "tree": {
         "type": "root",
         "children": [
@@ -54,7 +54,22 @@
               },
               {
                 "type": "text",
-                "value": "\n(zero-fill right shift) shifts the first operand the specified number of bits, modulo 32, to the\nright."
+                "value": " (zero-fill right shift) evaluates the left-hand operand as an unsigned number, and shifts the binary representation of that number by the number of bits, modulo 32, specified by the right-hand operand. Excess bits shifted off to the right are discarded, and zero bits are shifted in from the left. The sign bit becomes "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "0"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", so the result is always non-negative. Unlike the other bitwise operators, zero-fill right shift returns an unsigned 32-bit integer."
               }
             ]
           }
@@ -136,8 +151,8 @@
     }
   },
   "commit": {
-    "sha": "be30d4182784210700eb2a675d430f939e6afe28",
-    "date": "2022-06-09T06:46:21.000Z"
+    "sha": "4642fcce227f2be1f477d8c12432285f8b9236ff",
+    "date": "2022-07-14T12:35:02.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "01ac21bbbcec96bdaaa978471259d536",
+      "id": "16a97e6d9b15dd40e960c660b4691810",
       "tree": {
         "type": "root",
         "children": [
@@ -54,7 +54,24 @@
               },
               {
                 "type": "text",
-                "value": " shifts the first\noperand the specified number of bits, modulo 32, to the right. Excess bits shifted off to the right\nare discarded. Copies of the leftmost bit are shifted in from the left. Since the new\nleftmost bit has the same value as the previous leftmost bit, the sign bit (the leftmost\nbit) does not change. Hence the name \"sign-propagating\"."
+                "value": " returns the signed number represented by the result of performing a sign-extending shift of the binary representation of the first operand (evaluated as a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://en.wikipedia.org/wiki/Two's_complement"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "two's complement"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " bit string) to the right by the number of bits, modulo 32, specified in the second operand. Excess bits shifted off to the right are discarded, and copies of the leftmost bit are shifted in from the left."
               }
             ]
           }
@@ -136,8 +153,8 @@
     }
   },
   "commit": {
-    "sha": "be30d4182784210700eb2a675d430f939e6afe28",
-    "date": "2022-06-09T06:46:21.000Z"
+    "sha": "4642fcce227f2be1f477d8c12432285f8b9236ff",
+    "date": "2022-07-14T12:35:02.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {
