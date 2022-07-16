@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "186116ee57f2cb41df0bd3016ae64af2",
+      "id": "e4617153b49dc3fb65461f786ba4cfaa",
       "tree": {
         "type": "root",
         "children": [
@@ -51,7 +51,7 @@
               },
               {
                 "type": "text",
-                "value": " creates\na new "
+                "value": " creates a new "
               },
               {
                 "type": "element",
@@ -81,7 +81,7 @@
               },
               {
                 "type": "text",
-                "value": ". Calling the constructor directly\ncan create functions dynamically, but suffers from security and similar (but far less\nsignificant) performance issues to "
+                "value": ". Calling the constructor directly can create functions dynamically, but suffers from security and similar (but far less significant) performance issues as "
               },
               {
                 "type": "element",
@@ -90,13 +90,28 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Global_Objects/eval"
+                    "value": "eval()"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ". However, unlike eval, the\n"
+                "value": ". However, unlike "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "eval"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (which may have access to the local scope), the "
               },
               {
                 "type": "element",
@@ -111,7 +126,7 @@
               },
               {
                 "type": "text",
-                "value": " constructor creates functions which execute in the global scope\nonly."
+                "value": " constructor creates functions which execute in the global scope only."
               }
             ]
           }
@@ -335,8 +350,8 @@
     }
   },
   "commit": {
-    "sha": "e8532713e752f0249dbc71a79ac83c6c984d13d6",
-    "date": "2022-04-02T03:11:54.000Z"
+    "sha": "10e91985c71a94042610d1bffdbd544f4a3ff776",
+    "date": "2022-07-15T10:27:42.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {

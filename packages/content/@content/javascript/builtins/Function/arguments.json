@@ -6,14 +6,14 @@
     "arguments"
   ],
   "type": "page",
-  "title": "Function.arguments",
+  "title": "Function.prototype.arguments",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/arguments",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/function/arguments/index.md"
   },
   "content": {
     "intro": {
-      "id": "0a072675af31901d75054b63762f3331",
+      "id": "ded3b6683c3319b5ff556923583f7bdf",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,32 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Function"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Function"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object's "
               },
               {
                 "type": "element",
@@ -38,7 +63,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "function.arguments"
+                        "value": "arguments"
                       }
                     ]
                   }
@@ -46,7 +71,24 @@
               },
               {
                 "type": "text",
-                "value": " property refers to an array-like object corresponding to the arguments passed to a function. Use the simple variable "
+                "value": " property refers to an array-like object corresponding to the arguments passed to a function. For "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "strict"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", async function, and generator function callers, accessing the "
               },
               {
                 "type": "element",
@@ -61,7 +103,7 @@
               },
               {
                 "type": "text",
-                "value": " instead. This property is restricted to non-strict functions."
+                "value": " property throws an exception."
               }
             ]
           }
@@ -143,8 +185,8 @@
     }
   },
   "commit": {
-    "sha": "cf607d68522cd35ee7670782d3ee3a361eaef2e4",
-    "date": "2021-07-20T18:47:57.000Z"
+    "sha": "10e91985c71a94042610d1bffdbd544f4a3ff776",
+    "date": "2022-07-15T10:27:42.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {

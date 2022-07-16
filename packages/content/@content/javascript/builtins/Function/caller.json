@@ -6,14 +6,14 @@
     "caller"
   ],
   "type": "page",
-  "title": "Function.caller",
+  "title": "Function.prototype.caller",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/caller",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/function/caller/index.md"
   },
   "content": {
     "intro": {
-      "id": "e064bb4beadb8787b19fdf0d2a7c1cd1",
+      "id": "c305aea06406c9ca475325bd73e6c205",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,32 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Function"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Function"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object's "
               },
               {
                 "type": "element",
@@ -38,7 +63,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "function.caller"
+                        "value": "caller"
                       }
                     ]
                   }
@@ -46,7 +71,24 @@
               },
               {
                 "type": "text",
-                "value": " property returns the function that invoked the specified function. It returns "
+                "value": " property returns the function that invoked the specified function. For "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "strict"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", async function, and generator function callers, accessing the "
               },
               {
                 "type": "element",
@@ -55,13 +97,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "null"
+                    "value": "caller"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " for strict, async function and generator function callers."
+                "value": " property throws an exception."
               }
             ]
           }
@@ -72,7 +114,7 @@
       }
     },
     "seeAlso": {
-      "id": "4f501269ffb0e144d7cc84a8f70cd76b",
+      "id": "fe99d024136546cd83f1bb240184c07d",
       "tree": {
         "type": "root",
         "children": [
@@ -105,7 +147,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Function.name"
+                            "value": "Function.prototype.name"
                           }
                         ]
                       }
@@ -149,8 +191,8 @@
     }
   },
   "commit": {
-    "sha": "37851e79d7c98d8529c7a2aa622c90bc13eaa2ba",
-    "date": "2022-05-22T21:28:14.000Z"
+    "sha": "10e91985c71a94042610d1bffdbd544f4a3ff776",
+    "date": "2022-07-15T10:27:42.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {
