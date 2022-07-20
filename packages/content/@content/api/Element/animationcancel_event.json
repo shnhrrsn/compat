@@ -1,0 +1,791 @@
+{
+  "self": [
+    "api",
+    "Element",
+    "animationcancel_event"
+  ],
+  "type": "page",
+  "title": "Element: animationcancel event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Element/animationcancel_event",
+    "spec": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationcancel",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/animationcancel_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "9f4a3491fd0f2a28c8b231db58670dc8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationcancel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired when a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Animation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " unexpectedly aborts. In other words, any time it stops running without sending an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Element/animationend_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationend"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event. This might happen when the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/properties/animation-name"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animation-name"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is changed such that the animation is removed, or when the animating node is hidden using CSS. Therefore, either directly or because any of its containing nodes are hidden."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "fdec1b397867e035b98ad5e0f9901b07",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/AnimationEvent"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "AnimationEvent"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related events: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationstart_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationstart"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationend_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationend"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationiteration_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationiteration"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationcancel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationcancel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "4fac66bff0813a88d400de52389f9e2e63933c60",
+    "date": "2022-07-12T16:13:21.000Z"
+  },
+  "usage": 0.22199,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23099999999999998,
+            "relative": 0.9653155035520262
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.38692,
+            "relative": 0.9714529614100277
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "83.0.0",
+            "date": 1590019200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04039999999999999,
+            "relative": 0.9950738916256159
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "54.0.0",
+        "date": 1497312000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029299999999999982,
+        "relative": 0.9638157894736842
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": 1497312000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029299999999999982,
+            "relative": 0.9638157894736842
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "54.0.0",
+        "date": 1497312000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": 1497312000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "10.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "69.0.0",
+            "date": 1592956800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0132,
+            "relative": 0.7415730337078651
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "13.1.0",
+        "date": 1585008000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0321,
+        "relative": 0.9697885196374624
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.1.0",
+            "date": 1585008000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0321,
+            "relative": 0.9697885196374624
+          }
+        },
+        {
+          "notes": [
+            "The event handler is exposed but will never be called."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1537747200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.032799999999999996,
+            "relative": 0.9909365558912387
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "13.4.0",
+        "date": 1585008000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16059,
+        "relative": 0.9350218340611358
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "13.4.0",
+            "date": 1585008000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16059,
+            "relative": 0.9350218340611358
+          }
+        },
+        {
+          "notes": [
+            "The event handler is exposed but will never be called."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1537142400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16845000000000002,
+            "relative": 0.9807860262008739
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "13.0.0",
+            "date": 1606867200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0248,
+            "relative": 0.8825622775800717
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "83.0.0",
+            "date": 1589846400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

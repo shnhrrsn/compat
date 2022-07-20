@@ -1,0 +1,863 @@
+{
+  "self": [
+    "api",
+    "HTMLElement",
+    "dragstart_event"
+  ],
+  "type": "page",
+  "title": "HTMLElement: dragstart event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragstart_event",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragstart",
+      "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragstart"
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/htmlelement/dragstart_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a4e12708403c208fb4517ea574651ba2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "dragstart"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired when the user starts dragging an element or text selection."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "faaa704063b63db68f12583616a260ca",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Other drag and drop events:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "ul",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/drag_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "drag"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/dragend_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "dragend"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/dragover_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "dragover"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/dragenter_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "dragenter"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/dragleave_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "dragleave"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/HTMLElement/drop_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "drop"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "p",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "This event on other targets:"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "ul",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Window"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "Window"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ": "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "dragstart"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " event"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Document"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "Document"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ": "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "dragstart"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " event"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/SVGElement"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "SVGElement"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ": "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "code",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "dragstart"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " event"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "073bb69320fb9273438720e6833c926631b84ad6",
+    "date": "2022-06-05T05:36:08.000Z"
+  },
+  "usage": 0.9618400000000003,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2393000000000001,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2393000000000001,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "18.0.0",
+        "date": 1340755200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.3982900000000001,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1340755200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3982900000000001,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "12.0.0",
+        "date": 1438041600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04059999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438041600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04059999999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "9.0.0",
+        "date": 1324339200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.030199999999999984,
+        "relative": 0.993421052631579
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1324339200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.030199999999999984,
+            "relative": 0.993421052631579
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "9.0.0",
+        "date": 1324425600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1324425600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": {
+        "version": "9.0.0",
+        "date": 1300060800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0027,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1300060800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0027,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "12.0.0",
+        "date": 1339632000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.017800000000000003,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1339632000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.017800000000000003,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "12.0.0",
+        "date": 1330128000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1330128000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "3.1.0",
+        "date": 1205798400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0331,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "3.1.0",
+            "date": 1205798400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0331,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "2.0.0",
+        "date": 1215734400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.17174999999999993,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "2.0.0",
+            "date": 1215734400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.17174999999999993,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "1.0.0",
+        "date": 1367020800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.028099999999999983,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1367020800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.028099999999999983,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

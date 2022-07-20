@@ -1,0 +1,1021 @@
+{
+  "self": [
+    "api",
+    "Element",
+    "animationstart_event"
+  ],
+  "type": "page",
+  "title": "Element: animationstart event",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Element/animationstart_event",
+    "spec": "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationstart",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/animationstart_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a32b40527f613c92182a314a5a77e9d6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationstart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired when a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS Animation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " has started. If there is an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/properties/animation-delay"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animation-delay"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", this event will fire once the delay period has expired. A negative delay will cause the event to fire with an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AnimationEvent/elapsedTime"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "elapsedTime"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "fcce7c4cbcf3499fab295c95792ecdd9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using CSS Animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/AnimationEvent"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "AnimationEvent"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related events: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationend_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationend"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationiteration_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationiteration"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Element/animationcancel_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "animationcancel"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationstart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "This event on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " targets: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animationstart"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "4fac66bff0813a88d400de52389f9e2e63933c60",
+    "date": "2022-07-12T16:13:21.000Z"
+  },
+  "usage": 0.93952,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "79.0.0",
+        "date": 1575936000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.23389999999999997,
+        "relative": 0.9774341830338482
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1575936000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23389999999999997,
+            "relative": 0.9774341830338482
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2390000000000001,
+            "relative": 0.9987463435018804
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23149999999999998,
+            "relative": 0.9674049310488921
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1576540800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.39178,
+        "relative": 0.9836551256622058
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1576540800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.39178,
+            "relative": 0.9836551256622058
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3950200000000001,
+            "relative": 0.9917899018303247
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.38899,
+            "relative": 0.9766501795174368
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "18.0.0",
+        "date": 1538438400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04059999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1538438400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04059999999999999,
+            "relative": 1
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "12.0.0",
+            "date": 1438041600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04059999999999999,
+            "relative": 1
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586736000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04039999999999999,
+            "relative": 0.9950738916256159
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "51.0.0",
+        "date": 1485216000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029899999999999986,
+        "relative": 0.9835526315789475
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1485216000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029899999999999986,
+            "relative": 0.9835526315789475
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": 1308614400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.030199999999999984,
+            "relative": 0.993421052631579
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "51.0.0",
+        "date": 1485216000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "51.0.0",
+            "date": 1485216000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": 1308614400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "10.0.0",
+            "date": 1351209600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0025,
+            "relative": 0.9259259259259258
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "66.0.0",
+        "date": 1578355200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.013900000000000001,
+        "relative": 0.7808988764044943
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1578355200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013900000000000001,
+            "relative": 0.7808988764044943
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "30.0.0",
+            "date": 1433808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.017700000000000004,
+            "relative": 0.9943820224719101
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "68.0.0",
+            "date": 1587513600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013600000000000001,
+            "relative": 0.7640449438202247
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "57.0.0",
+        "date": 1585526400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "57.0.0",
+            "date": 1585526400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "30.0.0",
+            "date": 1433894400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1589328000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "9.0.0",
+        "date": 1443571200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0331,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0331,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.17134,
+        "relative": 0.9976128093158665
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.17134,
+            "relative": 0.9976128093158665
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1592524800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025,
+        "relative": 0.8896797153024917
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1592524800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025,
+            "relative": 0.8896797153024917
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1457654400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02649999999999999,
+            "relative": 0.9430604982206408
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1606867200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0248,
+            "relative": 0.8825622775800717
+          },
+          "prefix": "webkit"
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1576540800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1576540800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>onanimationstart</code> property is not supported. To listen to this event, use <code>document.addEventListener('animationstart', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+          ],
+          "added": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "81.0.0",
+            "date": 1586217600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "webkit"
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

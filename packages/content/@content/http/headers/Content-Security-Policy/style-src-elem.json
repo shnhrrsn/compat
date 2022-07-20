@@ -1,0 +1,784 @@
+{
+  "self": [
+    "http",
+    "headers",
+    "Content-Security-Policy",
+    "style-src-elem"
+  ],
+  "type": "page",
+  "title": "CSP: style-src-elem",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem",
+    "spec": "https://w3c.github.io/webappsec-csp/#directive-style-src-elem",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-security-policy/style-src-elem/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "92be3fd3791ae4d37f30b38ee4b29f20",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The HTTP "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Content-Security-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Security-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (CSP)\n"
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "style-src-elem"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " directive\nspecifies valid sources for stylesheets "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/style"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<style>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " elements and\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/link"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<link>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " elements with "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "rel=\"stylesheet\""
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a5ee0ac81e1f5b8892b652c5a7c84b53",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Content-Security-Policy"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Content-Security-Policy"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "style-src"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "style-src-attr"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/downlink"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Link"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/style"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<style>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/link"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<link>"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@import"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/CSSStyleSheet/insertRule"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CSSStyleSheet.insertRule()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/CSSGroupingRule/insertRule"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CSSGroupingRule.insertRule()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/CSSStyleDeclaration/cssText"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CSSStyleDeclaration.cssText"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "fd4d0f4428adedfe54bd36d78d92d62b39bca5c8",
+    "date": "2022-07-13T20:41:11.000Z"
+  },
+  "usage": 0.7100799999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "75.0.0",
+        "date": 1559606400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.23559999999999995,
+        "relative": 0.9845382365231921
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1559606400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23559999999999995,
+            "relative": 0.9845382365231921
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "75.0.0",
+        "date": 1559606400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.39178,
+        "relative": 0.9836551256622058
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1559606400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.39178,
+            "relative": 0.9836551256622058
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04039999999999999,
+        "relative": 0.9950738916256159
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04039999999999999,
+            "relative": 0.9950738916256159
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1529338'>bug 1529338</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1529338'>bug 1529338</a>."
+          ],
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "7.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "7.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "62.0.0",
+        "date": 1561593600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.016900000000000002,
+        "relative": 0.949438202247191
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1561593600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.016900000000000002,
+            "relative": 0.949438202247191
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "preview",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "11.0.0",
+        "date": 1575504000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0254,
+        "relative": 0.9039145907473315
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1575504000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0254,
+            "relative": 0.9039145907473315
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "75.0.0",
+        "date": 1559606400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "75.0.0",
+            "date": 1559606400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

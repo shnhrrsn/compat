@@ -1,0 +1,427 @@
+{
+  "self": [
+    "javascript",
+    "builtins",
+    "AggregateError",
+    "serializable_object"
+  ],
+  "type": "page",
+  "title": "Serializable object",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/glossary/serializable_object/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ce9762f1075e69c3ed919d9f067cb53c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Serializable objects"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " are objects that can be serialized and later deserialized in any JavaScript environment (\"realm\").\nThis allows them to, for example, be stored on disk and later restored, or cloned with "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/structuredClone"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "structuredClone()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or shared between workers using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/DedicatedWorkerGlobalScope/postMessage"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DedicatedWorkerGlobalScope.postMessage()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "92464d051aa49207774d9033f5c29c6a94e6b71f",
+    "date": "2022-05-15T18:41:22.000Z"
+  },
+  "usage": 0,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Serialized properties: <code>name</code>, <code>message</code>, <code>cause</code>, <code>errors</code>."
+          ],
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Serialized properties: <code>name</code>, <code>message</code>, <code>cause</code>, <code>errors</code>."
+          ],
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": true,
+    "standard_track": false
+  }
+}

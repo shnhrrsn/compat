@@ -219,41 +219,57 @@
     "sha": "f1d3b84d18425b94c9935c7940895b9349773644",
     "date": "2022-07-11T14:48:27.000Z"
   },
-  "usage": 0.9508100000000003,
+  "usage": 0.9507100000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "40.0.0",
-        "date": 1421798400
+        "version": "43.0.0",
+        "date": 1431993600
       },
       "removed": null,
       "usage": {
-        "global": 0.23910000000000012,
-        "relative": 0.9991642290012537
+        "global": 0.2390000000000001,
+        "relative": 0.9987463435018804
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2390000000000001,
+            "relative": 0.9987463435018804
+          }
+        },
+        {
           "notes": [
-            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported."
+            "Only available in service workers."
           ],
           "added": {
             "version": "40.0.0",
             "date": 1421798400
           },
-          "removed": null,
+          "removed": {
+            "version": "43.0.0",
+            "date": 1431993600
+          },
           "usage": {
-            "global": 0.23910000000000012,
-            "relative": 0.9991642290012537
-          }
+            "global": 0.0001,
+            "relative": 0.00041788549937317156
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "40.0.0",
-        "date": 1421798400
+        "version": "43.0.0",
+        "date": 1432684800
       },
       "removed": null,
       "usage": {
@@ -262,18 +278,34 @@
       },
       "history": [
         {
-          "notes": [
-            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported"
-          ],
+          "notes": null,
           "added": {
-            "version": "40.0.0",
-            "date": 1421798400
+            "version": "43.0.0",
+            "date": 1432684800
           },
           "removed": null,
           "usage": {
             "global": 0.3950200000000001,
             "relative": 0.9917899018303247
           }
+        },
+        {
+          "notes": [
+            "Only available in service workers."
+          ],
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -390,9 +422,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported"
-          ],
+          "notes": null,
           "added": {
             "version": "5.0.0",
             "date": null
@@ -408,8 +438,8 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "27.0.0",
-        "date": 1422316800
+        "version": "30.0.0",
+        "date": 1433808000
       },
       "removed": null,
       "usage": {
@@ -418,26 +448,42 @@
       },
       "history": [
         {
-          "notes": [
-            "Before version 30, only service workers are supported. From version 30, all worker types and the main thread are supported."
-          ],
+          "notes": null,
           "added": {
-            "version": "27.0.0",
-            "date": 1422316800
+            "version": "30.0.0",
+            "date": 1433808000
           },
           "removed": null,
           "usage": {
             "global": 0.017700000000000004,
             "relative": 0.9943820224719101
           }
+        },
+        {
+          "notes": [
+            "Only available in service workers."
+          ],
+          "added": {
+            "version": "27.0.0",
+            "date": 1422316800
+          },
+          "removed": {
+            "version": "30.0.0",
+            "date": 1433808000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "27.0.0",
-        "date": 1422489600
+        "version": "30.0.0",
+        "date": 1433894400
       },
       "removed": null,
       "usage": {
@@ -446,18 +492,34 @@
       },
       "history": [
         {
-          "notes": [
-            "Before version 30, only service workers are supported. From version 30, all worker types and the main thread are supported."
-          ],
+          "notes": null,
           "added": {
-            "version": "27.0.0",
-            "date": 1422489600
+            "version": "30.0.0",
+            "date": 1433894400
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Only available in service workers."
+          ],
+          "added": {
+            "version": "27.0.0",
+            "date": 1422489600
+          },
+          "removed": {
+            "version": "30.0.0",
+            "date": 1433894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -542,8 +604,8 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "40.0.0",
-        "date": 1421798400
+        "version": "43.0.0",
+        "date": 1432684800
       },
       "removed": null,
       "usage": {
@@ -552,18 +614,34 @@
       },
       "history": [
         {
-          "notes": [
-            "Before version 43, only service workers are supported. From version 43, all worker types and the main thread are supported."
-          ],
+          "notes": null,
           "added": {
-            "version": "40.0.0",
-            "date": 1421798400
+            "version": "43.0.0",
+            "date": 1432684800
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Only available in service workers."
+          ],
+          "added": {
+            "version": "40.0.0",
+            "date": 1421798400
+          },
+          "removed": {
+            "version": "43.0.0",
+            "date": 1432684800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     }

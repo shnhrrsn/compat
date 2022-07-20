@@ -9,12 +9,12 @@
   "title": "Spread syntax (...)",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_array_literals",
-    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-array-initializer",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/operators/spread_syntax/index.md"
   },
   "content": {
     "intro": {
-      "id": "ec1e583696ec4afee726ffd51f3d5e48",
+      "id": "df79f368a313981e0936df930c2365f7",
       "tree": {
         "type": "root",
         "children": [
@@ -51,7 +51,7 @@
               },
               {
                 "type": "text",
-                "value": ") allows an iterable such as an array\nexpression or string to be expanded in places where zero or more arguments (for\nfunction calls) or elements (for array literals) are expected, or an object expression\nto be expanded in places where zero or more key-value pairs (for object literals) are\nexpected."
+                "value": ") allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created."
               }
             ]
           }
@@ -62,7 +62,7 @@
       }
     },
     "seeAlso": {
-      "id": "ba178753029a277a639232f3bc46fade",
+      "id": "d23089761654b923b756a12fc7d17755",
       "tree": {
         "type": "root",
         "children": [
@@ -82,33 +82,40 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters"
+                    },
                     "children": [
                       {
                         "type": "text",
                         "value": "Rest parameters"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " (also '"
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#rest_property"
+                    },
                     "children": [
                       {
                         "type": "text",
-                        "value": "..."
+                        "value": "Rest property"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "')"
                   }
                 ]
               },
@@ -141,25 +148,6 @@
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " (also '"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "..."
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "')"
                   }
                 ]
               },
@@ -177,8 +165,8 @@
     }
   },
   "commit": {
-    "sha": "281b7ac04410e5becd11b2c748ef4a3fa6b5d6dd",
-    "date": "2022-05-19T05:32:56.000Z"
+    "sha": "33f9b4ec0f7b5af51c6d83ee9ff42484d673ad57",
+    "date": "2022-07-19T06:38:27.000Z"
   },
   "usage": 0.9530400000000003,
   "support": {

@@ -6,9 +6,100 @@
     "serializable_object"
   ],
   "type": "page",
-  "title": "RangeError / serializable_object",
+  "title": "Serializable object",
   "links": {
-    "spec": "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
+    "mdn": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
+    "spec": "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/glossary/serializable_object/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "ce9762f1075e69c3ed919d9f067cb53c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Serializable objects"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " are objects that can be serialized and later deserialized in any JavaScript environment (\"realm\").\nThis allows them to, for example, be stored on disk and later restored, or cloned with "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/structuredClone"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "structuredClone()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or shared between workers using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/DedicatedWorkerGlobalScope/postMessage"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DedicatedWorkerGlobalScope.postMessage()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "92464d051aa49207774d9033f5c29c6a94e6b71f",
+    "date": "2022-05-15T18:41:22.000Z"
   },
   "usage": 0.70548,
   "support": {
@@ -112,7 +203,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -121,9 +215,13 @@
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1556604'>bug 1556604</a>."
+            "Version 103 serializable properties: <code>name</code>, <code>message</code>, <code>cause</code>, <code>fileName</code>, <code>lineNumber</code> and <code>columnNumber</code>.",
+            "Version 104 also serializes <code>stack</code> in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Window/postMessage'><code>window.postMessage()</code></a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/structuredClone'><code>structuredClone()</code></a>)."
           ],
-          "added": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -134,7 +232,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -143,9 +244,13 @@
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1556604'>bug 1556604</a>."
+            "Version 103 serializable properties: <code>name</code>, <code>message</code>, <code>cause</code>, <code>fileName</code>, <code>lineNumber</code> and <code>columnNumber</code>.",
+            "Version 104 also serializes <code>stack</code> in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Window/postMessage'><code>window.postMessage()</code></a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/structuredClone'><code>structuredClone()</code></a>)."
           ],
-          "added": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
           "removed": null,
           "usage": {
             "global": null,
