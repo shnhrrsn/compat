@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "a1b9605f54cc06a0d135d02297731ea0",
+      "id": "90cfffe22b9ec6058a5de1b194531f00",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The MathML "
+                "value": "The deprecated MathML "
               },
               {
                 "type": "element",
@@ -46,7 +46,39 @@
               },
               {
                 "type": "text",
-                "value": " element provides a possibility to bind actions to (sub-) expressions. The action itself is specified by the "
+                "value": " element used to provide a possibility to bind an actions to mathematical expressions. Nowadays, it is recommended to rely on "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "JavaScript"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and other Web technologies to implement this use case. Some browsers will just render the first child of an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<maction>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element and ignore its "
               },
               {
                 "type": "element",
@@ -61,7 +93,7 @@
               },
               {
                 "type": "text",
-                "value": " attribute, which accepts several values. To specify which child elements are addressed by the action, you can make use of the "
+                "value": " and "
               },
               {
                 "type": "element",
@@ -76,7 +108,7 @@
               },
               {
                 "type": "text",
-                "value": " attribute."
+                "value": " attributes."
               }
             ]
           }
@@ -88,8 +120,8 @@
     }
   },
   "commit": {
-    "sha": "eb09ce7605218518864243cdb72056f3329c246f",
-    "date": "2022-07-21T16:41:20.000Z"
+    "sha": "b058efd73b2da22389a6cb92e08e7543cb6c6dc7",
+    "date": "2022-07-22T13:26:54.000Z"
   },
   "usage": 0.06349999999999997,
   "support": {

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "19909f46c8b18d0335697a3954f6f33b",
+      "id": "fe93cc815a67f690c75c9bdb7aa0ae57",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The top-level element in MathML is "
+                "value": "The "
               },
               {
                 "type": "element",
@@ -39,37 +39,24 @@
               },
               {
                 "type": "text",
-                "value": ". Every valid MathML instance must be wrapped in "
+                "value": " element is the top-level MathML element, used to write a single mathematical formula. It can be placed in HTML content where "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Guide/HTML/Content_categories#flow_content"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "<math>"
+                    "value": "flow content"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " tags. In addition you must not nest a second "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "<math>"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " element in another, but you can have an arbitrary number of other child elements in it."
+                "value": " is permitted."
               }
             ]
           }
@@ -80,7 +67,7 @@
       }
     },
     "seeAlso": {
-      "id": "b38371601947de6fa0816d3c2df148af",
+      "id": "326da1670be5405351fdf8466bd9ef16",
       "tree": {
         "type": "root",
         "children": [
@@ -164,30 +151,6 @@
               {
                 "type": "text",
                 "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "http://eyeasme.com/Joe/MathML/MathML_browser_test.html"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "MathML browser test"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
               }
             ]
           }
@@ -199,8 +162,8 @@
     }
   },
   "commit": {
-    "sha": "eb084b50ec972658b2df4bef60bad3e61afce702",
-    "date": "2022-07-21T16:39:55.000Z"
+    "sha": "c23e2de83968511fba615d2e01049c17f6aacb6a",
+    "date": "2022-07-22T11:13:59.000Z"
   },
   "usage": 0.0012,
   "support": {
