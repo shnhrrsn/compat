@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "e720ebcc044afa7a3af2234468136764",
+      "id": "82efb570200065a27a9b081d698c2e27",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,54 @@
               },
               {
                 "type": "text",
-                "value": " method seals an object, preventing new\nproperties from being added to it and marking all existing properties as\nnon-configurable. Values of present properties can still be changed as long as they are\nwritable."
+                "value": " method "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "seals"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " an object. Sealing an object "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "prevents extensions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and makes existing properties non-configurable. A sealed object has a fixed set of properties: new properties cannot be added, existing properties cannot be removed, their enumerability and configurability cannot be changed, and its prototype cannot be re-assigned. Values of existing properties can still be changed as long as they are writable. "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "seal()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " returns the same object that was passed in."
               }
             ]
           }
@@ -241,8 +288,8 @@
     }
   },
   "commit": {
-    "sha": "d4b12e290fce9ae43a9ae23b9b9c8a5812b82ebd",
-    "date": "2022-07-16T06:12:06.000Z"
+    "sha": "b838d1dcb5bb6b6a4a50e3d9d7ca7ff79b772c7d",
+    "date": "2022-07-23T06:26:15.000Z"
   },
   "usage": 0.9619500000000003,
   "support": {

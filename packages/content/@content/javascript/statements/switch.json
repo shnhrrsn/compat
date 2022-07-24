@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "525575ffa8a6c532085444d3f95dfd01",
+      "id": "83601576b0edba0b8b7e11b6d4d6c6b4",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " statement evaluates\nan "
+                "value": " statement evaluates an "
               },
               {
                 "type": "element",
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": ",\nmatching the expression's value to a "
+                "value": ", matching the expression's value against a series of "
               },
               {
                 "type": "element",
@@ -78,7 +78,7 @@
               },
               {
                 "type": "text",
-                "value": " clause, and executes "
+                "value": " clauses, and executes "
               },
               {
                 "type": "element",
@@ -95,7 +95,7 @@
               },
               {
                 "type": "text",
-                "value": " associated\nwith that "
+                "value": " after the first "
               },
               {
                 "type": "element",
@@ -110,7 +110,52 @@
               },
               {
                 "type": "text",
-                "value": ", as well as statements in "
+                "value": " clause with a matching value, until a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "break"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " statement is encountered. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "default"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " clause of a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "switch"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " statement will be jumped to if no "
               },
               {
                 "type": "element",
@@ -125,22 +170,7 @@
               },
               {
                 "type": "text",
-                "value": "s that follow\nthe matching "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "case"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "."
+                "value": " matches the expression's value."
               }
             ]
           }
@@ -196,8 +226,8 @@
     }
   },
   "commit": {
-    "sha": "389c286d4143a06cd6f82f3e1e7d6de663340264",
-    "date": "2022-07-05T08:04:53.000Z"
+    "sha": "561ff4d92cf3593a6065f848fb4d08012eaa7ce3",
+    "date": "2022-07-23T16:00:25.000Z"
   },
   "usage": 0.9620400000000002,
   "support": {

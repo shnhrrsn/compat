@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "5a101103a67069ce09ca560440728d3d",
+      "id": "b92aba880c0909837daaf2dbccca0481",
       "tree": {
         "type": "root",
         "children": [
@@ -51,7 +51,7 @@
               },
               {
                 "type": "element",
-                "tagName": "strong",
+                "tagName": "em",
                 "properties": {},
                 "children": [
                   {
@@ -62,7 +62,24 @@
               },
               {
                 "type": "text",
-                "value": " an\nobject. A frozen object can no longer be changed; freezing an object prevents new\nproperties from being added to it, existing properties from being removed, prevents\nchanging the enumerability, configurability, or writability of existing properties, and\nprevents the values of existing properties from being changed. In addition, freezing an\nobject also prevents its prototype from being changed. "
+                "value": " an object. Freezing an object "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "prevents extensions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and makes existing properties non-writable and non-configurable. A frozen object can no longer be changed: new properties cannot be added, existing properties cannot be removed, their enumerability, configurability, writability, or value cannot be changed, and the object's prototype cannot be re-assigned. "
               },
               {
                 "type": "element",
@@ -77,7 +94,7 @@
               },
               {
                 "type": "text",
-                "value": " returns the\nsame object that was passed in."
+                "value": " returns the same object that was passed in."
               }
             ]
           }
@@ -271,8 +288,8 @@
     }
   },
   "commit": {
-    "sha": "b0cbf649020570e98046d76f007a4452fd40c976",
-    "date": "2022-06-10T12:12:39.000Z"
+    "sha": "b838d1dcb5bb6b6a4a50e3d9d7ca7ff79b772c7d",
+    "date": "2022-07-23T06:26:15.000Z"
   },
   "usage": 0.9619500000000003,
   "support": {

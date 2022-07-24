@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "e76b2710b66f5da89d167dbf57a4827a",
+      "id": "f4337cfed452d9cc9d66d8c75d1ad64a",
       "tree": {
         "type": "root",
         "children": [
@@ -24,37 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "In MathML there are two ways to mark up mathematics: "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Presentation"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " MathML is used to control the layout of equations, whereas "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Content"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " MathML is designed to encode the semantic mathematical meaning and to make expressions understandable to computer algebra systems. The MathML elements "
+                "value": "The "
               },
               {
                 "type": "element",
@@ -69,37 +39,41 @@
               },
               {
                 "type": "text",
-                "value": ", "
+                "value": " element associates annotations with a MathML expression, for example its text source as a "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "https://en.wikipedia.org/wiki/Lightweight_markup_language"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "<annotation>"
+                    "value": "lightweight markup language"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " or mathematical meaning expressed in a special "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/XML"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "<annotation-xml>"
+                    "value": "XML"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " are used to combine presentation and content markup and to provide both, layout information and semantic meaning of mathematical expressions."
+                "value": " dialect. Typically, its structure is:"
               }
             ]
           }
@@ -111,8 +85,8 @@
     }
   },
   "commit": {
-    "sha": "acbb528abdcc3b4afc95c4af682f4c65437706de",
-    "date": "2022-07-22T06:32:46.000Z"
+    "sha": "946428c41c039305b4db4bed3394e7d030ea1fae",
+    "date": "2022-07-24T05:27:31.000Z"
   },
   "usage": 0.030399999999999983,
   "support": {
