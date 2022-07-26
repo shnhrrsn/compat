@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "cea7162a4f2cd19a9abfda5eafc984f7",
+      "id": "5cba174e82f93fe4425661deb69fcbdc",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,39 @@
             "children": [
               {
                 "type": "text",
-                "value": "This page describes JavaScript's lexical grammar. The source text of ECMAScript scripts gets scanned from left to right and is converted into a sequence of input elements which are tokens, control characters, line terminators, comments or "
+                "value": "This page describes JavaScript's lexical grammar. JavaScript source text is just a sequence of characters — in order for the interpreter to understand it, the string has to be "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "parsed"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to a more structured representation. The initial step of parsing is called "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://en.wikipedia.org/wiki/Lexical_analysis"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "lexical analysis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", in which the text gets scanned from left to right and is converted into a sequence of individual, atomic input elements. Some input elements are insignificant to the interpreter, and will be stripped after this step — they include control characters, line terminators, "
               },
               {
                 "type": "element",
@@ -41,7 +73,7 @@
               },
               {
                 "type": "text",
-                "value": ". ECMAScript also defines certain keywords and literals and has rules for automatic insertion of semicolons to end statements."
+                "value": ", and comments. The others, such as identifiers and punctuators, will be used for further syntax analysis. ECMAScript also defines certain keywords and literals and has rules for automatic insertion of semicolons to make certain invalid token sequences become valid."
               }
             ]
           }
@@ -251,8 +283,8 @@
     }
   },
   "commit": {
-    "sha": "e6c1e5930ffe56ce6a85e3b2164bfa98853aaf9f",
-    "date": "2022-07-11T11:10:38.000Z"
+    "sha": "e115fb2c806ff148fbba1ceb88b6b1b786196c26",
+    "date": "2022-07-25T03:14:13.000Z"
   },
   "usage": 0.9533600000000002,
   "support": {
