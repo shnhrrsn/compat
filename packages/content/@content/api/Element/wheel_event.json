@@ -303,7 +303,7 @@
       "history": [
         {
           "notes": [
-            "Internet Explorer only exposes the wheel event via <code>addEventListener</code>; there is no <code>onwheel</code> attribute on DOM objects. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://connect.microsoft.com/IE/feedback/details/782835/missing-onwheel-attribute-for-the-wheel-event-although-its-supported-via-addeventlistener'>IE bug 782835</a>."
+            "The <code>onwheel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('wheel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://connect.microsoft.com/IE/feedback/details/782835/missing-onwheel-attribute-for-the-wheel-event-although-its-supported-via-addeventlistener'>IE bug 782835</a>."
           ],
           "added": {
             "version": "9.0.0",

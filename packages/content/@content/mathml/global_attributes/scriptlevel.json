@@ -125,7 +125,7 @@
       }
     },
     "seeAlso": {
-      "id": "503c7a028847e285bc55dd68495c3200",
+      "id": "df89045e33336cde60a35fc41b28c454",
       "tree": {
         "type": "root",
         "children": [
@@ -241,12 +241,22 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/math-depth"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "math-depth"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "math-depth"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -407,7 +417,8 @@
       "history": [
         {
           "notes": [
-            "Prior to Firefox 70, the attribute was only accepted on a few elements, as specified in MathML 3."
+            "Prior to Firefox 70, the attribute was only accepted on a few elements, as specified in MathML 3.",
+            "Implementation does not rely on the CSS approach described in MathML Core (via <code>math-depth</code> and <code>font-size: math</code>)."
           ],
           "added": {
             "version": "70.0.0",
@@ -435,7 +446,8 @@
       "history": [
         {
           "notes": [
-            "Prior to Firefox 70, the attribute was only accepted on a few elements, as specified in MathML 3."
+            "Prior to Firefox 70, the attribute was only accepted on a few elements, as specified in MathML 3.",
+            "Implementation does not rely on the CSS approach described in MathML Core (via <code>math-depth</code> and <code>font-size: math</code>)."
           ],
           "added": {
             "version": "79.0.0",

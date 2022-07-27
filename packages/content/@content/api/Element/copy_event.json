@@ -8,7 +8,10 @@
   "title": "Element: copy event",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/Element/copy_event",
-    "spec": "https://w3c.github.io/clipboard-apis/#clipboard-event-copy",
+    "spec": [
+      "https://w3c.github.io/clipboard-apis/#clipboard-event-copy",
+      "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncopy"
+    ],
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/element/copy_event/index.md"
   },
   "content": {
@@ -57,7 +60,7 @@
       }
     },
     "seeAlso": {
-      "id": "5feee1b7541bca6783344f0964a5e3ee",
+      "id": "ba7f33d701b9c5cb745f2768b12f2c74",
       "tree": {
         "type": "root",
         "children": [
@@ -167,22 +170,12 @@
                   },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Document/copy_event"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "copy"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "copy"
                       }
                     ]
                   }
@@ -228,22 +221,12 @@
                   },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Window/copy_event"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "copy"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "copy"
                       }
                     ]
                   }
@@ -266,7 +249,7 @@
     "sha": "95d6c222f9aba9a60dee4adc738d741a28c8b83a",
     "date": "2022-07-25T13:19:57.000Z"
   },
-  "usage": 0.9616400000000003,
+  "usage": 0.9617400000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -455,25 +438,25 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "15.0.0",
-        "date": 1372723200
+        "version": "12.1.0",
+        "date": 1353369600
       },
       "removed": null,
       "usage": {
-        "global": 0.017700000000000004,
-        "relative": 0.9943820224719101
+        "global": 0.017800000000000003,
+        "relative": 1
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "15.0.0",
-            "date": 1372723200
+            "version": "12.1.0",
+            "date": 1353369600
           },
           "removed": null,
           "usage": {
-            "global": 0.017700000000000004,
-            "relative": 0.9943820224719101
+            "global": 0.017800000000000003,
+            "relative": 1
           }
         }
       ]
@@ -481,8 +464,8 @@
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "14.0.0",
-        "date": 1369094400
+        "version": "12.1.0",
+        "date": 1349740800
       },
       "removed": null,
       "usage": {
@@ -493,8 +476,8 @@
         {
           "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1369094400
+            "version": "12.1.0",
+            "date": 1349740800
           },
           "removed": null,
           "usage": {

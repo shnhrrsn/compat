@@ -3,6 +3,12 @@ const nodejs = {
 	name: "Node.js",
 	versions: new Map([
 		[
+			"18.7.0",
+			{
+				"date": 1658793600
+			}
+		],
+		[
 			"18.6.0",
 			{
 				"date": 1657670400

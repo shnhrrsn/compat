@@ -338,9 +338,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Changes to parameters that should update live now do so starting in Firefox 64."
-          ],
+          "notes": null,
           "added": {
             "version": "64.0.0",
             "date": 1544486400
@@ -352,16 +350,22 @@
           }
         },
         {
-          "notes": null,
+          "notes": [
+            "Before Firefox 64, changes to parameters that should update live would not do so."
+          ],
           "added": {
             "version": "46.0.0",
             "date": 1461628800
           },
-          "removed": null,
+          "removed": {
+            "version": "64.0.0",
+            "date": 1544486400
+          },
           "usage": {
-            "global": 0.029899999999999986,
-            "relative": 0.9835526315789475
-          }
+            "global": 0.0006,
+            "relative": 0.019736842105263167
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -378,9 +382,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Changes to parameters that should update live now do so starting in Firefox 64."
-          ],
+          "notes": null,
           "added": {
             "version": "64.0.0",
             "date": 1544486400
@@ -392,16 +394,22 @@
           }
         },
         {
-          "notes": null,
+          "notes": [
+            "Before Firefox 64, changes to parameters that should update live would not do so."
+          ],
           "added": {
             "version": "46.0.0",
             "date": 1461628800
           },
-          "removed": null,
+          "removed": {
+            "version": "64.0.0",
+            "date": 1544486400
+          },
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

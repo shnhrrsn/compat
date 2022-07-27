@@ -431,7 +431,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "83.0.0",
@@ -457,7 +457,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "83.0.0",
@@ -483,7 +483,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "83.0.0",
@@ -581,7 +581,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "10.0.0",
@@ -607,7 +607,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "69.0.0",
@@ -633,7 +633,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "59.0.0",
@@ -674,16 +674,19 @@
         },
         {
           "notes": [
-            "The event handler is exposed but will never be called."
+            "Although the <code>onanimationcancel</code> event handler property is supported, the <code>animationcancel</code> event is never fired."
           ],
           "added": {
             "version": "12.0.0",
             "date": 1537747200
           },
-          "removed": null,
+          "removed": {
+            "version": "13.1.0",
+            "date": 1585008000
+          },
           "usage": {
-            "global": 0.032799999999999996,
-            "relative": 0.9909365558912387
+            "global": 0.0032,
+            "relative": 0.09667673716012086
           },
           "partial_implementation": true
         }
@@ -715,16 +718,19 @@
         },
         {
           "notes": [
-            "The event handler is exposed but will never be called."
+            "Although the <code>onanimationcancel</code> event handler property is supported, the <code>animationcancel</code> event is never fired."
           ],
           "added": {
             "version": "12.0.0",
             "date": 1537142400
           },
-          "removed": null,
+          "removed": {
+            "version": "13.4.0",
+            "date": 1585008000
+          },
           "usage": {
-            "global": 0.16845000000000002,
-            "relative": 0.9807860262008739
+            "global": 0.00986,
+            "relative": 0.057409024745269314
           },
           "partial_implementation": true
         }
@@ -741,7 +747,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "13.0.0",
@@ -767,7 +773,7 @@
       "history": [
         {
           "notes": [
-            "The <code>onanimationcancel</code> property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
+            "The <code>onanimationcancel</code> event handler property is not supported. To listen to this event, use <code>element.addEventListener('animationcancel', function() {});</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/868224'>bug 868224</a>."
           ],
           "added": {
             "version": "83.0.0",

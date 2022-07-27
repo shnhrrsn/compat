@@ -10,51 +10,66 @@
   "type": "page",
   "title": "NumberFormat / options_useGrouping_parameter",
   "links": {},
-  "usage": 0,
+  "usage": 0.9597900000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "24.0.0",
+        "date": 1357776000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.2393000000000001,
+        "relative": 1
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "24.0.0",
+            "date": 1357776000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.2393000000000001,
+            "relative": 1
           }
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "25.0.0",
+        "date": 1361923200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.3982900000000001,
+        "relative": 1
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.3982900000000001,
+            "relative": 1
           }
         }
       ]
     },
     "deno": {
       "name": "Deno",
-      "added": null,
+      "added": {
+        "version": "1.8.0",
+        "date": 1614731094
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -63,7 +78,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "1.8.0",
+            "date": 1614731094
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -74,20 +92,26 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "12.0.0",
+        "date": 1438041600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.04059999999999999,
+        "relative": 1
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1438041600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.04059999999999999,
+            "relative": 1
           }
         }
       ]
@@ -95,25 +119,25 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "preview",
-        "date": null
+        "version": "29.0.0",
+        "date": 1398729600
       },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.030099999999999984,
+        "relative": 0.9901315789473685
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "preview",
-            "date": null
+            "version": "29.0.0",
+            "date": 1398729600
           },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.030099999999999984,
+            "relative": 0.9901315789473685
           }
         }
       ]
@@ -121,8 +145,8 @@
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "preview",
-        "date": null
+        "version": "56.0.0",
+        "date": 1506556800
       },
       "removed": null,
       "usage": {
@@ -133,8 +157,8 @@
         {
           "notes": null,
           "added": {
-            "version": "preview",
-            "date": null
+            "version": "56.0.0",
+            "date": 1506556800
           },
           "removed": null,
           "usage": {
@@ -146,27 +170,36 @@
     },
     "ie": {
       "name": "Internet Explorer",
-      "added": null,
+      "added": {
+        "version": "11.0.0",
+        "date": 1381968000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0025,
+        "relative": 0.9259259259259258
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1381968000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0025,
+            "relative": 0.9259259259259258
           }
         }
       ]
     },
     "nodejs": {
       "name": "Node.js",
-      "added": null,
+      "added": {
+        "version": "13.0.0",
+        "date": 1571702400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -175,38 +208,65 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "13.0.0",
+            "date": 1571702400
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Before version 13.0.0, only the locale data for <code>en-US</code> is available by default. When other locales are specified, the <code>NumberFormat</code> instance silently falls back to <code>en-US</code>. To make full ICU (locale) data available before version 13, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://nodejs.org/docs/latest/api/intl.html#intl_options_for_building_node_js'>Node.js documentation on the <code>--with-intl</code> option</a> and how to provide the data."
+          ],
+          "added": {
+            "version": "0.12.0",
+            "date": 1423180800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.017700000000000004,
+        "relative": 0.9943820224719101
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.017700000000000004,
+            "relative": 0.9943820224719101
           }
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "14.0.0",
+        "date": 1369094400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -215,7 +275,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1369094400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -226,67 +289,88 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "10.0.0",
+        "date": 1474329600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.033,
+        "relative": 0.9969788519637462
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1474329600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.033,
+            "relative": 0.9969788519637462
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "10.0.0",
+        "date": 1473724800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.1703,
+        "relative": 0.9915574963609902
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "10.0.0",
+            "date": 1473724800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.1703,
+            "relative": 0.9915574963609902
           }
         }
       ]
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "1.5.0",
+        "date": 1380067200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.027999999999999983,
+        "relative": 0.9964412811387902
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "1.5.0",
+            "date": 1380067200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.027999999999999983,
+            "relative": 0.9964412811387902
           }
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "4.4.0",
+        "date": 1386547200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -295,7 +379,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -307,7 +394,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }

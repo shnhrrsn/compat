@@ -114,17 +114,21 @@
         },
         {
           "notes": [
-            "Before Firefox 4, the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/percentage'><code>&lt;percentage&gt;</code></a> was relative to the width of the box even when specifying the radius for a height. This implied that <code>-moz-border-radius-topright</code> was always drawing an arc of circle, and never an ellipse, when followed by a single value."
+            "Before Firefox 4, the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/percentage'><code>&lt;percentage&gt;</code></a> was relative to the width of the box even when specifying the radius for a height. This implied that <code>-moz-border-radius-bottomright</code> was always drawing an arc of circle, and never an ellipse, when followed by a single value."
           ],
           "added": {
             "version": "1.0.0",
             "date": 1099958400
           },
-          "removed": null,
+          "removed": {
+            "version": "4.0.0",
+            "date": 1300752000
+          },
           "usage": {
-            "global": 0.030399999999999983,
-            "relative": 1
-          }
+            "global": 0.0002,
+            "relative": 0.006578947368421057
+          },
+          "partial_implementation": true
         }
       ]
     },

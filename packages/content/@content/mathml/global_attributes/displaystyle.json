@@ -91,7 +91,7 @@
       }
     },
     "seeAlso": {
-      "id": "052db600f894f09c0c92af6b58f7a71a",
+      "id": "00db8ea03ec1507a529b9fc658711d14",
       "tree": {
         "type": "root",
         "children": [
@@ -207,12 +207,22 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/math-depth"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "math-depth"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "math-depth"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -373,7 +383,7 @@
       "history": [
         {
           "notes": [
-            "Prior to Firefox 83, the attribute was only accepted on a few elements, as specified in MathML 3."
+            "Prior to Firefox 83, the attribute was only accepted on a few elements, as specified in MathML 3, and was not implemented via <code>math-style</code>."
           ],
           "added": {
             "version": "83.0.0",
@@ -401,7 +411,7 @@
       "history": [
         {
           "notes": [
-            "Prior to Firefox 83, the attribute was only accepted on a few elements, as specified in MathML 3."
+            "Prior to Firefox 83, the attribute was only accepted on a few elements, as specified in MathML 3, and was not implemented via <code>math-style</code>."
           ],
           "added": {
             "version": "83.0.0",
@@ -518,7 +528,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Since Safari 14.1, this attribute is implemented via <code>math-style</code>."
+          ],
           "added": {
             "version": "14.0.0",
             "date": 1600214400
@@ -544,7 +556,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Since Safari 14.1, this attribute is implemented via <code>math-style</code>."
+          ],
           "added": {
             "version": "14.0.0",
             "date": 1600214400

@@ -250,9 +250,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>Client</code> objects returned in most recent focus order."
-          ],
+          "notes": null,
           "added": {
             "version": "54.0.0",
             "date": 1497312000
@@ -265,17 +263,21 @@
         },
         {
           "notes": [
-            "<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://www.mozilla.org/en-US/firefox/organizations/'>Extended Support Releases (ESR)</a> before Firefox 78 ESR do not support service workers and the Push API."
+            "Before Firefox 54, <code>Client</code> objects were not returned in the most recent focus order as required by the specification."
           ],
           "added": {
             "version": "44.0.0",
             "date": 1453766400
           },
-          "removed": null,
+          "removed": {
+            "version": "54.0.0",
+            "date": 1497312000
+          },
           "usage": {
-            "global": 0.029899999999999986,
-            "relative": 0.9835526315789475
-          }
+            "global": 0.0006,
+            "relative": 0.019736842105263167
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -292,9 +294,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>Client</code> objects returned in most recent focus order."
-          ],
+          "notes": null,
           "added": {
             "version": "54.0.0",
             "date": 1497312000
@@ -306,16 +306,22 @@
           }
         },
         {
-          "notes": null,
+          "notes": [
+            "Before Firefox 54, <code>Client</code> objects were not returned in the most recent focus order as required by the specification."
+          ],
           "added": {
             "version": "44.0.0",
             "date": 1453766400
           },
-          "removed": null,
+          "removed": {
+            "version": "54.0.0",
+            "date": 1497312000
+          },
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
