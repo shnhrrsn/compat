@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "df24e1ba70ce297d97aff437a689baf7",
+      "id": "8f76721308bcc59e12c8696b407a997c",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " declaration is used\nwhen creating JavaScript modules to export live bindings to functions, objects, or\nprimitive values from the module so they can be used by other programs with the\n"
+                "value": " declaration is used to export values from a JavaScript module. Exported values can then be imported into other programs with the "
               },
               {
                 "type": "element",
@@ -62,7 +62,24 @@
               },
               {
                 "type": "text",
-                "value": " declaration. The value of an imported binding\nis subject to change in the module that exports it. When a module updates the value of\na binding that it exports, the update will be visible in its imported value."
+                "value": " declaration or "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/import"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "dynamic import"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The value of an imported binding is subject to change in the module that exports it — when a module updates the value of a binding that it exports, the update will be visible in its imported value."
               }
             ]
           }
@@ -226,8 +243,8 @@
     }
   },
   "commit": {
-    "sha": "389c286d4143a06cd6f82f3e1e7d6de663340264",
-    "date": "2022-07-05T08:04:53.000Z"
+    "sha": "4f5e0e38cd51ed4d52be2003375b87ceb9874974",
+    "date": "2022-07-29T02:45:07.000Z"
   },
   "usage": 0.9488200000000001,
   "support": {

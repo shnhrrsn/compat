@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "5fdef396adf05c3a7ccfad80cc8f9d3a",
+      "id": "74bca33fd4a49c8b82b6151d25a4b38c",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,22 @@
               },
               {
                 "type": "text",
-                "value": " by another module."
+                "value": " by another module. The imported bindings are called "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "live bindings"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " because they are updated by the module that exported the binding, but cannot be modified by the importing module."
               }
             ]
           }
@@ -314,8 +329,8 @@
     }
   },
   "commit": {
-    "sha": "8bf018f0a39d012a0d98afe3f15e0ed0fb7c8ce5",
-    "date": "2022-07-23T16:53:08.000Z"
+    "sha": "4f5e0e38cd51ed4d52be2003375b87ceb9874974",
+    "date": "2022-07-29T02:45:07.000Z"
   },
   "usage": 0.9488200000000001,
   "support": {
