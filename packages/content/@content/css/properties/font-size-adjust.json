@@ -237,7 +237,7 @@
           },
           "usage": {
             "global": 0.013600000000000006,
-            "relative": 0.059701492537313404
+            "relative": 0.05988551298987226
           },
           "flags": [
             {
@@ -268,8 +268,8 @@
             "date": 1621900800
           },
           "usage": {
-            "global": 0.01866,
-            "relative": 0.04635794494683495
+            "global": 0.01868,
+            "relative": 0.046340858347804506
           },
           "flags": [
             {
@@ -315,27 +315,15 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "40.0.0",
-        "date": 1439251200
+        "version": "3.0.0",
+        "date": 1213660800
       },
       "removed": null,
       "usage": {
         "global": 0.03059999999999998,
-        "relative": 0.9935064935064934
+        "relative": 1
       },
       "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "40.0.0",
-            "date": 1439251200
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.03059999999999998,
-            "relative": 0.9935064935064934
-          }
-        },
         {
           "notes": [
             "Before Firefox 40, <code>font-size-adjust: 0</code> was incorrectly interpreted as <code>font-size-adjust: none</code> (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1144885'>bug 1144885</a>)."
@@ -346,23 +334,27 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.030799999999999984,
+            "global": 0.03059999999999998,
             "relative": 1
           }
         },
         {
           "notes": [
-            "Before Firefox 3, <code>font-size-adjust</code> was supported on Windows only."
+            "Only supported on Windows."
           ],
           "added": {
             "version": "1.0.0",
             "date": 1099958400
           },
-          "removed": null,
+          "removed": {
+            "version": "3.0.0",
+            "date": 1213660800
+          },
           "usage": {
-            "global": 0.030799999999999984,
-            "relative": 1
-          }
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -379,7 +371,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Before Firefox 40, <code>font-size-adjust: 0</code> was incorrectly interpreted as <code>font-size-adjust: none</code> (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1144885'>bug 1144885</a>)."
+          ],
           "added": {
             "version": "4.0.0",
             "date": 1301356800
@@ -464,8 +458,8 @@
             "date": 1623196800
           },
           "usage": {
-            "global": 0.007000000000000002,
-            "relative": 0.40697674418604657
+            "global": 0.007100000000000002,
+            "relative": 0.4104046242774567
           },
           "flags": [
             {

@@ -1,0 +1,448 @@
+{
+  "self": [
+    "api",
+    "WebGL2RenderingContext",
+    "makeXRCompatible"
+  ],
+  "type": "page",
+  "title": "WebGLRenderingContext.makeXRCompatible()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/makeXRCompatible",
+    "spec": "https://immersive-web.github.io/webxr/#dom-webglrenderingcontextbase-makexrcompatible",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/webglrenderingcontext/makexrcompatible/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "8b508212c5fbbfe4fe01e1026e428dd6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/WebGLRenderingContext"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebGLRenderingContext"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method\n"
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "makeXRCompatible()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " ensures that the rendering context\ndescribed by the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebGLRenderingContext"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is ready to render the scene for the\nimmersive "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/WebXR_Device_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebXR"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " device on which it\nwill be displayed. If necessary, the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/WebGL_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebGL"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\nlayer may reconfigure the context to be ready to render to a different device than it\noriginally was."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "41fe03908c341ab928c4a8d5ee48e03e28e2dd6c",
+    "date": "2022-06-03T04:21:39.000Z"
+  },
+  "usage": 0.6981600000000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "79.0.0",
+        "date": 1575936000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.22130000000000014,
+        "relative": 0.9744605900484363
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1575936000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.22130000000000014,
+            "relative": 0.9744605900484363
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1576540800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.39726,
+        "relative": 0.9855122798313073
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1576540800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.39726,
+            "relative": 0.9855122798313073
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.040299999999999996,
+        "relative": 0.9950617283950618
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Oculus Browser",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "66.0.0",
+        "date": 1578355200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0137,
+        "relative": 0.791907514450867
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1578355200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0137,
+            "relative": 0.791907514450867
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "57.0.0",
+        "date": 1585526400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "57.0.0",
+            "date": 1585526400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "11.2.0",
+        "date": 1584835200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0256,
+        "relative": 0.8919860627177706
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "11.2.0",
+            "date": 1584835200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0256,
+            "relative": 0.8919860627177706
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

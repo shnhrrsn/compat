@@ -223,7 +223,7 @@
     "sha": "1529c6f4990c6d66190b8e50b38aa605f298c10b",
     "date": "2022-07-28T20:13:40.000Z"
   },
-  "usage": 0.9563099999999999,
+  "usage": 0.9567300000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -233,7 +233,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2278000000000002,
+        "global": 0.22710000000000025,
         "relative": 1
       },
       "history": [
@@ -245,7 +245,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2278000000000002,
+            "global": 0.22710000000000025,
             "relative": 1
           }
         }
@@ -259,7 +259,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.40251999999999993,
+        "global": 0.4031,
         "relative": 1
       },
       "history": [
@@ -271,7 +271,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.40251999999999993,
+            "global": 0.4031,
             "relative": 1
           }
         }
@@ -285,7 +285,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04059999999999999,
+        "global": 0.04049999999999999,
         "relative": 1
       },
       "history": [
@@ -297,7 +297,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04059999999999999,
+            "global": 0.04049999999999999,
             "relative": 1
           }
         }
@@ -306,58 +306,28 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "8.0.0",
-        "date": 1320710400
+        "version": "3.0.0",
+        "date": 1213660800
       },
       "removed": null,
       "usage": {
         "global": 0.03059999999999998,
-        "relative": 0.9935064935064934
+        "relative": 1
       },
       "history": [
         {
           "notes": [
-            "Supports sending <code>File</code> and <code>FileList</code> objects between windows. This is only allowed if the recipient's principal is contained within the sender's principal for security reasons."
-          ],
-          "added": {
-            "version": "8.0.0",
-            "date": 1320710400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.03059999999999998,
-            "relative": 0.9935064935064934
-          }
-        },
-        {
-          "notes": [
-            "The <code>message</code> parameter is serialized using the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Structured_clone_algorithm'>structured clone algorithm</a>. This means you can pass a broad variety of data objects safely to the destination window without having to serialize them yourself."
-          ],
-          "added": {
-            "version": "6.0.0",
-            "date": 1313452800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.03059999999999998,
-            "relative": 0.9935064935064934
-          }
-        },
-        {
-          "notes": [
-            "The <code>message</code> parameter must be a string."
+            "Firefox 8 and up supports sending <code>File</code> and <code>FileList</code> objects between windows. This is only allowed if the recipient's principal is contained within the sender's principal for security reasons.",
+            "Before Firefox 6, the <code>message</code> parameter must be a string. Sicne Firefox 6, the <code>message</code> parameter is serialized using the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Structured_clone_algorithm'>structured clone algorithm</a>. This means you can pass a broad variety of data objects safely to the destination window without having to serialize them yourself."
           ],
           "added": {
             "version": "3.0.0",
             "date": 1213660800
           },
-          "removed": {
-            "version": "6.0.0",
-            "date": 1313452800
-          },
+          "removed": null,
           "usage": {
-            "global": 0.0002,
-            "relative": 0.006493506493506497
+            "global": 0.03059999999999998,
+            "relative": 1
           }
         }
       ]
@@ -365,8 +335,8 @@
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "8.0.0",
-        "date": 1320710400
+        "version": "4.0.0",
+        "date": 1301356800
       },
       "removed": null,
       "usage": {
@@ -376,44 +346,14 @@
       "history": [
         {
           "notes": [
-            "Supports sending <code>File</code> and <code>FileList</code> objects between windows. This is only allowed if the recipient's principal is contained within the sender's principal for security reasons."
-          ],
-          "added": {
-            "version": "8.0.0",
-            "date": 1320710400
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          }
-        },
-        {
-          "notes": [
-            "The <code>message</code> parameter is serialized using the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Structured_clone_algorithm'>structured clone algorithm</a>. This means you can pass a broad variety of data objects safely to the destination window without having to serialize them yourself."
-          ],
-          "added": {
-            "version": "6.0.0",
-            "date": 1313452800
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          }
-        },
-        {
-          "notes": [
-            "The <code>message</code> parameter must be a string."
+            "Firefox 8 and up supports sending <code>File</code> and <code>FileList</code> objects between windows. This is only allowed if the recipient's principal is contained within the sender's principal for security reasons.",
+            "Before Firefox 6, the <code>message</code> parameter must be a string. Sicne Firefox 6, the <code>message</code> parameter is serialized using the <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Web_Workers_API/Structured_clone_algorithm'>structured clone algorithm</a>. This means you can pass a broad variety of data objects safely to the destination window without having to serialize them yourself."
           ],
           "added": {
             "version": "4.0.0",
             "date": 1301356800
           },
-          "removed": {
-            "version": "6.0.0",
-            "date": 1313452800
-          },
+          "removed": null,
           "usage": {
             "global": null,
             "relative": null
@@ -462,7 +402,8 @@
           "usage": {
             "global": 0.0004,
             "relative": 0.14814814814814814
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -500,7 +441,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.017200000000000003,
+        "global": 0.017300000000000003,
         "relative": 1
       },
       "history": [
@@ -512,7 +453,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.017200000000000003,
+            "global": 0.017300000000000003,
             "relative": 1
           }
         }
@@ -552,7 +493,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.03239999999999999,
+        "global": 0.032499999999999994,
         "relative": 1
       },
       "history": [
@@ -564,7 +505,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.03239999999999999,
+            "global": 0.032499999999999994,
             "relative": 1
           }
         }
@@ -578,7 +519,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.17418999999999996,
+        "global": 0.17462999999999998,
         "relative": 1
       },
       "history": [
@@ -590,7 +531,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.17418999999999996,
+            "global": 0.17462999999999998,
             "relative": 1
           }
         }

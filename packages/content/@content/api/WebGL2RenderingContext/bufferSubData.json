@@ -5,11 +5,227 @@
     "bufferSubData"
   ],
   "type": "page",
-  "title": "WebGL2RenderingContext / bufferSubData",
+  "title": "WebGLRenderingContext.bufferSubData()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bufferSubData"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bufferSubData",
+    "spec": "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.5",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/webglrenderingcontext/buffersubdata/index.md"
   },
-  "usage": 0.90661,
+  "content": {
+    "intro": {
+      "id": "b5403d006527b10e8b4af485df25c492",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebGLRenderingContext.bufferSubData()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/WebGL_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebGL API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " updates a subset of a buffer\nobject's data store."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "135f20b1c7649ab2f61c9474f7eee649",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WebGLRenderingContext/createBuffer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WebGLRenderingContext.createBuffer()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WebGLRenderingContext/bufferData"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WebGLRenderingContext.bufferData()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other buffers: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WebGLFramebuffer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WebGLFramebuffer"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/WebGLRenderbuffer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "WebGLRenderbuffer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "5b2e27dd5d4d8324f2d427aba757ca72e014abc1",
+    "date": "2022-07-28T15:48:01.000Z"
+  },
+  "usage": 0.9067400000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -19,8 +235,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.22650000000000017,
-        "relative": 0.9942932396839331
+        "global": 0.22580000000000022,
+        "relative": 0.994275649493615
       },
       "history": [
         {
@@ -31,8 +247,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.22650000000000017,
-            "relative": 0.9942932396839331
+            "global": 0.22580000000000022,
+            "relative": 0.994275649493615
           }
         }
       ]
@@ -45,8 +261,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.39952,
-        "relative": 0.9925469541886118
+        "global": 0.40009,
+        "relative": 0.9925328702555197
       },
       "history": [
         {
@@ -57,8 +273,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.39952,
-            "relative": 0.9925469541886118
+            "global": 0.40009,
+            "relative": 0.9925328702555197
           }
         }
       ]
@@ -71,8 +287,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04039999999999999,
-        "relative": 0.9950738916256159
+        "global": 0.040299999999999996,
+        "relative": 0.9950617283950618
       },
       "history": [
         {
@@ -83,8 +299,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04039999999999999,
-            "relative": 0.9950738916256159
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
           }
         }
       ]
@@ -97,8 +313,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.029699999999999983,
-        "relative": 0.9642857142857143
+        "global": 0.029499999999999985,
+        "relative": 0.9640522875816994
       },
       "history": [
         {
@@ -109,8 +325,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.029699999999999983,
-            "relative": 0.9642857142857143
+            "global": 0.029499999999999985,
+            "relative": 0.9640522875816994
           }
         }
       ]
@@ -195,8 +411,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0171,
-        "relative": 0.9941860465116279
+        "global": 0.017200000000000003,
+        "relative": 0.9942196531791907
       },
       "history": [
         {
@@ -207,8 +423,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0171,
-            "relative": 0.9941860465116279
+            "global": 0.017200000000000003,
+            "relative": 0.9942196531791907
           }
         }
       ]
@@ -247,8 +463,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.023999999999999994,
-        "relative": 0.7407407407407408
+        "global": 0.0241,
+        "relative": 0.7415384615384617
       },
       "history": [
         {
@@ -259,8 +475,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.023999999999999994,
-            "relative": 0.7407407407407408
+            "global": 0.0241,
+            "relative": 0.7415384615384617
           }
         }
       ]
@@ -273,8 +489,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.14269,
-        "relative": 0.819162982949653
+        "global": 0.14305,
+        "relative": 0.8191605107942509
       },
       "history": [
         {
@@ -285,8 +501,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.14269,
-            "relative": 0.819162982949653
+            "global": 0.14305,
+            "relative": 0.8191605107942509
           }
         }
       ]

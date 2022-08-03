@@ -10,7 +10,7 @@
   "type": "page",
   "title": "queryInfo / cookieStoreId",
   "links": {},
-  "usage": 0.027099999999999996,
+  "usage": 0.026899999999999993,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -60,35 +60,39 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.027099999999999996,
-        "relative": 0.8798701298701302
+        "global": 0.026899999999999993,
+        "relative": 0.8790849673202618
       },
       "history": [
         {
-          "notes": [
-            "Supports an array of strings to return tabs associated with any of the list of <code>cookieStoreId</code>s."
-          ],
+          "notes": null,
           "added": {
             "version": "97.0.0",
             "date": 1644278400
           },
           "removed": null,
           "usage": {
-            "global": 0.027099999999999996,
-            "relative": 0.8798701298701302
+            "global": 0.026899999999999993,
+            "relative": 0.8790849673202618
           }
         },
         {
-          "notes": null,
+          "notes": [
+            "Before Firefox 97, this property only supported a single string, not an array of strings."
+          ],
           "added": {
             "version": "52.0.0",
             "date": 1488844800
           },
-          "removed": null,
+          "removed": {
+            "version": "97.0.0",
+            "date": 1644278400
+          },
           "usage": {
-            "global": 0.029699999999999983,
-            "relative": 0.9642857142857143
-          }
+            "global": 0.0027,
+            "relative": 0.08823529411764712
+          },
+          "partial_implementation": true
         }
       ]
     },

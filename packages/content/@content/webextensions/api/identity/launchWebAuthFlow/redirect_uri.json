@@ -9,7 +9,7 @@
   "type": "page",
   "title": "launchWebAuthFlow / redirect_uri",
   "links": {},
-  "usage": 0.028499999999999987,
+  "usage": 0.028899999999999985,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -54,67 +54,29 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "86.0.0",
-        "date": 1614038400
+        "version": "53.0.0",
+        "date": 1492560000
       },
       "removed": null,
       "usage": {
-        "global": 0.028499999999999987,
-        "relative": 0.9253246753246754
+        "global": 0.028899999999999985,
+        "relative": 0.9444444444444444
       },
       "history": [
         {
           "notes": [
-            "The <code>redirect_url</code> parameter now supports a loopback address, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity#getting_the_redirect_url'>Getting the redirect URL</a> for details."
+            "Since Firefox 86, the <code>redirect_url</code> parameter now supports a loopback address, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/identity#getting_the_redirect_url'>Getting the redirect URL</a> for details.",
+            "Between Firefox 75 and Firefox 86, the <code>redirect_uri</code> URL parameter must be set to the URL returned by <code>identity.getRedirectURL()</code>.",
+            "Between Firefox 63 and Firefox 75, the <code>redirect_uri</code> URL parameter was optional."
           ],
-          "added": {
-            "version": "86.0.0",
-            "date": 1614038400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.028499999999999987,
-            "relative": 0.9253246753246754
-          }
-        },
-        {
-          "notes": [
-            "The <code>redirect_uri</code> URL parameter must be set to the URL returned by <code>identity.getRedirectURL()</code>."
-          ],
-          "added": {
-            "version": "75.0.0",
-            "date": 1586217600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.028999999999999984,
-            "relative": 0.9415584415584416
-          }
-        },
-        {
-          "notes": [
-            "The <code>redirect_uri</code> URL parameter is now optional."
-          ],
-          "added": {
-            "version": "63.0.0",
-            "date": 1540252800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029099999999999984,
-            "relative": 0.9448051948051948
-          }
-        },
-        {
-          "notes": null,
           "added": {
             "version": "53.0.0",
             "date": 1492560000
           },
           "removed": null,
           "usage": {
-            "global": 0.029099999999999984,
-            "relative": 0.9448051948051948
+            "global": 0.028899999999999985,
+            "relative": 0.9444444444444444
           }
         }
       ]
