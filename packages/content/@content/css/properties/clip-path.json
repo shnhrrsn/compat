@@ -343,10 +343,10 @@
     }
   },
   "commit": {
-    "sha": "393e1c92836968cc63e0e0bef86c1d735f125952",
-    "date": "2022-04-05T12:01:08.000Z"
+    "sha": "6d697b8a86ea3ce1bf82615c5dc006aeaa22d90b",
+    "date": "2022-08-09T09:59:30.000Z"
   },
-  "usage": 0.9497100000000002,
+  "usage": 0.9472100000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -429,17 +429,31 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "12.0.0",
-        "date": 1438041600
+        "version": "79.0.0",
+        "date": 1579046400
       },
       "removed": null,
       "usage": {
-        "global": 0.04049999999999999,
-        "relative": 1
+        "global": 0.040299999999999996,
+        "relative": 0.9950617283950618
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
+          }
+        },
+        {
+          "notes": [
+            "Only supports clip paths defined by <code>url()</code>."
+          ],
           "added": {
             "version": "12.0.0",
             "date": 1438041600
@@ -448,7 +462,8 @@
           "usage": {
             "global": 0.04049999999999999,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -506,19 +521,16 @@
     },
     "ie": {
       "name": "Internet Explorer",
-      "added": {
-        "version": "10.0.0",
-        "date": 1351209600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.0023,
-        "relative": 0.8518518518518519
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "Internet Explorer only supports clip paths defined by <code>url()</code>."
+            "Only supports clip paths defined by <code>url()</code>."
           ],
           "added": {
             "version": "10.0.0",
@@ -528,7 +540,8 @@
           "usage": {
             "global": 0.0023,
             "relative": 0.8518518518518519
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

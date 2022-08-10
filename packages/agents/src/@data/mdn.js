@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"107.0.0",
+				{
+					"date": 1666656000,
+					"usage": null
+				}
+			],
+			[
 				"106.0.0",
 				{
 					"date": 1664236800,
@@ -744,6 +751,13 @@ const mdn = {
 		name: 'Chrome Android',
 		versions: new Map([
 			[
+				"107.0.0",
+				{
+					"date": 1666656000,
+					"usage": null
+				}
+			],
+			[
 				"106.0.0",
 				{
 					"date": 1664236800,
@@ -1323,6 +1337,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"106.0.0",
+				{
+					"date": 1664409600,
+					"usage": null
+				}
+			],
+			[
 				"105.0.0",
 				{
 					"date": 1661990400,
@@ -1332,7 +1353,7 @@ const mdn = {
 			[
 				"104.0.0",
 				{
-					"date": 1659571200,
+					"date": 1659657600,
 					"usage": null
 				}
 			],
@@ -4256,10 +4277,17 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"15.6.0",
+				{
+					"date": 1658275200,
+					"usage": 0.08
+				}
+			],
+			[
 				"15.5.0",
 				{
 					"date": 1652659200,
-					"usage": 1.86
+					"usage": 1.78
 				}
 			],
 			[
@@ -4478,10 +4506,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"15.6.0",
+				{
+					"date": 1658275200,
+					"usage": 0.377
+				}
+			],
+			[
 				"15.5.0",
 				{
 					"date": 1652659200,
-					"usage": 12.083
+					"usage": 11.706
 				}
 			],
 			[
@@ -4935,6 +4970,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"107.0.0",
+				{
+					"date": 1666656000,
+					"usage": null
+				}
+			],
 			[
 				"106.0.0",
 				{

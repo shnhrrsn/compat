@@ -311,8 +311,8 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "22.0.0",
-        "date": 1372118400
+        "version": "38.0.0",
+        "date": 1431388800
       },
       "removed": null,
       "usage": {
@@ -323,22 +323,40 @@
         {
           "notes": null,
           "added": {
-            "version": "22.0.0",
-            "date": 1372118400
+            "version": "38.0.0",
+            "date": 1431388800
           },
           "removed": null,
           "usage": {
             "global": 0.030399999999999983,
             "relative": 0.9934640522875817
           }
+        },
+        {
+          "notes": [
+            "Although the <code>onnegotiationneeded</code> property is supported, the <code>negotiationneeded</code> event is never fired."
+          ],
+          "added": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "removed": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "44.0.0",
-        "date": 1453766400
+        "version": "38.0.0",
+        "date": 1431388800
       },
       "removed": null,
       "usage": {
@@ -349,14 +367,32 @@
         {
           "notes": null,
           "added": {
-            "version": "44.0.0",
-            "date": 1453766400
+            "version": "38.0.0",
+            "date": 1431388800
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Although the <code>onnegotiationneeded</code> property is supported, the <code>negotiationneeded</code> event is never fired."
+          ],
+          "added": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "removed": {
+            "version": "38.0.0",
+            "date": 1431388800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },

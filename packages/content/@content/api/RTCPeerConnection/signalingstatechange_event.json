@@ -272,8 +272,8 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "22.0.0",
-        "date": 1372118400
+        "version": "36.0.0",
+        "date": 1424736000
       },
       "removed": null,
       "usage": {
@@ -284,22 +284,40 @@
         {
           "notes": null,
           "added": {
-            "version": "22.0.0",
-            "date": 1372118400
+            "version": "36.0.0",
+            "date": 1424736000
           },
           "removed": null,
           "usage": {
             "global": 0.030399999999999983,
             "relative": 0.9934640522875817
           }
+        },
+        {
+          "notes": [
+            "Although the <code>onsignalingstatechange</code> property is supported, the <code>signalingstatechange</code> event is not fired as an <code>Event</code> object. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1075133'>bug 1075133</a>."
+          ],
+          "added": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1424736000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "44.0.0",
-        "date": 1453766400
+        "version": "36.0.0",
+        "date": 1424995200
       },
       "removed": null,
       "usage": {
@@ -310,14 +328,32 @@
         {
           "notes": null,
           "added": {
-            "version": "44.0.0",
-            "date": 1453766400
+            "version": "36.0.0",
+            "date": 1424995200
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Although the <code>onsignalingstatechange</code> property is supported, the <code>signalingstatechange</code> event is not fired as an <code>Event</code> object. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1075133'>bug 1075133</a>."
+          ],
+          "added": {
+            "version": "24.0.0",
+            "date": 1379376000
+          },
+          "removed": {
+            "version": "36.0.0",
+            "date": 1424995200
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
