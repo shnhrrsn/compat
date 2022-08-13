@@ -15,7 +15,7 @@
   },
   "content": {
     "intro": {
-      "id": "bd6b1894bd4ff2a96e7d95294b4955b1",
+      "id": "a2bee86932d185f71b0d5436937ce020",
       "tree": {
         "type": "root",
         "children": [
@@ -73,7 +73,72 @@
               },
               {
                 "type": "text",
-                "value": " object returns the buffer contained in the memory."
+                "value": " object returns the buffer contained in the memory. Depending on whether or not the memory was constructed with "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shared: true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the buffer is either an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/ArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/SharedArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SharedArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -183,8 +248,8 @@
     }
   },
   "commit": {
-    "sha": "8bf018f0a39d012a0d98afe3f15e0ed0fb7c8ce5",
-    "date": "2022-07-23T16:53:08.000Z"
+    "sha": "9ce57d5046baf5d25c8eb066e60227f0fbd017cf",
+    "date": "2022-08-12T14:18:15.000Z"
   },
   "usage": 0.9440000000000002,
   "support": {
