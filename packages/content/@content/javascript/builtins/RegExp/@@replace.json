@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "48b811f9fef83c444a9ea5be85194703",
+      "id": "c42aa9ccfe0adec63591fd39d871e55b",
       "tree": {
         "type": "root",
         "children": [
@@ -47,52 +47,55 @@
               },
               {
                 "type": "text",
-                "value": " method replaces some or all matches of\na "
+                "value": " method of a regular expression specifies how "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "this"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "String.prototype.replace()"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " pattern in a string by a "
+                "value": " and "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "replacement"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "String.prototype.replaceAll()"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ", and returns the\nresult of the replacement as a new string. The "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "replacement"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " can be a string\nor a function to be called for each match."
+                "value": " should behave when the regular expression is passed in as the pattern."
               }
             ]
           }
@@ -103,7 +106,7 @@
       }
     },
     "seeAlso": {
-      "id": "33f47ff282a4210ac79dd2e622aedb0b",
+      "id": "10eada59e2b2088ecda6ca1e04268e95",
       "tree": {
         "type": "root",
         "children": [
@@ -187,6 +190,38 @@
                           {
                             "type": "text",
                             "value": "String.prototype.replace()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/String/replaceAll"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "String.prototype.replaceAll()"
                           }
                         ]
                       }
@@ -417,6 +452,37 @@
                           {
                             "type": "text",
                             "value": "\n"
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "li",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "a",
+                                "properties": {
+                                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/replace"
+                                },
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "code",
+                                    "properties": {},
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "value": "Symbol.replace"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": "\n"
                           }
                         ]
                       }
@@ -434,8 +500,8 @@
     }
   },
   "commit": {
-    "sha": "209f93f441245d79f98bc021a644120441f70c6e",
-    "date": "2022-05-22T21:42:30.000Z"
+    "sha": "f82233a2e58b3804af334ae0318fb8627153474c",
+    "date": "2022-08-14T04:02:42.000Z"
   },
   "usage": 0.9452700000000003,
   "support": {
