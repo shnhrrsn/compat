@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "fa8bf1a3a2d92c40275636f1830bad5c",
+      "id": "6566656aadaf011b526308b54e9f4e94",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "[@@matchAll]"
+                        "value": "[@@matchAll]()"
                       }
                     ]
                   }
@@ -47,7 +47,31 @@
               },
               {
                 "type": "text",
-                "value": " method returns all matches of the\nregular expression against a string."
+                "value": " method of a regular expression specifies how "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "String.prototype.matchAll"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " should behave."
               }
             ]
           }
@@ -195,8 +219,8 @@
     }
   },
   "commit": {
-    "sha": "8a5ab92ceab8fe1b8f44597381cf3fd996e252e9",
-    "date": "2022-08-06T06:07:15.000Z"
+    "sha": "83d09fa55f408e15f68d519c913ec0ee5d126fb7",
+    "date": "2022-08-14T09:10:33.000Z"
   },
   "usage": 0.9312600000000003,
   "support": {
