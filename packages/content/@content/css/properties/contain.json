@@ -219,7 +219,7 @@
     "sha": "4e7553185bcaf7f30ec7fec9ae35aa3e8c787bfa",
     "date": "2022-07-11T21:06:17.000Z"
   },
-  "usage": 0.8923000000000002,
+  "usage": 0.8661000000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -302,15 +302,27 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "69.0.0",
-        "date": 1567468800
+        "version": "103.0.0",
+        "date": 1658793600
       },
       "removed": null,
       "usage": {
-        "global": 0.028799999999999985,
-        "relative": 0.9411764705882354
+        "global": 0.0026,
+        "relative": 0.08496732026143795
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0026,
+            "relative": 0.08496732026143795
+          }
+        },
         {
           "notes": [
             "Firefox does not support the <code>style</code> value."
@@ -323,15 +335,16 @@
           "usage": {
             "global": 0.028799999999999985,
             "relative": 0.9411764705882354
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "79.0.0",
-        "date": 1595894400
+        "version": "103.0.0",
+        "date": 1658793600
       },
       "removed": null,
       "usage": {
@@ -339,6 +352,18 @@
         "relative": null
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
         {
           "notes": [
             "Firefox does not support the <code>style</code> value."
@@ -351,7 +376,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

@@ -4,6 +4,27 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"110.0.0",
+				{
+					"date": 1675728000,
+					"usage": null
+				}
+			],
+			[
+				"109.0.0",
+				{
+					"date": 1673308800,
+					"usage": null
+				}
+			],
+			[
+				"108.0.0",
+				{
+					"date": 1669680000,
+					"usage": null
+				}
+			],
+			[
 				"107.0.0",
 				{
 					"date": 1666656000,
@@ -750,6 +771,27 @@ const mdn = {
 	chrome_android: {
 		name: 'Chrome Android',
 		versions: new Map([
+			[
+				"110.0.0",
+				{
+					"date": 1675728000,
+					"usage": null
+				}
+			],
+			[
+				"109.0.0",
+				{
+					"date": 1673308800,
+					"usage": null
+				}
+			],
+			[
+				"108.0.0",
+				{
+					"date": 1669680000,
+					"usage": null
+				}
+			],
 			[
 				"107.0.0",
 				{
@@ -1580,6 +1622,27 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"108.0.0",
+				{
+					"date": 1670889600,
+					"usage": null
+				}
+			],
+			[
+				"107.0.0",
+				{
+					"date": 1668470400,
+					"usage": null
+				}
+			],
+			[
+				"106.0.0",
+				{
+					"date": 1666051200,
+					"usage": null
+				}
+			],
+			[
 				"105.0.0",
 				{
 					"date": 1663632000,
@@ -2340,6 +2403,27 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"108.0.0",
+				{
+					"date": 1670889600,
+					"usage": null
+				}
+			],
+			[
+				"107.0.0",
+				{
+					"date": 1668470400,
+					"usage": null
+				}
+			],
+			[
+				"106.0.0",
+				{
+					"date": 1666051200,
+					"usage": null
+				}
+			],
 			[
 				"105.0.0",
 				{
@@ -4714,6 +4798,13 @@ const mdn = {
 		name: 'Samsung Internet',
 		versions: new Map([
 			[
+				"18.0.0",
+				{
+					"date": 1659916800,
+					"usage": null
+				}
+			],
+			[
 				"17.0.0",
 				{
 					"date": 1651622400,
@@ -4970,6 +5061,27 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"110.0.0",
+				{
+					"date": 1675728000,
+					"usage": null
+				}
+			],
+			[
+				"109.0.0",
+				{
+					"date": 1673308800,
+					"usage": null
+				}
+			],
+			[
+				"108.0.0",
+				{
+					"date": 1669680000,
+					"usage": null
+				}
+			],
 			[
 				"107.0.0",
 				{
