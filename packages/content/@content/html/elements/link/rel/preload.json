@@ -15,7 +15,7 @@
   },
   "content": {
     "intro": {
-      "id": "a0ca8db255a75acffb9a391cffaf84ab",
+      "id": "f75d3d11ef7bfa2ee769852967b607ac",
       "tree": {
         "type": "root",
         "children": [
@@ -91,7 +91,22 @@
               },
               {
                 "type": "text",
-                "value": ", specifying resources that your page will need very soon, which you want to start loading early in the page lifecycle,\nbefore browsers' main rendering machinery kicks in. This ensures they are available earlier and are less likely to block the page's render, improving performance."
+                "value": ", specifying resources that your page will need very soon, which you want to start loading early in the page lifecycle,\nbefore browsers' main rendering machinery kicks in. This ensures they are available earlier and are less likely to block the page's render, improving performance. Even though the name contains the term "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "load"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", it doesn't load and execute the script but only schedules it to be downloaded and cached with a higher priority."
               }
             ]
           }
@@ -153,8 +168,8 @@
     }
   },
   "commit": {
-    "sha": "3c4825249f93a53f0fd2b0b6d0a371663086718e",
-    "date": "2022-08-12T03:38:44.000Z"
+    "sha": "abaf4a109772583561ace05a4249cd6d955c3682",
+    "date": "2022-08-17T06:26:04.000Z"
   },
   "usage": 0.07219999999999999,
   "support": {
