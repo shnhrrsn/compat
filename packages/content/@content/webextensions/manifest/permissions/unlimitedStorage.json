@@ -8,7 +8,7 @@
   "type": "page",
   "title": "permissions / unlimitedStorage",
   "links": {},
-  "usage": 0.32550000000000023,
+  "usage": 0.46855000000000024,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -148,7 +148,7 @@
       "history": [
         {
           "notes": [
-            "Does not grant an unlimited storage quota. Grants a 10 MB storage quota, instead of the standard 5 MB."
+            "Before Safari 16, this permission granted a 10 MB storage quota. Since Safari 16, the storage quota is unlimited."
           ],
           "added": {
             "version": "14.0.0",
@@ -158,6 +158,34 @@
           "usage": {
             "global": 0.028999999999999998,
             "relative": 0.8923076923076924
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14305,
+        "relative": 0.8191605107942509
+      },
+      "history": [
+        {
+          "notes": [
+            "Does not grant an unlimited storage quota. Grants a 10 MB storage quota, instead of the standard 5 MB."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14305,
+            "relative": 0.8191605107942509
           }
         }
       ]

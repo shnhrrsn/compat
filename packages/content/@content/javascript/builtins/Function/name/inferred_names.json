@@ -9,7 +9,7 @@
   "type": "page",
   "title": "name / inferred_names",
   "links": {},
-  "usage": 0.9043700000000003,
+  "usage": 0.9446700000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -91,13 +91,28 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.040299999999999996,
+        "relative": 0.9950617283950618
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
+          }
+        },
         {
           "notes": [
             "Names for functions defined in a dictionary are properly assigned; however, anonymous functions defined on a var/let variable assignment have blank names."
@@ -106,10 +121,13 @@
             "version": "14.0.0",
             "date": 1470096000
           },
-          "removed": null,
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
           "usage": {
-            "global": 0.04049999999999999,
-            "relative": 1
+            "global": 0.0002,
+            "relative": 0.004938271604938273
           },
           "partial_implementation": true
         }

@@ -414,56 +414,6 @@
               "value_to_set": "true"
             }
           ]
-        },
-        {
-          "notes": [
-            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
-          ],
-          "added": {
-            "version": "87.0.0",
-            "date": 1616457600
-          },
-          "removed": {
-            "version": "90.0.0",
-            "date": 1626134400
-          },
-          "usage": {
-            "global": 0.0001,
-            "relative": 0.003267973856209152
-          },
-          "flags": [
-            {
-              "name": "dom.events.asyncClipboard.clipboardItem",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": [
-            "This method returns a <code>DataTransfer</code> object instead of an array of <code>ClipboardItem</code> objects.",
-            "Firefox only supports reading the clipboard in browser extensions, using the <code>\"clipboardRead\"</code> extension permission."
-          ],
-          "added": {
-            "version": "63.0.0",
-            "date": 1540252800
-          },
-          "removed": {
-            "version": "87.0.0",
-            "date": 1616457600
-          },
-          "usage": {
-            "global": 0.0006000000000000001,
-            "relative": 0.019607843137254916
-          },
-          "flags": [
-            {
-              "name": "dom.events.asyncClipboard.dataTransfer",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ],
-          "partial_implementation": true
         }
       ]
     },

@@ -3142,6 +3142,13 @@ const mdn = {
 		name: 'Oculus Browser',
 		versions: new Map([
 			[
+				"23.0.0",
+				{
+					"date": 1660521600,
+					"usage": null
+				}
+			],
+			[
 				"22.0.0",
 				{
 					"date": 1654473600,
@@ -3237,6 +3244,13 @@ const mdn = {
 	opera: {
 		name: 'Opera',
 		versions: new Map([
+			[
+				"90.0.0",
+				{
+					"date": 1660780800,
+					"usage": null
+				}
+			],
 			[
 				"89.0.0",
 				{

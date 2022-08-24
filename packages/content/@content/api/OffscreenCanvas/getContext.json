@@ -283,8 +283,8 @@
     }
   },
   "commit": {
-    "sha": "3381c87b92394ef5c68b72d40367d93c796e0870",
-    "date": "2022-07-28T09:27:35.000Z"
+    "sha": "3ff45899bbb6c1e82abfc8b6a88703bd09e6e685",
+    "date": "2022-08-23T20:35:45.000Z"
   },
   "usage": 0.7082000000000003,
   "support": {
@@ -368,13 +368,28 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
         "relative": null
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
         {
           "notes": [
             "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1390089'>bug 1390089</a>."
@@ -391,7 +406,8 @@
           "flags": [
             {
               "name": "gfx.offscreencanvas.enabled",
-              "type": "preference"
+              "type": "preference",
+              "value_to_set": "true"
             }
           ],
           "partial_implementation": true
@@ -400,7 +416,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -409,7 +428,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,

@@ -8,7 +8,7 @@
   "type": "page",
   "title": "chrome_url_overrides / newtab",
   "links": {},
-  "usage": 0.32400000000000023,
+  "usage": 0.46705000000000024,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -148,7 +148,7 @@
       "history": [
         {
           "notes": [
-            "An extension can define a custom new tab or window page, but it does not take effect until the user chooses the extension to override the page in Safari's <em>General</em> preferences."
+            "An extension can define a custom new tab or window page, but it does not take effect until the user chooses the extension to override the page in Safari's <em>General</em> settings."
           ],
           "added": {
             "version": "14.1.0",
@@ -158,6 +158,34 @@
           "usage": {
             "global": 0.0277,
             "relative": 0.8523076923076924
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.14305,
+        "relative": 0.8191605107942509
+      },
+      "history": [
+        {
+          "notes": [
+            "An extension can define a custom new tab or window page, but it does not take effect until the user chooses the extension to override the page in Safari's <em>Extensions</em> settings."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14305,
+            "relative": 0.8191605107942509
           }
         }
       ]
