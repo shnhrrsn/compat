@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "6c22540af8805f525fceb138955a8f1d",
+      "id": "9ba5f380ea72fde032251798cef33daf",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,37 @@
               },
               {
                 "type": "text",
-                "value": " event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading."
+                "value": " event fires when the HTML document has been completely parsed, and all deferred scripts ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<script defer src=\"…\">"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<script type=\"module\">"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") have downloaded and executed. It doesn't wait for other things like images, subframes, and async scripts to finish loading."
               }
             ]
           }
@@ -252,8 +282,8 @@
     }
   },
   "commit": {
-    "sha": "95d6c222f9aba9a60dee4adc738d741a28c8b83a",
-    "date": "2022-07-25T13:19:57.000Z"
+    "sha": "bfac7fedf026aaca44f381658d335721df603c0c",
+    "date": "2022-08-24T14:07:10.000Z"
   },
   "usage": 0.9570300000000002,
   "support": {
