@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "aaccb8c10ed8a885cb9128bcb79bd097",
+      "id": "d0a7e48fce6e44cf1c804a15e7e6391c",
       "tree": {
         "type": "root",
         "children": [
@@ -50,7 +50,7 @@
               },
               {
                 "type": "text",
-                "value": " creates a loop iterating over\n"
+                "value": " executes a loop that operates on a sequence of values sourced from an "
               },
               {
                 "type": "element",
@@ -61,13 +61,38 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "iterable objects"
+                    "value": "iterable object"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ",\nincluding: built-in "
+                "value": ". Iterable objects include instances of built-ins such as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Array"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
               },
               {
                 "type": "element",
@@ -93,71 +118,6 @@
               {
                 "type": "text",
                 "value": ", "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/Array"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Array"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ",\narray-like objects (e.g., "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "arguments"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\nor "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/NodeList"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "NodeList"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "), "
               },
               {
                 "type": "element",
@@ -207,7 +167,7 @@
               },
               {
                 "type": "text",
-                "value": ",\n"
+                "value": ", "
               },
               {
                 "type": "element",
@@ -232,7 +192,81 @@
               },
               {
                 "type": "text",
-                "value": ", and user-defined iterables. It invokes a custom iteration hook with\nstatements to be executed for the value of each distinct property of the object."
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/NodeList"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NodeList"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (and other DOM collections), as well as the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "arguments"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object, "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "generators"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " produced by "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/function*"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "generator functions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", and user-defined iterables."
               }
             ]
           }
@@ -243,7 +277,7 @@
       }
     },
     "seeAlso": {
-      "id": "0fcd412f99685ead6779de49cc42575d",
+      "id": "703945858081a186672a88544049e0bd",
       "tree": {
         "type": "root",
         "children": [
@@ -352,19 +386,12 @@
                   },
                   {
                     "type": "element",
-                    "tagName": "strong",
+                    "tagName": "code",
                     "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "for...of"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "for...of"
                       }
                     ]
                   },
@@ -388,8 +415,8 @@
     }
   },
   "commit": {
-    "sha": "9b06a13f934f101153c8ca2c77ab6d0cae2cf42a",
-    "date": "2022-08-22T19:53:49.000Z"
+    "sha": "f0648d85c8408259af526ef1b9184bf95faf5083",
+    "date": "2022-08-26T03:28:46.000Z"
   },
   "usage": 0.9531700000000003,
   "support": {
