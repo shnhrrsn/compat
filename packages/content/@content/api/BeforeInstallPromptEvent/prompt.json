@@ -86,74 +86,109 @@
     "sha": "e621bf5b92e5122dae992cffae3dcd4bc08300c9",
     "date": "2022-08-07T04:51:53.000Z"
   },
-  "usage": 0.7110000000000003,
+  "usage": 0.026699999999999995,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "44.0.0",
-        "date": 1437436800
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.22670000000000026,
-        "relative": 0.9982386613826508
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
+          "added": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.22240000000000013,
+            "relative": 0.9793042712461465
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
           "added": {
             "version": "44.0.0",
             "date": 1437436800
           },
-          "removed": null,
+          "removed": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
           "usage": {
-            "global": 0.22670000000000026,
-            "relative": 0.9982386613826508
-          }
+            "global": 0.004900000000000002,
+            "relative": 0.021576398062527504
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "44.0.0",
-        "date": 1438128000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.40010000000000007,
-        "relative": 0.9925576779955346
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
+          "added": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3972900000000001,
+            "relative": 0.9855867030513521
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
           "added": {
             "version": "44.0.0",
             "date": 1438128000
           },
-          "removed": null,
+          "removed": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
           "usage": {
-            "global": 0.40010000000000007,
-            "relative": 0.9925576779955346
-          }
+            "global": 0.0028099999999999996,
+            "relative": 0.006970974944182584
+          },
+          "partial_implementation": true
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": {
-        "version": "79.0.0",
-        "date": 1579046400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.040299999999999996,
-        "relative": 0.9950617283950618
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
           "added": {
             "version": "79.0.0",
             "date": 1579046400
@@ -162,7 +197,8 @@
           "usage": {
             "global": 0.040299999999999996,
             "relative": 0.9950617283950618
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -228,10 +264,7 @@
     },
     "oculus": {
       "name": "Oculus Browser",
-      "added": {
-        "version": "5.0.0",
-        "date": null
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -239,51 +272,43 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
           "added": {
-            "version": "5.0.0",
+            "version": "7.0.0",
             "date": null
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "7.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "31.0.0",
-        "date": 1438646400
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.017200000000000003,
-        "relative": 0.9942196531791907
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "31.0.0",
-            "date": 1438646400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.017200000000000003,
-            "relative": 0.9942196531791907
-          }
-        }
-      ]
-    },
-    "opera_android": {
-      "name": "Opera Android",
-      "added": {
-        "version": "32.0.0",
-        "date": 1442966400
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -291,16 +316,81 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
           "added": {
-            "version": "32.0.0",
-            "date": 1442966400
+            "version": "63.0.0",
+            "date": 1566259200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.016,
+            "relative": 0.9248554913294798
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
+          "added": {
+            "version": "31.0.0",
+            "date": 1438646400
+          },
+          "removed": {
+            "version": "63.0.0",
+            "date": 1566259200
+          },
+          "usage": {
+            "global": 0.0034000000000000002,
+            "relative": 0.19653179190751444
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
+          "added": {
+            "version": "54.0.0",
+            "date": 1571356800
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
+          "added": {
+            "version": "32.0.0",
+            "date": 1442966400
+          },
+          "removed": {
+            "version": "54.0.0",
+            "date": 1571356800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -372,10 +462,7 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "44.0.0",
-        "date": 1438128000
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -383,16 +470,37 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
+          ],
           "added": {
-            "version": "44.0.0",
-            "date": 1438128000
+            "version": "76.0.0",
+            "date": 1564444800
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Resolved with an empty promise."
+          ],
+          "added": {
+            "version": "44.0.0",
+            "date": 1438128000
+          },
+          "removed": {
+            "version": "76.0.0",
+            "date": 1564444800
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     }

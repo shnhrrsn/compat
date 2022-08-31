@@ -54,7 +54,7 @@
     "sha": "349be47c0c46801fd3f4f73c3cf3577455882515",
     "date": "2022-07-23T04:29:20.000Z"
   },
-  "usage": 0.23768999999999996,
+  "usage": 0.23748999999999995,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -66,15 +66,45 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.21480000000000007,
+            "relative": 0.9458388375165118
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Only basic support with attributes <code>dir</code>, <code>mathbackground</code>, <code>mathcolor</code> and <code>mathsize</code>."
+          ],
+          "added": {
+            "version": "80.0.0",
+            "date": 1580774400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.21960000000000013,
+            "relative": 0.9669749009247022
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
@@ -88,15 +118,45 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.3844100000000001,
+            "relative": 0.9536343339121808
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Only basic support with attributes <code>dir</code>, <code>mathbackground</code>, <code>mathcolor</code> and <code>mathsize</code>."
+          ],
+          "added": {
+            "version": "80.0.0",
+            "date": 1580774400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3964600000000001,
+            "relative": 0.9835276606301168
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
@@ -110,32 +170,79 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611187200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Only basic support with attributes <code>dir</code>, <code>mathbackground</code>, <code>mathcolor</code> and <code>mathsize</code>."
+          ],
+          "added": {
+            "version": "80.0.0",
+            "date": 1581033600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.040299999999999996,
+            "relative": 0.9950617283950618
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "1.0.0",
-        "date": 1099958400
+        "version": "6.0.0",
+        "date": 1313452800
       },
       "removed": null,
       "usage": {
-        "global": 0.03059999999999998,
-        "relative": 1
+        "global": 0.030399999999999983,
+        "relative": 0.9934640522875817
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "In Firefox 29, accepted attributes have been restricted to those actually used in practice: <code>id</code>, <code>class</code>, <code>style</code>, <code>href</code>, <code>mathcolor</code>, <code>mathbackground</code>, <code>scriptlevel</code>, <code>displaystyle</code>, <code>scriptsizemultiplier</code>, <code>scriptminsize</code>, <code>dir</code>, <code>mathsize</code>, <code>mathvariant</code>, <code>fontfamily</code>, <code>fontweight</code>, <code>fontstyle</code>, <code>fontsize</code>, <code>color</code>, <code>background</code>.",
+            "In Firefox 103, attributes <code>scriptsizemultiplier</code> and <code>scriptminsize</code> have been removed."
+          ],
+          "added": {
+            "version": "6.0.0",
+            "date": 1313452800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.030399999999999983,
+            "relative": 0.9934640522875817
+          }
+        },
+        {
+          "notes": [
+            "Attributes <code>bevelled</code>, <code>notation</code>, <code>open</code>, <code>close</code>, <code>separators</code>, <code>accent</code>, <code>accentunder</code>, <code>selection</code>, <code>mathvariant</code> are not supported."
+          ],
           "added": {
             "version": "1.0.0",
             "date": 1099958400
@@ -144,15 +251,16 @@
           "usage": {
             "global": 0.03059999999999998,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "4.0.0",
-        "date": 1301356800
+        "version": "6.0.0",
+        "date": 1313452800
       },
       "removed": null,
       "usage": {
@@ -161,7 +269,24 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "In Firefox 29, accepted attributes have been restricted to those actually used in practice: <code>id</code>, <code>class</code>, <code>style</code>, <code>href</code>, <code>mathcolor</code>, <code>mathbackground</code>, <code>scriptlevel</code>, <code>displaystyle</code>, <code>scriptsizemultiplier</code>, <code>scriptminsize</code>, <code>dir</code>, <code>mathsize</code>, <code>mathvariant</code>, <code>fontfamily</code>, <code>fontweight</code>, <code>fontstyle</code>, <code>fontsize</code>, <code>color</code>, <code>background</code>.",
+            "In Firefox 103, attributes <code>scriptsizemultiplier</code> and <code>scriptminsize</code> have been removed."
+          ],
+          "added": {
+            "version": "6.0.0",
+            "date": 1313452800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Attributes <code>bevelled</code>, <code>notation</code>, <code>open</code>, <code>close</code>, <code>separators</code>, <code>accent</code>, <code>accentunder</code>, <code>selection</code>, <code>mathvariant</code> are not supported."
+          ],
           "added": {
             "version": "4.0.0",
             "date": 1301356800
@@ -170,7 +295,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -204,15 +330,45 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Only basic support with attributes <code>dir</code>, <code>mathbackground</code>, <code>mathcolor</code> and <code>mathsize</code>."
+          ],
+          "added": {
+            "version": "9.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
@@ -226,15 +382,45 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "74.0.0",
+            "date": 1612224000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0101,
+            "relative": 0.5838150289017341
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Only basic support with attributes <code>dir</code>, <code>mathbackground</code>, <code>mathcolor</code> and <code>mathsize</code>."
+          ],
+          "added": {
+            "version": "67.0.0",
+            "date": 1583193600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013600000000000001,
+            "relative": 0.7861271676300577
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
@@ -248,9 +434,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {
@@ -322,9 +506,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {
@@ -344,9 +526,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/6606'>bug 6606</a>."
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {

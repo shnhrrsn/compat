@@ -36,10 +36,10 @@
     }
   },
   "commit": {
-    "sha": "d603b7c325204400c31652200e22563f5abd6546",
-    "date": "2022-08-03T09:19:59.000Z"
+    "sha": "55ed2b8c171d863d66a79d20acaa02e19498f2d4",
+    "date": "2022-08-31T04:03:02.000Z"
   },
-  "usage": 0.48555000000000026,
+  "usage": 0.3135000000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -173,19 +173,31 @@
     },
     "safari": {
       "name": "Safari",
-      "added": {
-        "version": "14.0.0",
-        "date": 1600214400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.028999999999999998,
-        "relative": 0.8923076923076924
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "In Safari 14, this event is fired in response to a message from an extension's containing app. In Safari 15.4 and later, this event is also fired in response to a message from webpages."
+            "Since Safari 15.4, this event is also fired in response to a message from webpages allowed in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/externally_connectable'><code>externally_connectable</code></a>."
+          ],
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.021100000000000004,
+            "relative": 0.6492307692307694
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "This event is only fired in response to a message from an extension's containing app, not webpages nor other extensions."
           ],
           "added": {
             "version": "14.0.0",
@@ -195,25 +207,38 @@
           "usage": {
             "global": 0.028999999999999998,
             "relative": 0.8923076923076924
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "15.0.0",
-        "date": 1632096000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.14305,
-        "relative": 0.8191605107942509
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "In Safari 15, this event is fired in response to a message from an extension's containing app. In Safari 15.4 and later, this event is also fired in response to a message from webpages."
+            "Since Safari 15.4, this event is also fired in response to a message from webpages allowed in <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/externally_connectable'><code>externally_connectable</code></a>."
+          ],
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1322,
+            "relative": 0.7570291473400906
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "This event is only fired in response to a message from an extension's containing app, not webpages nor other extensions."
           ],
           "added": {
             "version": "15.0.0",
@@ -223,7 +248,8 @@
           "usage": {
             "global": 0.14305,
             "relative": 0.8191605107942509
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }
