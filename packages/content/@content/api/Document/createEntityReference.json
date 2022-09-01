@@ -5,107 +5,10 @@
     "createEntityReference"
   ],
   "type": "page",
-  "title": "Document.createEntityReference()",
+  "title": "Document / createEntityReference",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/Document/createEntityReference",
-    "spec": "https://dom.spec.whatwg.org/#dom-document-createentityreference",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/document/createentityreference/index.md"
-  },
-  "content": {
-    "intro": {
-      "id": "02af9e644110b519fe10a2f2f803460c",
-      "tree": {
-        "type": "root",
-        "children": [
-          {
-            "type": "element",
-            "tagName": "p",
-            "properties": {},
-            "children": [
-              {
-                "type": "text",
-                "value": "Prior to "
-              },
-              {
-                "type": "element",
-                "tagName": "span",
-                "properties": {
-                  "title": "(Firefox 7.0 / Thunderbird 7.0 / SeaMonkey 2.4)"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Gecko 7.0"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " this method showed up as present, due to bug "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "https://bugzilla.mozilla.org/show_bug.cgi?id=9850"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "bug 9850"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", it always only returned null. The only workaround is to create a text node, CDATA section, attribute node value, etc. which has the value referred to by the entity, using "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#unicode_escape_sequences"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Unicode escape sequences"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " or "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "fromCharCode()"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " as necessary."
-              }
-            ]
-          }
-        ],
-        "data": {
-          "quirksMode": false
-        }
-      }
-    }
-  },
-  "commit": {
-    "sha": "37f38ac4b337174d6b7ccf3fc08b1ac66c5a9fcd",
-    "date": "2022-05-31T04:29:22.000Z"
+    "spec": "https://dom.spec.whatwg.org/#dom-document-createentityreference"
   },
   "usage": 0.0022500000000000003,
   "support": {
