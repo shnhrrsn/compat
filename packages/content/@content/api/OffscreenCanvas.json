@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "52dd194247ba25ee43825a855e928d73",
+      "id": "acefc3b5cd225c8212b58509a2eb7b19",
       "tree": {
         "type": "root",
         "children": [
@@ -23,12 +23,15 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "When using the "
               },
               {
                 "type": "element",
-                "tagName": "strong",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/canvas"
+                },
                 "children": [
                   {
                     "type": "element",
@@ -37,7 +40,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "OffscreenCanvas"
+                        "value": "<canvas>"
                       }
                     ]
                   }
@@ -45,24 +48,24 @@
               },
               {
                 "type": "text",
-                "value": " interface provides a canvas that can be rendered off screen. It is available in both the window and "
+                "value": " element or the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/API/Web_Workers_API"
+                  "href": "/en-US/docs/Web/API/Canvas_API"
                 },
                 "children": [
                   {
                     "type": "text",
-                    "value": "worker"
+                    "value": "Canvas API"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " contexts."
+                "value": ", rendering, animation, and user interaction usually happen on the main execution thread of a web application.\nThe computation relating to canvas animations and rendering can have a significant impact on application performance."
               }
             ]
           }
@@ -73,7 +76,7 @@
       }
     },
     "seeAlso": {
-      "id": "2844b9045adc46ccf95abb9f53acfaf1",
+      "id": "63213bda5b55bfbd7f4a7442f9970b71",
       "tree": {
         "type": "root",
         "children": [
@@ -131,6 +134,38 @@
                           {
                             "type": "text",
                             "value": "CanvasRenderingContext2D"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/OffscreenCanvasRenderingContext2D"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "OffscreenCanvasRenderingContext2D"
                           }
                         ]
                       }
@@ -280,10 +315,10 @@
     }
   },
   "commit": {
-    "sha": "0b79a3bc999f3fd590d6b5138a2ff6c7292e1eb8",
-    "date": "2022-08-31T05:01:59.000Z"
+    "sha": "6fefcdd237a377af5c066dc2734c118feadbbef9",
+    "date": "2022-09-02T12:08:42.000Z"
   },
-  "usage": 0.7141399999999999,
+  "usage": 0.71442,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -293,8 +328,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2365,
-        "relative": 0.99036850921273
+        "global": 0.23709999999999998,
+        "relative": 0.9903926482873848
       },
       "history": [
         {
@@ -305,8 +340,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2365,
-            "relative": 0.99036850921273
+            "global": 0.23709999999999998,
+            "relative": 0.9903926482873848
           }
         }
       ]
@@ -319,8 +354,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3925399999999999,
-        "relative": 0.9929928410614455
+        "global": 0.3921200000000001,
+        "relative": 0.9930105348460291
       },
       "history": [
         {
@@ -331,8 +366,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3925399999999999,
-            "relative": 0.9929928410614455
+            "global": 0.3921200000000001,
+            "relative": 0.9930105348460291
           }
         }
       ]
@@ -345,8 +380,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.041999999999999996,
-        "relative": 0.9952606635071091
+        "global": 0.042199999999999994,
+        "relative": 0.9952830188679246
       },
       "history": [
         {
@@ -357,8 +392,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.041999999999999996,
-            "relative": 0.9952606635071091
+            "global": 0.042199999999999994,
+            "relative": 0.9952830188679246
           }
         }
       ]
@@ -397,7 +432,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02869999999999999,
+            "global": 0.028699999999999993,
             "relative": 0.986254295532646
           },
           "flags": [
@@ -491,8 +526,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.017700000000000004,
-        "relative": 0.9943820224719101
+        "global": 0.0176,
+        "relative": 0.9943502824858756
       },
       "history": [
         {
@@ -503,8 +538,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.017700000000000004,
-            "relative": 0.9943820224719101
+            "global": 0.0176,
+            "relative": 0.9943502824858756
           }
         }
       ]
