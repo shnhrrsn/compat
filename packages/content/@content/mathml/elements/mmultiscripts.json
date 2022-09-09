@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "f2622f6045684dc8c416a02c2ab10a72",
+      "id": "07e87f9d067ddf5b4bcf5b5d44ea697b",
       "tree": {
         "type": "root",
         "children": [
@@ -39,41 +39,32 @@
               },
               {
                 "type": "text",
-                "value": " element allows you to create tensor-like objects. In a descriptive way "
+                "value": " element is used to attach an arbitrary number of subscripts and superscripts to an expression at once, generalizing the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "https://en.wikipedia.org/wiki/Tensor"
+                  "internal": "",
+                  "href": "/mathml/elements/msubsup"
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "tensors"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<msubsup>"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " are multidimensional matrices (mathematical imprecise but exemplified). The degree of a tensor depends on the dimensionality of a representative array. For example, a number is a 0-dimensional array, or a 0th-order tensor. A 1-dimensional array (e.g. vectors) is a 1st-order tensor and so 2nd-order tensors are needed to represent square matrices. To learn more about the mathematical background of tensors refer to the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "https://en.wikipedia.org/wiki/Tensor"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "entry on Wikipedia"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "."
+                "value": " element. Scripts can be either prescripts (placed before the expression) or postscripts (placed after it)."
               }
             ]
           }
@@ -215,8 +206,8 @@
     }
   },
   "commit": {
-    "sha": "d3a04bcdd16434b613b132fb488235ce44355891",
-    "date": "2022-07-08T14:50:14.000Z"
+    "sha": "f22e42182591e38590c9add80de91a51bce3cde2",
+    "date": "2022-09-09T05:38:45.000Z"
   },
   "usage": 0.0624,
   "support": {
