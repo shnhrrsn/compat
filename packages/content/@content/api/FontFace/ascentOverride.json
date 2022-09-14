@@ -8,12 +8,12 @@
   "title": "FontFace.ascentOverride",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/FontFace/ascentOverride",
-    "spec": "https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-ascentoverride",
+    "spec": "https://w3c.github.io/csswg-drafts/css-font-loading/#dom-fontfacedescriptors-ascentoverride",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/fontface/ascentoverride/index.md"
   },
   "content": {
     "intro": {
-      "id": "276dca0c68129c400747c6a13fe5b0e2",
+      "id": "91d350e1fabb7c37e7a9b823d7d51f91",
       "tree": {
         "type": "root",
         "children": [
@@ -71,37 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface returns and sets the value of the "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "@font-face/ascent-override"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " descriptor. The possible values are "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "normal"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", indicating that the metric used should be obtained from the font file, or a percentage."
+                "value": " interface returns and sets the ascent metric for the font, the height above the baseline that CSS uses to lay out line boxes in an inline formatting context."
               }
             ]
           }
@@ -113,8 +83,8 @@
     }
   },
   "commit": {
-    "sha": "1511e914c6b1ce6f88056bfefd48a6aa585cebce",
-    "date": "2022-09-09T05:10:34.000Z"
+    "sha": "88e92273cd9ab37146d163239e444c194ac14f13",
+    "date": "2022-09-13T07:21:28.000Z"
   },
   "usage": 0.71575,
   "support": {

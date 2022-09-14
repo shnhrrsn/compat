@@ -123,7 +123,7 @@
     "sha": "f22e42182591e38590c9add80de91a51bce3cde2",
     "date": "2022-09-09T05:38:45.000Z"
   },
-  "usage": 0.0624,
+  "usage": 0.23445,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -136,7 +136,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "105.0.0",
@@ -168,7 +168,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "105.0.0",
@@ -200,7 +200,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "105.0.0",
@@ -235,7 +235,7 @@
       "history": [
         {
           "notes": [
-            "Since Firefox 16, if an <code>actiontype</code> is not specified (is empty) or if the <code>selection</code> attribute is invalid, the markup will throw a MathML error (invalid-markup)."
+            "Firefox 106 and later versions follow MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "1.0.0",
@@ -263,7 +263,7 @@
       "history": [
         {
           "notes": [
-            "Since Firefox 16, if an <code>actiontype</code> is not specified (is empty) or if the <code>selection</code> attribute is invalid, the markup will throw a MathML error (invalid-markup)."
+            "Firefox 106 and later versions follow MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "4.0.0",
@@ -308,7 +308,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": null,
           "removed": null,
@@ -337,7 +337,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
           ],
           "added": {
             "version": "91.0.0",
@@ -406,20 +406,26 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "8.0.0",
+        "date": 1410912000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.17205,
+        "relative": 0.998259355961706
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "8.0.0",
+            "date": 1410912000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.17205,
+            "relative": 0.998259355961706
           }
         }
       ]

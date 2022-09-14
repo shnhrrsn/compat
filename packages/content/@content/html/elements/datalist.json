@@ -205,7 +205,7 @@
     "sha": "0be2158a250dc07932891157dad8341d90a44930",
     "date": "2022-08-24T04:39:16.000Z"
   },
-  "usage": 0.9554400000000001,
+  "usage": 0.92634,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -287,18 +287,17 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": {
-        "version": "4.0.0",
-        "date": 1300752000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.029099999999999994,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The <code>&lt;datalist&gt;</code> element will only create a dropdown for textual types, such as <code>text</code>, <code>search</code>, <code>url</code>, <code>tel</code>, <code>email</code> and <code>number</code>. The <code>date</code>, <code>time</code>, <code>range</code> and <code>color</code> types are not supported."
+          ],
           "added": {
             "version": "4.0.0",
             "date": 1300752000
@@ -307,7 +306,8 @@
           "usage": {
             "global": 0.029099999999999994,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

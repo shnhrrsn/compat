@@ -88,7 +88,7 @@
     "sha": "f22e42182591e38590c9add80de91a51bce3cde2",
     "date": "2022-09-09T05:38:45.000Z"
   },
-  "usage": 0.029099999999999994,
+  "usage": 0.23485,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -101,7 +101,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "88.0.0",
@@ -133,7 +133,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "88.0.0",
@@ -165,7 +165,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "88.0.0",
@@ -200,8 +200,9 @@
       "history": [
         {
           "notes": [
-            "<code>annotation</code> and <code>annotation-xml</code> elements are ignored if the <code>src</code> attribute is set.",
-            "The algorithm for determining the visible child has been corrected in Firefox 23 to match the MathML specification. In prior versions only the first child element was rendered."
+            "In Firefox 1, only the first child element is rendered.",
+            "In Firefox 23, the algorithm to determine the visible child <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/MathML/Element/semantics#sect1'>described on MDN</a> has been implemented.",
+            "Firefox 106 and later versions follow MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "1.0.0",
@@ -229,8 +230,9 @@
       "history": [
         {
           "notes": [
-            "<code>annotation</code> and <code>annotation-xml</code> elements are ignored if the <code>src</code> attribute is set.",
-            "The algorithm for determining the visible child has been corrected in Firefox 23 to match the MathML specification. In prior versions only the first child element was rendered."
+            "In Firefox 1, only the first child element is rendered.",
+            "In Firefox 23, the algorithm to determine the visible child <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/MathML/Element/semantics#sect1'>described on MDN</a> has been implemented.",
+            "Firefox 106 and later versions follow MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "4.0.0",
@@ -275,7 +277,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "14.0.0",
@@ -307,7 +309,7 @@
       "history": [
         {
           "notes": [
-            "By default, only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>."
           ],
           "added": {
             "version": "74.0.0",
@@ -350,40 +352,58 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "5.0.0",
+        "date": 1275868800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.033400000000000006,
+        "relative": 1
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "In Safari 5, only the first child element is rendered.",
+            "In Safari 8, the algorithm to determine the visible child <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/MathML/Element/semantics#sect1'>described on MDN</a> has been implemented."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": 1275868800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.033400000000000006,
+            "relative": 1
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "4.2.0",
+        "date": 1290384000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.17235,
+        "relative": 1
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "In Safari 5, only the first child element is rendered.",
+            "In Safari 8, the algorithm to determine the visible child <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/MathML/Element/semantics#sect1'>described on MDN</a> has been implemented."
+          ],
+          "added": {
+            "version": "4.2.0",
+            "date": 1290384000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.17235,
+            "relative": 1
           }
         }
       ]
