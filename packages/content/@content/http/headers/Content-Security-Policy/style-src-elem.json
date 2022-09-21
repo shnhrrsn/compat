@@ -543,7 +543,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -551,21 +554,44 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1529338'>bug 1529338</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "105.0.0",
+            "date": 1663632000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "security.csp.style-src-attr-elem.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -573,10 +599,11 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1529338'>bug 1529338</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
