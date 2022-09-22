@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "906302e26984a28c6bdfdb7c030c4e6e",
+      "id": "736d5d08c22c90cfabd2de3edf44a3ba",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "[@@iterator]()"
+                        "value": "@@iterator"
                       }
                     ]
                   }
@@ -47,7 +47,65 @@
               },
               {
                 "type": "text",
-                "value": " method returns a new iterator object\nthat iterates over the code points of a String value, returning each code point as a\nString value."
+                "value": " method of a string implements the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and allows strings to be consumed by most syntaxes expecting iterables, such as the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "spread syntax"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "for...of"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " loops. It returns an iterator that yields the the Unicode code points of the string value as individual strings."
               }
             ]
           }
@@ -155,8 +213,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "0826a9e4582499e62efad3d3e9d29adb1c31cfe2",
+    "date": "2022-09-22T05:04:41.000Z"
   },
   "usage": 0.9570900000000002,
   "support": {

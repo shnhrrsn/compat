@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "b6544fda2bab6ce2d55ffb6f64931f95",
+      "id": "2a46fe5a0a68d29fd3b11767d62da281",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method creates a string representing the code\nfor an "
+                "value": " method creates a string that embeds a string in an "
               },
               {
                 "type": "element",
@@ -72,7 +72,22 @@
               },
               {
                 "type": "text",
-                "value": " HTML element to be used as a hypertext link to another URL."
+                "value": " element ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<a href=\"...\">str</a>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), to be used as a hypertext link to another URL."
               }
             ]
           }
@@ -83,7 +98,7 @@
       }
     },
     "seeAlso": {
-      "id": "b76ae4f054f318413774b8f51942a1bc",
+      "id": "457ddb720ede0cba8f56078e516da512",
       "tree": {
         "type": "root",
         "children": [
@@ -177,6 +192,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/links"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "document.links"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -188,8 +235,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "2941d5ed6251c34d691ffd73505df1ded155275d",
+    "date": "2022-09-22T01:46:52.000Z"
   },
   "usage": 0.9613700000000001,
   "support": {

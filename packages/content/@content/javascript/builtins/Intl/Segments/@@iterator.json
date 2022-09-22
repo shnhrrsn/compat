@@ -15,7 +15,7 @@
   },
   "content": {
     "intro": {
-      "id": "f6b256c3dda7964613926219c826708f",
+      "id": "7cf88ef326e1ce352c38a0faf65ce08f",
       "tree": {
         "type": "root",
         "children": [
@@ -40,7 +40,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "[@@iterator]()"
+                        "value": "@@iterator"
                       }
                     ]
                   }
@@ -48,24 +48,7 @@
               },
               {
                 "type": "text",
-                "value": " method is part of "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "the iterable protocol"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", which returns a new iterator object that can iterate over the entries in an "
+                "value": " method of a "
               },
               {
                 "type": "element",
@@ -74,13 +57,86 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Intl.Segmenter"
+                    "value": "Segments"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " object. Each entry is returned as an object."
+                "value": " object implements the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and allows "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Intl.Segments"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " objects to be consumed by most syntaxes expecting iterables, such as the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "spread syntax"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "for...of"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " loops. It returns an iterator that yields data about each segment."
               }
             ]
           }
@@ -169,8 +225,8 @@
     }
   },
   "commit": {
-    "sha": "d6ce8fcbbc4a71ec9209f379e5ea9774bbf1f5ac",
-    "date": "2022-09-13T07:06:03.000Z"
+    "sha": "0826a9e4582499e62efad3d3e9d29adb1c31cfe2",
+    "date": "2022-09-22T05:04:41.000Z"
   },
   "usage": 0.8731599999999999,
   "support": {

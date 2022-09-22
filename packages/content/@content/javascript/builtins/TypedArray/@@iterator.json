@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "67c1221bce3f249cf324f4bbeafede6f",
+      "id": "a1814dcdc3354a35d9f351eed92faf8f",
       "tree": {
         "type": "root",
         "children": [
@@ -25,7 +25,29 @@
             "children": [
               {
                 "type": "text",
-                "value": "The initial value of the "
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@@iterator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of a "
               },
               {
                 "type": "element",
@@ -34,20 +56,53 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "@@iterator"
+                    "value": "TypedArray"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " property is the same function object\nas the initial value of the "
+                "value": " object implements the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/TypedArray/values"
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and allows typed arrays to be consumed by most syntaxes expecting iterables, such as the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "spread syntax"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
                 },
                 "children": [
                   {
@@ -57,7 +112,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "values"
+                        "value": "for...of"
                       }
                     ]
                   }
@@ -65,7 +120,7 @@
               },
               {
                 "type": "text",
-                "value": "\nproperty."
+                "value": " loops. It returns an iterator that yields the value of each index in the typed array."
               }
             ]
           }
@@ -301,8 +356,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "0826a9e4582499e62efad3d3e9d29adb1c31cfe2",
+    "date": "2022-09-22T05:04:41.000Z"
   },
   "usage": 0.9559200000000002,
   "support": {
