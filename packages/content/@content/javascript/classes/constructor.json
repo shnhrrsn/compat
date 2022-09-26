@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "9b74a391333a37f0396ab99d1b7c46c5",
+      "id": "620db2a006464b1084bb91b1fa7c178b",
       "tree": {
         "type": "root",
         "children": [
@@ -28,12 +28,19 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "constructor"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "constructor"
+                      }
+                    ]
                   }
                 ]
               },
@@ -43,8 +50,10 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Classes"
+                },
                 "children": [
                   {
                     "type": "text",
@@ -65,7 +74,7 @@
       }
     },
     "seeAlso": {
-      "id": "8b7b6b154bac5e8277e2aa63b83a5f1b",
+      "id": "2b2502f90a696f0294b79772e0a8cd80",
       "tree": {
         "type": "root",
         "children": [
@@ -107,12 +116,25 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Statements/class"
+                    },
                     "children": [
                       {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "class"
+                          }
+                        ]
+                      },
+                      {
                         "type": "text",
-                        "value": "class declaration"
+                        "value": " declaration"
                       }
                     ]
                   }
@@ -129,12 +151,25 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/class"
+                    },
                     "children": [
                       {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "class"
+                          }
+                        ]
+                      },
+                      {
                         "type": "text",
-                        "value": "class expression"
+                        "value": " expression"
                       }
                     ]
                   }
@@ -179,8 +214,15 @@
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Object.prototype.constructor"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Object.prototype.constructor"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -224,8 +266,8 @@
     }
   },
   "commit": {
-    "sha": "87a9f73c410c9b9e91300695c8aa4931367243fb",
-    "date": "2022-09-13T07:01:32.000Z"
+    "sha": "d7e6fcec4ee1ff7d652a8831d997e7011759c235",
+    "date": "2022-09-26T04:49:47.000Z"
   },
   "usage": 0.95242,
   "support": {
