@@ -236,7 +236,7 @@
     "sha": "1511e914c6b1ce6f88056bfefd48a6aa585cebce",
     "date": "2022-09-09T05:10:34.000Z"
   },
-  "usage": 0.7434299999999998,
+  "usage": 0.9281399999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -680,13 +680,28 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "14.1.0",
+        "date": 1619395200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0285,
+        "relative": 0.8507462686567164
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.1.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0285,
+            "relative": 0.8507462686567164
+          }
+        },
         {
           "notes": [
             "Doesn't fire the <code>visibilitychange</code> event when navigating away from a document, so also include code to check for the <code>pagehide</code> event (which does fire for that case in all current browsers). See WebKit bugs <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/116769'>116769</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/151234'>151234</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/151610'>151610</a>, and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/194897'>194897</a>."
@@ -739,13 +754,28 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "14.5.0",
+        "date": 1619395200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.15621000000000002,
+        "relative": 0.899982715907127
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.5.0",
+            "date": 1619395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.15621000000000002,
+            "relative": 0.899982715907127
+          }
+        },
         {
           "notes": [
             "Doesn't fire the <code>visibilitychange</code> event when navigating away from a document, so also include code to check for the <code>pagehide</code> event (which does fire for that case in all current browsers). See WebKit bugs <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/116769'>116769</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/151234'>151234</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/151610'>151610</a>, and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/194897'>194897</a>."
