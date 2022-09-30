@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "c83598d1844ba4857f9da17573c5bc85",
+      "id": "1ec124d53c18a14cf848407c10d80f2a",
       "tree": {
         "type": "root",
         "children": [
@@ -49,7 +49,7 @@
               },
               {
                 "type": "text",
-                "value": " event fires when an element has received focus. The main difference between this event and "
+                "value": " event fires when an element has received focus. The event does not bubble, but the related "
               },
               {
                 "type": "element",
@@ -74,37 +74,7 @@
               },
               {
                 "type": "text",
-                "value": " is that "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "focusin"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " bubbles while "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "focus"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " does not."
+                "value": " event that follows does bubble."
               }
             ]
           }
@@ -115,7 +85,7 @@
       }
     },
     "seeAlso": {
-      "id": "8098510eaa37a2ce15132384eba6614f",
+      "id": "25795e34d4e69882075cac789335e78b",
       "tree": {
         "type": "root",
         "children": [
@@ -124,6 +94,46 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLElement/focus"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLElement.focus()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " method"
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -303,8 +313,8 @@
     }
   },
   "commit": {
-    "sha": "ae97c9ac1bdaa8d34d89487cac47a4a42f0104dd",
-    "date": "2022-09-27T04:04:41.000Z"
+    "sha": "957f729426e3cfd0086e67772799cd4daaf4fba4",
+    "date": "2022-09-29T13:06:14.000Z"
   },
   "usage": 0.9609700000000001,
   "support": {

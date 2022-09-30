@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "93c2bfa41c34716e700f53a9f307fc9e",
+      "id": "f5de8d9fe5acc6308262599560b97597",
       "tree": {
         "type": "root",
         "children": [
@@ -49,7 +49,7 @@
               },
               {
                 "type": "text",
-                "value": " event fires when an element has lost focus. The main difference between this event and "
+                "value": " event fires when an element has lost focus. The event does not bubble, but the related "
               },
               {
                 "type": "element",
@@ -74,54 +74,7 @@
               },
               {
                 "type": "text",
-                "value": " is that "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "focusout"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Learn/JavaScript/Building_blocks/Events#event_bubbling_and_capture"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "bubbles"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " while "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "blur"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " does not."
+                "value": " event that follows does bubble."
               }
             ]
           }
@@ -132,7 +85,7 @@
       }
     },
     "seeAlso": {
-      "id": "bc3f1cae36bacd76d731d565b874fa29",
+      "id": "eb6ee10437ba76f8bd173964c7e1c96c",
       "tree": {
         "type": "root",
         "children": [
@@ -141,6 +94,46 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLElement/blur"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLElement.blur()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " method"
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -320,8 +313,8 @@
     }
   },
   "commit": {
-    "sha": "ae97c9ac1bdaa8d34d89487cac47a4a42f0104dd",
-    "date": "2022-09-27T04:04:41.000Z"
+    "sha": "957f729426e3cfd0086e67772799cd4daaf4fba4",
+    "date": "2022-09-29T13:06:14.000Z"
   },
   "usage": 0.9609700000000001,
   "support": {
