@@ -8,7 +8,7 @@
   "type": "page",
   "title": "mfrac / linethickness",
   "links": {},
-  "usage": 0.06319999999999998,
+  "usage": 0.23372999999999994,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -255,18 +255,30 @@
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "5.1.0",
-        "date": 1311120000
+        "version": "9.0.0",
+        "date": 1443571200
       },
       "removed": null,
       "usage": {
-        "global": 0.034499999999999996,
-        "relative": 1
+        "global": 0.03439999999999999,
+        "relative": 0.9971014492753624
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1443571200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.03439999999999999,
+            "relative": 0.9971014492753624
+          }
+        },
+        {
           "notes": [
-            "Before Safari 9, &lt;length&gt; values are not supported. Only <code>0</code>, <code>thin</code>, <code>medium</code>, and <code>thick</code> are supported."
+            "Only <code>0</code>, <code>thin</code>, <code>medium</code>, and <code>thick</code> are supported."
           ],
           "added": {
             "version": "5.1.0",
@@ -276,27 +288,49 @@
           "usage": {
             "global": 0.034499999999999996,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "9.0.0",
+        "date": 1442361600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.17062999999999995,
+        "relative": 0.9976612290241479
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "9.0.0",
+            "date": 1442361600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.17062999999999995,
+            "relative": 0.9976612290241479
           }
+        },
+        {
+          "notes": [
+            "Only <code>0</code>, <code>thin</code>, <code>medium</code>, and <code>thick</code> are supported."
+          ],
+          "added": {
+            "version": "5.0.0",
+            "date": 1318377600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.17099999999999993,
+            "relative": 0.9998245921768111
+          },
+          "partial_implementation": true
         }
       ]
     },

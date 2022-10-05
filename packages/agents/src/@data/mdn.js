@@ -1379,6 +1379,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"108.0.0",
+				{
+					"date": 1669852800,
+					"usage": null
+				}
+			],
+			[
 				"107.0.0",
 				{
 					"date": 1666828800,
@@ -1388,7 +1395,7 @@ const mdn = {
 			[
 				"106.0.0",
 				{
-					"date": 1664409600,
+					"date": 1664755200,
 					"usage": null
 				}
 			],
@@ -3328,7 +3335,7 @@ const mdn = {
 		])
 	},
 	oculus: {
-		name: 'Oculus Browser',
+		name: 'Quest Browser',
 		versions: new Map([
 			[
 				"23.0.0",

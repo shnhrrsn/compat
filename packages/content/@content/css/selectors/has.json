@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "2becdbd9aaf705eee1fbdf794e3f2c8f",
+      "id": "222c1ab9a987292ad5a10bf76eee8820",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "The functional "
               },
               {
                 "type": "element",
@@ -63,32 +63,41 @@
               },
               {
                 "type": "text",
-                "value": " represents an element if any of the selectors passed as parameters (relative to the "
+                "value": " represents an element if any of the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/css/selectors/scope"
+                  "href": "/en-US/docs/Web/CSS/CSS_Selectors#relative_selector"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": ":scope"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "relative selectors"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " of the given element) match at least one element."
+                "value": " that are passed as an argument match at least one element when anchored against this element. This pseudo-class presents a way of selecting a parent element or a previous sibling element with respect to a reference element by taking a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/Selector_list#forgiving_relative_selector_list"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "forgiving relative selector list"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " as an argument."
               }
             ]
           }
@@ -99,7 +108,7 @@
       }
     },
     "seeAlso": {
-      "id": "8427c4792b9c03a72e39f8604c100580",
+      "id": "7951fc80e56a633232c1d7d0644f07c0",
       "tree": {
         "type": "root",
         "children": [
@@ -108,6 +117,157 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/:is"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": ":is()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/:where"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": ":where()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/:not"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": ":not()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_Selectors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS selectors"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS combinators"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/Selector_list"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Selector list"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -135,37 +295,6 @@
               {
                 "type": "text",
                 "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/CSS/:scope"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": ":scope"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
               }
             ]
           }
@@ -177,8 +306,8 @@
     }
   },
   "commit": {
-    "sha": "e1608631832f2608632569d0bd4061372adc5199",
-    "date": "2022-09-27T04:24:14.000Z"
+    "sha": "72aa1aa5c67a56d3fa91fe01e534e97e369ce680",
+    "date": "2022-10-05T04:12:00.000Z"
   },
   "usage": 0.63381,
   "support": {

@@ -7,7 +7,7 @@
   "type": "page",
   "title": "FontFaceSet / worker_support",
   "links": {},
-  "usage": 0.7160000000000001,
+  "usage": 0.7218000000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -89,7 +89,36 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "105.0.0",
+        "date": 1663632000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0058,
+        "relative": 0.2020905923344949
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "105.0.0",
+            "date": 1663632000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0058,
+            "relative": 0.2020905923344949
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "105.0.0",
+        "date": 1663632000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -99,36 +128,9 @@
         {
           "notes": null,
           "added": {
-            "version": "104.0.0",
-            "date": 1661212800
+            "version": "105.0.0",
+            "date": 1663632000
           },
-          "removed": null,
-          "usage": {
-            "global": 0.023399999999999997,
-            "relative": 0.8153310104529621
-          },
-          "flags": [
-            {
-              "name": "layout.css.font-loading-api.workers.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
-        }
-      ]
-    },
-    "firefox_android": {
-      "name": "Firefox for Android",
-      "added": null,
-      "removed": null,
-      "usage": {
-        "global": null,
-        "relative": null
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": null,
           "removed": null,
           "usage": {
             "global": null,
