@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "80dda2ee335a69a761e5907c64f587f5",
+      "id": "8b155fe6e2601e15e1b4f3fb962e3b37",
       "tree": {
         "type": "root",
         "children": [
@@ -23,72 +23,46 @@
             "children": [
               {
                 "type": "text",
-                "value": "The deprecated MathML "
+                "value": "The "
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<mfenced>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/MathML"
+                },
+                "children": [
+                  {
                     "type": "text",
-                    "value": "<mfenced>"
+                    "value": "MathML"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " element used to provide the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression. It has been removed from the latest MathML standard and modern browsers no longer support it. Use the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/mathml/elements/mrow"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "<mrow>"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/mathml/elements/mo"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "<mo>"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " elements instead."
+                "value": " element provides the possibility to add custom opening and closing parentheses (such as brackets) and separators (such as commas or semicolons) to an expression."
               }
             ]
           }
@@ -100,8 +74,8 @@
     }
   },
   "commit": {
-    "sha": "95be180c5ac2d79d1e0632109fb2a57675a114c1",
-    "date": "2022-09-27T07:05:04.000Z"
+    "sha": "0fb5d5d5579d459f58ab52d0e6e94fc4634a9fe0",
+    "date": "2022-10-06T08:11:54.000Z"
   },
   "usage": 0.20624999999999996,
   "support": {

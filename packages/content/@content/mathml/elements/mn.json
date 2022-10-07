@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "b58d1e971273a719722caa4a23821d74",
+      "id": "6d341eeccc56c00ba1416efb578dcdba",
       "tree": {
         "type": "root",
         "children": [
@@ -24,22 +24,61 @@
             "children": [
               {
                 "type": "text",
-                "value": "The MathML "
+                "value": "The "
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "<mn>"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<mn>"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " element represents a numeric literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example \"eleven\"."
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/MathML"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "MathML"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element represents a "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "numeric"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " literal which is normally a sequence of digits with a possible separator (a dot or a comma). However, it is also allowed to have arbitrary text in it which is actually a numeric quantity, for example \"eleven\"."
               }
             ]
           }
@@ -51,8 +90,8 @@
     }
   },
   "commit": {
-    "sha": "95be180c5ac2d79d1e0632109fb2a57675a114c1",
-    "date": "2022-09-27T07:05:04.000Z"
+    "sha": "0fb5d5d5579d459f58ab52d0e6e94fc4634a9fe0",
+    "date": "2022-10-06T08:11:54.000Z"
   },
   "usage": 0.06309999999999998,
   "support": {

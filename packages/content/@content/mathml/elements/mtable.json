@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "cc7e40835609e0f049f71fe8af149d2f",
+      "id": "1014cbb7c41c05ed73241e2365ecebe8",
       "tree": {
         "type": "root",
         "children": [
@@ -24,37 +24,46 @@
             "children": [
               {
                 "type": "text",
-                "value": "The MathML "
+                "value": "The "
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "<mtable>"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<mtable>"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " element allows you to create tables or matrices. Inside a "
+                "value": " "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/MathML"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "<mtable>"
+                    "value": "MathML"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " only "
+                "value": " element allows you to create tables or matrices. Its children are "
               },
               {
                 "type": "element",
@@ -79,7 +88,7 @@
               },
               {
                 "type": "text",
-                "value": " and "
+                "value": " elements (representing rows), each of them having "
               },
               {
                 "type": "element",
@@ -104,7 +113,7 @@
               },
               {
                 "type": "text",
-                "value": " elements may appear. These elements are similar to "
+                "value": " elements as its children (representing cells). These elements are similar to "
               },
               {
                 "type": "element",
@@ -302,8 +311,8 @@
     }
   },
   "commit": {
-    "sha": "fe57dee6d19e948aac3eac326c93a844f957aaa4",
-    "date": "2022-10-04T08:01:19.000Z"
+    "sha": "872f0e3567ade0f7974ca2fb140441020a8c82bd",
+    "date": "2022-10-06T14:49:57.000Z"
   },
   "usage": 0.06319999999999998,
   "support": {
