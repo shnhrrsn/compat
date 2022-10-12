@@ -93,8 +93,8 @@
     }
   },
   "commit": {
-    "sha": "300849e10f993e94491937e2d1d3bca696908a95",
-    "date": "2022-10-10T22:29:01.000Z"
+    "sha": "2d4f87a56c0d1b7bf1bfbd47cf3d901bda9fb250",
+    "date": "2022-10-11T14:37:55.000Z"
   },
   "usage": 0.51362,
   "support": {
@@ -111,7 +111,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The <code>object-src</code> directive is required."
+          ],
           "added": {
             "version": "1.0.0",
             "date": 1228953600
@@ -127,8 +129,8 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "14.0.0",
-        "date": 1470096000
+        "version": "1.0.0",
+        "date": null
       },
       "removed": null,
       "usage": {
@@ -138,11 +140,11 @@
       "history": [
         {
           "notes": [
-            "Only the default content security policy is supported: \"script-src 'self'; object-src 'self';\"."
+            "The <code>object-src</code> directive is required."
           ],
           "added": {
-            "version": "14.0.0",
-            "date": 1470096000
+            "version": "1.0.0",
+            "date": null
           },
           "removed": null,
           "usage": {
@@ -166,7 +168,8 @@
       "history": [
         {
           "notes": [
-            "Firefox does not support 'http://127.0.0.1' or 'http://localhost' as script sources: they must be served over HTTPS."
+            "Firefox does not support 'http://127.0.0.1' or 'http://localhost' as script sources: they must be served over HTTPS.",
+            "Until Firefox 105, the <code>object-src</code> directive was required with a secure source. From Firefox 106, the <code>object-src</code> directive is optional."
           ],
           "added": {
             "version": "48.0.0",
@@ -213,7 +216,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The <code>object-src</code> directive is required."
+          ],
           "added": {
             "version": "1.0.0",
             "date": null
@@ -239,7 +244,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "There is no requirement to include the <code>object-src</code> directive."
+          ],
           "added": {
             "version": "14.0.0",
             "date": 1600214400
@@ -265,7 +272,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "There is no requirement to include the <code>object-src</code> directive."
+          ],
           "added": {
             "version": "15.0.0",
             "date": 1632096000
