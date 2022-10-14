@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "0ed5beff61ec8d988617f8dd89cf92d7",
+      "id": "0c8972c6e4bb58bad66d51a3dfa044dd",
       "tree": {
         "type": "root",
         "children": [
@@ -39,22 +39,49 @@
               },
               {
                 "type": "text",
-                "value": ") returns the result of raising the first\noperand to the power of the second operand. It is equivalent to "
+                "value": ") returns the result of raising the first\noperand to the power of the second operand. It is equivalent to {"
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Math/pow"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "Math.pow"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Math.pow()"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ",\nexcept it also accepts BigInts as operands."
+                "value": "},\nexcept it also accepts "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "BigInts"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " as operands."
               }
             ]
           }
@@ -304,8 +331,8 @@
     }
   },
   "commit": {
-    "sha": "1533276490d15cff6ddcd201fc05562180058a99",
-    "date": "2022-09-13T07:11:16.000Z"
+    "sha": "7714dd74b4f5941e3eab75a786d2f558193cfc2d",
+    "date": "2022-10-13T15:30:00.000Z"
   },
   "usage": 0.9502400000000001,
   "support": {
