@@ -204,7 +204,7 @@
     "sha": "db72d5612ada1d40cde0de191389dde2fe062c23",
     "date": "2022-10-10T08:37:58.000Z"
   },
-  "usage": 0.027799999999999988,
+  "usage": 0.41983,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -216,73 +216,45 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Not supported on macOS."
+          ],
           "added": {
-            "version": "75.0.0",
-            "date": 1559606400
+            "version": "93.0.0",
+            "date": 1630368000
           },
           "removed": null,
           "usage": {
-            "global": 0.24470000000000003,
-            "relative": 0.9858984689766316
+            "global": 0.2335,
+            "relative": 0.9407735697018531
           },
-          "alternative_name": "OVRMultiview2"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "70.0.0",
-            "date": 1539648000
-          },
-          "removed": {
-            "version": "75.0.0",
-            "date": 1559606400
-          },
-          "usage": {
-            "global": 0.0014000000000000002,
-            "relative": 0.0056406124093473
-          },
-          "alternative_name": "WebGLMultiview"
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "93.0.0",
+        "date": 1630368000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.37083,
+        "relative": 0.9564869744647923
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "75.0.0",
-            "date": 1559606400
+            "version": "93.0.0",
+            "date": 1630368000
           },
           "removed": null,
           "usage": {
-            "global": 0.38281000000000004,
-            "relative": 0.9873871550167657
-          },
-          "alternative_name": "OVRMultiview2"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "70.0.0",
-            "date": 1539734400
-          },
-          "removed": {
-            "version": "75.0.0",
-            "date": 1559606400
-          },
-          "usage": {
-            "global": 0.00229,
-            "relative": 0.005906628836729429
-          },
-          "alternative_name": "WebGLMultiview"
+            "global": 0.37083,
+            "relative": 0.9564869744647923
+          }
         }
       ]
     },
@@ -296,17 +268,19 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Not supported on macOS."
+          ],
           "added": {
-            "version": "79.0.0",
-            "date": 1579046400
+            "version": "93.0.0",
+            "date": 1630540800
           },
           "removed": null,
           "usage": {
             "global": 0.04239999999999999,
             "relative": 0.995305164319249
           },
-          "alternative_name": "OVRMultiview2"
+          "partial_implementation": true
         }
       ]
     },
@@ -384,7 +358,10 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": 1631491200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -394,31 +371,14 @@
         {
           "notes": null,
           "added": {
-            "version": "7.0.0",
-            "date": null
+            "version": "17.0.0",
+            "date": 1631491200
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          },
-          "alternative_name": "OVRMultiview2"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "6.0.0",
-            "date": null
-          },
-          "removed": {
-            "version": "7.0.0",
-            "date": null
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "alternative_name": "WebGLMultiview"
+          }
         }
       ]
     },
@@ -432,13 +392,19 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Not supported on macOS."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1631577600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0102,
+            "relative": 0.5635359116022098
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -504,47 +470,36 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": 1651622400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0212,
+        "relative": 0.7969924812030079
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "11.0.0",
-            "date": 1575504000
+            "version": "17.0.0",
+            "date": 1651622400
           },
           "removed": null,
           "usage": {
-            "global": 0.024499999999999997,
-            "relative": 0.9210526315789477
-          },
-          "alternative_name": "OVRMultiview2"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "10.0.0",
-            "date": 1566432000
-          },
-          "removed": {
-            "version": "11.0.0",
-            "date": 1575504000
-          },
-          "usage": {
-            "global": 0.0003,
-            "relative": 0.011278195488721809
-          },
-          "alternative_name": "WebGLMultiview"
+            "global": 0.0212,
+            "relative": 0.7969924812030079
+          }
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "93.0.0",
+        "date": 1630368000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -554,31 +509,14 @@
         {
           "notes": null,
           "added": {
-            "version": "75.0.0",
-            "date": 1559606400
+            "version": "93.0.0",
+            "date": 1630368000
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          },
-          "alternative_name": "OVRMultiview2"
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "70.0.0",
-            "date": 1539734400
-          },
-          "removed": {
-            "version": "75.0.0",
-            "date": 1559606400
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "alternative_name": "WebGLMultiview"
+          }
         }
       ]
     }
