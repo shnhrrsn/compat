@@ -4174,6 +4174,13 @@ const mdn = {
 		name: 'Opera Android',
 		versions: new Map([
 			[
+				"72.0.0",
+				{
+					"date": 1666310400,
+					"usage": null
+				}
+			],
+			[
 				"71.0.0",
 				{
 					"date": 1663286400,

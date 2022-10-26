@@ -406,7 +406,10 @@
     },
     "nodejs": {
       "name": "Node.js",
-      "added": null,
+      "added": {
+        "version": "19.0.0",
+        "date": 1665964800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -415,13 +418,30 @@
       "history": [
         {
           "notes": [
+            "<code>Crypto</code> is not a concrete interface, but its methods are available on the global <code>crypto</code> object."
+          ],
+          "added": {
+            "version": "19.0.0",
+            "date": 1665964800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
             "<code>Crypto</code> is not a concrete interface, but calling <code>require('crypto').webcrypto</code> returns an instance of the <code>Crypto</code> class."
           ],
           "added": {
             "version": "15.0.0",
             "date": 1603152000
           },
-          "removed": null,
+          "removed": {
+            "version": "19.0.0",
+            "date": 1665964800
+          },
           "usage": {
             "global": null,
             "relative": null
