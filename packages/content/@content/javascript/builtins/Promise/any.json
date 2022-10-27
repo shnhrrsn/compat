@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "b80f910675e7941a64fb337faecaf590",
+      "id": "d78b2445c1e53bb5a75b9902ecc817a7",
       "tree": {
         "type": "root",
         "children": [
@@ -24,19 +24,30 @@
             "properties": {},
             "children": [
               {
+                "type": "text",
+                "value": "The "
+              },
+              {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "Promise.any()"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise.any()"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " takes an iterable of "
+                "value": " method takes an iterable of promises as input and returns a single "
               },
               {
                 "type": "element",
@@ -61,7 +72,7 @@
               },
               {
                 "type": "text",
-                "value": " objects. It returns a single promise that fulfills as soon as any of the promises in the iterable fulfills, with the value of the fulfilled promise. If no promises in the iterable fulfill (if all of the given promises are rejected), then the returned promise is rejected with an "
+                "value": ". This returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject (including when an empty iterable is passed), with an "
               },
               {
                 "type": "element",
@@ -86,32 +97,7 @@
               },
               {
                 "type": "text",
-                "value": ", a new subclass of "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/Error"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Error"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " that groups together individual errors."
+                "value": " containing an array of rejection reasons."
               }
             ]
           }
@@ -122,7 +108,7 @@
       }
     },
     "seeAlso": {
-      "id": "9653625068600dbd6a58036bd64c888e",
+      "id": "5f92f54c48c96a92f1caae30424bf70f",
       "tree": {
         "type": "root",
         "children": [
@@ -227,7 +213,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/Promise/allSettled"
+                      "href": "/javascript/builtins/Promise/all"
                     },
                     "children": [
                       {
@@ -237,7 +223,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Promise.allSettled()"
+                            "value": "Promise.all()"
                           }
                         ]
                       }
@@ -259,7 +245,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/Promise/all"
+                      "href": "/javascript/builtins/Promise/allSettled"
                     },
                     "children": [
                       {
@@ -269,7 +255,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Promise.all()"
+                            "value": "Promise.allSettled()"
                           }
                         ]
                       }
@@ -323,8 +309,8 @@
     }
   },
   "commit": {
-    "sha": "3afc4a9557e0c71cbcf5491975d8edec38422247",
-    "date": "2022-10-20T19:29:00.000Z"
+    "sha": "6b60565289762f7be9bf377022e610e71e5867d1",
+    "date": "2022-10-26T16:20:08.000Z"
   },
   "usage": 0.9147500000000001,
   "support": {

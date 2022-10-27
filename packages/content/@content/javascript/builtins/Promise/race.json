@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "d85f4120b05df34933b6ec1f3135ad48",
+      "id": "8fadeb0f4fb7eca80d626949f5624aab",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method returns a promise that fulfills\nor rejects as soon as one of the promises in an iterable fulfills or rejects, with the\nvalue or reason from that promise."
+                "value": " method takes an iterable of promises as input and returns a single "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". This returned promise settles with the eventual state of the first promise that settles."
               }
             ]
           }
@@ -58,7 +83,7 @@
       }
     },
     "seeAlso": {
-      "id": "48b934a5b61ff7afdede57b3a848b0cb",
+      "id": "1da02356534c65895e0f7ede015ef559",
       "tree": {
         "type": "root",
         "children": [
@@ -134,6 +159,70 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise/allSettled"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise.allSettled()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise/any"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise.any()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -145,8 +234,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "6b60565289762f7be9bf377022e610e71e5867d1",
+    "date": "2022-10-26T16:20:08.000Z"
   },
   "usage": 0.95673,
   "support": {

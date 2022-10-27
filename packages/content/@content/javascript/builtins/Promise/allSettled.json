@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "8ac72a70fa865701e906298130ca35dc",
+      "id": "21873f4a651b512ea31b32ea0d94210d",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method returns a promise that\nfulfills after all of the given promises have either fulfilled or rejected, with an\narray of objects that each describes the outcome of each promise."
+                "value": " method takes an iterable of promises as input and returns a single "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". This returned promise fulfills when all of the input's promises settle (including when an empty iterable is passed), with an array of objects that describe the outcome of each promise."
               }
             ]
           }
@@ -58,7 +83,7 @@
       }
     },
     "seeAlso": {
-      "id": "9918cf9dfd794235a373bc8a031b741e",
+      "id": "a292d7f20d46eb4052349c62bf69e782",
       "tree": {
         "type": "root",
         "children": [
@@ -232,6 +257,70 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise/any"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise.any()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise/race"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise.race()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -243,8 +332,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "6b60565289762f7be9bf377022e610e71e5867d1",
+    "date": "2022-10-26T16:20:08.000Z"
   },
   "usage": 0.93507,
   "support": {
