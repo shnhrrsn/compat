@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "0646e87e29b421984eeed8f0fb356348",
+      "id": "bc17953489b4b20760f067e06926a9da",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,47 @@
               },
               {
                 "type": "text",
-                "value": " functional notation expresses a given color in the Oklab perpetual color space, which attempts to mimic how color is perceived by the human eye."
+                "value": " functional notation expresses a given color in the Oklab color space, which attempts to mimic how color is perceived by the human eye. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "oklab()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " works with a Cartesian coordinate system on the OKlab color space, the a- and b-axes. If you want a polar color system, chroma and hue, use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/types/color/oklch"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "oklch()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -58,7 +98,7 @@
       }
     },
     "seeAlso": {
-      "id": "61e760e953108de8fb5d4d35fe5c57fc",
+      "id": "5c43f8ae29ceafdcb9c0e792776fec8d",
       "tree": {
         "type": "root",
         "children": [
@@ -102,20 +142,18 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "https://webkit.org/blog/12156/release-notes-for-safari-technology-preview-137/"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "Safari Technology Preview 137 release notes"
+                        "value": "oklch()"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ": includes "
+                    "value": " use the same color space as "
                   },
                   {
                     "type": "element",
@@ -130,22 +168,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "oklch()"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " colors."
+                    "value": " but a polar coordinate system."
                   }
                 ]
               },
@@ -163,8 +186,8 @@
     }
   },
   "commit": {
-    "sha": "add8a44675ae07a8c5bef8c1810c127b9660aaf6",
-    "date": "2022-09-29T15:58:48.000Z"
+    "sha": "2d70f3a823f65c5a1aee975ba752a3caca427f30",
+    "date": "2022-10-27T10:52:36.000Z"
   },
   "usage": 0.16362,
   "support": {
