@@ -5,11 +5,113 @@
     "detail"
   ],
   "type": "page",
-  "title": "PerformanceMark / detail",
+  "title": "PerformanceMark.detail",
   "links": {
-    "spec": "https://w3c.github.io/user-timing/#dom-performancemark-detail"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PerformanceMark/detail",
+    "spec": "https://w3c.github.io/user-timing/#dom-performancemark-detail",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performancemark/detail/index.md"
   },
-  "usage": 0.89591,
+  "content": {
+    "intro": {
+      "id": "0382756c4ca4e09dafa4d2fb00bbf9c4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The read-only "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "detail"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property returns arbitrary metadata that was included in the mark upon construction (either when using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Performance/mark"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "performance.mark()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/PerformanceMark/PerformanceMark"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "PerformanceMark()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " constructor)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "304ef7f610708eeab760f8c70bccc0ac54c028c6",
+    "date": "2022-10-26T20:36:30.000Z"
+  },
+  "usage": 0.92161,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -117,27 +219,36 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.025699999999999997,
+        "relative": 0.8954703832752617
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.025699999999999997,
+            "relative": 0.8954703832752617
           }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "101.0.0",
+        "date": 1653955200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -146,7 +257,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
           "removed": null,
           "usage": {
             "global": null,

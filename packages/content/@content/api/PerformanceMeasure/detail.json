@@ -5,11 +5,88 @@
     "detail"
   ],
   "type": "page",
-  "title": "PerformanceMeasure / detail",
+  "title": "PerformanceMeasure.detail",
   "links": {
-    "spec": "https://w3c.github.io/user-timing/#dom-performancemeasure-detail"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/PerformanceMeasure/detail",
+    "spec": "https://w3c.github.io/user-timing/#dom-performancemeasure-detail",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performancemeasure/detail/index.md"
   },
-  "usage": 0.8922100000000002,
+  "content": {
+    "intro": {
+      "id": "1a84c64f92c2be1c9fc96ec5d2e3a064",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The read-only "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "detail"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property returns arbitrary metadata that was included in the mark upon construction (when using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Performance/measure"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "performance.measure()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "9791b44f8261f970e47271edcdc932ad6dc63878",
+    "date": "2022-10-28T03:38:24.000Z"
+  },
+  "usage": 0.9171100000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -117,27 +194,36 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0249,
+        "relative": 0.8675958188153314
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0249,
+            "relative": 0.8675958188153314
           }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "103.0.0",
+        "date": 1658793600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -146,7 +232,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "103.0.0",
+            "date": 1658793600
+          },
           "removed": null,
           "usage": {
             "global": null,
