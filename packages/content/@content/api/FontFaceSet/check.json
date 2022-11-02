@@ -79,83 +79,83 @@
     "sha": "b9ff6d9960e91ff4ba27d0d675c85063b57a4198",
     "date": "2022-10-07T21:16:19.000Z"
   },
-  "usage": 0.9547900000000001,
+  "usage": 0.23665000000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "35.0.0",
-        "date": 1400544000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.2482000000000001,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "35.0.0",
             "date": 1400544000
           },
           "removed": null,
           "usage": {
-            "global": 0.2482000000000001,
+            "global": 0.25279999999999997,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "35.0.0",
-        "date": 1400544000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.38770000000000004,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "35.0.0",
             "date": 1400544000
           },
           "removed": null,
           "usage": {
-            "global": 0.38770000000000004,
+            "global": 0.37791000000000013,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": {
-        "version": "79.0.0",
-        "date": 1579046400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.04239999999999999,
-        "relative": 0.995305164319249
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "79.0.0",
             "date": 1579046400
           },
           "removed": null,
           "usage": {
-            "global": 0.04239999999999999,
-            "relative": 0.995305164319249
-          }
+            "global": 0.0431,
+            "relative": 0.9953810623556583
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -167,8 +167,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.028499999999999984,
-        "relative": 0.9930313588850174
+        "global": 0.027899999999999987,
+        "relative": 0.9928825622775801
       },
       "history": [
         {
@@ -179,8 +179,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.028499999999999984,
-            "relative": 0.9930313588850174
+            "global": 0.027899999999999987,
+            "relative": 0.9928825622775801
           }
         }
       ]
@@ -233,10 +233,7 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": {
-        "version": "5.0.0",
-        "date": null
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -244,7 +241,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "5.0.0",
             "date": null
@@ -253,42 +252,14 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "22.0.0",
-        "date": 1401753600
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.018000000000000002,
-        "relative": 0.994475138121547
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "22.0.0",
-            "date": 1401753600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.018000000000000002,
-            "relative": 0.994475138121547
-          }
-        }
-      ]
-    },
-    "opera_android": {
-      "name": "Opera Android",
-      "added": {
-        "version": "22.0.0",
-        "date": 1402963200
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -296,7 +267,35 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
+          "added": {
+            "version": "22.0.0",
+            "date": 1401753600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.020599999999999997,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "22.0.0",
             "date": 1402963200
@@ -305,7 +304,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -317,8 +317,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0343,
-        "relative": 0.9942028985507247
+        "global": 0.036399999999999995,
+        "relative": 0.9918256130790192
       },
       "history": [
         {
@@ -329,8 +329,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0343,
-            "relative": 0.9942028985507247
+            "global": 0.036399999999999995,
+            "relative": 0.9918256130790192
           }
         }
       ]
@@ -343,8 +343,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16968999999999998,
-        "relative": 0.9921651172308954
+        "global": 0.17235000000000003,
+        "relative": 0.9933717579250722
       },
       "history": [
         {
@@ -355,44 +355,15 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16968999999999998,
-            "relative": 0.9921651172308954
+            "global": 0.17235000000000003,
+            "relative": 0.9933717579250722
           }
         }
       ]
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": {
-        "version": "3.0.0",
-        "date": 1428624000
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.02599999999999999,
-        "relative": 0.9774436090225563
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "3.0.0",
-            "date": 1428624000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02599999999999999,
-            "relative": 0.9774436090225563
-          }
-        }
-      ]
-    },
-    "webview_android": {
-      "name": "WebView Android",
-      "added": {
-        "version": "37.0.0",
-        "date": 1409702400
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -400,7 +371,35 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
+          "added": {
+            "version": "3.0.0",
+            "date": 1428624000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025599999999999977,
+            "relative": 0.9808429118773947
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "The method returns <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/591602'>bug 591602</a>."
+          ],
           "added": {
             "version": "37.0.0",
             "date": 1409702400
@@ -409,7 +408,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }
