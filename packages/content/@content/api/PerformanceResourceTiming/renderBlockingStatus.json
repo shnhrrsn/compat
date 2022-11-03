@@ -5,12 +5,63 @@
     "renderBlockingStatus"
   ],
   "type": "page",
-  "title": "PerformanceResourceTiming / renderBlockingStatus",
+  "title": "PerformanceResourceTiming.renderBlockingStatus",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/renderBlockingStatus",
-    "spec": "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-renderblockingstatus"
+    "spec": "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-renderblockingstatus",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performanceresourcetiming/renderblockingstatus/index.md"
   },
-  "usage": 0.01119,
+  "content": {
+    "intro": {
+      "id": "af74dd142d9d0711e5c16f87f7048099",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Render-blocking resources are static files, such as fonts, CSS, and JavaScript that block or delay the browser from rendering page content to the screen.\nThe "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "renderBlockingStatus"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property returns the render-blocking nature of the resource.\nThis eliminates the need to rely on complex heuristics to identify render-blocking resources."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "cdaead45008c275096353b0cf424b93558976b91",
+    "date": "2022-11-02T10:43:37.000Z"
+  },
+  "usage": 0.014880000000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -20,8 +71,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.004200000000000001,
-        "relative": 0.016613924050632913
+        "global": 0.0068000000000000005,
+        "relative": 0.026845637583892617
       },
       "history": [
         {
@@ -32,8 +83,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.004200000000000001,
-            "relative": 0.016613924050632913
+            "global": 0.0068000000000000005,
+            "relative": 0.026845637583892617
           }
         }
       ]
@@ -46,8 +97,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.00559,
-        "relative": 0.014791881664946677
+        "global": 0.005580000000000001,
+        "relative": 0.014772847611987714
       },
       "history": [
         {
@@ -58,8 +109,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.00559,
-            "relative": 0.014791881664946677
+            "global": 0.005580000000000001,
+            "relative": 0.014772847611987714
           }
         }
       ]
@@ -72,8 +123,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0014000000000000002,
-        "relative": 0.03233256351039262
+        "global": 0.0025,
+        "relative": 0.057339449541284414
       },
       "history": [
         {
@@ -84,8 +135,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0014000000000000002,
-            "relative": 0.03233256351039262
+            "global": 0.0025,
+            "relative": 0.057339449541284414
           }
         }
       ]
