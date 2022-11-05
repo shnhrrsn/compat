@@ -322,7 +322,7 @@
     "sha": "8e1f45b8c0a3671f6e3de43c0764ad610aa345dd",
     "date": "2022-09-14T09:06:12.000Z"
   },
-  "usage": 0.9099,
+  "usage": 0.91,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -509,25 +509,27 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "48.0.0",
-        "date": 1506470400
+        "version": "46.0.0",
+        "date": 1498089600
       },
       "removed": null,
       "usage": {
-        "global": 0.020300000000000002,
-        "relative": 0.9950980392156864
+        "global": 0.0204,
+        "relative": 1
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opera 46 and higher skips the deprecated <code>child-src</code> directive."
+          ],
           "added": {
-            "version": "48.0.0",
-            "date": 1506470400
+            "version": "46.0.0",
+            "date": 1498089600
           },
           "removed": null,
           "usage": {
-            "global": 0.020300000000000002,
-            "relative": 0.9950980392156864
+            "global": 0.0204,
+            "relative": 1
           }
         }
       ]
@@ -535,8 +537,8 @@
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "45.0.0",
-        "date": 1518652800
+        "version": "43.0.0",
+        "date": 1506470400
       },
       "removed": null,
       "usage": {
@@ -545,10 +547,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opera 43 and higher skips the deprecated <code>child-src</code> directive."
+          ],
           "added": {
-            "version": "45.0.0",
-            "date": 1518652800
+            "version": "43.0.0",
+            "date": 1506470400
           },
           "removed": null,
           "usage": {
