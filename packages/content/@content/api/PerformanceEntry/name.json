@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d0879e3b0a27825903fab29869c594f3",
+      "id": "19fe5a8cd4b8bd1ddd156b44ae2fb54e",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "The read-only "
               },
               {
                 "type": "element",
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " property of the\n"
+                "value": " property of the "
               },
               {
                 "type": "element",
@@ -71,24 +71,53 @@
               },
               {
                 "type": "text",
-                "value": " interface returns a value that further specifies the\nvalue returned by the "
+                "value": " interface is a string representing the name for a performance entry. It acts as an identifier, but it does not have to be unique. The value depends on the subclass."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f3ade82086e824713a6b297cf54adeaf",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/PerformanceEntry/entryType"
-                },
+                "tagName": "li",
+                "properties": {},
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntriesByName"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "PerformanceEntry.entryType"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntriesByName()"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -96,7 +125,39 @@
               },
               {
                 "type": "text",
-                "value": " property. This\nproperty is read only."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceObserverEntryList/getEntriesByName"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceObserverEntryList.getEntriesByName()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -108,10 +169,10 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "aa4cdd516512c3e78434d3d9bcc5424a1a51b8af",
+    "date": "2022-11-07T19:32:49.000Z"
   },
-  "usage": 0.9590600000000001,
+  "usage": 0.95902,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -147,7 +208,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37772000000000006,
+        "global": 0.37767999999999996,
         "relative": 1
       },
       "history": [
@@ -159,7 +220,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37772000000000006,
+            "global": 0.37767999999999996,
             "relative": 1
           }
         }

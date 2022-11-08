@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "65b6d6c0e1718b9604de7ba024c1403f",
+      "id": "2dd1de15b04b8913567cf0c27ccd9403",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "The read-only "
               },
               {
                 "type": "element",
@@ -46,22 +46,125 @@
               },
               {
                 "type": "text",
-                "value": " property returns\na string representing the type of performance metric such as, for\nexample, \""
+                "value": " property returns a string representing the type of performance metric that this entry represents."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "9ca74869afbc7a39beef93fb3d58ed7f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "mark"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceObserver/supportedEntryTypes"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceObserver.supportedEntryTypes"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\". This property is read only."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntriesByType"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntriesByType()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceObserverEntryList/getEntriesByType"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceObserverEntryList.getEntriesByType()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -73,10 +176,10 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "aa4cdd516512c3e78434d3d9bcc5424a1a51b8af",
+    "date": "2022-11-07T19:32:49.000Z"
   },
-  "usage": 0.9590600000000001,
+  "usage": 0.95902,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -112,7 +215,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37772000000000006,
+        "global": 0.37767999999999996,
         "relative": 1
       },
       "history": [
@@ -124,7 +227,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37772000000000006,
+            "global": 0.37767999999999996,
             "relative": 1
           }
         }
