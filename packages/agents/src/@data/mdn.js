@@ -3448,6 +3448,13 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"92.0.0",
+				{
+					"date": 1666137600,
+					"usage": 0.02
+				}
+			],
+			[
 				"91.0.0",
 				{
 					"date": 1663113600,
