@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d23403712c29bd373471967d276da1cf",
+      "id": "81fa5b17bbf3ecc8fdbd41c8b298ae27",
       "tree": {
         "type": "root",
         "children": [
@@ -50,8 +50,10 @@
               },
               {
                 "type": "element",
-                "tagName": "em",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/Serialization"
+                },
                 "children": [
                   {
                     "type": "text",
@@ -61,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": "; it returns\na JSON representation of the "
+                "value": "; it returns a JSON representation of the "
               },
               {
                 "type": "element",
@@ -95,13 +97,67 @@
           "quirksMode": false
         }
       }
+    },
+    "seeAlso": {
+      "id": "8c0eebcabd00f511fcb5b43e3c74eb0f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/JSON"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "JSON"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "32f3b1b08b95aa42c11c8177d7e314ac6adecc07",
+    "date": "2022-11-09T17:45:59.000Z"
   },
-  "usage": 0.9521999999999999,
+  "usage": 0.9523999999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -339,7 +395,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0204,
+        "global": 0.020599999999999997,
         "relative": 1
       },
       "history": [
@@ -351,7 +407,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0204,
+            "global": 0.020599999999999997,
             "relative": 1
           }
         }
