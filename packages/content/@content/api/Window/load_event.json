@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "1672515a1676e27bfbd6b7633ee44e48",
+      "id": "736651143dc74652bde3abd942ac0409",
       "tree": {
         "type": "root",
         "children": [
@@ -49,7 +49,7 @@
               },
               {
                 "type": "text",
-                "value": " event is fired when the whole page has loaded, including all dependent resources such as stylesheets and images. This is in contrast to "
+                "value": " event is fired when the whole page has loaded, including all dependent resources such as stylesheets, scripts, iframes, and images.\nThis is in contrast to "
               },
               {
                 "type": "element",
@@ -85,7 +85,7 @@
       }
     },
     "seeAlso": {
-      "id": "e8f05ef5bc07ec1203b48eba733fc7e6",
+      "id": "f710e8e1f5c7cec795b9bcdb3b82843d",
       "tree": {
         "type": "root",
         "children": [
@@ -105,103 +105,182 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Related events: "
+                    "value": "Document "
                   },
                   {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/api/Window/DOMContentLoaded_event"
+                      "href": "/en-US/docs/Web/API/Document/readyState"
                     },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "DOMContentLoaded"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "readyState"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ", "
+                    "value": " API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related events:\n"
                   },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Document/readystatechange_event"
-                    },
+                    "tagName": "ul",
+                    "properties": {},
                     "children": [
                       {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
                         "type": "element",
-                        "tagName": "code",
+                        "tagName": "li",
                         "properties": {},
                         "children": [
                           {
-                            "type": "text",
-                            "value": "readystatechange"
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Window/DOMContentLoaded_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "DOMContentLoaded"
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Document/readystatechange_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "readystatechange"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Window/beforeunload_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "beforeunload"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/api/Window/unload_event"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "unload"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Window/beforeunload_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "beforeunload"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Window/unload_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "unload"
-                          }
-                        ]
-                      }
-                    ]
+                    "value": "\n"
                   }
                 ]
               },
@@ -219,8 +298,8 @@
     }
   },
   "commit": {
-    "sha": "8318078e0cf65cd4d56e80376c03019dcb292dc1",
-    "date": "2022-09-13T20:24:51.000Z"
+    "sha": "920162a6e4ada9050179085f9a021cfacc05a958",
+    "date": "2022-11-15T06:06:50.000Z"
   },
   "usage": 0.96237,
   "support": {
