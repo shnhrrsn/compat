@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "aa7604352d9591b576fb87a1704d39bb",
+      "id": "1a42b346347bf6870510f484bac6f6db",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface is a string containing an initial "
+                "value": " interface represents a location in a directory structure. It is a string constructed from a list of path segments, each of which is prefixed by a "
               },
               {
                 "type": "element",
@@ -86,7 +86,22 @@
               },
               {
                 "type": "text",
-                "value": " followed by the path of the URL, not including the query string or fragment (or the empty string if there is no path)."
+                "value": " character. If the URL has no path segments, the value of its "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "pathname"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property will be the empty string."
               }
             ]
           }
@@ -160,8 +175,8 @@
     }
   },
   "commit": {
-    "sha": "f7dae62645a2c735ed6f6ed63f664bf279fdfc4b",
-    "date": "2022-09-09T05:19:45.000Z"
+    "sha": "2ae4d0211ffb4594946e658e854aeaf64e2ead6d",
+    "date": "2022-11-16T12:17:38.000Z"
   },
   "usage": 0.95763,
   "support": {
