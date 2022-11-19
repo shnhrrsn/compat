@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "10ec6b8c1311ed31a0d9058fd6416a6f",
+      "id": "9cc330bb62ffc3195a149f50f371621d",
       "tree": {
         "type": "root",
         "children": [
@@ -23,12 +23,15 @@
             "children": [
               {
                 "type": "text",
-                "value": "A "
+                "value": "The "
               },
               {
                 "type": "element",
-                "tagName": "strong",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/MutationRecord"
+                },
                 "children": [
                   {
                     "type": "element",
@@ -45,7 +48,7 @@
               },
               {
                 "type": "text",
-                "value": " represents an individual DOM mutation. It is the object that is inside the array passed to "
+                "value": " is a read-only interface that represents an individual DOM mutation observed by a "
               },
               {
                 "type": "element",
@@ -70,7 +73,32 @@
               },
               {
                 "type": "text",
-                "value": "'s callback."
+                "value": ". It is the object inside the array passed to the callback of a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/MutationObserver"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "MutationObserver"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -82,8 +110,8 @@
     }
   },
   "commit": {
-    "sha": "bbecba9e7d688493adbdc37fc70e02d87adfe371",
-    "date": "2022-10-10T08:33:38.000Z"
+    "sha": "1b1f769b4fa1be86b34f4357f942b47348bb65bd",
+    "date": "2022-11-18T19:23:38.000Z"
   },
   "usage": 0.9612599999999999,
   "support": {
