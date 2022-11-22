@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "8cc20efae01cf925e56237d06f4d6f5a",
+      "id": "6631d32e36811e6e2b7d2c73a8918953",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method returns a list of\n"
+                "value": " method returns an array of "
               },
               {
                 "type": "element",
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " objects for a given "
+                "value": " objects currently present in the performance timeline for a given "
               },
               {
                 "type": "element",
@@ -86,69 +86,53 @@
               },
               {
                 "type": "text",
-                "value": ". The list's members\n("
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "entries"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ") can be created by making performance "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "marks"
-                  }
-                ]
-              },
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "e01edc2e82a15fbce4c7d1bbada2896d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
               {
                 "type": "text",
-                "value": " or\n"
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "em",
+                "tagName": "li",
                 "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "measures"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " (for example by calling the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/Performance/mark"
-                },
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntries"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "mark()"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntries()"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -156,7 +140,71 @@
               },
               {
                 "type": "text",
-                "value": "\nmethod) at explicit points in time."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntriesByName"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntriesByName()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceObserver/supportedEntryTypes"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceObserver.supportedEntryTypes"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -168,8 +216,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "7fa25ff1a5c7547cfa83026d45a56bcb0f5978c1",
+    "date": "2022-11-22T02:14:37.000Z"
   },
   "usage": 0.95922,
   "support": {

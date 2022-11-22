@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "726c4a753fe5f3d9b320bae81dadf26e",
+      "id": "b8881bbae9db1f5282634caf12323649",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method returns a list of\n"
+                "value": " method returns an array of "
               },
               {
                 "type": "element",
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " objects for the given "
+                "value": " objects currently present in the performance timeline with the given "
               },
               {
                 "type": "element",
@@ -101,69 +101,53 @@
               },
               {
                 "type": "text",
-                "value": ".\nThe list's members ("
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "entries"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ") can be created by making performance\n"
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "marks"
-                  }
-                ]
-              },
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f64847cfa0bc86a45c09ed1e1a4c9114",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
               {
                 "type": "text",
-                "value": " or "
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "em",
+                "tagName": "li",
                 "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "measures"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " (for example by calling the\n"
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/Performance/mark"
-                },
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntries"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "mark()"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntries()"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -171,7 +155,39 @@
               },
               {
                 "type": "text",
-                "value": " method) at explicit points in time."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/getEntriesByType"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.getEntriesByType()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -183,8 +199,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "7fa25ff1a5c7547cfa83026d45a56bcb0f5978c1",
+    "date": "2022-11-22T02:14:37.000Z"
   },
   "usage": 0.93862,
   "support": {
