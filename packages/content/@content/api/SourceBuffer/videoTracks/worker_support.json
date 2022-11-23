@@ -8,22 +8,21 @@
   "type": "page",
   "title": "videoTracks / worker_support",
   "links": {},
-  "usage": 0.0003,
+  "usage": 0,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "108.0.0",
-        "date": 1669680000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.0003,
-        "relative": 0.0011843663639952624
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/487288#c24'>bug 487288</a>)."
+          ],
           "added": {
             "version": "108.0.0",
             "date": 1669680000
@@ -32,16 +31,20 @@
           "usage": {
             "global": 0.0003,
             "relative": 0.0011843663639952624
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "108.0.0",
-        "date": 1669680000
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -49,7 +52,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/487288#c24'>bug 487288</a>)."
+          ],
           "added": {
             "version": "108.0.0",
             "date": 1669680000
@@ -58,16 +63,20 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": {
-        "version": "108.0.0",
-        "date": 1669852800
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -75,7 +84,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/487288#c24'>bug 487288</a>)."
+          ],
           "added": {
             "version": "108.0.0",
             "date": 1669852800
@@ -84,7 +95,14 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
@@ -158,22 +176,28 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/487288#c24'>bug 487288</a>)."
+          ],
           "added": null,
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "93.0.0",
-        "date": null
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -181,16 +205,25 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Currently doesn't work, even with the flag set. If invoked from a dedicated worker, Chromium crashes the renderer to avoid undesirable behavior (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/487288#c24'>bug 487288</a>)."
+          ],
           "added": {
-            "version": "93.0.0",
+            "version": "94.0.0",
             "date": null
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
         }
       ]
     },
@@ -276,10 +309,7 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "108.0.0",
-        "date": 1669680000
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -288,10 +318,7 @@
       "history": [
         {
           "notes": null,
-          "added": {
-            "version": "108.0.0",
-            "date": 1669680000
-          },
+          "added": null,
           "removed": null,
           "usage": {
             "global": null,

@@ -324,7 +324,7 @@
     "sha": "4e1857843b85afa11ce4889fc8029f73e54546ad",
     "date": "2022-11-09T03:36:18.000Z"
   },
-  "usage": 0.95809,
+  "usage": 0.95739,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -407,15 +407,27 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "33.0.0",
-        "date": 1413244800
+        "version": "58.0.0",
+        "date": 1516665600
       },
       "removed": null,
       "usage": {
-        "global": 0.027999999999999983,
-        "relative": 0.9929078014184397
+        "global": 0.027299999999999987,
+        "relative": 0.9680851063829787
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1516665600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027299999999999987,
+            "relative": 0.9680851063829787
+          }
+        },
         {
           "notes": [
             "Before Firefox 58, <code>frame-ancestors</code> is ignored in <code>Content-Security-Policy-Report-Only</code>."
@@ -428,15 +440,16 @@
           "usage": {
             "global": 0.027999999999999983,
             "relative": 0.9929078014184397
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "33.0.0",
-        "date": 1413244800
+        "version": "58.0.0",
+        "date": 1516579200
       },
       "removed": null,
       "usage": {
@@ -444,6 +457,18 @@
         "relative": null
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "58.0.0",
+            "date": 1516579200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
         {
           "notes": [
             "Before Firefox for Android 58, <code>frame-ancestors</code> is ignored in <code>Content-Security-Policy-Report-Only</code>."
@@ -456,7 +481,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
