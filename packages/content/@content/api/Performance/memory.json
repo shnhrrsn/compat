@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "be59ec5be4baaa82b649074c9112be86",
+      "id": "ebded659da5c4c6332c95b6b533af351",
       "tree": {
         "type": "root",
         "children": [
@@ -23,7 +23,22 @@
             "children": [
               {
                 "type": "text",
-                "value": "None."
+                "value": "The non-standard and legacy "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "performance.memory"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property returns the size of the JavaScript heap which can be helpful to measure and reduce the memory footprint of websites."
               }
             ]
           }
@@ -34,7 +49,7 @@
       }
     },
     "seeAlso": {
-      "id": "2327722380ffec10da18ab59719442e9",
+      "id": "d867eb9fac731caae959ead6bfdd2196",
       "tree": {
         "type": "root",
         "children": [
@@ -53,15 +68,11 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "The "
-                  },
-                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/api/Performance"
+                      "href": "/api/Performance/measureUserAgentSpecificMemory"
                     },
                     "children": [
                       {
@@ -71,15 +82,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Performance"
+                            "value": "Performance.measureUserAgentSpecificMemory()"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " interface it belongs to."
                   }
                 ]
               },
@@ -97,8 +104,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "b22117b35964080829178a4a156d83767cf5f933",
+    "date": "2022-11-24T17:00:13.000Z"
   },
   "usage": 0.72098,
   "support": {
