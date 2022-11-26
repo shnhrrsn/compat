@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "9d21fcdb2b1a73830463e71ebbf9f99c",
+      "id": "06f69394c33a08189fe69f5e822dc70f",
       "tree": {
         "type": "root",
         "children": [
@@ -99,7 +99,7 @@
               },
               {
                 "type": "text",
-                "value": ") whenever a JavaScript "
+                "value": ") whenever a rejected JavaScript "
               },
               {
                 "type": "element",
@@ -124,7 +124,32 @@
               },
               {
                 "type": "text",
-                "value": " is rejected but after the promise rejection has been handled."
+                "value": " is handled late, i.e. when a handler is attached to the promise after its rejection had caused an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/unhandledrejection_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "unhandledrejection"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event."
               }
             ]
           }
@@ -278,8 +303,8 @@
     }
   },
   "commit": {
-    "sha": "f7dae62645a2c735ed6f6ed63f664bf279fdfc4b",
-    "date": "2022-09-09T05:19:45.000Z"
+    "sha": "41853818eec4bcea92eaab957f7f3ac766c7d900",
+    "date": "2022-11-25T08:36:50.000Z"
   },
   "usage": 0.95092,
   "support": {
