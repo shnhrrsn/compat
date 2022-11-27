@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "af8e8f88efbe12960ce1d66320b632b2",
+      "id": "ce7dbd5a0011f5549f52db92eee66795",
       "tree": {
         "type": "root",
         "children": [
@@ -46,22 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method sets the\nbrowser's "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "resource timing buffer"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " size to the specified number of\n\""
+                "value": " method sets the desired size of the browser's resource timing buffer which stores the \""
               },
               {
                 "type": "element",
@@ -76,7 +61,93 @@
               },
               {
                 "type": "text",
-                "value": "\" {{domxref(\"PerformanceEntry.entryType\",\"performance entry\ntype\")}} objects."
+                "value": "\" performance entries."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "7f0be2deac95d270c65cabc113ebd8bf",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/clearResourceTimings"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.clearResourceTimings()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/resourcetimingbufferfull_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "resourcetimingbufferfull"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -88,8 +159,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "61be7d8179db0b85f2b80b48d4d15e909ec0b174",
+    "date": "2022-11-26T10:18:15.000Z"
   },
   "usage": 0.9547999999999999,
   "support": {

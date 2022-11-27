@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "1dcf27faab032fbc534a1a8e1971cc86",
+      "id": "eb241d3f92687beb4487395bdbea74aa",
       "tree": {
         "type": "root",
         "children": [
@@ -46,32 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method removes all\n"
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/PerformanceEntry"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "performance entries"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " with an\n"
+                "value": " method removes all performance entries with an "
               },
               {
                 "type": "element",
@@ -111,24 +86,53 @@
               },
               {
                 "type": "text",
-                "value": "\" from\nthe browser's performance data buffer and sets the size of the performance data buffer\nto zero. To set the size of the browser's performance data buffer, use the\n"
+                "value": "\" from the browser's performance timeline and sets the size of the performance resource data buffer to zero."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "5043bff889b6f854c082850a2781005e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/Performance/setResourceTimingBufferSize"
-                },
+                "tagName": "li",
+                "properties": {},
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/setResourceTimingBufferSize"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Performance.setResourceTimingBufferSize()"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.setResourceTimingBufferSize()"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -136,7 +140,39 @@
               },
               {
                 "type": "text",
-                "value": " method."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Performance/resourcetimingbufferfull_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "resourcetimingbufferfull"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -148,8 +184,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "61be7d8179db0b85f2b80b48d4d15e909ec0b174",
+    "date": "2022-11-26T10:18:15.000Z"
   },
   "usage": 0.9547999999999999,
   "support": {
