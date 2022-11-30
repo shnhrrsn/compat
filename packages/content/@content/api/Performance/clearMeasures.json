@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d9dd9fd48cc5997de574214b7deb232d",
+      "id": "18354ec188f6aa4e93542eae551bd608",
       "tree": {
         "type": "root",
         "children": [
@@ -46,29 +46,14 @@
               },
               {
                 "type": "text",
-                "value": " method removes the "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "named\nmeasure"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " from the browser's performance entry buffer. If the method is called with\nno arguments, all "
+                "value": " method removes all or specific "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/PerformanceEntry"
+                  "href": "/api/PerformanceMeasure"
                 },
                 "children": [
                   {
@@ -78,7 +63,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "performance entries"
+                        "value": "PerformanceMeasure"
                       }
                     ]
                   }
@@ -86,47 +71,61 @@
               },
               {
                 "type": "text",
-                "value": " with an\n"
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/PerformanceEntry/entryType"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "entry type"
-                      }
-                    ]
-                  }
-                ]
-              },
+                "value": " objects from the browser's performance timeline."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3f05d13fd12177cc39e9060f32e1bf4d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
               {
                 "type": "text",
-                "value": " of \""
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "measure"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceMeasure"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceMeasure"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\" will be\nremoved from the performance entry buffer."
+                "value": "\n"
               }
             ]
           }
@@ -138,8 +137,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "4c56335104fb31e3461397370a32011a9e5a7679",
+    "date": "2022-11-29T15:16:39.000Z"
   },
   "usage": 0.95922,
   "support": {

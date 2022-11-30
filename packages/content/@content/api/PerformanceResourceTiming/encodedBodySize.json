@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "885c2cd0ac0259852336a2b246469992",
+      "id": "15e832cc853ea42ff0913f57d2b8dd91",
       "tree": {
         "type": "root",
         "children": [
@@ -46,22 +46,61 @@
               },
               {
                 "type": "text",
-                "value": " read-only property represents the\nsize (in octets) received from the fetch (HTTP or cache), of the "
+                "value": " read-only property represents the size (in octets) received from the fetch (HTTP or cache) of the payload body before removing any applied content encodings (like gzip or Brotli). If the resource is retrieved from an application cache or a local resource, it must\nreturn the size of the payload body before removing any applied content encoding."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f56c4fff7017c211e18f7d0102fadee5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "em",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "payload body"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Timing-Allow-Origin"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Timing-Allow-Origin"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ",\nbefore removing any applied content-codings."
+                "value": "\n"
               }
             ]
           }
@@ -73,8 +112,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "6f8d00427bb2e581fb3fc24662cca74317b15382",
+    "date": "2022-11-29T15:49:46.000Z"
   },
   "usage": 0.7438599999999997,
   "support": {

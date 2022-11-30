@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "b5da8fa83b8907107fdcacbc03ced47f",
+      "id": "2ed9c1cff447cd47cb73b22b1df3fced",
       "tree": {
         "type": "root",
         "children": [
@@ -46,29 +46,14 @@
               },
               {
                 "type": "text",
-                "value": " method removes the "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "named mark"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\nfrom the browser's performance entry buffer. If the method is called with no arguments,\nall "
+                "value": " method removes all or specific "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/PerformanceEntry"
+                  "href": "/api/PerformanceMark"
                 },
                 "children": [
                   {
@@ -78,7 +63,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "performance entries"
+                        "value": "PerformanceMark"
                       }
                     ]
                   }
@@ -86,47 +71,61 @@
               },
               {
                 "type": "text",
-                "value": " with an\n"
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/PerformanceEntry/entryType"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "entry type"
-                      }
-                    ]
-                  }
-                ]
-              },
+                "value": " objects from the browser's performance timeline."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "17e829607f9813f067b21e79827a3d56",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
               {
                 "type": "text",
-                "value": " of \""
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "mark"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceMark"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceMark"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\" will be\nremoved from the performance entry buffer."
+                "value": "\n"
               }
             ]
           }
@@ -138,8 +137,8 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "4c56335104fb31e3461397370a32011a9e5a7679",
+    "date": "2022-11-29T15:16:39.000Z"
   },
   "usage": 0.95922,
   "support": {
