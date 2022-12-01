@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "8a1cb57364ed953259b4fad80c5bdee1",
+      "id": "4b1b6a336f44a7da925c4e8352bfec48",
       "tree": {
         "type": "root",
         "children": [
@@ -64,22 +64,7 @@
               },
               {
                 "type": "text",
-                "value": " property allows an author to indicate that an element and its contents are, as much as possible, "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "independent"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " of the rest of the document tree.\nContainment allows the browser to calculate layout, style, paint, size, or any combination of them for a specific area of the DOM.\nChanges within an element with containment applied are not propagated outside of the contained element to the rest of the page, leading to performance benefits through fewer DOM re-renders."
+                "value": " property indicates that an element and its contents are, as much as possible, independent from the rest of the document tree.\nContainment enables isolating a subsection of the DOM, providing performance benefits by limiting calculations of layout, style, paint, size, or any combination to a DOM subtree rather than the entire page. Containment can also be used to scope CSS counters and quotes."
               }
             ]
           }
@@ -241,8 +226,8 @@
     }
   },
   "commit": {
-    "sha": "24ccba7994f50358fc198520c12dc2edbd83430a",
-    "date": "2022-11-14T16:36:18.000Z"
+    "sha": "a365673ed5e96ec23b34d645e09d3ebb7565aa56",
+    "date": "2022-11-30T10:36:59.000Z"
   },
   "usage": 0.7892700000000001,
   "support": {

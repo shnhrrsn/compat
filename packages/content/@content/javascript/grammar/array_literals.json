@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "5cba174e82f93fe4425661deb69fcbdc",
+      "id": "3adafc805a2cda1b23f073741538a18d",
       "tree": {
         "type": "root",
         "children": [
@@ -56,13 +56,13 @@
               },
               {
                 "type": "text",
-                "value": ", in which the text gets scanned from left to right and is converted into a sequence of individual, atomic input elements. Some input elements are insignificant to the interpreter, and will be stripped after this step — they include control characters, line terminators, "
+                "value": ", in which the text gets scanned from left to right and is converted into a sequence of individual, atomic input elements. Some input elements are insignificant to the interpreter, and will be stripped after this step — they include "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Glossary/Whitespace"
+                  "href": "#white_space"
                 },
                 "children": [
                   {
@@ -73,7 +73,126 @@
               },
               {
                 "type": "text",
-                "value": ", and comments. The others, such as identifiers and punctuators, will be used for further syntax analysis. ECMAScript also defines certain keywords and literals and has rules for automatic insertion of semicolons to make certain invalid token sequences become valid."
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#comments"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "comments"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The others, including "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#identfiers"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "identifiers"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#keywords"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "keywords"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#literals"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "literals"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", and punctuators (mostly "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "operators"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), will be used for further syntax analysis. "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#line_terminators"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Line terminators"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and multiline comments are also syntactically insignificant, but they guide the process for "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#automatic_semicolon_insertion"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "automatic semicolons insertion"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to make certain invalid token sequences become valid."
               }
             ]
           }
@@ -283,8 +402,8 @@
     }
   },
   "commit": {
-    "sha": "f979062e46775350f739d13459a178d7402d6d8a",
-    "date": "2022-11-16T07:36:13.000Z"
+    "sha": "3dbcfc27f6fd89d539c1b32dbe62a8af2857a02b",
+    "date": "2022-11-30T07:31:00.000Z"
   },
   "usage": 0.96237,
   "support": {
