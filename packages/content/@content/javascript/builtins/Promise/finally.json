@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "0918196aaa9a9972ea8815d3385d38cb",
+      "id": "6d8f89cc14177209c097cdef6caccf3f",
       "tree": {
         "type": "root",
         "children": [
@@ -72,52 +72,7 @@
               },
               {
                 "type": "text",
-                "value": " schedules a function,\nthe "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "callback function"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", to be called when the promise is settled.\nLike "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "then()"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "catch()"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", it immediately returns an equivalent "
+                "value": " object schedules a function to be called when the promise is settled (either fulfilled or rejected). It immediately returns an equivalent "
               },
               {
                 "type": "element",
@@ -142,22 +97,24 @@
               },
               {
                 "type": "text",
-                "value": " object,\nallowing you to chain calls to another promise method, an operation called "
+                "value": " object, allowing you to "
               },
               {
                 "type": "element",
-                "tagName": "em",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Guide/Using_promises#chaining"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "composition"
+                    "value": "chain"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "."
+                "value": " calls to other promise methods."
               }
             ]
           }
@@ -337,8 +294,8 @@
     }
   },
   "commit": {
-    "sha": "ce2909126eb09e44c9f48d9f65d072acae827749",
-    "date": "2022-09-13T07:09:29.000Z"
+    "sha": "79f307ce6c91d661aa024addea2f6631f4853e47",
+    "date": "2022-12-04T16:59:19.000Z"
   },
   "usage": 0.9496800000000001,
   "support": {
