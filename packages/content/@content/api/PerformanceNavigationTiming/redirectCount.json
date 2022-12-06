@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d9d18c58c3d7a482b79a96d93ef69243",
+      "id": "e79675ac7e9cadbd4cd27cf64f0b4bf5",
       "tree": {
         "type": "root",
         "children": [
@@ -46,22 +46,93 @@
               },
               {
                 "type": "text",
-                "value": " property returns a\n"
+                "value": " read-only property returns a number representing the number of redirects since the last non-redirect navigation in the current browsing context."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "ebc21037b59d63fe5ea5d1d69abfb42e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "timestamp"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceResourceTiming/redirectStart"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceResourceTiming.redirectStart"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " representing the number of redirects\nsince the last non-redirect navigation under the current browsing context."
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/PerformanceResourceTiming/redirectEnd"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "PerformanceResourceTiming.redirectEnd"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -73,10 +144,10 @@
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "8eb61681765e8042a862ebd3aca7190c64a7962a",
+    "date": "2022-12-05T22:29:10.000Z"
   },
-  "usage": 0.9250900000000002,
+  "usage": 0.9251199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -112,8 +183,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3891000000000001,
-        "relative": 0.9935905620387632
+        "global": 0.38913,
+        "relative": 0.9936925434116446
       },
       "history": [
         {
@@ -124,8 +195,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3891000000000001,
-            "relative": 0.9935905620387632
+            "global": 0.38913,
+            "relative": 0.9936925434116446
           }
         }
       ]

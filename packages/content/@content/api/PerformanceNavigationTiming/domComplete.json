@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "dfcc3480b5e3e5ca3461733e2a8aad4d",
+      "id": "dde2d542a515d10b9a303abea1e3ade7",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " read-only property returns a\n"
+                "value": " read-only property returns a "
               },
               {
                 "type": "element",
@@ -55,31 +55,46 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "timestamp"
+                    "value": "DOMHighResTimeStamp"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " representing the time value equal to the\ntime immediately before the user agent sets the current document readiness of the\ncurrent document to "
+                "value": " representing the time immediately before the user agent sets the document's "
               },
               {
                 "type": "element",
-                "tagName": "em",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Document/readyState"
+                },
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "https://html.spec.whatwg.org/multipage/syntax.html#the-end"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "complete"
+                        "value": "readyState"
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "\"complete\""
                   }
                 ]
               },
@@ -94,13 +109,67 @@
           "quirksMode": false
         }
       }
+    },
+    "seeAlso": {
+      "id": "cddb93d26b0004813f2ac53482e82c4c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/readyState"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.readyState"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
     }
   },
   "commit": {
-    "sha": "66c9543af6a0cf1baf89d5b0c972ee7dd08663b0",
-    "date": "2022-11-05T00:48:48.000Z"
+    "sha": "8eb61681765e8042a862ebd3aca7190c64a7962a",
+    "date": "2022-12-05T22:29:10.000Z"
   },
-  "usage": 0.9250900000000002,
+  "usage": 0.9251199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -136,8 +205,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3891000000000001,
-        "relative": 0.9935905620387632
+        "global": 0.38913,
+        "relative": 0.9936925434116446
       },
       "history": [
         {
@@ -148,8 +217,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3891000000000001,
-            "relative": 0.9935905620387632
+            "global": 0.38913,
+            "relative": 0.9936925434116446
           }
         }
       ]

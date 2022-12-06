@@ -4,12 +4,165 @@
     "FileSystemSyncAccessHandle"
   ],
   "type": "page",
-  "title": "api / FileSystemSyncAccessHandle",
+  "title": "FileSystemSyncAccessHandle",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/FileSystemSyncAccessHandle",
-    "spec": "https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle"
+    "spec": "https://fs.spec.whatwg.org/#api-filesystemsyncaccesshandle",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/filesystemsyncaccesshandle/index.md"
   },
-  "usage": 0.83379,
+  "content": {
+    "intro": {
+      "id": "00bf2da71cf75d440a59b301953d9a57",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FileSystemSyncAccessHandle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "File System Access API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents a synchronous handle to a file system entry. The synchronous nature of the file reads and writes allows for higher performance for critical methods in contexts where asynchronous operations come with high overhead, e.g., "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/WebAssembly"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebAssembly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "86a83c3de8896bd8f1b4f83558562190",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/File_System_Access_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "File System Access API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/file-system-access/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The File System Access API: simplifying access to local files"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "7bcdf1844b52996ccf5dd82283d958573408e07a",
+    "date": "2022-12-05T08:13:49.000Z"
+  },
+  "usage": 0.8337699999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -45,8 +198,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.36364,
-        "relative": 0.92857690048773
+        "global": 0.36361999999999994,
+        "relative": 0.9285495403472931
       },
       "history": [
         {
@@ -57,8 +210,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.36364,
-            "relative": 0.92857690048773
+            "global": 0.36361999999999994,
+            "relative": 0.9285495403472931
           }
         }
       ]

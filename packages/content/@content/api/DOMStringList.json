@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "5a5ac852e8537fdbbfc8457d4aeac498",
+      "id": "0774bc37ad58ff2f78412fe8e5b7f882",
       "tree": {
         "type": "root",
         "children": [
@@ -23,14 +23,34 @@
             "children": [
               {
                 "type": "text",
-                "value": "A type returned by some APIs which contains a list of "
+                "value": "The "
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/API/DOMString"
-                },
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DOMString"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is a legacy type returned by some APIs and represents a non-modifiable list of strings ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
                 "children": [
                   {
                     "type": "text",
@@ -40,7 +60,47 @@
               },
               {
                 "type": "text",
-                "value": " (strings)."
+                "value": "). Modern APIs use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Array"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " objects (in WebIDL: "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "sequence<DOMString>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") instead."
               }
             ]
           }
@@ -52,10 +112,10 @@
     }
   },
   "commit": {
-    "sha": "5f80944f03f785c729c12ac143cf88a1c12e72cd",
-    "date": "2022-10-10T08:12:11.000Z"
+    "sha": "eda156471aae2e12bee766b6799c3af4f61d8d6b",
+    "date": "2022-12-05T22:48:20.000Z"
   },
-  "usage": 0.9613400000000001,
+  "usage": 0.9613299999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -91,7 +151,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.39161000000000007,
+        "global": 0.39159999999999995,
         "relative": 1
       },
       "history": [
@@ -103,7 +163,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.39161000000000007,
+            "global": 0.39159999999999995,
             "relative": 1
           }
         }
