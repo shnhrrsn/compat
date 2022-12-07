@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "c3c2bc085fdfa02bb7e6417aa67a2e48",
+      "id": "3c12bc900fcf26dade056958ddae4dfe",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " pseudo-property lets you detect whether a\nfunction or constructor was called using the "
+                "value": " meta-property lets you detect whether a function or constructor was called using the "
               },
               {
                 "type": "element",
@@ -56,14 +56,21 @@
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "new"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "new"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " operator. In\nconstructors and functions invoked using the "
+                "value": " operator. In constructors and functions invoked using the "
               },
               {
                 "type": "element",
@@ -73,14 +80,21 @@
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "new"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "new"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " operator,\n"
+                "value": " operator, "
               },
               {
                 "type": "element",
@@ -95,7 +109,22 @@
               },
               {
                 "type": "text",
-                "value": " returns a reference to the constructor or function. In normal\nfunction calls, "
+                "value": " returns a reference to the constructor or function that "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "new"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " was called upon. In normal function calls, "
               },
               {
                 "type": "element",
@@ -279,8 +308,8 @@
     }
   },
   "commit": {
-    "sha": "9e52d335675a9f7daa34b5e24c9b1292dbf23b2e",
-    "date": "2022-10-31T06:22:03.000Z"
+    "sha": "636c0e17995b8c5a983d0940a6628a9ab436d54a",
+    "date": "2022-12-06T17:38:09.000Z"
   },
   "usage": 0.9527699999999999,
   "support": {
