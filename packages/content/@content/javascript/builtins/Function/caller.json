@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "8bc5dfd97b4ac3ce2dcbfcf1bcfadac6",
+      "id": "9be8d1e1d45111de16a1b436be0cc525",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,29 @@
             "children": [
               {
                 "type": "text",
-                "value": "A "
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "caller"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " accessor property of "
               },
               {
                 "type": "element",
@@ -49,29 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " object's "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "caller"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " property accessor property represents the function that invoked the specified function. For "
+                "value": " instances represents the function that invoked this function. For "
               },
               {
                 "type": "element",
@@ -88,7 +88,7 @@
               },
               {
                 "type": "text",
-                "value": ", async function, and generator function callers, accessing the "
+                "value": ", arrow, async, and generator functions, accessing the "
               },
               {
                 "type": "element",
@@ -103,7 +103,32 @@
               },
               {
                 "type": "text",
-                "value": " property throws an exception."
+                "value": " property throws a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypeError"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypeError"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -191,8 +216,8 @@
     }
   },
   "commit": {
-    "sha": "510396940bbdd630c0bd9ae8c8a3946be05d4390",
-    "date": "2022-11-08T00:45:32.000Z"
+    "sha": "6e5536c6a4d79157d1f4e69c427d07d8a6b92326",
+    "date": "2022-12-11T08:02:33.000Z"
   },
   "usage": 0.9620599999999999,
   "support": {
