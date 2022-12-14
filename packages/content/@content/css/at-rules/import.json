@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "62f9e63ed8cd8c38c6198c2402e16945",
+      "id": "76ca910d22f5a0af149f708e4dc777be",
       "tree": {
         "type": "root",
         "children": [
@@ -80,7 +80,71 @@
               },
               {
                 "type": "text",
-                "value": " is used to import style rules from other stylesheets."
+                "value": " is used to import style rules from other valid stylesheets. An "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@import"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " rule "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "must"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " be defined at the top of stylesheet, before any other at-rule (except "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/@charset"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@charset"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/@layer"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@layer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") and style declaration, else it will be ignored."
               }
             ]
           }
@@ -158,8 +222,8 @@
     }
   },
   "commit": {
-    "sha": "04fdfd797d0c50b36944b2ce7ab9f30dea59eca3",
-    "date": "2022-11-09T02:37:31.000Z"
+    "sha": "4d97aee4ab56beaf371e8b32b3cb2caaf170fe15",
+    "date": "2022-12-14T02:43:09.000Z"
   },
   "usage": 0.9620599999999999,
   "support": {
