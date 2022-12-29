@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "a248cc7f593d9f90c6a8446fd7004168",
+      "id": "c4dd18bf2607706300c1b130a131cac8",
       "tree": {
         "type": "root",
         "children": [
@@ -29,18 +29,25 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "__proto__"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "__proto__"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " property of "
+                "value": " accessor property of "
               },
               {
                 "type": "element",
@@ -55,16 +62,25 @@
               },
               {
                 "type": "text",
-                "value": " is an accessor property (a getter function and a setter function) that exposes the internal "
+                "value": " exposes the "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "[[Prototype]]"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "[[Prototype]]"
+                      }
+                    ]
                   }
                 ]
               },
@@ -85,7 +101,7 @@
               },
               {
                 "type": "text",
-                "value": ") of the object through which it is accessed."
+                "value": ") of this object."
               }
             ]
           }
@@ -215,8 +231,8 @@
     }
   },
   "commit": {
-    "sha": "c4e3558ee1045803df4a685f11f94dca273cd5fe",
-    "date": "2022-12-13T19:20:00.000Z"
+    "sha": "796967425baf955331b4f7f798008f5c66e85a03",
+    "date": "2022-12-28T06:29:44.000Z"
   },
   "usage": 0.9613599999999998,
   "support": {
