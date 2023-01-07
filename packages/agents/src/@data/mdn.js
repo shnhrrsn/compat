@@ -3455,6 +3455,20 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"94.0.0",
+				{
+					"date": 1671062400,
+					"usage": 0.13
+				}
+			],
+			[
+				"93.0.0",
+				{
+					"date": 1668643200,
+					"usage": 0.76
+				}
+			],
+			[
 				"92.0.0",
 				{
 					"date": 1666137600,
@@ -4613,10 +4627,17 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"16.2.0",
+				{
+					"date": 1670889600,
+					"usage": 0.14
+				}
+			],
+			[
 				"16.1.0",
 				{
 					"date": 1666569600,
-					"usage": 0.78
+					"usage": 0.64
 				}
 			],
 			[
@@ -4856,10 +4877,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"16.2.0",
+				{
+					"date": 1670889600,
+					"usage": 0.759
+				}
+			],
+			[
 				"16.1.0",
 				{
 					"date": 1666569600,
-					"usage": 7.526000000000001
+					"usage": 6.767
 				}
 			],
 			[
