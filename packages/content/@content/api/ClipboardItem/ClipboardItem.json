@@ -260,29 +260,47 @@
     "sha": "3a8ddeac2f0957b775b1c6c237f565b266c274c0",
     "date": "2022-09-22T21:37:38.000Z"
   },
-  "usage": 0.19127000000000002,
+  "usage": 0.8553600000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "98.0.0",
+        "date": 1643673600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.21930000000000002,
+        "relative": 0.9343843204090324
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "98.0.0",
+            "date": 1643673600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.21930000000000002,
+            "relative": 0.9343843204090324
+          }
+        },
         {
           "notes": [
             "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
           ],
           "added": {
-            "version": "66.0.0",
-            "date": 1523923200
+            "version": "76.0.0",
+            "date": 1564444800
           },
-          "removed": null,
+          "removed": {
+            "version": "98.0.0",
+            "date": 1643673600
+          },
           "usage": {
-            "global": 0.23260000000000008,
-            "relative": 0.9910524073285043
+            "global": 0.011399999999999999,
+            "relative": 0.04857264593097568
           },
           "partial_implementation": true
         }
@@ -290,25 +308,43 @@
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "98.0.0",
+        "date": 1643673600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.3685900000000001,
+        "relative": 0.9397771601947934
       },
       "history": [
         {
-          "notes": [
-            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data. Full implementation would also allow for a string or a Promise which resolves with either a string or blob. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
-          ],
+          "notes": null,
           "added": {
-            "version": "66.0.0",
-            "date": 1523923200
+            "version": "98.0.0",
+            "date": 1643673600
           },
           "removed": null,
           "usage": {
-            "global": 0.3903900000000002,
-            "relative": 0.9953596287703016
+            "global": 0.3685900000000001,
+            "relative": 0.9397771601947934
+          }
+        },
+        {
+          "notes": [
+            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
+          ],
+          "added": {
+            "version": "84.0.0",
+            "date": 1595808000
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1643673600
+          },
+          "usage": {
+            "global": 0.015349999999999997,
+            "relative": 0.03913719690981869
           },
           "partial_implementation": true
         }
@@ -316,13 +352,28 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "98.0.0",
+        "date": 1643846400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.041499999999999995,
+        "relative": 0.9952038369304558
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "98.0.0",
+            "date": 1643846400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.041499999999999995,
+            "relative": 0.9952038369304558
+          }
+        },
         {
           "notes": [
             "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
@@ -331,10 +382,13 @@
             "version": "79.0.0",
             "date": 1579046400
           },
-          "removed": null,
+          "removed": {
+            "version": "98.0.0",
+            "date": 1643846400
+          },
           "usage": {
-            "global": 0.041499999999999995,
-            "relative": 0.9952038369304558
+            "global": null,
+            "relative": null
           },
           "partial_implementation": true
         }
@@ -412,7 +466,10 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": null,
+      "added": {
+        "version": "20.0.0",
+        "date": 1647216000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -420,14 +477,29 @@
       },
       "history": [
         {
-          "notes": [
-            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data. Full implementation would also allow for a string or a Promise which resolves with either a string or blob. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
-          ],
+          "notes": null,
           "added": {
-            "version": "5.0.0",
-            "date": null
+            "version": "20.0.0",
+            "date": 1647216000
           },
           "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": null
+          },
+          "removed": {
+            "version": "20.0.0",
+            "date": 1647216000
+          },
           "usage": {
             "global": null,
             "relative": null
@@ -438,25 +510,43 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "84.0.0",
+        "date": 1644969600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.011000000000000001,
+        "relative": 0.582010582010582
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1644969600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.011000000000000001,
+            "relative": 0.582010582010582
+          }
+        },
         {
           "notes": [
             "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
           ],
           "added": {
-            "version": "53.0.0",
-            "date": 1525910400
+            "version": "63.0.0",
+            "date": 1566259200
           },
-          "removed": null,
+          "removed": {
+            "version": "84.0.0",
+            "date": 1644969600
+          },
           "usage": {
-            "global": 0.018800000000000004,
-            "relative": 0.9947089947089947
+            "global": 0.0075000000000000015,
+            "relative": 0.3968253968253968
           },
           "partial_implementation": true
         }
@@ -464,7 +554,10 @@
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "68.0.0",
+        "date": 1648598400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -472,14 +565,29 @@
       },
       "history": [
         {
-          "notes": [
-            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data. Full implementation would also allow for a string or a Promise which resolves with either a string or blob. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
-          ],
+          "notes": null,
           "added": {
-            "version": "47.0.0",
-            "date": 1532304000
+            "version": "68.0.0",
+            "date": 1648598400
           },
           "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
+          ],
+          "added": {
+            "version": "60.0.0",
+            "date": 1600819200
+          },
+          "removed": {
+            "version": "68.0.0",
+            "date": 1648598400
+          },
           "usage": {
             "global": null,
             "relative": null
@@ -542,25 +650,43 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "18.0.0",
+        "date": 1659916800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.023700000000000002,
+        "relative": 0.7953020134228191
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1659916800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.023700000000000002,
+            "relative": 0.7953020134228191
+          }
+        },
         {
           "notes": [
             "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
           ],
           "added": {
-            "version": "9.0.0",
-            "date": 1536969600
+            "version": "14.0.0",
+            "date": 1618617600
           },
-          "removed": null,
+          "removed": {
+            "version": "18.0.0",
+            "date": 1659916800
+          },
           "usage": {
-            "global": 0.027799999999999995,
-            "relative": 0.9328859060402687
+            "global": 0.005600000000000001,
+            "relative": 0.1879194630872484
           },
           "partial_implementation": true
         }
@@ -568,7 +694,10 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "98.0.0",
+        "date": 1643673600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -576,14 +705,29 @@
       },
       "history": [
         {
-          "notes": [
-            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data. Full implementation would also allow for a string or a Promise which resolves with either a string or blob. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
-          ],
+          "notes": null,
           "added": {
-            "version": "66.0.0",
-            "date": 1492387200
+            "version": "98.0.0",
+            "date": 1643673600
           },
           "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The <code>ClipboardItem</code> constructor only accepts a blob as the item data, but not strings or Promises that resolve to strings or blobs. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1014310'>bug 1014310</a>."
+          ],
+          "added": {
+            "version": "84.0.0",
+            "date": 1595808000
+          },
+          "removed": {
+            "version": "98.0.0",
+            "date": 1643673600
+          },
           "usage": {
             "global": null,
             "relative": null

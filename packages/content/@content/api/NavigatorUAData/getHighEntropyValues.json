@@ -5,11 +5,534 @@
     "getHighEntropyValues"
   ],
   "type": "page",
-  "title": "NavigatorUAData / getHighEntropyValues",
+  "title": "NavigatorUAData.getHighEntropyValues()",
   "links": {
-    "spec": "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-gethighentropyvalues"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/NavigatorUAData/getHighEntropyValues",
+    "spec": "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-gethighentropyvalues",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigatoruadata/gethighentropyvalues/index.md"
   },
-  "usage": 0.6808100000000001,
+  "content": {
+    "intro": {
+      "id": "1e9707a3c328b034d98cf32c774843a6",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getHighEntropyValues()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/NavigatorUAData"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NavigatorUAData"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that resolves with a dictionary object containing the "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "high entropy"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " values the user-agent returns."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3f3ef1002174aedbd3bd0258f52671fb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "These values are also available as via HTTP request headers:\n"
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "ul",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "href": "/en-US/docs/Web/HTTP/Client_hints#low_entropy_hints"
+                            },
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Low-entropy client hints"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": ") are sent automatically:\n"
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "ul",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Mobile"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Mobile"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Platform"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Platform"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": "\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Servers can request to receive high-entropy client hints on subsequent requests, using the "
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/http/headers/Accept-CH"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "Accept-CH"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": " header:\n"
+                          },
+                          {
+                            "type": "element",
+                            "tagName": "ul",
+                            "properties": {},
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Arch"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Arch"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Bitness"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Bitness"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Full-Version"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Full-Version"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Model"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Model"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              },
+                              {
+                                "type": "element",
+                                "tagName": "li",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "element",
+                                    "tagName": "a",
+                                    "properties": {
+                                      "internal": "",
+                                      "href": "/http/headers/Sec-CH-UA-Platform-Version"
+                                    },
+                                    "children": [
+                                      {
+                                        "type": "element",
+                                        "tagName": "code",
+                                        "properties": {},
+                                        "children": [
+                                          {
+                                            "type": "text",
+                                            "value": "Sec-CH-UA-Platform-Version"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "text",
+                                "value": "\n"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "value": "\n"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "b7556b71e1fc3e89057671b372871e9f33d3f0b8",
+    "date": "2022-09-13T05:54:54.000Z"
+  },
+  "usage": 0.6545100000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -269,26 +792,20 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": {
-        "version": "15.0.0",
-        "date": 1628812800
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.0263,
-        "relative": 0.8825503355704701
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": null,
-          "added": {
-            "version": "15.0.0",
-            "date": 1628812800
-          },
+          "added": null,
           "removed": null,
           "usage": {
-            "global": 0.0263,
-            "relative": 0.8825503355704701
+            "global": null,
+            "relative": null
           }
         }
       ]

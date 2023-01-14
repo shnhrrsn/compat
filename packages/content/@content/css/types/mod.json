@@ -8,7 +8,7 @@
   "title": "types / mod",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/CSS/mod",
-    "spec": "https://w3c.github.io/csswg-drafts/css-values/#exponent-funcs"
+    "spec": "https://w3c.github.io/csswg-drafts/css-values/#funcdef-mod"
   },
   "usage": 0.16752999999999998,
   "support": {
@@ -83,12 +83,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "109.0.0",
+            "date": 1673913600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0001,
+            "relative": 0.003610108303249098
+          },
+          "flags": [
+            {
+              "name": "layout.css.mod-rem.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

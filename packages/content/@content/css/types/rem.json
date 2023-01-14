@@ -8,7 +8,7 @@
   "title": "rem()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/CSS/rem",
-    "spec": "https://w3c.github.io/csswg-drafts/css-values/#exponent-funcs",
+    "spec": "https://w3c.github.io/csswg-drafts/css-values/#funcdef-rem",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/rem/index.md"
   },
   "content": {
@@ -286,12 +286,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "109.0.0",
+            "date": 1673913600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
-          }
+            "global": 0.0001,
+            "relative": 0.003610108303249098
+          },
+          "flags": [
+            {
+              "name": "layout.css.mod-rem.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
