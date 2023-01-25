@@ -11,7 +11,7 @@
     "mdn": "https://developer.mozilla.org/docs/Web/CSS/image-set()",
     "spec": "https://w3c.github.io/csswg-drafts/css-images-4/#image-set-notation"
   },
-  "usage": 0,
+  "usage": 0.0256,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -87,29 +87,51 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "88.0.0",
+        "date": 1618790400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0256,
+        "relative": 0.9241877256317691
       },
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1107646'>bug 1107646</a>."
+            "Before Firefox 89, the <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
           ],
-          "added": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1618790400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0256,
+            "relative": 0.9241877256317691
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0256,
+            "relative": 0.9241877256317691
+          },
+          "prefix": "-webkit-"
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "88.0.0",
+        "date": 1618790400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -118,14 +140,30 @@
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1107646'>bug 1107646</a>."
+            "Before Firefox 89, the <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
           ],
-          "added": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1618790400
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "90.0.0",
+            "date": 1626134400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-"
         }
       ]
     },
