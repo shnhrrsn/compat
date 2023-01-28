@@ -4230,6 +4230,13 @@ const mdn = {
 		name: 'Opera Android',
 		versions: new Map([
 			[
+				"73.0.0",
+				{
+					"date": 1673913600,
+					"usage": null
+				}
+			],
+			[
 				"72.0.0",
 				{
 					"date": 1666310400,
@@ -4648,6 +4655,13 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"16.3.0",
+				{
+					"date": 1674432000,
+					"usage": null
+				}
+			],
+			[
 				"16.2.0",
 				{
 					"date": 1670889600,
@@ -4898,10 +4912,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"16.3.0",
+				{
+					"date": 1674432000,
+					"usage": 0.017
+				}
+			],
+			[
 				"16.2.0",
 				{
 					"date": 1670889600,
-					"usage": 0.759
+					"usage": 0.742
 				}
 			],
 			[
