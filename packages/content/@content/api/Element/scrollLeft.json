@@ -171,20 +171,32 @@
     "sha": "1511e914c6b1ce6f88056bfefd48a6aa585cebce",
     "date": "2022-09-09T05:10:34.000Z"
   },
-  "usage": 0.9483800000000002,
+  "usage": 0.9272100000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "1.0.0",
-        "date": 1228953600
+        "version": "86.0.0",
+        "date": 1603152000
       },
       "removed": null,
       "usage": {
-        "global": 0.23480000000000012,
-        "relative": 1
+        "global": 0.225,
+        "relative": 0.9582623509369672
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.225,
+            "relative": 0.9582623509369672
+          }
+        },
         {
           "notes": [
             "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
@@ -193,10 +205,13 @@
             "version": "1.0.0",
             "date": 1228953600
           },
-          "removed": null,
+          "removed": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
           "usage": {
-            "global": 0.23480000000000012,
-            "relative": 1
+            "global": 0.010500000000000002,
+            "relative": 0.044718909710391816
           }
         }
       ]
@@ -204,15 +219,27 @@
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "18.0.0",
-        "date": 1340755200
+        "version": "86.0.0",
+        "date": 1603152000
       },
       "removed": null,
       "usage": {
-        "global": 0.39221000000000017,
-        "relative": 1
+        "global": 0.3839400000000001,
+        "relative": 0.9789143571046122
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3839400000000001,
+            "relative": 0.9789143571046122
+          }
+        },
         {
           "notes": [
             "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
@@ -221,10 +248,13 @@
             "version": "18.0.0",
             "date": 1340755200
           },
-          "removed": null,
+          "removed": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
           "usage": {
-            "global": 0.39221000000000017,
-            "relative": 1
+            "global": 0.00827,
+            "relative": 0.021085642895387665
           }
         }
       ]
@@ -232,28 +262,42 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "12.0.0",
-        "date": 1438041600
+        "version": "86.0.0",
+        "date": 1602201600
       },
       "removed": null,
       "usage": {
-        "global": 0.04169999999999999,
-        "relative": 1
+        "global": 0.041499999999999995,
+        "relative": 0.9952038369304558
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1602201600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.041499999999999995,
+            "relative": 0.9952038369304558
+          }
+        },
+        {
           "notes": [
-            "From Edge 79, for right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>.",
-            "Before Edge 79, for right-to-left elements, this property uses 100-0 (most left to most right) instead of negative values."
+            "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
           ],
           "added": {
             "version": "12.0.0",
             "date": 1438041600
           },
-          "removed": null,
+          "removed": {
+            "version": "86.0.0",
+            "date": 1602201600
+          },
           "usage": {
-            "global": 0.04169999999999999,
-            "relative": 1
+            "global": 0.0002,
+            "relative": 0.004796163069544366
           }
         }
       ]
@@ -341,7 +385,7 @@
     "oculus": {
       "name": "Quest Browser",
       "added": {
-        "version": "5.0.0",
+        "version": "12.0.0",
         "date": null
       },
       "removed": null,
@@ -351,6 +395,18 @@
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
           "notes": [
             "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
           ],
@@ -358,7 +414,10 @@
             "version": "5.0.0",
             "date": null
           },
-          "removed": null,
+          "removed": {
+            "version": "12.0.0",
+            "date": null
+          },
           "usage": {
             "global": null,
             "relative": null
@@ -473,15 +532,27 @@
     "samsunginternet_android": {
       "name": "Samsung Internet",
       "added": {
-        "version": "1.0.0",
-        "date": 1367020800
+        "version": "14.0.0",
+        "date": 1618617600
       },
       "removed": null,
       "usage": {
-        "global": 0.029799999999999986,
-        "relative": 1
+        "global": 0.0269,
+        "relative": 0.9026845637583897
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1618617600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0269,
+            "relative": 0.9026845637583897
+          }
+        },
         {
           "notes": [
             "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
@@ -490,10 +561,13 @@
             "version": "1.0.0",
             "date": 1367020800
           },
-          "removed": null,
+          "removed": {
+            "version": "14.0.0",
+            "date": 1618617600
+          },
           "usage": {
-            "global": 0.029799999999999986,
-            "relative": 1
+            "global": 0.0031,
+            "relative": 0.10402684563758394
           }
         }
       ]
@@ -501,8 +575,8 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "4.4.0",
-        "date": 1386547200
+        "version": "86.0.0",
+        "date": 1603152000
       },
       "removed": null,
       "usage": {
@@ -511,6 +585,18 @@
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
           "notes": [
             "For right-to-left elements, this property uses 0-100 (most left to most right) instead of negative values. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/721759'>bug 721759</a>."
           ],
@@ -518,7 +604,10 @@
             "version": "4.4.0",
             "date": 1386547200
           },
-          "removed": null,
+          "removed": {
+            "version": "86.0.0",
+            "date": 1603152000
+          },
           "usage": {
             "global": null,
             "relative": null

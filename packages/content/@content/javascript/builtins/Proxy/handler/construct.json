@@ -15,7 +15,7 @@
   },
   "content": {
     "intro": {
-      "id": "132bd2cd34c4647b4a5ea120e8c3fef2",
+      "id": "1f23a4c9f58e9b2b329483d9460ce15c",
       "tree": {
         "type": "root",
         "children": [
@@ -57,28 +57,30 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "new"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " operator. In order for the new operation to be valid on the resulting Proxy object, the target used to initialize the proxy must itself have a "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
                     "value": "[[Construct]]"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " internal method (i.e. "
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#object_internal_methods"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "object internal method"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", which is used by operations such as the "
               },
               {
                 "type": "element",
@@ -87,13 +89,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "new target"
+                    "value": "new"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " must be valid)."
+                "value": " operator. In order for the new operation to be valid on the resulting Proxy object, the target used to initialize the proxy must itself be a valid constructor."
               }
             ]
           }
@@ -252,8 +254,8 @@
     }
   },
   "commit": {
-    "sha": "2eb202adbe3d83292500ed46344d63fbbae410b5",
-    "date": "2022-12-13T19:22:57.000Z"
+    "sha": "cc6be24b96537a2bc60e0829ee95cea315dedf6f",
+    "date": "2023-01-31T21:32:21.000Z"
   },
   "usage": 0.9403700000000004,
   "support": {
