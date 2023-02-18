@@ -5,9 +5,248 @@
     "async_iterable"
   ],
   "type": "page",
-  "title": "ReadableStream / async_iterable",
+  "title": "ReadableStream",
   "links": {
-    "spec": "https://streams.spec.whatwg.org/#rs-asynciterator"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ReadableStream#async_iteration",
+    "spec": "https://streams.spec.whatwg.org/#rs-asynciterator",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/readablestream/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "474575d454a29f614073d8f19fa8c698",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ReadableStream"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Streams_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Streams API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents a readable stream of byte data. The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Fetch_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Fetch API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " offers a concrete instance of a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ReadableStream"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " through the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Response/body"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "body"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Response"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Response"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "c589b1109d1cfbabc1f054981e9dae6f",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://whatwg-stream-visualizer.glitch.me/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WHATWG Stream Visualizer"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", for a basic visualization of readable, writable, and transform streams."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/MattiasBuelens/web-streams-polyfill"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "web-streams-polyfill"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " or "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/stardazed/sd-streams"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "sd-streams"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " - polyfills"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "14594e2a3b1e5f54f61b67cdfceaec40e4e1ae52",
+    "date": "2023-02-16T20:55:49.000Z"
   },
   "usage": 0.0001,
   "support": {
@@ -53,7 +292,10 @@
     },
     "deno": {
       "name": "Deno",
-      "added": null,
+      "added": {
+        "version": "1.0.0",
+        "date": 1588623707
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -62,7 +304,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1588623707
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -165,7 +410,10 @@
     },
     "nodejs": {
       "name": "Node.js",
-      "added": null,
+      "added": {
+        "version": "16.5.0",
+        "date": 1626220800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -174,7 +422,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "16.5.0",
+            "date": 1626220800
+          },
           "removed": null,
           "usage": {
             "global": null,

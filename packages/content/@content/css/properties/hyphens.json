@@ -239,21 +239,22 @@
     "sha": "fb2af1f15456199685a9f4fbaf8c9d003a2bf91f",
     "date": "2022-09-27T02:27:51.000Z"
   },
-  "usage": 0.4402299999999999,
+  "usage": 0.7473299999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "55.0.0",
+        "date": 1480550400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.24330000000000002,
+        "relative": 0.9963144963144962
       },
       "history": [
         {
-          "notes": [
-            "<code>auto</code> value is only supported on macOS and Android and for languages the OS provides hyphenation for."
-          ],
+          "notes": null,
           "added": {
             "version": "55.0.0",
             "date": 1480550400
@@ -262,13 +263,10 @@
           "usage": {
             "global": 0.24330000000000002,
             "relative": 0.9963144963144962
-          },
-          "partial_implementation": true
+          }
         },
         {
-          "notes": [
-            "Only <code>-webkit-hyphens: none</code> is supported."
-          ],
+          "notes": null,
           "added": {
             "version": "13.0.0",
             "date": 1312243200
@@ -323,17 +321,18 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.04349999999999999,
+        "relative": 0.9954233409610985
       },
       "history": [
         {
-          "notes": [
-            "<code>auto</code> value is only supported on macOS and Android and for languages the OS provides hyphenation for."
-          ],
+          "notes": null,
           "added": {
             "version": "79.0.0",
             "date": 1579046400
@@ -342,13 +341,10 @@
           "usage": {
             "global": 0.04349999999999999,
             "relative": 0.9954233409610985
-          },
-          "partial_implementation": true
+          }
         },
         {
-          "notes": [
-            "Only <code>-webkit-hyphens: none</code> is supported."
-          ],
+          "notes": null,
           "added": {
             "version": "79.0.0",
             "date": 1579046400
@@ -406,9 +402,7 @@
           }
         },
         {
-          "notes": [
-            "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Firefox."
-          ],
+          "notes": null,
           "added": {
             "version": "6.0.0",
             "date": 1313452800
@@ -447,9 +441,7 @@
           }
         },
         {
-          "notes": [
-            "Automatic hyphenation only works for languages with hyphenation dictionaries that are integrated into Firefox."
-          ],
+          "notes": null,
           "added": {
             "version": "6.0.0",
             "date": 1313452800
@@ -531,35 +523,48 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "42.0.0",
+        "date": 1481587200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0203,
+        "relative": 1
       },
       "history": [
         {
-          "notes": [
-            "<code>auto</code> value is only supported on macOS and Android."
-          ],
+          "notes": null,
           "added": {
-            "version": "44.0.0",
-            "date": 1490054400
+            "version": "42.0.0",
+            "date": 1481587200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0203,
+            "relative": 1
+          }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
           },
           "removed": null,
           "usage": {
             "global": 0.0203,
             "relative": 1
           },
-          "partial_implementation": true
+          "prefix": "-webkit-"
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "43.0.0",
-        "date": 1506470400
+        "version": "42.0.0",
+        "date": 1484956800
       },
       "removed": null,
       "usage": {
@@ -570,14 +575,27 @@
         {
           "notes": null,
           "added": {
-            "version": "43.0.0",
-            "date": 1506470400
+            "version": "42.0.0",
+            "date": 1484956800
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1369094400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-"
         }
       ]
     },
@@ -695,8 +713,8 @@
         {
           "notes": null,
           "added": {
-            "version": "4.0.0",
-            "date": 1318896000
+            "version": "4.4.0",
+            "date": 1386547200
           },
           "removed": null,
           "usage": {

@@ -6,15 +6,15 @@
     "transparent"
   ],
   "type": "page",
-  "title": "<color>",
+  "title": "<named-color>",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/CSS/color_value#transparent",
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/named-color#transparent",
     "spec": "https://w3c.github.io/csswg-drafts/css-color/#transparent-color",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/color_value/index.md"
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/named-color/index.md"
   },
   "content": {
     "intro": {
-      "id": "99274d7a319998b48691ecd240307a5c",
+      "id": "ae29a4a687303404b79662fd3537e9f1",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "<color>"
+                        "value": "<named-color>"
                       }
                     ]
                   }
@@ -81,7 +81,7 @@
               },
               {
                 "type": "text",
-                "value": " represents a color.\nA "
+                "value": " is the name of a color, such as "
               },
               {
                 "type": "element",
@@ -90,62 +90,97 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "<color>"
+                    "value": "red"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " may also include an "
+                "value": ", "
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "https://en.wikipedia.org/wiki/Alpha_compositing"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "alpha-channel"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
+                "tagName": "code",
                 "properties": {},
                 "children": [
                   {
                     "type": "text",
-                    "value": "transparency value"
+                    "value": "blue"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ", indicating how the color should "
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "black"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "lightseagreen"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". Syntactically, a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<named-color>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is an "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "https://www.w3.org/TR/compositing-1/#simplealphacompositing"
+                  "href": "/en-US/docs/Web/CSS/ident"
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "composite"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<ident>"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " with its background."
+                "value": "."
               }
             ]
           }
@@ -156,7 +191,7 @@
       }
     },
     "seeAlso": {
-      "id": "45a23a3abebee162a7d179960b322d8e",
+      "id": "007d72e2bbc2279bfa23cf0f2bd67eb3",
       "tree": {
         "type": "root",
         "children": [
@@ -175,15 +210,10 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "The "
-                  },
-                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/css/properties/opacity"
+                      "href": "/en-US/docs/Web/CSS/color_value"
                     },
                     "children": [
                       {
@@ -193,7 +223,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "opacity"
+                            "value": "<color>"
                           }
                         ]
                       }
@@ -201,192 +231,22 @@
                   },
                   {
                     "type": "text",
-                    "value": " property lets you define transparency at the element level."
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Some common properties that use this data type: "
+                    "value": ": the data type of whose definition "
                   },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/color"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "color"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/background-color"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "background-color"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/border-color"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "border-color"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/box-shadow"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "box-shadow"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/outline-color"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "outline-color"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": ", "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/text-shadow"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "text-shadow"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/CSS/CSS_Colors/Applying_color"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "Applying color to HTML elements using CSS"
+                        "value": "<named-color>"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a constituent part."
                   }
                 ]
               },
@@ -404,8 +264,8 @@
     }
   },
   "commit": {
-    "sha": "525d9dfa281b387b8647c003cf530d9fb8907f19",
-    "date": "2023-02-03T05:45:43.000Z"
+    "sha": "7c13b9a69c383a34387bc6dae9bde417e649d758",
+    "date": "2022-10-05T10:20:59.000Z"
   },
   "usage": 0.95813,
   "support": {

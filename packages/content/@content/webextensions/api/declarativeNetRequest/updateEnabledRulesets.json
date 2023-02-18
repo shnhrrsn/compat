@@ -1,0 +1,273 @@
+{
+  "self": [
+    "webextensions",
+    "api",
+    "declarativeNetRequest",
+    "updateEnabledRulesets"
+  ],
+  "type": "page",
+  "title": "declarativeNetRequest.updateEnabledRulesets",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateEnabledRulesets",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/declarativenetrequest/updateenabledrulesets/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "c1390863da5f96dbd355f2455903e301",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Updates the extension's set of static rulesets. The rulesets with IDs listed in "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "options.disableRulesetIds"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " are first deactivated, and then the rulesets listed in "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "options.enableRulesetIds"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " are activated. Note that the set of enabled static rulesets persists across sessions but not across extension updates, i.e. the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/docs/Mozilla/Add-ons/WebExtensions/manifest.json/declarative_net_request"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "declarative_net_request.rule_resources"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " manifest key"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " determines the set of enabled static rulesets on each extension update."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "ef4f820ec966b88c48204151b661a530068c90a7",
+    "date": "2023-02-14T22:17:15.000Z"
+  },
+  "usage": 0.4759799999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "84.0.0",
+        "date": 1595808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2357999999999999,
+        "relative": 0.965601965601965
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1595808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2357999999999999,
+            "relative": 0.965601965601965
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594857600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04349999999999999,
+        "relative": 0.9954233409610985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594857600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04349999999999999,
+            "relative": 0.9954233409610985
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "70.0.0",
+        "date": 1595808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0165,
+        "relative": 0.8128078817733991
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "70.0.0",
+            "date": 1595808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0165,
+            "relative": 0.8128078817733991
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0297,
+        "relative": 0.8250000000000001
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0297,
+            "relative": 0.8250000000000001
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.15048,
+        "relative": 0.8896771904930826
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.15048,
+            "relative": 0.8896771904930826
+          }
+        }
+      ]
+    }
+  }
+}

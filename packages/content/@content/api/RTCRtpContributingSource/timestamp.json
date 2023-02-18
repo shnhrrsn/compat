@@ -101,7 +101,7 @@
     "sha": "e0e09b1df51489867f2e74c18586d168ba5e00d1",
     "date": "2022-09-09T05:18:40.000Z"
   },
-  "usage": 0.89956,
+  "usage": 0.92676,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -183,11 +183,14 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "59.0.0",
+        "date": 1520899200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.027199999999999988,
+        "relative": 0.9714285714285715
       },
       "history": [
         {
@@ -202,20 +205,16 @@
           "usage": {
             "global": 0.027199999999999988,
             "relative": 0.9714285714285715
-          },
-          "flags": [
-            {
-              "name": "media.peerconnection.rtpsourcesapi.enable",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+          }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "59.0.0",
+        "date": 1520899200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -223,8 +222,13 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Starting in version 60, the <code>timestamp</code> is correctly computed based on the window's <code>Performance</code> time, rather than <code>Date.getTime()</code>."
+          ],
+          "added": {
+            "version": "59.0.0",
+            "date": 1520899200
+          },
           "removed": null,
           "usage": {
             "global": null,
