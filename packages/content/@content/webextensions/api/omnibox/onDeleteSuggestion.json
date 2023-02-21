@@ -6,9 +6,74 @@
     "onDeleteSuggestion"
   ],
   "type": "page",
-  "title": "omnibox / onDeleteSuggestion",
+  "title": "omnibox.onDeleteSuggestion",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion"
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onDeleteSuggestion",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/omnibox/ondeletesuggestion/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "975b09c2aec8552b0740ce2e748bebf9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Fired whenever the user deletes a suggestion.\nA suggestion can be deleted when "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/webextensions/api/omnibox/SuggestResult"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SuggestResult"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": ".deletable"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is set to true."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "c9309ae500bb6b94f7607aa9e9921e99536ee93d",
+    "date": "2023-02-19T22:38:45.000Z"
   },
   "usage": 0.3143,
   "support": {

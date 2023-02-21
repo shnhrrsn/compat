@@ -122,7 +122,7 @@
       }
     },
     "seeAlso": {
-      "id": "48be4802f052151808effe4581431234",
+      "id": "c9b46fb8d076c03bcf4f429af70fcc4e",
       "tree": {
         "type": "root",
         "children": [
@@ -142,18 +142,43 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/CredentialsContainer/create"
+                    },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "PublicKeyCredentialCreationOptions.challenge"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CredentialsContainer.create()"
+                          }
+                        ]
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ": the cryptographic\nchallenge which signature by the authenticator is contained in "
+                    "value": ": the method used to create a statement with\na cryptographic "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "challenge"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " which signature by the authenticator is contained in "
                   },
                   {
                     "type": "element",
@@ -165,18 +190,11 @@
                         "value": "attStmt"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
+                  {
+                    "type": "text",
+                    "value": ",\nwith the specified "
+                  },
                   {
                     "type": "element",
                     "tagName": "code",
@@ -184,13 +202,13 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "PublicKeyCredentialCreationOptions.attestation"
+                        "value": "attestation"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ": the attestation\nstatement transport option specified for the creation"
+                    "value": " transport option."
                   }
                 ]
               },
@@ -208,8 +226,8 @@
     }
   },
   "commit": {
-    "sha": "bca8d1ab2bc4f5a1ef6b39c454b0229539178e98",
-    "date": "2023-02-18T07:09:59.000Z"
+    "sha": "c05df137bd9ea1148b03f2f158b5e5fb77d08beb",
+    "date": "2023-02-21T03:54:13.000Z"
   },
   "usage": 0.9417099999999999,
   "support": {
