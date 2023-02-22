@@ -212,10 +212,10 @@
     }
   },
   "commit": {
-    "sha": "bd20b8841390173e272a4885a2d2b8613f287eb9",
-    "date": "2023-02-17T11:10:00.000Z"
+    "sha": "3de6b951c2d3b03c7c4a8d8e92e35ebcb4639af2",
+    "date": "2023-02-22T02:07:33.000Z"
   },
-  "usage": 0.7094099999999998,
+  "usage": 0.7010099999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -297,36 +297,7 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": {
-        "version": "109.0.0",
-        "date": 1673913600
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.0084,
-        "relative": 0.30000000000000016
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "109.0.0",
-            "date": 1673913600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.0084,
-            "relative": 0.30000000000000016
-          }
-        }
-      ]
-    },
-    "firefox_android": {
-      "name": "Firefox for Android",
-      "added": {
-        "version": "109.0.0",
-        "date": 1673913600
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -339,6 +310,33 @@
             "version": "109.0.0",
             "date": 1673913600
           },
+          "removed": null,
+          "usage": {
+            "global": 0.0084,
+            "relative": 0.30000000000000016
+          },
+          "flags": [
+            {
+              "name": "layout.css.content-visibility.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
           "removed": null,
           "usage": {
             "global": null,
@@ -540,7 +538,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": false,
+    "experimental": true,
     "standard_track": true
   }
 }
