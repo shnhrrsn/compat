@@ -5176,6 +5176,13 @@ const mdn = {
 		name: 'Samsung Internet',
 		versions: new Map([
 			[
+				"20.0.0",
+				{
+					"date": 1675987200,
+					"usage": null
+				}
+			],
+			[
 				"19.1.0",
 				{
 					"date": 1667865600,
