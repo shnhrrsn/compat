@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "30d5b5c4b9c97a9890989059b8ce607a",
+      "id": "2c8b070c2df218cf78b3f68c60121a52",
       "tree": {
         "type": "root",
         "children": [
@@ -54,7 +54,22 @@
               },
               {
                 "type": "text",
-                "value": " storage are stored in memory and are not persisted to disk."
+                "value": " storage are stored in memory for the duration of the browser session and are not persisted to disk.\nBy default, it's not exposed to content scripts, but this behavior can be changed through "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "storage.session.setAccessLevel()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -66,8 +81,8 @@
     }
   },
   "commit": {
-    "sha": "3180c7120ebb4e2c686a0ee411bca53907e9afca",
-    "date": "2023-02-25T01:20:35.000Z"
+    "sha": "51ed0c797f7bbe51877807ebc36064deb865c8c0",
+    "date": "2023-02-27T17:39:34.000Z"
   },
   "usage": 0.27859999999999996,
   "support": {
