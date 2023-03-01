@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "48a34651416918655895b4b1f2d8f4b5",
+      "id": "f14545f7c3fe8b076d449b7b9d2a58c0",
       "tree": {
         "type": "root",
         "children": [
@@ -64,7 +64,54 @@
               },
               {
                 "type": "text",
-                "value": " returns whether all\nfonts in the given font list have been loaded and are available."
+                "value": " returns "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if you can render some text using the given font specification without attempting to use any fonts in this "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "FontFaceSet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that are not yet fully loaded. This means you can use the font specification without causing a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/@font-face/font-display#the_font_display_timeline"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "font swap"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -76,8 +123,8 @@
     }
   },
   "commit": {
-    "sha": "c88a329069328522a5c20c054f9dbced9967dbd4",
-    "date": "2023-02-20T08:12:58.000Z"
+    "sha": "0b6a31de79817ec265c9d64a4d0649940ea8270c",
+    "date": "2023-02-28T06:47:36.000Z"
   },
   "usage": 0.23158,
   "support": {
