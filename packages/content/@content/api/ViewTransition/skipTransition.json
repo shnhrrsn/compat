@@ -5,12 +5,159 @@
     "skipTransition"
   ],
   "type": "page",
-  "title": "ViewTransition / skipTransition",
+  "title": "ViewTransition.skipTransition()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/ViewTransition/skipTransition",
-    "spec": "https://w3c.github.io/csswg-drafts/css-view-transitions-1/#dom-viewtransition-skiptransition"
+    "spec": "https://w3c.github.io/csswg-drafts/css-view-transitions-1/#dom-viewtransition-skiptransition",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/viewtransition/skiptransition/index.md"
   },
-  "usage": 0.0002,
+  "content": {
+    "intro": {
+      "id": "1a2954ed42a846f32cc674fca3065045",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "skipTransition()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ViewTransition"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ViewTransition"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface skips the animation part of the view transition, but doesn't skip running the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Document/startViewTransition"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "document.startViewTransition()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " callback that updates the DOM."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "b629b1002ebe3ca3405bb933dc5cf07c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/docs/web-platform/view-transitions/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Smooth and simple transitions with the View Transitions API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "ce0dbf2e1aefa02e7b2a2c25dfcf2e1eb212ae77",
+    "date": "2023-03-01T10:10:31.000Z"
+  },
+  "usage": 0.0004,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -20,8 +167,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0002,
-        "relative": 0.0008190008190008188
+        "global": 0.0004,
+        "relative": 0.0017057569296375274
       },
       "history": [
         {
@@ -32,8 +179,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0002,
-            "relative": 0.0008190008190008188
+            "global": 0.0004,
+            "relative": 0.0017057569296375274
           }
         }
       ]

@@ -6,12 +6,221 @@
     "resize"
   ],
   "type": "page",
-  "title": "ArrayBuffer / resize",
+  "title": "ArrayBuffer.prototype.resize()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/resize",
-    "spec": "https://tc39.es/proposal-resizablearraybuffer/#sec-arraybuffer.prototype.resize"
+    "spec": "https://tc39.es/proposal-resizablearraybuffer/#sec-arraybuffer.prototype.resize",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/arraybuffer/resize/index.md"
   },
-  "usage": 0.0002,
+  "content": {
+    "intro": {
+      "id": "31ab445e751885541bb88326972b3e96",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "resize()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/ArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances resizes the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ArrayBuffer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to the specified size, in bytes."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "820cdf413ec126fe95810c780004623d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/ArrayBuffer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ArrayBuffer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/ArrayBuffer/resizable"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ArrayBuffer.prototype.resizable"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/ArrayBuffer/maxByteLength"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ArrayBuffer.prototype.maxByteLength"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "d42c4bd039f84d228a339a4a15c8abf9e67cf608",
+    "date": "2023-03-01T14:57:27.000Z"
+  },
+  "usage": 0.0004,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -21,8 +230,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0002,
-        "relative": 0.0008190008190008188
+        "global": 0.0004,
+        "relative": 0.0017057569296375274
       },
       "history": [
         {
@@ -33,8 +242,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0002,
-            "relative": 0.0008190008190008188
+            "global": 0.0004,
+            "relative": 0.0017057569296375274
           }
         }
       ]
