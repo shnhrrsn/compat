@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "f607f1a3f81b9f44fe1b3ba765fdb775",
+      "id": "8e50389b71c74602be2bd1d9990d886a",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,72 @@
               },
               {
                 "type": "text",
-                "value": " interface writes the content of a specified buffer to the file associated with the handle, optionally at a given offset."
+                "value": " interface writes the content of a specified buffer to the file associated with the handle, optionally at a given offset. Note that you cannot directly manipulate the contents of an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "ArrayBuffer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". Instead, you create one of the typed array objects like an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Int8Array"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Int8Array"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/DataView"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "DataView"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object which represents the buffer in a specific format, and use that to read and write the contents of the buffer."
               }
             ]
           }
@@ -153,10 +218,10 @@
     }
   },
   "commit": {
-    "sha": "0444ab41bb372e63b3345f50e5b1e4e6a96c21d5",
-    "date": "2023-02-24T12:04:34.000Z"
+    "sha": "4a170c27cd0407a7cfabad8ebd9c821468f22c76",
+    "date": "2023-03-02T14:49:50.000Z"
   },
-  "usage": 0.7719499999999999,
+  "usage": 0.77216,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -166,8 +231,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.21599999999999994,
-        "relative": 0.9211087420042646
+        "global": 0.21649999999999994,
+        "relative": 0.921276595744681
       },
       "history": [
         {
@@ -178,8 +243,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.21599999999999994,
-            "relative": 0.9211087420042646
+            "global": 0.21649999999999994,
+            "relative": 0.921276595744681
           }
         }
       ]
@@ -192,8 +257,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.32295,
-        "relative": 0.8033182428734885
+        "global": 0.32278999999999997,
+        "relative": 0.8032999029440309
       },
       "history": [
         {
@@ -204,8 +269,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.32295,
-            "relative": 0.8033182428734885
+            "global": 0.32278999999999997,
+            "relative": 0.8032999029440309
           }
         }
       ]
@@ -371,7 +436,7 @@
       "removed": null,
       "usage": {
         "global": 0.031400000000000004,
-        "relative": 0.8198433420365536
+        "relative": 0.8177083333333334
       },
       "history": [
         {
@@ -383,7 +448,7 @@
           "removed": null,
           "usage": {
             "global": 0.031400000000000004,
-            "relative": 0.8198433420365536
+            "relative": 0.8177083333333334
           }
         }
       ]
@@ -396,8 +461,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.149,
-        "relative": 0.8830676228293721
+        "global": 0.14887000000000003,
+        "relative": 0.8832393948383268
       },
       "history": [
         {
@@ -408,8 +473,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.149,
-            "relative": 0.8830676228293721
+            "global": 0.14887000000000003,
+            "relative": 0.8832393948383268
           }
         }
       ]
