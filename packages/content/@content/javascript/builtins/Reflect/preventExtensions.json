@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "8913ced43b54ec6b8e5033984c57290e",
+      "id": "fe25986d184541ff9dd45a47c8cebc8d",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " static method prevents new properties from ever being added to an object (i.e., prevents future extensions to the object). It is similar to "
+                "value": " static method is like "
               },
               {
                 "type": "element",
@@ -72,24 +72,7 @@
               },
               {
                 "type": "text",
-                "value": ", but with "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "#difference_with_object.preventextensions"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "some differences"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "."
+                "value": ". It prevents new properties from ever being added to an object (i.e., prevents future extensions to the object)."
               }
             ]
           }
@@ -100,7 +83,7 @@
       }
     },
     "seeAlso": {
-      "id": "aa84f592183c81a79a553d872f8e9a4d",
+      "id": "1855685c3f531bb84de780bc7fab7953",
       "tree": {
         "type": "root",
         "children": [
@@ -205,7 +188,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/Object/isExtensible"
+                      "href": "/javascript/builtins/Object/preventExtensions"
                     },
                     "children": [
                       {
@@ -215,9 +198,59 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Object.isExtensible()"
+                            "value": "Object.preventExtensions()"
                           }
                         ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/preventExtensions"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Proxy"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "'s "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "preventExtensions"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " handler"
                       }
                     ]
                   }
@@ -237,8 +270,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "2c8c198ae96ba9e27c588b179d0360e5420a407d",
+    "date": "2023-03-03T07:41:21.000Z"
   },
   "usage": 0.9534199999999999,
   "support": {

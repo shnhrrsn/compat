@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "68652a26d9ec7340e8f49c757c159218",
+      "id": "57cfd574d372cf6b4f7fb499079c1014",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " static method is the same method as\n"
+                "value": " static method is like "
               },
               {
                 "type": "element",
@@ -72,7 +72,32 @@
               },
               {
                 "type": "text",
-                "value": ", except for its return type. It sets the\nprototype (i.e., the internal "
+                "value": " but returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Boolean"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Boolean"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". It sets the prototype (i.e., the internal "
               },
               {
                 "type": "element",
@@ -87,61 +112,7 @@
               },
               {
                 "type": "text",
-                "value": " property) of a specified\nobject to another object or to "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/null"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "null"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", and returns "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "true"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " if\nthe operation was successful, or "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "false"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " otherwise."
+                "value": " property) of a specified object."
               }
             ]
           }
@@ -152,7 +123,7 @@
       }
     },
     "seeAlso": {
-      "id": "0ef60551a9677030e70f0968cc72bfa8",
+      "id": "0388ea87083da0c6ee82ecebe67e103c",
       "tree": {
         "type": "root",
         "children": [
@@ -278,6 +249,56 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/setPrototypeOf"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Proxy"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "'s "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "setPrototypeOf"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " handler"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -289,8 +310,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "2c8c198ae96ba9e27c588b179d0360e5420a407d",
+    "date": "2023-03-03T07:41:21.000Z"
   },
   "usage": 0.9534199999999999,
   "support": {

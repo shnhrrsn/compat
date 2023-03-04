@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "8557c21f59645cf0f18b5bd1d01ce6e6",
+      "id": "b26d3fa45f4a0acc0ed2f939e1f24d13",
       "tree": {
         "type": "root",
         "children": [
@@ -47,22 +47,24 @@
               },
               {
                 "type": "text",
-                "value": " static method works like getting a\nproperty from an object ("
+                "value": " static method is like the "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "target[propertyKey]"
+                    "value": "property accessor"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ") as a function."
+                "value": " syntax, but as a function."
               }
             ]
           }
@@ -73,7 +75,7 @@
       }
     },
     "seeAlso": {
-      "id": "111785a955384d4ebf3625a3ac67f51f",
+      "id": "72e004c476e9031a10551f099fc9c6ee",
       "tree": {
         "type": "root",
         "children": [
@@ -191,6 +193,56 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/get"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Proxy"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "'s "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " handler"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -202,8 +254,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "2c8c198ae96ba9e27c588b179d0360e5420a407d",
+    "date": "2023-03-03T07:41:21.000Z"
   },
   "usage": 0.9534199999999999,
   "support": {

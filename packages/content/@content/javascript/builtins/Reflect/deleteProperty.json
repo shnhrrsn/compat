@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "2cbc0478ac8da58010449ea3b6877751",
+      "id": "76b016fc4d44e9e34098e01d1513bcdb",
       "tree": {
         "type": "root",
         "children": [
@@ -47,35 +47,22 @@
               },
               {
                 "type": "text",
-                "value": " static\nmethod allows to delete properties. It is like the\n"
+                "value": " static method is like the "
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/delete"
-                },
+                "tagName": "code",
+                "properties": {},
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "delete"
-                      }
-                    ]
-                  },
-                  {
                     "type": "text",
-                    "value": " operator"
+                    "value": "delete"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\nas a function."
+                "value": " operator, but as a function. It deletes a property from an object."
               }
             ]
           }
@@ -86,7 +73,7 @@
       }
     },
     "seeAlso": {
-      "id": "b644e3060168d55ff5b4978f934774d3",
+      "id": "278bd6ea8b96cb1b962839bd92837c8c",
       "tree": {
         "type": "root",
         "children": [
@@ -203,10 +190,56 @@
                             "value": "delete"
                           }
                         ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/deleteProperty"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Proxy"
+                          }
+                        ]
                       },
                       {
                         "type": "text",
-                        "value": " operator"
+                        "value": "'s "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "deleteProperty"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " handler"
                       }
                     ]
                   }
@@ -226,8 +259,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "2c8c198ae96ba9e27c588b179d0360e5420a407d",
+    "date": "2023-03-03T07:41:21.000Z"
   },
   "usage": 0.9534199999999999,
   "support": {
