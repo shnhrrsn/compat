@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "567b0cd4bab66dd75aa7087f41019665",
+      "id": "8c0a83e40ea2719d472b2c339f32fbb8",
       "tree": {
         "type": "root",
         "children": [
@@ -46,32 +46,41 @@
               },
               {
                 "type": "text",
-                "value": " information response status code\nis primarily intended to be used with the "
+                "value": " "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/http/headers/Link"
+                  "href": "/en-US/docs/Web/HTTP/Status#information_responses"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Link"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "information response"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " header to allow the\nuser agent to start preloading resources while the server is still preparing a response."
+                "value": " may be sent by a server while it is still preparing a response, with hints about the resources that the server is expecting the final response will link.\nThis allows a browser to start "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Attributes/rel/preload"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "preloading"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " resources even before the server has prepared and sent that final response."
               }
             ]
           }
@@ -137,8 +146,8 @@
     }
   },
   "commit": {
-    "sha": "45d4569a5f7c2a4e614b8e950b9e56fa890b9fed",
-    "date": "2023-03-03T04:42:31.000Z"
+    "sha": "4fcaee1ccb49e93f83c7822b92f187c15a1d88d4",
+    "date": "2023-03-05T20:16:18.000Z"
   },
   "usage": 0.6373299999999998,
   "support": {
