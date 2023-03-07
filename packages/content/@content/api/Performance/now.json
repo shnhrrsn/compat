@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "8bbf1b03cb03ec2c6cb0a0a875b927fa",
+      "id": "5ef16c4d51283863b828ac6d35bead97",
       "tree": {
         "type": "root",
         "children": [
@@ -46,22 +46,82 @@
               },
               {
                 "type": "text",
-                "value": " method\nreturns a "
+                "value": " method returns a high resolution timestamp in milliseconds. It represents the time elapsed since "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Performance/timeOrigin"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "DOMHighResTimeStamp"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Performance.timeOrigin"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ", measured in milliseconds."
+                "value": " (the time when navigation has started in window contexts, or the time when the worker is run in "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Worker"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Worker"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ServiceWorker"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ServiceWorker"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " contexts)."
               }
             ]
           }
@@ -72,7 +132,7 @@
       }
     },
     "seeAlso": {
-      "id": "61dcc0516edf19a251dbf5efc29da79c",
+      "id": "8eb857b492f94fe23ff8dca7a244f385",
       "tree": {
         "type": "root",
         "children": [
@@ -94,12 +154,20 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://developer.chrome.com/blog/when-milliseconds-are-not-enough-performance-now/"
+                      "internal": "",
+                      "href": "/api/Performance/timeOrigin"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "When milliseconds are not enough: performance.now()"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Performance.timeOrigin"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -119,10 +187,10 @@
     }
   },
   "commit": {
-    "sha": "80d4cfb4515b339111e175dbeb8d2b91fd3ee1a0",
-    "date": "2023-02-28T05:34:15.000Z"
+    "sha": "9a2379bae64cab0c68c3e5f0cb4cba56f191290e",
+    "date": "2023-03-07T01:06:18.000Z"
   },
-  "usage": 0.9586100000000001,
+  "usage": 0.95857,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -174,7 +242,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.4018300000000001,
+        "global": 0.4017900000000001,
         "relative": 1
       },
       "history": [
@@ -186,7 +254,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.4018300000000001,
+            "global": 0.4017900000000001,
             "relative": 1
           }
         }
