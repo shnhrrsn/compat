@@ -88,7 +88,7 @@
       }
     },
     "seeAlso": {
-      "id": "5c43f8ae29ceafdcb9c0e792776fec8d",
+      "id": "4c59dc425eed7d80e3f7ae2cd9f5a5de",
       "tree": {
         "type": "root",
         "children": [
@@ -107,17 +107,36 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://bottosson.github.io/posts/oklab/"
+                      "href": "/en-US/docs/Web/CSS/color_value"
                     },
                     "children": [
                       {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<color>"
+                          }
+                        ]
+                      },
+                      {
                         "type": "text",
-                        "value": "A perceptual color space for image processing"
+                        "value": " data type"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for a list of all color notations"
                   }
                 ]
               },
@@ -165,6 +184,30 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://bottosson.github.io/posts/oklab/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "A perceptual color space for image processing"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -176,8 +219,8 @@
     }
   },
   "commit": {
-    "sha": "489dbd4d8e2e099733d3bb04ad3f97678c54ac8e",
-    "date": "2023-02-21T22:18:29.000Z"
+    "sha": "485e777d138fc31f2b50c7c5b7bfcfb5a678863f",
+    "date": "2023-03-07T09:55:05.000Z"
   },
   "usage": 0.17716000000000004,
   "support": {
@@ -252,12 +295,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "111.0.0",
+            "date": 1678752000
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "layout.css.more_color_4.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

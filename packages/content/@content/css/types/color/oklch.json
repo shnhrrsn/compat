@@ -73,7 +73,7 @@
       }
     },
     "seeAlso": {
-      "id": "3e2980410ee35921d7e77aa1e1b19078",
+      "id": "c384c234e4884cf33d67601b0dbe317e",
       "tree": {
         "type": "root",
         "children": [
@@ -82,6 +82,49 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/color_value"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<color>"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " data type"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for a list of all color notations"
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -202,8 +245,8 @@
     }
   },
   "commit": {
-    "sha": "489dbd4d8e2e099733d3bb04ad3f97678c54ac8e",
-    "date": "2023-02-21T22:18:29.000Z"
+    "sha": "798f0948c92eb9ff05ae06cce535190d21b742e0",
+    "date": "2023-03-07T08:41:59.000Z"
   },
   "usage": 0.17716000000000004,
   "support": {
@@ -278,12 +321,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "111.0.0",
+            "date": 1678752000
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "layout.css.more_color_4.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
