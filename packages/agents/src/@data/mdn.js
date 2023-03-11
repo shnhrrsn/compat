@@ -4,16 +4,23 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"113.0.0",
+				{
+					"date": 1682985600,
+					"usage": null
+				}
+			],
+			[
 				"112.0.0",
 				{
-					"date": 1680048000,
+					"date": 1680566400,
 					"usage": 0.02
 				}
 			],
 			[
 				"111.0.0",
 				{
-					"date": 1677628800,
+					"date": 1678147200,
 					"usage": 0.02
 				}
 			],
@@ -786,16 +793,23 @@ const mdn = {
 		name: 'Chrome Android',
 		versions: new Map([
 			[
+				"113.0.0",
+				{
+					"date": 1682985600,
+					"usage": null
+				}
+			],
+			[
 				"112.0.0",
 				{
-					"date": 1680048000,
+					"date": 1680566400,
 					"usage": 0.002
 				}
 			],
 			[
 				"111.0.0",
 				{
-					"date": 1677628800,
+					"date": 1678147200,
 					"usage": null
 				}
 			],
@@ -3497,6 +3511,13 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"96.0.0",
+				{
+					"date": 1677024000,
+					"usage": null
+				}
+			],
+			[
 				"95.0.0",
 				{
 					"date": 1675209600,
@@ -5475,9 +5496,16 @@ const mdn = {
 		name: 'WebView Android',
 		versions: new Map([
 			[
+				"113.0.0",
+				{
+					"date": 1682985600,
+					"usage": null
+				}
+			],
+			[
 				"112.0.0",
 				{
-					"date": 1680048000,
+					"date": 1680566400,
 					"usage": null
 				}
 			],

@@ -8,7 +8,7 @@
   "type": "page",
   "title": "import / worker_support",
   "links": {},
-  "usage": 0.87536,
+  "usage": 0.89246,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -116,7 +116,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -124,15 +127,35 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1247687'>bug 1247687</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "111.0.0",
+            "date": 1678752000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "dom.workers.modules.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
@@ -146,9 +169,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1247687'>bug 1247687</a>."
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {
@@ -226,27 +247,36 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "67.0.0",
+        "date": 1583193600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0171,
+        "relative": 0.8952879581151831
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "67.0.0",
+            "date": 1583193600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0171,
+            "relative": 0.8952879581151831
           }
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "57.0.0",
+        "date": 1585526400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -255,7 +285,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "57.0.0",
+            "date": 1585526400
+          },
           "removed": null,
           "usage": {
             "global": null,
