@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "7e13d5bbb958a4c42e59dc6ffea3edd5",
+      "id": "c719e49a68ac0962422e794e9b46ae11",
       "tree": {
         "type": "root",
         "children": [
@@ -80,7 +80,31 @@
               },
               {
                 "type": "text",
-                "value": " defines a name that can be used to identify the source element of a scroll timeline, along with the scrollbar axis that should provide the timeline."
+                "value": " is used to define a named timeline that drives the progress of the scrollbar in a container. The name is then referenced in an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/animation-timeline"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "animation-timeline"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " declaration to indicate the container's element that is used to drive the progress of the animation through the scrolling action."
               }
             ]
           }
@@ -91,7 +115,7 @@
       }
     },
     "seeAlso": {
-      "id": "f20032294710897bc4c99a943830be0c",
+      "id": "156da2ab1559c3cc24cca4f17420e640",
       "tree": {
         "type": "root",
         "children": [
@@ -128,6 +152,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -145,8 +173,8 @@
     }
   },
   "commit": {
-    "sha": "9428e6f9ac2fd4166b5cf245fb674123209787ff",
-    "date": "2023-02-21T06:10:16.000Z"
+    "sha": "49e19595d99819196306248157bc69d67adbd528",
+    "date": "2023-03-14T22:17:38.000Z"
   },
   "usage": 0,
   "support": {

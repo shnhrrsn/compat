@@ -9,7 +9,7 @@
   "links": {
     "spec": "https://html.spec.whatwg.org/multipage/interaction.html#dom-fe-autofocus"
   },
-  "usage": 0.8898899999999998,
+  "usage": 0.8986899999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -91,27 +91,51 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1676332800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0088,
+        "relative": 0.3247232472324724
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1676332800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0088,
+            "relative": 0.3247232472324724
           }
+        },
+        {
+          "notes": [
+            "Only supported on <code>SVGGraphicsElement</code>."
+          ],
+          "added": {
+            "version": "78.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026299999999999994,
+            "relative": 0.9704797047970481
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1676332800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -120,12 +144,30 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1676332800
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Only supported on <code>SVGGraphicsElement</code>."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
