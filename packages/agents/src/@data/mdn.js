@@ -1421,6 +1421,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"113.0.0",
+				{
+					"date": 1683158400,
+					"usage": null
+				}
+			],
+			[
 				"112.0.0",
 				{
 					"date": 1680739200,
@@ -1430,7 +1437,7 @@ const mdn = {
 			[
 				"111.0.0",
 				{
-					"date": 1678320000,
+					"date": 1678665600,
 					"usage": null
 				}
 			],
@@ -4278,6 +4285,13 @@ const mdn = {
 	opera_android: {
 		name: 'Opera Android',
 		versions: new Map([
+			[
+				"74.0.0",
+				{
+					"date": 1678665600,
+					"usage": null
+				}
+			],
 			[
 				"73.0.0",
 				{
