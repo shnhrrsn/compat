@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "d642bbc88ae5a71fe64e77789ec8f44d",
+      "id": "170043d8487d484c6571b14abdd9c30a",
       "tree": {
         "type": "root",
         "children": [
@@ -68,23 +68,6 @@
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/CSS/CSS_Functions"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "function"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " applies a linear multiplier to the input image, making it appear brighter or darker. Its result is a "
-              },
-              {
-                "type": "element",
                 "tagName": "code",
                 "properties": {},
                 "children": [
@@ -96,7 +79,7 @@
               },
               {
                 "type": "text",
-                "value": "."
+                "value": " applies a linear multiplier value on an element or an input image, making the image appear brighter or darker."
               }
             ]
           }
@@ -107,7 +90,7 @@
       }
     },
     "seeAlso": {
-      "id": "1d2b0ffff44f4fc75d99f320b9cf0ed4",
+      "id": "b6d12c7c3a52dc582388bf8eb2851e54",
       "tree": {
         "type": "root",
         "children": [
@@ -129,22 +112,18 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/blur"
+                      "href": "/en-US/docs/Web/CSS/filter_effects"
                     },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "blur()"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "CSS filter effects"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
                   }
                 ]
               },
@@ -158,43 +137,30 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "text",
+                    "value": "The other "
+                  },
+                  {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/contrast"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "contrast()"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "<filter-function>"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
+                  {
+                    "type": "text",
+                    "value": " functions available to be used in values of the "
+                  },
                   {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/css/types/filter-function/drop-shadow"
+                      "href": "/css/properties/filter"
                     },
                     "children": [
                       {
@@ -204,29 +170,22 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "drop-shadow()"
+                            "value": "filter"
                           }
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
+                  {
+                    "type": "text",
+                    "value": " and "
+                  },
                   {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/css/types/filter-function/grayscale"
+                      "href": "/css/properties/backdrop-filter"
                     },
                     "children": [
                       {
@@ -236,171 +195,318 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "grayscale()"
+                            "value": "backdrop-filter"
                           }
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
+                  {
+                    "type": "text",
+                    "value": " properties include:\n"
+                  },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/hue-rotate"
-                    },
+                    "tagName": "ul",
+                    "properties": {},
                     "children": [
                       {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
                         "type": "element",
-                        "tagName": "code",
+                        "tagName": "li",
                         "properties": {},
                         "children": [
                           {
-                            "type": "text",
-                            "value": "hue-rotate()"
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/blur"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "blur()"
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/contrast"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "contrast()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/drop-shadow"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "drop-shadow()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/grayscale"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "grayscale()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/hue-rotate"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "hue-rotate()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/invert"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "invert()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/opacity"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "opacity()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/saturate"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "saturate()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "li",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "element",
+                            "tagName": "a",
+                            "properties": {
+                              "internal": "",
+                              "href": "/css/types/filter-function/sepia"
+                            },
+                            "children": [
+                              {
+                                "type": "element",
+                                "tagName": "code",
+                                "properties": {},
+                                "children": [
+                                  {
+                                    "type": "text",
+                                    "value": "sepia()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": "\n"
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
                   {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/invert"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "invert()"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/opacity"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "opacity()"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/saturate"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "saturate()"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/types/filter-function/sepia"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "sepia()"
-                          }
-                        ]
-                      }
-                    ]
+                    "type": "text",
+                    "value": "\n"
                   }
                 ]
               },
@@ -418,8 +524,8 @@
     }
   },
   "commit": {
-    "sha": "66944f622b6b51bc9c24bebbbea242138d910600",
-    "date": "2023-02-21T05:45:53.000Z"
+    "sha": "be8cde8a44ecac8960dc97d5b00bb67ba6c01829",
+    "date": "2023-03-21T01:24:32.000Z"
   },
   "usage": 0.9553899999999999,
   "support": {
