@@ -5,15 +5,15 @@
     "extractable"
   ],
   "type": "page",
-  "title": "CryptoKey",
+  "title": "CryptoKey.extractable",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CryptoKey/extractable",
     "spec": "https://w3c.github.io/webcrypto/#dom-cryptokey-extractable",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cryptokey/index.md"
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/cryptokey/extractable/index.md"
   },
   "content": {
     "intro": {
-      "id": "a7697ff05cd9abe940fc38e01fac3694",
+      "id": "95c3349172cf418920e7f221210abef8",
       "tree": {
         "type": "root",
         "children": [
@@ -24,12 +24,37 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "The read-only "
               },
               {
                 "type": "element",
                 "tagName": "strong",
                 "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "extractable"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CryptoKey"
+                },
                 "children": [
                   {
                     "type": "element",
@@ -46,48 +71,13 @@
               },
               {
                 "type": "text",
-                "value": " interface of the "
+                "value": " interface indicates whether or not the key may be extracted using "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/API/Web_Crypto_API"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Web Crypto API"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " represents a cryptographic "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Glossary/key"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "key"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " obtained from one of the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/SubtleCrypto"
+                  "href": "/en-US/docs/Web/API/SubtleCrypto/exportKey"
                 },
                 "children": [
                   {
@@ -97,7 +87,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "SubtleCrypto"
+                        "value": "SubtleCrypto.exportKey()"
                       }
                     ]
                   }
@@ -105,14 +95,13 @@
               },
               {
                 "type": "text",
-                "value": " methods "
+                "value": " or "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/api/SubtleCrypto/generateKey"
+                  "href": "/en-US/docs/Web/API/SubtleCrypto/wrapKey"
                 },
                 "children": [
                   {
@@ -122,82 +111,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "generateKey()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/SubtleCrypto/deriveKey"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "deriveKey()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/SubtleCrypto/importKey"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "importKey()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", or "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/SubtleCrypto/unwrapKey"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "unwrapKey()"
+                        "value": "SubtleCrypto.wrapKey()"
                       }
                     ]
                   }
@@ -214,166 +128,11 @@
           "quirksMode": false
         }
       }
-    },
-    "seeAlso": {
-      "id": "44e341e6a141546b5263f8a28c005ff5",
-      "tree": {
-        "type": "root",
-        "children": [
-          {
-            "type": "element",
-            "tagName": "ul",
-            "properties": {},
-            "children": [
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/Web_Crypto_API"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Web Crypto API"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/Security"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Web security"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/Privacy"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Privacy, permissions, and information security"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Crypto"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Crypto"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Crypto/subtle"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Crypto.subtle"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "."
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              }
-            ]
-          }
-        ],
-        "data": {
-          "quirksMode": false
-        }
-      }
     }
   },
   "commit": {
-    "sha": "b280ea1234452ff553caa466bf532a66ba51db01",
-    "date": "2023-02-19T06:34:57.000Z"
+    "sha": "5e271252d73a5cb5843add034fe2837128f729fc",
+    "date": "2023-02-16T10:26:39.000Z"
   },
   "usage": 0.9561599999999999,
   "support": {
