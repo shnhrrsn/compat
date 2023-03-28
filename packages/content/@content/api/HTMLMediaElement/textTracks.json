@@ -132,7 +132,7 @@
       }
     },
     "seeAlso": {
-      "id": "183867a2bab71985ef56df342966bd81",
+      "id": "4bdaf7d75937dc476c560c88d954ae4c",
       "tree": {
         "type": "root",
         "children": [
@@ -150,10 +150,6 @@
                 "tagName": "li",
                 "properties": {},
                 "children": [
-                  {
-                    "type": "text",
-                    "value": "The interface defining it, "
-                  },
                   {
                     "type": "element",
                     "tagName": "a",
@@ -177,7 +173,22 @@
                   },
                   {
                     "type": "text",
-                    "value": "."
+                    "value": ": Interface used to define the "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTMLMediaElement.textTracks"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -190,31 +201,6 @@
                 "tagName": "li",
                 "properties": {},
                 "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/html/elements/video"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "<video>"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " and "
-                  },
                   {
                     "type": "element",
                     "tagName": "a",
@@ -235,49 +221,17 @@
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/VideoTrack"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "VideoTrack"
-                          }
-                        ]
-                      }
-                    ]
                   },
                   {
                     "type": "text",
-                    "value": " and "
+                    "value": ", "
                   },
                   {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/api/VideoTrackList"
+                      "href": "/html/elements/video"
                     },
                     "children": [
                       {
@@ -287,7 +241,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "VideoTrackList"
+                            "value": "<video>"
                           }
                         ]
                       }
@@ -327,7 +281,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " and "
+                    "value": ", "
                   },
                   {
                     "type": "element",
@@ -362,8 +316,85 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/VideoTrack"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "VideoTrack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "type": "text",
-                    "value": "VideoTrackList\n"
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/VideoTrackList"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "VideoTrackList"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/VideoTrackList/addtrack_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "addtrack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ",\n"
                   },
                   {
                     "type": "element",
@@ -393,30 +424,6 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/API/VideoTrackList/addtrack_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "addtrack"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\nand\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
                       "href": "/en-US/docs/Web/API/VideoTrackList/removetrack_event"
                     },
                     "children": [
@@ -435,7 +442,7 @@
                   },
                   {
                     "type": "text",
-                    "value": "\nevents"
+                    "value": ": AudioTrackList events"
                   }
                 ]
               },
@@ -449,14 +456,34 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/VideoTrackList/addtrack_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "addtrack"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
                     "type": "text",
-                    "value": "Audio TrackList\n"
+                    "value": ",\n"
                   },
                   {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/API/AudioTrackList/change_event"
+                      "href": "/en-US/docs/Web/API/VideoTrackList/change_event"
                     },
                     "children": [
                       {
@@ -480,31 +507,7 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/API/AudioTrackList/addtrack_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "addtrack"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\nand\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/AudioTrackList/removetrack_event"
+                      "href": "/en-US/docs/Web/API/VideoTrackList/removetrack_event"
                     },
                     "children": [
                       {
@@ -522,7 +525,7 @@
                   },
                   {
                     "type": "text",
-                    "value": "\nevents"
+                    "value": ": VideoTrackList events"
                   }
                 ]
               },
@@ -540,8 +543,8 @@
     }
   },
   "commit": {
-    "sha": "0230ecc4418a1e52bca6b4d03c4eb794f90d04f1",
-    "date": "2023-02-28T10:00:20.000Z"
+    "sha": "45e483301d653121e4ae871b81e18db7fd9e522d",
+    "date": "2023-03-27T14:48:49.000Z"
   },
   "usage": 0.9587899999999999,
   "support": {

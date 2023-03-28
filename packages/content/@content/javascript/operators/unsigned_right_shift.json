@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "80b5c1b6ca7b7c2032339660f8be1c61",
+      "id": "5bbb72fa5a65dd96715151f601f4b130",
       "tree": {
         "type": "root",
         "children": [
@@ -54,7 +54,7 @@
               },
               {
                 "type": "text",
-                "value": " (zero-fill right shift) operator evaluates the left-hand operand as an unsigned number, and shifts the binary representation of that number by the number of bits, modulo 32, specified by the right-hand operand. Excess bits shifted off to the right are discarded, and zero bits are shifted in from the left. The sign bit becomes "
+                "value": " operator returns a number whose binary representation is the first operand shifted by the specified number of bits to the right. Excess bits shifted off to the right are discarded, and zero bits are shifted in from the left. This operation is also called \"zero-filling right shift\", because the sign bit becomes "
               },
               {
                 "type": "element",
@@ -69,7 +69,24 @@
               },
               {
                 "type": "text",
-                "value": ", so the result is always non-negative. Unlike the other bitwise operators, zero-fill right shift returns an unsigned 32-bit integer."
+                "value": ", so the resulting number is always positive. Unsigned right shift does not accept "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "BigInt"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " values."
               }
             ]
           }
@@ -151,8 +168,8 @@
     }
   },
   "commit": {
-    "sha": "0f3738f6b1ed1aa69395ff181207186e1ad9f4d8",
-    "date": "2023-02-21T00:33:34.000Z"
+    "sha": "93d2d79c1c68af93f2730d27cdea9d527eee0d7a",
+    "date": "2023-03-28T05:38:31.000Z"
   },
   "usage": 0.95924,
   "support": {
