@@ -124,15 +124,23 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1540913'>bug 1540913</a>"
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1683590400
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "dom.workers.modules.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },
@@ -146,9 +154,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1540913'>bug 1540913</a>"
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {

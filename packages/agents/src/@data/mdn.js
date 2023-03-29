@@ -4718,6 +4718,13 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"16.4.0",
+				{
+					"date": 1679875200,
+					"usage": null
+				}
+			],
+			[
 				"16.3.0",
 				{
 					"date": 1674432000,
@@ -4975,10 +4982,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"16.4.0",
+				{
+					"date": 1679875200,
+					"usage": 0.01
+				}
+			],
+			[
 				"16.3.0",
 				{
 					"date": 1674432000,
-					"usage": 2.2129999999999996
+					"usage": 2.203
 				}
 			],
 			[
