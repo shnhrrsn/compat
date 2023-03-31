@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d17719a2329bd45d235e8b61b7241a0c",
+      "id": "56a70dafb8d24eacd3edb956afcdce04",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "A "
               },
               {
                 "type": "element",
@@ -46,22 +46,54 @@
               },
               {
                 "type": "text",
-                "value": " object lets you store weakly held "
+                "value": " is a collection of garbage-collectable values, including objects and "
               },
               {
                 "type": "element",
-                "tagName": "em",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#shared_symbols_in_the_global_symbol_registry"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "objects"
+                    "value": "non-registered symbols"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " in a collection."
+                "value": ". A value in the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WeakSet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " may only occur once. It is unique in the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WeakSet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "'s collection."
               }
             ]
           }
@@ -241,8 +273,8 @@
     }
   },
   "commit": {
-    "sha": "d19dc31570f62196a5837be38bd0b11c45e67b05",
-    "date": "2023-02-21T07:09:00.000Z"
+    "sha": "7da0dabee277f9c295178ae132c16c8fed5d747a",
+    "date": "2023-03-29T16:29:26.000Z"
   },
   "usage": 0.95597,
   "support": {

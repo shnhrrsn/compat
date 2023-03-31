@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "27021be09fb3f29b234c0fd44edf0318",
+      "id": "3306aeca46e438d5a1d095dbb41824d1",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,24 @@
               },
               {
                 "type": "text",
-                "value": " is a collection of key/value pairs whose keys must be objects, with values of any arbitrary "
+                "value": " is a collection of key/value pairs whose keys must be objects or "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#shared_symbols_in_the_global_symbol_registry"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "non-registered symbols"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", with values of any arbitrary "
               },
               {
                 "type": "element",
@@ -93,7 +110,39 @@
               },
               {
                 "type": "text",
-                "value": " become candidates for garbage collection as well — as long as they aren't strongly referred to elsewhere."
+                "value": " become candidates for garbage collection as well — as long as they aren't strongly referred to elsewhere. The only primitive type that can be used as a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WeakMap"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " key is symbol — more specifically, "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#shared_symbols_in_the_global_symbol_registry"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "non-registered symbols"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " — because non-registered symbols are guaranteed to be unique and cannot be re-created."
               }
             ]
           }
@@ -342,8 +391,8 @@
     }
   },
   "commit": {
-    "sha": "11eb3b9de211e7bc91a31bdc99f268c1c2f93d7b",
-    "date": "2023-02-21T23:38:32.000Z"
+    "sha": "7da0dabee277f9c295178ae132c16c8fed5d747a",
+    "date": "2023-03-29T16:29:26.000Z"
   },
   "usage": 0.9580299999999999,
   "support": {
