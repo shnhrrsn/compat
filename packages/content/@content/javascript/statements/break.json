@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "ae595875ea0162d355cac65045baaa4f",
+      "id": "2d704af7b1a174eec7c9742e4b325347",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " statement terminates the current loop,\n"
+                "value": " statement terminates the current loop or "
               },
               {
                 "type": "element",
@@ -61,22 +61,24 @@
               },
               {
                 "type": "text",
-                "value": ", or "
+                "value": " statement and transfers program control to the statement following the terminated statement. It can also be used to jump past a "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/label"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "label"
+                    "value": "labeled statement"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\nstatement and transfers program control to the statement following the terminated\nstatement."
+                "value": " when used within that labeled statement."
               }
             ]
           }
@@ -176,8 +178,8 @@
     }
   },
   "commit": {
-    "sha": "0f3738f6b1ed1aa69395ff181207186e1ad9f4d8",
-    "date": "2023-02-21T00:33:34.000Z"
+    "sha": "57ae0014c67f339b9af6252a451ddd40735ed243",
+    "date": "2023-03-31T06:45:22.000Z"
   },
   "usage": 0.95924,
   "support": {

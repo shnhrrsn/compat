@@ -10,7 +10,7 @@
   "links": {
     "spec": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading"
   },
-  "usage": 0.7134299999999999,
+  "usage": 0.7135299999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -234,7 +234,10 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "16.4.0",
+        "date": 1679875200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -242,10 +245,11 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/196698'>bug 196698</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "16.4.0",
+            "date": 1679875200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -256,22 +260,26 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "16.4.0",
+        "date": 1679875200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0001,
+        "relative": 0.0005932957579353307
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/196698'>bug 196698</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "16.4.0",
+            "date": 1679875200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0001,
+            "relative": 0.0005932957579353307
           }
         }
       ]
@@ -331,7 +339,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
