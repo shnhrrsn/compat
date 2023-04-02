@@ -3,6 +3,12 @@ const deno = {
 	name: "Deno",
 	versions: new Map([
 		[
+			"1.32.3",
+			{
+				"date": 1680395012
+			}
+		],
+		[
 			"1.32.2",
 			{
 				"date": 1680301259
