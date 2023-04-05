@@ -5,9 +5,217 @@
     "AsyncIterator"
   ],
   "type": "page",
-  "title": "builtins / AsyncIterator",
+  "title": "AsyncIterator",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator"
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asynciteratorprototype",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/asynciterator/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "517294fe3bc0374b660560ed4cecac74",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "An "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AsyncIterator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object is an object that conforms to the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async iterator protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " by providing a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "next()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method that returns a promise fulfilling to an iterator result object. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "AsyncIterator.prototype"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object is a hidden global object that all built-in async iterators inherit from. It provides an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/@@asyncIterator"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@@asyncIterator"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method that returns the async iterator object itself, making the async iterator also "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async iterable"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "f4c9edf7b270038c07bb28e2a4bb5bcc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "async function*"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "The Iterator protocol"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "ab97df6ce8865569507bcfc884206a1ed297a690",
+    "date": "2023-04-04T07:30:34.000Z"
   },
   "usage": 0.9497800000000001,
   "support": {

@@ -6,9 +6,194 @@
     "@@asyncIterator"
   ],
   "type": "page",
-  "title": "AsyncIterator / @@asyncIterator",
+  "title": "AsyncIterator.prototype[@@iterator]()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/@@asyncIterator"
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator/@@asyncIterator",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-asynciteratorprototype-asynciterator",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/asynciterator/@@asynciterator/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "fcffe9efcaef7e51b42a6e73240247e9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "[@@asyncIterator]()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "AsyncIterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object implements the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_async_iterator_and_async_iterable_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and allows built-in async iterators to be consumed by most syntaxes expecting async iterables, such as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "for await...of"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " loops. It returns the value of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/this"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "this"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", which is the async iterator object itself."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "38cd69126970262a6845b3946e4542ac",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "for await...of"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "ab97df6ce8865569507bcfc884206a1ed297a690",
+    "date": "2023-04-04T07:30:34.000Z"
   },
   "usage": 0.9497800000000001,
   "support": {

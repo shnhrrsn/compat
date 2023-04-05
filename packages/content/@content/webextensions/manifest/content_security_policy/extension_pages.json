@@ -97,7 +97,7 @@
     "sha": "d86e14de2e66319fc0a0ec0539a05400dea5a453",
     "date": "2023-03-07T05:20:12.000Z"
   },
-  "usage": 0.47555999999999987,
+  "usage": 0.5017599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -114,7 +114,7 @@
         {
           "notes": [
             "Available for use in Manifest V3 or later.",
-            "The <code>object-src</code> directive is required."
+            "Until Chrome 110, the <code>object-src</code> directive was required with a secure source. From Chrome 111, the <code>object-src</code> directive is optional."
           ],
           "added": {
             "version": "88.0.0",
@@ -143,7 +143,7 @@
         {
           "notes": [
             "Available for use in Manifest V3 or later.",
-            "The <code>object-src</code> directive is required."
+            "Until Edge 110, the <code>object-src</code> directive was required with a secure source. From Edge 111, the <code>object-src</code> directive is optional."
           ],
           "added": {
             "version": "88.0.0",
@@ -159,11 +159,14 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "72.0.0",
+        "date": 1578355200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.026199999999999987,
+        "relative": 0.9776119402985076
       },
       "history": [
         {
@@ -178,14 +181,7 @@
           "usage": {
             "global": 0.026199999999999987,
             "relative": 0.9776119402985076
-          },
-          "flags": [
-            {
-              "name": "extensions.manifestV3.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+          }
         }
       ]
     },
@@ -224,7 +220,7 @@
         {
           "notes": [
             "Available for use in Manifest V3 or later.",
-            "The <code>object-src</code> directive is required."
+            "Until Opera 96, the <code>object-src</code> directive was required with a secure source. From Opera 97, the <code>object-src</code> directive is optional."
           ],
           "added": {
             "version": "74.0.0",

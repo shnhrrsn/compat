@@ -6,9 +6,211 @@
     "@@iterator"
   ],
   "type": "page",
-  "title": "Iterator / @@iterator",
+  "title": "Iterator.prototype[@@iterator]()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/@@iterator"
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/@@iterator",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-%iteratorprototype%-@@iterator",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/iterator/@@iterator/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "28f26deb092a8b7da57a7f30b93b12ed",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "[@@iterator]()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Iterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object implements the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and allows built-in iterators to be consumed by most syntaxes expecting iterables, such as the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "spread syntax"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "for...of"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " loops. It returns the value of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Operators/this"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "this"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", which is the iterator object itself."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a2aa53fde18ba12eadab26eaad68eae9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "for...of"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "ab97df6ce8865569507bcfc884206a1ed297a690",
+    "date": "2023-04-04T07:30:34.000Z"
   },
   "usage": 0.95478,
   "support": {

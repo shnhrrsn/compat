@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "9e8349f9e16e07710f9743e318ac56d5",
+      "id": "47108d215d84eee5f96c729801de6934",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "@@iterator"
+                        "value": "[@@iterator]()"
                       }
                     ]
                   }
@@ -120,7 +120,24 @@
               },
               {
                 "type": "text",
-                "value": " loops. It returns an iterator that yields the values of the set."
+                "value": " loops. It returns an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "set iterator object"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that yields the values of the set."
               }
             ]
           }
@@ -240,8 +257,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "ab97df6ce8865569507bcfc884206a1ed297a690",
+    "date": "2023-04-04T07:30:34.000Z"
   },
   "usage": 0.9551899999999999,
   "support": {

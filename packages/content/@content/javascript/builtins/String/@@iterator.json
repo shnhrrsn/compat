@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "f16ee69b65a541b0ff141f95bc840ae5",
+      "id": "6b69a532e918c44705c7e592826dbd86",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "@@iterator"
+                        "value": "[@@iterator]()"
                       }
                     ]
                   }
@@ -105,7 +105,24 @@
               },
               {
                 "type": "text",
-                "value": " loops. It returns an iterator that yields the Unicode code points of the string value as individual strings."
+                "value": " loops. It returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "string iterator object"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that yields the Unicode code points of the string value as individual strings."
               }
             ]
           }
@@ -213,8 +230,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "ab97df6ce8865569507bcfc884206a1ed297a690",
+    "date": "2023-04-04T07:30:34.000Z"
   },
   "usage": 0.9558899999999999,
   "support": {

@@ -5,7 +5,7 @@
     "get"
   ],
   "type": "page",
-  "title": "getter",
+  "title": "get",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/get",
     "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-method-definitions",
@@ -74,7 +74,7 @@
       }
     },
     "seeAlso": {
-      "id": "bffd901c6c487f6dae4962be3a37e20d",
+      "id": "faf61f320df77d14260a68e08399e8ad",
       "tree": {
         "type": "root",
         "children": [
@@ -96,12 +96,12 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions/set"
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Working_with_objects"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Setter"
+                        "value": "Working with objects"
                       }
                     ]
                   }
@@ -118,12 +118,45 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions"
+                    },
                     "children": [
                       {
                         "type": "text",
-                        "value": "delete"
+                        "value": "Functions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions/set"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "set"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -174,80 +207,60 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineGetter__"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Object.prototype.__defineGetter__()"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/__defineSetter__"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Object.prototype.__defineSetter__()"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#defining_getters_and_setters"
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Defining getters and setters"
+                        "value": "Object initializer"
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
-                    "type": "text",
-                    "value": " in JavaScript Guide"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "class"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Property accessors"
+                      }
+                    ]
                   }
                 ]
               },
@@ -272,6 +285,10 @@
                         "value": "Incompatible ES5 change: literal getter and setter functions must now have exactly zero or one arguments"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " by Jeff Walden (August 22, 2010)"
                   }
                 ]
               },
@@ -289,8 +306,8 @@
     }
   },
   "commit": {
-    "sha": "9c4fb236cd9ced12b1eb8e7696d8e6fcb8d8bad3",
-    "date": "2023-02-21T01:35:45.000Z"
+    "sha": "4a989c71bdda5757ac0fc7109d36a0d6503890e9",
+    "date": "2023-04-05T05:56:10.000Z"
   },
   "usage": 0.9591299999999998,
   "support": {

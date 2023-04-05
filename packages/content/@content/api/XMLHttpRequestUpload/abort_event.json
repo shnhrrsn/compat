@@ -5,13 +5,322 @@
     "abort_event"
   ],
   "type": "page",
-  "title": "XMLHttpRequestUpload / abort_event",
+  "title": "XMLHttpRequestUpload: abort event",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/abort_event",
     "spec": [
       "https://xhr.spec.whatwg.org/#event-xhr-abort",
       "https://xhr.spec.whatwg.org/#handler-xhr-onabort"
-    ]
+    ],
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/xmlhttprequestupload/abort_event/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "09db587db402764c2b252440602ceb8d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "abort"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event is fired at "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/XMLHttpRequestUpload"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "XMLHttpRequestUpload"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when a request has been aborted, for example because the program called "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/XMLHttpRequest/abort"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "XMLHttpRequest.abort()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "055bfdf5b4cc604c80e43565a1b49094",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Related events: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/loadstart_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "loadstart"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/load_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "load"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/progress_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "progress"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/error_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "error"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/loadend_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "loadend"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload/timeout_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "timeout"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/XMLHttpRequestUpload"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "XMLHttpRequestUpload"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "74cf7a130e67a2f70859f40e7b07ae027f9efb6b",
+    "date": "2023-04-04T10:28:26.000Z"
   },
   "usage": 0.9588299999999998,
   "support": {
