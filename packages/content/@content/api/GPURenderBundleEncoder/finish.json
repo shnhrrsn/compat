@@ -5,10 +5,186 @@
     "finish"
   ],
   "type": "page",
-  "title": "GPURenderBundleEncoder / finish",
+  "title": "GPURenderBundleEncoder.finish()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/GPURenderBundleEncoder/finish",
-    "spec": "https://gpuweb.github.io/gpuweb/#dom-gpurenderbundleencoder-finish"
+    "spec": "https://gpuweb.github.io/gpuweb/#dom-gpurenderbundleencoder-finish",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/gpurenderbundleencoder/finish/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a21d804586f03f7cef4df6b2c17ec3cb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "finish()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/GPURenderBundleEncoder"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GPURenderBundleEncoder"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface completes recording of the current render bundle command sequence, returning a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/GPURenderBundle"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GPURenderBundle"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object that can be passed into a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/GPURenderPassEncoder/executeBundles"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GPURenderPassEncoder.executeBundles()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " call to execute those commands in a specific render pass."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "d7dfb8b12a3e73cfd40b7af860c434fb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebGPU_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebGPU API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "7b5ca549ef7856f229e4085e16fb2ebd8196b326",
+    "date": "2023-04-05T15:09:22.000Z"
   },
   "usage": 0.0002,
   "support": {

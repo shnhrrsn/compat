@@ -5,10 +5,201 @@
     "popErrorScope"
   ],
   "type": "page",
-  "title": "GPUDevice / popErrorScope",
+  "title": "GPUDevice.popErrorScope()",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/GPUDevice/popErrorScope",
-    "spec": "https://gpuweb.github.io/gpuweb/#dom-gpudevice-poperrorscope"
+    "spec": "https://gpuweb.github.io/gpuweb/#dom-gpudevice-poperrorscope",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/gpudevice/poperrorscope/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "5489d031000c17631fbd4c9655247ee2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "popErrorScope()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the\n"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/GPUDevice"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GPUDevice"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface pops an existing GPU error scope from the error scope stack (originally pushed using "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/GPUDevice/pushErrorScope"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GPUDevice.pushErrorScope()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") and returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that resolves to an object describing the first error captured in the scope, or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "null"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if no error occurred."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "d7dfb8b12a3e73cfd40b7af860c434fb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/WebGPU_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebGPU API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "840132f789c57681781d874734edd33da9d5ab90",
+    "date": "2023-04-05T09:43:21.000Z"
   },
   "usage": 0.0002,
   "support": {
