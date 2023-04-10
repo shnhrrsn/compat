@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "cfbd960a40c34b6c26edd456ceb68c8b",
+      "id": "6000dde27cf2476cd1c5df62769b85a8",
       "tree": {
         "type": "root",
         "children": [
@@ -64,31 +64,6 @@
               },
               {
                 "type": "text",
-                "value": ". To access part of an array without modifying it, see "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/Array/slice"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "slice()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
                 "value": "."
               }
             ]
@@ -100,7 +75,7 @@
       }
     },
     "seeAlso": {
-      "id": "0874d8a560f5c61ce8b0d35f5a56e20c",
+      "id": "f3314e6c78eb678071c751158bf71335",
       "tree": {
         "type": "root",
         "children": [
@@ -133,7 +108,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "push()"
+                            "value": "Array.prototype.push()"
                           }
                         ]
                       }
@@ -158,15 +133,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "pop()"
+                            "value": "Array.prototype.pop()"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "— add/remove elements from the end of the array"
                   }
                 ]
               },
@@ -194,7 +165,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "unshift()"
+                            "value": "Array.prototype.unshift()"
                           }
                         ]
                       }
@@ -219,15 +190,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "shift()"
+                            "value": "Array.prototype.shift()"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "— add/remove elements from the beginning of the array"
                   }
                 ]
               },
@@ -255,15 +222,33 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "concat()"
+                            "value": "Array.prototype.concat()"
                           }
                         ]
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
-                    "type": "text",
-                    "value": "— returns a new array comprised of this array joined with other array(s) and/or value(s)"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array.prototype.toSpliced()"
+                      }
+                    ]
                   }
                 ]
               },
@@ -281,8 +266,8 @@
     }
   },
   "commit": {
-    "sha": "f428a5d107649c3a51bcff86f831833313086d27",
-    "date": "2023-03-30T16:35:01.000Z"
+    "sha": "e8383b94615de06243607843361202ddba8451bf",
+    "date": "2023-04-09T07:23:11.000Z"
   },
   "usage": 0.9593299999999998,
   "support": {
