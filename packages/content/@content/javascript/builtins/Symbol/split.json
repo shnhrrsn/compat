@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "d5d7513e808c6a0eeb7ba3480bc9ad76",
+      "id": "3f5b8fe3b5352759d2e354e2dfa08e3f",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,39 @@
               },
               {
                 "type": "text",
-                "value": " static data property represents the well-known symbol specifying the method that splits a string at the indices that match a regular expression. This function is called by the "
+                "value": " static data property represents the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "well-known symbol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@@split"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The "
               },
               {
                 "type": "element",
@@ -72,7 +104,7 @@
               },
               {
                 "type": "text",
-                "value": " method."
+                "value": " method looks up this symbol on its first argument for the method that splits a string at the indices that match the current object."
               }
             ]
           }
@@ -83,7 +115,7 @@
       }
     },
     "seeAlso": {
-      "id": "163d98fb0c5e843e4d4c5b2bf4590415",
+      "id": "fc5915ffc27455a6eccdf2de8e09b170",
       "tree": {
         "type": "root",
         "children": [
@@ -188,6 +220,38 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
+                      "href": "/javascript/builtins/Symbol/matchAll"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Symbol.matchAll"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
                       "href": "/javascript/builtins/Symbol/replace"
                     },
                     "children": [
@@ -252,7 +316,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/RegExp/@@split"
+                      "href": "/javascript/builtins/String/split"
                     },
                     "children": [
                       {
@@ -262,39 +326,48 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "RegExp.prototype"
+                            "value": "String.prototype.split()"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "href": "</code"
-                        },
-                        "children": []
                       }
                     ]
                   }
                 ]
               },
               {
+                "type": "text",
+                "value": "\n"
+              },
+              {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "RegExp.prototype[@@split]()"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -306,8 +379,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "427e8d03276b4915c08c5f0541452fb1c830c295",
+    "date": "2023-04-10T16:21:17.000Z"
   },
   "usage": 0.95288,
   "support": {

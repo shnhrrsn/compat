@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "487a2ed227d4e71d4423647e6ff6d965",
+      "id": "07cd90c7098679eb26aab4cc80fc6764",
       "tree": {
         "type": "root",
         "children": [
@@ -47,31 +47,71 @@
               },
               {
                 "type": "text",
-                "value": " static data property represents the well-known symbol specifying the method that returns the iterator for an object. If this property is set on an object, it is an iterable and can be used in a "
+                "value": " static data property represents the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "for...of"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "well-known symbol"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " loop and various other syntaxes."
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@@iterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterable protocol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " looks up this symbol for the method that returns the iterator for an object. In order for an object to be iterable, it must have an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@@iterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " key."
               }
             ]
           }
@@ -82,7 +122,7 @@
       }
     },
     "seeAlso": {
-      "id": "3c7f87d51282ce7be4346c1bf71f7974",
+      "id": "3a1a1be92edd00b099589c4204bfaa7e",
       "tree": {
         "type": "root",
         "children": [
@@ -178,8 +218,7 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/Array/@@iterator"
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator"
                     },
                     "children": [
                       {
@@ -189,133 +228,30 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Array.prototype"
+                            "value": "Array.prototype[@@iterator]()"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "href": "</code"
-                        },
-                        "children": []
                       }
                     ]
                   }
                 ]
               },
               {
+                "type": "text",
+                "value": "\n"
+              },
+              {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "li",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@iterator"
+                    },
                     "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "internal": "",
-                          "href": "/javascript/builtins/TypedArray/@@iterator"
-                        },
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "TypedArray.prototype"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "</code"
-                            },
-                            "children": []
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/javascript/builtins/String/@@iterator"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "String.prototype"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "a",
-                                "properties": {
-                                  "href": "</code"
-                                },
-                                "children": []
-                              }
-                            ]
-                          }
-                        ]
-                      },
                       {
                         "type": "element",
                         "tagName": "code",
@@ -323,121 +259,172 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "\n"
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "li",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "a",
-                                "properties": {
-                                  "internal": "",
-                                  "href": "/javascript/builtins/Map/@@iterator"
-                                },
-                                "children": [
-                                  {
-                                    "type": "element",
-                                    "tagName": "code",
-                                    "properties": {},
-                                    "children": [
-                                      {
-                                        "type": "text",
-                                        "value": "Map.prototype"
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "element",
-                                    "tagName": "a",
-                                    "properties": {
-                                      "href": "</code"
-                                    },
-                                    "children": []
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "\n"
-                              },
-                              {
-                                "type": "element",
-                                "tagName": "li",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "element",
-                                    "tagName": "a",
-                                    "properties": {
-                                      "internal": "",
-                                      "href": "/javascript/builtins/Set/@@iterator"
-                                    },
-                                    "children": [
-                                      {
-                                        "type": "element",
-                                        "tagName": "code",
-                                        "properties": {},
-                                        "children": [
-                                          {
-                                            "type": "text",
-                                            "value": "Set.prototype"
-                                          }
-                                        ]
-                                      }
-                                    ]
-                                  },
-                                  {
-                                    "type": "element",
-                                    "tagName": "code",
-                                    "properties": {},
-                                    "children": [
-                                      {
-                                        "type": "element",
-                                        "tagName": "a",
-                                        "properties": {
-                                          "href": "</code"
-                                        },
-                                        "children": []
-                                      }
-                                    ]
-                                  }
-                                ]
-                              },
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "\n"
-                                  }
-                                ]
-                              }
-                            ]
+                            "value": "TypedArray.prototype[@@iterator]()"
                           }
                         ]
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "String.prototype[@@iterator]()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Map.prototype[@@iterator]()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Set.prototype[@@iterator]()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions/arguments/@@iterator"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "arguments[@@iterator]()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments/@@iterator"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Segments.prototype[@@iterator]()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -449,8 +436,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "427e8d03276b4915c08c5f0541452fb1c830c295",
+    "date": "2023-04-10T16:21:17.000Z"
   },
   "usage": 0.9540799999999999,
   "support": {

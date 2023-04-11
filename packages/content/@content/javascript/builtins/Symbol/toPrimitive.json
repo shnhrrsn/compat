@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "4bbfed7fc58354c95784c461bf635d37",
+      "id": "387f6bf2bad7e66c95fa75f5688a3232",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,39 @@
               },
               {
                 "type": "text",
-                "value": " static data property represents the well-known symbol specifying the method that accepts a preferred type and returns a primitive representation of an object. It is called in priority by all "
+                "value": " static data property represents the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "well-known symbol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@@toPrimitive"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". All "
               },
               {
                 "type": "element",
@@ -64,7 +96,37 @@
               },
               {
                 "type": "text",
-                "value": " algorithms."
+                "value": " algorithms look up this symbol on objects for the method that accepts a preferred type and returns a primitive representation of the object, before falling back to using the object's "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "valueOf()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "toString()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " methods."
               }
             ]
           }
@@ -75,7 +137,7 @@
       }
     },
     "seeAlso": {
-      "id": "489f8d44f66c636fa2ee3c81dbe80a41",
+      "id": "c667831f8525ff0fd1fbb90a9c914758",
       "tree": {
         "type": "root",
         "children": [
@@ -97,8 +159,57 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/Date/@@toPrimitive"
+                      "href": "https://github.com/zloirock/core-js#ecmascript-symbol"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Polyfill of "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Symbol.toPrimitive"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " in "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "core-js"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive"
                     },
                     "children": [
                       {
@@ -108,157 +219,112 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Date.prototype"
+                            "value": "Date.prototype[@@toPrimitive]()"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "href": "</code"
-                        },
-                        "children": []
                       }
                     ]
                   }
                 ]
               },
               {
+                "type": "text",
+                "value": "\n"
+              },
+              {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "li",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/@@toPrimitive"
+                    },
                     "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "internal": "",
-                          "href": "/javascript/builtins/Symbol/@@toPrimitive"
-                        },
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Symbol.prototype"
-                              }
-                            ]
-                          }
-                        ]
-                      },
                       {
                         "type": "element",
                         "tagName": "code",
                         "properties": {},
                         "children": [
                           {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "</code"
-                            },
-                            "children": []
+                            "type": "text",
+                            "value": "Symbol.prototype[@@toPrimitive]()"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/javascript/builtins/Object/toString"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "Object.prototype.toString()"
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/javascript/builtins/Object/valueOf"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "Object.prototype.valueOf()"
-                                  }
-                                ]
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Object/toString"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Object.prototype.toString()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Object/valueOf"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Object.prototype.valueOf()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -270,8 +336,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "427e8d03276b4915c08c5f0541452fb1c830c295",
+    "date": "2023-04-10T16:21:17.000Z"
   },
   "usage": 0.95358,
   "support": {

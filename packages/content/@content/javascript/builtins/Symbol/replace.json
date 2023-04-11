@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "516a1028304c951a24b3f14ce5f83311",
+      "id": "51f8efcdcee4f4f2cde10afb2ab058ee",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,39 @@
               },
               {
                 "type": "text",
-                "value": " static data property represents the well-known symbol specifying the method that replaces matched substrings of a string. This function is called by the "
+                "value": " static data property represents the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol#well-known_symbols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "well-known symbol"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@@replace"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The "
               },
               {
                 "type": "element",
@@ -72,7 +104,7 @@
               },
               {
                 "type": "text",
-                "value": " method."
+                "value": " method looks up this symbol on its first argument for the method that replaces substrings matched by the current object."
               }
             ]
           }
@@ -83,7 +115,7 @@
       }
     },
     "seeAlso": {
-      "id": "3a7647036936c804c6e1b6cb6ead82ce",
+      "id": "2f55093c0d00a01a6ed2cc43b0ea30d0",
       "tree": {
         "type": "root",
         "children": [
@@ -188,6 +220,38 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
+                      "href": "/javascript/builtins/Symbol/matchAll"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Symbol.matchAll"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
                       "href": "/javascript/builtins/Symbol/search"
                     },
                     "children": [
@@ -252,7 +316,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/RegExp/@@replace"
+                      "href": "/javascript/builtins/String/replace"
                     },
                     "children": [
                       {
@@ -262,39 +326,48 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "RegExp.prototype"
+                            "value": "String.prototype.replace()"
                           }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "href": "</code"
-                        },
-                        "children": []
                       }
                     ]
                   }
                 ]
               },
               {
+                "type": "text",
+                "value": "\n"
+              },
+              {
                 "type": "element",
-                "tagName": "code",
+                "tagName": "li",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "RegExp.prototype[@@replace]()"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -306,8 +379,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "427e8d03276b4915c08c5f0541452fb1c830c295",
+    "date": "2023-04-10T16:21:17.000Z"
   },
   "usage": 0.95288,
   "support": {
