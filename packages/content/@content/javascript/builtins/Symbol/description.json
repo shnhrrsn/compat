@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "193da2931a3bbc683858347948e36cda",
+      "id": "d011682d052fca99e15fc29e4aa46ec8",
       "tree": {
         "type": "root",
         "children": [
@@ -25,7 +25,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The read-only "
+                "value": "The "
               },
               {
                 "type": "element",
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " property is a string returning the optional description of "
+                "value": " accessor property of "
               },
               {
                 "type": "element",
@@ -72,7 +72,22 @@
               },
               {
                 "type": "text",
-                "value": " objects."
+                "value": " values returns a string containing the description of this symbol, or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "undefined"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if the symbol has no description."
               }
             ]
           }
@@ -216,8 +231,8 @@
     }
   },
   "commit": {
-    "sha": "f3df52530f974e26dd3b14f9e8d42061826dea20",
-    "date": "2023-02-21T00:31:04.000Z"
+    "sha": "16bacf2194dc9e9ff6ee5bcc65316547cf88a8d9",
+    "date": "2023-04-12T05:47:31.000Z"
   },
   "usage": 0.9485,
   "support": {
