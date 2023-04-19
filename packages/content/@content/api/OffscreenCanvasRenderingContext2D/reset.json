@@ -5,9 +5,202 @@
     "reset"
   ],
   "type": "page",
-  "title": "OffscreenCanvasRenderingContext2D / reset",
+  "title": "OffscreenCanvasRenderingContext2D",
   "links": {
-    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-reset"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D#canvasrenderingcontext2d.reset",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-reset",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/offscreencanvasrenderingcontext2d/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "cd228322df8f4916962de77c1ee06cc4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "OffscreenCanvasRenderingContext2D"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CanvasRenderingContext2D"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CanvasRenderingContext2D"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " rendering context for drawing to the bitmap of an "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "OffscreenCanvas"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object.\nIt is similar to the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CanvasRenderingContext2D"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object, with the following differences:"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "8f044394bf64f0adaa3602472ba6132c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLCanvasElement"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLCanvasElement"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/canvas"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<canvas>"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "bf8f50a256ded858442d49d532754d830c1a2bcd",
+    "date": "2023-04-18T06:45:20.000Z"
   },
   "usage": 0.6717400000000001,
   "support": {
@@ -91,7 +284,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1683590400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -100,7 +296,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1683590400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -111,7 +310,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1683590400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -120,7 +322,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1683590400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -322,7 +527,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
