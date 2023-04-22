@@ -249,13 +249,26 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Currently supported on Linux and Windows only."
+          ],
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "dom.webgpu.indirect-dispatch.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ],
+          "partial_implementation": true
         }
       ]
     },
