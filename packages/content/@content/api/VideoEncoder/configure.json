@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "4dbdfb9b7916e8c44bffec5eba23b902",
+      "id": "f82f6cf72ac0143c7177e007e3548e68",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,82 @@
               },
               {
                 "type": "text",
-                "value": " interface enqueues a control message to configure the video encoder for encoding chunks."
+                "value": " interface changes the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder/state"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "state"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of the encoder to \"configured\" and asynchronously prepares the encoder to accept "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "VideoEncoder"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "s for encoding with the specified parameters. If the encoder doesn't support the specified parameters or can't be initialized for other reasons an error will be reported via the error callback provided to the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "VideoEncoder"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " constructor."
               }
             ]
           }
@@ -83,8 +158,8 @@
     }
   },
   "commit": {
-    "sha": "532ecbca7b68e7defa4612bc7b00885a13163641",
-    "date": "2023-04-08T06:43:07.000Z"
+    "sha": "2a57de4dc01a3cf77b361bbc89b9a90c5b04dc91",
+    "date": "2023-04-26T12:50:00.000Z"
   },
   "usage": 0.68151,
   "support": {

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "e25151ce9057f6dca561e3e75cb056d6",
+      "id": "b991521793dc95cd9e58db2ce56c67f3",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,107 @@
               },
               {
                 "type": "text",
-                "value": " interface resets all states including configuration, control messages in the control message queue, and all pending callbacks."
+                "value": " interface synchronously cancels all pending encodes and callbacks, frees all underlying resources and sets the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder/state"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "state"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to \"unconfigured\".\nAfter calling "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder/reset"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "reset()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder/configure"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "configure()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " must be called before resuming "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/VideoEncoder/encode"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "encode()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " calls."
               }
             ]
           }
@@ -83,8 +183,8 @@
     }
   },
   "commit": {
-    "sha": "532ecbca7b68e7defa4612bc7b00885a13163641",
-    "date": "2023-04-08T06:43:07.000Z"
+    "sha": "2a57de4dc01a3cf77b361bbc89b9a90c5b04dc91",
+    "date": "2023-04-26T12:50:00.000Z"
   },
   "usage": 0.68151,
   "support": {
