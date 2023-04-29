@@ -326,7 +326,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -335,7 +338,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -475,6 +481,24 @@
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "The <code>text-decoration-thickness</code> property does not work unless either <code>text-underline-offset</code> is set to something other than <code>auto</code> or <code>text-decoration-color</code> is set to something other than <code>currentColor</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1154537'>Chromium bug 1154537</a>."
+          ],
+          "added": {
+            "version": "62.0.0",
+            "date": 1613433600
+          },
+          "removed": {
+            "version": "63.0.0",
+            "date": 1618531200
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -553,6 +577,24 @@
             "global": 0.022,
             "relative": 0.8943089430894311
           }
+        },
+        {
+          "notes": [
+            "The <code>text-decoration-thickness</code> property does not work unless either <code>text-underline-offset</code> is set to something other than <code>auto</code> or <code>text-decoration-color</code> is set to something other than <code>currentColor</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1154537'>Chromium bug 1154537</a>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1618617600
+          },
+          "removed": {
+            "version": "15.0.0",
+            "date": 1628812800
+          },
+          "usage": {
+            "global": 0.0004,
+            "relative": 0.01626016260162602
+          },
+          "partial_implementation": true
         }
       ]
     },

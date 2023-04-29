@@ -215,7 +215,7 @@
     "sha": "1f216a70d94c3901c5767e6108a29daa48edc070",
     "date": "2023-04-07T06:13:50.000Z"
   },
-  "usage": 0.88854,
+  "usage": 0.8076200000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -298,17 +298,31 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "90.0.0",
-        "date": 1626134400
+        "version": "112.0.0",
+        "date": 1681171200
       },
       "removed": null,
       "usage": {
-        "global": 0.02569999999999999,
-        "relative": 0.9589552238805972
+        "global": 0.0001,
+        "relative": 0.003731343283582092
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "112.0.0",
+            "date": 1681171200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0001,
+            "relative": 0.003731343283582092
+          }
+        },
+        {
+          "notes": [
+            "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+          ],
           "added": {
             "version": "90.0.0",
             "date": 1626134400
@@ -317,15 +331,16 @@
           "usage": {
             "global": 0.02569999999999999,
             "relative": 0.9589552238805972
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "90.0.0",
-        "date": 1626134400
+        "version": "112.0.0",
+        "date": 1681171200
       },
       "removed": null,
       "usage": {
@@ -336,6 +351,20 @@
         {
           "notes": null,
           "added": {
+            "version": "112.0.0",
+            "date": 1681171200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+          ],
+          "added": {
             "version": "90.0.0",
             "date": 1626134400
           },
@@ -343,7 +372,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -448,17 +478,31 @@
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "15.0.0",
-        "date": 1632096000
+        "version": "16.1.0",
+        "date": 1666569600
       },
       "removed": null,
       "usage": {
-        "global": 0.0372,
-        "relative": 0.8512585812356981
+        "global": 0.0245,
+        "relative": 0.5606407322654464
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "16.1.0",
+            "date": 1666569600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0245,
+            "relative": 0.5606407322654464
+          }
+        },
+        {
+          "notes": [
+            "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+          ],
           "added": {
             "version": "15.0.0",
             "date": 1632096000
@@ -467,24 +511,39 @@
           "usage": {
             "global": 0.0372,
             "relative": 0.8512585812356981
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
       "added": {
-        "version": "15.0.0",
-        "date": 1632096000
+        "version": "16.1.0",
+        "date": 1666569600
       },
       "removed": null,
       "usage": {
-        "global": 0.15389999999999998,
-        "relative": 0.9025334271639693
+        "global": 0.11128,
+        "relative": 0.6525920713112834
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "16.1.0",
+            "date": 1666569600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.11128,
+            "relative": 0.6525920713112834
+          }
+        },
+        {
+          "notes": [
+            "Implements an older version of the specification. The gradient starts from a line going vertically up from the center, like the equivalent CSS function."
+          ],
           "added": {
             "version": "15.0.0",
             "date": 1632096000
@@ -493,7 +552,8 @@
           "usage": {
             "global": 0.15389999999999998,
             "relative": 0.9025334271639693
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
