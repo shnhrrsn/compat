@@ -5,12 +5,113 @@
     "abort"
   ],
   "type": "page",
-  "title": "AbortSignal / abort",
+  "title": "AbortSignal: abort() static method",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/AbortSignal/abort",
-    "spec": "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-abort①"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/AbortSignal/abort_static",
+    "spec": "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-abort①",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/abortsignal/abort_static/index.md"
   },
-  "usage": 0.88756,
+  "content": {
+    "intro": {
+      "id": "0f502eca6d4f07f650c6b3bb61cbad4b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal.abort()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method returns an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that is already set as aborted (and which does not trigger an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal/abort_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "abort"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "f29d8a648ef7ada05a00c358bfb9e9f67f3bc90d",
+    "date": "2023-04-28T17:36:14.000Z"
+  },
+  "usage": 0.8874699999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -20,8 +121,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.22599999999999995,
-        "relative": 0.9397089397089398
+        "global": 0.22579999999999995,
+        "relative": 0.9392678868552412
       },
       "history": [
         {
@@ -32,8 +133,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.22599999999999995,
-            "relative": 0.9397089397089398
+            "global": 0.22579999999999995,
+            "relative": 0.9392678868552412
           }
         }
       ]
@@ -46,8 +147,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.36284000000000005,
-        "relative": 0.9740671140939595
+        "global": 0.36242999999999986,
+        "relative": 0.9740647172651041
       },
       "history": [
         {
@@ -58,8 +159,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.36284000000000005,
-            "relative": 0.9740671140939595
+            "global": 0.36242999999999986,
+            "relative": 0.9740647172651041
           }
         }
       ]
@@ -98,8 +199,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.048499999999999995,
-        "relative": 0.9958932238193019
+        "global": 0.0486,
+        "relative": 0.9959016393442623
       },
       "history": [
         {
@@ -110,8 +211,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.048499999999999995,
-            "relative": 0.9958932238193019
+            "global": 0.0486,
+            "relative": 0.9959016393442623
           }
         }
       ]
@@ -124,8 +225,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.024099999999999993,
-        "relative": 0.9601593625498009
+        "global": 0.023999999999999994,
+        "relative": 0.9600000000000001
       },
       "history": [
         {
@@ -136,8 +237,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.024099999999999993,
-            "relative": 0.9601593625498009
+            "global": 0.023999999999999994,
+            "relative": 0.9600000000000001
           }
         }
       ]
@@ -248,8 +349,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0039000000000000003,
-        "relative": 0.32773109243697474
+        "global": 0.0038,
+        "relative": 0.3247863247863247
       },
       "history": [
         {
@@ -260,8 +361,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0039000000000000003,
-            "relative": 0.32773109243697474
+            "global": 0.0038,
+            "relative": 0.3247863247863247
           }
         }
       ]
@@ -300,8 +401,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0441,
-        "relative": 0.8563106796116504
+        "global": 0.04460000000000001,
+        "relative": 0.8560460652591171
       },
       "history": [
         {
@@ -312,8 +413,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0441,
-            "relative": 0.8563106796116504
+            "global": 0.04460000000000001,
+            "relative": 0.8560460652591171
           }
         }
       ]
@@ -326,8 +427,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.15682000000000001,
-        "relative": 0.9094177684991878
+        "global": 0.15683999999999998,
+        "relative": 0.9096920132242905
       },
       "history": [
         {
@@ -338,8 +439,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.15682000000000001,
-            "relative": 0.9094177684991878
+            "global": 0.15683999999999998,
+            "relative": 0.9096920132242905
           }
         }
       ]
@@ -352,8 +453,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.021299999999999996,
-        "relative": 0.8658536585365858
+        "global": 0.021399999999999995,
+        "relative": 0.8663967611336036
       },
       "history": [
         {
@@ -364,8 +465,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.021299999999999996,
-            "relative": 0.8658536585365858
+            "global": 0.021399999999999995,
+            "relative": 0.8663967611336036
           }
         }
       ]

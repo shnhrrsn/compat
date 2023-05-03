@@ -5,12 +5,268 @@
     "isTypeSupported"
   ],
   "type": "page",
-  "title": "MediaSource / isTypeSupported",
+  "title": "MediaSource: isTypeSupported() static method",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/MediaSource/isTypeSupported",
-    "spec": "https://w3c.github.io/media-source/#dom-mediasource-istypesupported"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/MediaSource/isTypeSupported_static",
+    "spec": "https://w3c.github.io/media-source/#dom-mediasource-istypesupported",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/mediasource/istypesupported_static/index.md"
   },
-  "usage": 0.7767000000000001,
+  "content": {
+    "intro": {
+      "id": "1b7361efa42951a6be05fa369d8c62d7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "MediaSource.isTypeSupported()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method returns a boolean value which is "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if the given MIME type and (optional) codec are "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "likely"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to be supported by the current "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/user_agent"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "user agent"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1c03ed979afe70408abaca0285711b99",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Media_Source_Extensions_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Media Source Extensions API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Media/Formats"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Guide to media types and formats on the web"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Media/Formats/codecs_parameter"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Codecs in common media types"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/SourceBuffer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "SourceBuffer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/SourceBufferList"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "SourceBufferList"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "f29d8a648ef7ada05a00c358bfb9e9f67f3bc90d",
+    "date": "2023-04-28T17:36:14.000Z"
+  },
+  "usage": 0.7766799999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -20,7 +276,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.24049999999999994,
+        "global": 0.24039999999999995,
         "relative": 1
       },
       "history": [
@@ -35,7 +291,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.24049999999999994,
+            "global": 0.24039999999999995,
             "relative": 1
           }
         }
@@ -49,7 +305,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37250000000000016,
+        "global": 0.3720799999999999,
         "relative": 1
       },
       "history": [
@@ -64,7 +320,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37250000000000016,
+            "global": 0.3720799999999999,
             "relative": 1
           }
         }
@@ -78,7 +334,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04869999999999999,
+        "global": 0.04879999999999999,
         "relative": 1
       },
       "history": [
@@ -93,7 +349,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04869999999999999,
+            "global": 0.04879999999999999,
             "relative": 1
           }
         }
@@ -107,7 +363,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02509999999999999,
+        "global": 0.02499999999999999,
         "relative": 1
       },
       "history": [
@@ -121,7 +377,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02509999999999999,
+            "global": 0.02499999999999999,
             "relative": 1
           }
         }
@@ -220,7 +476,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0119,
+        "global": 0.011700000000000004,
         "relative": 1
       },
       "history": [
@@ -235,7 +491,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0119,
+            "global": 0.011700000000000004,
             "relative": 1
           }
         }
@@ -278,7 +534,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.051500000000000004,
+        "global": 0.05210000000000001,
         "relative": 1
       },
       "history": [
@@ -290,7 +546,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.051500000000000004,
+            "global": 0.05210000000000001,
             "relative": 1
           }
         }
@@ -315,8 +571,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16574000000000003,
-            "relative": 0.9611459058223147
+            "global": 0.16571000000000002,
+            "relative": 0.961139145061191
           },
           "partial_implementation": true
         }
@@ -330,7 +586,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.024599999999999983,
+        "global": 0.024699999999999986,
         "relative": 1
       },
       "history": [
@@ -345,7 +601,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.024599999999999983,
+            "global": 0.024699999999999986,
             "relative": 1
           }
         }
