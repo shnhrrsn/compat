@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "8d6c1ad3eb6f6e1c3088c34a743bea23",
+      "id": "10057a0753c864e70b974b2dcd9810db",
       "tree": {
         "type": "root",
         "children": [
@@ -63,79 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " returns the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "https://drafts.csswg.org/web-animations-1/#animation-replace-state"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "replace state"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " of the animation. This will be "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "active"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " if the animation has been removed, or "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "persisted"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " if "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/Animation/persist"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Animation.persist()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " has been invoked on it."
+                "value": " indicates whether the animation has been automatically removed after being replaced by another animation."
               }
             ]
           }
@@ -146,7 +74,7 @@
       }
     },
     "seeAlso": {
-      "id": "9515ce647061d49ced22106781da097b",
+      "id": "74cf7e34158d5eebd9613fb43610a6a7",
       "tree": {
         "type": "root",
         "children": [
@@ -214,6 +142,74 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Animation/remove_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "remove"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " event"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Animation/persist"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Animation.persist()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -225,8 +221,8 @@
     }
   },
   "commit": {
-    "sha": "135b8311a5e3d12789e8421845be3ce026ef72b8",
-    "date": "2023-04-06T14:57:25.000Z"
+    "sha": "e38ef893714331b204fe4c82d373a865db4d66a1",
+    "date": "2023-05-04T16:24:29.000Z"
   },
   "usage": 0.9174099999999998,
   "support": {

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "36c090b0428ef77e159b851b48798f23",
+      "id": "8114fa10d00c163755c755047441e325",
       "tree": {
         "type": "root",
         "children": [
@@ -81,7 +81,7 @@
               },
               {
                 "type": "text",
-                "value": " interface explicitly persists an animation, when it would otherwise be removed due to the browser's "
+                "value": " interface explicitly persists an animation, preventing it from being "
               },
               {
                 "type": "element",
@@ -92,13 +92,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Automatically removing filling animations"
+                    "value": "automatically removed"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " behavior."
+                "value": " when it is replaced by another animation."
               }
             ]
           }
@@ -109,7 +109,7 @@
       }
     },
     "seeAlso": {
-      "id": "33de8e2a726335fcd757e904572b44eb",
+      "id": "a8351bd31f7f693d7db6760c66c11155",
       "tree": {
         "type": "root",
         "children": [
@@ -181,6 +181,74 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Animation/replaceState"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Animation.replaceState"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Animation/remove_event"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "remove"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " event"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -192,8 +260,8 @@
     }
   },
   "commit": {
-    "sha": "135b8311a5e3d12789e8421845be3ce026ef72b8",
-    "date": "2023-04-06T14:57:25.000Z"
+    "sha": "e38ef893714331b204fe4c82d373a865db4d66a1",
+    "date": "2023-05-04T16:24:29.000Z"
   },
   "usage": 0.9174099999999998,
   "support": {

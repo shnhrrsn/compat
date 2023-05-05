@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "41ee5429afbd7a1a0425209043defd68",
+      "id": "d46ad449569fe3a77bc615c5f0b958a3",
       "tree": {
         "type": "root",
         "children": [
@@ -81,7 +81,24 @@
               },
               {
                 "type": "text",
-                "value": " interface commits the end styling state of an animation to the element being animated, even after that animation has been removed. It will cause the end styling state to be written to the element being animated, in the form of properties inside a "
+                "value": " interface writes the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/computed_value"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "computed values"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of the animation's current styles into its target element's  attribute. "
               },
               {
                 "type": "element",
@@ -90,13 +107,30 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "style"
+                    "value": "commitStyles()"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " attribute."
+                "value": " works even if the animation has been "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Animation#automatically_removing_filling_animations"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "automatically removed"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -190,8 +224,8 @@
     }
   },
   "commit": {
-    "sha": "135b8311a5e3d12789e8421845be3ce026ef72b8",
-    "date": "2023-04-06T14:57:25.000Z"
+    "sha": "e38ef893714331b204fe4c82d373a865db4d66a1",
+    "date": "2023-05-04T16:24:29.000Z"
   },
   "usage": 0.9174099999999998,
   "support": {
