@@ -5,10 +5,312 @@
     "capturing_group"
   ],
   "type": "page",
-  "title": "regular_expressions / capturing_group",
+  "title": "Capturing group: (...)",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group",
-    "spec": "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom"
+    "spec": "https://tc39.es/ecma262/multipage/text-processing.html#prod-Atom",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/regular_expressions/capturing_group/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "18eaa6c8b77aa884abbbe48972bdacd9",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "capturing group"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " groups a subpattern, allowing you to apply a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "quantifier"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to the entire group or use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Disjunction"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "disjunctions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " within it. It memorizes information about the subpattern match, so that you can refer back to it later with a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "backreference"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or access the information through the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec#return_value"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "match results"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "8b8f5261b23371aaf9e3cbba070778a8",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Groups_and_backreferences"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Groups and backreferences"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Regular expressions reference"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Non-capturing_group"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Non-capturing group: "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "(?:...)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Named capturing group: "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "(?<name>...)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Backreference: "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "\\1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": ", "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "\\2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0ae85e77a55f1c32bb831b611a497dab7f6a03c7",
+    "date": "2023-05-05T07:48:07.000Z"
   },
   "usage": 0.94949,
   "support": {

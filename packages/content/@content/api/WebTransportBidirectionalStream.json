@@ -4,9 +4,240 @@
     "WebTransportBidirectionalStream"
   ],
   "type": "page",
-  "title": "api / WebTransportBidirectionalStream",
+  "title": "WebTransportBidirectionalStream",
   "links": {
-    "spec": "https://w3c.github.io/webtransport/#webtransportbidirectionalstream"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/WebTransportBidirectionalStream",
+    "spec": "https://w3c.github.io/webtransport/#webtransportbidirectionalstream",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/webtransportbidirectionalstream/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "61af87b83343e34a40ff198e261d224c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebTransportBidirectionalStream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebTransport API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " represents a bidirectional stream created by a server or a client that can be used for reliable transport. Provides access to a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ReadableStream"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ReadableStream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for reading incoming data, and a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/WritableStream"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WritableStream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for writing outgoing data."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a38cf6fae4ddedd21063fe7f031718a5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/webtransport/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using WebTransport"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebSockets API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Streams API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebTransport over HTTP/3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "73b724ad82b94d2a4c314924218367cea2740e97",
+    "date": "2023-03-16T15:51:10.000Z"
   },
   "usage": 0.6546599999999999,
   "support": {
@@ -90,7 +321,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -99,12 +333,34 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "109.0.0",
+            "date": 1673913600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.022099999999999998,
+            "relative": 0.8840000000000003
+          },
+          "flags": [
+            {
+              "name": "network.webtransport.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

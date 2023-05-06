@@ -5,9 +5,242 @@
     "incomingHighWaterMark"
   ],
   "type": "page",
-  "title": "WebTransportDatagramDuplexStream / incomingHighWaterMark",
+  "title": "WebTransportDatagramDuplexStream: incomingHighWaterMark property",
   "links": {
-    "spec": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incominghighwatermark"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/WebTransportDatagramDuplexStream/incomingHighWaterMark",
+    "spec": "https://w3c.github.io/webtransport/#dom-webtransportdatagramduplexstream-incominghighwatermark",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/webtransportdatagramduplexstream/incominghighwatermark/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "e6f0dfcc5fce7d910f779ec56142b39b",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "incomingHighWaterMark"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/WebTransportDatagramDuplexStream"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebTransportDatagramDuplexStream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface gets or sets the high water mark for incoming chunks of data — this is the maximum size, in chunks, that the incoming "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ReadableStream"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ReadableStream"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "'s internal queue can reach before it is considered full. See "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Streams_API/Concepts#internal_queues_and_queuing_strategies"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Internal queues and queuing strategies"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for more information."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "a38cf6fae4ddedd21063fe7f031718a5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/webtransport/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using WebTransport"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebSockets API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Streams API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebTransport over HTTP/3"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "eda49877b9078b24cd18f794470e5e225add9b94",
+    "date": "2023-04-08T06:46:30.000Z"
   },
   "usage": 0.6546599999999999,
   "support": {
@@ -91,7 +324,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -100,12 +336,34 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "preview",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "109.0.0",
+            "date": 1673913600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.022099999999999998,
+            "relative": 0.8840000000000003
+          },
+          "flags": [
+            {
+              "name": "network.webtransport.datagrams.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

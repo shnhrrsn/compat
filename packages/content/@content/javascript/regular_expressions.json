@@ -4,74 +4,231 @@
     "regular_expressions"
   ],
   "type": "listing",
-  "title": "regular_expressions",
+  "title": "Regular expressions",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/regular_expressions/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "e900452264bd926cabd825aa45365dba",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "regular expression"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " ("
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "regex"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for short) allow developers to match strings against a pattern, extract submatch information, or simply test if the string conforms to that pattern. Regular expressions are used in many programming languages, and JavaScript's syntax is inspired by "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.perl.org/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Perl"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "452ae6d32c791c171b02037753f90535",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Regular_expressions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Regular expressions guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/RegExp"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "RegExp"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "0ae85e77a55f1c32bb831b611a497dab7f6a03c7",
+    "date": "2023-05-05T07:48:07.000Z"
+  },
   "children": [
     {
-      "title": "regular_expressions / backreference",
+      "title": "Backreference: \\1, \\2",
       "href": "/javascript/regular_expressions/backreference"
     },
     {
-      "title": "regular_expressions / capturing_group",
+      "title": "Capturing group: (...)",
       "href": "/javascript/regular_expressions/capturing_group"
     },
     {
-      "title": "regular_expressions / character_class",
+      "title": "Character class: [...], [^...]",
       "href": "/javascript/regular_expressions/character_class"
     },
     {
-      "title": "regular_expressions / character_class_escape",
+      "title": "Character class escape: \\d, \\D, \\w, \\W, \\s, \\S",
       "href": "/javascript/regular_expressions/character_class_escape"
     },
     {
-      "title": "regular_expressions / character_escape",
+      "title": "Character escape: \\n, \\u{...}",
       "href": "/javascript/regular_expressions/character_escape"
     },
     {
-      "title": "regular_expressions / disjunction",
+      "title": "Disjunction: |",
       "href": "/javascript/regular_expressions/disjunction"
     },
     {
-      "title": "regular_expressions / input_boundary_assertion",
+      "title": "Input boundary assertion: ^, $",
       "href": "/javascript/regular_expressions/input_boundary_assertion"
     },
     {
-      "title": "regular_expressions / literal_character",
+      "title": "Literal character: a, b",
       "href": "/javascript/regular_expressions/literal_character"
     },
     {
-      "title": "regular_expressions / lookahead_assertion",
+      "title": "Lookahead assertion: (?=...), (?!...)",
       "href": "/javascript/regular_expressions/lookahead_assertion"
     },
     {
-      "title": "regular_expressions / lookbehind_assertion",
+      "title": "Lookbehind assertion: (?<=...), (?<!...)",
       "href": "/javascript/regular_expressions/lookbehind_assertion"
     },
     {
-      "title": "regular_expressions / named_backreference",
+      "title": "Named backreference: \\k<name>",
       "href": "/javascript/regular_expressions/named_backreference"
     },
     {
-      "title": "regular_expressions / named_capturing_group",
+      "title": "Named capturing group: (?<name>...)",
       "href": "/javascript/regular_expressions/named_capturing_group"
     },
     {
-      "title": "regular_expressions / non_capturing_group",
+      "title": "Non-capturing group: (?:...)",
       "href": "/javascript/regular_expressions/non_capturing_group"
     },
     {
-      "title": "regular_expressions / quantifier",
+      "title": "Quantifier: *, +, ?, {n}, {n,}, {n,m}",
       "href": "/javascript/regular_expressions/quantifier"
     },
     {
-      "title": "regular_expressions / unicode_character_class_escape",
+      "title": "Unicode character class escape: \\p{...}, \\P{...}",
       "href": "/javascript/regular_expressions/unicode_character_class_escape"
     },
     {
-      "title": "regular_expressions / wildcard",
+      "title": "Wildcard: .",
       "href": "/javascript/regular_expressions/wildcard"
     },
     {
-      "title": "regular_expressions / word_boundary_assertion",
+      "title": "Word boundary assertion: \\b, \\B",
       "href": "/javascript/regular_expressions/word_boundary_assertion"
     }
   ]
