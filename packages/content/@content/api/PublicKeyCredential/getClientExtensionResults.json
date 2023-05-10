@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "ce4f6a8a5434c27a1eba4686c49541c1",
+      "id": "41179cca22ae8cfbd008816983b91c14",
       "tree": {
         "type": "root",
         "children": [
@@ -22,6 +22,10 @@
             "tagName": "p",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
               {
                 "type": "element",
                 "tagName": "strong",
@@ -42,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " is a method of the\n"
+                "value": " method of the\n"
               },
               {
                 "type": "element",
@@ -67,32 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface that returns an "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/ArrayBuffer"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "ArrayBuffer"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\nwhich contains a map between the extensions identifiers and their results after having\nbeing processed by the client."
+                "value": " interface returns a map between the identifiers of extensions requested during credential creation or authentication, and their results after processing by the user agent."
               }
             ]
           }
@@ -103,7 +82,7 @@
       }
     },
     "seeAlso": {
-      "id": "081917de2ee2e2a7a57e7ddfd06ae0e5",
+      "id": "938f36ca7bfeb5051fbdf3c10d5b5704",
       "tree": {
         "type": "root",
         "children": [
@@ -175,58 +154,6 @@
               {
                 "type": "text",
                 "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "PublicKeyCredentialCreationOptions.extensions"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " which contains the\nclient extensions' input values for the creation of the credential"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "PublicKeyCredentialRequestOptions.extensions"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " which contains the\nclient extensions' input values for the retrieval of the credential"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
               }
             ]
           }
@@ -238,8 +165,8 @@
     }
   },
   "commit": {
-    "sha": "c58e8c1dd6ecbcb63894c7dd17fb9495b9511b4e",
-    "date": "2023-04-07T19:46:21.000Z"
+    "sha": "eb18c44b6758003b85228455e54c491bc98ef0c3",
+    "date": "2023-05-09T13:21:58.000Z"
   },
   "usage": 0.9343099999999998,
   "support": {
