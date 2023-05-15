@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "7f2b7c136633977eaa12cba668998d91",
+      "id": "0b33d6ea27a7d184d0b3b3ef382a447b",
       "tree": {
         "type": "root",
         "children": [
@@ -80,7 +80,57 @@
               },
               {
                 "type": "text",
-                "value": " selector is a resource state pseudo-class that will match an audio, video, or similar resource that is capable of being \"played\" or \"paused\", when that element is \"paused\"."
+                "value": " selector represents an element that is playable, such as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/audio"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<audio>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/video"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<video>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", when that element is \"paused\" (i.e. not \"playing\")."
               }
             ]
           }
@@ -146,8 +196,8 @@
     }
   },
   "commit": {
-    "sha": "5fea7c9593f5e4b4ef13ec65064acf1eabf01e4e",
-    "date": "2023-02-21T06:49:52.000Z"
+    "sha": "7475a6925705450e44ae43ac2ba6a9244b69f4ea",
+    "date": "2023-05-15T04:28:14.000Z"
   },
   "usage": 0.19604000000000002,
   "support": {
