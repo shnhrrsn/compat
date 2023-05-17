@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "363fb44628b28c883618a86f3c6e909d",
+      "id": "df44bd6eb752105d9179f01d190dbd3c",
       "tree": {
         "type": "root",
         "children": [
@@ -71,14 +71,14 @@
               },
               {
                 "type": "text",
-                "value": " interface returns a "
+                "value": " interface allows a document loaded in a third-party context (i.e. embedded in an "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/javascript/builtins/Promise"
+                  "href": "/html/elements/iframe"
                 },
                 "children": [
                   {
@@ -88,7 +88,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "Promise"
+                        "value": "<iframe>"
                       }
                     ]
                   }
@@ -96,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " that resolves if the access to first-party storage was granted, and rejects if access was denied."
+                "value": ") to request access to unpartitioned cookies."
               }
             ]
           }
@@ -182,32 +182,53 @@
     }
   },
   "commit": {
-    "sha": "41a8b9c9832359d445d136b6d7a8a28737badc6b",
-    "date": "2023-04-07T05:52:28.000Z"
+    "sha": "b18b0ea6e71c1178cbdffbe096b4d3ac3947c583",
+    "date": "2023-05-16T08:52:06.000Z"
   },
-  "usage": 0.29474000000000006,
+  "usage": 0.25190000000000007,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0004,
+        "relative": 0.001663893510815308
       },
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
+            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
+          ],
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0004,
+            "relative": 0.001663893510815308
+          }
+        },
+        {
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
           ],
           "added": {
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": null,
+          "removed": {
+            "version": "112.0.0",
+            "date": 1680566400
+          },
           "usage": {
-            "global": 0.23559999999999992,
-            "relative": 0.9800332778702161
+            "global": 0.23519999999999994,
+            "relative": 0.9783693843594009
           },
           "flags": [
             {
@@ -221,25 +242,46 @@
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0054600000000000004,
+        "relative": 0.014673474872346144
       },
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
+            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
+          ],
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0054600000000000004,
+            "relative": 0.014673474872346144
+          }
+        },
+        {
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
           ],
           "added": {
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": null,
+          "removed": {
+            "version": "112.0.0",
+            "date": 1680566400
+          },
           "usage": {
-            "global": 0.37059000000000003,
-            "relative": 0.9959419510884172
+            "global": 0.36513000000000007,
+            "relative": 0.981268476216071
           },
           "flags": [
             {
@@ -254,22 +296,42 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "85.0.0",
-        "date": 1598486400
+        "version": "113.0.0",
+        "date": 1683158400
       },
       "removed": null,
       "usage": {
-        "global": 0.04869999999999999,
-        "relative": 0.9979508196721312
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Each embedded site instance must separately opt in to client-side storage access via a <code>requestStorageAccess()</code> call, as per <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>spec updates</a>."
+          ],
+          "added": {
+            "version": "113.0.0",
+            "date": 1683158400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
+          ],
           "added": {
             "version": "85.0.0",
             "date": 1598486400
           },
-          "removed": null,
+          "removed": {
+            "version": "112.0.0",
+            "date": 1680739200
+          },
           "usage": {
             "global": 0.04869999999999999,
             "relative": 0.9979508196721312
@@ -360,7 +422,7 @@
       "history": [
         {
           "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
           ],
           "added": {
             "version": "8.0.0",
@@ -391,12 +453,17 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
+          ],
           "added": {
             "version": "65.0.0",
             "date": 1573603200
           },
-          "removed": null,
+          "removed": {
+            "version": "98.0.0",
+            "date": null
+          },
           "usage": {
             "global": 0.011400000000000004,
             "relative": 0.9743589743589743
@@ -444,7 +511,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
+          ],
           "added": {
             "version": "11.1.0",
             "date": 1523491200
@@ -470,7 +539,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Client-side storage access granted per-page (<a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>)"
+          ],
           "added": {
             "version": "11.3.0",
             "date": 1522281600
@@ -505,7 +576,10 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -513,8 +587,14 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
+          ],
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
           "removed": null,
           "usage": {
             "global": null,

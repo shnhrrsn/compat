@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "4b56995105c2fc50bd37cf086de043bf",
+      "id": "b66f1ee3bd3b38d058854d6e5375f463",
       "tree": {
         "type": "root",
         "children": [
@@ -96,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " that resolves with a boolean value indicating whether the document has access to its first-party storage."
+                "value": " that resolves with a boolean value indicating whether the document has access to unpartitioned cookies."
               }
             ]
           }
@@ -182,32 +182,48 @@
     }
   },
   "commit": {
-    "sha": "41a8b9c9832359d445d136b6d7a8a28737badc6b",
-    "date": "2023-04-07T05:52:28.000Z"
+    "sha": "b18b0ea6e71c1178cbdffbe096b4d3ac3947c583",
+    "date": "2023-05-16T08:52:06.000Z"
   },
-  "usage": 0.29474000000000006,
+  "usage": 0.3006000000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0004,
+        "relative": 0.001663893510815308
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
-          ],
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0004,
+            "relative": 0.001663893510815308
+          }
+        },
+        {
+          "notes": null,
           "added": {
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": null,
+          "removed": {
+            "version": "112.0.0",
+            "date": 1680566400
+          },
           "usage": {
-            "global": 0.23559999999999992,
-            "relative": 0.9800332778702161
+            "global": 0.23519999999999994,
+            "relative": 0.9783693843594009
           },
           "flags": [
             {
@@ -221,25 +237,41 @@
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0054600000000000004,
+        "relative": 0.014673474872346144
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
-          ],
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0054600000000000004,
+            "relative": 0.014673474872346144
+          }
+        },
+        {
+          "notes": null,
           "added": {
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": null,
+          "removed": {
+            "version": "112.0.0",
+            "date": 1680566400
+          },
           "usage": {
-            "global": 0.37059000000000003,
-            "relative": 0.9959419510884172
+            "global": 0.36513000000000007,
+            "relative": 0.981268476216071
           },
           "flags": [
             {
@@ -359,9 +391,7 @@
       },
       "history": [
         {
-          "notes": [
-            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/989663'>bug 989663</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "8.0.0",
             "date": null
@@ -396,7 +426,10 @@
             "version": "65.0.0",
             "date": 1573603200
           },
-          "removed": null,
+          "removed": {
+            "version": "98.0.0",
+            "date": null
+          },
           "usage": {
             "global": 0.011400000000000004,
             "relative": 0.9743589743589743
@@ -505,7 +538,10 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -514,7 +550,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
           "removed": null,
           "usage": {
             "global": null,
