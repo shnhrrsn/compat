@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "a12fcc97d297c4cd40c88ba62c8f34ab",
+      "id": "b443a5d9ae11bd12e3c790e671bae3bd",
       "tree": {
         "type": "root",
         "children": [
@@ -54,7 +54,37 @@
               },
               {
                 "type": "text",
-                "value": " status code (that is, when the server is asking the client to provide authentication credentials, such as a username and password)."
+                "value": " status code and a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WWW-Authenticate"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header using the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Basic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " scheme (that is, when the server is asking the client to provide authentication credentials, such as a username and password)."
               }
             ]
           }
@@ -66,8 +96,8 @@
     }
   },
   "commit": {
-    "sha": "d6856a051d0ba078ec1d24b80908b1ca174917db",
-    "date": "2023-03-07T05:27:34.000Z"
+    "sha": "614f2d85b95aa32e58a6ff8b7fe2b4984096435c",
+    "date": "2023-05-17T11:21:25.000Z"
   },
   "usage": 0.37439999999999996,
   "support": {
