@@ -86,7 +86,7 @@
     "sha": "2c5465eab20015868a1eeca59c5623d37b105f7c",
     "date": "2023-03-07T05:35:11.000Z"
   },
-  "usage": 0.3007999999999999,
+  "usage": 0.0052000000000000015,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -94,22 +94,30 @@
         "version": "1.0.0",
         "date": 1228953600
       },
-      "removed": null,
+      "removed": {
+        "version": "77.0.0",
+        "date": 1568073600
+      },
       "usage": {
-        "global": 0.24039999999999995,
-        "relative": 1
+        "global": 0.004800000000000001,
+        "relative": 0.0199667221297837
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Removed to fix a security problem. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/986043'>Chromium Issue 986043</a> Security: Malicious Extension can ignore SOP, with only `downloads` permission."
+          ],
           "added": {
             "version": "1.0.0",
             "date": 1228953600
           },
-          "removed": null,
+          "removed": {
+            "version": "77.0.0",
+            "date": 1568073600
+          },
           "usage": {
-            "global": 0.24039999999999995,
-            "relative": 1
+            "global": 0.004800000000000001,
+            "relative": 0.0199667221297837
           }
         }
       ]
@@ -117,25 +125,33 @@
     "edge": {
       "name": "Edge",
       "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": {
         "version": "79.0.0",
         "date": 1579046400
       },
-      "removed": null,
       "usage": {
-        "global": 0.04869999999999999,
-        "relative": 0.9979508196721312
+        "global": 0.0001,
+        "relative": 0.002049180327868853
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Removed to fix a security problem. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/986043'>Chromium Issue 986043</a> Security: Malicious Extension can ignore SOP, with only `downloads` permission."
+          ],
           "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": {
             "version": "79.0.0",
             "date": 1579046400
           },
-          "removed": null,
           "usage": {
-            "global": 0.04869999999999999,
-            "relative": 0.9979508196721312
+            "global": 0.0001,
+            "relative": 0.002049180327868853
           }
         }
       ]
@@ -186,22 +202,30 @@
         "version": "1.0.0",
         "date": null
       },
-      "removed": null,
+      "removed": {
+        "version": "64.0.0",
+        "date": 1570406400
+      },
       "usage": {
-        "global": 0.011700000000000004,
-        "relative": 1
+        "global": 0.0003,
+        "relative": 0.025641025641025633
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Removed to fix a security problem. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/986043'>Chromium Issue 986043</a> Security: Malicious Extension can ignore SOP, with only `downloads` permission."
+          ],
           "added": {
             "version": "1.0.0",
             "date": null
           },
-          "removed": null,
+          "removed": {
+            "version": "64.0.0",
+            "date": 1570406400
+          },
           "usage": {
-            "global": 0.011700000000000004,
-            "relative": 1
+            "global": 0.0003,
+            "relative": 0.025641025641025633
           }
         }
       ]
