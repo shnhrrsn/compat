@@ -8,7 +8,6 @@
   "title": "BeforeInstallPromptEvent: prompt() method",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/prompt",
-    "spec": "https://wicg.github.io/manifest-incubations/#dom-beforeinstallpromptevent-prompt",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/beforeinstallpromptevent/prompt/index.md"
   },
   "content": {
@@ -160,21 +159,22 @@
     "sha": "e19fc239d83ac33da47695d460c581e66e348dfc",
     "date": "2023-05-25T17:35:21.000Z"
   },
-  "usage": 0.02299999999999999,
+  "usage": 0.6899899999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "76.0.0",
+        "date": 1564444800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.2361999999999999,
+        "relative": 0.9825291181364391
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "76.0.0",
             "date": 1564444800
@@ -183,8 +183,7 @@
           "usage": {
             "global": 0.2361999999999999,
             "relative": 0.9825291181364391
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -208,17 +207,18 @@
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "76.0.0",
+        "date": 1564444800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.37059000000000003,
+        "relative": 0.9959419510884172
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "76.0.0",
             "date": 1564444800
@@ -227,8 +227,7 @@
           "usage": {
             "global": 0.37059000000000003,
             "relative": 0.9959419510884172
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -252,17 +251,18 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.04869999999999999,
+        "relative": 0.9979508196721312
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "79.0.0",
             "date": 1579046400
@@ -271,8 +271,7 @@
           "usage": {
             "global": 0.04869999999999999,
             "relative": 0.9979508196721312
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
@@ -338,7 +337,10 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": null,
+      "added": {
+        "version": "7.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -346,9 +348,7 @@
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "7.0.0",
             "date": null
@@ -357,8 +357,7 @@
           "usage": {
             "global": null,
             "relative": null
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -382,17 +381,18 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "63.0.0",
+        "date": 1566259200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.011500000000000003,
+        "relative": 0.9829059829059829
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "63.0.0",
             "date": 1566259200
@@ -401,8 +401,7 @@
           "usage": {
             "global": 0.011500000000000003,
             "relative": 0.9829059829059829
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -426,7 +425,10 @@
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "54.0.0",
+        "date": 1571356800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -434,9 +436,7 @@
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "54.0.0",
             "date": 1571356800
@@ -445,8 +445,7 @@
           "usage": {
             "global": null,
             "relative": null
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -536,7 +535,10 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "76.0.0",
+        "date": 1564444800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -544,9 +546,7 @@
       },
       "history": [
         {
-          "notes": [
-            "The object returned by the promise returns a property called <code>outcome</code> instead of <code>userChoice</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "76.0.0",
             "date": 1564444800
@@ -555,8 +555,7 @@
           "usage": {
             "global": null,
             "relative": null
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -582,6 +581,6 @@
   "status": {
     "deprecated": false,
     "experimental": true,
-    "standard_track": true
+    "standard_track": false
   }
 }

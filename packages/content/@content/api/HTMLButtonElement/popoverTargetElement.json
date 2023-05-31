@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "4bd2c7149d7550ac2c5f53d8a58df190",
+      "id": "3346dff512de8663afe16f10063960ea",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface gets and sets the popover element to control via a control button."
+                "value": " interface gets and sets the popover element to control via a button."
               }
             ]
           }
@@ -129,8 +129,8 @@
     }
   },
   "commit": {
-    "sha": "559c464755abf4ca999a21ce7f3cb1027143f68f",
-    "date": "2023-05-03T14:59:02.000Z"
+    "sha": "6068006d89ef74e682685d4e6070d1bf9ed0f247",
+    "date": "2023-05-30T06:34:31.000Z"
   },
   "usage": 0.0002,
   "support": {
@@ -223,12 +223,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1686009600
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "dom.element.popover.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

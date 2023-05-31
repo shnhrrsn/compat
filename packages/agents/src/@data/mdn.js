@@ -1449,6 +1449,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"115.0.0",
+				{
+					"date": 1689811200,
+					"usage": null
+				}
+			],
+			[
 				"114.0.0",
 				{
 					"date": 1685577600,
@@ -1458,7 +1465,7 @@ const mdn = {
 			[
 				"113.0.0",
 				{
-					"date": 1683158400,
+					"date": 1683244800,
 					"usage": null
 				}
 			],
@@ -4753,10 +4760,17 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"16.5.0",
+				{
+					"date": 1684368000,
+					"usage": 0.01
+				}
+			],
+			[
 				"16.4.0",
 				{
 					"date": 1679875200,
-					"usage": 0.7
+					"usage": 0.69
 				}
 			],
 			[
@@ -5017,10 +5031,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"16.5.0",
+				{
+					"date": 1684368000,
+					"usage": 0.057
+				}
+			],
+			[
 				"16.4.0",
 				{
 					"date": 1679875200,
-					"usage": 2.682
+					"usage": 2.625
 				}
 			],
 			[
@@ -5259,6 +5280,13 @@ const mdn = {
 	samsunginternet_android: {
 		name: 'Samsung Internet',
 		versions: new Map([
+			[
+				"21.0.0",
+				{
+					"date": 1684454400,
+					"usage": null
+				}
+			],
 			[
 				"20.0.0",
 				{

@@ -484,7 +484,10 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "21.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -492,8 +495,13 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "This follows MathML Core: Only the first child is rendered while the others have their <code>display</code> set to <code>none</code>. <code>actiontype</code> and <code>selection</code> attributes are ignored."
+          ],
+          "added": {
+            "version": "21.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,

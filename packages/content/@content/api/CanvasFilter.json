@@ -5,10 +5,8 @@
   ],
   "type": "page",
   "title": "api / CanvasFilter",
-  "links": {
-    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#canvasfilter"
-  },
-  "usage": 0.65302,
+  "links": {},
+  "usage": 0.65282,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -16,22 +14,47 @@
         "version": "99.0.0",
         "date": 1646092800
       },
-      "removed": null,
+      "removed": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "usage": {
-        "global": 0.22219999999999995,
-        "relative": 0.9242928452579035
+        "global": 0.22199999999999995,
+        "relative": 0.9234608985024958
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0004,
+            "relative": 0.001663893510815308
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
         {
           "notes": null,
           "added": {
             "version": "99.0.0",
             "date": 1646092800
           },
-          "removed": null,
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
           "usage": {
-            "global": 0.22219999999999995,
-            "relative": 0.9242928452579035
+            "global": 0.22199999999999995,
+            "relative": 0.9234608985024958
           }
         }
       ]
@@ -42,7 +65,10 @@
         "version": "99.0.0",
         "date": 1646092800
       },
-      "removed": null,
+      "removed": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "usage": {
         "global": 0.35752,
         "relative": 0.9608169846815373
@@ -51,10 +77,32 @@
         {
           "notes": null,
           "added": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0054600000000000004,
+            "relative": 0.014673474872346144
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": null,
+          "added": {
             "version": "99.0.0",
             "date": 1646092800
           },
-          "removed": null,
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
           "usage": {
             "global": 0.35752,
             "relative": 0.9608169846815373
@@ -68,7 +116,10 @@
         "version": "99.0.0",
         "date": 1646265600
       },
-      "removed": null,
+      "removed": {
+        "version": "113.0.0",
+        "date": 1683158400
+      },
       "usage": {
         "global": 0.0486,
         "relative": 0.9959016393442623
@@ -77,10 +128,32 @@
         {
           "notes": null,
           "added": {
+            "version": "113.0.0",
+            "date": 1683158400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "Enabled"
+            }
+          ]
+        },
+        {
+          "notes": null,
+          "added": {
             "version": "99.0.0",
             "date": 1646265600
           },
-          "removed": null,
+          "removed": {
+            "version": "113.0.0",
+            "date": 1683158400
+          },
           "usage": {
             "global": 0.0486,
             "relative": 0.9959016393442623
@@ -298,7 +371,10 @@
         "version": "99.0.0",
         "date": 1646092800
       },
-      "removed": null,
+      "removed": {
+        "version": "113.0.0",
+        "date": 1682985600
+      },
       "usage": {
         "global": null,
         "relative": null
@@ -310,7 +386,10 @@
             "version": "99.0.0",
             "date": 1646092800
           },
-          "removed": null,
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
           "usage": {
             "global": null,
             "relative": null
@@ -320,8 +399,8 @@
     }
   },
   "status": {
-    "deprecated": false,
-    "experimental": true,
-    "standard_track": true
+    "deprecated": true,
+    "experimental": false,
+    "standard_track": false
   }
 }
