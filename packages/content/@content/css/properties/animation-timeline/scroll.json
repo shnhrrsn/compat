@@ -319,13 +319,37 @@
             "Zero scroll range is treated as 100% but should be 0% (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1780865'>bug 1780865</a>)."
           ],
           "added": {
-            "version": "101.0.0",
-            "date": 1653955200
+            "version": "110.0.0",
+            "date": 1676332800
           },
           "removed": null,
           "usage": {
-            "global": 0.02389999999999999,
-            "relative": 0.9484126984126986
+            "global": 0.022199999999999998,
+            "relative": 0.8774703557312256
+          },
+          "flags": [
+            {
+              "name": "layout.css.scroll-driven-animations.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
+            "Zero scroll range is treated as 100% but should be 0% (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1780865'>bug 1780865</a>)."
+          ],
+          "added": {
+            "version": "101.0.0",
+            "date": 1653955200
+          },
+          "removed": {
+            "version": "110.0.0",
+            "date": 1676332800
+          },
+          "usage": {
+            "global": 0.0021000000000000003,
+            "relative": 0.08300395256917001
           },
           "flags": [
             {
