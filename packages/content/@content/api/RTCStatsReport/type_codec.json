@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "8c75f49b858b0722e33a1eb21bfd4d84",
+      "id": "b2e028e63651ca1e56f42b861badd20f",
       "tree": {
         "type": "root",
         "children": [
@@ -46,14 +46,31 @@
               },
               {
                 "type": "text",
-                "value": " interface provides a statistics report obtained by calling one of the "
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/WebRTC_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "WebRTC API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " provides a statistics report for a "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/RTCPeerConnection/getStats"
+                  "href": "/api/RTCPeerConnection"
                 },
                 "children": [
                   {
@@ -63,7 +80,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "RTCPeerConnection.getStats()"
+                        "value": "RTCPeerConnection"
                       }
                     ]
                   }
@@ -78,7 +95,7 @@
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/RTCRtpReceiver/getStats"
+                  "href": "/api/RTCRtpSender"
                 },
                 "children": [
                   {
@@ -88,7 +105,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "RTCRtpReceiver.getStats()"
+                        "value": "RTCRtpSender"
                       }
                     ]
                   }
@@ -96,14 +113,14 @@
               },
               {
                 "type": "text",
-                "value": ", and "
+                "value": ", or "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/RTCRtpSender/getStats"
+                  "href": "/api/RTCRtpReceiver"
                 },
                 "children": [
                   {
@@ -113,7 +130,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "RTCRtpSender.getStats()"
+                        "value": "RTCRtpReceiver"
                       }
                     ]
                   }
@@ -121,7 +138,7 @@
               },
               {
                 "type": "text",
-                "value": " methods."
+                "value": "."
               }
             ]
           }
@@ -293,10 +310,10 @@
     }
   },
   "commit": {
-    "sha": "50ed08d7b506c19b7d073b05ea1e02a15f276878",
-    "date": "2023-02-19T09:57:47.000Z"
+    "sha": "fbbef300a9a819cdda1171355da5787ad7cdbb6d",
+    "date": "2023-06-05T21:54:44.000Z"
   },
-  "usage": 0.92156,
+  "usage": 0.9215599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -332,8 +349,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3524300000000001,
-        "relative": 0.996973125884017
+        "global": 0.35242999999999997,
+        "relative": 0.9969449237645329
       },
       "history": [
         {
@@ -344,8 +361,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3524300000000001,
-            "relative": 0.996973125884017
+            "global": 0.35242999999999997,
+            "relative": 0.9969449237645329
           }
         }
       ]
