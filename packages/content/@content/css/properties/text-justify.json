@@ -151,7 +151,7 @@
     "sha": "b82ff59aab7883b7bb2222cf9f9f9b6eed818e08",
     "date": "2023-02-21T06:13:19.000Z"
   },
-  "usage": 0.07339999999999999,
+  "usage": 0.02629999999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -223,12 +223,36 @@
         "version": "12.0.0",
         "date": 1438041600
       },
-      "removed": null,
+      "removed": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "usage": {
-        "global": 0.04709999999999999,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
+        {
+          "notes": [
+            "<code>inter-word</code> and <code>distribute</code> (deprecated) values are supported, but <code>distribute</code> behavior is buggy."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04709999999999999,
+            "relative": 1
+          },
+          "flags": [
+            {
+              "name": "#enable-experimental-web-platform-features",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        },
         {
           "notes": [
             "Standard values <code>inter-character</code> and <code>none</code> are supported. The deprecated <code>distribute</code> value is also supported."
@@ -237,10 +261,13 @@
             "version": "12.0.0",
             "date": 1438041600
           },
-          "removed": null,
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
           "usage": {
-            "global": 0.04709999999999999,
-            "relative": 1
+            "global": null,
+            "relative": null
           }
         }
       ]

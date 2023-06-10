@@ -11,18 +11,18 @@
   "links": {
     "spec": "https://html.spec.whatwg.org/multipage/browsers.html#attr-iframe-sandbox-allow-same-origin"
   },
-  "usage": 0.9448599999999998,
+  "usage": 0.94073,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "1.0.0",
-        "date": 1228953600
+        "version": "49.0.0",
+        "date": 1456876800
       },
       "removed": null,
       "usage": {
-        "global": 0.2563,
-        "relative": 1
+        "global": 0.25579999999999997,
+        "relative": 0.9980491611392899
       },
       "history": [
         {
@@ -30,13 +30,13 @@
             "Chrome 70 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
           ],
           "added": {
-            "version": "1.0.0",
-            "date": 1228953600
+            "version": "49.0.0",
+            "date": 1456876800
           },
           "removed": null,
           "usage": {
-            "global": 0.2563,
-            "relative": 1
+            "global": 0.25579999999999997,
+            "relative": 0.9980491611392899
           }
         }
       ]
@@ -44,8 +44,8 @@
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "1.0.0",
-        "date": null
+        "version": "49.0.0",
+        "date": 1457481600
       },
       "removed": null,
       "usage": {
@@ -54,10 +54,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Chrome 70 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": null
+            "version": "49.0.0",
+            "date": 1457481600
           },
           "removed": null,
           "usage": {
@@ -70,8 +72,8 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "1.0.0",
-        "date": null
+        "version": "79.0.0",
+        "date": 1579046400
       },
       "removed": null,
       "usage": {
@@ -80,10 +82,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Edge 79 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": null
+            "version": "79.0.0",
+            "date": 1579046400
           },
           "removed": null,
           "usage": {
@@ -96,25 +100,25 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "1.0.0",
-        "date": 1099958400
+        "version": "49.0.0",
+        "date": 1474329600
       },
       "removed": null,
       "usage": {
-        "global": 0.02529999999999999,
-        "relative": 1
+        "global": 0.02509999999999999,
+        "relative": 0.992094861660079
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "1.0.0",
-            "date": 1099958400
+            "version": "49.0.0",
+            "date": 1474329600
           },
           "removed": null,
           "usage": {
-            "global": 0.02529999999999999,
-            "relative": 1
+            "global": 0.02509999999999999,
+            "relative": 0.992094861660079
           }
         }
       ]
@@ -122,8 +126,8 @@
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "1.0.0",
-        "date": null
+        "version": "49.0.0",
+        "date": 1474329600
       },
       "removed": null,
       "usage": {
@@ -134,8 +138,8 @@
         {
           "notes": null,
           "added": {
-            "version": "1.0.0",
-            "date": null
+            "version": "49.0.0",
+            "date": 1474329600
           },
           "removed": null,
           "usage": {
@@ -174,7 +178,7 @@
     "oculus": {
       "name": "Quest Browser",
       "added": {
-        "version": "1.0.0",
+        "version": "5.0.0",
         "date": null
       },
       "removed": null,
@@ -184,9 +188,11 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Chrome 70 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
+            "version": "5.0.0",
             "date": null
           },
           "removed": null,
@@ -200,25 +206,27 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "1.0.0",
-        "date": null
+        "version": "36.0.0",
+        "date": 1458000000
       },
       "removed": null,
       "usage": {
-        "global": 0.008500000000000002,
-        "relative": 1
+        "global": 0.008100000000000001,
+        "relative": 0.9529411764705882
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opera 57 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": null
+            "version": "36.0.0",
+            "date": 1458000000
           },
           "removed": null,
           "usage": {
-            "global": 0.008500000000000002,
-            "relative": 1
+            "global": 0.008100000000000001,
+            "relative": 0.9529411764705882
           }
         }
       ]
@@ -226,8 +234,8 @@
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "1.0.0",
-        "date": null
+        "version": "36.0.0",
+        "date": 1459382400
       },
       "removed": null,
       "usage": {
@@ -236,10 +244,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opera 49 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": null
+            "version": "36.0.0",
+            "date": 1459382400
           },
           "removed": null,
           "usage": {
@@ -252,13 +262,13 @@
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "1.0.0",
-        "date": 1056326400
+        "version": "10.1.0",
+        "date": 1490572800
       },
       "removed": null,
       "usage": {
-        "global": 0.05999999999999997,
-        "relative": 1
+        "global": 0.059499999999999977,
+        "relative": 0.9916666666666667
       },
       "history": [
         {
@@ -266,13 +276,13 @@
             "Safari blocks script execution without <code>allow-scripts</code> even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
           ],
           "added": {
-            "version": "1.0.0",
-            "date": 1056326400
+            "version": "10.1.0",
+            "date": 1490572800
           },
           "removed": null,
           "usage": {
-            "global": 0.05999999999999997,
-            "relative": 1
+            "global": 0.059499999999999977,
+            "relative": 0.9916666666666667
           }
         }
       ]
@@ -280,25 +290,27 @@
     "safari_ios": {
       "name": "Safari on iOS",
       "added": {
-        "version": "1.0.0",
-        "date": 1183075200
+        "version": "10.3.0",
+        "date": 1490572800
       },
       "removed": null,
       "usage": {
-        "global": 0.16774999999999998,
-        "relative": 1
+        "global": 0.16671999999999998,
+        "relative": 0.9938599105812219
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Safari blocks script execution without <code>allow-scripts</code> even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": 1183075200
+            "version": "10.3.0",
+            "date": 1490572800
           },
           "removed": null,
           "usage": {
-            "global": 0.16774999999999998,
-            "relative": 1
+            "global": 0.16671999999999998,
+            "relative": 0.9938599105812219
           }
         }
       ]
@@ -306,25 +318,27 @@
     "samsunginternet_android": {
       "name": "Samsung Internet",
       "added": {
-        "version": "1.0.0",
-        "date": 1367020800
+        "version": "5.0.0",
+        "date": 1481760000
       },
       "removed": null,
       "usage": {
-        "global": 0.02429999999999999,
-        "relative": 1
+        "global": 0.022799999999999994,
+        "relative": 0.9382716049382718
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Samsung Internet 10.0 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": 1367020800
+            "version": "5.0.0",
+            "date": 1481760000
           },
           "removed": null,
           "usage": {
-            "global": 0.02429999999999999,
-            "relative": 1
+            "global": 0.022799999999999994,
+            "relative": 0.9382716049382718
           }
         }
       ]
@@ -332,8 +346,8 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "1.0.0",
-        "date": 1222128000
+        "version": "49.0.0",
+        "date": 1457481600
       },
       "removed": null,
       "usage": {
@@ -342,10 +356,12 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Chrome 70 and earlier block script execution without <code>allow-scripts</code>, even if <code>allow-same-origin</code> is set. For example, any bound handlers for click events of nodes inside an iframe throw an error for blocked script execution."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": 1222128000
+            "version": "49.0.0",
+            "date": 1457481600
           },
           "removed": null,
           "usage": {
