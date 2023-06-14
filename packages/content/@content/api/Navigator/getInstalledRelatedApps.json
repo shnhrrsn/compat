@@ -9,20 +9,23 @@
   "links": {
     "spec": "https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps"
   },
-  "usage": 0.37453,
+  "usage": 0.6693899999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "85.0.0",
+        "date": 1598313600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.24569999999999992,
+        "relative": 0.9586422161529455
       },
       "history": [
         {
           "notes": [
-            "Only supported on Windows. Resolves with an empty array on other platforms."
+            "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms."
           ],
           "added": {
             "version": "85.0.0",
@@ -32,8 +35,7 @@
           "usage": {
             "global": 0.24569999999999992,
             "relative": 0.9586422161529455
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -58,17 +60,33 @@
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "80.0.0",
-        "date": 1580774400
+        "version": "84.0.0",
+        "date": 1595808000
       },
       "removed": null,
       "usage": {
-        "global": 0.35242999999999997,
-        "relative": 0.9969449237645329
+        "global": 0.35008999999999996,
+        "relative": 0.9903255919210207
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Supports checking of Progressive Web App (PWA) installation."
+          ],
+          "added": {
+            "version": "84.0.0",
+            "date": 1595808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.35008999999999996,
+            "relative": 0.9903255919210207
+          }
+        },
+        {
+          "notes": [
+            "Supports checking of Android app installation."
+          ],
           "added": {
             "version": "80.0.0",
             "date": 1580774400
@@ -77,22 +95,26 @@
           "usage": {
             "global": 0.35242999999999997,
             "relative": 0.9969449237645329
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "85.0.0",
+        "date": 1598486400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.04709999999999999,
+        "relative": 1
       },
       "history": [
         {
           "notes": [
-            "Only supported on Windows. Resolves with an empty array on other platforms."
+            "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms."
           ],
           "added": {
             "version": "85.0.0",
@@ -102,8 +124,7 @@
           "usage": {
             "global": 0.04709999999999999,
             "relative": 1
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -188,7 +209,7 @@
     "oculus": {
       "name": "Quest Browser",
       "added": {
-        "version": "9.0.0",
+        "version": "11.0.0",
         "date": null
       },
       "removed": null,
@@ -198,7 +219,23 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Supports checking of Progressive Web App (PWA) installation."
+          ],
+          "added": {
+            "version": "11.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Supports checking of Android app installation."
+          ],
           "added": {
             "version": "9.0.0",
             "date": null
@@ -207,22 +244,26 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "71.0.0",
+        "date": 1600128000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0046,
+        "relative": 0.5411764705882351
       },
       "history": [
         {
           "notes": [
-            "Only supported on Windows. Resolves with an empty array on other platforms."
+            "Supported on Windows for checking of Universal Windows Platform (UWP) app installation. Resolves with an empty array on other platforms."
           ],
           "added": {
             "version": "71.0.0",
@@ -232,8 +273,7 @@
           "usage": {
             "global": 0.0046,
             "relative": 0.5411764705882351
-          },
-          "partial_implementation": true
+          }
         },
         {
           "notes": [
@@ -318,17 +358,33 @@
     "samsunginternet_android": {
       "name": "Samsung Internet",
       "added": {
-        "version": "13.0.0",
-        "date": 1606867200
+        "version": "14.0.0",
+        "date": 1618617600
       },
       "removed": null,
       "usage": {
-        "global": 0.022099999999999995,
-        "relative": 0.9094650205761319
+        "global": 0.021899999999999996,
+        "relative": 0.9012345679012348
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Supports checking of Progressive Web App (PWA) installation."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1618617600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.021899999999999996,
+            "relative": 0.9012345679012348
+          }
+        },
+        {
+          "notes": [
+            "Supports checking of Android app installation."
+          ],
           "added": {
             "version": "13.0.0",
             "date": 1606867200
@@ -337,7 +393,8 @@
           "usage": {
             "global": 0.022099999999999995,
             "relative": 0.9094650205761319
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

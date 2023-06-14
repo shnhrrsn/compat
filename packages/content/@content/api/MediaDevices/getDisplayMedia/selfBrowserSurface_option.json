@@ -10,30 +10,49 @@
   "links": {
     "spec": "https://w3c.github.io/mediacapture-screen-share/#dom-displaymediastreamoptions-selfbrowsersurface"
   },
-  "usage": 0.2789,
+  "usage": 0.2415,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "107.0.0",
-        "date": 1666656000
+        "version": "112.0.0",
+        "date": 1680566400
       },
       "removed": null,
       "usage": {
-        "global": 0.23109999999999997,
-        "relative": 0.9016777214202105
+        "global": 0.1966,
+        "relative": 0.7670698400312135
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Default value = <code>exclude</code>"
+          ],
+          "added": {
+            "version": "112.0.0",
+            "date": 1680566400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1966,
+            "relative": 0.7670698400312135
+          }
+        },
+        {
+          "notes": [
+            "Default value = <code>include</code>"
+          ],
           "added": {
             "version": "107.0.0",
             "date": 1666656000
           },
-          "removed": null,
+          "removed": {
+            "version": "111.0.0",
+            "date": 1678147200
+          },
           "usage": {
-            "global": 0.23109999999999997,
-            "relative": 0.9016777214202105
+            "global": 0.0345,
+            "relative": 0.1346078813889973
           }
         }
       ]
@@ -61,25 +80,44 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "107.0.0",
-        "date": 1666828800
+        "version": "112.0.0",
+        "date": 1680739200
       },
       "removed": null,
       "usage": {
-        "global": 0.04699999999999999,
-        "relative": 0.9978768577494692
+        "global": 0.0449,
+        "relative": 0.953290870488323
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Default value = <code>exclude</code>"
+          ],
+          "added": {
+            "version": "112.0.0",
+            "date": 1680739200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0449,
+            "relative": 0.953290870488323
+          }
+        },
+        {
+          "notes": [
+            "Default value = <code>include</code>"
+          ],
           "added": {
             "version": "107.0.0",
             "date": 1666828800
           },
-          "removed": null,
+          "removed": {
+            "version": "111.0.0",
+            "date": 1678665600
+          },
           "usage": {
-            "global": 0.04699999999999999,
-            "relative": 0.9978768577494692
+            "global": 0.0021,
+            "relative": 0.0445859872611465
           }
         }
       ]
@@ -167,22 +205,41 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "93.0.0",
-        "date": 1668643200
+        "version": "98.0.0",
+        "date": null
       },
       "removed": null,
       "usage": {
-        "global": 0.0008,
-        "relative": 0.09411764705882351
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Default value = <code>exclude</code>"
+          ],
+          "added": {
+            "version": "98.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Default value = <code>include</code>"
+          ],
           "added": {
             "version": "93.0.0",
             "date": 1668643200
           },
-          "removed": null,
+          "removed": {
+            "version": "97.0.0",
+            "date": null
+          },
           "usage": {
             "global": 0.0008,
             "relative": 0.09411764705882351

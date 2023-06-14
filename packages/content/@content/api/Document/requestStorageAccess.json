@@ -182,26 +182,23 @@
     }
   },
   "commit": {
-    "sha": "b18b0ea6e71c1178cbdffbe096b4d3ac3947c583",
-    "date": "2023-05-16T08:52:06.000Z"
+    "sha": "e767e78da73d32879b50a101dbf3315f752e0149",
+    "date": "2023-06-13T17:07:06.000Z"
   },
-  "usage": 0.6459199999999999,
+  "usage": 0.28068999999999994,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "113.0.0",
-        "date": 1682985600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.1261,
-        "relative": 0.4920015606710886
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Only available to Google Chrome's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>.",
             "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
           ],
           "added": {
@@ -212,7 +209,8 @@
           "usage": {
             "global": 0.1261,
             "relative": 0.4920015606710886
-          }
+          },
+          "partial_implementation": true
         },
         {
           "notes": [
@@ -222,13 +220,10 @@
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": {
-            "version": "112.0.0",
-            "date": 1680566400
-          },
+          "removed": null,
           "usage": {
-            "global": 0.12489999999999998,
-            "relative": 0.48731954740538425
+            "global": 0.2509999999999999,
+            "relative": 0.9793211080764725
           },
           "flags": [
             {
@@ -242,19 +237,16 @@
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "113.0.0",
-        "date": 1682985600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.23913,
-        "relative": 0.6764447964696898
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Only available to Google Chrome's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>.",
             "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
           ],
           "added": {
@@ -265,7 +257,8 @@
           "usage": {
             "global": 0.23913,
             "relative": 0.6764447964696898
-          }
+          },
+          "partial_implementation": true
         },
         {
           "notes": [
@@ -275,13 +268,10 @@
             "version": "78.0.0",
             "date": 1571702400
           },
-          "removed": {
-            "version": "112.0.0",
-            "date": 1680566400
-          },
+          "removed": null,
           "usage": {
-            "global": 0.11330000000000001,
-            "relative": 0.3205001272948433
+            "global": 0.35242999999999997,
+            "relative": 0.9969449237645329
           },
           "flags": [
             {
@@ -460,10 +450,7 @@
             "version": "65.0.0",
             "date": 1573603200
           },
-          "removed": {
-            "version": "98.0.0",
-            "date": null
-          },
+          "removed": null,
           "usage": {
             "global": 0.0079,
             "relative": 0.9294117647058823
@@ -576,10 +563,7 @@
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "113.0.0",
-        "date": 1682985600
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -588,7 +572,7 @@
       "history": [
         {
           "notes": [
-            "Only resolves <code>requestStorageAccess()</code> calls that come from domains within a <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party set</a>.",
+            "Only available to Google Chrome's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>.",
             "Client-side storage access granted per-frame, as per spec updates <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/API/Storage_Access_API#how_it_works'>see explanation</a>."
           ],
           "added": {
@@ -599,7 +583,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }

@@ -1,0 +1,551 @@
+{
+  "self": [
+    "api",
+    "CSS",
+    "registerProperty_static"
+  ],
+  "type": "page",
+  "title": "CSS: registerProperty() static method",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CSS/registerProperty_static",
+    "spec": "https://drafts.css-houdini.org/css-properties-values-api/#the-registerproperty-function",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/css/registerproperty_static/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "e219bc06e9d915f00838b0fee7c1dacb",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS.registerProperty()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method registers\n"
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "custom properties"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", allowing for property type checking, default\nvalues, and properties that do or do not inherit their value."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3c9a31fe9fd44e4ec496a4a64b7c1cbc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/CSS_Properties_and_Values_API/guide"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using the CSS properties and values API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/CSS"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "CSS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS.supports()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS.escape()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS factory functions"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "a0f6bf6f7d148f368f6965255058df1ed1f43839",
+    "date": "2023-06-12T10:17:48.000Z"
+  },
+  "usage": 0.77106,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2509999999999999,
+        "relative": 0.9793211080764725
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2509999999999999,
+            "relative": 0.9793211080764725
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.35242999999999997,
+        "relative": 0.9969449237645329
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.35242999999999997,
+            "relative": 0.9969449237645329
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04709999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04709999999999999,
+            "relative": 1
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Quest Browser",
+      "added": {
+        "version": "8.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "8.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "65.0.0",
+        "date": 1573603200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0079,
+        "relative": 0.9294117647058823
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "65.0.0",
+            "date": 1573603200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0079,
+            "relative": 0.9294117647058823
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "56.0.0",
+        "date": 1580947200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "56.0.0",
+            "date": 1580947200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "16.4.0",
+        "date": 1679875200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0203,
+        "relative": 0.33833333333333343
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.4.0",
+            "date": 1679875200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0203,
+            "relative": 0.33833333333333343
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "16.4.0",
+        "date": 1679875200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.07023,
+        "relative": 0.4186587183308495
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.4.0",
+            "date": 1679875200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.07023,
+            "relative": 0.4186587183308495
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "12.0.0",
+        "date": 1592524800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.022099999999999995,
+        "relative": 0.9094650205761319
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1592524800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.022099999999999995,
+            "relative": 0.9094650205761319
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "78.0.0",
+        "date": 1571702400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1571702400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}

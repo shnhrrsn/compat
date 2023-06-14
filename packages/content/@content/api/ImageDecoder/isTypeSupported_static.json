@@ -1,0 +1,397 @@
+{
+  "self": [
+    "api",
+    "ImageDecoder",
+    "isTypeSupported_static"
+  ],
+  "type": "page",
+  "title": "ImageDecoder: isTypeSupported() static method",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/isTypeSupported_static",
+    "spec": "https://w3c.github.io/webcodecs/#dom-imagedecoder-istypesupported",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/imagedecoder/istypesupported_static/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2b86519ff0d9f3cf429e152f4667b075",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ImageDecoder.isTypeSupported()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method checks if a given "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "MIME type"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " can be decoded by the user agent."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "a0f6bf6f7d148f368f6965255058df1ed1f43839",
+    "date": "2023-06-12T10:17:48.000Z"
+  },
+  "usage": 0.6523599999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "94.0.0",
+        "date": 1632182400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.23959999999999992,
+        "relative": 0.9348419820522823
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "94.0.0",
+            "date": 1632182400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.23959999999999992,
+            "relative": 0.9348419820522823
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "94.0.0",
+        "date": 1632182400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.3435599999999999,
+        "relative": 0.9718536957936127
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "94.0.0",
+            "date": 1632182400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3435599999999999,
+            "relative": 0.9718536957936127
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "94.0.0",
+        "date": 1632441600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04699999999999999,
+        "relative": 0.9978768577494692
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "94.0.0",
+            "date": 1632441600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04699999999999999,
+            "relative": 0.9978768577494692
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Quest Browser",
+      "added": {
+        "version": "18.0.0",
+        "date": 1638230400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "18.0.0",
+            "date": 1638230400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "80.0.0",
+        "date": 1633392000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0009,
+        "relative": 0.10588235294117644
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "80.0.0",
+            "date": 1633392000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0009,
+            "relative": 0.10588235294117644
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "66.0.0",
+        "date": 1639526400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "66.0.0",
+            "date": 1639526400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "17.0.0",
+        "date": 1651622400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0213,
+        "relative": 0.8765432098765435
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1651622400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0213,
+            "relative": 0.8765432098765435
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "94.0.0",
+        "date": 1632182400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "94.0.0",
+            "date": 1632182400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": true,
+    "standard_track": true
+  }
+}
