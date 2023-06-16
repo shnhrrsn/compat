@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "e98a7cf6caf51a052dd9f147e5941e86",
+      "id": "127adef83ec43a4972d3e64dd15c566f",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,24 @@
             "children": [
               {
                 "type": "text",
-                "value": "Sets the URL to be visited when the extension is uninstalled. This may be used to clean up server-side data, do analytics, or implement surveys. The URL can be a maximum 255 characters."
+                "value": "Sets the URL to be visited when the extension is uninstalled. This can be used to clean up server-side data, do analytics, or implement surveys. The URL can be up to 1023 characters. This limit used to be 255, see "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "browser_compatibility"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Browser compatibility"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for more details."
               }
             ]
           }
@@ -36,8 +53,8 @@
     }
   },
   "commit": {
-    "sha": "d6856a051d0ba078ec1d24b80908b1ca174917db",
-    "date": "2023-03-07T05:27:34.000Z"
+    "sha": "493d95081a9d325244ac533dd26f6c6712cba492",
+    "date": "2023-06-16T02:19:49.000Z"
   },
   "usage": 0.3363,
   "support": {
