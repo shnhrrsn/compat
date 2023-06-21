@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "19fe7dbddb3d579054779f4319605b50",
+      "id": "ee1efbc602ea4343ee6d67830dd8d60b",
       "tree": {
         "type": "root",
         "children": [
@@ -32,31 +32,13 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "fetch"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " event is fired when the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/fetch"
-                },
-                "children": [
-                  {
                     "type": "element",
                     "tagName": "code",
                     "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "fetch()"
+                        "value": "fetch"
                       }
                     ]
                   }
@@ -64,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method is called."
+                "value": " event is fired in the service worker's global scope when the main app thread makes a network request. It enables the service worker to intercept network requests and send customized responses (for example, from a local cache)."
               }
             ]
           }
@@ -75,7 +57,7 @@
       }
     },
     "seeAlso": {
-      "id": "456e5a9483752f6db8fc11860cac1e83",
+      "id": "3a7b07cda81af834cf844fd7f2ec1fe1",
       "tree": {
         "type": "root",
         "children": [
@@ -145,14 +127,26 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://jakearchibald.github.io/isserviceworkerready/"
+                      "internal": "",
+                      "href": "/api/fetch"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Is ServiceWorker ready?"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "fetch()"
+                          }
+                        ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " method"
                   }
                 ]
               },
@@ -170,7 +164,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/Promise"
+                      "href": "/api/Request"
                     },
                     "children": [
                       {
@@ -180,11 +174,15 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Promise"
+                            "value": "Request"
                           }
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " interface"
                   }
                 ]
               },
@@ -201,14 +199,26 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers"
+                      "internal": "",
+                      "href": "/api/Response"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Using web workers"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Response"
+                          }
+                        ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " interface"
                   }
                 ]
               },
@@ -226,8 +236,8 @@
     }
   },
   "commit": {
-    "sha": "f2f9346c0c0e9f6676f2df9f1850933e274401de",
-    "date": "2023-04-08T06:00:31.000Z"
+    "sha": "b1648633cd508069eab8dac05da6eeb70259cae6",
+    "date": "2023-06-20T15:02:45.000Z"
   },
   "usage": 0.9384,
   "support": {

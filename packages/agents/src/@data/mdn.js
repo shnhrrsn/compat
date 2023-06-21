@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"116.0.0",
+				{
+					"date": 1691539200,
+					"usage": null
+				}
+			],
+			[
 				"115.0.0",
 				{
 					"date": 1689120000,
@@ -806,6 +813,13 @@ const mdn = {
 	chrome_android: {
 		name: 'Chrome Android',
 		versions: new Map([
+			[
+				"116.0.0",
+				{
+					"date": 1691539200,
+					"usage": null
+				}
+			],
 			[
 				"115.0.0",
 				{
@@ -5587,16 +5601,23 @@ const mdn = {
 		name: 'WebView Android',
 		versions: new Map([
 			[
+				"116.0.0",
+				{
+					"date": 1691539200,
+					"usage": null
+				}
+			],
+			[
 				"115.0.0",
 				{
-					"date": 1689638400,
+					"date": 1689120000,
 					"usage": null
 				}
 			],
 			[
 				"114.0.0",
 				{
-					"date": 1685404800,
+					"date": 1684886400,
 					"usage": null
 				}
 			],
