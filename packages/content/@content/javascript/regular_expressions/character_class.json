@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "03ba2341f8787cd37430df6f0a93a62f",
+      "id": "803b40419ebd319f5deeb563332ea11a",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,31 @@
               },
               {
                 "type": "text",
-                "value": " matches any character in or not in a custom set of characters."
+                "value": " matches any character in or not in a custom set of characters. When the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "v"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " flag is enabled, it can also be used to match finite-length strings."
               }
             ]
           }
@@ -50,7 +74,7 @@
       }
     },
     "seeAlso": {
-      "id": "59674934d10bbfe930bf3047d562234e",
+      "id": "5b18fe82600ad392d742e06183d87de1",
       "tree": {
         "type": "root",
         "children": [
@@ -405,6 +429,34 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://v8.dev/features/regexp-v-flag"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RegExp v flag with set notation and properties of strings"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on v8.dev (June 27, 2022)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -416,8 +468,8 @@
     }
   },
   "commit": {
-    "sha": "0ae85e77a55f1c32bb831b611a497dab7f6a03c7",
-    "date": "2023-05-05T07:48:07.000Z"
+    "sha": "fc67640f3545c1a5db42c878d1f0de71313349bc",
+    "date": "2023-06-22T15:27:57.000Z"
   },
   "usage": 0.9448599999999998,
   "support": {

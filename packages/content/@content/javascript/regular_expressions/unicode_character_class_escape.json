@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "1bd975f260829c225d9bafc0703ac57f",
+      "id": "bb876c5eeba3513a64f2b9845e4600b6",
       "tree": {
         "type": "root",
         "children": [
@@ -62,18 +62,42 @@
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode"
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode#unicode-aware_mode"
                 },
                 "children": [
                   {
                     "type": "text",
-                    "value": "unicode mode"
+                    "value": "Unicode-aware mode"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "."
+                "value": ". When the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "v"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " flag is enabled, it can also be used to match finite-length strings."
               }
             ]
           }
@@ -84,7 +108,7 @@
       }
     },
     "seeAlso": {
-      "id": "58b7c7f15504c50ff6942b916ffab9f6",
+      "id": "feca037ee324947b085a56d05f493f73",
       "tree": {
         "type": "root",
         "children": [
@@ -473,6 +497,58 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Unicode Utilities: UnicodeSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://v8.dev/features/regexp-v-flag"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RegExp v flag with set notation and properties of strings"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on v8.dev (June 27, 2022)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -484,8 +560,8 @@
     }
   },
   "commit": {
-    "sha": "270351317fdaa57ba9123a19aa281e9e40bb0baa",
-    "date": "2023-06-20T19:01:21.000Z"
+    "sha": "68e1c5c6384303ce0bb33fc0d0877fef7cf04ff7",
+    "date": "2023-06-23T04:28:34.000Z"
   },
   "usage": 0.9349999999999999,
   "support": {
