@@ -204,7 +204,7 @@
     "sha": "15db4f1dd87a80c4aec2cfba3e73bc8291f29110",
     "date": "2023-04-08T07:04:50.000Z"
   },
-  "usage": 0.3894599999999999,
+  "usage": 0.3648599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -217,7 +217,7 @@
       "history": [
         {
           "notes": [
-            "Not supported on macOS."
+            "Only supported on Windows with ANGLE."
           ],
           "added": {
             "version": "93.0.0",
@@ -269,7 +269,7 @@
       "history": [
         {
           "notes": [
-            "Not supported on macOS."
+            "Only supported on Windows with ANGLE."
           ],
           "added": {
             "version": "93.0.0",
@@ -286,18 +286,17 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": {
-        "version": "71.0.0",
-        "date": 1575936000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.02459999999999999,
-        "relative": 0.9723320158102767
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Only supported on Windows with ANGLE."
+          ],
           "added": {
             "version": "71.0.0",
             "date": 1575936000
@@ -306,16 +305,14 @@
           "usage": {
             "global": 0.02459999999999999,
             "relative": 0.9723320158102767
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": {
-        "version": "79.0.0",
-        "date": 1595894400
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -323,7 +320,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Only supported on Windows with ANGLE."
+          ],
           "added": {
             "version": "79.0.0",
             "date": 1595894400
@@ -332,7 +331,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -393,7 +393,7 @@
       "history": [
         {
           "notes": [
-            "Not supported on macOS."
+            "Only supported on Windows with ANGLE."
           ],
           "added": {
             "version": "79.0.0",

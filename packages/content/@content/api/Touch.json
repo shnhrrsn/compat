@@ -138,7 +138,7 @@
     "sha": "d414c502f3cc1c08d2fb043e98cda4a65621ff08",
     "date": "2023-02-19T08:44:56.000Z"
   },
-  "usage": 0.8821599999999999,
+  "usage": 0.8570599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -221,17 +221,22 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "52.0.0",
-        "date": 1488844800
+        "version": "18.0.0",
+        "date": 1357603200
       },
-      "removed": null,
+      "removed": {
+        "version": "24.0.0",
+        "date": 1379376000
+      },
       "usage": {
-        "global": 0.02509999999999999,
-        "relative": 0.992094861660079
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "This interface is only exposed if a touch input device is detected."
+          ],
           "added": {
             "version": "52.0.0",
             "date": 1488844800
@@ -240,7 +245,8 @@
           "usage": {
             "global": 0.02509999999999999,
             "relative": 0.992094861660079
-          }
+          },
+          "partial_implementation": true
         },
         {
           "notes": [
