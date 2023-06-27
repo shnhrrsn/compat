@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "396eaeb1e4b4eac1a7103a3d2f0f750a",
+      "id": "54c982f10edc108bfc7853faf096c487",
       "tree": {
         "type": "root",
         "children": [
@@ -55,62 +55,7 @@
               },
               {
                 "type": "text",
-                "value": " represents the timeline of an animation. This interface exists to define timeline features (inherited by "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/api/DocumentTimeline"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "DocumentTimeline"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " and future timeline types) and is not itself directly used by developers. Anywhere you see "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "AnimationTimeline"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", you should use "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "DocumentTimeline"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " or any other timeline type instead."
+                "value": " represents the timeline of an animation. This interface exists to define timeline features, inherited by other timeline types:"
               }
             ]
           }
@@ -121,7 +66,7 @@
       }
     },
     "seeAlso": {
-      "id": "a90bea08bcb9384b1831cd9885872769",
+      "id": "aea1a532e21fe492594a852c8e6ad301",
       "tree": {
         "type": "root",
         "children": [
@@ -130,30 +75,6 @@
             "tagName": "ul",
             "properties": {},
             "children": [
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/Web_Animations_API"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Web Animations API"
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "type": "text",
                 "value": "\n"
@@ -179,6 +100,56 @@
                           {
                             "type": "text",
                             "value": "DocumentTimeline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/ScrollTimeline"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ScrollTimeline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/ViewTimeline"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "ViewTimeline"
                           }
                         ]
                       }
@@ -221,6 +192,54 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/Web_Animations_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Web Animations API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_scroll-driven_animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS scroll-driven animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -232,8 +251,8 @@
     }
   },
   "commit": {
-    "sha": "bca8d1ab2bc4f5a1ef6b39c454b0229539178e98",
-    "date": "2023-02-18T07:09:59.000Z"
+    "sha": "34bc6ac7c5d03e5891bf94b0d4ebeccb0e7a29e5",
+    "date": "2023-06-26T06:20:34.000Z"
   },
   "usage": 0.9142199999999999,
   "support": {

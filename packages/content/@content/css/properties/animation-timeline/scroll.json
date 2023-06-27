@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "6174475d4c26fa0976985ddebab4bfdc",
+      "id": "5593aa9461cafb785dcedc9579379308",
       "tree": {
         "type": "root",
         "children": [
@@ -89,7 +89,22 @@
               },
               {
                 "type": "text",
-                "value": " to indicate an ancestor element and scrollbar axis that will provide the anonymous scroll timeline for animating the current element."
+                "value": " to indicate a scrollable element ("
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "scroller"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") and scrollbar axis that will provide an anonymous scroll progress timeline for animating the current element. The scroll progress timeline is progressed through by scrolling the scroller between top and bottom (or left and right). The position in the scroll range is converted into a percentage of progress — 0% at the start and 100% at the end."
               }
             ]
           }
@@ -100,7 +115,7 @@
       }
     },
     "seeAlso": {
-      "id": "21937f9c56b91c759b8c7293132c72e7",
+      "id": "7d97e82f0f4340eaaa0205db04020c46",
       "tree": {
         "type": "root",
         "children": [
@@ -122,74 +137,36 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"
+                      "href": "/en-US/docs/Web/CSS/CSS_scroll-driven_animations"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS scroll-driven animations"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_animations/Using_CSS_animations"
                     },
                     "children": [
                       {
                         "type": "text",
                         "value": "Using CSS animations"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/CSS/scroll-timeline-axis"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "scroll-timeline-axis"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/CSS/scroll-timeline"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "scroll-timeline"
-                          }
-                        ]
                       }
                     ]
                   }
@@ -240,8 +217,8 @@
     }
   },
   "commit": {
-    "sha": "42c1bb8c259f3f57de9f38600776cf273e3addda",
-    "date": "2023-02-21T06:27:49.000Z"
+    "sha": "34bc6ac7c5d03e5891bf94b0d4ebeccb0e7a29e5",
+    "date": "2023-06-26T06:20:34.000Z"
   },
   "usage": 0.0002,
   "support": {
