@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "0d67a5e4ad155b165218de2c1bfad3b1",
+      "id": "35af2a646600c202102033820502fd15",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,24 @@
               },
               {
                 "type": "text",
-                "value": " attribute defines the minimum number of characters (as UTF-16 code units) the user can enter into an "
+                "value": " attribute defines the minimum "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "string length"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that the user can enter into an "
               },
               {
                 "type": "element",
@@ -97,24 +114,7 @@
               },
               {
                 "type": "text",
-                "value": ". This must be an integer value 0 or higher. If no minlength is specified, or an invalid value is specified, the input has no minimum length. This value must be less than or equal to the value of "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/HTML/Attributes/maxlength"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "maxlength"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", otherwise the value will never be valid, as it is impossible to meet both criteria."
+                "value": ". The attribute must have an integer value of 0 or higher."
               }
             ]
           }
@@ -321,8 +321,8 @@
     }
   },
   "commit": {
-    "sha": "cfcbb39cc595bd536b107f6771bfb3f8e13bacca",
-    "date": "2023-02-24T06:27:09.000Z"
+    "sha": "a78cecea4f3b1a7f35564a547052e163911ac491",
+    "date": "2023-06-30T04:48:08.000Z"
   },
   "usage": 0.93933,
   "support": {

@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "ff8641886abf78e238475adfd997ce22",
+      "id": "53e3e9a6d89430acf23f38a0e562d65d",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,7 @@
               },
               {
                 "type": "text",
-                "value": " method gets an unsigned 32-bit integer\n(unsigned long) at the specified byte offset from the start of the\n"
+                "value": " method of "
               },
               {
                 "type": "element",
@@ -72,7 +72,22 @@
               },
               {
                 "type": "text",
-                "value": "."
+                "value": " instances reads 4 bytes starting at the specified byte offset of this "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "DataView"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and interprets them as a 32-bit unsigned integer."
               }
             ]
           }
@@ -170,8 +185,8 @@
     }
   },
   "commit": {
-    "sha": "a1ab8a0d6e510d53989c6de9515cdf5654b904b7",
-    "date": "2023-03-27T05:33:06.000Z"
+    "sha": "3a006e92b14a2733e485a26d0dc3a1472968fd9b",
+    "date": "2023-06-29T09:52:15.000Z"
   },
   "usage": 0.9440299999999999,
   "support": {
