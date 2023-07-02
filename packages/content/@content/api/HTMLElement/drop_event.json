@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "78f17fbdbb10963acb5536df11c8423c",
+      "id": "213ffe7b4144bf1d02faf7569cc0ec2e",
       "tree": {
         "type": "root",
         "children": [
@@ -49,7 +49,70 @@
               },
               {
                 "type": "text",
-                "value": " event is fired when an element or text selection is dropped on a valid drop target."
+                "value": " event is fired when an element or text selection is dropped on a valid drop target. To ensure that the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "drop"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event always fires as expected, you should always include a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Event/preventDefault"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "preventDefault()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " call in the part of your code which handles the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/HTMLElement/dragover_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "dragover"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event."
               }
             ]
           }
@@ -518,10 +581,10 @@
     }
   },
   "commit": {
-    "sha": "a3d9f61a8990ba7b53bda9748d1f26a9e9810b18",
-    "date": "2023-04-07T00:39:15.000Z"
+    "sha": "5ecc0366ec35eaaa4d52c7b1150e4f4b41c21397",
+    "date": "2023-07-02T01:39:19.000Z"
   },
-  "usage": 0.9442599999999999,
+  "usage": 0.93754,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -531,7 +594,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2563,
+        "global": 0.24839999999999995,
         "relative": 1
       },
       "history": [
@@ -543,7 +606,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2563,
+            "global": 0.24839999999999995,
             "relative": 1
           }
         }
@@ -557,7 +620,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.35350999999999994,
+        "global": 0.3588,
         "relative": 1
       },
       "history": [
@@ -569,7 +632,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.35350999999999994,
+            "global": 0.3588,
             "relative": 1
           }
         }
@@ -583,7 +646,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04709999999999999,
+        "global": 0.04539999999999998,
         "relative": 1
       },
       "history": [
@@ -595,7 +658,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04709999999999999,
+            "global": 0.04539999999999998,
             "relative": 1
           }
         }
@@ -661,8 +724,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0019,
-        "relative": 0.9047619047619048
+        "global": 0.0017,
+        "relative": 0.9444444444444444
       },
       "history": [
         {
@@ -673,8 +736,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0019,
-            "relative": 0.9047619047619048
+            "global": 0.0017,
+            "relative": 0.9444444444444444
           }
         }
       ]
@@ -765,7 +828,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.05999999999999997,
+        "global": 0.06039999999999999,
         "relative": 1
       },
       "history": [
@@ -777,7 +840,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.05999999999999997,
+            "global": 0.06039999999999999,
             "relative": 1
           }
         }
@@ -791,7 +854,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16774999999999998,
+        "global": 0.16614000000000004,
         "relative": 1
       },
       "history": [
@@ -803,7 +866,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16774999999999998,
+            "global": 0.16614000000000004,
             "relative": 1
           }
         }
@@ -817,7 +880,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02429999999999999,
+        "global": 0.02329999999999999,
         "relative": 1
       },
       "history": [
@@ -829,7 +892,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02429999999999999,
+            "global": 0.02329999999999999,
             "relative": 1
           }
         }
