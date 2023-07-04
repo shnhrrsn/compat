@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "05954541a58d155ec80617e8b740db58",
+      "id": "ca881c46b54ab843a68786c7fcf2309f",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,24 @@
               },
               {
                 "type": "text",
-                "value": " declaration declares an async function where the "
+                "value": " declaration creates a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/binding"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "binding"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of a new async function to a given name. The "
               },
               {
                 "type": "element",
@@ -61,37 +78,7 @@
               },
               {
                 "type": "text",
-                "value": " keyword is permitted within the function body. The "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "async"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "await"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains."
+                "value": " keyword is permitted within the function body, enabling asynchronous, promise-based behavior to be written in a cleaner style and avoiding the need to explicitly configure promise chains."
               }
             ]
           }
@@ -102,7 +89,7 @@
       }
     },
     "seeAlso": {
-      "id": "5f3bc2ed5f2e1d298ec5b7e831437dff",
+      "id": "418ef7c11e6046db1d4f4b42a6fd4fb9",
       "tree": {
         "type": "root",
         "children": [
@@ -122,12 +109,62 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Functions"
+                    },
                     "children": [
                       {
                         "type": "text",
-                        "value": "async function expression"
+                        "value": "Functions guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Using_promises"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using promises"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions reference"
                       }
                     ]
                   }
@@ -162,10 +199,107 @@
                         ]
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
-                    "type": "text",
-                    "value": " object"
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/async_function"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "async function"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " expression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "function"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "function*"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "async function*"
+                      }
+                    ]
                   }
                 ]
               },
@@ -204,29 +338,50 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Promise"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Promise"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
                       "href": "https://innolitics.com/10x/javascript-decorators-for-promise-returning-functions/"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Decorating Async JavaScript Functions"
+                        "value": "Decorating async JavaScript functions"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": " on "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "em",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "innolitics.com"
-                      }
-                    ]
+                    "value": " on innolitics.com (April 04, 2016)"
                   }
                 ]
               },
@@ -244,10 +399,10 @@
     }
   },
   "commit": {
-    "sha": "d85a7ba8cca98c2f6cf67a0c44f0ffd467532f20",
-    "date": "2023-04-05T04:57:48.000Z"
+    "sha": "1c4869cdb1a9a9c3cafba87a2cd9469591f7aa47",
+    "date": "2023-07-03T17:55:26.000Z"
   },
-  "usage": 0.9314100000000001,
+  "usage": 0.93143,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -283,8 +438,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.35887,
-        "relative": 0.9999164112566175
+        "global": 0.35889000000000004,
+        "relative": 0.999944275723719
       },
       "history": [
         {
@@ -295,8 +450,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.35887,
-            "relative": 0.9999164112566175
+            "global": 0.35889000000000004,
+            "relative": 0.999944275723719
           }
         }
       ]

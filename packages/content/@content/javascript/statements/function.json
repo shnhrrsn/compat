@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d3b662832524d507c928463b67101e37",
+      "id": "459ee2b2468d24d3cf2b44408780a02b",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,24 @@
               },
               {
                 "type": "text",
-                "value": " declaration defines a function with\nthe specified parameters."
+                "value": " declaration creates a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/binding"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "binding"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of a new function to a given name."
               }
             ]
           }
@@ -57,7 +74,7 @@
       }
     },
     "seeAlso": {
-      "id": "0d85f70df4b499e4c749eb9add6aeabe",
+      "id": "a64a474209fd22c7dcde629d4762f40e",
       "tree": {
         "type": "root",
         "children": [
@@ -66,6 +83,54 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Functions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions reference"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -109,98 +174,9 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "function expression"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "function* statement"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "function* expression"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Arrow functions"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/GeneratorFunction"
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/function"
                     },
                     "children": [
                       {
@@ -210,9 +186,35 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "GeneratorFunction"
+                            "value": "function"
                           }
                         ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " expression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "function*"
                       }
                     ]
                   }
@@ -256,7 +258,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "async function expression"
+                        "value": "async function*"
                       }
                     ]
                   }
@@ -276,10 +278,10 @@
     }
   },
   "commit": {
-    "sha": "0f3738f6b1ed1aa69395ff181207186e1ad9f4d8",
-    "date": "2023-02-21T00:33:34.000Z"
+    "sha": "1c4869cdb1a9a9c3cafba87a2cd9469591f7aa47",
+    "date": "2023-07-03T17:55:26.000Z"
   },
-  "usage": 0.9380599999999998,
+  "usage": 0.9380699999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -315,7 +317,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3589,
+        "global": 0.35891000000000006,
         "relative": 1
       },
       "history": [
@@ -327,7 +329,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3589,
+            "global": 0.35891000000000006,
             "relative": 1
           }
         }

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "3196e1fe949c8600e3f9d4126ddc1d5e",
+      "id": "3defc55c72d59e3c725fe201177b83dd",
       "tree": {
         "type": "root",
         "children": [
@@ -46,52 +46,41 @@
               },
               {
                 "type": "text",
-                "value": " declaration ("
+                "value": " declaration creates a "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/binding"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "function"
+                    "value": "binding"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " keyword\nfollowed by an asterisk) defines a "
+                "value": " of a new generator function to a given name. A generator function can be exited and later re-entered, with its context (variable "
               },
               {
                 "type": "element",
-                "tagName": "em",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/binding"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "generator function"
+                    "value": "bindings"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ", which returns a\n"
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Generator"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " object."
+                "value": ") saved across re-entrances."
               }
             ]
           }
@@ -102,7 +91,7 @@
       }
     },
     "seeAlso": {
-      "id": "ad01910cc6b8daa2a7a28bed9f1980c1",
+      "id": "fe710b6cf187dd1b6b93f02a5e101eab",
       "tree": {
         "type": "root",
         "children": [
@@ -121,13 +110,115 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Functions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
                     "type": "element",
-                    "tagName": "p",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Iterators and generators"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Functions"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Functions reference"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/GeneratorFunction"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "GeneratorFunction"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Operators/function*"
+                    },
                     "children": [
                       {
                         "type": "element",
@@ -145,10 +236,6 @@
                         "value": " expression"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -162,44 +249,15 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
+                    "tagName": "code",
                     "properties": {},
                     "children": [
-                      {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "internal": "",
-                          "href": "/javascript/builtins/GeneratorFunction"
-                        },
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "GeneratorFunction"
-                              }
-                            ]
-                          }
-                        ]
-                      },
                       {
                         "type": "text",
-                        "value": " object"
+                        "value": "function"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -213,32 +271,15 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
+                    "tagName": "code",
                     "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
-                        },
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Iteration protocols"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "async function"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -252,13 +293,102 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "async function*"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
                     "type": "element",
-                    "tagName": "p",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Iteration protocols"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
                     "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "yield"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "yield*"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Generator"
+                    },
                     "children": [
                       {
                         "type": "element",
@@ -267,15 +397,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "yield"
+                            "value": "Generator"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -289,30 +415,17 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://facebook.github.io/regenerator/"
+                    },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "yield*"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "Regenerator"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -326,44 +439,17 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.youtube.com/watch?v=qbKWsbJ76-s"
+                    },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "a",
-                        "properties": {
-                          "internal": "",
-                          "href": "/javascript/builtins/Function"
-                        },
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Function"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
                         "type": "text",
-                        "value": " object"
+                        "value": "Forbes Lindesay: Promises and Generators: control flow utopia — JSConf EU 2013"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -377,34 +463,17 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/mozilla/task.js"
+                    },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "function"
-                          }
-                        ]
-                      },
-                      {
                         "type": "text",
-                        "value": " declaration"
+                        "value": "Task.js"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -418,216 +487,17 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
                     "type": "element",
-                    "tagName": "p",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "function"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": " expression"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "p",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Functions and function scope"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "p",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch4.md#iterating-generators-asynchronously"
+                    },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Other web resources:"
+                        "value": "Iterating generators asynchronously"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "ul",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "https://facebook.github.io/regenerator/"
-                            },
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Regenerator"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": " an ES2015 generator compiler to ES5"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "https://www.youtube.com/watch?v=qbKWsbJ76-s"
-                            },
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Forbes Lindesay: Promises and Generators: control flow utopia — JSConf EU 2013"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "https://github.com/mozilla/task.js"
-                            },
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Task.js"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "href": "https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch4.md#iterating-generators-asynchronously"
-                            },
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "Iterating generators asynchronously"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
                   }
                 ]
               },
@@ -645,10 +515,10 @@
     }
   },
   "commit": {
-    "sha": "77176b1f35f73f319bb5b959e5c90db8b5a0f9ea",
-    "date": "2023-03-28T20:42:48.000Z"
+    "sha": "1c4869cdb1a9a9c3cafba87a2cd9469591f7aa47",
+    "date": "2023-07-03T17:55:26.000Z"
   },
-  "usage": 0.9326599999999999,
+  "usage": 0.9326800000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -684,8 +554,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.35887,
-        "relative": 0.9999164112566175
+        "global": 0.35889000000000004,
+        "relative": 0.999944275723719
       },
       "history": [
         {
@@ -696,8 +566,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.35887,
-            "relative": 0.9999164112566175
+            "global": 0.35889000000000004,
+            "relative": 0.999944275723719
           }
         }
       ]
