@@ -8,7 +8,7 @@
   "type": "page",
   "title": "background-attachment / fixed",
   "links": {},
-  "usage": 0.71661,
+  "usage": 0.9112899999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -247,32 +247,26 @@
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "3.1.0",
-        "date": 1205798400
+        "version": "15.4.0",
+        "date": 1647302400
       },
-      "removed": {
-        "version": "14.0.0",
-        "date": 1600214400
-      },
+      "removed": null,
       "usage": {
-        "global": 0.004700000000000001,
-        "relative": 0.07846410684474124
+        "global": 0.049600000000000005,
+        "relative": 0.8280467445742906
       },
       "history": [
         {
-          "notes": [
-            "<code>local</code> is recognized but has no effect due to <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/219324'>a bug</a>."
-          ],
+          "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1600214400
+            "version": "15.4.0",
+            "date": 1647302400
           },
           "removed": null,
           "usage": {
-            "global": 0.0565,
-            "relative": 0.9432387312186978
-          },
-          "partial_implementation": true
+            "global": 0.049600000000000005,
+            "relative": 0.8280467445742906
+          }
         },
         {
           "notes": null,
@@ -288,18 +282,51 @@
             "global": 0.004700000000000001,
             "relative": 0.07846410684474124
           }
+        },
+        {
+          "notes": [
+            "<code>local</code> is recognized but has no effect due to <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/219324'>a bug</a>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "usage": {
+            "global": 0.008,
+            "relative": 0.1335559265442404
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.14977999999999997,
+        "relative": 0.9014203177660084
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.14977999999999997,
+            "relative": 0.9014203177660084
+          }
+        },
         {
           "notes": [
             "<code>fixed</code> is recognized but has no effect. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/219324'>bug 219324</a>."
@@ -308,10 +335,13 @@
             "version": "5.0.0",
             "date": 1318377600
           },
-          "removed": null,
+          "removed": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
           "usage": {
-            "global": 0.16613000000000003,
-            "relative": 0.9998194511314396
+            "global": 0.018119999999999997,
+            "relative": 0.10905151661049586
           },
           "partial_implementation": true
         }
