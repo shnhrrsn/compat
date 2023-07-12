@@ -87,36 +87,14 @@
             "Only supported through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements."
           ],
           "added": {
-            "version": "preview",
-            "date": null
+            "version": "116.0.0",
+            "date": 1690848000
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           },
-          "partial_implementation": true
-        },
-        {
-          "notes": [
-            "Only supported through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements."
-          ],
-          "added": {
-            "version": "92.0.0",
-            "date": 1630972800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.023999999999999994,
-            "relative": 0.9411764705882355
-          },
-          "flags": [
-            {
-              "name": "media.setsinkid.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ],
           "partial_implementation": true
         }
       ]
@@ -131,7 +109,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Not available due to a limitation in Android (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1473346'>bug 1473346</a>)."
+          ],
           "added": null,
           "removed": null,
           "usage": {

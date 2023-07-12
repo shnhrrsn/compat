@@ -372,8 +372,8 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "preview",
-        "date": null
+        "version": "116.0.0",
+        "date": 1690848000
       },
       "removed": null,
       "usage": {
@@ -386,8 +386,8 @@
             "<code>enumerateDevices()</code> enumerates both input and output devices. Previously only input devices were returned."
           ],
           "added": {
-            "version": "preview",
-            "date": null
+            "version": "116.0.0",
+            "date": 1690848000
           },
           "removed": null,
           "usage": {
@@ -409,39 +409,35 @@
             "relative": 1
           },
           "partial_implementation": true
-        },
-        {
-          "notes": [
-            "Before Firefox 63, <code>enumerateDevices()</code> only returned input devices. Starting with Firefox 63, output devices are also included if the <code>media.setsinkid.enabled</code> preference is enabled."
-          ],
-          "added": {
-            "version": "63.0.0",
-            "date": 1540252800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02489999999999999,
-            "relative": 0.9764705882352943
-          },
-          "flags": [
-            {
-              "name": "media.setsinkid.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "116.0.0",
+        "date": 1690848000
+      },
       "removed": null,
       "usage": {
         "global": null,
         "relative": null
       },
       "history": [
+        {
+          "notes": [
+            "<code>enumerateDevices()</code> enumerates both input and output devices. Previously only input devices were returned."
+          ],
+          "added": {
+            "version": "116.0.0",
+            "date": 1690848000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
         {
           "notes": [
             "<code>enumerateDevices()</code> only returns input devices."

@@ -410,16 +410,40 @@
       "history": [
         {
           "notes": [
+            "Now supports the <code>x</code> and <code>y</code> values, and also the deprecated <code>horizontal</code> and <code>vertical</code> values."
+          ],
+          "added": {
+            "version": "114.0.0",
+            "date": 1686009600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.013800000000000002,
+            "relative": 0.5411764705882356
+          },
+          "flags": [
+            {
+              "name": "layout.css.scroll-driven-animations.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
+        },
+        {
+          "notes": [
             "Supports the deprecated <code>horizontal</code> and <code>vertical</code> values, and not the <code>x</code> and <code>y</code> values."
           ],
           "added": {
             "version": "111.0.0",
             "date": 1678752000
           },
-          "removed": null,
+          "removed": {
+            "version": "114.0.0",
+            "date": 1686009600
+          },
           "usage": {
-            "global": 0.0223,
-            "relative": 0.874509803921569
+            "global": 0.022099999999999998,
+            "relative": 0.866666666666667
           },
           "flags": [
             {
