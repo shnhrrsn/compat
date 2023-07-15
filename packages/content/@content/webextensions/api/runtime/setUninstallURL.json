@@ -56,7 +56,7 @@
     "sha": "493d95081a9d325244ac533dd26f6c6712cba492",
     "date": "2023-06-16T02:19:49.000Z"
   },
-  "usage": 0.03389999999999999,
+  "usage": 0.0085,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -93,12 +93,12 @@
             "date": 1425340800
           },
           "removed": {
-            "version": "114.0.0",
-            "date": 1685404800
+            "version": "115.0.0",
+            "date": 1689638400
           },
           "usage": {
-            "global": 0.24779999999999996,
-            "relative": 0.9971830985915493
+            "global": 0.24799999999999997,
+            "relative": 0.9979879275653923
           }
         }
       ]
@@ -138,8 +138,8 @@
             "date": 1579046400
           },
           "removed": {
-            "version": "114.0.0",
-            "date": 1685664000
+            "version": "115.0.0",
+            "date": 1689811200
           },
           "usage": {
             "global": 0.04539999999999999,
@@ -151,24 +151,41 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "47.0.0",
-        "date": 1465257600
+        "version": "116.0.0",
+        "date": 1690848000
       },
       "removed": null,
       "usage": {
-        "global": 0.025399999999999992,
-        "relative": 0.9960784313725491
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": [
-            "The maximum length was increased from 255 to 1023 in Firefox 116."
+            "The maximum length is 1023 characters."
+          ],
+          "added": {
+            "version": "116.0.0",
+            "date": 1690848000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The maximum length is 255 characters."
           ],
           "added": {
             "version": "47.0.0",
             "date": 1465257600
           },
-          "removed": null,
+          "removed": {
+            "version": "116.0.0",
+            "date": 1690848000
+          },
           "usage": {
             "global": 0.025399999999999992,
             "relative": 0.9960784313725491
@@ -179,8 +196,8 @@
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "48.0.0",
-        "date": 1470096000
+        "version": "116.0.0",
+        "date": 1690848000
       },
       "removed": null,
       "usage": {
@@ -190,13 +207,30 @@
       "history": [
         {
           "notes": [
-            "The maximum length was increased from 255 to 1023 in Firefox 116."
+            "The maximum length is 1023 characters."
+          ],
+          "added": {
+            "version": "116.0.0",
+            "date": 1690848000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "The maximum length is 255 characters."
           ],
           "added": {
             "version": "48.0.0",
             "date": 1470096000
           },
-          "removed": null,
+          "removed": {
+            "version": "116.0.0",
+            "date": 1690848000
+          },
           "usage": {
             "global": null,
             "relative": null
