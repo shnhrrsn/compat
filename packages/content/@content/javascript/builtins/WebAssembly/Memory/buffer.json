@@ -7,10 +7,248 @@
     "buffer"
   ],
   "type": "page",
-  "title": "Memory / buffer",
+  "title": "WebAssembly.Memory.prototype.buffer",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/buffer",
-    "spec": "https://webassembly.github.io/spec/js-api/#dom-memory-buffer"
+    "mdn": "https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Memory/buffer",
+    "spec": "https://webassembly.github.io/spec/js-api/#dom-memory-buffer",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/webassembly/javascript_interface/memory/buffer/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "4e363893bf50df611bc3e65c0d96ffc4",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The read-only "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "buffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " prototype property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/WebAssembly/JavaScript_interface/Memory"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebAssembly.Memory"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object returns the buffer contained in the memory. Depending on whether or not the memory was constructed with "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "shared: true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the buffer is either an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/ArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/SharedArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SharedArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "dec49d832bf5f59db00299c948ecb509",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/WebAssembly"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebAssembly"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " overview page"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/WebAssembly/Concepts"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "WebAssembly concepts"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/WebAssembly/Using_the_JavaScript_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using the WebAssembly JavaScript API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "fe898ddf33314ee129256c3862c5c53106eeec1f",
+    "date": "2023-02-23T10:05:41.000Z"
   },
   "usage": 0.93025,
   "support": {
