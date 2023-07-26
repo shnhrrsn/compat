@@ -276,10 +276,7 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": {
-        "version": "47.0.0",
-        "date": 1465257600
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -288,7 +285,7 @@
       "history": [
         {
           "notes": [
-            "Firefox 47 and later support <code>display-mode</code> values <code>fullscreen</code> and <code>browser</code>. Firefox 57 added support for <code>minimal-ui</code> and <code>standalone</code> values."
+            "Only supports the <code>browser</code> value, which always reports <code>true</code>."
           ],
           "added": {
             "version": "47.0.0",
@@ -298,7 +295,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

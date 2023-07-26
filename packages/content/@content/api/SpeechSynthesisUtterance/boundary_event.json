@@ -127,22 +127,21 @@
     "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
     "date": "2023-07-07T07:19:19.000Z"
   },
-  "usage": 0.5761499999999999,
+  "usage": 0.32765000000000005,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "33.0.0",
-        "date": 1392854400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.24849999999999997,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The <code>boundary</code> event does not fire as expected. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1122143'>bug 1122143</a>."
+          ],
           "added": {
             "version": "33.0.0",
             "date": 1392854400
@@ -151,7 +150,8 @@
           "usage": {
             "global": 0.24849999999999997,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
