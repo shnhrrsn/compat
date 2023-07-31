@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "63b383ffd36c3166476d0b7d2f3a69c1",
+      "id": "655b95396c5156289251a659c1ff8a29",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,114 @@
               },
               {
                 "type": "text",
-                "value": " function determines whether the\npassed value is a finite number. If needed, the parameter is first converted to a\nnumber."
+                "value": " function determines whether a value is finite, first converting the value to a number if necessary. A finite number is one that's not "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/NaN"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NaN"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or ±"
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Infinity"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Infinity"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". Because coercion inside the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "isFinite()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " function can be "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN#description"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "surprising"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", you may prefer to use "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Number/isFinite"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Number.isFinite()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -208,8 +315,8 @@
     }
   },
   "commit": {
-    "sha": "6bd17cb9cbc2d11163617b9f71706e93fdd743c8",
-    "date": "2023-04-28T03:58:12.000Z"
+    "sha": "e5f0e1070962ee4a595369218d85481542ec7ded",
+    "date": "2023-07-30T22:50:29.000Z"
   },
   "usage": 0.9380699999999998,
   "support": {
