@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "6c22540af8805f525fceb138955a8f1d",
+      "id": "860bbf8e9e42bc24900050ba38563484",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,55 @@
               },
               {
                 "type": "text",
-                "value": " event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading."
+                "value": " event fires when the HTML document has been completely parsed, and all deferred scripts ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/script#defer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<script defer src=\"…\">"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/script#module"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<script type=\"module\">"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") have downloaded and executed. It doesn't wait for other things like images, subframes, and async scripts to finish loading."
               }
             ]
           }
@@ -252,8 +300,8 @@
     }
   },
   "commit": {
-    "sha": "41a8b9c9832359d445d136b6d7a8a28737badc6b",
-    "date": "2023-04-07T05:52:28.000Z"
+    "sha": "9c74ee8922c1a5ffb27de4b054efaa4e6a50e2fa",
+    "date": "2023-08-03T08:39:05.000Z"
   },
   "usage": 0.9407899999999999,
   "support": {
