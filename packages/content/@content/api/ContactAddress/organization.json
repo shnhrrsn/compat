@@ -9,7 +9,7 @@
   "links": {
     "spec": "https://w3c.github.io/contact-picker/#dom-contactaddress-organization"
   },
-  "usage": 0.3769799999999999,
+  "usage": 0.3558799999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -251,27 +251,30 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": {
-        "version": "14.0.0",
-        "date": 1618617600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.021099999999999997,
-        "relative": 0.9173913043478262
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "This API was exposed but failed upon opening a contact selector."
+          ],
           "added": {
             "version": "14.0.0",
             "date": 1618617600
           },
-          "removed": null,
+          "removed": {
+            "version": "22.0.0",
+            "date": 1689292800
+          },
           "usage": {
             "global": 0.021099999999999997,
             "relative": 0.9173913043478262
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

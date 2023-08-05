@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "9441d202764c736534b518a36b9acb09",
+      "id": "d61951b8b81c821b40ca4c7eec416d53",
       "tree": {
         "type": "root",
         "children": [
@@ -64,12 +64,22 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/HID/connect_event"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "HID.onconnect"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "connect"
+                      }
+                    ]
                   }
                 ]
               },
@@ -79,18 +89,28 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/HID/disconnect_event"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "HID.ondisconnect"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "disconnect"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " when an input report is received."
+                "value": " event handlers when an input report is received."
               }
             ]
           }
@@ -102,8 +122,8 @@
     }
   },
   "commit": {
-    "sha": "0230ecc4418a1e52bca6b4d03c4eb794f90d04f1",
-    "date": "2023-02-28T10:00:20.000Z"
+    "sha": "56c76424a5edb45f6716ac4ee48861dac8e7ae38",
+    "date": "2023-08-04T07:12:32.000Z"
   },
   "usage": 0.289,
   "support": {

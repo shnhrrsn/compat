@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "82aafcc41a256a9fd37c79a1871516b1",
+      "id": "ad6b98dae4c89eb029344ff50e186925",
       "tree": {
         "type": "root",
         "children": [
@@ -69,7 +69,32 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "USB.onconnect"
+                    "value": "USB"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/USB/connect_event"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "connect"
+                      }
+                    ]
                   }
                 ]
               },
@@ -79,18 +104,28 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/USB/disconnect_event"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "USB.ondisconnect"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "disconnect"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " when the user agent detects that a new USB device has been connected or disconnected."
+                "value": " events when the user agent detects that a new USB device has been connected or disconnected."
               }
             ]
           }
@@ -102,8 +137,8 @@
     }
   },
   "commit": {
-    "sha": "0fe27ff068e18f54bc689577c036fd7d82a55c4a",
-    "date": "2023-03-03T16:18:26.000Z"
+    "sha": "56c76424a5edb45f6716ac4ee48861dac8e7ae38",
+    "date": "2023-08-04T07:12:32.000Z"
   },
   "usage": 0.6904899999999999,
   "support": {
