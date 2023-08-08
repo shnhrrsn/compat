@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "9ed2b438c3782b9b01e3ceabe3feec9d",
+      "id": "bba68dfbaa6197a2701cb802c46579a5",
       "tree": {
         "type": "root",
         "children": [
@@ -47,67 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method copies the sequence of array\nelements within the array to the position starting at "
+                "value": " method of "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "target"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ".\nThe copy is taken from the index positions of the second and third arguments\n"
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "start"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " and "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "end"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ". The\n"
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "end"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " argument is optional and defaults to the length of the\narray. This method has the same algorithm as "
+                "value": " instances shallow copies part of this typed array to another location in the same typed array and returns this typed array without modifying its length. This method has the same algorithm as "
               },
               {
                 "type": "element",
@@ -124,7 +89,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "Array.prototype.copyWithin"
+                        "value": "Array.prototype.copyWithin()"
                       }
                     ]
                   }
@@ -132,39 +97,7 @@
               },
               {
                 "type": "text",
-                "value": ".\n"
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "TypedArray"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " is one of the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "typed array types"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " here."
+                "value": "."
               }
             ]
           }
@@ -175,7 +108,7 @@
       }
     },
     "seeAlso": {
-      "id": "b64ec2e85046ea2d8b291e42e1598bcc",
+      "id": "9391c905a2424d30f119ee497901322f",
       "tree": {
         "type": "root",
         "children": [
@@ -247,6 +180,30 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "JavaScript typed arrays"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
                       "internal": "",
                       "href": "/javascript/builtins/TypedArray"
                     },
@@ -269,6 +226,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/copyWithin"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.copyWithin()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -280,10 +269,10 @@
     }
   },
   "commit": {
-    "sha": "5977e4195af788cf85b491a85da8ae03e88a023d",
-    "date": "2023-06-13T12:13:00.000Z"
+    "sha": "6c6642fdfecbdaadd1e2068cddc1342b7e69343e",
+    "date": "2023-08-08T00:38:31.000Z"
   },
-  "usage": 0.9371099999999999,
+  "usage": 0.9371300000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -319,7 +308,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3590899999999999,
+        "global": 0.35911000000000015,
         "relative": 1
       },
       "history": [
@@ -331,7 +320,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3590899999999999,
+            "global": 0.35911000000000015,
             "relative": 1
           }
         }

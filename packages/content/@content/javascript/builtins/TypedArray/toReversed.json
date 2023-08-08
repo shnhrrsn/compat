@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "6f10fc32a68b32d4c4034368c45abf56",
+      "id": "2672e600626e8c6c315310ed209c5183",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method is the "
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances is the "
               },
               {
                 "type": "element",
@@ -89,14 +114,14 @@
               },
               {
                 "type": "text",
-                "value": " method. It returns a new array with the elements in reversed order. This method has the same algorithm as "
+                "value": " method. It returns a new typed array with the elements in reversed order. This method has the same algorithm as "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/javascript/builtins/Array/reverse"
+                  "href": "/javascript/builtins/Array/toReversed"
                 },
                 "children": [
                   {
@@ -106,7 +131,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "Array.prototype.reverse()"
+                        "value": "Array.prototype.toReversed()"
                       }
                     ]
                   }
@@ -114,39 +139,7 @@
               },
               {
                 "type": "text",
-                "value": ". "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "TypedArray"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " is one of the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "typed array types"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " here."
+                "value": "."
               }
             ]
           }
@@ -157,7 +150,7 @@
       }
     },
     "seeAlso": {
-      "id": "63c2a97a9021bc961bc0b2d217940e52",
+      "id": "bae3b0ef8b08e9cacc24d219d90f6261",
       "tree": {
         "type": "root",
         "children": [
@@ -229,20 +222,12 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/Array/toReversed"
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
                     },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Array.prototype.toReversed()"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "JavaScript typed arrays"
                       }
                     ]
                   }
@@ -347,6 +332,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/toReversed"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.toReversed()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -358,10 +375,10 @@
     }
   },
   "commit": {
-    "sha": "e8383b94615de06243607843361202ddba8451bf",
-    "date": "2023-04-09T07:23:11.000Z"
+    "sha": "6c6642fdfecbdaadd1e2068cddc1342b7e69343e",
+    "date": "2023-08-08T00:38:31.000Z"
   },
-  "usage": 0.7716600000000001,
+  "usage": 0.77239,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -397,8 +414,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.31828,
-        "relative": 0.886351611016737
+        "global": 0.31901,
+        "relative": 0.8883350505416164
       },
       "history": [
         {
@@ -409,8 +426,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.31828,
-            "relative": 0.886351611016737
+            "global": 0.31901,
+            "relative": 0.8883350505416164
           }
         }
       ]

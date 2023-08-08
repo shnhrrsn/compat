@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "4608e9b0e1f673f2311592827ffaf1ad",
+      "id": "59b983132fe25599cc7612630d991cb4",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method is the "
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances is the "
               },
               {
                 "type": "element",
@@ -81,7 +106,7 @@
               },
               {
                 "type": "text",
-                "value": " to change the value of a given index. It returns a new array with the element at the given index replaced with the given value. This method has the same algorithm as "
+                "value": " to change the value of a given index. It returns a new typed array with the element at the given index replaced with the given value. This method has the same algorithm as "
               },
               {
                 "type": "element",
@@ -106,39 +131,7 @@
               },
               {
                 "type": "text",
-                "value": ". "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "TypedArray"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " is one of the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "typed array types"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " here."
+                "value": "."
               }
             ]
           }
@@ -149,7 +142,7 @@
       }
     },
     "seeAlso": {
-      "id": "b433dea74ec652483c4e878a24419d3b",
+      "id": "4ae812af06e79615e08c4ab9f27d1b68",
       "tree": {
         "type": "root",
         "children": [
@@ -221,20 +214,12 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/Array/with"
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
                     },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Array.prototype.with()"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "JavaScript typed arrays"
                       }
                     ]
                   }
@@ -307,6 +292,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/with"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.with()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -318,10 +335,10 @@
     }
   },
   "commit": {
-    "sha": "ef30b142b03870b8ca70919f1a65a96736898c3a",
-    "date": "2023-06-18T23:55:42.000Z"
+    "sha": "6c6642fdfecbdaadd1e2068cddc1342b7e69343e",
+    "date": "2023-08-08T00:38:31.000Z"
   },
-  "usage": 0.7716600000000001,
+  "usage": 0.77239,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -357,8 +374,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.31828,
-        "relative": 0.886351611016737
+        "global": 0.31901,
+        "relative": 0.8883350505416164
       },
       "history": [
         {
@@ -369,8 +386,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.31828,
-            "relative": 0.886351611016737
+            "global": 0.31901,
+            "relative": 0.8883350505416164
           }
         }
       ]

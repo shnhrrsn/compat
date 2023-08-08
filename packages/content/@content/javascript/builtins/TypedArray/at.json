@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "b52f95ee04274ea9f47c1d0a5fbf4ed1",
+      "id": "c6bcb14bf05ae6aba4aee8cf944112dd",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,57 @@
               },
               {
                 "type": "text",
-                "value": " method takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the array."
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances takes an integer value and returns the item at that index, allowing for positive and negative integers. Negative integers count back from the last item in the typed array. This method has the same algorithm as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Array/at"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array.prototype.at()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -58,7 +108,7 @@
       }
     },
     "seeAlso": {
-      "id": "c35a3ea6e2d7575cffde5f5bfaf48ffa",
+      "id": "c0affd058809beece3094085774ed53c",
       "tree": {
         "type": "root",
         "children": [
@@ -130,18 +180,14 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://github.com/tc39/proposal-relative-indexing-method#polyfill"
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "A polyfill for the at() method"
+                        "value": "JavaScript typed arrays"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "."
                   }
                 ]
               },
@@ -159,7 +205,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/TypedArray/find"
+                      "href": "/javascript/builtins/TypedArray"
                     },
                     "children": [
                       {
@@ -169,15 +215,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "TypedArray.prototype.find()"
+                            "value": "TypedArray"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " – return a value based on a given test."
                   }
                 ]
               },
@@ -195,7 +237,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/TypedArray/includes"
+                      "href": "/javascript/builtins/TypedArray/findIndex"
                     },
                     "children": [
                       {
@@ -205,15 +247,11 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "TypedArray.prototype.includes()"
+                            "value": "TypedArray.prototype.findIndex()"
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " – test whether a value exists in the array."
                   }
                 ]
               },
@@ -246,10 +284,70 @@
                         ]
                       }
                     ]
-                  },
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
                   {
-                    "type": "text",
-                    "value": " – return the index of a given element."
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/at"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.at()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/String/at"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "String.prototype.at()"
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -267,10 +365,10 @@
     }
   },
   "commit": {
-    "sha": "194d3e00cb93a6e5ea44812548f4131cb17f0381",
-    "date": "2023-02-21T00:33:25.000Z"
+    "sha": "6c6642fdfecbdaadd1e2068cddc1342b7e69343e",
+    "date": "2023-08-08T00:38:31.000Z"
   },
-  "usage": 0.8734399999999999,
+  "usage": 0.87348,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -306,8 +404,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.34907,
-        "relative": 0.9720961318889416
+        "global": 0.3491100000000001,
+        "relative": 0.9721533791874354
       },
       "history": [
         {
@@ -318,8 +416,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.34907,
-            "relative": 0.9720961318889416
+            "global": 0.3491100000000001,
+            "relative": 0.9721533791874354
           }
         }
       ]

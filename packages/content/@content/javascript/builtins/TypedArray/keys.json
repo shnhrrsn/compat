@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "ea644effe544206e76dd77a9b36158a1",
+      "id": "6f5be06da109d01fe677e61370921e83",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method returns a new "
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances returns a new "
               },
               {
                 "type": "element",
@@ -71,7 +96,32 @@
               },
               {
                 "type": "text",
-                "value": " object that contains the keys for each index in the array."
+                "value": " object that contains the keys for each index in the typed array. This method has the same algorithm as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Array/keys"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array.prototype.keys()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -82,7 +132,7 @@
       }
     },
     "seeAlso": {
-      "id": "fe1e034eab67849cbb63918e89a4ce08",
+      "id": "f6c66edeffe215cc42ef5d95291cabd6",
       "tree": {
         "type": "root",
         "children": [
@@ -305,12 +355,20 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...of"
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/keys"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "for...of"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.keys()"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -354,10 +412,10 @@
     }
   },
   "commit": {
-    "sha": "7b35a48ac0a10b67f9bd5270b082d40deff9c953",
-    "date": "2023-05-01T22:45:34.000Z"
+    "sha": "2f07f090184e1a74660f82a229a136e203be6968",
+    "date": "2023-08-07T11:56:04.000Z"
   },
-  "usage": 0.9356299999999997,
+  "usage": 0.9356500000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -393,7 +451,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3590899999999999,
+        "global": 0.35911000000000015,
         "relative": 1
       },
       "history": [
@@ -405,7 +463,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3590899999999999,
+            "global": 0.35911000000000015,
             "relative": 1
           }
         }

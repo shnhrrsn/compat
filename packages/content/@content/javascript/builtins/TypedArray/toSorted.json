@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "51704983544041b24e93df2c6cb002f5",
+      "id": "162efce79ee49a3d75f90fdffae47e32",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method is the "
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances is the "
               },
               {
                 "type": "element",
@@ -89,7 +114,7 @@
               },
               {
                 "type": "text",
-                "value": " method. It returns a new array with the elements sorted in ascending order. This method has the same algorithm as "
+                "value": " method. It returns a new typed array with the elements sorted in ascending order. This method has the same algorithm as "
               },
               {
                 "type": "element",
@@ -114,39 +139,7 @@
               },
               {
                 "type": "text",
-                "value": ", except that it sorts the values numerically instead of as strings by default. "
-              },
-              {
-                "type": "element",
-                "tagName": "em",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "TypedArray"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " is one of the "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray#typedarray_objects"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "typed array types"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " here."
+                "value": "."
               }
             ]
           }
@@ -157,7 +150,7 @@
       }
     },
     "seeAlso": {
-      "id": "d47fbb86db40d0849febe9f07ee18918",
+      "id": "3f7407b7920ad6975fec721c4dde6f66",
       "tree": {
         "type": "root",
         "children": [
@@ -229,20 +222,12 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "internal": "",
-                      "href": "/javascript/builtins/Array/toSorted"
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
                     },
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Array.prototype.toSorted()"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "JavaScript typed arrays"
                       }
                     ]
                   }
@@ -347,6 +332,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/toSorted"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.toSorted()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -358,10 +375,10 @@
     }
   },
   "commit": {
-    "sha": "e8383b94615de06243607843361202ddba8451bf",
-    "date": "2023-04-09T07:23:11.000Z"
+    "sha": "6c6642fdfecbdaadd1e2068cddc1342b7e69343e",
+    "date": "2023-08-08T00:38:31.000Z"
   },
-  "usage": 0.7716600000000001,
+  "usage": 0.77239,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -397,8 +414,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.31828,
-        "relative": 0.886351611016737
+        "global": 0.31901,
+        "relative": 0.8883350505416164
       },
       "history": [
         {
@@ -409,8 +426,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.31828,
-            "relative": 0.886351611016737
+            "global": 0.31901,
+            "relative": 0.8883350505416164
           }
         }
       ]

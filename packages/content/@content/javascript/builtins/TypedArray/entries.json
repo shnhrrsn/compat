@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "c6faeee90a684115b69dc4f668ce6953",
+      "id": "a3abb723a348adfb84d53c416c84d5ad",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,32 @@
               },
               {
                 "type": "text",
-                "value": " method returns a new "
+                "value": " method of "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/TypedArray"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "TypedArray"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " instances returns a new "
               },
               {
                 "type": "element",
@@ -71,7 +96,32 @@
               },
               {
                 "type": "text",
-                "value": " that contains the key/value pairs for each index in the array."
+                "value": " object that contains the key/value pairs for each index in the typed array. This method has the same algorithm as "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Array/entries"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Array.prototype.entries()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -82,7 +132,7 @@
       }
     },
     "seeAlso": {
-      "id": "2d50371d6afd7ae3803acc7d59bf64be",
+      "id": "c9ed9633fd9a085168c3b9608968e816",
       "tree": {
         "type": "root",
         "children": [
@@ -295,6 +345,62 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Array/entries"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Array.prototype.entries()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Iteration protocols"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -306,10 +412,10 @@
     }
   },
   "commit": {
-    "sha": "7b35a48ac0a10b67f9bd5270b082d40deff9c953",
-    "date": "2023-05-01T22:45:34.000Z"
+    "sha": "2f07f090184e1a74660f82a229a136e203be6968",
+    "date": "2023-08-07T11:56:04.000Z"
   },
-  "usage": 0.9371099999999999,
+  "usage": 0.9371300000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -345,7 +451,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3590899999999999,
+        "global": 0.35911000000000015,
         "relative": 1
       },
       "history": [
@@ -357,7 +463,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3590899999999999,
+            "global": 0.35911000000000015,
             "relative": 1
           }
         }
