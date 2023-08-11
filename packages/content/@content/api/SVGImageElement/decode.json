@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "86880787023f99aa1ec64523c71f7544",
+      "id": "f6366744a724deab076ea44fd4a8703e",
       "tree": {
         "type": "root",
         "children": [
@@ -96,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " that resolves once the image data is ready\nfor use."
+                "value": " that resolves once the image is decoded and it is safe to append\nit to the DOM."
               }
             ]
           }
@@ -107,7 +107,7 @@
       }
     },
     "seeAlso": {
-      "id": "2bc701abda4a082e633e4a4323269b7f",
+      "id": "a3a32dbbaf676bba8ce354bc89209354",
       "tree": {
         "type": "root",
         "children": [
@@ -148,32 +148,50 @@
                   },
                   {
                     "type": "text",
-                    "value": ": The same thing, but for HTML\n"
+                    "value": ": The same thing, but for HTML "
                   },
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/html/elements/image"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "<image>"
-                          }
-                        ]
+                        "type": "text",
+                        "value": "<img>"
                       }
                     ]
                   },
                   {
                     "type": "text",
                     "value": " elements"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "What does the image decoding attribute actually do?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on tunetheweb.com (2023)"
                   }
                 ]
               },
@@ -191,8 +209,8 @@
     }
   },
   "commit": {
-    "sha": "101ffc9479db6aaa530f2aac3992734dd97d1b86",
-    "date": "2023-04-08T06:08:46.000Z"
+    "sha": "59838756a270111e120db552ee53d8986e14ddee",
+    "date": "2023-08-10T09:35:26.000Z"
   },
   "usage": 0.71521,
   "support": {

@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "884e3c66e888255849a664739a273974",
+      "id": "ea829324abb6869fab89d0fba620c96b",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface represents a hint given to the browser on how it should decode the image."
+                "value": " interface provides a hint to the browser as to whether it should perform image decoding synchronously or asynchronously."
               }
             ]
           }
@@ -82,7 +82,7 @@
       }
     },
     "seeAlso": {
-      "id": "f275f4a52764e4a36ce85e9fd417d157",
+      "id": "5055812c50e0810bbb07bee82bb46ddd",
       "tree": {
         "type": "root",
         "children": [
@@ -101,10 +101,15 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "text",
+                    "value": "The "
+                  },
+                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/HTML/Element/img"
+                      "internal": "",
+                      "href": "/api/SVGImageElement/decode"
                     },
                     "children": [
                       {
@@ -114,15 +119,80 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "<img>"
+                            "value": "SVGImageElement.decode()"
                           }
                         ]
-                      },
-                      {
-                        "type": "text",
-                        "value": ": The Image Embed element"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " method"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The SVG "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/svg/elements/image"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<image>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " element "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/svg/elements/image/decoding"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "decoding"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " attribute."
                   }
                 ]
               },
@@ -140,8 +210,8 @@
     }
   },
   "commit": {
-    "sha": "e8bd4d296bbc9f366bc76ca42e295c83da07232e",
-    "date": "2023-05-17T00:07:12.000Z"
+    "sha": "59838756a270111e120db552ee53d8986e14ddee",
+    "date": "2023-08-10T09:35:26.000Z"
   },
   "usage": 0.71521,
   "support": {

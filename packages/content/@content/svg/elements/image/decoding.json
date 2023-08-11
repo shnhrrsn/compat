@@ -6,10 +6,198 @@
     "decoding"
   ],
   "type": "page",
-  "title": "image / decoding",
+  "title": "decoding",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/SVG/Attribute/decoding",
-    "spec": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding"
+    "spec": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/svg/attribute/decoding/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2b628a0c72b393bb52b89e3cd25cf55e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "decoding"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " attribute, valid on "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/svg/elements/image"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<image>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " elements, provides a hint to the browser as to whether it should perform image decoding along with rendering other content in a single presentation step that looks more \"correct\" ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "sync"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), or render and present the other content first and then decode the image and present it later ("
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "). In practice, "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " means that the next paint does not wait for the image to decode."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "1508177c7627bed0930afcfc464ee23c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/SVGImageElement/decoding"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "SVGImageElement: decoding property"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "What does the image decoding attribute actually do?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on tunetheweb.com (2023)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "59838756a270111e120db552ee53d8986e14ddee",
+    "date": "2023-08-10T09:35:26.000Z"
   },
   "usage": 0.93112,
   "support": {
