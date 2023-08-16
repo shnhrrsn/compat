@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "590408e6d2c4be022b5cf1f8e68d9847",
+      "id": "b1beebacde0085fb7e5f465db765d36f",
       "tree": {
         "type": "root",
         "children": [
@@ -42,7 +42,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "x &&= y"
+                        "value": "&&="
                       }
                     ]
                   },
@@ -54,22 +54,7 @@
               },
               {
                 "type": "text",
-                "value": " operator only assigns if "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "x"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " is "
+                "value": " operator only evaluates the right operand and assigns to the left if the left operand is "
               },
               {
                 "type": "element",
@@ -97,7 +82,7 @@
       }
     },
     "seeAlso": {
-      "id": "5ad2f9a2b8423f8fc559eb3453bf3572",
+      "id": "4354a51047dd39e097630b2214debde0",
       "tree": {
         "type": "root",
         "children": [
@@ -124,7 +109,22 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "Logical AND (&&)"
+                        "value": "Logical AND ("
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "&&"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": ")"
                       }
                     ]
                   }
@@ -148,7 +148,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "The nullish coalescing operator ("
+                        "value": "Nullish coalescing operator ("
                       },
                       {
                         "type": "element",
@@ -270,8 +270,8 @@
     }
   },
   "commit": {
-    "sha": "d85a7ba8cca98c2f6cf67a0c44f0ffd467532f20",
-    "date": "2023-04-05T04:57:48.000Z"
+    "sha": "f616cb604af851f77f8cd59368e94ee3e43a8838",
+    "date": "2023-08-15T14:59:44.000Z"
   },
   "usage": 0.9053399999999999,
   "support": {

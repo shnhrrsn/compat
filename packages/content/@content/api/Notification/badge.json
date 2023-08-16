@@ -86,7 +86,7 @@
     "sha": "312081aabba3885b35a81107b3c2fc53428896c5",
     "date": "2023-04-07T06:19:30.000Z"
   },
-  "usage": 0.6919100000000001,
+  "usage": 0.7881100000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -306,7 +306,10 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -314,8 +317,13 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Badging is supported for web apps saved to the Dock in Safari 17 on the macOS Sonoma beta"
+          ],
+          "added": {
+            "version": "17.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -326,20 +334,26 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "16.4.0",
+        "date": 1679875200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0962,
+        "relative": 0.5826771653543308
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "16.4.0",
+            "date": 1679875200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0962,
+            "relative": 0.5826771653543308
           }
         }
       ]
@@ -393,7 +407,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
