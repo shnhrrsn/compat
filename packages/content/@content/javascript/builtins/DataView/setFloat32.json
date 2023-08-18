@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "aa4b218d53ff6e174100b6de772d09e6",
+      "id": "399d1feaa9703be9ffa12a749e69c4ba",
       "tree": {
         "type": "root",
         "children": [
@@ -72,7 +72,7 @@
               },
               {
                 "type": "text",
-                "value": " instances takes a number and stores it as a 32-bit float in the 4 bytes starting at the specified byte offset of this "
+                "value": " instances takes a number and stores it as a 32-bit floating point number in the 4 bytes starting at the specified byte offset of this "
               },
               {
                 "type": "element",
@@ -87,7 +87,7 @@
               },
               {
                 "type": "text",
-                "value": "."
+                "value": ". There is no alignment constraint; multi-byte values may be stored at any offset within bounds."
               }
             ]
           }
@@ -98,7 +98,7 @@
       }
     },
     "seeAlso": {
-      "id": "bb1e520474cf1439d6b309efd812ab6d",
+      "id": "ea1fb1387522397decef7b9e3020850d",
       "tree": {
         "type": "root",
         "children": [
@@ -107,6 +107,30 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/JavaScript/Guide/Typed_arrays"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "JavaScript typed arrays"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -174,6 +198,38 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Float32Array"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Float32Array"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -185,8 +241,8 @@
     }
   },
   "commit": {
-    "sha": "3a006e92b14a2733e485a26d0dc3a1472968fd9b",
-    "date": "2023-06-29T09:52:15.000Z"
+    "sha": "ba420eaeef20d71e8a8ffdf81d3fa9457b996a9b",
+    "date": "2023-08-18T01:25:21.000Z"
   },
   "usage": 0.94058,
   "support": {
