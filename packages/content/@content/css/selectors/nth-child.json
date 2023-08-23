@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "bb43fde2b2ac5a6e1cb0fc085bcf1d3d",
+      "id": "5d98706fbeacc83e316fc1b8b74c7f64",
       "tree": {
         "type": "root",
         "children": [
@@ -80,7 +80,22 @@
               },
               {
                 "type": "text",
-                "value": " matches elements based on their position among a group of siblings."
+                "value": " matches elements based on the indexes of the elements in the child list of their parents. In other words, the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": ":nth-child()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " selector selects child elements according to their position among all the sibling elements within a parent element."
               }
             ]
           }
@@ -91,7 +106,7 @@
       }
     },
     "seeAlso": {
-      "id": "41731ed82a7670cae5d2a02b03f982ea",
+      "id": "021ca39bfea557c5d8b5320ecac238d7",
       "tree": {
         "type": "root",
         "children": [
@@ -124,7 +139,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": ":nth-of-type"
+                            "value": ":nth-of-type()"
                           }
                         ]
                       }
@@ -156,11 +171,99 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": ":nth-last-child"
+                            "value": ":nth-last-child()"
                           }
                         ]
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/selectors/has"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": ":has()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ": pseudo-class for selecting parent element"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/Pseudo-classes#tree-structural_pseudo-classes"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Tree-structural pseudo-classes"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_selectors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS selectors"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
                   }
                 ]
               },
@@ -178,8 +281,8 @@
     }
   },
   "commit": {
-    "sha": "764b291098cfe575374580844f1a91e7d814a8d3",
-    "date": "2023-06-21T22:40:10.000Z"
+    "sha": "d546a54139681cad9b176db2ca494b6a6bb8f7c6",
+    "date": "2023-08-22T19:20:33.000Z"
   },
   "usage": 0.94081,
   "support": {
