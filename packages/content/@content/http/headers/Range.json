@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "5a1ab3996475e58e7b9740fcee2a2361",
+      "id": "aef3dc5e4a098813374abb140c1885a9",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " HTTP request header indicates the part of a document that the server should return. Several parts can be requested with one "
+                "value": " HTTP request header indicates the parts of a document that the server should return.\nSeveral parts can be requested at the same time in one "
               },
               {
                 "type": "element",
@@ -61,7 +61,7 @@
               },
               {
                 "type": "text",
-                "value": " header at once, and the server may send back these ranges in a multipart document. If the server sends back ranges, it uses the "
+                "value": " header, and the server may send back these ranges in a multipart document.\nIf the server sends back ranges, it uses the "
               },
               {
                 "type": "element",
@@ -86,7 +86,7 @@
               },
               {
                 "type": "text",
-                "value": " for the response. If the ranges are invalid, the server returns the "
+                "value": " for the response.\nIf the ranges are invalid, the server returns the "
               },
               {
                 "type": "element",
@@ -111,7 +111,7 @@
               },
               {
                 "type": "text",
-                "value": " error. The server can also ignore the "
+                "value": " error.\nThe server can also ignore the "
               },
               {
                 "type": "element",
@@ -151,7 +151,24 @@
               },
               {
                 "type": "text",
-                "value": " status code."
+                "value": " status code.\nThe header is a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/CORS-safelisted_request_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CORS-safelisted request header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when the directive specifies a single byte range."
               }
             ]
           }
@@ -162,7 +179,7 @@
       }
     },
     "seeAlso": {
-      "id": "9cf12da94bcfc45466562cb8f59154a9",
+      "id": "cf58939450f69578cef741884e047663",
       "tree": {
         "type": "root",
         "children": [
@@ -334,6 +351,58 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTTP/Range_requests"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTTP range requests"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " guide"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Glossary/CORS-safelisted_request_header"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CORS-safelisted request header"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -345,8 +414,8 @@
     }
   },
   "commit": {
-    "sha": "0880a90f3811475d78bc4b2c344eb4146f25f66c",
-    "date": "2023-04-10T19:47:15.000Z"
+    "sha": "5e9631df85d021e84133e14f4bd3c712e4f8fe08",
+    "date": "2023-08-25T00:21:46.000Z"
   },
   "usage": 0.94091,
   "support": {

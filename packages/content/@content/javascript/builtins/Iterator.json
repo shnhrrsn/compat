@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "7965d96d1bddc1faf6b896c509003260",
+      "id": "bc7d09e1ea0e7ac4194b222385203dcb",
       "tree": {
         "type": "root",
         "children": [
@@ -78,7 +78,7 @@
               },
               {
                 "type": "text",
-                "value": " method that returns an iterator result object. The "
+                "value": " method that returns an iterator result object. All built-in iterators inherit from the "
               },
               {
                 "type": "element",
@@ -87,13 +87,28 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Iterator.prototype"
+                    "value": "Iterator"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " object is a hidden global object that all built-in iterators inherit from. It provides a "
+                "value": " class. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Iterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " class provides a "
               },
               {
                 "type": "element",
@@ -134,7 +149,7 @@
               },
               {
                 "type": "text",
-                "value": "."
+                "value": ". It also provides some helper methods for working with iterators."
               }
             ]
           }
@@ -145,7 +160,7 @@
       }
     },
     "seeAlso": {
-      "id": "1023c8779e29839c7a8950f8d1afe33f",
+      "id": "00fdfa4c86b68a5dbdb69b4d4850bc13",
       "tree": {
         "type": "root",
         "children": [
@@ -154,6 +169,56 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/zloirock/core-js#iterator-helpers"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Polyfill of "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Iterator"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " in "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "core-js"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -214,8 +279,8 @@
     }
   },
   "commit": {
-    "sha": "b5c766f4eecb4fcf9d8ba175caddb94f7c3e9d20",
-    "date": "2023-05-01T00:22:52.000Z"
+    "sha": "35e93129138c68b3b9f53262c17ac35dd6dda833",
+    "date": "2023-08-24T08:35:08.000Z"
   },
   "usage": 0.9356500000000001,
   "support": {
