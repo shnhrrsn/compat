@@ -316,7 +316,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Header not recognized but policy can be set through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1694922'>bug 1694922</a>)"
+          ],
           "added": {
             "version": "74.0.0",
             "date": 1583798400
@@ -327,13 +329,7 @@
             "relative": 0.9702602230483273
           },
           "alternative_name": "Feature-Policy: autoplay",
-          "flags": [
-            {
-              "name": "dom.security.featurePolicy.header.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+          "partial_implementation": true
         }
       ]
     },
@@ -347,13 +343,20 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Header not recognized but policy can be set through the <code>allow</code> attribute on <code>&lt;iframe&gt;</code> elements (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1694922'>bug 1694922</a>)"
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "alternative_name": "Feature-Policy: autoplay",
+          "partial_implementation": true
         }
       ]
     },
