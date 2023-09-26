@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "231c4c16cbe921627776085650aec62b",
+      "id": "754651073b18d8998a6bece9927e7a81",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,32 @@
               },
               {
                 "type": "text",
-                "value": " property sets the size of lower-case letters relative to the current font size (which defines the size of upper-case letters)."
+                "value": " property provides a way to modify the size of lowercase letters relative to the size of uppercase letters, which defines the overall "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/css/properties/font-size"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "font-size"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". This property is useful for situations where font fallback can occur."
               }
             ]
           }
@@ -74,7 +99,7 @@
       }
     },
     "seeAlso": {
-      "id": "0c41dad5495eb9357de3222b0b15354d",
+      "id": "f3b6cd9666bba1d3970f3a3d895fa423",
       "tree": {
         "type": "root",
         "children": [
@@ -158,16 +183,33 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Learn/CSS/Styling_text/Fundamentals"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "Fundamental text and font styling"
+                        "value": "size-adjust"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@font-face"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " descriptor"
                   }
                 ]
               },
@@ -182,18 +224,16 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "code",
-                    "properties": {},
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Learn/CSS/Styling_text/Fundamentals"
+                    },
                     "children": [
                       {
                         "type": "text",
-                        "value": "size-adjust"
+                        "value": "Learn: Fundamental text and font styling"
                       }
                     ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " descriptor"
                   }
                 ]
               },
@@ -211,8 +251,8 @@
     }
   },
   "commit": {
-    "sha": "c77cfcd17e85db6c1b93160c70668f2ff6c2809c",
-    "date": "2023-07-20T07:38:29.000Z"
+    "sha": "75d94518e16b4354cd57f74f13710ca27791019a",
+    "date": "2023-09-25T16:24:26.000Z"
   },
   "usage": 0.15825999999999996,
   "support": {
