@@ -8,11 +8,12 @@
   "title": "Navigator: globalPrivacyControl property",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/Navigator/globalPrivacyControl",
+    "spec": "https://privacycg.github.io/gpc-spec/#dom-globalprivacycontrol",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigator/globalprivacycontrol/index.md"
   },
   "content": {
     "intro": {
-      "id": "d2fa8de26f884aad331676c2ccb77d50",
+      "id": "cfc432677e43fb07956d0d5b6cd5009b",
       "tree": {
         "type": "root",
         "children": [
@@ -45,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " property returns the user's Global Privacy Control setting. This setting indicates whether the user consents to a website or service selling or sharing their personal information with third parties."
+                "value": " read-only property returns the user's Global Privacy Control setting for the current website.\nThis setting indicates whether the user consents to the website or service selling or sharing their personal information with third parties."
               }
             ]
           }
@@ -56,7 +57,7 @@
       }
     },
     "seeAlso": {
-      "id": "8955ba73b1e76b184a8af58a8c6bc221",
+      "id": "e413ff4d93b63bfe0cb7e405079109f1",
       "tree": {
         "type": "root",
         "children": [
@@ -138,7 +139,7 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://globalprivacycontrol.github.io/gpc-spec/"
+                      "href": "https://privacycg.github.io/gpc-spec/"
                     },
                     "children": [
                       {
@@ -187,8 +188,8 @@
     }
   },
   "commit": {
-    "sha": "ef75c1741b450c2331204be5563ee964ad5f4c48",
-    "date": "2023-04-07T06:16:45.000Z"
+    "sha": "fa9f17cf8ac679eb93f402f6ef1b1f5476c6f30f",
+    "date": "2023-09-26T16:58:55.000Z"
   },
   "usage": 0,
   "support": {
@@ -254,7 +255,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -262,28 +266,18 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opt-in to GPC by setting the preference <code>privacy.globalprivacycontrol.enabled</code> to <code>true</code>."
+          ],
           "added": {
-            "version": "95.0.0",
-            "date": 1638835200
+            "version": "preview",
+            "date": null
           },
           "removed": null,
           "usage": {
-            "global": 0.02559999999999999,
-            "relative": 0.9516728624535318
-          },
-          "flags": [
-            {
-              "name": "privacy.globalprivacycontrol.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            },
-            {
-              "name": "privacy.globalprivacycontrol.functionality.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
@@ -297,7 +291,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Opt-in to GPC by setting the preference <code>privacy.globalprivacycontrol.enabled</code> to <code>true</code>."
+          ],
           "added": null,
           "removed": null,
           "usage": {
@@ -471,6 +467,6 @@
   "status": {
     "deprecated": false,
     "experimental": true,
-    "standard_track": false
+    "standard_track": true
   }
 }

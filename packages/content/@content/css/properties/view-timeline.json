@@ -428,30 +428,6 @@
               "value_to_set": "true"
             }
           ]
-        },
-        {
-          "notes": [
-            "Supports the deprecated <code>horizontal</code> and <code>vertical</code> values, and not the <code>x</code> and <code>y</code> values."
-          ],
-          "added": {
-            "version": "111.0.0",
-            "date": 1678752000
-          },
-          "removed": {
-            "version": "114.0.0",
-            "date": 1686009600
-          },
-          "usage": {
-            "global": 0.0016,
-            "relative": 0.05947955390334576
-          },
-          "flags": [
-            {
-              "name": "layout.css.scroll-driven-animations.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
@@ -531,7 +507,10 @@
           "notes": [
             "<code>view-timeline-attachment</code> not included in shorthand."
           ],
-          "added": null,
+          "added": {
+            "version": "102.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,

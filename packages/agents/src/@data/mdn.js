@@ -1491,16 +1491,23 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"121.0.0",
+				{
+					"date": 1706140800,
+					"usage": null
+				}
+			],
+			[
 				"120.0.0",
 				{
-					"date": 1704326400,
+					"date": 1701907200,
 					"usage": null
 				}
 			],
 			[
 				"119.0.0",
 				{
-					"date": 1699488000,
+					"date": 1698883200,
 					"usage": null
 				}
 			],
@@ -1514,7 +1521,7 @@ const mdn = {
 			[
 				"117.0.0",
 				{
-					"date": 1694649600,
+					"date": 1694736000,
 					"usage": null
 				}
 			],
@@ -3637,10 +3644,24 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"102.0.0",
+				{
+					"date": 1693267200,
+					"usage": null
+				}
+			],
+			[
+				"100.0.0",
+				{
+					"date": 1683158400,
+					"usage": 1.3199999999999998
+				}
+			],
+			[
 				"96.0.0",
 				{
 					"date": 1677024000,
-					"usage": null
+					"usage": 0.11
 				}
 			],
 			[
@@ -4837,6 +4858,13 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"17.0.0",
+				{
+					"date": 1695686400,
+					"usage": 0.03
+				}
+			],
+			[
 				"16.6.0",
 				{
 					"date": 1690156800,
@@ -5114,6 +5142,13 @@ const mdn = {
 	safari_ios: {
 		name: 'Safari on iOS',
 		versions: new Map([
+			[
+				"17.0.0",
+				{
+					"date": 1695686400,
+					"usage": 0.113
+				}
+			],
 			[
 				"16.6.0",
 				{

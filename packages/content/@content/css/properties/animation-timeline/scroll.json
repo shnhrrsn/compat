@@ -330,31 +330,6 @@
               "value_to_set": "true"
             }
           ]
-        },
-        {
-          "notes": [
-            "Zero scroll range is treated as 100% but should be 0% (see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1780865'>bug 1780865</a>).",
-            "Supports the deprecated <code>horizontal</code> and <code>vertical</code> axis values, and not the <code>x</code> and <code>y</code> values."
-          ],
-          "added": {
-            "version": "101.0.0",
-            "date": 1653955200
-          },
-          "removed": {
-            "version": "110.0.0",
-            "date": 1676332800
-          },
-          "usage": {
-            "global": 0.0018,
-            "relative": 0.06691449814126398
-          },
-          "flags": [
-            {
-              "name": "layout.css.scroll-linked-animations.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
         }
       ]
     },
@@ -420,7 +395,10 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "102.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -429,7 +407,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "102.0.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
