@@ -223,8 +223,21 @@
       "history": [
         {
           "notes": [
-            "Enabled by default on Windows"
+            "Only supported on Windows. Behind a flag on other operating systems."
           ],
+          "added": {
+            "version": "117.0.0",
+            "date": 1693267200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0189,
+            "relative": 0.6774193548387102
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": null,
           "added": {
             "version": "117.0.0",
             "date": 1693267200
@@ -254,13 +267,19 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Only supported on Windows. Behind a flag on other operating systems."
+          ],
+          "added": {
+            "version": "117.0.0",
+            "date": 1693267200
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -451,7 +470,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }

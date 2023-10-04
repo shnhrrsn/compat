@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "06cb25188c723265ca835de60cbfa0e5",
+      "id": "7b1d3e8bd0c474cb189ca35914bb3f19",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " property replaces an element with a generated value. Objects inserted using the "
+                "value": " property replaces content with a generated value. It can be used to define what is rendered inside an element or pseudo-element. For elements, the "
               },
               {
                 "type": "element",
@@ -78,35 +78,52 @@
               },
               {
                 "type": "text",
-                "value": " property are "
+                "value": " property specifies whether the element renders normally ("
               },
               {
                 "type": "element",
-                "tagName": "strong",
+                "tagName": "code",
                 "properties": {},
                 "children": [
                   {
                     "type": "text",
-                    "value": "anonymous "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/CSS/Replaced_element"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "replaced elements"
-                      }
-                    ]
+                    "value": "normal"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "."
+                "value": " or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "none"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") or is replaced with an image (and associated \"alt\" text). For pseudo-elements and margin boxes, "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "content"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " defines the content as images, text, both, or none, which determines whether the element renders at all."
               }
             ]
           }
@@ -117,7 +134,7 @@
       }
     },
     "seeAlso": {
-      "id": "a8d081e8c3141cd74b26f03b2957828a",
+      "id": "7b50a4fd6cfa39f13887f6ef37c3b38f",
       "tree": {
         "type": "root",
         "children": [
@@ -126,6 +143,34 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_generated_content"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS generated content"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -428,8 +473,8 @@
     }
   },
   "commit": {
-    "sha": "abe16c77fcdaa4b492d6693af03b98d94d93ca32",
-    "date": "2023-08-10T00:44:37.000Z"
+    "sha": "80e0aac84e95b502814c35062d38b4eb3c011828",
+    "date": "2023-10-03T16:05:46.000Z"
   },
   "usage": 0.9593700000000001,
   "support": {

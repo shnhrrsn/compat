@@ -197,10 +197,10 @@
     }
   },
   "commit": {
-    "sha": "3ca5d5f0e72fc051fe5a9503d132a7c04f352b01",
-    "date": "2023-06-26T01:32:57.000Z"
+    "sha": "5fe175df32163b14d87321d7efb085cf13badbfb",
+    "date": "2023-10-03T21:19:57.000Z"
   },
-  "usage": 0.6955800000000002,
+  "usage": 0.6717800000000002,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -282,18 +282,17 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": {
-        "version": "114.0.0",
-        "date": 1686009600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.023799999999999998,
-        "relative": 0.8530465949820795
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Returns a <code>WritableStream</code> instead of a <code>WebTransportSendStream</code>."
+          ],
           "added": {
             "version": "114.0.0",
             "date": 1686009600
@@ -302,16 +301,14 @@
           "usage": {
             "global": 0.023799999999999998,
             "relative": 0.8530465949820795
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": {
-        "version": "114.0.0",
-        "date": 1686009600
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -319,7 +316,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Returns a <code>WritableStream</code> instead of a <code>WebTransportSendStream</code>."
+          ],
           "added": {
             "version": "114.0.0",
             "date": 1686009600
@@ -328,7 +327,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

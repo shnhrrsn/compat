@@ -7,14 +7,14 @@
     "sameSite"
   ],
   "type": "page",
-  "title": "cookies.set()",
+  "title": "cookies.SameSiteStatus",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/set",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/cookies/set/index.md"
+    "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/sameSiteStatus",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/api/cookies/samesitestatus/index.md"
   },
   "content": {
     "intro": {
-      "id": "ed92deeabcacb1e55d592ede4eae0e0a",
+      "id": "37699b01ae19c0a45677afc7deba17ea",
       "tree": {
         "type": "root",
         "children": [
@@ -29,25 +29,18 @@
               },
               {
                 "type": "element",
-                "tagName": "strong",
+                "tagName": "code",
                 "properties": {},
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "set()"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "SameSiteStatus"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " method of the "
+                "value": " type of the "
               },
               {
                 "type": "element",
@@ -72,7 +65,7 @@
               },
               {
                 "type": "text",
-                "value": " API sets a cookie containing the specified cookie data. This method is equivalent to issuing an HTTP "
+                "value": " API represents information about the "
               },
               {
                 "type": "element",
@@ -81,13 +74,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "Set-Cookie"
+                    "value": "SameSite"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " header during a request to a given URL."
+                "value": " state of a cookie."
               }
             ]
           }
@@ -99,8 +92,8 @@
     }
   },
   "commit": {
-    "sha": "0b956178ef19e8fc3981ed97dc6659d5a63f59a6",
-    "date": "2023-07-13T00:27:48.000Z"
+    "sha": "094881ca297f63b50e7f93bbd8811c299d221e4f",
+    "date": "2023-10-01T22:25:44.000Z"
   },
   "usage": 0.5545599999999999,
   "support": {
