@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "f31d3f7093588a94d96c65fd8ccc5f1c",
+      "id": "b50d2712aecd1f16b823ae8146d543c9",
       "tree": {
         "type": "root",
         "children": [
@@ -25,6 +25,23 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
               },
               {
                 "type": "element",
@@ -46,24 +63,32 @@
               },
               {
                 "type": "text",
-                "value": " "
+                "value": " property sets how the browser should render quotation marks that are automatically added to the HTML "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/CSS"
+                  "internal": "",
+                  "href": "/html/elements/q"
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "CSS"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<q>"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " property sets how the browser should render quotation marks that are added using the "
+                "value": " element or added using the "
               },
               {
                 "type": "element",
@@ -93,7 +118,37 @@
               },
               {
                 "type": "text",
-                "value": " values of the CSS "
+                "value": " (or omitted using the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "no-open-quote"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " and "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "no-close-quote"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") values of the of the CSS "
               },
               {
                 "type": "element",
@@ -128,7 +183,7 @@
       }
     },
     "seeAlso": {
-      "id": "70a66ad65f75e0359e7ac099a9fcfc4a",
+      "id": "110d1cc61b50a375f112cf838f35d97b",
       "tree": {
         "type": "root",
         "children": [
@@ -137,6 +192,34 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_generated_content"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS generated content"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -215,8 +298,8 @@
     }
   },
   "commit": {
-    "sha": "51541ecf1145a0723caca7e8d6da063abfadeeda",
-    "date": "2023-08-16T00:07:19.000Z"
+    "sha": "921199d0a2c2dab7ffce8c49701713a4f89230c5",
+    "date": "2023-10-04T07:37:14.000Z"
   },
   "usage": 0.9591400000000001,
   "support": {
