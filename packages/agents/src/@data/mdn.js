@@ -4,6 +4,27 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"121.0.0",
+				{
+					"date": 1705968000,
+					"usage": null
+				}
+			],
+			[
+				"120.0.0",
+				{
+					"date": 1701734400,
+					"usage": null
+				}
+			],
+			[
+				"119.0.0",
+				{
+					"date": 1698710400,
+					"usage": 0.01
+				}
+			],
+			[
 				"118.0.0",
 				{
 					"date": 1696896000,
@@ -3643,6 +3664,13 @@ const mdn = {
 	opera: {
 		name: 'Opera',
 		versions: new Map([
+			[
+				"103.0.0",
+				{
+					"date": 1696291200,
+					"usage": null
+				}
+			],
 			[
 				"102.0.0",
 				{
