@@ -5,9 +5,158 @@
     "getPublicKey"
   ],
   "type": "page",
-  "title": "AuthenticatorAttestationResponse / getPublicKey",
+  "title": "AuthenticatorAttestationResponse: getPublicKey() method",
   "links": {
-    "spec": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickey"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKey",
+    "spec": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickey",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/authenticatorattestationresponse/getpublickey/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a6b76bf59d174841d428acdd7aa0cb98",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getPublicKey()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AuthenticatorAttestationResponse"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AuthenticatorAttestationResponse"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/ArrayBuffer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ArrayBuffer"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " containing the DER "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "SubjectPublicKeyInfo"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " of the new credential (see "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Subject Public Key Info"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "null"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if this is not available."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "eb18c44b6758003b85228455e54c491bc98ef0c3",
+    "date": "2023-05-09T13:21:58.000Z"
   },
   "usage": 0.8688000000000002,
   "support": {
@@ -91,7 +240,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "119.0.0",
+        "date": 1698105600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -100,7 +252,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "119.0.0",
+            "date": 1698105600
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -111,7 +266,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "119.0.0",
+        "date": 1698105600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -120,7 +278,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "119.0.0",
+            "date": 1698105600
+          },
           "removed": null,
           "usage": {
             "global": null,

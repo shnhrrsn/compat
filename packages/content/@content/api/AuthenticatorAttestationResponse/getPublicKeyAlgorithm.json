@@ -5,9 +5,103 @@
     "getPublicKeyAlgorithm"
   ],
   "type": "page",
-  "title": "AuthenticatorAttestationResponse / getPublicKeyAlgorithm",
+  "title": "AuthenticatorAttestationResponse: getPublicKeyAlgorithm() method",
   "links": {
-    "spec": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickeyalgorithm"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm",
+    "spec": "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickeyalgorithm",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/authenticatorattestationresponse/getpublickeyalgorithm/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "d645332b8d31c4160e186a1de15533d5",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getPublicKeyAlgorithm()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AuthenticatorAttestationResponse"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AuthenticatorAttestationResponse"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a number that is equal to a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.iana.org/assignments/cose/cose.xhtml#algorithms"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "COSE Algorithm Identifier"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", representing the cryptographic algorithm used for the new credential."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "eb18c44b6758003b85228455e54c491bc98ef0c3",
+    "date": "2023-05-09T13:21:58.000Z"
   },
   "usage": 0.8688000000000002,
   "support": {
@@ -91,7 +185,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "119.0.0",
+        "date": 1698105600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -100,7 +197,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "119.0.0",
+            "date": 1698105600
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -111,7 +211,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "119.0.0",
+        "date": 1698105600
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -120,7 +223,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "119.0.0",
+            "date": 1698105600
+          },
           "removed": null,
           "usage": {
             "global": null,
