@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "778706e17aa88cb5eb71b9e39c2d32d5",
+      "id": "ca7b5aa5987e7df72b49a4e9ae764deb",
       "tree": {
         "type": "root",
         "children": [
@@ -21,6 +21,10 @@
             "tagName": "p",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
               {
                 "type": "element",
                 "tagName": "strong",
@@ -41,7 +45,7 @@
               },
               {
                 "type": "text",
-                "value": " is an interface for the "
+                "value": " interface represents the event object for the "
               },
               {
                 "type": "element",
@@ -66,7 +70,7 @@
               },
               {
                 "type": "text",
-                "value": " event."
+                "value": " event, which is fired when the current window, contained document, and associated resources are about to be unloaded."
               }
             ]
           }
@@ -77,7 +81,7 @@
       }
     },
     "seeAlso": {
-      "id": "92b234d4eec124eb92c656c750195fc6",
+      "id": "f7bb273405d2638cefe05720d4b858ba",
       "tree": {
         "type": "root",
         "children": [
@@ -86,102 +90,6 @@
             "tagName": "ul",
             "properties": {},
             "children": [
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Document/DOMContentLoaded_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "DOMContentLoaded"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Document/readystatechange_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "readystatechange"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Window/load_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "load"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
               {
                 "type": "text",
                 "value": "\n"
@@ -211,62 +119,10 @@
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
                   {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/api/Window/unload_event"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "unload"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "https://html.spec.whatwg.org/multipage/browsing-the-web.html#prompt-to-unload-a-document"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Unloading Documents — Prompt to unload a document"
-                      }
-                    ]
+                    "type": "text",
+                    "value": " event"
                   }
                 ]
               },
@@ -284,8 +140,8 @@
     }
   },
   "commit": {
-    "sha": "270351317fdaa57ba9123a19aa281e9e40bb0baa",
-    "date": "2023-06-20T19:01:21.000Z"
+    "sha": "26f68076bcd8e3d5893cffcd9c1c01ff949318a9",
+    "date": "2023-10-12T17:28:48.000Z"
   },
   "usage": 0.9588800000000001,
   "support": {
