@@ -163,7 +163,7 @@
     "sha": "b54373ab9025ceb6eb404bd2538ebd4c01576c60",
     "date": "2023-08-02T18:18:58.000Z"
   },
-  "usage": 0.922,
+  "usage": 0.9471,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -346,27 +346,39 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "60.0.0",
+        "date": 1554768000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.025099999999999994,
+        "relative": 0.9960317460317462
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Until version 62, downloads for files with this header would fail in Opera. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/952834'>bug 952834</a>.",
+            "From version 67 to 85, linearized PDFs served inline with this header fail to render properly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1074261'>bug 1074261</a>. From version 72, partial PDF loading is disabled."
+          ],
+          "added": {
+            "version": "60.0.0",
+            "date": 1554768000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.025099999999999994,
+            "relative": 0.9960317460317462
           }
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": null,
+      "added": {
+        "version": "52.0.0",
+        "date": 1558051200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -374,8 +386,14 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Until version 54, downloads for files with this header would fail in Opera. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/952834'>bug 952834</a>.",
+            "From version 57 to 85, linearized PDFs served inline with this header fail to render properly. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1074261'>bug 1074261</a>. From version 61, partial PDF loading is disabled."
+          ],
+          "added": {
+            "version": "52.0.0",
+            "date": 1558051200
+          },
           "removed": null,
           "usage": {
             "global": null,

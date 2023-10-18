@@ -8,7 +8,10 @@
   "title": "Sec-Purpose",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Purpose",
-    "spec": "https://fetch.spec.whatwg.org/#sec-purpose-header",
+    "spec": [
+      "https://fetch.spec.whatwg.org/#sec-purpose-header",
+      "https://wicg.github.io/nav-speculation/prefetch.html#sec-purpose-header"
+    ],
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/sec-purpose/index.md"
   },
   "content": {
@@ -183,70 +186,82 @@
     "sha": "7eaac8008ebe00417314379fab2285df23322e73",
     "date": "2023-06-28T15:03:49.000Z"
   },
-  "usage": 0.0236,
+  "usage": 0.6445,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1675728000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.2266,
+        "relative": 0.8255009107468123
       },
       "history": [
         {
-          "notes": [
-            "Chrome uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1675728000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.2266,
+            "relative": 0.8255009107468123
           }
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1675728000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.3126,
+        "relative": 0.9191144041633585
       },
       "history": [
         {
-          "notes": [
-            "Chrome uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1675728000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.3126,
+            "relative": 0.9191144041633585
           }
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1675900800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.046900000000000004,
+        "relative": 0.9730290456431537
       },
       "history": [
         {
-          "notes": [
-            "Edge uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1675900800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.046900000000000004,
+            "relative": 0.9730290456431537
           }
         }
       ]
@@ -264,9 +279,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>Sec-Purpose: prefetch</code> replaces the non-standard <code>X-moz: prefetch</code> header that was used to indicate a prefetch request in earlier versions. Prefetch requests should also include the header <code>Accept</code> header string for navigations, but <code>Accept: */*</code> is sent instead."
-          ],
+          "notes": null,
           "added": {
             "version": "115.0.0",
             "date": 1688428800
@@ -292,9 +305,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>Sec-Purpose: prefetch</code> replaces the non-standard <code>X-moz: prefetch</code> header that was used to indicate a prefetch request in earlier versions. Prefetch requests should also include the header <code>Accept</code> header string for navigations, but <code>Accept: */*</code> is sent instead."
-          ],
+          "notes": null,
           "added": {
             "version": "115.0.0",
             "date": 1688428800
@@ -337,9 +348,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Chrome uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
+          "notes": null,
           "added": null,
           "removed": null,
           "usage": {
@@ -351,22 +360,26 @@
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "96.0.0",
+        "date": 1677024000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0163,
+        "relative": 0.646825396825397
       },
       "history": [
         {
-          "notes": [
-            "Opera uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "96.0.0",
+            "date": 1677024000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0163,
+            "relative": 0.646825396825397
           }
         }
       ]
@@ -433,29 +446,36 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "21.0.0",
+        "date": 1684454400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.018500000000000003,
+        "relative": 0.844748858447489
       },
       "history": [
         {
-          "notes": [
-            "Samsung Internet uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "21.0.0",
+            "date": 1684454400
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.018500000000000003,
+            "relative": 0.844748858447489
           }
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": null,
+      "added": {
+        "version": "110.0.0",
+        "date": 1675728000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -463,10 +483,11 @@
       },
       "history": [
         {
-          "notes": [
-            "Chrome uses the legacy <code>Purpose: prefetch</code> header to indicate a request is a prefetch. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1358419'>bug 1358419</a>."
-          ],
-          "added": null,
+          "notes": null,
+          "added": {
+            "version": "110.0.0",
+            "date": 1675728000
+          },
           "removed": null,
           "usage": {
             "global": null,

@@ -8,57 +8,93 @@
   "type": "page",
   "title": "beforeunload_event / event_returnvalue_activation",
   "links": {},
-  "usage": 0.7950100000000001,
+  "usage": 0.08519999999999997,
   "support": {
     "chrome": {
       "name": "Chrome",
       "added": {
-        "version": "30.0.0",
-        "date": 1380585600
+        "version": "119.0.0",
+        "date": 1698710400
       },
       "removed": null,
       "usage": {
-        "global": 0.2745,
-        "relative": 1
+        "global": 0.0001,
+        "relative": 0.0003642987249544626
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "30.0.0",
-            "date": 1380585600
+            "version": "119.0.0",
+            "date": 1698710400
           },
           "removed": null,
           "usage": {
-            "global": 0.2745,
-            "relative": 1
+            "global": 0.0001,
+            "relative": 0.0003642987249544626
           }
+        },
+        {
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
+          "added": {
+            "version": "30.0.0",
+            "date": 1380585600
+          },
+          "removed": {
+            "version": "118.0.0",
+            "date": 1696896000
+          },
+          "usage": {
+            "global": 0.27440000000000003,
+            "relative": 0.9996357012750455
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
       "added": {
-        "version": "30.0.0",
-        "date": 1380672000
+        "version": "119.0.0",
+        "date": null
       },
       "removed": null,
       "usage": {
-        "global": 0.3401100000000001,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "30.0.0",
-            "date": 1380672000
+            "version": "119.0.0",
+            "date": null
           },
           "removed": null,
           "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
+          "added": {
+            "version": "30.0.0",
+            "date": 1380672000
+          },
+          "removed": {
+            "version": "118.0.0",
+            "date": 1696896000
+          },
+          "usage": {
             "global": 0.3401100000000001,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -85,26 +121,44 @@
     "edge": {
       "name": "Edge",
       "added": {
-        "version": "12.0.0",
-        "date": 1438041600
+        "version": "119.0.0",
+        "date": 1698883200
       },
       "removed": null,
       "usage": {
-        "global": 0.04819999999999999,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "12.0.0",
-            "date": 1438041600
+            "version": "119.0.0",
+            "date": 1698883200
           },
           "removed": null,
           "usage": {
-            "global": 0.04819999999999999,
-            "relative": 1
+            "global": null,
+            "relative": null
           }
+        },
+        {
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": {
+            "version": "118.0.0",
+            "date": 1697068800
+          },
+          "usage": {
+            "global": 0.0481,
+            "relative": 0.9979253112033195
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -188,10 +242,7 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": {
-        "version": "5.0.0",
-        "date": null
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -199,7 +250,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
           "added": {
             "version": "5.0.0",
             "date": null
@@ -208,42 +261,14 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "17.0.0",
-        "date": 1381190400
-      },
-      "removed": null,
-      "usage": {
-        "global": 0.02519999999999999,
-        "relative": 1
-      },
-      "history": [
-        {
-          "notes": null,
-          "added": {
-            "version": "17.0.0",
-            "date": 1381190400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02519999999999999,
-            "relative": 1
-          }
-        }
-      ]
-    },
-    "opera_android": {
-      "name": "Opera Android",
-      "added": {
-        "version": "18.0.0",
-        "date": 1384905600
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -251,7 +276,38 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
+          "added": {
+            "version": "17.0.0",
+            "date": 1381190400
+          },
+          "removed": {
+            "version": "104.0.0",
+            "date": null
+          },
+          "usage": {
+            "global": 0.02519999999999999,
+            "relative": 1
+          },
+          "partial_implementation": true
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
           "added": {
             "version": "18.0.0",
             "date": 1384905600
@@ -260,7 +316,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -312,18 +369,17 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": {
-        "version": "2.0.0",
-        "date": 1413504000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.02189999999999999,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
           "added": {
             "version": "2.0.0",
             "date": 1413504000
@@ -332,16 +388,14 @@
           "usage": {
             "global": 0.02189999999999999,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "4.4.0",
-        "date": 1386547200
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -349,16 +403,22 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Incorrectly activated the dialog with an empty string value."
+          ],
           "added": {
             "version": "4.4.0",
             "date": 1386547200
           },
-          "removed": null,
+          "removed": {
+            "version": "118.0.0",
+            "date": 1696896000
+          },
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }
