@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "d3ff59eb69a229cfc2e3ee064f5062b7",
+      "id": "998680ba52baede932e38f59b471a698",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " property increases or decreases the value of a "
+                "value": " property increases or decreases the value of the named "
               },
               {
                 "type": "element",
@@ -80,7 +80,22 @@
               },
               {
                 "type": "text",
-                "value": " by a given value."
+                "value": " by the specified value or increases it by "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "1"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " if no value is provided."
               }
             ]
           }
@@ -91,7 +106,7 @@
       }
     },
     "seeAlso": {
-      "id": "cce2390e70f576b41a8d682a6239910c",
+      "id": "c3c878bd094381fe30d5ada44e1b94df",
       "tree": {
         "type": "root",
         "children": [
@@ -110,29 +125,34 @@
                 "properties": {},
                 "children": [
                   {
+                    "type": "text",
+                    "value": "Counter properties: "
+                  },
+                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters"
+                      "internal": "",
+                      "href": "/css/properties/counter-set"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Using CSS Counters"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "counter-set"
+                          }
+                        ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
                   {
                     "type": "element",
                     "tagName": "a",
@@ -166,37 +186,9 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/css/properties/counter-set"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "counter-set"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                    "type": "text",
+                    "value": "Counter at-rule: "
+                  },
                   {
                     "type": "element",
                     "tagName": "code",
@@ -221,7 +213,7 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "The "
+                    "value": "Counter functions: "
                   },
                   {
                     "type": "element",
@@ -246,7 +238,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " and "
+                    "value": ", "
                   },
                   {
                     "type": "element",
@@ -268,10 +260,90 @@
                         ]
                       }
                     ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Using CSS counters"
+                      }
+                    ]
                   },
                   {
                     "type": "text",
-                    "value": " functions"
+                    "value": " guide"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_lists"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS lists"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS counter styles"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
                   }
                 ]
               },
@@ -289,8 +361,8 @@
     }
   },
   "commit": {
-    "sha": "856b52f634b889084869d2ee0b8bb62c084be04d",
-    "date": "2023-07-17T22:37:27.000Z"
+    "sha": "a4c88a548310c79a1b4484b51448353f1b23c373",
+    "date": "2023-10-24T01:48:58.000Z"
   },
   "usage": 0.95947,
   "support": {
