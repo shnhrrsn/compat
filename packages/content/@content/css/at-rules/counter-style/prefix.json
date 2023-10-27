@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "6e9a1a372ead5cf0ae4332541cbe1d54",
+      "id": "51e2b871d4b77fa44072713f8b553d68",
       "tree": {
         "type": "root",
         "children": [
@@ -26,6 +26,21 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@counter-style"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " rule's "
               },
               {
                 "type": "element",
@@ -47,37 +62,7 @@
               },
               {
                 "type": "text",
-                "value": " descriptor of the "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "@counter-style"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " rule specifies content that will be prepended to the marker representation. If not specified, the default value will be "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "\"\""
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " (an empty string)."
+                "value": " descriptor specifies content that will be added to the beginning of the counter's marker representation."
               }
             ]
           }
@@ -88,7 +73,7 @@
       }
     },
     "seeAlso": {
-      "id": "37ffb94c25add6b728f6925288c7fdc0",
+      "id": "7cd45e9d0e9262e6837c449e7be38de7",
       "tree": {
         "type": "root",
         "children": [
@@ -97,6 +82,167 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@counter-style"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " descriptors: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "system"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "additive-symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suffix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "range"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "pad"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "speak-as"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "fallback"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -211,7 +357,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ", the functional notation creating anonymous counter styles"
+                    "value": ": the functional notation for creating anonymous counter styles"
                   }
                 ]
               },
@@ -229,8 +375,8 @@
     }
   },
   "commit": {
-    "sha": "5fea7c9593f5e4b4ef13ec65064acf1eabf01e4e",
-    "date": "2023-02-21T06:49:52.000Z"
+    "sha": "b5eed1d34ff458794f73550239fdabd0d7a19e70",
+    "date": "2023-10-26T12:50:15.000Z"
   },
   "usage": 0.71818,
   "support": {

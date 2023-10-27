@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "1b0a8be3fcb17fb4db045ed27341d3f3",
+      "id": "428f92286db386e0b5d23f728d10cf8c",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,22 @@
               },
               {
                 "type": "text",
-                "value": " descriptor can be used with custom counter style definitions when you need the marker representations to have a minimum length."
+                "value": " descriptor of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@counter-style"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " at-rule is used to set a minimum length for marker representations."
               }
             ]
           }
@@ -58,7 +73,7 @@
       }
     },
     "seeAlso": {
-      "id": "b9c0b8bd7d3ad10178f3ce281e03b73d",
+      "id": "e67538343e089b8b2bddb47c20d40d33",
       "tree": {
         "type": "root",
         "children": [
@@ -76,6 +91,167 @@
                 "tagName": "li",
                 "properties": {},
                 "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@counter-style"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " descriptors: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "system"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "additive-symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "prefix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suffix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "range"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "speak-as"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "fallback"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "List style properties: "
+                  },
                   {
                     "type": "element",
                     "tagName": "a",
@@ -181,7 +357,35 @@
                   },
                   {
                     "type": "text",
-                    "value": ", the functional notation creating anonymous counter styles."
+                    "value": " function to create anonymous counter styles"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS counter styles"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
                   }
                 ]
               },
@@ -199,8 +403,8 @@
     }
   },
   "commit": {
-    "sha": "5fea7c9593f5e4b4ef13ec65064acf1eabf01e4e",
-    "date": "2023-02-21T06:49:52.000Z"
+    "sha": "de1b7bb9f93983e13abddcd5a02789d2606ca539",
+    "date": "2023-10-27T03:14:45.000Z"
   },
   "usage": 0.71818,
   "support": {

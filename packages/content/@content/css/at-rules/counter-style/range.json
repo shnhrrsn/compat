@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "7d41cfa5ce528b3ad6c60d98405b7ada",
+      "id": "375ab1fc51a7e27eb7cf4656aa05f850",
       "tree": {
         "type": "root",
         "children": [
@@ -25,7 +25,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "When defining custom counter styles, the "
+                "value": "The "
               },
               {
                 "type": "element",
@@ -47,7 +47,37 @@
               },
               {
                 "type": "text",
-                "value": " descriptor lets the author specify a range of counter values over which the style is applied. If a counter value is outside the specified range, then the fallback style will be used to construct the representation of that marker."
+                "value": " descriptor lets the author specify one or more ranges of counter values for which the style is applied when defining custom counter styles with the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@counter-style"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " at-rule. When the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "range"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " descriptor is included, the defined counter will only be used for values in the set ranges. If the counter value is outside the specified range, the fallback style will be used to construct the representation of that marker."
               }
             ]
           }
@@ -58,7 +88,7 @@
       }
     },
     "seeAlso": {
-      "id": "b9c0b8bd7d3ad10178f3ce281e03b73d",
+      "id": "8131de91c0ee6d87f6b0759621d8ea6d",
       "tree": {
         "type": "root",
         "children": [
@@ -67,6 +97,167 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@counter-style"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " descriptors: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "system"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "additive-symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "prefix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suffix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "pad"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "speak-as"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "fallback"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -181,7 +372,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ", the functional notation creating anonymous counter styles."
+                    "value": ": the functional notation for creating anonymous counter styles."
                   }
                 ]
               },
@@ -199,8 +390,8 @@
     }
   },
   "commit": {
-    "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
-    "date": "2023-07-07T07:19:19.000Z"
+    "sha": "de3ff1d22bf689c5d709c22e5e3c3f159b36dce8",
+    "date": "2023-10-26T16:32:47.000Z"
   },
   "usage": 0.71818,
   "support": {
