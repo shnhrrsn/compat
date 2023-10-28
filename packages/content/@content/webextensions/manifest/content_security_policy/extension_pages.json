@@ -187,7 +187,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -195,8 +198,13 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Until Firefox 105, the <code>object-src</code> directive was required with a secure source. From Firefox 106, the <code>object-src</code> directive is optional."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
           "removed": null,
           "usage": {
             "global": null,

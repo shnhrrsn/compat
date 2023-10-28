@@ -185,7 +185,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -193,8 +196,14 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Firefox does not support 'http://127.0.0.1' or 'http://localhost' as script sources: they must be served over HTTPS.",
+            "Until Firefox 105, the <code>object-src</code> directive was required with a secure source. From Firefox 106, the <code>object-src</code> directive is optional."
+          ],
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
           "removed": null,
           "usage": {
             "global": null,
