@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "e60f8e6095af1660e1349355b9432150",
+      "id": "ea5d8e206c980214d0452201407c6729",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": ", or "
+                "value": " or "
               },
               {
                 "type": "element",
@@ -96,7 +96,22 @@
               },
               {
                 "type": "text",
-                "value": " element is about to be modified. The event also applies to elements with "
+                "value": " element is about to be modified. But in contrast to the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "input"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " event, it does not fire on the {{HTMLSelect(\"select\")}} element. The event also applies to elements with "
               },
               {
                 "type": "element",
@@ -215,8 +230,8 @@
     }
   },
   "commit": {
-    "sha": "7ade5b15c0d911ee28c8f9e49183c1e93a1adcec",
-    "date": "2023-08-29T21:18:03.000Z"
+    "sha": "56639fe16e7ac3eb7fe761a4bfba0c08c436fcef",
+    "date": "2023-10-29T08:11:25.000Z"
   },
   "usage": 0.9516,
   "support": {
