@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "85760e31b8f1e0f10643ce427f03822f",
+      "id": "f615e05afec2a2dbf2c0ab7ca3e8b0bc",
       "tree": {
         "type": "root",
         "children": [
@@ -47,7 +47,22 @@
               },
               {
                 "type": "text",
-                "value": " descriptor can be used to specify a counter style to fall back to if the current counter style cannot create a marker representation for a particular counter value."
+                "value": " descriptor of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@counter-style"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " at-rule can be used to specify a counter style to fall back to if the counter style being defined cannot create a marker representation for a particular counter value."
               }
             ]
           }
@@ -58,7 +73,7 @@
       }
     },
     "seeAlso": {
-      "id": "1e8a155c95f575f68b2092d76c15af28",
+      "id": "077134d8dc2534c22a4913024ae19838",
       "tree": {
         "type": "root",
         "children": [
@@ -67,6 +82,167 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Other "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@counter-style"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " descriptors: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "system"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "additive-symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "prefix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suffix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "range"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "pad"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "speak-as"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -181,7 +357,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ": the functional notation creating anonymous counter styles"
+                    "value": ": the functional notation for creating anonymous counter styles"
                   }
                 ]
               },
@@ -199,8 +375,8 @@
     }
   },
   "commit": {
-    "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
-    "date": "2023-07-07T07:19:19.000Z"
+    "sha": "1afd06b2a278299b4c3a82d5b37dd5a5389987ae",
+    "date": "2023-10-31T04:37:03.000Z"
   },
   "usage": 0.71818,
   "support": {
