@@ -8,8 +8,106 @@
     "minPinLength"
   ],
   "type": "page",
-  "title": "extensions / minPinLength",
-  "links": {},
+  "title": "Web Authentication extensions",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Web_Authentication_API/WebAuthn_extensions#minpinlength",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/web_authentication_api/webauthn_extensions/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "1f43458aea23ed36931eeafe460d2d97",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Web_Authentication_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Web Authentication API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " has a system of extensions — extra functionality that can be requested during credential creation ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CredentialsContainer/create"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "navigator.credentials.create()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") or authentication ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CredentialsContainer/get"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "navigator.credentials.get()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") operations. This article explains how to request WebAuthn extensions, retrieve information about the responses from those requests, and the available extensions — including browser support and expected inputs and outputs."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "1ca97c134e6d5cbc5ccdbf2dcbfdd39d94bf50d3",
+    "date": "2023-10-06T16:02:53.000Z"
+  },
   "usage": 0.67067,
   "support": {
     "chrome": {
@@ -92,7 +190,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "120.0.0",
+        "date": 1700524800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -101,7 +202,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "120.0.0",
+            "date": 1700524800
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -112,7 +216,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "120.0.0",
+        "date": 1700524800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -121,7 +228,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "120.0.0",
+            "date": 1700524800
+          },
           "removed": null,
           "usage": {
             "global": null,

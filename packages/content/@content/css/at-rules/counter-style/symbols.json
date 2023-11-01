@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "e21082ace87ff845f63fce39fe10c348",
+      "id": "8e4e02738254ce7b4bed129207ab8ac0",
       "tree": {
         "type": "root",
         "children": [
@@ -64,7 +64,112 @@
               },
               {
                 "type": "text",
-                "value": " descriptor is used to specify the symbols that the specified counter system will use to construct counter representations."
+                "value": " descriptor of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "@counter-style"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " at-rule is used to specify the symbols for creating counter representations in the specified counter system. Specifying this descriptor is mandatory when the value of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "system"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " descriptor is "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "cyclic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "numeric"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "alphabetic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "symbolic"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "fixed"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -75,7 +180,7 @@
       }
     },
     "seeAlso": {
-      "id": "217d592684db773da106ee09acf7aa2b",
+      "id": "b92542c5304f27043dff18683215a991",
       "tree": {
         "type": "root",
         "children": [
@@ -94,25 +199,6 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "The "
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "symbols"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " descriptor is used within the "
-                  },
-                  {
                     "type": "element",
                     "tagName": "code",
                     "properties": {},
@@ -125,7 +211,138 @@
                   },
                   {
                     "type": "text",
-                    "value": " at-rule."
+                    "value": " descriptors: "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "system"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "additive-symbols"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "negative"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "prefix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "suffix"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "range"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "pad"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "speak-as"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "fallback"
+                      }
+                    ]
                   }
                 ]
               },
@@ -138,6 +355,10 @@
                 "tagName": "li",
                 "properties": {},
                 "children": [
+                  {
+                    "type": "text",
+                    "value": "List style properties: "
+                  },
                   {
                     "type": "element",
                     "tagName": "a",
@@ -243,7 +464,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ", the functional notation creating anonymous counter styles"
+                    "value": " function"
                   }
                 ]
               },
@@ -325,8 +546,8 @@
     }
   },
   "commit": {
-    "sha": "5e7d1f9ae2cce0cb3f7693dfb8dc6e8d375b2231",
-    "date": "2023-07-18T00:16:24.000Z"
+    "sha": "31e2290d82856fc0abe4ee4f75f2d53f05cf9de0",
+    "date": "2023-11-01T01:28:44.000Z"
   },
   "usage": 0.00913,
   "support": {
