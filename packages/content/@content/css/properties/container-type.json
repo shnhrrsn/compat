@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "165fc2671fdfe466fe742e3ec45170c2",
+      "id": "ea4bd3d8fa4e8cb6fb589f9f5bc9d66b",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,24 @@
             "children": [
               {
                 "type": "text",
-                "value": "The "
+                "value": "An element can be established as a query container for "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_container_queries"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "container size queries"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " using the "
               },
               {
                 "type": "element",
@@ -32,8 +49,15 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "container-type"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "container-type"
+                      }
+                    ]
                   }
                 ]
               },
@@ -56,41 +80,22 @@
               },
               {
                 "type": "text",
-                "value": " property is used to define the "
+                "value": " property. "
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/CSS/CSS_container_queries#naming_containment_contexts"
-                },
+                "tagName": "code",
+                "properties": {},
                 "children": [
                   {
                     "type": "text",
-                    "value": "type of containment"
+                    "value": "container-type"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " used in a "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/CSS/CSS_container_queries"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "container query"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "."
+                "value": " is used to define the type of size containment used in a container query."
               }
             ]
           }
@@ -294,10 +299,10 @@
     }
   },
   "commit": {
-    "sha": "de76d381cb79a61813378963b66d98f68e74381c",
-    "date": "2023-07-26T23:50:46.000Z"
+    "sha": "8965f6b695308878ae5d58ba81a2d0192e7c131f",
+    "date": "2023-11-01T15:50:45.000Z"
   },
-  "usage": 0.8582200000000001,
+  "usage": 0.8615,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -307,8 +312,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.24960000000000002,
-        "relative": 0.9092896174863387
+        "global": 0.25010000000000004,
+        "relative": 0.9114431486880467
       },
       "history": [
         {
@@ -319,8 +324,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.24960000000000002,
-            "relative": 0.9092896174863387
+            "global": 0.25010000000000004,
+            "relative": 0.9114431486880467
           }
         }
       ]
@@ -333,8 +338,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.32454,
-        "relative": 0.954220693305107
+        "global": 0.32122,
+        "relative": 0.9539676882870043
       },
       "history": [
         {
@@ -345,8 +350,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.32454,
-            "relative": 0.954220693305107
+            "global": 0.32122,
+            "relative": 0.9539676882870043
           }
         }
       ]
@@ -359,8 +364,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.047700000000000006,
-        "relative": 0.9896265560165978
+        "global": 0.0484,
+        "relative": 0.9817444219066939
       },
       "history": [
         {
@@ -371,8 +376,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.047700000000000006,
-            "relative": 0.9896265560165978
+            "global": 0.0484,
+            "relative": 0.9817444219066939
           }
         }
       ]
@@ -385,8 +390,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02489999999999999,
-        "relative": 0.8924731182795703
+        "global": 0.02519999999999999,
+        "relative": 0.9032258064516131
       },
       "history": [
         {
@@ -397,8 +402,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02489999999999999,
-            "relative": 0.8924731182795703
+            "global": 0.02519999999999999,
+            "relative": 0.9032258064516131
           }
         }
       ]
@@ -477,8 +482,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0168,
-        "relative": 0.6666666666666669
+        "global": 0.020799999999999996,
+        "relative": 0.707482993197279
       },
       "history": [
         {
@@ -489,8 +494,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0168,
-            "relative": 0.6666666666666669
+            "global": 0.020799999999999996,
+            "relative": 0.707482993197279
           }
         }
       ]
@@ -529,8 +534,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.039900000000000005,
-        "relative": 0.7176258992805756
+        "global": 0.0416,
+        "relative": 0.7272727272727273
       },
       "history": [
         {
@@ -541,8 +546,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.039900000000000005,
-            "relative": 0.7176258992805756
+            "global": 0.0416,
+            "relative": 0.7272727272727273
           }
         }
       ]
@@ -555,8 +560,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.13568,
-        "relative": 0.8250030402529491
+        "global": 0.13738,
+        "relative": 0.8410162228344048
       },
       "history": [
         {
@@ -567,8 +572,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.13568,
-            "relative": 0.8250030402529491
+            "global": 0.13738,
+            "relative": 0.8410162228344048
           }
         }
       ]
@@ -581,8 +586,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.019100000000000002,
-        "relative": 0.8721461187214616
+        "global": 0.016800000000000002,
+        "relative": 0.8704663212435232
       },
       "history": [
         {
@@ -593,8 +598,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.019100000000000002,
-            "relative": 0.8721461187214616
+            "global": 0.016800000000000002,
+            "relative": 0.8704663212435232
           }
         }
       ]
