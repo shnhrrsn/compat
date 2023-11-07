@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "da52a74b4d457f7ed2f776fadd324fde",
+      "id": "504483713f2c35d14996c7f301277fdb",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,22 @@
               },
               {
                 "type": "text",
-                "value": " interface returns an array of a given object's\nown enumerable property "
+                "value": " interface returns a new asynchronous iterator\nfor the iteration of the key-value pairs of the entries within the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "FileSystemDirectoryHandle"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\non which this method is called. The key-value pairs are\nin the form of an array like "
               },
               {
                 "type": "element",
@@ -86,31 +101,7 @@
               },
               {
                 "type": "text",
-                "value": " pairs, in the same order as that\nprovided by a "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/JavaScript/Reference/Statements/for...in"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "for...in"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " loop (the difference being that a for-in loop\nenumerates properties in the prototype chain as well)."
+                "value": "."
               }
             ]
           }
@@ -192,10 +183,10 @@
     }
   },
   "commit": {
-    "sha": "835d6632d59993861a0458510402787f8a2c3cb3",
-    "date": "2023-10-25T17:27:32.000Z"
+    "sha": "ebd6de7f8140b299ddf2bfaa35c1e0252151c303",
+    "date": "2023-11-06T08:56:38.000Z"
   },
-  "usage": 0.9195299999999998,
+  "usage": 0.9194899999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -231,8 +222,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3344199999999999,
-        "relative": 0.993789189028558
+        "global": 0.33437999999999996,
+        "relative": 0.9937293827454011
       },
       "history": [
         {
@@ -243,8 +234,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3344199999999999,
-            "relative": 0.993789189028558
+            "global": 0.33437999999999996,
+            "relative": 0.9937293827454011
           }
         }
       ]
