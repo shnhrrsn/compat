@@ -8,7 +8,7 @@
   "type": "page",
   "title": "background-clip / text",
   "links": {},
-  "usage": 0.28747999999999996,
+  "usage": 0.23838,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -21,7 +21,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "3.0.0",
@@ -47,7 +47,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "18.0.0",
@@ -68,22 +68,43 @@
         "version": "15.0.0",
         "date": 1491350400
       },
-      "removed": null,
+      "removed": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "usage": {
-        "global": 0.04919999999999998,
-        "relative": 1
+        "global": 0.0001,
+        "relative": 0.0020325203252032527
       },
       "history": [
+        {
+          "notes": [
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049099999999999984,
+            "relative": 0.9979674796747968
+          },
+          "partial_implementation": true
+        },
         {
           "notes": null,
           "added": {
             "version": "15.0.0",
             "date": 1491350400
           },
-          "removed": null,
+          "removed": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
           "usage": {
-            "global": 0.04919999999999998,
-            "relative": 1
+            "global": 0.0001,
+            "relative": 0.0020325203252032527
           }
         },
         {
@@ -94,10 +115,13 @@
             "version": "12.0.0",
             "date": 1438041600
           },
-          "removed": null,
+          "removed": {
+            "version": "15.0.0",
+            "date": 1491350400
+          },
           "usage": {
-            "global": 0.04919999999999998,
-            "relative": 1
+            "global": null,
+            "relative": null
           },
           "partial_implementation": true
         }
@@ -186,7 +210,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "5.0.0",
@@ -212,7 +236,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "15.0.0",
@@ -238,7 +262,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "14.0.0",
@@ -346,7 +370,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "1.0.0",
@@ -372,7 +396,7 @@
       "history": [
         {
           "notes": [
-            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>)."
+            "The <code>text</code> value is only supported by <code>-webkit-background-clip</code> (and not by <code>background-clip</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/1339290'>bug 1339290</a>)."
           ],
           "added": {
             "version": "4.4.0",

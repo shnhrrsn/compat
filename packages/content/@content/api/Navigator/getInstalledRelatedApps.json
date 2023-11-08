@@ -5,9 +5,124 @@
     "getInstalledRelatedApps"
   ],
   "type": "page",
-  "title": "Navigator / getInstalledRelatedApps",
+  "title": "Navigator: getInstalledRelatedApps() method",
   "links": {
-    "spec": "https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Navigator/getInstalledRelatedApps",
+    "spec": "https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/navigator/getinstalledrelatedapps/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "7db200c01eb1ab6ab147ad7a37d5b2ee",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getInstalledRelatedApps()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method returns a promise that resolves with an array of objects representing any related platform-specific apps or "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Progressive_web_apps"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Progressive Web Apps"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that the user has installed. This could be used for content personalization such as removing \"install our app\" banners from the web app if the platform-specific app and/or PWA is already installed."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "2127fdc09ffe033f72cb7b26546c4549",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://web.dev/articles/get-installed-related-apps"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Is your app installed? getInstalledRelatedApps() will tell you!"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "835d6632d59993861a0458510402787f8a2c3cb3",
+    "date": "2023-10-25T17:27:32.000Z"
   },
   "usage": 0.6934799999999999,
   "support": {
