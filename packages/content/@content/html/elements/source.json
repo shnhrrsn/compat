@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "443b82bfc6c81a8aa632eaf2ec030dda",
+      "id": "568fa112def6cadbef3905581d4946f4",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " element specifies multiple media resources for the "
+                "value": " element specifies one or more media resources for the "
               },
               {
                 "type": "element",
@@ -88,7 +88,7 @@
               },
               {
                 "type": "text",
-                "value": ", the "
+                "value": ", "
               },
               {
                 "type": "element",
@@ -113,7 +113,7 @@
               },
               {
                 "type": "text",
-                "value": " element, or the "
+                "value": ", and "
               },
               {
                 "type": "element",
@@ -138,7 +138,7 @@
               },
               {
                 "type": "text",
-                "value": " element. It is a "
+                "value": " elements. It is a "
               },
               {
                 "type": "element",
@@ -155,7 +155,7 @@
               },
               {
                 "type": "text",
-                "value": ", meaning that it has no content and does not have a closing tag. It is commonly used to offer the same media content in multiple file formats in order to provide compatibility with a broad range of browsers given their differing support for "
+                "value": ", which means that it has no content and does not require a closing tag. This element is commonly used to offer the same media content in multiple file formats in order to provide compatibility with a broad range of browsers given their differing support for "
               },
               {
                 "type": "element",
@@ -200,7 +200,7 @@
       }
     },
     "seeAlso": {
-      "id": "0ac34a695f7b5d0ae6af3c624bbc4bce",
+      "id": "dd61b5795c11a5d8f9c9628d67769244",
       "tree": {
         "type": "root",
         "children": [
@@ -222,38 +222,26 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/Media/Formats"
+                      "internal": "",
+                      "href": "/html/elements/audio"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "Guide to media types and formats on the web"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<audio>"
+                          }
+                        ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
+                  },
                   {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/Media/Formats/Image_types"
-                    },
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Image file type and format guide"
-                      }
-                    ]
+                    "type": "text",
+                    "value": " element"
                   }
                 ]
               },
@@ -282,42 +270,6 @@
                           {
                             "type": "text",
                             "value": "<picture>"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": " element"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/html/elements/audio"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "<audio>"
                           }
                         ]
                       }
@@ -378,12 +330,60 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
+                      "href": "/en-US/docs/Web/Media/Formats/Image_types"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Image file type and format guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Media/Formats"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Media type and format guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
                       "href": "/en-US/docs/Learn/Performance"
                     },
                     "children": [
                       {
                         "type": "text",
-                        "value": "Web Performance"
+                        "value": "Web performance"
                       }
                     ]
                   }
@@ -403,8 +403,8 @@
     }
   },
   "commit": {
-    "sha": "71297c7351286ed4d9de4a0639637f9e90bc75cf",
-    "date": "2023-10-11T08:20:02.000Z"
+    "sha": "8681d028e10726949abc28367156318d4e09c145",
+    "date": "2023-11-08T13:34:14.000Z"
   },
   "usage": 0.9586499999999999,
   "support": {
