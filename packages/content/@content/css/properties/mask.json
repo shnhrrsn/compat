@@ -246,7 +246,7 @@
     "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
     "date": "2023-07-07T07:19:19.000Z"
   },
-  "usage": 0.02809999999999998,
+  "usage": 0.22716999999999998,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -395,36 +395,52 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "2.0.0",
-        "date": 1161648000
+        "version": "53.0.0",
+        "date": 1492560000
       },
       "removed": null,
       "usage": {
-        "global": 0.02799999999999998,
-        "relative": 1
+        "global": 0.027099999999999985,
+        "relative": 0.9678571428571431
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.027099999999999985,
+            "relative": 0.9678571428571431
+          }
+        },
+        {
           "notes": [
-            "From Firefox 10, the default color space when handling masks is sRGB. Previously, the default and only supported color space was linear RGB. This changes the appearance of mask effects, but brings Firefox into compliance with the second edition of the SVG 1.1 specification."
+            "Only supports <code>mask: url(file.svg#mask_id)</code> or <code>mask: url(#mask_id)</code>, where the URL is a reference to an SVG <code>&lt;mask&gt;</code> element."
           ],
           "added": {
             "version": "2.0.0",
             "date": 1161648000
           },
-          "removed": null,
+          "removed": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
           "usage": {
-            "global": 0.02799999999999998,
-            "relative": 1
-          }
+            "global": 0.0009,
+            "relative": 0.03214285714285717
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "4.0.0",
-        "date": 1301356800
+        "version": "53.0.0",
+        "date": 1492560000
       },
       "removed": null,
       "usage": {
@@ -433,18 +449,34 @@
       },
       "history": [
         {
-          "notes": [
-            "From Firefox 10, the default color space when handling masks is sRGB. Previously, the default and only supported color space was linear RGB. This changes the appearance of mask effects, but brings Firefox into compliance with the second edition of the SVG 1.1 specification."
-          ],
+          "notes": null,
           "added": {
-            "version": "4.0.0",
-            "date": 1301356800
+            "version": "53.0.0",
+            "date": 1492560000
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
+        },
+        {
+          "notes": [
+            "Only supports <code>mask: url(file.svg#mask_id)</code> or <code>mask: url(#mask_id)</code>, where the URL is a reference to an SVG <code>&lt;mask&gt;</code> element."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1301356800
+          },
+          "removed": {
+            "version": "53.0.0",
+            "date": 1492560000
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -593,13 +625,28 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.048600000000000004,
+        "relative": 0.8526315789473686
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.048600000000000004,
+            "relative": 0.8526315789473686
+          }
+        },
         {
           "notes": [
             "The prefixed property can be used with SVG and HTML with a slightly different syntax, which allows setting the non-standard <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment'><code>-webkit-mask-attachment</code></a> property."
@@ -623,10 +670,13 @@
             "version": "3.1.0",
             "date": 1205798400
           },
-          "removed": null,
+          "removed": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
           "usage": {
-            "global": 0.056999999999999995,
-            "relative": 1
+            "global": 0.0091,
+            "relative": 0.15964912280701757
           },
           "partial_implementation": true
         }
@@ -634,13 +684,28 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "15.4.0",
+        "date": 1647302400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.15137,
+        "relative": 0.9283085980620632
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.15137,
+            "relative": 0.9283085980620632
+          }
+        },
         {
           "notes": [
             "The prefixed property can be used with SVG and HTML with a slightly different syntax, which allows setting the non-standard <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment'><code>-webkit-mask-attachment</code></a> property."
@@ -664,10 +729,13 @@
             "version": "2.0.0",
             "date": 1215734400
           },
-          "removed": null,
+          "removed": {
+            "version": "15.4.0",
+            "date": 1647302400
+          },
           "usage": {
-            "global": 0.16305999999999998,
-            "relative": 1
+            "global": 0.012849999999999995,
+            "relative": 0.07880534772476387
           },
           "partial_implementation": true
         }

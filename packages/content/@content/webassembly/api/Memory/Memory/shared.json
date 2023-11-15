@@ -1,0 +1,407 @@
+{
+  "self": [
+    "webassembly",
+    "api",
+    "Memory",
+    "Memory",
+    "shared"
+  ],
+  "type": "page",
+  "title": "Memory / shared",
+  "links": {
+    "spec": "https://webassembly.github.io/threads/js-api/#dom-memorydescriptor-shared"
+  },
+  "usage": 0.9278599999999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "74.0.0",
+        "date": 1555977600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.27079999999999993,
+        "relative": 0.9850854856311385
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "74.0.0",
+            "date": 1555977600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.27079999999999993,
+            "relative": 0.9850854856311385
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "88.0.0",
+        "date": 1611014400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.33244999999999997,
+        "relative": 0.9879936996641803
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "88.0.0",
+            "date": 1611014400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.33244999999999997,
+            "relative": 0.9879936996641803
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.10.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.10.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049099999999999984,
+        "relative": 0.9979674796747968
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049099999999999984,
+            "relative": 0.9979674796747968
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "78.0.0",
+        "date": 1593475200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.026799999999999987,
+        "relative": 0.9571428571428574
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "78.0.0",
+            "date": 1593475200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.026799999999999987,
+            "relative": 0.9571428571428574
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "12.0.0",
+            "date": 1555977600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "flags": [
+            {
+              "name": "--experimental-wasm-threads",
+              "type": "runtime_flag"
+            }
+          ]
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Quest Browser",
+      "added": {
+        "version": "14.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "62.0.0",
+        "date": 1561593600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02929999999999999,
+        "relative": 0.9932203389830508
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "62.0.0",
+            "date": 1561593600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02929999999999999,
+            "relative": 0.9932203389830508
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "63.0.0",
+        "date": 1618531200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1618531200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.2.0",
+        "date": 1639353600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0495,
+        "relative": 0.8684210526315791
+      },
+      "history": [
+        {
+          "notes": [
+            "Shared <code>WebAssembly.Memory</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
+          ],
+          "added": {
+            "version": "15.2.0",
+            "date": 1639353600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0495,
+            "relative": 0.8684210526315791
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.2.0",
+        "date": 1639353600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.15241000000000002,
+        "relative": 0.9346866184226668
+      },
+      "history": [
+        {
+          "notes": [
+            "Shared <code>WebAssembly.Memory</code> is gated behind COOP/COEP. For more detail, read <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://web.dev/coop-coep/'>Making your website \"cross-origin isolated\" using COOP and COEP</a>."
+          ],
+          "added": {
+            "version": "15.2.0",
+            "date": 1639353600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.15241000000000002,
+            "relative": 0.9346866184226668
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "15.0.0",
+        "date": 1628812800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0175,
+        "relative": 0.9259259259259258
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1628812800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0175,
+            "relative": 0.9259259259259258
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": false,
+    "standard_track": true
+  }
+}
