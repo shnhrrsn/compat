@@ -4942,10 +4942,17 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"17.1.0",
+				{
+					"date": 1698192000,
+					"usage": 0.04
+				}
+			],
+			[
 				"17.0.0",
 				{
 					"date": 1695686400,
-					"usage": 0.66
+					"usage": 0.62
 				}
 			],
 			[
@@ -5227,10 +5234,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"17.1.0",
+				{
+					"date": 1698192000,
+					"usage": 0.17300000000000001
+				}
+			],
+			[
 				"17.0.0",
 				{
 					"date": 1695686400,
-					"usage": 2.96
+					"usage": 2.787
 				}
 			],
 			[
@@ -5490,6 +5504,13 @@ const mdn = {
 	samsunginternet_android: {
 		name: 'Samsung Internet',
 		versions: new Map([
+			[
+				"23.0.0",
+				{
+					"date": 1697587200,
+					"usage": 0.32
+				}
+			],
 			[
 				"22.0.0",
 				{
