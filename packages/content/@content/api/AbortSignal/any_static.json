@@ -5,10 +5,136 @@
     "any_static"
   ],
   "type": "page",
-  "title": "AbortSignal / any_static",
+  "title": "AbortSignal: any() static method",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/AbortSignal/any_static",
-    "spec": "https://dom.spec.whatwg.org/#dom-abortsignal-any"
+    "spec": "https://dom.spec.whatwg.org/#dom-abortsignal-any",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/abortsignal/any_static/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "809e01fed1a25ebb0f881458a5fef66e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal.any()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method takes an iterable of abort signals and returns an "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". The returned abort signal is aborted when any of the input iterable abort signals are aborted. The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal/reason"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "abort reason"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " will be set to the reason of the first signal that is aborted. If any of the the given abort signals are already aborted then so will be the returned "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/AbortSignal"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "AbortSignal"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "cac549737126e6a94762ea02e34cf5c5c80ca465",
+    "date": "2023-11-20T09:03:15.000Z"
   },
   "usage": 0.55489,
   "support": {
