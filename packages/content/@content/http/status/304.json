@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "48a29b03940e48cb5da077edaa252784",
+      "id": "b7f2d5f7cf2658179a64b73f130f5761",
       "tree": {
         "type": "root",
         "children": [
@@ -46,24 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " client redirection response\ncode indicates that there is no need to retransmit the requested resources. It is an\nimplicit redirection to a cached resource. This happens when the request method is\na "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Glossary/Safe/HTTP"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "safe"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " method, such as "
+                "value": " client redirection response code indicates that there is no need to retransmit the requested resources.\nThis response code is sent when the request is a conditional "
               },
               {
                 "type": "element",
@@ -113,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": ",\nor when the request is conditional and uses an "
+                "value": " request with an "
               },
               {
                 "type": "element",
@@ -138,7 +121,7 @@
               },
               {
                 "type": "text",
-                "value": " or an\n"
+                "value": " or an "
               },
               {
                 "type": "element",
@@ -163,7 +146,47 @@
               },
               {
                 "type": "text",
-                "value": " header."
+                "value": " header and the condition evaluates to false.\nIt is an implicit redirection to a cached resource that would have resulted in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/status/200"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "200"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "OK"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " response if the condition evaluated to true."
               }
             ]
           }
@@ -174,7 +197,7 @@
       }
     },
     "seeAlso": {
-      "id": "fbe4be655922496f5256550acd009863",
+      "id": "2af9209d968a31cc0acaa67433891dac",
       "tree": {
         "type": "root",
         "children": [
@@ -260,6 +283,30 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
+                      "href": "/en-US/docs/Web/HTTP/Conditional_requests"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTTP conditional requests"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
                       "href": "/en-US/docs/Web/HTTP/Status/204"
                     },
                     "children": [
@@ -285,10 +332,10 @@
     }
   },
   "commit": {
-    "sha": "c15a06bd8bf9c4b859c7eef07f014517ed3f72df",
-    "date": "2023-04-12T08:48:18.000Z"
+    "sha": "fb8c438501d119fb897a9667ee85c1486f2c03d6",
+    "date": "2023-11-21T13:55:29.000Z"
   },
-  "usage": 0.9618499999999999,
+  "usage": 0.9615099999999996,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -298,7 +345,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2748999999999999,
+        "global": 0.2749,
         "relative": 1
       },
       "history": [
@@ -310,7 +357,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2748999999999999,
+            "global": 0.2749,
             "relative": 1
           }
         }
@@ -324,7 +371,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.33648999999999996,
+        "global": 0.33657999999999993,
         "relative": 1
       },
       "history": [
@@ -336,7 +383,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.33648999999999996,
+            "global": 0.33657999999999993,
             "relative": 1
           }
         }
@@ -350,7 +397,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04919999999999998,
+        "global": 0.048999999999999974,
         "relative": 1
       },
       "history": [
@@ -362,7 +409,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04919999999999998,
+            "global": 0.048999999999999974,
             "relative": 1
           }
         }
@@ -376,7 +423,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.02799999999999998,
+        "global": 0.027499999999999983,
         "relative": 1
       },
       "history": [
@@ -388,7 +435,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.02799999999999998,
+            "global": 0.027499999999999983,
             "relative": 1
           }
         }
@@ -428,7 +475,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0016,
+        "global": 0.0015,
         "relative": 1
       },
       "history": [
@@ -440,7 +487,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0016,
+            "global": 0.0015,
             "relative": 1
           }
         }
@@ -480,7 +527,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.029499999999999988,
+        "global": 0.02959999999999999,
         "relative": 1
       },
       "history": [
@@ -492,7 +539,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.029499999999999988,
+            "global": 0.02959999999999999,
             "relative": 1
           }
         }
@@ -532,7 +579,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.056999999999999995,
+        "global": 0.05709999999999999,
         "relative": 1
       },
       "history": [
@@ -544,7 +591,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.056999999999999995,
+            "global": 0.05709999999999999,
             "relative": 1
           }
         }
@@ -558,7 +605,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.16305999999999998,
+        "global": 0.16312999999999994,
         "relative": 1
       },
       "history": [
@@ -570,7 +617,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.16305999999999998,
+            "global": 0.16312999999999994,
             "relative": 1
           }
         }
@@ -584,7 +631,7 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.022099999999999988,
+        "global": 0.022199999999999987,
         "relative": 1
       },
       "history": [
@@ -596,7 +643,7 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.022099999999999988,
+            "global": 0.022199999999999987,
             "relative": 1
           }
         }
