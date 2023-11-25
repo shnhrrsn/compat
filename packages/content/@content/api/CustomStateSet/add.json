@@ -5,9 +5,101 @@
     "add"
   ],
   "type": "page",
-  "title": "CustomStateSet / add",
+  "title": "CustomStateSet: add() method",
   "links": {
-    "spec": "https://wicg.github.io/custom-state-pseudo-class/#dom-customstateset-add"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/add",
+    "spec": "https://wicg.github.io/custom-state-pseudo-class/#dom-customstateset-add",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/customstateset/add/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f9fab61422659ac901cc7a5f1b2fdc3d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "add"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CustomStateSet"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CustomStateSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface adds an item to the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CustomStateSet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", after checking that the value is in the correct format."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "53b1989260054e651bcf001bacee9b843b8ca9c8",
+    "date": "2023-04-07T05:49:06.000Z"
   },
   "usage": 0.6866399999999999,
   "support": {
@@ -100,12 +192,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "121.0.0",
+            "date": 1702944000
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "dom.element.customstateset.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

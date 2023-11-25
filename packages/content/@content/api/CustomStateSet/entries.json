@@ -5,8 +5,134 @@
     "entries"
   ],
   "type": "page",
-  "title": "CustomStateSet / entries",
-  "links": {},
+  "title": "CustomStateSet: entries() method",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/CustomStateSet/entries",
+    "spec": "https://wicg.github.io/custom-state-pseudo-class/#customstateset",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/customstateset/entries/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "0a9c3e9ec2083421a4992226be71bf75",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "entries"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CustomStateSet"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CustomStateSet"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a new "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "iterator"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object, containing an array of "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "[value,value]"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " for each element in the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CustomStateSet"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "53b1989260054e651bcf001bacee9b843b8ca9c8",
+    "date": "2023-04-07T05:49:06.000Z"
+  },
   "usage": 0.6866399999999999,
   "support": {
     "chrome": {
@@ -98,12 +224,22 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "121.0.0",
+            "date": 1702944000
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "flags": [
+            {
+              "name": "dom.element.customstateset.enabled",
+              "type": "preference",
+              "value_to_set": "true"
+            }
+          ]
         }
       ]
     },

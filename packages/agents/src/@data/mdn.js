@@ -1533,6 +1533,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"122.0.0",
+				{
+					"date": 1708560000,
+					"usage": null
+				}
+			],
+			[
 				"121.0.0",
 				{
 					"date": 1706140800,
@@ -1880,6 +1887,13 @@ const mdn = {
 	firefox: {
 		name: 'Firefox',
 		versions: new Map([
+			[
+				"123.0.0",
+				{
+					"date": 1708387200,
+					"usage": null
+				}
+			],
 			[
 				"122.0.0",
 				{
@@ -2760,6 +2774,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"123.0.0",
+				{
+					"date": 1708387200,
+					"usage": null
+				}
+			],
 			[
 				"122.0.0",
 				{
@@ -3699,6 +3720,13 @@ const mdn = {
 	opera: {
 		name: 'Opera',
 		versions: new Map([
+			[
+				"105.0.0",
+				{
+					"date": 1699920000,
+					"usage": null
+				}
+			],
 			[
 				"104.0.0",
 				{
