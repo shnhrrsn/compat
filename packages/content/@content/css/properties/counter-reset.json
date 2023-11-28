@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "6274ca0c978310cb2000873937e72fa3",
+      "id": "b58161ae2c92dda9228885c00d220ead",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " property resets a "
+                "value": " property creates named "
               },
               {
                 "type": "element",
@@ -74,13 +74,13 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "CSS counter"
+                    "value": "CSS counters"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " to a given value.\nThis property will create a new counter or reversed counter with the given name on the specified element."
+                "value": " and initializes them to a specific value. It supports creating counters that count up from one to the number of elements, as well as those that count down from the number of elements to one."
               }
             ]
           }
@@ -91,7 +91,7 @@
       }
     },
     "seeAlso": {
-      "id": "cb211ea8217fc9028510c01a195531dd",
+      "id": "6f93cbbd5601dbaa8fe65abafcd39b6c",
       "tree": {
         "type": "root",
         "children": [
@@ -121,6 +121,10 @@
                         "value": "Using CSS Counters"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " guide"
                   }
                 ]
               },
@@ -153,6 +157,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -185,6 +193,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -207,6 +219,10 @@
                         "value": "@counter-style"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " at-rule"
                   }
                 ]
               },
@@ -320,18 +336,26 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles"
+                      "internal": "",
+                      "href": "/css/selectors/marker"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "CSS counter styles"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "::marker"
+                          }
+                        ]
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": " module"
+                    "value": " pseudo-class"
                   }
                 ]
               },
@@ -366,6 +390,34 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_counter_styles"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS counter styles"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -377,8 +429,8 @@
     }
   },
   "commit": {
-    "sha": "f75fd658f627b5730a14ada901120cfa4ee01bda",
-    "date": "2023-10-29T08:18:47.000Z"
+    "sha": "6021469fc4777ec7bc48ba840e1ba01b1d5ca4e8",
+    "date": "2023-11-27T23:09:29.000Z"
   },
   "usage": 0.9615099999999996,
   "support": {
