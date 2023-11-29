@@ -9,146 +9,40 @@
   "links": {
     "spec": "https://privacycg.github.io/storage-access/#permissions-integration"
   },
-  "usage": 0,
+  "usage": 0.020700000000000003,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "119.0.0",
+        "date": 1698710400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0003,
+        "relative": 0.0010913059294288833
       },
       "history": [
         {
-          "notes": [
-            "Only available to Google Chrome's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>."
-          ],
-          "added": {
-            "version": "113.0.0",
-            "date": 1682985600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.223,
-            "relative": 0.8112040742088032
-          },
-          "partial_implementation": true
-        },
-        {
           "notes": null,
           "added": {
-            "version": "86.0.0",
-            "date": 1603152000
+            "version": "119.0.0",
+            "date": 1698710400
           },
           "removed": null,
           "usage": {
-            "global": 0.2628,
-            "relative": 0.9559839941797017
-          },
-          "flags": [
-            {
-              "name": "#storage-access-api",
-              "type": "preference",
-              "value_to_set": "Enabled"
-            }
-          ]
+            "global": 0.0003,
+            "relative": 0.0010913059294288833
+          }
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
-      "removed": null,
-      "usage": {
-        "global": null,
-        "relative": null
+      "added": {
+        "version": "120.0.0",
+        "date": 1701734400
       },
-      "history": [
-        {
-          "notes": [
-            "Only available to Google Chrome's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>."
-          ],
-          "added": {
-            "version": "113.0.0",
-            "date": 1682985600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.29868999999999996,
-            "relative": 0.8874264662190268
-          },
-          "partial_implementation": true
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "86.0.0",
-            "date": 1603152000
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.33446999999999993,
-            "relative": 0.9937310594806584
-          },
-          "flags": [
-            {
-              "name": "#storage-access-api",
-              "type": "preference",
-              "value_to_set": "Enabled"
-            }
-          ]
-        }
-      ]
-    },
-    "edge": {
-      "name": "Edge",
-      "added": null,
-      "removed": null,
-      "usage": {
-        "global": null,
-        "relative": null
-      },
-      "history": [
-        {
-          "notes": [
-            "Only available to Edge's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>."
-          ],
-          "added": {
-            "version": "113.0.0",
-            "date": 1683244800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.0452,
-            "relative": 0.9224489795918371
-          },
-          "partial_implementation": true
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "86.0.0",
-            "date": 1602201600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.04889999999999998,
-            "relative": 0.9979591836734695
-          },
-          "flags": [
-            {
-              "name": "#storage-access-api",
-              "type": "preference",
-              "value_to_set": "Enabled"
-            }
-          ]
-        }
-      ]
-    },
-    "firefox": {
-      "name": "Firefox",
-      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -157,7 +51,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "120.0.0",
+            "date": 1701734400
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -166,9 +63,12 @@
         }
       ]
     },
-    "firefox_android": {
-      "name": "Firefox for Android",
-      "added": null,
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "119.0.0",
+        "date": 1698883200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -177,7 +77,62 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "119.0.0",
+            "date": 1698883200
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "117.0.0",
+        "date": 1693267200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0204,
+        "relative": 0.7418181818181823
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "117.0.0",
+            "date": 1693267200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0204,
+            "relative": 0.7418181818181823
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "117.0.0",
+        "date": 1693267200
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "117.0.0",
+            "date": 1693267200
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -217,28 +172,21 @@
       "history": [
         {
           "notes": null,
-          "added": {
-            "version": "12.0.0",
-            "date": null
-          },
+          "added": null,
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          },
-          "flags": [
-            {
-              "name": "#storage-access-api",
-              "type": "preference",
-              "value_to_set": "Enabled"
-            }
-          ]
+          }
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": null,
+      "added": {
+        "version": "105.0.0",
+        "date": 1699920000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -246,38 +194,16 @@
       },
       "history": [
         {
-          "notes": [
-            "Only available to Opera's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>."
-          ],
-          "added": {
-            "version": "99.0.0",
-            "date": 1684195200
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.0195,
-            "relative": 0.658783783783784
-          },
-          "partial_implementation": true
-        },
-        {
           "notes": null,
           "added": {
-            "version": "72.0.0",
-            "date": 1603238400
+            "version": "105.0.0",
+            "date": 1699920000
           },
           "removed": null,
           "usage": {
-            "global": 0.028599999999999993,
-            "relative": 0.9662162162162163
-          },
-          "flags": [
-            {
-              "name": "#storage-access-api",
-              "type": "preference",
-              "value_to_set": "Enabled"
-            }
-          ]
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
@@ -351,19 +277,13 @@
       },
       "history": [
         {
-          "notes": [
-            "Only available to Samsung Internet's <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.chrome.com/docs/privacy-sandbox/first-party-sets/'>first-party sets</a>."
-          ],
-          "added": {
-            "version": "23.0.0",
-            "date": 1697587200
-          },
+          "notes": null,
+          "added": null,
           "removed": null,
           "usage": {
-            "global": 0.0032,
-            "relative": 0.14414414414414423
-          },
-          "partial_implementation": true
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
@@ -390,7 +310,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
