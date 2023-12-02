@@ -10,7 +10,7 @@
   "links": {
     "spec": "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-fetchpriority"
   },
-  "usage": 0.6493,
+  "usage": 0.65207,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -20,8 +20,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.2542,
-        "relative": 0.9246998908694071
+        "global": 0.24989999999999996,
+        "relative": 0.9370078740157474
       },
       "history": [
         {
@@ -32,8 +32,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.2542,
-            "relative": 0.9246998908694071
+            "global": 0.24989999999999996,
+            "relative": 0.9370078740157474
           }
         }
       ]
@@ -46,8 +46,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.3268,
-        "relative": 0.9709430150335732
+        "global": 0.3334700000000001,
+        "relative": 0.9787789844437921
       },
       "history": [
         {
@@ -58,8 +58,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.3268,
-            "relative": 0.9709430150335732
+            "global": 0.3334700000000001,
+            "relative": 0.9787789844437921
           }
         }
       ]
@@ -72,8 +72,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.048199999999999986,
-        "relative": 0.9836734693877552
+        "global": 0.04779999999999998,
+        "relative": 0.9428007889546354
       },
       "history": [
         {
@@ -84,8 +84,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.048199999999999986,
-            "relative": 0.9836734693877552
+            "global": 0.04779999999999998,
+            "relative": 0.9428007889546354
           }
         }
       ]
@@ -224,7 +224,10 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "17.2.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -234,26 +237,23 @@
         {
           "notes": null,
           "added": {
-            "version": "preview",
+            "version": "17.2.0",
             "date": null
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          },
-          "flags": [
-            {
-              "name": "Fetch Priority",
-              "type": "preference"
-            }
-          ]
+          }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "17.2.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -262,18 +262,15 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "17.2.0",
+            "date": null
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          },
-          "flags": [
-            {
-              "name": "Fetch Priority",
-              "type": "preference"
-            }
-          ]
+          }
         }
       ]
     },
@@ -285,8 +282,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.020100000000000003,
-        "relative": 0.9054054054054059
+        "global": 0.0209,
+        "relative": 0.896995708154507
       },
       "history": [
         {
@@ -297,8 +294,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.020100000000000003,
-            "relative": 0.9054054054054059
+            "global": 0.0209,
+            "relative": 0.896995708154507
           }
         }
       ]
@@ -332,7 +329,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
