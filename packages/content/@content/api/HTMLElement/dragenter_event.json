@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "88d29ebea715c8bcb23ce3756ab0cd31",
+      "id": "0bad9d5d99437cbcf1bc5bd8eeae2aaf",
       "tree": {
         "type": "root",
         "children": [
@@ -42,7 +42,47 @@
               },
               {
                 "type": "text",
-                "value": " event is fired when a dragged element or text selection enters a valid drop target."
+                "value": " event is fired when a dragged element or text selection enters a valid drop target. The target object is the "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "immediate user selection"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (the element directly indicated by the user as the drop target), or the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/body"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<body>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element."
               }
             ]
           }
@@ -53,7 +93,7 @@
       }
     },
     "seeAlso": {
-      "id": "1dab32d0edb3a2dd2a4a259341a5df3a",
+      "id": "64e02e421eb799b36fdb5165236407a9",
       "tree": {
         "type": "root",
         "children": [
@@ -302,204 +342,6 @@
               {
                 "type": "text",
                 "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "p",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "This event on other targets:"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  },
-                  {
-                    "type": "element",
-                    "tagName": "ul",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/api/Window"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "Window"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": ": "
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "dragenter"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": " event"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/api/Document"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "Document"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": ": "
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "dragenter"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": " event"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      },
-                      {
-                        "type": "element",
-                        "tagName": "li",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "element",
-                            "tagName": "a",
-                            "properties": {
-                              "internal": "",
-                              "href": "/api/SVGElement"
-                            },
-                            "children": [
-                              {
-                                "type": "element",
-                                "tagName": "code",
-                                "properties": {},
-                                "children": [
-                                  {
-                                    "type": "text",
-                                    "value": "SVGElement"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": ": "
-                          },
-                          {
-                            "type": "element",
-                            "tagName": "code",
-                            "properties": {},
-                            "children": [
-                              {
-                                "type": "text",
-                                "value": "dragenter"
-                              }
-                            ]
-                          },
-                          {
-                            "type": "text",
-                            "value": " event"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "text",
-                        "value": "\n"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "text",
-                    "value": "\n"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
               }
             ]
           }
@@ -511,8 +353,8 @@
     }
   },
   "commit": {
-    "sha": "a3d9f61a8990ba7b53bda9748d1f26a9e9810b18",
-    "date": "2023-04-07T00:39:15.000Z"
+    "sha": "ea4425b74ae0dc1ec17737b4e28d8df2b73f1eae",
+    "date": "2023-12-05T09:47:38.000Z"
   },
   "usage": 0.9626899999999999,
   "support": {
