@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "929f8a9d0908d539aa583bcb2a1e9e3f",
+      "id": "faf7d87ca77aef84f8b5d60771a6a15f",
       "tree": {
         "type": "root",
         "children": [
@@ -80,108 +80,7 @@
               },
               {
                 "type": "text",
-                "value": " enables nested counters, returning a concatenated string representing the current values of the named counters, if there are any. The "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "counters()"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " function has two forms: "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "counters(name, string)"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " or "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "counters(name, string, style)"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ". It is generally used with "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/CSS/Pseudo-elements"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "pseudo-elements"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", but can be used, theoretically, anywhere a "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/CSS/string"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "<string>"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " value is supported. The generated text is the value of all counters with the given name, from outermost to innermost, separated by the specified string. The counters are rendered in the style indicated, defaulting to "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "decimal"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " if no style is specified."
+                "value": " enables combining markers when nesting counters. The function returns a string that concatenates the current values of the named and nested counters, if any are present, with the string provided. The third, optional parameter enables defining the list style."
               }
             ]
           }
@@ -192,7 +91,7 @@
       }
     },
     "seeAlso": {
-      "id": "a5837b5fb90d2188ad18c8840d5239ce",
+      "id": "3ea3291c8d10300cddffc8e3c11aaf67",
       "tree": {
         "type": "root",
         "children": [
@@ -254,6 +153,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -286,6 +189,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -318,6 +225,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " property"
                   }
                 ]
               },
@@ -340,6 +251,10 @@
                         "value": "@counter-style"
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " at-rule"
                   }
                 ]
               },
@@ -411,6 +326,10 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " pseudo-element"
                   }
                 ]
               },
@@ -512,8 +431,8 @@
     }
   },
   "commit": {
-    "sha": "c642cf3df8c5bf401d9b69f9e7182a874b1e010b",
-    "date": "2023-11-16T07:58:53.000Z"
+    "sha": "acafb7e8ada040deab1eb0f772dd1bc95a2a50bc",
+    "date": "2023-12-07T02:33:59.000Z"
   },
   "usage": 0.9626899999999999,
   "support": {
