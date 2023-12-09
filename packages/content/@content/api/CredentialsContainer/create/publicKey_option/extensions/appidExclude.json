@@ -8,9 +8,106 @@
     "appidExclude"
   ],
   "type": "page",
-  "title": "extensions / appidExclude",
+  "title": "Web Authentication extensions",
   "links": {
-    "spec": "https://w3c.github.io/webauthn/#sctn-appid-exclude-extension"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Web_Authentication_API/WebAuthn_extensions#appidexclude",
+    "spec": "https://w3c.github.io/webauthn/#sctn-appid-exclude-extension",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/web_authentication_api/webauthn_extensions/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "1f43458aea23ed36931eeafe460d2d97",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Web_Authentication_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Web Authentication API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " has a system of extensions — extra functionality that can be requested during credential creation ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CredentialsContainer/create"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "navigator.credentials.create()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") or authentication ("
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/CredentialsContainer/get"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "navigator.credentials.get()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ") operations. This article explains how to request WebAuthn extensions, retrieve information about the responses from those requests, and the available extensions — including browser support and expected inputs and outputs."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "4c5944b6fc50bd753db0873891e17fff5b2dfe39",
+    "date": "2023-12-01T01:31:10.000Z"
   },
   "usage": 0.9497899999999999,
   "support": {

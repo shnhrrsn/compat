@@ -124,22 +124,21 @@
     "sha": "0b26e0b94c77c3d34f0b8b77ba624a7323ccfdad",
     "date": "2023-04-07T05:18:00.000Z"
   },
-  "usage": 0.9583400000000001,
+  "usage": 0.2979799999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "35.0.0",
-        "date": 1400544000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.26660000000000017,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "35.0.0",
             "date": 1400544000
@@ -148,24 +147,24 @@
           "usage": {
             "global": 0.26660000000000017,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "35.0.0",
-        "date": 1400544000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.34128000000000003,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "35.0.0",
             "date": 1400544000
@@ -174,7 +173,8 @@
           "usage": {
             "global": 0.34128000000000003,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -278,10 +278,7 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": {
-        "version": "5.0.0",
-        "date": null
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -289,7 +286,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "5.0.0",
             "date": null
@@ -298,24 +297,24 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "22.0.0",
-        "date": 1401753600
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.027699999999999992,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "22.0.0",
             "date": 1401753600
@@ -324,16 +323,14 @@
           "usage": {
             "global": 0.027699999999999992,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": {
-        "version": "22.0.0",
-        "date": 1402963200
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -341,7 +338,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "22.0.0",
             "date": 1402963200
@@ -350,24 +349,39 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "8.0.0",
-        "date": 1413417600
+        "version": "11.0.0",
+        "date": 1505779200
       },
       "removed": null,
       "usage": {
-        "global": 0.05829999999999999,
-        "relative": 1
+        "global": 0.05759999999999999,
+        "relative": 0.9879931389365351
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.05759999999999999,
+            "relative": 0.9879931389365351
+          }
+        },
+        {
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/168601'>Bug 168601</a>"
+          ],
           "added": {
             "version": "8.0.0",
             "date": 1413417600
@@ -376,24 +390,39 @@
           "usage": {
             "global": 0.05829999999999999,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
       "added": {
-        "version": "8.0.0",
-        "date": 1410912000
+        "version": "11.0.0",
+        "date": 1505779200
       },
       "removed": null,
       "usage": {
-        "global": 0.16335999999999998,
-        "relative": 0.9984719760405844
+        "global": 0.16217999999999996,
+        "relative": 0.9912597029521423
       },
       "history": [
         {
           "notes": null,
+          "added": {
+            "version": "11.0.0",
+            "date": 1505779200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16217999999999996,
+            "relative": 0.9912597029521423
+          }
+        },
+        {
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/168601'>Bug 168601</a>"
+          ],
           "added": {
             "version": "8.0.0",
             "date": 1410912000
@@ -402,24 +431,24 @@
           "usage": {
             "global": 0.16335999999999998,
             "relative": 0.9984719760405844
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": {
-        "version": "3.0.0",
-        "date": 1428624000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.022899999999999986,
-        "relative": 0.9828326180257511
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "3.0.0",
             "date": 1428624000
@@ -428,16 +457,14 @@
           "usage": {
             "global": 0.022899999999999986,
             "relative": 0.9828326180257511
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "37.0.0",
-        "date": 1409702400
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -445,7 +472,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not affect stroked HTML text, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/815111'>Issue 815111</a>"
+          ],
           "added": {
             "version": "37.0.0",
             "date": 1409702400
@@ -454,7 +483,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }
