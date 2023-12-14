@@ -14,7 +14,7 @@
   },
   "content": {
     "intro": {
-      "id": "bb3f80555f488ffeb034a2c53d4ec58d",
+      "id": "bd3f407ab5a65f172e60231a0313a740",
       "tree": {
         "type": "root",
         "children": [
@@ -72,32 +72,7 @@
               },
               {
                 "type": "text",
-                "value": " instances returns a\nnew "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/SharedArrayBuffer"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "SharedArrayBuffer"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " whose contents are a copy of this\n"
+                "value": " instances returns a new "
               },
               {
                 "type": "element",
@@ -112,32 +87,82 @@
               },
               {
                 "type": "text",
-                "value": "'s bytes from begin, inclusive, up to end, exclusive. If\neither begin or end is negative, it refers to an index from the end of the array, as\nopposed to from the beginning. This method has the same algorithm as\n"
+                "value": " whose contents are a copy of this "
               },
               {
                 "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/javascript/builtins/Array/slice"
-                },
+                "tagName": "code",
+                "properties": {},
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Array.prototype.slice()"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "SharedArrayBuffer"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "."
+                "value": "'s bytes from "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "start"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", inclusive, up to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "end"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", exclusive. If either "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "start"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "end"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is negative, it refers to an index from the end of the array, as opposed to from the beginning."
               }
             ]
           }
@@ -148,7 +173,7 @@
       }
     },
     "seeAlso": {
-      "id": "72f6cdb2426a682f4237938f8fef6939",
+      "id": "9b1a7b44086e9e918fa3456db2e42775",
       "tree": {
         "type": "root",
         "children": [
@@ -203,7 +228,7 @@
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/javascript/builtins/Array/slice"
+                      "href": "/javascript/builtins/ArrayBuffer/slice"
                     },
                     "children": [
                       {
@@ -213,7 +238,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "Array.prototype.slice()"
+                            "value": "ArrayBuffer.prototype.slice()"
                           }
                         ]
                       }
@@ -235,8 +260,8 @@
     }
   },
   "commit": {
-    "sha": "6bd17cb9cbc2d11163617b9f71706e93fdd743c8",
-    "date": "2023-04-28T03:58:12.000Z"
+    "sha": "a37335abeaad31f9fafc56cfaa641db2337777a3",
+    "date": "2023-12-14T02:21:09.000Z"
   },
   "usage": 0.9354599999999998,
   "support": {
