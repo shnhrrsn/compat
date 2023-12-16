@@ -6,14 +6,14 @@
     "unsafe-hashes"
   ],
   "type": "page",
-  "title": "CSP: script-src",
+  "title": "CSP source values",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe-hashes",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-security-policy/script-src/index.md"
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/Sources#unsafe-hashes",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-security-policy/sources/index.md"
   },
   "content": {
     "intro": {
-      "id": "0179a1565211879b52200163969a9a0c",
+      "id": "bf8aac070a75c94741ad68e1a76fbed7",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The HTTP "
+                "value": "HTTP "
               },
               {
                 "type": "element",
@@ -49,54 +49,7 @@
               },
               {
                 "type": "text",
-                "value": " (CSP) "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "script-src"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " directive specifies valid sources for JavaScript. This includes not only URLs loaded directly into "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "internal": "",
-                  "href": "/html/elements/script"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "<script>"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " elements, but also things like inline script event handlers ("
+                "value": " (CSP) header directives that specify a "
               },
               {
                 "type": "element",
@@ -105,182 +58,47 @@
                 "children": [
                   {
                     "type": "text",
-                    "value": "onclick"
+                    "value": "<source>"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ") and "
+                "value": " from which resources may be loaded can use any one of the values listed below.\nRelevant directives include the "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "href": "/en-US/docs/Web/XSLT"
+                  "href": "/en-US/docs/Glossary/fetch_directive"
                 },
                 "children": [
                   {
                     "type": "text",
-                    "value": "XSLT stylesheets"
+                    "value": "fetch directives"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " which can trigger script execution."
-              }
-            ]
-          }
-        ],
-        "data": {
-          "quirksMode": false
-        }
-      }
-    },
-    "seeAlso": {
-      "id": "f6c104d1db3025041d0539cc69d3fd09",
-      "tree": {
-        "type": "root",
-        "children": [
-          {
-            "type": "element",
-            "tagName": "ul",
-            "properties": {},
-            "children": [
-              {
-                "type": "text",
-                "value": "\n"
+                "value": ", along with others "
               },
               {
                 "type": "element",
-                "tagName": "li",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "#relevant_directives"
+                },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/http/headers/Content-Security-Policy"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "Content-Security-Policy"
-                          }
-                        ]
-                      }
-                    ]
+                    "type": "text",
+                    "value": "listed below"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "Sources"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "internal": "",
-                      "href": "/html/elements/script"
-                    },
-                    "children": [
-                      {
-                        "type": "element",
-                        "tagName": "code",
-                        "properties": {},
-                        "children": [
-                          {
-                            "type": "text",
-                            "value": "<script>"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "script-src-elem"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
-              },
-              {
-                "type": "element",
-                "tagName": "li",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "script-src-attr"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\n"
+                "value": "."
               }
             ]
           }
@@ -292,8 +110,8 @@
     }
   },
   "commit": {
-    "sha": "8685d6ebfdb0450c46454ee715cafaa53317a4e2",
-    "date": "2023-10-19T09:27:24.000Z"
+    "sha": "9f4e1854b9ff286d31e2453a4bfd7f8104be3182",
+    "date": "2023-12-14T22:08:08.000Z"
   },
   "usage": 0.9367099999999999,
   "support": {

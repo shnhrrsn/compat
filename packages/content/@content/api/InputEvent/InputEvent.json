@@ -144,7 +144,7 @@
     "sha": "eab4066e72d5478de920e4020e5db71214dcffa6",
     "date": "2023-04-07T06:06:41.000Z"
   },
-  "usage": 0.7356800000000001,
+  "usage": 0.9560500000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -376,17 +376,18 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "10.1.0",
+        "date": 1490572800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.05759999999999999,
+        "relative": 0.9879931389365351
       },
       "history": [
         {
-          "notes": [
-            "The <code>inputEventInit</code> parameter is not supported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/170416'>bug 170416</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "10.1.0",
             "date": 1490572800
@@ -395,24 +396,24 @@
           "usage": {
             "global": 0.05759999999999999,
             "relative": 0.9879931389365351
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "10.3.0",
+        "date": 1490572800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.16276999999999997,
+        "relative": 0.9948658394963633
       },
       "history": [
         {
-          "notes": [
-            "The <code>inputEventInit</code> parameter is not supported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/170416'>bug 170416</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "10.3.0",
             "date": 1490572800
@@ -421,8 +422,7 @@
           "usage": {
             "global": 0.16276999999999997,
             "relative": 0.9948658394963633
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },

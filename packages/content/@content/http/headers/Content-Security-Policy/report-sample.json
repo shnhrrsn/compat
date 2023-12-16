@@ -6,9 +6,114 @@
     "report-sample"
   ],
   "type": "page",
-  "title": "Content-Security-Policy / report-sample",
-  "links": {},
-  "usage": 0.91161,
+  "title": "CSP source values",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/Sources#report-sample",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-security-policy/sources/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "bf8aac070a75c94741ad68e1a76fbed7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "HTTP "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Content-Security-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Security-Policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (CSP) header directives that specify a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<source>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " from which resources may be loaded can use any one of the values listed below.\nRelevant directives include the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/fetch_directive"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "fetch directives"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", along with others "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "#relevant_directives"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "listed below"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "9f4e1854b9ff286d31e2453a4bfd7f8104be3182",
+    "date": "2023-12-14T22:08:08.000Z"
+  },
+  "usage": 0.9392099999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -90,27 +195,36 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "63.0.0",
+        "date": 1540252800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.027599999999999993,
+        "relative": 0.9324324324324327
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.027599999999999993,
+            "relative": 0.9324324324324327
           }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "63.0.0",
+        "date": 1540252800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -119,7 +233,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "63.0.0",
+            "date": 1540252800
+          },
           "removed": null,
           "usage": {
             "global": null,

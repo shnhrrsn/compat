@@ -8,7 +8,7 @@
   "title": "URL: URL() constructor",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/URL/URL",
-    "spec": "https://url.spec.whatwg.org/#constructors",
+    "spec": "https://url.spec.whatwg.org/#dom-url-url",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/url/url/index.md"
   },
   "content": {
@@ -526,7 +526,7 @@
         },
         {
           "notes": [
-            "In Safari 14 and earlier, calling the <code>URL</code> constructor with a base URL whose value is <code>undefined</code> causes Safari to throw a <code>TypeError</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/216841'>WebKit bug 216841</a>."
+            "Before Safari 14.1, calling the <code>URL</code> constructor with a base URL whose value is <code>undefined</code> caused Safari to throw a <code>TypeError</code>, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/216841'>bug 216841</a>."
           ],
           "added": {
             "version": "6.0.0",
@@ -567,7 +567,7 @@
         },
         {
           "notes": [
-            "In Safari 14 and earlier, calling the <code>URL</code> constructor with a base URL whose value is <code>undefined</code> causes Safari to throw a <code>TypeError</code>; see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/216841'>WebKit bug 216841</a>."
+            "Before Safari 14.1, calling the <code>URL</code> constructor with a base URL whose value is <code>undefined</code> caused Safari to throw a <code>TypeError</code>, see <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/216841'>bug 216841</a>."
           ],
           "added": {
             "version": "6.0.0",

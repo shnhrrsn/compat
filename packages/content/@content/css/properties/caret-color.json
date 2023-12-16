@@ -531,7 +531,7 @@
     "sha": "2adfb8760ac42c80966080e2e84211b14e43b589",
     "date": "2023-07-18T00:15:42.000Z"
   },
-  "usage": 0.79278,
+  "usage": 0.95468,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -789,17 +789,18 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "11.3.0",
+        "date": 1522281600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.1619,
+        "relative": 0.9895483161175967
       },
       "history": [
         {
-          "notes": [
-            "While the property is recognized, implementation is incomplete. The color of the caret does not always match the color set for the element in focus. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/177489'>bug 177489</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "11.3.0",
             "date": 1522281600
@@ -808,8 +809,7 @@
           "usage": {
             "global": 0.1619,
             "relative": 0.9895483161175967
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
