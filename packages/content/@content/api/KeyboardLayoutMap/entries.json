@@ -5,14 +5,14 @@
     "entries"
   ],
   "type": "page",
-  "title": "KeyboardLayoutMap: entries property",
+  "title": "KeyboardLayoutMap: entries() method",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/KeyboardLayoutMap/entries",
     "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/keyboardlayoutmap/entries/index.md"
   },
   "content": {
     "intro": {
-      "id": "be16fb039c7d9329906635058b56c34f",
+      "id": "3d04ff91d263d0300b78465f2f62a638",
       "tree": {
         "type": "root",
         "children": [
@@ -37,7 +37,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "entries"
+                        "value": "entries()"
                       }
                     ]
                   }
@@ -45,7 +45,7 @@
               },
               {
                 "type": "text",
-                "value": " read-only property\nof the "
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -70,22 +70,24 @@
               },
               {
                 "type": "text",
-                "value": " interface returns an array of a given object's\nown enumerable property "
+                "value": " interface returns a new "
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator"
+                },
                 "children": [
                   {
                     "type": "text",
-                    "value": "[key, value]"
+                    "value": "Iterator"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " pairs, in the same order as that\nprovided by a "
+                "value": " object that contains the key/value pairs, in the same order as that provided by a "
               },
               {
                 "type": "element",
@@ -100,7 +102,76 @@
               },
               {
                 "type": "text",
-                "value": " loop (the difference being\nthat a for-in loop enumerates properties in the prototype chain as well)."
+                "value": " loop (the difference being that a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "for-in"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " loop enumerates properties in the prototype chain as well)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "ec8491fdc3b55ca2e98197148082867e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/Map/entries"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Map.prototype.entries()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -112,8 +183,8 @@
     }
   },
   "commit": {
-    "sha": "eab4066e72d5478de920e4020e5db71214dcffa6",
-    "date": "2023-04-07T06:06:41.000Z"
+    "sha": "33d8f835c12481741d0008c1ded4b91634e60d1c",
+    "date": "2023-12-18T08:44:37.000Z"
   },
   "usage": 0.70568,
   "support": {
