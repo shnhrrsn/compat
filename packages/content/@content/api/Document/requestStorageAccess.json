@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "df44bd6eb752105d9179f01d190dbd3c",
+      "id": "fb1f905cd9e1b3a1767430d4a69d9452",
       "tree": {
         "type": "root",
         "children": [
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface allows a document loaded in a third-party context (i.e. embedded in an "
+                "value": " interface allows content loaded in a third-party context (i.e., embedded in an "
               },
               {
                 "type": "element",
@@ -96,7 +96,58 @@
               },
               {
                 "type": "text",
-                "value": ") to request access to unpartitioned cookies."
+                "value": ") to request access to third-party cookies. This is relevant to user agents that, by default, block access to "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Cookies#third-party_cookies"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "third-party"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Storage_Access_API#unpartitioned_versus_partitioned_cookies"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "unpartitioned"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " cookies to improve privacy (e.g., to prevent tracking), and is part of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Storage_Access_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Storage Access API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
               }
             ]
           }
@@ -107,7 +158,7 @@
       }
     },
     "seeAlso": {
-      "id": "c3418ff06b0b813abb4e0e13cd671948",
+      "id": "fd297f7b82cecd92953e62c22c779082",
       "tree": {
         "type": "root",
         "children": [
@@ -116,6 +167,63 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/hasStorageAccess"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.hasStorageAccess()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/requestStorageAccessFor"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.requestStorageAccessFor()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -182,8 +290,8 @@
     }
   },
   "commit": {
-    "sha": "e2d37ec9111063d7429ceea29d9759acbbbf9273",
-    "date": "2023-11-06T13:30:55.000Z"
+    "sha": "65f4a29229c55398a55a5a2235ffad3626eba380",
+    "date": "2023-12-20T08:34:19.000Z"
   },
   "usage": 0.43321,
   "support": {

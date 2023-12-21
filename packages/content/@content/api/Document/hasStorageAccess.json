@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "b66f1ee3bd3b38d058854d6e5375f463",
+      "id": "0907d715b5b06f335339392af89d372e",
       "tree": {
         "type": "root",
         "children": [
@@ -96,7 +96,41 @@
               },
               {
                 "type": "text",
-                "value": " that resolves with a boolean value indicating whether the document has access to unpartitioned cookies."
+                "value": " that resolves with a boolean value indicating whether the document has access to "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Cookies#third-party_cookies"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "third-party"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Storage_Access_API#unpartitioned_versus_partitioned_cookies"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "unpartitioned"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " cookies."
               }
             ]
           }
@@ -107,7 +141,7 @@
       }
     },
     "seeAlso": {
-      "id": "c3418ff06b0b813abb4e0e13cd671948",
+      "id": "655eeef6af558769515af1acf48783f7",
       "tree": {
         "type": "root",
         "children": [
@@ -116,6 +150,63 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/requestStorageAccess"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.requestStorageAccess()"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Document/requestStorageAccessFor"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Document.requestStorageAccessFor()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -182,8 +273,8 @@
     }
   },
   "commit": {
-    "sha": "b18b0ea6e71c1178cbdffbe096b4d3ac3947c583",
-    "date": "2023-05-16T08:52:06.000Z"
+    "sha": "65f4a29229c55398a55a5a2235ffad3626eba380",
+    "date": "2023-12-20T08:34:19.000Z"
   },
   "usage": 0.43321,
   "support": {
