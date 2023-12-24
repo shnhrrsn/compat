@@ -98,7 +98,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "This property is exposed but has no effect if the <code>browser.send_pings</code> preference is not set to <code>true</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/951104'>bug 951104</a>."
+          ],
           "added": {
             "version": "1.0.0",
             "date": 1099958400
@@ -108,13 +110,7 @@
             "global": 0.029599999999999987,
             "relative": 1
           },
-          "flags": [
-            {
-              "name": "browser.send_pings",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+          "partial_implementation": true
         }
       ]
     },
@@ -128,13 +124,19 @@
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "This property is exposed but has no effect if the <code>browser.send_pings</code> preference is not set to <code>true</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/951104'>bug 951104</a>."
+          ],
+          "added": {
+            "version": "4.0.0",
+            "date": 1301356800
+          },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

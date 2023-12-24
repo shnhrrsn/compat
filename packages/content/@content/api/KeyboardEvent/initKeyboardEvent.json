@@ -5,9 +5,78 @@
     "initKeyboardEvent"
   ],
   "type": "page",
-  "title": "KeyboardEvent / initKeyboardEvent",
+  "title": "KeyboardEvent: initKeyboardEvent() method",
   "links": {
-    "spec": "https://w3c.github.io/uievents/#dom-keyboardevent-initkeyboardevent"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/initKeyboardEvent",
+    "spec": "https://w3c.github.io/uievents/#dom-keyboardevent-initkeyboardevent",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/keyboardevent/initkeyboardevent/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "375ea647ea1a3298ed4c57e77f5faffa",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "KeyboardEvent.initKeyboardEvent()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method initializes\nthe attributes of a keyboard event object. This method was introduced in draft of DOM\nLevel 3 Events, but deprecated in newer draft. Gecko won't support this feature since\nimplementing this method as experimental broke existing web apps (see "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://bugzil.la/999645"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Firefox bug 999645"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ").\nWeb applications should use constructor instead of this if it's available."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "eab4066e72d5478de920e4020e5db71214dcffa6",
+    "date": "2023-04-07T06:06:41.000Z"
   },
   "usage": 0.9606899999999999,
   "support": {

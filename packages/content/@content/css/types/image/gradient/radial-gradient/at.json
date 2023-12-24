@@ -10,7 +10,7 @@
   "type": "page",
   "title": "radial-gradient / at",
   "links": {},
-  "usage": 0.9618500000000001,
+  "usage": 0.96235,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -93,46 +93,17 @@
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "16.0.0",
-        "date": 1349740800
+        "version": "10.0.0",
+        "date": 1327968000
       },
       "removed": null,
       "usage": {
-        "global": 0.029099999999999987,
-        "relative": 0.9831081081081081
+        "global": 0.029599999999999987,
+        "relative": 1
       },
       "history": [
         {
-          "notes": [
-            "Before Firefox 36, gradients weren't applied on the pre-multiplied color space, leading to shades of grey unexpectedly appearing when used with transparency."
-          ],
-          "added": {
-            "version": "16.0.0",
-            "date": 1349740800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029099999999999987,
-            "relative": 0.9831081081081081
-          }
-        },
-        {
           "notes": null,
-          "added": {
-            "version": "49.0.0",
-            "date": 1474329600
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.02879999999999999,
-            "relative": 0.9729729729729731
-          },
-          "prefix": "-webkit-"
-        },
-        {
-          "notes": [
-            "Since Firefox 42, the prefixed version of gradients can be disabled by setting <code>layout.css.prefixes.gradients</code> to <code>false</code>."
-          ],
           "added": {
             "version": "10.0.0",
             "date": 1327968000
@@ -141,16 +112,15 @@
           "usage": {
             "global": 0.029599999999999987,
             "relative": 1
-          },
-          "prefix": "-moz-"
+          }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "16.0.0",
-        "date": 1349740800
+        "version": "10.0.0",
+        "date": 1327968000
       },
       "removed": null,
       "usage": {
@@ -161,18 +131,6 @@
         {
           "notes": null,
           "added": {
-            "version": "16.0.0",
-            "date": 1349740800
-          },
-          "removed": null,
-          "usage": {
-            "global": null,
-            "relative": null
-          }
-        },
-        {
-          "notes": null,
-          "added": {
             "version": "10.0.0",
             "date": 1327968000
           },
@@ -180,8 +138,7 @@
           "usage": {
             "global": null,
             "relative": null
-          },
-          "prefix": "-moz-"
+          }
         }
       ]
     },
@@ -240,8 +197,8 @@
     "opera": {
       "name": "Opera",
       "added": {
-        "version": "15.0.0",
-        "date": 1372723200
+        "version": "11.6.0",
+        "date": 1323129600
       },
       "removed": null,
       "usage": {
@@ -252,38 +209,22 @@
         {
           "notes": null,
           "added": {
-            "version": "15.0.0",
-            "date": 1372723200
+            "version": "11.6.0",
+            "date": 1323129600
           },
           "removed": null,
           "usage": {
             "global": 0.027699999999999992,
             "relative": 1
           }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "11.6.0",
-            "date": 1323129600
-          },
-          "removed": {
-            "version": "15.0.0",
-            "date": 1372723200
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "prefix": "-o-"
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
       "added": {
-        "version": "14.0.0",
-        "date": 1369094400
+        "version": "12.0.0",
+        "date": 1330128000
       },
       "removed": null,
       "usage": {
@@ -294,30 +235,14 @@
         {
           "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1369094400
+            "version": "12.0.0",
+            "date": 1330128000
           },
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
           }
-        },
-        {
-          "notes": null,
-          "added": {
-            "version": "12.0.0",
-            "date": 1330128000
-          },
-          "removed": {
-            "version": "14.0.0",
-            "date": 1369094400
-          },
-          "usage": {
-            "global": null,
-            "relative": null
-          },
-          "prefix": "-o-"
         }
       ]
     },

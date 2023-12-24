@@ -79,7 +79,7 @@
     "sha": "8722039f97a0f0c0490c1c11af3a75af06ee1c0f",
     "date": "2023-07-03T17:37:35.000Z"
   },
-  "usage": 0.85474,
+  "usage": 0.89964,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -311,16 +311,19 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "16.0.0",
+        "date": 1662940800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.044899999999999995,
+        "relative": 0.7701543739279588
       },
       "history": [
         {
           "notes": [
-            "Supported on macOS 13 and later"
+            "Notifications are supported on macOS Ventura and later."
           ],
           "added": {
             "version": "16.0.0",
@@ -330,8 +333,7 @@
           "usage": {
             "global": 0.044899999999999995,
             "relative": 0.7701543739279588
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
@@ -348,7 +350,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Notifications are supported in web apps saved to the home screen."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200

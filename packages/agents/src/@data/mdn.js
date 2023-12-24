@@ -1888,6 +1888,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"124.0.0",
+				{
+					"date": 1710806400,
+					"usage": null
+				}
+			],
+			[
 				"123.0.0",
 				{
 					"date": 1708387200,
@@ -2774,6 +2781,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"124.0.0",
+				{
+					"date": 1710806400,
+					"usage": null
+				}
+			],
 			[
 				"123.0.0",
 				{

@@ -6,10 +6,326 @@
     "light-dark"
   ],
   "type": "page",
-  "title": "color / light-dark",
+  "title": "light-dark()",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/CSS/color/light-dark",
-    "spec": "https://drafts.csswg.org/css-color-5/#light-dark"
+    "mdn": "https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark",
+    "spec": "https://drafts.csswg.org/css-color-5/#light-dark",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/css/color_value/light-dark/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f538365288e4990079e8487ca1c9158c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "light-dark()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "CSS"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_Functions#color_functions"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<color>"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " function"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " enables setting two colors for a property - returning one of the two colors options by detecting if the developer has set a light or dark color scheme or the user has requested light or dark color theme - without needing to encase the theme colors within a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/@media/prefers-color-scheme"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "prefers-color-scheme"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries#targeting_media_features"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "media feature"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " query.\nUsers are able to indicate their color-scheme preference through their operating system settings (e.g. light or dark mode) or their user agent settings. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "light-dark()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " function enables providing two color values where any "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "<color>"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " value is accepted. The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "light-dark()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " CSS color function returns the first value if the user's preference is set to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "light"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or if no preference is set and the second value if the user's preference is set to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "dark"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "9534fc48a659dc4607646bc830ce678e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/color-scheme"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "color-scheme"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<color>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/CSS/CSS_colors"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CSS color"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " module"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "e1fe6bef090d700b63dae5da44b53ca603fcc6c1",
+    "date": "2023-11-25T08:53:03.000Z"
   },
   "usage": 0.004,
   "support": {
