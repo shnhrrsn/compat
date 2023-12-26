@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "2a71964bd676a0dd92838a3d8fd1c191",
+      "id": "65e27e1c631ee9eed77528fde6f58f44",
       "tree": {
         "type": "root",
         "children": [
@@ -75,18 +75,53 @@
               },
               {
                 "type": "element",
-                "tagName": "code",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ServiceWorkerGlobalScope/cookiechange_event"
+                },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "ServiceWorkerRegistration.oncookiechange()"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "cookiechange"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": ".\nThis constructor is called by the browser when a change event occurs."
+                "value": " event fired at the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/ServiceWorkerGlobalScope"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ServiceWorkerGlobalScope"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when any cookie changes occur which match the service worker's cookie change subscription list.\nThis constructor is called by the browser when a change event occurs."
               }
             ]
           }
@@ -98,8 +133,8 @@
     }
   },
   "commit": {
-    "sha": "339595951b78774e951b1a9d215a6db6b856f6b2",
-    "date": "2023-04-07T05:59:30.000Z"
+    "sha": "95c8b8dab18ddc13cae61ab4f402d51a309080c7",
+    "date": "2023-12-25T07:09:58.000Z"
   },
   "usage": 0.6946899999999997,
   "support": {
