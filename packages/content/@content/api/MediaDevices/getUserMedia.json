@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "424250565192b6777f73d4b38979a7dd",
+      "id": "a9d30eb2d9a1c513fb51b9d93ee4cbb4",
       "tree": {
         "type": "root",
         "children": [
@@ -25,6 +25,28 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "getUserMedia()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -48,26 +70,8 @@
                 ]
               },
               {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": ".getUserMedia()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "type": "text",
-                "value": " method prompts the user for permission to use a media input which produces a "
+                "value": " interface prompts the user for permission to use a media input which produces a "
               },
               {
                 "type": "element",
@@ -103,7 +107,7 @@
       }
     },
     "seeAlso": {
-      "id": "ab909735dac6da56763182cc04804d10",
+      "id": "ccc07277202322eefac3941655b72948",
       "tree": {
         "type": "root",
         "children": [
@@ -140,7 +144,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "navigator.getUserMedia()"
+                            "value": "Navigator.getUserMedia()"
                           }
                         ]
                       }
@@ -176,7 +180,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "mediaDevices.enumerateDevices()"
+                            "value": "MediaDevices.enumerateDevices()"
                           }
                         ]
                       }
@@ -199,14 +203,12 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/WebRTC_API"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "WebRTC API"
+                        "value": "\", "
                       }
                     ]
                   }
@@ -223,14 +225,12 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/Media_Capture_and_Streams_API"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "Media Capture and Streams API (Media Streams)"
+                        "value": "\", "
                       }
                     ]
                   }
@@ -247,20 +247,18 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/Screen_Capture_API"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
-                        "value": "Screen Capture API"
+                        "value": "\", "
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": ": Capturing\nscreen contents as a "
+                    "value": ": Capturing screen contents as a "
                   },
                   {
                     "type": "element",
@@ -309,7 +307,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "mediaDevices.getDisplayMedia()"
+                            "value": "MediaDevices.getDisplayMedia()"
                           }
                         ]
                       }
@@ -317,7 +315,7 @@
                   },
                   {
                     "type": "text",
-                    "value": ": Getting a stream containing screen\ncontents"
+                    "value": ": Getting a stream containing screen contents"
                   }
                 ]
               },
@@ -332,10 +330,8 @@
                 "children": [
                   {
                     "type": "element",
-                    "tagName": "a",
-                    "properties": {
-                      "href": "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos"
-                    },
+                    "tagName": "code",
+                    "properties": {},
                     "children": [
                       {
                         "type": "text",
@@ -360,7 +356,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " to take still photos\nrather than video"
+                    "value": " to take still photos rather than video"
                   }
                 ]
               },
@@ -378,8 +374,8 @@
     }
   },
   "commit": {
-    "sha": "b45ce6afac39ec27bd4ddfdf13c3e2f40f97c15b",
-    "date": "2023-11-01T09:07:26.000Z"
+    "sha": "b2ddaaeeb7eed51d265ac0960641039453e8792c",
+    "date": "2023-12-28T15:53:45.000Z"
   },
   "usage": 0.95666,
   "support": {
