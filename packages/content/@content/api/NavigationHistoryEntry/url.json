@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "2194a3e06c919798afbe4d683ec3fe1a",
+      "id": "fcac61c530fbd964ded78fce30db1d5c",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " read-only property of the\n"
+                "value": " read-only property of the "
               },
               {
                 "type": "element",
@@ -71,7 +71,107 @@
               },
               {
                 "type": "text",
-                "value": " interface returns the absolute URL of this history entry."
+                "value": " interface returns the absolute URL of this history entry. If the entry corresponds to a different Document than the current one (like "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "sameDocument"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property is "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "false"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "), and that Document was fetched with a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Referrer-Policy"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "referrer policy"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header set to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "no-referrer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "origin"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the property returns "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "null"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ". If current document is not fully active, it returns an empty string."
               }
             ]
           }
@@ -181,8 +281,8 @@
     }
   },
   "commit": {
-    "sha": "ef75c1741b450c2331204be5563ee964ad5f4c48",
-    "date": "2023-04-07T06:16:45.000Z"
+    "sha": "49bd8d27131e30c92c48f970c4cf9f07d4cb67e5",
+    "date": "2023-12-31T23:30:38.000Z"
   },
   "usage": 0.6712099999999999,
   "support": {
