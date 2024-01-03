@@ -4,11 +4,239 @@
     "LaunchParams"
   ],
   "type": "page",
-  "title": "api / LaunchParams",
+  "title": "LaunchParams",
   "links": {
-    "spec": "https://wicg.github.io/web-app-launch/#launchparams-interface"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/LaunchParams",
+    "spec": "https://wicg.github.io/web-app-launch/#launchparams-interface",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/launchparams/index.md"
   },
-  "usage": 0.6837399999999999,
+  "content": {
+    "intro": {
+      "id": "4e0b9549e5d79be4c668cacad4c1f965",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "LaunchParams"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface of the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Launch Handler API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is used when implementing custom launch navigation handling in a PWA. When "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/LaunchQueue/setConsumer"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "window.launchQueue.setConsumer()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is invoked to set up the launch navigation handling functionality, the callback function inside "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "setConsumer()"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is passed a "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "LaunchParams"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object instance."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "92582a852ff020d3a5912b5acc322825",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/docs/web-platform/launch-handler/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Launch Handler API: Control how your app is launched"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/launchQueue"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window.launchQueue"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://launch-handler.glitch.me/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Musicr 2.0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " demo app"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "9723a2e68ec3f6914881c79eab6fbf8c7ef235be",
+    "date": "2023-03-02T16:31:27.000Z"
+  },
+  "usage": 0.6834199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -18,8 +246,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.23539999999999994,
-        "relative": 0.9491935483870962
+        "global": 0.23449999999999996,
+        "relative": 0.9486245954692553
       },
       "history": [
         {
@@ -30,8 +258,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.23539999999999994,
-            "relative": 0.9491935483870962
+            "global": 0.23449999999999996,
+            "relative": 0.9486245954692553
           }
         }
       ]
@@ -44,8 +272,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.36654,
-        "relative": 0.9821806586457302
+        "global": 0.36732,
+        "relative": 0.9822178249592215
       },
       "history": [
         {
@@ -56,8 +284,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.36654,
-            "relative": 0.9821806586457302
+            "global": 0.36732,
+            "relative": 0.9822178249592215
           }
         }
       ]
@@ -70,8 +298,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04559999999999996,
-        "relative": 0.9306122448979594
+        "global": 0.04539999999999997,
+        "relative": 0.926530612244898
       },
       "history": [
         {
@@ -82,8 +310,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04559999999999996,
-            "relative": 0.9306122448979594
+            "global": 0.04539999999999997,
+            "relative": 0.926530612244898
           }
         }
       ]
@@ -182,8 +410,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.014000000000000002,
-        "relative": 0.5668016194331986
+        "global": 0.013900000000000001,
+        "relative": 0.5627530364372472
       },
       "history": [
         {
@@ -194,8 +422,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.014000000000000002,
-            "relative": 0.5668016194331986
+            "global": 0.013900000000000001,
+            "relative": 0.5627530364372472
           }
         }
       ]
@@ -274,8 +502,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0222,
-        "relative": 0.8880000000000006
+        "global": 0.0223,
+        "relative": 0.8884462151394428
       },
       "history": [
         {
@@ -286,8 +514,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0222,
-            "relative": 0.8880000000000006
+            "global": 0.0223,
+            "relative": 0.8884462151394428
           }
         }
       ]

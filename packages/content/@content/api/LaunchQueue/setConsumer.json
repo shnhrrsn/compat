@@ -5,11 +5,320 @@
     "setConsumer"
   ],
   "type": "page",
-  "title": "LaunchQueue / setConsumer",
+  "title": "LaunchQueue: setConsumer() method",
   "links": {
-    "spec": "https://wicg.github.io/web-app-launch/#dom-launchqueue-setconsumer"
+    "mdn": "https://developer.mozilla.org/docs/Web/API/LaunchQueue/setConsumer",
+    "spec": "https://wicg.github.io/web-app-launch/#dom-launchqueue-setconsumer",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/launchqueue/setconsumer/index.md"
   },
-  "usage": 0.6837399999999999,
+  "content": {
+    "intro": {
+      "id": "8e6777dba380e667ce3ad3f697eb44dc",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "setConsumer()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/LaunchQueue"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "LaunchQueue"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is used to declare the callback that will handle custom launch navigation handling in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Progressive_web_apps"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "progressive web app"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " (PWA). Such custom navigation is initiated via "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Window/launchQueue"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Window.launchQueue"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " when a PWA has been launched with a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/Manifest/launch_handler"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "launch_handler"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "client_mode"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " value of "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "focus-existing"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "navigate-new"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", or "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "navigate-existing"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "92582a852ff020d3a5912b5acc322825",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/docs/web-platform/launch-handler/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Launch Handler API: Control how your app is launched"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Window/launchQueue"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Window.launchQueue"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://launch-handler.glitch.me/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Musicr 2.0"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " demo app"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "eab4066e72d5478de920e4020e5db71214dcffa6",
+    "date": "2023-04-07T06:06:41.000Z"
+  },
+  "usage": 0.6834199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -19,8 +328,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.23539999999999994,
-        "relative": 0.9491935483870962
+        "global": 0.23449999999999996,
+        "relative": 0.9486245954692553
       },
       "history": [
         {
@@ -31,8 +340,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.23539999999999994,
-            "relative": 0.9491935483870962
+            "global": 0.23449999999999996,
+            "relative": 0.9486245954692553
           }
         }
       ]
@@ -45,8 +354,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.36654,
-        "relative": 0.9821806586457302
+        "global": 0.36732,
+        "relative": 0.9822178249592215
       },
       "history": [
         {
@@ -57,8 +366,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.36654,
-            "relative": 0.9821806586457302
+            "global": 0.36732,
+            "relative": 0.9822178249592215
           }
         }
       ]
@@ -71,8 +380,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.04559999999999996,
-        "relative": 0.9306122448979594
+        "global": 0.04539999999999997,
+        "relative": 0.926530612244898
       },
       "history": [
         {
@@ -83,8 +392,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.04559999999999996,
-            "relative": 0.9306122448979594
+            "global": 0.04539999999999997,
+            "relative": 0.926530612244898
           }
         }
       ]
@@ -183,8 +492,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.014000000000000002,
-        "relative": 0.5668016194331986
+        "global": 0.013900000000000001,
+        "relative": 0.5627530364372472
       },
       "history": [
         {
@@ -195,8 +504,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.014000000000000002,
-            "relative": 0.5668016194331986
+            "global": 0.013900000000000001,
+            "relative": 0.5627530364372472
           }
         }
       ]
@@ -275,8 +584,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.0222,
-        "relative": 0.8880000000000006
+        "global": 0.0223,
+        "relative": 0.8884462151394428
       },
       "history": [
         {
@@ -287,8 +596,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.0222,
-            "relative": 0.8880000000000006
+            "global": 0.0223,
+            "relative": 0.8884462151394428
           }
         }
       ]
