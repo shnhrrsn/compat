@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "350dde8a52fd710076966863c707a8d1",
+      "id": "03e24c0a5e37d01706af38536236b186",
       "tree": {
         "type": "root",
         "children": [
@@ -24,46 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "When an HTML document has been switched to\n"
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Web/API/Document/designMode"
-                },
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "designMode"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", its\n"
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "document"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " object exposes an "
+                "value": "The "
               },
               {
                 "type": "element",
@@ -85,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": "\nmethod to run commands that manipulate the current editable region, such as "
+                "value": " method implements multiple different commands. Some of them provide access to the clipboard, while others are for editing "
               },
               {
                 "type": "element",
@@ -102,7 +63,7 @@
               },
               {
                 "type": "text",
-                "value": " or\n"
+                "value": ", "
               },
               {
                 "type": "element",
@@ -118,7 +79,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "contentEditable"
+                        "value": "contenteditable"
                       }
                     ]
                   }
@@ -126,7 +87,24 @@
               },
               {
                 "type": "text",
-                "value": "\nelements."
+                "value": " elements or entire documents (when switched to "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/Document/designMode"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "design mode"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ")."
               }
             ]
           }
@@ -248,8 +226,8 @@
     }
   },
   "commit": {
-    "sha": "76717f752447b6eef25bf29c12272e407ee5cb6b",
-    "date": "2023-07-17T23:17:51.000Z"
+    "sha": "68169d09635d6c14f665d106f875da639c114cfe",
+    "date": "2024-01-04T19:49:09.000Z"
   },
   "usage": 0.96276,
   "support": {
