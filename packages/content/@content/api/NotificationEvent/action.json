@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "a9fd53f495a26737c8cd4ac48cb5948c",
+      "id": "ae8744bef0bd0cd3451a2c96c8ac39e5",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,54 @@
             "children": [
               {
                 "type": "text",
-                "value": "Returns the string ID of the notification button the user clicked. This value returns an empty string if the user clicked the notification somewhere other than an action button, or the notification does not have a button. The notification id is set during the creation of the Notification via the actions array attribute and can't be modified unless the notification is replaced."
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "action"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " read-only property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/NotificationEvent"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "NotificationEvent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns the string ID of the notification button the user clicked. This value returns an empty string if the user clicked the notification somewhere other than an action button, or the notification does not have a button. The notification id is set during the creation of the Notification via the actions array attribute and can't be modified unless the notification is replaced."
               }
             ]
           }
@@ -36,8 +83,8 @@
     }
   },
   "commit": {
-    "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
-    "date": "2023-07-07T07:19:19.000Z"
+    "sha": "212e53bbdaf88af59a57ec1f335bde5e828b68c5",
+    "date": "2024-01-06T06:32:05.000Z"
   },
   "usage": 0.7242299999999999,
   "support": {
