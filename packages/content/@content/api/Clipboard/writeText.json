@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "838b05c1bc3d5b011252f752cca6cc5e",
+      "id": "537452f65fb0ee893d1d9411249a4f10",
       "tree": {
         "type": "root",
         "children": [
@@ -25,6 +25,28 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "writeText()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -49,36 +71,14 @@
               },
               {
                 "type": "text",
-                "value": " interface's "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "writeText()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "\nproperty writes the specified text string to the system clipboard. Text may be read back\nusing either "
+                "value": " interface writes the specified text to the system clipboard, returning a "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/Clipboard/read"
+                  "href": "/javascript/builtins/Promise"
                 },
                 "children": [
                   {
@@ -88,7 +88,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "read()"
+                        "value": "Promise"
                       }
                     ]
                   }
@@ -96,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " or {{domxref(\"Clipboard.readText\",\n\"readText()\")}}."
+                "value": " that is resolved once the system clipboard has been updated."
               }
             ]
           }
@@ -107,7 +107,7 @@
       }
     },
     "seeAlso": {
-      "id": "721770e1ad88b734ad190002f276601c",
+      "id": "2396a063c209603b71b79a157a9e8dee",
       "tree": {
         "type": "root",
         "children": [
@@ -167,6 +167,102 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/write"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.write()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/read"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.read()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/readText"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.readText()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -178,10 +274,10 @@
     }
   },
   "commit": {
-    "sha": "613344716a8a9abfe5eef06b70b048ff2b81195a",
-    "date": "2024-01-03T14:19:45.000Z"
+    "sha": "7087ffd50a4d81d1b91fe603c26456e9ce398574",
+    "date": "2024-01-09T04:36:06.000Z"
   },
-  "usage": 0.9492699999999997,
+  "usage": 0.94931,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -217,8 +313,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37392999999999993,
-        "relative": 0.999893039548627
+        "global": 0.3739700000000001,
+        "relative": 0.9999197860962566
       },
       "history": [
         {
@@ -229,8 +325,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37392999999999993,
-            "relative": 0.999893039548627
+            "global": 0.3739700000000001,
+            "relative": 0.9999197860962566
           }
         }
       ]

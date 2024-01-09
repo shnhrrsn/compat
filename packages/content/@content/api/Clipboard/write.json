@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "3dc14efd588c4b47854ca34b15c7006f",
+      "id": "e94574027dee502269afe41618d74664",
       "tree": {
         "type": "root",
         "children": [
@@ -25,6 +25,28 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "write()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -49,12 +71,15 @@
               },
               {
                 "type": "text",
-                "value": " method\n"
+                "value": " interface writes arbitrary data to the clipboard, such as images, fulfilling the returned "
               },
               {
                 "type": "element",
-                "tagName": "strong",
-                "properties": {},
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
                 "children": [
                   {
                     "type": "element",
@@ -63,7 +88,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "write()"
+                        "value": "Promise"
                       }
                     ]
                   }
@@ -71,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " writes arbitrary data, such as images, to the\nclipboard. This can be used to implement cut and copy functionality."
+                "value": " on completion.\nThis can be used to implement cut and copy functionality."
               }
             ]
           }
@@ -82,7 +107,7 @@
       }
     },
     "seeAlso": {
-      "id": "721770e1ad88b734ad190002f276601c",
+      "id": "fd5b83afbcefb912d3fe9e27648e96d3",
       "tree": {
         "type": "root",
         "children": [
@@ -142,6 +167,102 @@
               {
                 "type": "text",
                 "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/writeText"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.writeText()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/read"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.read()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/Clipboard/readText"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Clipboard.readText()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
               }
             ]
           }
@@ -153,10 +274,10 @@
     }
   },
   "commit": {
-    "sha": "613344716a8a9abfe5eef06b70b048ff2b81195a",
-    "date": "2024-01-03T14:19:45.000Z"
+    "sha": "7087ffd50a4d81d1b91fe603c26456e9ce398574",
+    "date": "2024-01-09T04:36:06.000Z"
   },
-  "usage": 0.9195699999999998,
+  "usage": 0.91961,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -194,8 +315,8 @@
       },
       "removed": null,
       "usage": {
-        "global": 0.37392999999999993,
-        "relative": 0.999893039548627
+        "global": 0.3739700000000001,
+        "relative": 0.9999197860962566
       },
       "history": [
         {
@@ -208,8 +329,8 @@
           },
           "removed": null,
           "usage": {
-            "global": 0.37392999999999993,
-            "relative": 0.999893039548627
+            "global": 0.3739700000000001,
+            "relative": 0.9999197860962566
           }
         }
       ]
