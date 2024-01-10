@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "bfe9cfca678cefe0dcdb0868db06f9a0",
+      "id": "f8f73ed8dd25803c0d8c8f70537a28e8",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " method of the\n"
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -71,7 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " interface releases the\n"
+                "value": " interface releases the "
               },
               {
                 "type": "element",
@@ -121,7 +121,7 @@
               },
               {
                 "type": "text",
-                "value": " that is resolved\nonce the sentinel has been successfully released."
+                "value": " that is resolved once the sentinel has been successfully released."
               }
             ]
           }
@@ -179,10 +179,10 @@
     }
   },
   "commit": {
-    "sha": "ce19c8348f389e8aec3d294b06643c04e7d914db",
-    "date": "2023-12-17T07:53:43.000Z"
+    "sha": "0d9c7bb3574c48373ad96e2efc6701f306a9a3af",
+    "date": "2024-01-09T09:12:05.000Z"
   },
-  "usage": 0.8614299999999999,
+  "usage": 0.7341199999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -434,18 +434,17 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "16.4.0",
-        "date": 1679875200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.12731,
-        "relative": 0.7275272872735581
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Does not work in standalone Home Screen Web Apps. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/254545#c32'>bug 254545</a>."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200
@@ -454,7 +453,8 @@
           "usage": {
             "global": 0.12731,
             "relative": 0.7275272872735581
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
