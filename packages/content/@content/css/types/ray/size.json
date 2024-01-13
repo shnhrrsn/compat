@@ -8,7 +8,7 @@
   "type": "page",
   "title": "ray / size",
   "links": {},
-  "usage": 0.58781,
+  "usage": 0.6989000000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -90,60 +90,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
-      "removed": null,
-      "usage": {
-        "global": null,
-        "relative": null
+      "added": {
+        "version": "122.0.0",
+        "date": 1705968000
       },
-      "history": [
-        {
-          "notes": [
-            "<code>&lt;size&gt;</code> is optional. If omitted, the value <code>closest-side</code> is used."
-          ],
-          "added": {
-            "version": "112.0.0",
-            "date": 1681171200
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.028099999999999997,
-            "relative": 0.9006410256410259
-          },
-          "flags": [
-            {
-              "name": "layout.css.motion-path-ray.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": [
-            "<code>&lt;size&gt;</code> is required."
-          ],
-          "added": {
-            "version": "72.0.0",
-            "date": 1578355200
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029599999999999987,
-            "relative": 0.9487179487179487
-          },
-          "flags": [
-            {
-              "name": "layout.css.motion-path-ray.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
-        }
-      ]
-    },
-    "firefox_android": {
-      "name": "Firefox for Android",
-      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -152,7 +102,36 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "122.0.0",
+            "date": 1705968000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "122.0.0",
+        "date": 1705968000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "122.0.0",
+            "date": 1705968000
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -255,40 +234,52 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": 1694995200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.015799999999999998,
+        "relative": 0.4527220630372495
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.015799999999999998,
+            "relative": 0.4527220630372495
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "17.0.0",
+        "date": 1694995200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.09529,
+        "relative": 0.5445454025944336
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.09529,
+            "relative": 0.5445454025944336
           }
         }
       ]
@@ -342,7 +333,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }

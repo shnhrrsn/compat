@@ -274,7 +274,7 @@
     "sha": "b3742fa16ce3b944cf46a80f71aa799ac8c35c55",
     "date": "2024-01-11T03:45:14.000Z"
   },
-  "usage": 0.58781,
+  "usage": 0.7637700000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -356,7 +356,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "122.0.0",
+        "date": 1705968000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -366,27 +369,23 @@
         {
           "notes": null,
           "added": {
-            "version": "72.0.0",
-            "date": 1578355200
+            "version": "122.0.0",
+            "date": 1705968000
           },
           "removed": null,
           "usage": {
-            "global": 0.029599999999999987,
-            "relative": 0.9487179487179487
-          },
-          "flags": [
-            {
-              "name": "layout.css.motion-path-ray.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "122.0.0",
+        "date": 1705968000
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -395,7 +394,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "122.0.0",
+            "date": 1705968000
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -499,45 +501,51 @@
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "preview",
-        "date": null
+        "version": "16.0.0",
+        "date": 1662940800
       },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.027099999999999996,
+        "relative": 0.7765042979942697
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "preview",
-            "date": null
+            "version": "16.0.0",
+            "date": 1662940800
           },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.027099999999999996,
+            "relative": 0.7765042979942697
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "16.0.0",
+        "date": 1662940800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.14886,
+        "relative": 0.8506771815532311
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1662940800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.14886,
+            "relative": 0.8506771815532311
           }
         }
       ]
@@ -591,7 +599,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
