@@ -16,7 +16,7 @@
   },
   "content": {
     "intro": {
-      "id": "ad04536fcf8623f625cfab7b34d1dd2e",
+      "id": "b0db296b53c3c5affa93af838a4237eb",
       "tree": {
         "type": "root",
         "children": [
@@ -83,7 +83,7 @@
               },
               {
                 "type": "text",
-                "value": " represents any form element whose state is indeterminate, such as checkboxes which have their HTML "
+                "value": " represents any form element whose state is indeterminate, such as checkboxes that have been set to an "
               },
               {
                 "type": "element",
@@ -107,22 +107,7 @@
               },
               {
                 "type": "text",
-                "value": " attribute set to "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "true"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ", radio buttons which are members of a group in which all radio buttons are unchecked, and indeterminate "
+                "value": " state with JavaScript, radio buttons which are members of a group in which all radio buttons are unchecked, and "
               },
               {
                 "type": "element",
@@ -147,7 +132,22 @@
               },
               {
                 "type": "text",
-                "value": " elements."
+                "value": " elements with no "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "value"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " attribute."
               }
             ]
           }
@@ -158,7 +158,7 @@
       }
     },
     "seeAlso": {
-      "id": "adcc5816bf5f73c972fd4e5acd746835",
+      "id": "f1176b0fe2b95208c25932281dfbdf31",
       "tree": {
         "type": "root",
         "children": [
@@ -256,7 +256,7 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "/en-US/docs/Web/HTML/Element/input/checkbox#indeterminate_state_checkboxe"
+                      "href": "/en-US/docs/Web/HTML/Element/input/checkbox#indeterminate_state_checkboxes"
                     },
                     "children": [
                       {
@@ -274,7 +274,7 @@
                   },
                   {
                     "type": "text",
-                    "value": " attribute"
+                    "value": " property"
                   }
                 ]
               },
@@ -393,8 +393,8 @@
     }
   },
   "commit": {
-    "sha": "a68cd65eb1ebed503e12d1ecfcf96a8acd2af388",
-    "date": "2023-08-29T15:43:48.000Z"
+    "sha": "328b6b07216cd7588dd63272a5005f709b8d501a",
+    "date": "2024-01-18T01:52:06.000Z"
   },
   "usage": 0.96259,
   "support": {
