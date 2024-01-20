@@ -11,7 +11,7 @@
   "links": {
     "spec": "https://drafts.csswg.org/css-color-5/#relative-LCH"
   },
-  "usage": 0.69332,
+  "usage": 0.5423100000000001,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -225,18 +225,17 @@
     },
     "safari": {
       "name": "Safari",
-      "added": {
-        "version": "16.4.0",
-        "date": 1679875200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.023699999999999995,
-        "relative": 0.6790830945558742
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Implementation based on older spec version. As a result, calculations with <code>h</code> channel values do not work correctly, requiring values to be specified with units (<code>deg</code>)."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200
@@ -245,24 +244,24 @@
           "usage": {
             "global": 0.023699999999999995,
             "relative": 0.6790830945558742
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "16.4.0",
-        "date": 1679875200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.12731,
-        "relative": 0.7275272872735581
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Implementation based on older spec version. As a result, calculations with <code>h</code> channel values do not work correctly, requiring values to be specified with units (<code>deg</code>)."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200
@@ -271,7 +270,8 @@
           "usage": {
             "global": 0.12731,
             "relative": 0.7275272872735581
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

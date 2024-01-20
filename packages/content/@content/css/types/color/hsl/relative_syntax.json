@@ -11,22 +11,21 @@
   "links": {
     "spec": "https://drafts.csswg.org/css-color-5/#relative-HSL"
   },
-  "usage": 0.69332,
+  "usage": 0,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": {
-        "version": "119.0.0",
-        "date": 1698710400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.1889,
-        "relative": 0.7641585760517797
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "119.0.0",
             "date": 1698710400
@@ -35,24 +34,24 @@
           "usage": {
             "global": 0.1889,
             "relative": 0.7641585760517797
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": {
-        "version": "119.0.0",
-        "date": 1698710400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.30321000000000004,
-        "relative": 0.8107219251336899
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "119.0.0",
             "date": 1698710400
@@ -61,24 +60,24 @@
           "usage": {
             "global": 0.30321000000000004,
             "relative": 0.8107219251336899
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": {
-        "version": "119.0.0",
-        "date": 1698883200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.042199999999999994,
-        "relative": 0.861224489795919
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "119.0.0",
             "date": 1698883200
@@ -87,7 +86,8 @@
           "usage": {
             "global": 0.042199999999999994,
             "relative": 0.861224489795919
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -161,30 +161,32 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": null,
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera": {
       "name": "Opera",
-      "added": {
-        "version": "105.0.0",
-        "date": 1699920000
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.008,
-        "relative": 0.3238866396761135
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "105.0.0",
             "date": 1699920000
@@ -193,16 +195,14 @@
           "usage": {
             "global": 0.008,
             "relative": 0.3238866396761135
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "opera_android": {
       "name": "Opera Android",
-      "added": {
-        "version": "79.0.0",
-        "date": 1701820800
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -210,7 +210,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "79.0.0",
             "date": 1701820800
@@ -219,24 +221,24 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari": {
       "name": "Safari",
-      "added": {
-        "version": "16.4.0",
-        "date": 1679875200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.023699999999999995,
-        "relative": 0.6790830945558742
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Implementation based on older spec version. As a result, calculations with channel values do not work correctly, requiring values to be specified with units (<code>deg</code> for <code>h</code>, <code>%</code> for <code>s</code> and <code>l</code>)."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200
@@ -245,24 +247,24 @@
           "usage": {
             "global": 0.023699999999999995,
             "relative": 0.6790830945558742
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "16.4.0",
-        "date": 1679875200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.12731,
-        "relative": 0.7275272872735581
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Implementation based on older spec version. As a result, calculations with channel values do not work correctly, requiring values to be specified with units (<code>deg</code> for <code>h</code>, <code>%</code> for <code>s</code> and <code>l</code>)."
+          ],
           "added": {
             "version": "16.4.0",
             "date": 1679875200
@@ -271,7 +273,8 @@
           "usage": {
             "global": 0.12731,
             "relative": 0.7275272872735581
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -285,22 +288,22 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": null,
           "removed": null,
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "webview_android": {
       "name": "WebView Android",
-      "added": {
-        "version": "119.0.0",
-        "date": 1698710400
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -308,7 +311,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "<code>s</code> and <code>l</code> channel values incorrectly resolve to numbers between 0-1 rather than 0-100. As a result, channel value calculations require <code>s</code> and <code>l</code> values to be specified as decimal percentage equivalents (e.g. 0.2 for 20%)."
+          ],
           "added": {
             "version": "119.0.0",
             "date": 1698710400
@@ -317,7 +322,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     }
