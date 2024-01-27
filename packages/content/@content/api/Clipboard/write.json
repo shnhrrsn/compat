@@ -293,7 +293,10 @@
       "history": [
         {
           "notes": [
-            "From version 76, the <code>image/png</code> MIME type is supported."
+            "From version 107, requires Permission API <code>clipboard-write</code> permission (or transient activation when permission is not granted).",
+            "From version 85, Requires Permission-Policy <code>clipboard-write</code> permission.",
+            "From version 76, the <code>image/png</code> MIME type is supported.",
+            "From version 66, no permissons or gesture required to write to clipboard."
           ],
           "added": {
             "version": "66.0.0",
@@ -321,7 +324,10 @@
       "history": [
         {
           "notes": [
-            "From version 84, the <code>image/png</code> MIME type is supported."
+            "From version 107, requires Permission API <code>clipboard-write</code> permission (or transient activation when permission is not granted).",
+            "From version 85, Requires Permission-Policy <code>clipboard-write</code> permission.",
+            "From version 84, the <code>image/png</code> MIME type is supported.",
+            "From version 66, no permissons or gesture required to write to clipboard."
           ],
           "added": {
             "version": "66.0.0",
@@ -363,7 +369,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "preview",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -372,47 +381,19 @@
       "history": [
         {
           "notes": [
-            "Writing to the clipboard is available without permission in secure contexts and browser extensions, but only from user-initiated event callbacks. Browser extensions with the <code>\"clipboardWrite\"</code> permission can write to the clipboard at any time."
+            "From version 122, the <code>text/plain</code>, <code>text/html</code> and <code>image/png</code> MIME types are supported.",
+            "From version 122, Web extensions with the <code>clipboardWrite</code> permission in manifest do not require transient activation.",
+            "Requires transient activation. The Permissions API <code>clipboard-write</code> permission is not used."
           ],
           "added": {
-            "version": "87.0.0",
-            "date": 1616457600
+            "version": "preview",
+            "date": null
           },
           "removed": null,
           "usage": {
-            "global": 0.029399999999999985,
-            "relative": 0.9423076923076922
-          },
-          "flags": [
-            {
-              "name": "dom.events.asyncClipboard.clipboardItem",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
-        },
-        {
-          "notes": [
-            "This method accepts a <code>DataTransfer</code> object instead of an array of <code>ClipboardItem</code> objects.",
-            "Writing to the clipboard is available without permission in secure contexts and browser extensions, but only from user-initiated event callbacks. Browser extensions with the <code>\"clipboardWrite\"</code> permission can write to the clipboard at any time."
-          ],
-          "added": {
-            "version": "63.0.0",
-            "date": 1540252800
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.029599999999999987,
-            "relative": 0.9487179487179487
-          },
-          "flags": [
-            {
-              "name": "dom.events.asyncClipboard.dataTransfer",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ],
-          "partial_implementation": true
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
@@ -426,7 +407,11 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "From version 122, the <code>text/plain</code>, <code>text/html</code> and <code>image/png</code> MIME types are supported.",
+            "From version 122, Web extensions with the <code>clipboardWrite</code> permission in manifest do not require transient activation.",
+            "Requires transient activation. The Permissions API <code>clipboard-write</code> permission is not used."
+          ],
           "added": null,
           "removed": null,
           "usage": {
@@ -470,7 +455,10 @@
       "history": [
         {
           "notes": [
-            "From version 84, the <code>image/png</code> MIME type is supported."
+            "From version 107, requires Permission API <code>clipboard-write</code> permission (or transient activation when permission is not granted).",
+            "From version 85, Requires Permission-Policy <code>clipboard-write</code> permission.",
+            "From version 84, the <code>image/png</code> MIME type is supported.",
+            "From version 66, no permissons or gesture required to write to clipboard."
           ],
           "added": {
             "version": "5.0.0",
@@ -628,7 +616,10 @@
       "history": [
         {
           "notes": [
-            "From version 84, the <code>image/png</code> MIME type is supported."
+            "From version 107, requires Permission API <code>clipboard-write</code> permission (or transient activation when permission is not granted).",
+            "From version 85, Requires Permission-Policy <code>clipboard-write</code> permission.",
+            "From version 84, the <code>image/png</code> MIME type is supported.",
+            "From version 66, no permissons or gesture required to write to clipboard."
           ],
           "added": {
             "version": "66.0.0",

@@ -6,15 +6,15 @@
     "decoding"
   ],
   "type": "page",
-  "title": "HTMLImageElement: decoding property",
+  "title": "<img>: The Image Embed element",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/decoding",
-    "spec": "https://html.spec.whatwg.org/multipage/embedded-content.html#dom-img-decoding",
-    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/htmlimageelement/decoding/index.md"
+    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Element/img#decoding",
+    "spec": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-decoding",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/html/element/img/index.md"
   },
   "content": {
     "intro": {
-      "id": "ead42ec6d07d491247eb7928fb36d751",
+      "id": "7eb9f51578c8192f1e8dc2bf78eb61d9",
       "tree": {
         "type": "root",
         "children": [
@@ -39,7 +39,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "decoding"
+                        "value": "<img>"
                       }
                     ]
                   }
@@ -47,32 +47,24 @@
               },
               {
                 "type": "text",
-                "value": " property of the "
+                "value": " "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
-                  "internal": "",
-                  "href": "/api/HTMLImageElement"
+                  "href": "/en-US/docs/Web/HTML"
                 },
                 "children": [
                   {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "HTMLImageElement"
-                      }
-                    ]
+                    "type": "text",
+                    "value": "HTML"
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " interface provides a hint to the browser as to how it should decode the image. More specifically, whether it should wait for the image to be decoded before presenting other content updates or not."
+                "value": " element embeds an image into the document."
               }
             ]
           }
@@ -83,7 +75,7 @@
       }
     },
     "seeAlso": {
-      "id": "b4189c1619d5069ed84cd6ea64dafa53",
+      "id": "f4bbfd161f2e186a18989da9d932a86f",
       "tree": {
         "type": "root",
         "children": [
@@ -102,15 +94,11 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "The "
-                  },
-                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/api/HTMLImageElement/decode"
+                      "href": "/html/elements/picture"
                     },
                     "children": [
                       {
@@ -120,7 +108,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "HTMLImageElement.decode()"
+                            "value": "<picture>"
                           }
                         ]
                       }
@@ -128,7 +116,57 @@
                   },
                   {
                     "type": "text",
-                    "value": " method"
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/object"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<object>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/html/elements/embed"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "<embed>"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " elements"
                   }
                 ]
               },
@@ -142,15 +180,11 @@
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "The "
-                  },
-                  {
                     "type": "element",
                     "tagName": "a",
                     "properties": {
                       "internal": "",
-                      "href": "/html/elements/img"
+                      "href": "/css/properties/object-fit"
                     },
                     "children": [
                       {
@@ -160,7 +194,7 @@
                         "children": [
                           {
                             "type": "text",
-                            "value": "<img>"
+                            "value": "object-fit"
                           }
                         ]
                       }
@@ -168,7 +202,82 @@
                   },
                   {
                     "type": "text",
-                    "value": " element "
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/object-position"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "object-position"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/image-orientation"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "image-orientation"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/css/properties/image-rendering"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "image-rendering"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": ", and "
                   },
                   {
                     "type": "element",
@@ -177,13 +286,13 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "decoding"
+                        "value": "image-resolution"
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": " attribute"
+                    "value": ": Image-related CSS properties."
                   }
                 ]
               },
@@ -200,18 +309,98 @@
                     "type": "element",
                     "tagName": "a",
                     "properties": {
-                      "href": "https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/"
+                      "internal": "",
+                      "href": "/api/HTMLImageElement"
                     },
                     "children": [
                       {
-                        "type": "text",
-                        "value": "What does the image decoding attribute actually do?"
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLImageElement"
+                          }
+                        ]
                       }
                     ]
                   },
                   {
                     "type": "text",
-                    "value": " on tunetheweb.com (2023)"
+                    "value": " interface for this element"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Images in HTML"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Media/Formats/Image_types"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Image file type and format guide"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Responsive images"
+                      }
+                    ]
                   }
                 ]
               },
@@ -229,8 +418,8 @@
     }
   },
   "commit": {
-    "sha": "59838756a270111e120db552ee53d8986e14ddee",
-    "date": "2023-08-10T09:35:26.000Z"
+    "sha": "658bf95c67d53458df4bdbcd2d909076b501dc83",
+    "date": "2024-01-23T00:22:06.000Z"
   },
   "usage": 0.95405,
   "support": {

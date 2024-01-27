@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"122.0.0",
+				{
+					"date": 1708387200,
+					"usage": 0.01
+				}
+			],
+			[
 				"121.0.0",
 				{
 					"date": 1705968000,
@@ -848,6 +855,13 @@ const mdn = {
 	chrome_android: {
 		name: 'Chrome Android',
 		versions: new Map([
+			[
+				"122.0.0",
+				{
+					"date": 1708387200,
+					"usage": null
+				}
+			],
 			[
 				"121.0.0",
 				{
@@ -1895,6 +1909,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"125.0.0",
+				{
+					"date": 1713225600,
+					"usage": null
+				}
+			],
+			[
 				"124.0.0",
 				{
 					"date": 1710806400,
@@ -2788,6 +2809,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"125.0.0",
+				{
+					"date": 1713225600,
+					"usage": null
+				}
+			],
 			[
 				"124.0.0",
 				{
@@ -3742,6 +3770,13 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"106.0.0",
+				{
+					"date": 1702944000,
+					"usage": 0.02
+				}
+			],
+			[
 				"105.0.0",
 				{
 					"date": 1699920000,
@@ -4559,6 +4594,13 @@ const mdn = {
 		name: 'Opera Android',
 		versions: new Map([
 			[
+				"80.0.0",
+				{
+					"date": 1706140800,
+					"usage": null
+				}
+			],
+			[
 				"79.0.0",
 				{
 					"date": 1701820800,
@@ -4998,6 +5040,13 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"17.3.0",
+				{
+					"date": 1705881600,
+					"usage": null
+				}
+			],
+			[
 				"17.2.0",
 				{
 					"date": 1702252800,
@@ -5297,10 +5346,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"17.3.0",
+				{
+					"date": 1705881600,
+					"usage": 0.042
+				}
+			],
+			[
 				"17.2.0",
 				{
 					"date": 1702252800,
-					"usage": 0.894
+					"usage": 0.852
 				}
 			],
 			[
@@ -5894,6 +5950,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"122.0.0",
+				{
+					"date": 1708387200,
+					"usage": null
+				}
+			],
 			[
 				"121.0.0",
 				{

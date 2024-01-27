@@ -7,7 +7,7 @@
   "type": "page",
   "title": "ServiceWorker / ecmascript_modules",
   "links": {},
-  "usage": 0.6522600000000001,
+  "usage": 0.84907,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -221,40 +221,58 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.031899999999999984,
+        "relative": 0.9140401146131807
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Nested workers support was introduced in Safari 15.5.",
+            "Script loading in nested workers was introduced in Safari 16.4."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.031899999999999984,
+            "relative": 0.9140401146131807
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.16491,
+        "relative": 0.9423967083833357
       },
       "history": [
         {
-          "notes": null,
-          "added": null,
+          "notes": [
+            "Nested workers support was introduced in Safari 15.5.",
+            "Script loading in nested workers was introduced in Safari 16.4."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.16491,
+            "relative": 0.9423967083833357
           }
         }
       ]
@@ -314,7 +332,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
