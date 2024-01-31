@@ -90,7 +90,10 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "123.0.0",
+        "date": 1708387200
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -100,21 +103,14 @@
         {
           "notes": null,
           "added": {
-            "version": "102.0.0",
-            "date": 1656374400
+            "version": "123.0.0",
+            "date": 1708387200
           },
           "removed": null,
           "usage": {
-            "global": 0.029099999999999987,
-            "relative": 0.9326923076923077
-          },
-          "flags": [
-            {
-              "name": "network.early-hints.enabled",
-              "type": "preference",
-              "value_to_set": "true"
-            }
-          ]
+            "global": null,
+            "relative": null
+          }
         }
       ]
     },
@@ -213,7 +209,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }
