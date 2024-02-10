@@ -4,6 +4,20 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"124.0.0",
+				{
+					"date": 1713225600,
+					"usage": null
+				}
+			],
+			[
+				"123.0.0",
+				{
+					"date": 1710806400,
+					"usage": null
+				}
+			],
+			[
 				"122.0.0",
 				{
 					"date": 1708387200,

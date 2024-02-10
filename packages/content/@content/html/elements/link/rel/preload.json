@@ -7,10 +7,236 @@
     "preload"
   ],
   "type": "page",
-  "title": "rel / preload",
+  "title": "rel=preload",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Link_types/preload",
-    "spec": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload"
+    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/preload",
+    "spec": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/html/attributes/rel/preload/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "49b321f247cc9704ed5e4966687fa241",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "preload"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " value of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/link"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<link>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element's "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/link#rel"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "rel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " attribute lets you declare fetch requests in the\nHTML's "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/head"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<head>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", specifying resources that your page will need very soon, which you want to start loading early in the page lifecycle,\nbefore browsers' main rendering machinery kicks in. This ensures they are available earlier and are less likely to block the page's render, improving performance. Even though the name contains the term "
+              },
+              {
+                "type": "element",
+                "tagName": "em",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "load"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", it doesn't load and execute the script but only schedules it to be downloaded and cached with a higher priority."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "4e9834ff61d1ef3a576ed6ef3e45bf9d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Performance/Speculative_loading"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Speculative loading"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for a comparison of "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<link rel=\"preload\">"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " and other similar performance improvement features."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Preload: What Is It Good For?"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " by Yoav Weiss"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "10b342385644e822d123694ad3bc8c2ca9abb2dc",
+    "date": "2023-11-29T09:09:55.000Z"
   },
   "usage": 0.07409999999999996,
   "support": {

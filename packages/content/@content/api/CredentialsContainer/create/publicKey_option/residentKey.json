@@ -11,7 +11,7 @@
   "links": {
     "spec": "https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey"
   },
-  "usage": 0.6850099999999999,
+  "usage": 0.7132099999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -93,20 +93,26 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "114.0.0",
+        "date": 1686009600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.028199999999999992,
+        "relative": 0.915584415584416
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1686009600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.028199999999999992,
+            "relative": 0.915584415584416
           }
         }
       ]
@@ -121,7 +127,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1831137'>bug 1831137</a>."
+          ],
           "added": null,
           "removed": null,
           "usage": {
@@ -312,7 +320,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }

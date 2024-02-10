@@ -7,10 +7,175 @@
     "preconnect"
   ],
   "type": "page",
-  "title": "rel / preconnect",
+  "title": "rel=preconnect",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Link_types/preconnect",
-    "spec": "https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect"
+    "mdn": "https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/preconnect",
+    "spec": "https://html.spec.whatwg.org/multipage/links.html#link-type-preconnect",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/html/attributes/rel/preconnect/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "2ac6b4ccaf042185bf8e22b500727989",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "preconnect"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " keyword for the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTML/Element/link#rel"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "rel"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " attribute of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/html/elements/link"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<link>"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " element is a hint to browsers that the user is likely to need resources from the target resource's origin, and therefore the browser can likely improve the user experience by preemptively initiating a connection to that origin. Preconnecting speeds up future loads from a given origin by preemptively performing part or all of the handshake (DNS+TCP for HTTP, and DNS+TCP+TLS for HTTPS origins)."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "2ba2c21a278040c42e9f67c90010335e",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/Performance/Speculative_loading"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Speculative loading"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " for a comparison of "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "<link rel=\"preconnect\">"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " and other similar performance improvement features."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "922c2b0f37e2f13887c50efe47e62bc23d94c3aa",
+    "date": "2023-10-16T10:14:26.000Z"
   },
   "usage": 0.9553099999999998,
   "support": {
