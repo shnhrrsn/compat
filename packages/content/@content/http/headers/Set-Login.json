@@ -5,10 +5,158 @@
     "Set-Login"
   ],
   "type": "page",
-  "title": "headers / Set-Login",
+  "title": "Set-Login",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Set-Login",
-    "spec": "https://fedidcg.github.io/FedCM/#login-status-http"
+    "spec": "https://fedidcg.github.io/FedCM/#login-status-http",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/set-login/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "017af099a5267485b75eb1177205a5a3",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Set-Login"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/Response_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "response header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is sent by a federated identity provider (IdP) to set its login status — by this, we mean \"whether any users are logged into the IdP on the current browser or not\". This is stored by the browser and used by the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/API/FedCM_API"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "FedCM API"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " to reduce the number of requests it makes to the IdP (because it does not need to waste time requesting accounts when there are no users logged in to the IdP). It also mitigates "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://github.com/fedidcg/FedCM/issues/447"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "potential timing attacks"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "17bbf5741d02c9d082d1d6fd72a1d55c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/FedCM_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Federated Credential Management (FedCM) API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "7f1ce551464bcf12aa4fd038be3cc5b332ee2ad5",
+    "date": "2024-02-15T23:29:43.000Z"
   },
   "usage": 0.52678,
   "support": {
