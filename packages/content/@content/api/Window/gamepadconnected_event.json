@@ -124,7 +124,7 @@
     "sha": "cc070123f72376faec06e36622c4fc723a75325f",
     "date": "2023-04-08T06:57:07.000Z"
   },
-  "usage": 0.029099999999999984,
+  "usage": 0.20925999999999997,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -392,13 +392,28 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "16.0.0",
+        "date": 1662940800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0272,
+        "relative": 0.8000000000000004
       },
       "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1662940800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.8000000000000004
+          }
+        },
         {
           "notes": [
             "The <code>ongamepadconnected</code> event handler property is not supported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/223860'>bug 223860</a>."
@@ -407,10 +422,13 @@
             "version": "10.1.0",
             "date": 1490572800
           },
-          "removed": null,
+          "removed": {
+            "version": "16.0.0",
+            "date": 1662940800
+          },
           "usage": {
-            "global": 0.033899999999999986,
-            "relative": 0.9970588235294118
+            "global": 0.006999999999999999,
+            "relative": 0.20588235294117657
           },
           "partial_implementation": true
         }
@@ -418,21 +436,45 @@
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "16.0.0",
+        "date": 1662940800
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.15295999999999998,
+        "relative": 0.8553853036573088
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "16.0.0",
+            "date": 1662940800
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.15295999999999998,
+            "relative": 0.8553853036573088
           }
+        },
+        {
+          "notes": [
+            "The <code>ongamepadconnected</code> event handler property is not supported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/223860'>bug 223860</a>."
+          ],
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": {
+            "version": "16.0.0",
+            "date": 1662940800
+          },
+          "usage": {
+            "global": 0.02839,
+            "relative": 0.15876300190135326
+          },
+          "partial_implementation": true
         }
       ]
     },

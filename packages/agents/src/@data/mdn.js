@@ -870,6 +870,20 @@ const mdn = {
 		name: 'Chrome Android',
 		versions: new Map([
 			[
+				"124.0.0",
+				{
+					"date": 1712707200,
+					"usage": null
+				}
+			],
+			[
+				"123.0.0",
+				{
+					"date": 1710806400,
+					"usage": null
+				}
+			],
+			[
 				"122.0.0",
 				{
 					"date": 1708387200,
@@ -1560,6 +1574,13 @@ const mdn = {
 	edge: {
 		name: 'Edge',
 		versions: new Map([
+			[
+				"124.0.0",
+				{
+					"date": 1713398400,
+					"usage": null
+				}
+			],
 			[
 				"123.0.0",
 				{
@@ -3784,6 +3805,13 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"107.0.0",
+				{
+					"date": 1707264000,
+					"usage": null
+				}
+			],
+			[
 				"106.0.0",
 				{
 					"date": 1702944000,
@@ -5964,6 +5992,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"123.0.0",
+				{
+					"date": 1710806400,
+					"usage": null
+				}
+			],
 			[
 				"122.0.0",
 				{
