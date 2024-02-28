@@ -1944,6 +1944,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"126.0.0",
+				{
+					"date": 1715644800,
+					"usage": null
+				}
+			],
+			[
 				"125.0.0",
 				{
 					"date": 1713225600,
@@ -2844,6 +2851,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"126.0.0",
+				{
+					"date": 1715644800,
+					"usage": null
+				}
+			],
 			[
 				"125.0.0",
 				{
@@ -4646,6 +4660,34 @@ const mdn = {
 				"79.0.0",
 				{
 					"date": 1701820800,
+					"usage": null
+				}
+			],
+			[
+				"78.0.0",
+				{
+					"date": 1698019200,
+					"usage": null
+				}
+			],
+			[
+				"77.0.0",
+				{
+					"date": 1693440000,
+					"usage": null
+				}
+			],
+			[
+				"76.0.0",
+				{
+					"date": 1687737600,
+					"usage": null
+				}
+			],
+			[
+				"75.0.0",
+				{
+					"date": 1684281600,
 					"usage": null
 				}
 			],
