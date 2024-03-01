@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "36522335db5856649f008eb06c13d03f",
+      "id": "372fff6812e6c3338340a618fe18d22a",
       "tree": {
         "type": "root",
         "children": [
@@ -63,7 +63,24 @@
               },
               {
                 "type": "text",
-                "value": " property allows specifying one of the many palettes contained in a font that a user agent should use for the font. Users can also override the values in a palette or create a new palette by using the "
+                "value": " property allows specifying one of the many palettes contained in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "https://www.colorfonts.wtf/"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "color font"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that a user agent may use for the font. Users can also override the values in a palette or create a new palette by using the "
               },
               {
                 "type": "element",
@@ -73,8 +90,15 @@
                 },
                 "children": [
                   {
-                    "type": "text",
-                    "value": "@font-palette-values"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "@font-palette-values"
+                      }
+                    ]
                   }
                 ]
               },
@@ -91,7 +115,7 @@
       }
     },
     "seeAlso": {
-      "id": "afb5a2deb861585a1718f83d52b8e026",
+      "id": "5ece74bba021c5c1a8bb65fdfa66e7b9",
       "tree": {
         "type": "root",
         "children": [
@@ -100,6 +124,28 @@
             "tagName": "ul",
             "properties": {},
             "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "palette-mix()"
+                      }
+                    ]
+                  }
+                ]
+              },
               {
                 "type": "text",
                 "value": "\n"
@@ -214,8 +260,8 @@
     }
   },
   "commit": {
-    "sha": "66944f622b6b51bc9c24bebbbea242138d910600",
-    "date": "2023-02-21T05:45:53.000Z"
+    "sha": "f22871b46c95c8f4d877c11587081d63bafed012",
+    "date": "2024-02-29T21:45:29.000Z"
   },
   "usage": 0.90987,
   "support": {
