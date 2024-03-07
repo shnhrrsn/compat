@@ -7,7 +7,9 @@
   ],
   "type": "page",
   "title": "visibility / collapse",
-  "links": {},
+  "links": {
+    "spec": "https://drafts.csswg.org/css-display/#valdef-visibility-collapse"
+  },
   "usage": 0.9576199999999999,
   "support": {
     "chrome": {
@@ -355,8 +357,8 @@
     "webview_android": {
       "name": "WebView Android",
       "added": {
-        "version": "37.0.0",
-        "date": 1409702400
+        "version": "4.4.0",
+        "date": 1386547200
       },
       "removed": null,
       "usage": {
@@ -366,12 +368,12 @@
       "history": [
         {
           "notes": [
-            "WebView treats <code>visibility: collapse</code> like <code>hidden</code>, leaving a white gap.",
-            "WebView supports the <code>collapse</code> value only on <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tr'><code>&lt;tr&gt;</code></a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/thead' ><code>&lt;thead&gt;</code></a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tbody'><code>&lt;tbody&gt;</code></a>, and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tfoot'><code>&lt;tfoot&gt;</code></a>, but not on <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/col'><code>&lt;col&gt;</code></a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/colgroup'><code>&lt;colgroup&gt;</code></a> elements."
+            "Chrome treats <code>visibility: collapse</code> like <code>hidden</code>, leaving a white gap.",
+            "Chrome supports the <code>collapse</code> value only on <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tr'><code>&lt;tr&gt;</code></a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/thead' ><code>&lt;thead&gt;</code></a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tbody'><code>&lt;tbody&gt;</code></a>, and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/tfoot'><code>&lt;tfoot&gt;</code></a>, but not on <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/col'><code>&lt;col&gt;</code></a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://developer.mozilla.org/docs/Web/HTML/Element/colgroup'><code>&lt;colgroup&gt;</code></a> elements."
           ],
           "added": {
-            "version": "37.0.0",
-            "date": 1409702400
+            "version": "4.4.0",
+            "date": 1386547200
           },
           "removed": null,
           "usage": {

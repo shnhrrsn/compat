@@ -168,7 +168,7 @@
     "sha": "fd4a5c3107826fe3689a0432ba56b3eba00a5f90",
     "date": "2024-01-19T20:14:33.000Z"
   },
-  "usage": 0.86996,
+  "usage": 0.9195599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -224,17 +224,18 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "18.0.0",
+        "date": 1538438400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.049599999999999984,
+        "relative": 1
       },
       "history": [
         {
-          "notes": [
-            "Currently the <code>none</code> value incorrectly behaves as <code>contain</code> (allowing for the elastic bounce effect)."
-          ],
+          "notes": null,
           "added": {
             "version": "18.0.0",
             "date": 1538438400
@@ -243,8 +244,7 @@
           "usage": {
             "global": 0.049599999999999984,
             "relative": 1
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
