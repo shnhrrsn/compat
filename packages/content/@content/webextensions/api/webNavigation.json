@@ -4,7 +4,7 @@
     "api",
     "webNavigation"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "webNavigation",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation",
@@ -38,58 +38,189 @@
     "sha": "9c74ee8922c1a5ffb27de4b054efaa4e6a50e2fa",
     "date": "2023-08-03T08:39:05.000Z"
   },
-  "children": [
-    {
-      "title": "webNavigation.TransitionQualifier",
-      "href": "/webextensions/api/webNavigation/TransitionQualifier"
+  "usage": 0.5254199999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.TransitionType",
-      "href": "/webextensions/api/webNavigation/TransitionType"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.getAllFrames()",
-      "href": "/webextensions/api/webNavigation/getAllFrames"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.getFrame()",
-      "href": "/webextensions/api/webNavigation/getFrame"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.onBeforeNavigate",
-      "href": "/webextensions/api/webNavigation/onBeforeNavigate"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.onCommitted",
-      "href": "/webextensions/api/webNavigation/onCommitted"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031499999999999986,
+        "relative": 0.9752321981424149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031499999999999986,
+            "relative": 0.9752321981424149
+          }
+        }
+      ]
     },
-    {
-      "title": "webNavigation.onCompleted",
-      "href": "/webextensions/api/webNavigation/onCompleted"
-    },
-    {
-      "title": "webNavigation.onCreatedNavigationTarget",
-      "href": "/webextensions/api/webNavigation/onCreatedNavigationTarget"
-    },
-    {
-      "title": "webNavigation.onDOMContentLoaded",
-      "href": "/webextensions/api/webNavigation/onDOMContentLoaded"
-    },
-    {
-      "title": "webNavigation.onErrorOccurred",
-      "href": "/webextensions/api/webNavigation/onErrorOccurred"
-    },
-    {
-      "title": "webNavigation.onHistoryStateUpdated",
-      "href": "/webextensions/api/webNavigation/onHistoryStateUpdated"
-    },
-    {
-      "title": "webNavigation.onReferenceFragmentUpdated",
-      "href": "/webextensions/api/webNavigation/onReferenceFragmentUpdated"
-    },
-    {
-      "title": "webNavigation.onTabReplaced",
-      "href": "/webextensions/api/webNavigation/onTabReplaced"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16521999999999995,
+        "relative": 0.9428750784682985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16521999999999995,
+            "relative": 0.9428750784682985
+          }
+        }
+      ]
     }
-  ]
+  }
 }

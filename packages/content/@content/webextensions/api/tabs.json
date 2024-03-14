@@ -4,7 +4,7 @@
     "api",
     "tabs"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "tabs",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs",
@@ -38,242 +38,189 @@
     "sha": "d6856a051d0ba078ec1d24b80908b1ca174917db",
     "date": "2023-03-07T05:27:34.000Z"
   },
-  "children": [
-    {
-      "title": "tabs.MutedInfo",
-      "href": "/webextensions/api/tabs/MutedInfo"
+  "usage": 0.5254199999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "5.0.0",
+        "date": 1274745600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "5.0.0",
+            "date": 1274745600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.MutedInfoReason",
-      "href": "/webextensions/api/tabs/MutedInfoReason"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.PageSettings",
-      "href": "/webextensions/api/tabs/PageSettings"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.TAB_ID_NONE",
-      "href": "/webextensions/api/tabs/TAB_ID_NONE"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "54.0.0",
+        "date": 1497312000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "54.0.0",
+            "date": 1497312000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.Tab",
-      "href": "/webextensions/api/tabs/Tab"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "15.0.0",
+        "date": 1372723200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.TabStatus",
-      "href": "/webextensions/api/tabs/TabStatus"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031499999999999986,
+        "relative": 0.9752321981424149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031499999999999986,
+            "relative": 0.9752321981424149
+          }
+        }
+      ]
     },
-    {
-      "title": "tabs.WindowType",
-      "href": "/webextensions/api/tabs/WindowType"
-    },
-    {
-      "title": "tabs.ZoomSettings",
-      "href": "/webextensions/api/tabs/ZoomSettings"
-    },
-    {
-      "title": "tabs.ZoomSettingsMode",
-      "href": "/webextensions/api/tabs/ZoomSettingsMode"
-    },
-    {
-      "title": "tabs.ZoomSettingsScope",
-      "href": "/webextensions/api/tabs/ZoomSettingsScope"
-    },
-    {
-      "title": "tabs.captureTab()",
-      "href": "/webextensions/api/tabs/captureTab"
-    },
-    {
-      "title": "tabs.captureVisibleTab()",
-      "href": "/webextensions/api/tabs/captureVisibleTab"
-    },
-    {
-      "title": "tabs.connect()",
-      "href": "/webextensions/api/tabs/connect"
-    },
-    {
-      "title": "tabs.create()",
-      "href": "/webextensions/api/tabs/create"
-    },
-    {
-      "title": "tabs.detectLanguage()",
-      "href": "/webextensions/api/tabs/detectLanguage"
-    },
-    {
-      "title": "tabs.discard()",
-      "href": "/webextensions/api/tabs/discard"
-    },
-    {
-      "title": "tabs.duplicate()",
-      "href": "/webextensions/api/tabs/duplicate"
-    },
-    {
-      "title": "tabs.executeScript()",
-      "href": "/webextensions/api/tabs/executeScript"
-    },
-    {
-      "title": "tabs.get()",
-      "href": "/webextensions/api/tabs/get"
-    },
-    {
-      "title": "tabs.getAllInWindow()",
-      "href": "/webextensions/api/tabs/getAllInWindow"
-    },
-    {
-      "title": "tabs.getCurrent()",
-      "href": "/webextensions/api/tabs/getCurrent"
-    },
-    {
-      "title": "tabs.getSelected()",
-      "href": "/webextensions/api/tabs/getSelected"
-    },
-    {
-      "title": "tabs.getZoom()",
-      "href": "/webextensions/api/tabs/getZoom"
-    },
-    {
-      "title": "tabs.getZoomSettings()",
-      "href": "/webextensions/api/tabs/getZoomSettings"
-    },
-    {
-      "title": "tabs.goBack()",
-      "href": "/webextensions/api/tabs/goBack"
-    },
-    {
-      "title": "tabs.goForward()",
-      "href": "/webextensions/api/tabs/goForward"
-    },
-    {
-      "title": "tabs.hide()",
-      "href": "/webextensions/api/tabs/hide"
-    },
-    {
-      "title": "tabs.highlight()",
-      "href": "/webextensions/api/tabs/highlight"
-    },
-    {
-      "title": "tabs.insertCSS()",
-      "href": "/webextensions/api/tabs/insertCSS"
-    },
-    {
-      "title": "tabs.move()",
-      "href": "/webextensions/api/tabs/move"
-    },
-    {
-      "title": "tabs.moveInSuccession()",
-      "href": "/webextensions/api/tabs/moveInSuccession"
-    },
-    {
-      "title": "tabs.onActivated",
-      "href": "/webextensions/api/tabs/onActivated"
-    },
-    {
-      "title": "tabs.onActiveChanged",
-      "href": "/webextensions/api/tabs/onActiveChanged"
-    },
-    {
-      "title": "tabs.onAttached",
-      "href": "/webextensions/api/tabs/onAttached"
-    },
-    {
-      "title": "tabs.onCreated",
-      "href": "/webextensions/api/tabs/onCreated"
-    },
-    {
-      "title": "tabs.onDetached",
-      "href": "/webextensions/api/tabs/onDetached"
-    },
-    {
-      "title": "tabs.onHighlightChanged",
-      "href": "/webextensions/api/tabs/onHighlightChanged"
-    },
-    {
-      "title": "tabs.onHighlighted",
-      "href": "/webextensions/api/tabs/onHighlighted"
-    },
-    {
-      "title": "tabs.onMoved",
-      "href": "/webextensions/api/tabs/onMoved"
-    },
-    {
-      "title": "tabs.onRemoved",
-      "href": "/webextensions/api/tabs/onRemoved"
-    },
-    {
-      "title": "tabs.onReplaced",
-      "href": "/webextensions/api/tabs/onReplaced"
-    },
-    {
-      "title": "tabs.onSelectionChanged",
-      "href": "/webextensions/api/tabs/onSelectionChanged"
-    },
-    {
-      "title": "tabs.onUpdated",
-      "href": "/webextensions/api/tabs/onUpdated"
-    },
-    {
-      "title": "tabs.onZoomChange",
-      "href": "/webextensions/api/tabs/onZoomChange"
-    },
-    {
-      "title": "tabs.print()",
-      "href": "/webextensions/api/tabs/print"
-    },
-    {
-      "title": "tabs.printPreview()",
-      "href": "/webextensions/api/tabs/printPreview"
-    },
-    {
-      "title": "tabs.query()",
-      "href": "/webextensions/api/tabs/query"
-    },
-    {
-      "title": "tabs.reload()",
-      "href": "/webextensions/api/tabs/reload"
-    },
-    {
-      "title": "tabs.remove()",
-      "href": "/webextensions/api/tabs/remove"
-    },
-    {
-      "title": "tabs.removeCSS()",
-      "href": "/webextensions/api/tabs/removeCSS"
-    },
-    {
-      "title": "tabs.saveAsPDF()",
-      "href": "/webextensions/api/tabs/saveAsPDF"
-    },
-    {
-      "title": "tabs.sendMessage()",
-      "href": "/webextensions/api/tabs/sendMessage"
-    },
-    {
-      "title": "tabs.sendRequest()",
-      "href": "/webextensions/api/tabs/sendRequest"
-    },
-    {
-      "title": "tabs.setZoom()",
-      "href": "/webextensions/api/tabs/setZoom"
-    },
-    {
-      "title": "tabs.setZoomSettings()",
-      "href": "/webextensions/api/tabs/setZoomSettings"
-    },
-    {
-      "title": "tabs.show()",
-      "href": "/webextensions/api/tabs/show"
-    },
-    {
-      "title": "tabs.toggleReaderMode()",
-      "href": "/webextensions/api/tabs/toggleReaderMode"
-    },
-    {
-      "title": "tabs.update()",
-      "href": "/webextensions/api/tabs/update"
-    },
-    {
-      "title": "tabs.warmup()",
-      "href": "/webextensions/api/tabs/warmup"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16521999999999995,
+        "relative": 0.9428750784682985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16521999999999995,
+            "relative": 0.9428750784682985
+          }
+        }
+      ]
     }
-  ]
+  }
 }

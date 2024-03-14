@@ -4,7 +4,7 @@
     "api",
     "webRequest"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "webRequest",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
@@ -68,90 +68,189 @@
     "sha": "3b7df062b47a96fea5eaa35036cb5a82eb2dcfc1",
     "date": "2024-03-08T16:39:23.000Z"
   },
-  "children": [
-    {
-      "title": "webRequest.BlockingResponse",
-      "href": "/webextensions/api/webRequest/BlockingResponse"
+  "usage": 0.5285599999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.CertificateInfo",
-      "href": "/webextensions/api/webRequest/CertificateInfo"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.HttpHeaders",
-      "href": "/webextensions/api/webRequest/HttpHeaders"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES",
-      "href": "/webextensions/api/webRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.RequestFilter",
-      "href": "/webextensions/api/webRequest/RequestFilter"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.ResourceType",
-      "href": "/webextensions/api/webRequest/ResourceType"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031499999999999986,
+        "relative": 0.9752321981424149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031499999999999986,
+            "relative": 0.9752321981424149
+          }
+        }
+      ]
     },
-    {
-      "title": "webRequest.SecurityInfo",
-      "href": "/webextensions/api/webRequest/SecurityInfo"
-    },
-    {
-      "title": "webRequest.StreamFilter",
-      "href": "/webextensions/api/webRequest/StreamFilter"
-    },
-    {
-      "title": "webRequest.UploadData",
-      "href": "/webextensions/api/webRequest/UploadData"
-    },
-    {
-      "title": "webRequest.filterResponseData()",
-      "href": "/webextensions/api/webRequest/filterResponseData"
-    },
-    {
-      "title": "webRequest.getSecurityInfo()",
-      "href": "/webextensions/api/webRequest/getSecurityInfo"
-    },
-    {
-      "title": "webRequest.handlerBehaviorChanged()",
-      "href": "/webextensions/api/webRequest/handlerBehaviorChanged"
-    },
-    {
-      "title": "webRequest.onAuthRequired",
-      "href": "/webextensions/api/webRequest/onAuthRequired"
-    },
-    {
-      "title": "webRequest.onBeforeRedirect",
-      "href": "/webextensions/api/webRequest/onBeforeRedirect"
-    },
-    {
-      "title": "webRequest.onBeforeRequest",
-      "href": "/webextensions/api/webRequest/onBeforeRequest"
-    },
-    {
-      "title": "webRequest.onBeforeSendHeaders",
-      "href": "/webextensions/api/webRequest/onBeforeSendHeaders"
-    },
-    {
-      "title": "webRequest.onCompleted",
-      "href": "/webextensions/api/webRequest/onCompleted"
-    },
-    {
-      "title": "webRequest.onErrorOccurred",
-      "href": "/webextensions/api/webRequest/onErrorOccurred"
-    },
-    {
-      "title": "webRequest.onHeadersReceived",
-      "href": "/webextensions/api/webRequest/onHeadersReceived"
-    },
-    {
-      "title": "webRequest.onResponseStarted",
-      "href": "/webextensions/api/webRequest/onResponseStarted"
-    },
-    {
-      "title": "webRequest.onSendHeaders",
-      "href": "/webextensions/api/webRequest/onSendHeaders"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16835999999999995,
+        "relative": 0.9607943845231978
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16835999999999995,
+            "relative": 0.9607943845231978
+          }
+        }
+      ]
     }
-  ]
+  }
 }

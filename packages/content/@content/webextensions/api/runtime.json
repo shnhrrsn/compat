@@ -4,7 +4,7 @@
     "api",
     "runtime"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "runtime",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
@@ -35,157 +35,192 @@
     }
   },
   "commit": {
-    "sha": "2c5465eab20015868a1eeca59c5623d37b105f7c",
-    "date": "2023-03-07T05:35:11.000Z"
+    "sha": "0bbf7b0f1c3e0966ce9534e70de5e8749a23e2b2",
+    "date": "2024-03-14T03:01:48.000Z"
   },
-  "children": [
-    {
-      "title": "runtime.MessageSender",
-      "href": "/webextensions/api/runtime/MessageSender"
+  "usage": 0.5254199999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.OnInstalledReason",
-      "href": "/webextensions/api/runtime/OnInstalledReason"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.OnRestartRequiredReason",
-      "href": "/webextensions/api/runtime/OnRestartRequiredReason"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.PlatformArch",
-      "href": "/webextensions/api/runtime/PlatformArch"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.PlatformInfo",
-      "href": "/webextensions/api/runtime/PlatformInfo"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.PlatformNaclArch",
-      "href": "/webextensions/api/runtime/PlatformNaclArch"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031499999999999986,
+        "relative": 0.9752321981424149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031499999999999986,
+            "relative": 0.9752321981424149
+          }
+        }
+      ]
     },
-    {
-      "title": "runtime.PlatformOs",
-      "href": "/webextensions/api/runtime/PlatformOs"
-    },
-    {
-      "title": "runtime.Port",
-      "href": "/webextensions/api/runtime/Port"
-    },
-    {
-      "title": "runtime.RequestUpdateCheckStatus",
-      "href": "/webextensions/api/runtime/RequestUpdateCheckStatus"
-    },
-    {
-      "title": "runtime.connect()",
-      "href": "/webextensions/api/runtime/connect"
-    },
-    {
-      "title": "runtime.connectNative()",
-      "href": "/webextensions/api/runtime/connectNative"
-    },
-    {
-      "title": "runtime.getBackgroundPage()",
-      "href": "/webextensions/api/runtime/getBackgroundPage"
-    },
-    {
-      "title": "runtime.getBrowserInfo()",
-      "href": "/webextensions/api/runtime/getBrowserInfo"
-    },
-    {
-      "title": "runtime.getFrameId()",
-      "href": "/webextensions/api/runtime/getFrameId"
-    },
-    {
-      "title": "runtime.getManifest()",
-      "href": "/webextensions/api/runtime/getManifest"
-    },
-    {
-      "title": "runtime.getPackageDirectoryEntry()",
-      "href": "/webextensions/api/runtime/getPackageDirectoryEntry"
-    },
-    {
-      "title": "runtime.getPlatformInfo()",
-      "href": "/webextensions/api/runtime/getPlatformInfo"
-    },
-    {
-      "title": "runtime.getURL()",
-      "href": "/webextensions/api/runtime/getURL"
-    },
-    {
-      "title": "runtime.id",
-      "href": "/webextensions/api/runtime/id"
-    },
-    {
-      "title": "runtime.lastError",
-      "href": "/webextensions/api/runtime/lastError"
-    },
-    {
-      "title": "runtime.onBrowserUpdateAvailable",
-      "href": "/webextensions/api/runtime/onBrowserUpdateAvailable"
-    },
-    {
-      "title": "runtime.onConnect",
-      "href": "/webextensions/api/runtime/onConnect"
-    },
-    {
-      "title": "runtime.onConnectExternal",
-      "href": "/webextensions/api/runtime/onConnectExternal"
-    },
-    {
-      "title": "runtime.onInstalled",
-      "href": "/webextensions/api/runtime/onInstalled"
-    },
-    {
-      "title": "runtime.onMessage",
-      "href": "/webextensions/api/runtime/onMessage"
-    },
-    {
-      "title": "runtime.onMessageExternal",
-      "href": "/webextensions/api/runtime/onMessageExternal"
-    },
-    {
-      "title": "runtime.onRestartRequired",
-      "href": "/webextensions/api/runtime/onRestartRequired"
-    },
-    {
-      "title": "runtime.onStartup",
-      "href": "/webextensions/api/runtime/onStartup"
-    },
-    {
-      "title": "runtime.onSuspend",
-      "href": "/webextensions/api/runtime/onSuspend"
-    },
-    {
-      "title": "runtime.onSuspendCanceled",
-      "href": "/webextensions/api/runtime/onSuspendCanceled"
-    },
-    {
-      "title": "runtime.onUpdateAvailable",
-      "href": "/webextensions/api/runtime/onUpdateAvailable"
-    },
-    {
-      "title": "runtime.openOptionsPage()",
-      "href": "/webextensions/api/runtime/openOptionsPage"
-    },
-    {
-      "title": "runtime.reload()",
-      "href": "/webextensions/api/runtime/reload"
-    },
-    {
-      "title": "runtime.requestUpdateCheck()",
-      "href": "/webextensions/api/runtime/requestUpdateCheck"
-    },
-    {
-      "title": "runtime.sendMessage()",
-      "href": "/webextensions/api/runtime/sendMessage"
-    },
-    {
-      "title": "runtime.sendNativeMessage()",
-      "href": "/webextensions/api/runtime/sendNativeMessage"
-    },
-    {
-      "title": "runtime.setUninstallURL()",
-      "href": "/webextensions/api/runtime/setUninstallURL"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16521999999999995,
+        "relative": 0.9428750784682985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16521999999999995,
+            "relative": 0.9428750784682985
+          }
+        }
+      ]
     }
-  ]
+  }
 }

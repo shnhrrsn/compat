@@ -4,7 +4,7 @@
     "api",
     "downloads"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "downloads",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/downloads",
@@ -38,110 +38,183 @@
     "sha": "f72ba695e4d6d4dd74ee71a2cc3b774410acd1ea",
     "date": "2024-01-16T02:45:49.000Z"
   },
-  "children": [
-    {
-      "title": "downloads.BooleanDelta",
-      "href": "/webextensions/api/downloads/BooleanDelta"
+  "usage": 0.3287,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.DangerType",
-      "href": "/webextensions/api/downloads/DangerType"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.DoubleDelta",
-      "href": "/webextensions/api/downloads/DoubleDelta"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "47.0.0",
+        "date": 1465257600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "47.0.0",
+            "date": 1465257600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.DownloadItem",
-      "href": "/webextensions/api/downloads/DownloadItem"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "48.0.0",
+        "date": 1470096000
+      },
+      "removed": {
+        "version": "79.0.0",
+        "date": 1595894400
+      },
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "48.0.0",
+            "date": 1470096000
+          },
+          "removed": {
+            "version": "79.0.0",
+            "date": 1595894400
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.DownloadQuery",
-      "href": "/webextensions/api/downloads/DownloadQuery"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.DownloadTime",
-      "href": "/webextensions/api/downloads/DownloadTime"
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "downloads.FilenameConflictAction",
-      "href": "/webextensions/api/downloads/FilenameConflictAction"
-    },
-    {
-      "title": "downloads.InterruptReason",
-      "href": "/webextensions/api/downloads/InterruptReason"
-    },
-    {
-      "title": "downloads.State",
-      "href": "/webextensions/api/downloads/State"
-    },
-    {
-      "title": "downloads.StringDelta",
-      "href": "/webextensions/api/downloads/StringDelta"
-    },
-    {
-      "title": "downloads.acceptDanger()",
-      "href": "/webextensions/api/downloads/acceptDanger"
-    },
-    {
-      "title": "downloads.cancel()",
-      "href": "/webextensions/api/downloads/cancel"
-    },
-    {
-      "title": "downloads.download()",
-      "href": "/webextensions/api/downloads/download"
-    },
-    {
-      "title": "downloads.erase()",
-      "href": "/webextensions/api/downloads/erase"
-    },
-    {
-      "title": "downloads.getFileIcon()",
-      "href": "/webextensions/api/downloads/getFileIcon"
-    },
-    {
-      "title": "downloads.onChanged",
-      "href": "/webextensions/api/downloads/onChanged"
-    },
-    {
-      "title": "downloads.onCreated",
-      "href": "/webextensions/api/downloads/onCreated"
-    },
-    {
-      "title": "downloads.onErased",
-      "href": "/webextensions/api/downloads/onErased"
-    },
-    {
-      "title": "downloads.open()",
-      "href": "/webextensions/api/downloads/open"
-    },
-    {
-      "title": "downloads.pause()",
-      "href": "/webextensions/api/downloads/pause"
-    },
-    {
-      "title": "downloads.removeFile()",
-      "href": "/webextensions/api/downloads/removeFile"
-    },
-    {
-      "title": "downloads.resume()",
-      "href": "/webextensions/api/downloads/resume"
-    },
-    {
-      "title": "downloads.search()",
-      "href": "/webextensions/api/downloads/search"
-    },
-    {
-      "title": "downloads.setShelfEnabled()",
-      "href": "/webextensions/api/downloads/setShelfEnabled"
-    },
-    {
-      "title": "downloads.show()",
-      "href": "/webextensions/api/downloads/show"
-    },
-    {
-      "title": "downloads.showDefaultFolder()",
-      "href": "/webextensions/api/downloads/showDefaultFolder"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     }
-  ]
+  }
 }

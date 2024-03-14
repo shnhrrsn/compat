@@ -4,7 +4,7 @@
     "api",
     "windows"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "windows",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows",
@@ -38,70 +38,183 @@
     "sha": "d6856a051d0ba078ec1d24b80908b1ca174917db",
     "date": "2023-03-07T05:27:34.000Z"
   },
-  "children": [
-    {
-      "title": "windows.CreateType",
-      "href": "/webextensions/api/windows/CreateType"
+  "usage": 0.5254199999999999,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "1.0.0",
+        "date": 1228953600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.2308,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": 1228953600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.2308,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.WINDOW_ID_CURRENT",
-      "href": "/webextensions/api/windows/WINDOW_ID_CURRENT"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "14.0.0",
+        "date": 1470096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1470096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.WINDOW_ID_NONE",
-      "href": "/webextensions/api/windows/WINDOW_ID_NONE"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "45.0.0",
+        "date": 1457395200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0272,
+        "relative": 0.9819494584837546
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "45.0.0",
+            "date": 1457395200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0272,
+            "relative": 0.9819494584837546
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.Window",
-      "href": "/webextensions/api/windows/Window"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.WindowState",
-      "href": "/webextensions/api/windows/WindowState"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "1.0.0",
+        "date": null
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.02109999999999999,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.02109999999999999,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.WindowType",
-      "href": "/webextensions/api/windows/WindowType"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "14.0.0",
+        "date": 1600214400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.031499999999999986,
+        "relative": 0.9752321981424149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.031499999999999986,
+            "relative": 0.9752321981424149
+          }
+        }
+      ]
     },
-    {
-      "title": "windows.create()",
-      "href": "/webextensions/api/windows/create"
-    },
-    {
-      "title": "windows.get()",
-      "href": "/webextensions/api/windows/get"
-    },
-    {
-      "title": "windows.getAll()",
-      "href": "/webextensions/api/windows/getAll"
-    },
-    {
-      "title": "windows.getCurrent()",
-      "href": "/webextensions/api/windows/getCurrent"
-    },
-    {
-      "title": "windows.getLastFocused()",
-      "href": "/webextensions/api/windows/getLastFocused"
-    },
-    {
-      "title": "windows.onCreated",
-      "href": "/webextensions/api/windows/onCreated"
-    },
-    {
-      "title": "windows.onFocusChanged",
-      "href": "/webextensions/api/windows/onFocusChanged"
-    },
-    {
-      "title": "windows.onRemoved",
-      "href": "/webextensions/api/windows/onRemoved"
-    },
-    {
-      "title": "windows.remove()",
-      "href": "/webextensions/api/windows/remove"
-    },
-    {
-      "title": "windows.update()",
-      "href": "/webextensions/api/windows/update"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16521999999999995,
+        "relative": 0.9428750784682985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16521999999999995,
+            "relative": 0.9428750784682985
+          }
+        }
+      ]
     }
-  ]
+  }
 }

@@ -4,7 +4,7 @@
     "api",
     "declarativeNetRequest"
   ],
-  "type": "listing",
+  "type": "page",
   "title": "declarativeNetRequest",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest",
@@ -38,118 +38,189 @@
     "sha": "c4360f2607e82c7988e560f38384c1623ba38c35",
     "date": "2023-07-11T15:07:56.000Z"
   },
-  "children": [
-    {
-      "title": "declarativeNetRequest.DYNAMIC_RULESET_ID",
-      "href": "/webextensions/api/declarativeNetRequest/DYNAMIC_RULESET_ID"
+  "usage": 0.5177199999999998,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "84.0.0",
+        "date": 1595808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.22639999999999996,
+        "relative": 0.9809358752166376
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1595808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.22639999999999996,
+            "relative": 0.9809358752166376
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.GETMATCHEDRULES_QUOTA_INTERVAL",
-      "href": "/webextensions/api/declarativeNetRequest/GETMATCHEDRULES_QUOTA_INTERVAL"
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "84.0.0",
+        "date": 1594857600
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.049599999999999984,
+        "relative": 1
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "84.0.0",
+            "date": 1594857600
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.049599999999999984,
+            "relative": 1
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.GUARANTEED_MINIMUM_STATIC_RULES",
-      "href": "/webextensions/api/declarativeNetRequest/GUARANTEED_MINIMUM_STATIC_RULES"
+    "firefox": {
+      "name": "Firefox",
+      "added": {
+        "version": "113.0.0",
+        "date": 1683590400
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.025700000000000004,
+        "relative": 0.9277978339350182
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1683590400
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.025700000000000004,
+            "relative": 0.9277978339350182
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.MAX_GETMATCHEDRULES_CALLS_PER_INTERVAL",
-      "href": "/webextensions/api/declarativeNetRequest/MAX_GETMATCHEDRULES_CALLS_PER_INTERVAL"
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": {
+        "version": "113.0.0",
+        "date": 1683590400
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "113.0.0",
+            "date": 1683590400
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES",
-      "href": "/webextensions/api/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES"
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "70.0.0",
+        "date": 1595808000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.020799999999999992,
+        "relative": 0.9857819905213271
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "70.0.0",
+            "date": 1595808000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.020799999999999992,
+            "relative": 0.9857819905213271
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.MAX_NUMBER_OF_ENABLED_STATIC_RULESETS",
-      "href": "/webextensions/api/declarativeNetRequest/MAX_NUMBER_OF_ENABLED_STATIC_RULESETS"
+    "safari": {
+      "name": "Safari",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.029999999999999985,
+        "relative": 0.9287925696594428
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.029999999999999985,
+            "relative": 0.9287925696594428
+          }
+        }
+      ]
     },
-    {
-      "title": "declarativeNetRequest.MAX_NUMBER_OF_REGEX_RULES",
-      "href": "/webextensions/api/declarativeNetRequest/MAX_NUMBER_OF_REGEX_RULES"
-    },
-    {
-      "title": "declarativeNetRequest.MAX_NUMBER_OF_STATIC_RULESETS",
-      "href": "/webextensions/api/declarativeNetRequest/MAX_NUMBER_OF_STATIC_RULESETS"
-    },
-    {
-      "title": "declarativeNetRequest.MatchedRule",
-      "href": "/webextensions/api/declarativeNetRequest/MatchedRule"
-    },
-    {
-      "title": "declarativeNetRequest.Redirect",
-      "href": "/webextensions/api/declarativeNetRequest/Redirect"
-    },
-    {
-      "title": "declarativeNetRequest.ResourceType",
-      "href": "/webextensions/api/declarativeNetRequest/ResourceType"
-    },
-    {
-      "title": "declarativeNetRequest.Rule",
-      "href": "/webextensions/api/declarativeNetRequest/Rule"
-    },
-    {
-      "title": "declarativeNetRequest.RuleAction",
-      "href": "/webextensions/api/declarativeNetRequest/RuleAction"
-    },
-    {
-      "title": "declarativeNetRequest.RuleCondition",
-      "href": "/webextensions/api/declarativeNetRequest/RuleCondition"
-    },
-    {
-      "title": "declarativeNetRequest.SESSION_RULESET_ID",
-      "href": "/webextensions/api/declarativeNetRequest/SESSION_RULESET_ID"
-    },
-    {
-      "title": "declarativeNetRequest.URLTransform",
-      "href": "/webextensions/api/declarativeNetRequest/URLTransform"
-    },
-    {
-      "title": "declarativeNetRequest.getAvailableStaticRuleCount",
-      "href": "/webextensions/api/declarativeNetRequest/getAvailableStaticRuleCount"
-    },
-    {
-      "title": "declarativeNetRequest.getDynamicRules",
-      "href": "/webextensions/api/declarativeNetRequest/getDynamicRules"
-    },
-    {
-      "title": "declarativeNetRequest.getEnabledRulesets",
-      "href": "/webextensions/api/declarativeNetRequest/getEnabledRulesets"
-    },
-    {
-      "title": "declarativeNetRequest.getMatchedRules",
-      "href": "/webextensions/api/declarativeNetRequest/getMatchedRules"
-    },
-    {
-      "title": "declarativeNetRequest.getSessionRules",
-      "href": "/webextensions/api/declarativeNetRequest/getSessionRules"
-    },
-    {
-      "title": "declarativeNetRequest.isRegexSupported",
-      "href": "/webextensions/api/declarativeNetRequest/isRegexSupported"
-    },
-    {
-      "title": "declarativeNetRequest.onRuleMatchedDebug",
-      "href": "/webextensions/api/declarativeNetRequest/onRuleMatchedDebug"
-    },
-    {
-      "title": "declarativeNetRequest.setExtensionActionOptions",
-      "href": "/webextensions/api/declarativeNetRequest/setExtensionActionOptions"
-    },
-    {
-      "title": "declarativeNetRequest.testMatchOutcome",
-      "href": "/webextensions/api/declarativeNetRequest/testMatchOutcome"
-    },
-    {
-      "title": "declarativeNetRequest.updateDynamicRules",
-      "href": "/webextensions/api/declarativeNetRequest/updateDynamicRules"
-    },
-    {
-      "title": "declarativeNetRequest.updateEnabledRulesets",
-      "href": "/webextensions/api/declarativeNetRequest/updateEnabledRulesets"
-    },
-    {
-      "title": "declarativeNetRequest.updateSessionRules",
-      "href": "/webextensions/api/declarativeNetRequest/updateSessionRules"
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": {
+        "version": "15.0.0",
+        "date": 1632096000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.16521999999999995,
+        "relative": 0.9428750784682985
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "15.0.0",
+            "date": 1632096000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.16521999999999995,
+            "relative": 0.9428750784682985
+          }
+        }
+      ]
     }
-  ]
+  }
 }
