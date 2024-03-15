@@ -5,10 +5,283 @@
     "criticalCHRestart"
   ],
   "type": "page",
-  "title": "PerformanceNavigationTiming / criticalCHRestart",
+  "title": "PerformanceNavigationTiming: criticalCHRestart property",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/criticalCHRestart",
-    "spec": "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-criticalchrestart"
+    "spec": "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-criticalchrestart",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/performancenavigationtiming/criticalchrestart/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "634d976964227c05651dc6463df72a5d",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "A website can indicate that a particular "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/HTTP/Client_hints"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Client Hint"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " is critical to the page by including it in a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Critical-CH"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Critical-CH"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " HTTP response header (as well as the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Accept-CH"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Accept-CH"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " HTTP request header which is needed for all client hints whether critical or not). Doing so will trigger a connection restart if the hint listed in the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Critical-CH"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " HTTP response header could have been, but wasn't, included in the HTTP request initially sent. If the browser does not support that client hint, it is ignored and no connection restart occurs."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "cbab743c2dda1a4f83613d825d378cc3",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/HTTP/Client_hints"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Client hints"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Web/API/User-Agent_Client_Hints_API"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "User-Agent Client Hints API"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/docs/privacy-security/user-agent-client-hints"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Improving user privacy and developer experience with User-Agent Client Hints"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " (developer.chrome.com)"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Accept-CH"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Accept-CH"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Critical-CH"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Critical-CH"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "7999828f4c20f9d2062b20423dd8299ee8f64456",
+    "date": "2024-03-14T15:09:38.000Z"
   },
   "usage": 0.6153799999999999,
   "support": {
