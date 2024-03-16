@@ -872,7 +872,7 @@ const mdn = {
 			[
 				"124.0.0",
 				{
-					"date": 1712707200,
+					"date": 1713225600,
 					"usage": null
 				}
 			],
@@ -6069,6 +6069,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"124.0.0",
+				{
+					"date": 1713225600,
+					"usage": null
+				}
+			],
 			[
 				"123.0.0",
 				{
