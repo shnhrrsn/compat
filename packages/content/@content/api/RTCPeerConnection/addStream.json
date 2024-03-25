@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "ac5c834e8b555d4f74a5e8233445c7f1",
+      "id": "0cb7d33e7844116022764cd8d3f5e4ce",
       "tree": {
         "type": "root",
         "children": [
@@ -27,18 +27,25 @@
               },
               {
                 "type": "element",
-                "tagName": "em",
+                "tagName": "strong",
                 "properties": {},
                 "children": [
                   {
-                    "type": "text",
-                    "value": "obsolete"
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "addStream()"
+                      }
+                    ]
                   }
                 ]
               },
               {
                 "type": "text",
-                "value": " "
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -63,29 +70,7 @@
               },
               {
                 "type": "text",
-                "value": " method\n"
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "addStream()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " adds a "
+                "value": " interface adds a "
               },
               {
                 "type": "element",
@@ -110,7 +95,7 @@
               },
               {
                 "type": "text",
-                "value": " as a local\nsource of audio or video. Instead of using this obsolete method, you should instead use\n"
+                "value": " as a local source of audio or video.\nInstead of using this obsolete method, you should instead use "
               },
               {
                 "type": "element",
@@ -135,7 +120,7 @@
               },
               {
                 "type": "text",
-                "value": " once for each track you wish to\nsend to the remote peer."
+                "value": " once for each track you wish to send to the remote peer."
               }
             ]
           }
@@ -193,8 +178,8 @@
     }
   },
   "commit": {
-    "sha": "954612667bafd71241a93e8554e8f11afc474ff3",
-    "date": "2023-04-07T19:50:09.000Z"
+    "sha": "9f18116c362265a3dfb65185728548ec43cd12f4",
+    "date": "2024-03-25T04:15:32.000Z"
   },
   "usage": 0.74917,
   "support": {

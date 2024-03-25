@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "56ae8bea5028b323bddb8fe4a8a8d5e3",
+      "id": "3d056c8b5769a430469e95453020205b",
       "tree": {
         "type": "root",
         "children": [
@@ -25,6 +25,28 @@
               {
                 "type": "text",
                 "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "setRemoteDescription()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -49,29 +71,7 @@
               },
               {
                 "type": "text",
-                "value": "\nmethod "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "setRemoteDescription()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " sets the specified\nsession description as the remote peer's current offer or answer. The description\nspecifies the properties of the remote end of the connection, including the media\nformat. The method takes a single parameter—the session description—and it\nreturns a "
+                "value": " interface sets the specified session description as the remote peer's current offer or answer.\nThe description specifies the properties of the remote end of the connection, including the media format.\nThe method takes a single parameter—the session description—and it returns a "
               },
               {
                 "type": "element",
@@ -96,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " which is fulfilled once the description has been\nchanged, asynchronously."
+                "value": " which is fulfilled once the description has been changed, asynchronously."
               }
             ]
           }
@@ -236,8 +236,8 @@
     }
   },
   "commit": {
-    "sha": "1a91b0b63f0cbaca9125bd48d4e5bc8afed2a7a3",
-    "date": "2024-03-07T17:23:45.000Z"
+    "sha": "9f18116c362265a3dfb65185728548ec43cd12f4",
+    "date": "2024-03-25T04:15:32.000Z"
   },
   "usage": 0.9543799999999999,
   "support": {

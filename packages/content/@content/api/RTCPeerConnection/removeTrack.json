@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "ce580e81d41a4ff4e19c944dbddada90",
+      "id": "2dcdc396ba9343ecc325819c6f04fa0a",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,7 @@
             "children": [
               {
                 "type": "text",
-                "value": "The\n"
+                "value": "The "
               },
               {
                 "type": "element",
@@ -38,7 +38,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "RTCPeerConnection.removeTrack()"
+                        "value": "removeTrack()"
                       }
                     ]
                   }
@@ -46,7 +46,32 @@
               },
               {
                 "type": "text",
-                "value": " method tells the local\nend of the connection to stop sending media from the specified track, without actually\nremoving the corresponding "
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/RTCPeerConnection"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "RTCPeerConnection"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface tells the local end of the connection to stop sending media from the specified track, without actually removing the corresponding "
               },
               {
                 "type": "element",
@@ -71,7 +96,7 @@
               },
               {
                 "type": "text",
-                "value": " from the list of senders as\nreported by "
+                "value": " from the list of senders as reported by "
               },
               {
                 "type": "element",
@@ -96,7 +121,7 @@
               },
               {
                 "type": "text",
-                "value": ". If the track is\nalready stopped, or is not in the connection's senders list, this method has no effect."
+                "value": ".\nIf the track is already stopped, or is not in the connection's senders list, this method has no effect."
               }
             ]
           }
@@ -154,8 +179,8 @@
     }
   },
   "commit": {
-    "sha": "acfe8c9f1f4145f77653a2bc64a9744b001358dc",
-    "date": "2023-07-07T07:19:19.000Z"
+    "sha": "9f18116c362265a3dfb65185728548ec43cd12f4",
+    "date": "2024-03-25T04:15:32.000Z"
   },
   "usage": 0.9514799999999998,
   "support": {

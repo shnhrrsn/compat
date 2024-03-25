@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "9b3ebefd894fa7870d269cf9258597ef",
+      "id": "249310e1b2a92f412c7b5c0678b58f6a",
       "tree": {
         "type": "root",
         "children": [
@@ -24,7 +24,29 @@
             "children": [
               {
                 "type": "text",
-                "value": "When a website or app using "
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "addIceCandidate()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
               },
               {
                 "type": "element",
@@ -49,61 +71,7 @@
               },
               {
                 "type": "text",
-                "value": " receives a new ICE candidate from the remote peer over its signaling channel, it delivers the newly-received candidate to the browser's "
-              },
-              {
-                "type": "element",
-                "tagName": "a",
-                "properties": {
-                  "href": "/en-US/docs/Glossary/ICE"
-                },
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "ICE"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": " agent by calling "
-              },
-              {
-                "type": "element",
-                "tagName": "strong",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "element",
-                    "tagName": "code",
-                    "properties": {},
-                    "children": [
-                      {
-                        "type": "text",
-                        "value": "RTCPeerConnection.addIceCandidate()"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": ".\nThis adds this new remote candidate to the "
-              },
-              {
-                "type": "element",
-                "tagName": "code",
-                "properties": {},
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "RTCPeerConnection"
-                  }
-                ]
-              },
-              {
-                "type": "text",
-                "value": "'s remote description, which describes the state of the remote end of the connection."
+                "value": " interface adds a new remote candidate to the connection's remote description, which describes the state of the remote end of the connection."
               }
             ]
           }
@@ -257,8 +225,8 @@
     }
   },
   "commit": {
-    "sha": "592f6ec42e54981b6573b58ec0343c9aa8cbbda8",
-    "date": "2023-07-25T00:27:48.000Z"
+    "sha": "9f18116c362265a3dfb65185728548ec43cd12f4",
+    "date": "2024-03-25T04:15:32.000Z"
   },
   "usage": 0.9543799999999999,
   "support": {
