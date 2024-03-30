@@ -238,21 +238,22 @@
     "sha": "8295b4bd0687986f57a401eaea7c08aec64c33b3",
     "date": "2024-03-19T11:42:55.000Z"
   },
-  "usage": 0.07029999999999997,
+  "usage": 0.9510599999999999,
   "support": {
     "chrome": {
       "name": "Chrome",
-      "added": null,
+      "added": {
+        "version": "50.0.0",
+        "date": 1460505600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.23,
+        "relative": 0.9965337954939341
       },
       "history": [
         {
-          "notes": [
-            "Doesn’t support <code>as=\"audio\"</code>, <code>as=\"audioworklet\"</code>, <code>as=\"document\"</code>, <code>as=\"embed\"</code>, <code>as=\"manifest\"</code>, <code>as=\"object\"</code>, <code>as=\"paintworklet\"</code>, <code>as=\"report\"</code>, <code>as=\"sharedworker\"</code>, <code>as=\"video\"</code>, <code>as=\"worker\"</code>, or <code>as=\"xslt\"</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "50.0.0",
             "date": 1460505600
@@ -261,24 +262,24 @@
           "usage": {
             "global": 0.23,
             "relative": 0.9965337954939341
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
     "chrome_android": {
       "name": "Chrome Android",
-      "added": null,
+      "added": {
+        "version": "50.0.0",
+        "date": 1460505600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.39559,
+        "relative": 1
       },
       "history": [
         {
-          "notes": [
-            "Doesn’t support <code>as=\"audio\"</code>, <code>as=\"audioworklet\"</code>, <code>as=\"document\"</code>, <code>as=\"embed\"</code>, <code>as=\"manifest\"</code>, <code>as=\"object\"</code>, <code>as=\"paintworklet\"</code>, <code>as=\"report\"</code>, <code>as=\"sharedworker\"</code>, <code>as=\"video\"</code>, <code>as=\"worker\"</code>, or <code>as=\"xslt\"</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "50.0.0",
             "date": 1460505600
@@ -287,24 +288,24 @@
           "usage": {
             "global": 0.39559,
             "relative": 1
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "79.0.0",
+        "date": 1579046400
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.049599999999999984,
+        "relative": 1
       },
       "history": [
         {
-          "notes": [
-            "Doesn’t support <code>as=\"audio\"</code>, <code>as=\"audioworklet\"</code>, <code>as=\"document\"</code>, <code>as=\"embed\"</code>, <code>as=\"manifest\"</code>, <code>as=\"object\"</code>, <code>as=\"paintworklet\"</code>, <code>as=\"report\"</code>, <code>as=\"sharedworker\"</code>, <code>as=\"video\"</code>, <code>as=\"worker\"</code>, or <code>as=\"xslt\"</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "79.0.0",
             "date": 1579046400
@@ -313,8 +314,7 @@
           "usage": {
             "global": 0.049599999999999984,
             "relative": 1
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
@@ -331,7 +331,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Track is not supported."
+          ],
           "added": {
             "version": "85.0.0",
             "date": 1611619200
@@ -375,7 +377,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Track is not supported."
+          ],
           "added": {
             "version": "85.0.0",
             "date": 1611619200
@@ -428,7 +432,10 @@
     },
     "oculus": {
       "name": "Quest Browser",
-      "added": null,
+      "added": {
+        "version": "5.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -436,9 +443,7 @@
       },
       "history": [
         {
-          "notes": [
-            "Doesn’t support <code>as=\"audio\"</code>, <code>as=\"audioworklet\"</code>, <code>as=\"document\"</code>, <code>as=\"embed\"</code>, <code>as=\"manifest\"</code>, <code>as=\"object\"</code>, <code>as=\"paintworklet\"</code>, <code>as=\"report\"</code>, <code>as=\"sharedworker\"</code>, <code>as=\"video\"</code>, <code>as=\"worker\"</code>, or <code>as=\"xslt\"</code>."
-          ],
+          "notes": null,
           "added": {
             "version": "5.0.0",
             "date": null
@@ -447,8 +452,7 @@
           "usage": {
             "global": null,
             "relative": null
-          },
-          "partial_implementation": true
+          }
         }
       ]
     },
@@ -500,40 +504,52 @@
     },
     "safari": {
       "name": "Safari",
-      "added": null,
+      "added": {
+        "version": "11.1.0",
+        "date": 1523491200
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.03229999999999998,
+        "relative": 1
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "11.1.0",
+            "date": 1523491200
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.03229999999999998,
+            "relative": 1
           }
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": null,
+      "added": {
+        "version": "11.3.0",
+        "date": 1522281600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.17326999999999995,
+        "relative": 0.9888147006791072
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "11.3.0",
+            "date": 1522281600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.17326999999999995,
+            "relative": 0.9888147006791072
           }
         }
       ]
@@ -551,9 +567,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>as=\"document\"</code> is unsupported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/593267'>bug 593267</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "5.0.0",
             "date": 1481760000
@@ -579,9 +593,7 @@
       },
       "history": [
         {
-          "notes": [
-            "<code>as=\"document\"</code> is unsupported. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/593267'>bug 593267</a>."
-          ],
+          "notes": null,
           "added": {
             "version": "50.0.0",
             "date": 1460505600
