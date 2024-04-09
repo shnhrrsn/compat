@@ -12,7 +12,7 @@
   },
   "content": {
     "intro": {
-      "id": "63aa185333d40287f9a8592d2e57b63b",
+      "id": "24f304c035091dda7c01c0d70cfd10be",
       "tree": {
         "type": "root",
         "children": [
@@ -45,7 +45,7 @@
               },
               {
                 "type": "text",
-                "value": " response HTTP header provides a "
+                "value": " response or request HTTP header provides the other side with a "
               },
               {
                 "type": "element",
@@ -66,6 +66,31 @@
               },
               {
                 "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Content-Encoding"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Encoding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "-encoded "
+              },
+              {
+                "type": "element",
                 "tagName": "em",
                 "properties": {},
                 "children": [
@@ -77,7 +102,32 @@
               },
               {
                 "type": "text",
-                "value": " of the requested resource."
+                "value": ". It can be requested by using the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/http/headers/Want-Digest"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Want-Digest"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " header."
               }
             ]
           }
@@ -243,8 +293,8 @@
     }
   },
   "commit": {
-    "sha": "05a463a3bc1af6e1b1e0d6a273582d954ae00ed0",
-    "date": "2024-02-21T08:43:26.000Z"
+    "sha": "803278d269a4fcb807f581a2ac9c4293dc02d0ef",
+    "date": "2024-04-08T18:54:13.000Z"
   },
   "usage": 0,
   "support": {
