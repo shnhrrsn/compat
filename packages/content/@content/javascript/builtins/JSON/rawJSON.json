@@ -1,0 +1,595 @@
+{
+  "self": [
+    "javascript",
+    "builtins",
+    "JSON",
+    "rawJSON"
+  ],
+  "type": "page",
+  "title": "JSON.rawJSON()",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/rawJSON",
+    "spec": "https://tc39.es/proposal-json-parse-with-source/#sec-json.rawjson",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/javascript/reference/global_objects/json/rawjson/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "f1b85857678ada74dd0cb060d9043789",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "JSON.rawJSON()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " static method creates a \"raw JSON\" object containing a piece of JSON text. When serialized to JSON, the raw JSON object is treated as if it is already a piece of JSON. This text is required to be valid JSON."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "154d4065c5fc7a26267d7ec55f77f18c",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://github.com/zloirock/core-js#jsonparse-source-text-access"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Polyfill of "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "JSON.rawJSON"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "value": " in "
+                      },
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "core-js"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/JSON"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "JSON"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/JSON/isRawJSON"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "JSON.isRawJSON()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/javascript/builtins/JSON/stringify"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "JSON.stringify()"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "e7fab5265b54dc9faeff7e8cf4972cc171ec856b",
+    "date": "2024-03-18T02:08:46.000Z"
+  },
+  "usage": 0.6345699999999997,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685404800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.19219999999999998,
+        "relative": 0.8378378378378376
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.19219999999999998,
+            "relative": 0.8378378378378376
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685404800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.3759699999999999,
+        "relative": 0.9559369438087971
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3759699999999999,
+            "relative": 0.9559369438087971
+          }
+        }
+      ]
+    },
+    "deno": {
+      "name": "Deno",
+      "added": {
+        "version": "1.33.0",
+        "date": 1682644537
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "1.33.0",
+            "date": 1682644537
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685664000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04789999999999999,
+        "relative": 0.9795501022494888
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685664000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04789999999999999,
+            "relative": 0.9795501022494888
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "added": {
+        "version": "21.0.0",
+        "date": 1697500800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "21.0.0",
+            "date": 1697500800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Quest Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "100.0.0",
+        "date": 1687996800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0085,
+        "relative": 0.4292929292929293
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "100.0.0",
+            "date": 1687996800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0085,
+            "relative": 0.4292929292929293
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "76.0.0",
+        "date": 1687737600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "76.0.0",
+            "date": 1687737600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "23.0.0",
+        "date": 1697587200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.01,
+        "relative": 0.6849315068493149
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "23.0.0",
+            "date": 1697587200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01,
+            "relative": 0.6849315068493149
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685404800
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685404800
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": true,
+    "standard_track": true
+  }
+}

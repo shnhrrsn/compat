@@ -152,7 +152,7 @@
     "sha": "89c435da452257b944b403cc9e45036fcb22590e",
     "date": "2024-02-05T10:15:39.000Z"
   },
-  "usage": 0.05049999999999999,
+  "usage": 0.025499999999999995,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -228,18 +228,17 @@
     },
     "firefox": {
       "name": "Firefox",
-      "added": {
-        "version": "44.0.0",
-        "date": 1453766400
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.024999999999999994,
-        "relative": 0.9920634920634922
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The event does not have the <code>oldSubscription</code> and <code>newSubscription</code> properties. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1497429'>bug 1497429</a>."
+          ],
           "added": {
             "version": "44.0.0",
             "date": 1453766400
@@ -248,16 +247,14 @@
           "usage": {
             "global": 0.024999999999999994,
             "relative": 0.9920634920634922
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": {
-        "version": "48.0.0",
-        "date": 1470096000
-      },
+      "added": null,
       "removed": null,
       "usage": {
         "global": null,
@@ -265,7 +262,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "The event does not have the <code>oldSubscription</code> and <code>newSubscription</code> properties. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1497429'>bug 1497429</a>."
+          ],
           "added": {
             "version": "48.0.0",
             "date": 1470096000
@@ -274,7 +273,8 @@
           "usage": {
             "global": null,
             "relative": null
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },

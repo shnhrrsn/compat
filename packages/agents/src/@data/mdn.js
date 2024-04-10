@@ -1575,6 +1575,13 @@ const mdn = {
 		name: 'Edge',
 		versions: new Map([
 			[
+				"126.0.0",
+				{
+					"date": 1718236800,
+					"usage": null
+				}
+			],
+			[
 				"125.0.0",
 				{
 					"date": 1715817600,

@@ -83,39 +83,36 @@
       "history": [
         {
           "notes": [
-            "Before Chrome 70, this feature was only supported in macOS. In Chrome 70, support was added for Windows 10. Linux support is not enabled by default."
+            "Linux support is not enabled by default."
           ],
           "added": {
-            "version": "57.0.0",
-            "date": 1489017600
+            "version": "70.0.0",
+            "date": 1539648000
           },
           "removed": null,
           "usage": {
-            "global": 0.2285,
-            "relative": 0.9960767218831733
+            "global": 0.22790000000000002,
+            "relative": 0.9934612031386224
           },
           "partial_implementation": true
         },
         {
           "notes": [
-            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
+            "Only supported on macOS."
           ],
           "added": {
             "version": "57.0.0",
             "date": 1489017600
           },
-          "removed": null,
-          "usage": {
-            "global": 0.2285,
-            "relative": 0.9960767218831733
+          "removed": {
+            "version": "70.0.0",
+            "date": 1539648000
           },
-          "flags": [
-            {
-              "name": "#enable-experimental-web-platform-features",
-              "type": "preference",
-              "value_to_set": "enabled"
-            }
-          ]
+          "usage": {
+            "global": 0.0008,
+            "relative": 0.0034873583260680028
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -156,7 +153,7 @@
       "history": [
         {
           "notes": [
-            "Supported by default only on macOS and Windows 10. Linux support is not enabled by default."
+            "Linux support is not enabled by default."
           ],
           "added": {
             "version": "79.0.0",
@@ -168,27 +165,6 @@
             "relative": 1
           },
           "partial_implementation": true
-        },
-        {
-          "notes": [
-            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
-          ],
-          "added": {
-            "version": "79.0.0",
-            "date": 1579046400
-          },
-          "removed": null,
-          "usage": {
-            "global": 0.048899999999999985,
-            "relative": 1
-          },
-          "flags": [
-            {
-              "name": "#enable-experimental-web-platform-features",
-              "type": "preference",
-              "value_to_set": "enabled"
-            }
-          ]
         }
       ]
     },
@@ -289,39 +265,36 @@
       "history": [
         {
           "notes": [
-            "Before Opera 57, this feature was only supported in macOS. In Opera 57, support was added for Windows 10. Linux support is not enabled by default."
+            "Linux support is not enabled by default."
           ],
           "added": {
-            "version": "44.0.0",
-            "date": 1490054400
+            "version": "57.0.0",
+            "date": 1543363200
           },
           "removed": null,
           "usage": {
-            "global": 0.0198,
-            "relative": 1
+            "global": 0.019600000000000003,
+            "relative": 0.98989898989899
           },
           "partial_implementation": true
         },
         {
           "notes": [
-            "In Linux and versions of Windows earlier than 10, this flag must be enabled."
+            "Only supported on macOS."
           ],
           "added": {
             "version": "44.0.0",
             "date": 1490054400
           },
-          "removed": null,
-          "usage": {
-            "global": 0.0198,
-            "relative": 1
+          "removed": {
+            "version": "57.0.0",
+            "date": 1543363200
           },
-          "flags": [
-            {
-              "name": "#enable-experimental-web-platform-features",
-              "type": "preference",
-              "value_to_set": "enabled"
-            }
-          ]
+          "usage": {
+            "global": 0.0002,
+            "relative": 0.0101010101010101
+          },
+          "partial_implementation": true
         }
       ]
     },
