@@ -13,7 +13,7 @@
   },
   "content": {
     "intro": {
-      "id": "40df29a45b13260023627247237976db",
+      "id": "6086f8b64571ccb0c0c285d5887b9346",
       "tree": {
         "type": "root",
         "children": [
@@ -46,7 +46,7 @@
               },
               {
                 "type": "text",
-                "value": " read-only property of the\n"
+                "value": " read-only property of the "
               },
               {
                 "type": "element",
@@ -71,14 +71,29 @@
               },
               {
                 "type": "text",
-                "value": " interface returns a unique identifier for a\nservice worker registration. The service worker must be on the same origin as the\ndocument that registers the "
+                "value": " interface returns a string representing a URL that defines a service worker's registration scope; that is, the range of URLs a service worker can control. This is set using the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "scope"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " parameter specified in the call to "
               },
               {
                 "type": "element",
                 "tagName": "a",
                 "properties": {
                   "internal": "",
-                  "href": "/api/ServiceWorker"
+                  "href": "/api/ServiceWorkerContainer/register"
                 },
                 "children": [
                   {
@@ -88,7 +103,7 @@
                     "children": [
                       {
                         "type": "text",
-                        "value": "ServiceWorker"
+                        "value": "ServiceWorkerContainer.register()"
                       }
                     ]
                   }
@@ -96,7 +111,7 @@
               },
               {
                 "type": "text",
-                "value": "."
+                "value": " which registered the service worker."
               }
             ]
           }
@@ -202,8 +217,8 @@
     }
   },
   "commit": {
-    "sha": "4de6f76bbfd76229db78ffb7d52cf6b4cb9f31f8",
-    "date": "2024-03-06T06:23:15.000Z"
+    "sha": "e9b95b3735a9e928fbdf3fe0a9f69c420b44cd79",
+    "date": "2024-04-15T16:45:49.000Z"
   },
   "usage": 0.9380200000000001,
   "support": {
