@@ -6,12 +6,238 @@
     "zstd"
   ],
   "type": "page",
-  "title": "Content-Encoding / zstd",
+  "title": "Content-Encoding",
   "links": {
-    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Zstandard_compression",
-    "spec": "https://www.rfc-editor.org/rfc/rfc8878#name-content-encoding"
+    "mdn": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Encoding#zstd",
+    "spec": "https://www.rfc-editor.org/rfc/rfc8878#name-content-encoding",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/http/headers/content-encoding/index.md"
   },
-  "usage": 0.14314,
+  "content": {
+    "intro": {
+      "id": "b0c3cd005f78f025285d5798d47da856",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Content-Encoding"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Glossary/representation_header"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "representation header"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " lists any encodings that have been applied to the representation (message payload), and in what order.\nThis lets the recipient know how to decode the representation in order to obtain the original payload format.\nContent encoding is mainly used to compress the message data without losing information about the origin media type."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "3798ce8570b755658d7f79315a64f4c7",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Accept-Encoding"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Accept-Encoding"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/http/headers/Transfer-Encoding"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "Transfer-Encoding"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Glossary/Brotli_compression"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Brotli compression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Glossary/GZip_compression"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "GZip compression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "/en-US/docs/Glossary/Zstandard_compression"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Zstandard compression"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "1e3b39851b48696a0ad758b9e7483741ef9a241c",
+    "date": "2024-04-17T00:39:20.000Z"
+  },
+  "usage": 0.14634,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -67,27 +293,36 @@
     },
     "edge": {
       "name": "Edge",
-      "added": null,
+      "added": {
+        "version": "123.0.0",
+        "date": 1711065600
+      },
       "removed": null,
       "usage": {
-        "global": null,
-        "relative": null
+        "global": 0.0032,
+        "relative": 0.06543967280163601
       },
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "123.0.0",
+            "date": 1711065600
+          },
           "removed": null,
           "usage": {
-            "global": null,
-            "relative": null
+            "global": 0.0032,
+            "relative": 0.06543967280163601
           }
         }
       ]
     },
     "firefox": {
       "name": "Firefox",
-      "added": null,
+      "added": {
+        "version": "126.0.0",
+        "date": 1715644800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -96,7 +331,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "126.0.0",
+            "date": 1715644800
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -107,7 +345,10 @@
     },
     "firefox_android": {
       "name": "Firefox for Android",
-      "added": null,
+      "added": {
+        "version": "126.0.0",
+        "date": 1715644800
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -116,7 +357,10 @@
       "history": [
         {
           "notes": null,
-          "added": null,
+          "added": {
+            "version": "126.0.0",
+            "date": 1715644800
+          },
           "removed": null,
           "usage": {
             "global": null,
@@ -294,7 +538,7 @@
   },
   "status": {
     "deprecated": false,
-    "experimental": true,
+    "experimental": false,
     "standard_track": true
   }
 }

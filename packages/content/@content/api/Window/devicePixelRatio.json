@@ -255,7 +255,7 @@
     "sha": "ca9bb43c4a253d0bba3d355a7d243e1f2b6fe8ef",
     "date": "2023-12-13T04:36:29.000Z"
   },
-  "usage": 0.9431600000000001,
+  "usage": 0.7324,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -493,18 +493,17 @@
     },
     "safari": {
       "name": "Safari",
-      "added": {
-        "version": "3.0.0",
-        "date": 1193356800
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.03199999999999999,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "In Safari, the <code>devicePixelRatio</code> does not change when the page is zoomed. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/124862'>bug 124862</a>."
+          ],
           "added": {
             "version": "3.0.0",
             "date": 1193356800
@@ -513,33 +512,34 @@
           "usage": {
             "global": 0.03199999999999999,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
     "safari_ios": {
       "name": "Safari on iOS",
-      "added": {
-        "version": "1.0.0",
-        "date": 1183075200
-      },
+      "added": null,
       "removed": null,
       "usage": {
-        "global": 0.17875999999999997,
-        "relative": 1
+        "global": null,
+        "relative": null
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "In Safari, the <code>devicePixelRatio</code> does not change when the page is zoomed. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://webkit.org/b/124862'>bug 124862</a>."
+          ],
           "added": {
-            "version": "1.0.0",
-            "date": 1183075200
+            "version": "2.0.0",
+            "date": 1215734400
           },
           "removed": null,
           "usage": {
             "global": 0.17875999999999997,
             "relative": 1
-          }
+          },
+          "partial_implementation": true
         }
       ]
     },
