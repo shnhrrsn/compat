@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"125.0.0",
+				{
+					"date": 1715644800,
+					"usage": null
+				}
+			],
+			[
 				"124.0.0",
 				{
 					"date": 1713225600,
@@ -869,6 +876,13 @@ const mdn = {
 	chrome_android: {
 		name: 'Chrome Android',
 		versions: new Map([
+			[
+				"125.0.0",
+				{
+					"date": 1715644800,
+					"usage": null
+				}
+			],
 			[
 				"124.0.0",
 				{
@@ -1958,6 +1972,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"128.0.0",
+				{
+					"date": 1720483200,
+					"usage": null
+				}
+			],
+			[
 				"127.0.0",
 				{
 					"date": 1718064000,
@@ -2872,6 +2893,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"128.0.0",
+				{
+					"date": 1720483200,
+					"usage": null
+				}
+			],
 			[
 				"127.0.0",
 				{
@@ -3847,6 +3875,20 @@ const mdn = {
 		name: 'Opera',
 		versions: new Map([
 			[
+				"109.0.0",
+				{
+					"date": 1711497600,
+					"usage": null
+				}
+			],
+			[
+				"108.0.0",
+				{
+					"date": 1709596800,
+					"usage": 0.16
+				}
+			],
+			[
 				"107.0.0",
 				{
 					"date": 1707264000,
@@ -4691,6 +4733,13 @@ const mdn = {
 	opera_android: {
 		name: 'Opera Android',
 		versions: new Map([
+			[
+				"81.0.0",
+				{
+					"date": 1710374400,
+					"usage": null
+				}
+			],
 			[
 				"80.0.0",
 				{
@@ -6090,6 +6139,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"125.0.0",
+				{
+					"date": 1715644800,
+					"usage": null
+				}
+			],
 			[
 				"124.0.0",
 				{
