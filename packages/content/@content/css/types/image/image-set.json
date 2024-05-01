@@ -300,7 +300,7 @@
     "sha": "2a23f650d86d4f5d948614a607224a2bd52cca33",
     "date": "2023-04-28T05:58:54.000Z"
   },
-  "usage": 0.86462,
+  "usage": 0.79576,
   "support": {
     "chrome": {
       "name": "Chrome",
@@ -329,15 +329,34 @@
         {
           "notes": null,
           "added": {
-            "version": "21.0.0",
-            "date": 1343692800
+            "version": "113.0.0",
+            "date": 1682985600
           },
           "removed": null,
           "usage": {
-            "global": 0.22940000000000005,
-            "relative": 1
+            "global": 0.19269999999999998,
+            "relative": 0.8400174367916301
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "20.0.0",
+            "date": 1340668800
+          },
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "usage": {
+            "global": 0.03719999999999998,
+            "relative": 0.16216216216216203
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
@@ -368,15 +387,34 @@
         {
           "notes": null,
           "added": {
-            "version": "25.0.0",
-            "date": 1361923200
+            "version": "113.0.0",
+            "date": 1682985600
           },
           "removed": null,
           "usage": {
-            "global": 0.39330000000000004,
-            "relative": 1
+            "global": 0.37709,
+            "relative": 0.9587846427663359
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "25.0.0",
+            "date": 1361923200
+          },
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "usage": {
+            "global": 0.017329999999999998,
+            "relative": 0.04406305619120263
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
@@ -407,23 +445,42 @@
         {
           "notes": null,
           "added": {
-            "version": "79.0.0",
-            "date": 1579046400
+            "version": "113.0.0",
+            "date": 1683244800
           },
           "removed": null,
           "usage": {
-            "global": 0.048899999999999985,
-            "relative": 1
+            "global": 0.04809999999999999,
+            "relative": 0.983640081799591
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "79.0.0",
+            "date": 1579046400
+          },
+          "removed": {
+            "version": "113.0.0",
+            "date": 1683244800
+          },
+          "usage": {
+            "global": 0.001,
+            "relative": 0.020449897750511252
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
     "firefox": {
       "name": "Firefox",
       "added": {
-        "version": "88.0.0",
-        "date": 1618790400
+        "version": "89.0.0",
+        "date": 1622505600
       },
       "removed": null,
       "usage": {
@@ -432,13 +489,10 @@
       },
       "history": [
         {
-          "notes": [
-            "In <code>cursor</code> and <code>content</code> properties, gradients are not supported as arguments to <code>image-set()</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1696314'>bug 1696314</a>.",
-            "Before Firefox 89, the <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
-          ],
+          "notes": null,
           "added": {
-            "version": "88.0.0",
-            "date": 1618790400
+            "version": "89.0.0",
+            "date": 1622505600
           },
           "removed": null,
           "usage": {
@@ -458,14 +512,32 @@
             "relative": 0.9563492063492065
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1618790400
+          },
+          "removed": {
+            "version": "89.0.0",
+            "date": 1622505600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
     "firefox_android": {
       "name": "Firefox for Android",
       "added": {
-        "version": "88.0.0",
-        "date": 1618790400
+        "version": "89.0.0",
+        "date": 1622505600
       },
       "removed": null,
       "usage": {
@@ -474,13 +546,10 @@
       },
       "history": [
         {
-          "notes": [
-            "In <code>cursor</code> and <code>content</code> properties, gradients are not supported as arguments to <code>image-set()</code>. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://bugzil.la/1696314'>bug 1696314</a>.",
-            "Before Firefox 89, the <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
-          ],
+          "notes": null,
           "added": {
-            "version": "88.0.0",
-            "date": 1618790400
+            "version": "89.0.0",
+            "date": 1622505600
           },
           "removed": null,
           "usage": {
@@ -500,6 +569,24 @@
             "relative": null
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "88.0.0",
+            "date": 1618790400
+          },
+          "removed": {
+            "version": "89.0.0",
+            "date": 1622505600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "partial_implementation": true
         }
       ]
     },
@@ -533,7 +620,9 @@
       },
       "history": [
         {
-          "notes": null,
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
           "added": {
             "version": "5.0.0",
             "date": null
@@ -543,7 +632,8 @@
             "global": null,
             "relative": null
           },
-          "prefix": "-webkit-"
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
@@ -574,15 +664,34 @@
         {
           "notes": null,
           "added": {
-            "version": "15.0.0",
-            "date": 1372723200
+            "version": "99.0.0",
+            "date": 1684195200
           },
           "removed": null,
           "usage": {
-            "global": 0.021399999999999995,
-            "relative": 1
+            "global": 0.0101,
+            "relative": 0.47196261682242996
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "15.0.0",
+            "date": 1372723200
+          },
+          "removed": {
+            "version": "99.0.0",
+            "date": 1684195200
+          },
+          "usage": {
+            "global": 0.011300000000000001,
+            "relative": 0.5280373831775702
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
@@ -613,8 +722,8 @@
         {
           "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1369094400
+            "version": "76.0.0",
+            "date": 1687737600
           },
           "removed": null,
           "usage": {
@@ -622,32 +731,119 @@
             "relative": null
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1369094400
+          },
+          "removed": {
+            "version": "76.0.0",
+            "date": 1687737600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
     "safari": {
       "name": "Safari",
       "added": {
-        "version": "14.0.0",
-        "date": 1600214400
+        "version": "17.0.0",
+        "date": 1694995200
       },
       "removed": null,
       "usage": {
-        "global": 0.03079999999999999,
-        "relative": 0.9625000000000001
+        "global": 0.018000000000000002,
+        "relative": 0.5625000000000002
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1600214400
+            "version": "17.0.0",
+            "date": 1694995200
           },
           "removed": null,
           "usage": {
-            "global": 0.03079999999999999,
-            "relative": 0.9625000000000001
+            "global": 0.018000000000000002,
+            "relative": 0.5625000000000002
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.018000000000000002,
+            "relative": 0.5625000000000002
+          },
+          "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "usage": {
+            "global": 0.013300000000000003,
+            "relative": 0.41562500000000024
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "usage": {
+            "global": 0.013300000000000003,
+            "relative": 0.41562500000000024
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "10.1.0",
+            "date": 1490572800
+          },
+          "removed": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "usage": {
+            "global": 0.0012000000000000001,
+            "relative": 0.03750000000000002
+          },
+          "partial_implementation": true
         },
         {
           "notes": [
@@ -657,10 +853,13 @@
             "version": "6.0.0",
             "date": 1343174400
           },
-          "removed": null,
+          "removed": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
           "usage": {
-            "global": 0.03199999999999999,
-            "relative": 1
+            "global": 0.0016,
+            "relative": 0.05000000000000002
           },
           "prefix": "-webkit-",
           "partial_implementation": true
@@ -670,26 +869,94 @@
     "safari_ios": {
       "name": "Safari on iOS",
       "added": {
-        "version": "14.0.0",
-        "date": 1600214400
+        "version": "17.0.0",
+        "date": 1694995200
       },
       "removed": null,
       "usage": {
-        "global": 0.17173000000000002,
-        "relative": 0.9606735287536364
+        "global": 0.11566999999999998,
+        "relative": 0.6470686954575968
       },
       "history": [
         {
           "notes": null,
           "added": {
-            "version": "14.0.0",
-            "date": 1600214400
+            "version": "17.0.0",
+            "date": 1694995200
           },
           "removed": null,
           "usage": {
-            "global": 0.17173000000000002,
-            "relative": 0.9606735287536364
+            "global": 0.11566999999999998,
+            "relative": 0.6470686954575968
           }
+        },
+        {
+          "notes": null,
+          "added": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.11566999999999998,
+            "relative": 0.6470686954575968
+          },
+          "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "usage": {
+            "global": 0.058299999999999984,
+            "relative": 0.32613560080554926
+          },
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "The <code>type()</code> function is not supported as an argument to <code>image-set()</code>."
+          ],
+          "added": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "removed": {
+            "version": "17.0.0",
+            "date": 1694995200
+          },
+          "usage": {
+            "global": 0.058299999999999984,
+            "relative": 0.32613560080554926
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "10.3.0",
+            "date": 1490572800
+          },
+          "removed": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
+          "usage": {
+            "global": 0.007240000000000001,
+            "relative": 0.040501230700380406
+          },
+          "partial_implementation": true
         },
         {
           "notes": [
@@ -699,10 +966,13 @@
             "version": "6.0.0",
             "date": 1347235200
           },
-          "removed": null,
+          "removed": {
+            "version": "14.0.0",
+            "date": 1600214400
+          },
           "usage": {
-            "global": 0.17869999999999997,
-            "relative": 0.9996643544417095
+            "global": 0.008130000000000002,
+            "relative": 0.04547997314835535
           },
           "prefix": "-webkit-",
           "partial_implementation": true
@@ -736,15 +1006,34 @@
         {
           "notes": null,
           "added": {
+            "version": "23.0.0",
+            "date": 1697587200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.01,
+            "relative": 0.6849315068493149
+          },
+          "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
             "version": "1.5.0",
             "date": 1380067200
           },
-          "removed": null,
+          "removed": {
+            "version": "23.0.0",
+            "date": 1697587200
+          },
           "usage": {
             "global": 0.014600000000000004,
             "relative": 1
           },
-          "prefix": "-webkit-"
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     },
@@ -775,8 +1064,8 @@
         {
           "notes": null,
           "added": {
-            "version": "4.4.0",
-            "date": 1386547200
+            "version": "113.0.0",
+            "date": 1682985600
           },
           "removed": null,
           "usage": {
@@ -784,6 +1073,25 @@
             "relative": null
           },
           "prefix": "-webkit-"
+        },
+        {
+          "notes": [
+            "Support for <code>url</code> images only and <code>x</code> is the only supported resolution unit."
+          ],
+          "added": {
+            "version": "4.4.0",
+            "date": 1386547200
+          },
+          "removed": {
+            "version": "113.0.0",
+            "date": 1682985600
+          },
+          "usage": {
+            "global": null,
+            "relative": null
+          },
+          "prefix": "-webkit-",
+          "partial_implementation": true
         }
       ]
     }

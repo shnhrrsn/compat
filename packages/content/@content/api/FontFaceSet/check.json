@@ -485,7 +485,10 @@
     },
     "samsunginternet_android": {
       "name": "Samsung Internet",
-      "added": null,
+      "added": {
+        "version": "25.0.0",
+        "date": null
+      },
       "removed": null,
       "usage": {
         "global": null,
@@ -493,8 +496,20 @@
       },
       "history": [
         {
+          "notes": null,
+          "added": {
+            "version": "25.0.0",
+            "date": null
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        },
+        {
           "notes": [
-            "Prior to version false, this method returned <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/40893726'>bug 40893726</a>."
+            "Prior to version 25.0, this method returned <code>false</code> instead of <code>true</code> for nonexistent or locally installed fonts. See <a target=\"_blank\" rel=\"noopener noreferrer\" href='https://crbug.com/40893726'>bug 40893726</a>."
           ],
           "added": {
             "version": "3.0.0",
