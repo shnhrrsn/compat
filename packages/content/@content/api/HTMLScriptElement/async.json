@@ -5,10 +5,217 @@
     "async"
   ],
   "type": "page",
-  "title": "HTMLScriptElement / async",
+  "title": "HTMLScriptElement: async property",
   "links": {
     "mdn": "https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/async",
-    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#dom-script-async"
+    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#dom-script-async",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/htmlscriptelement/async/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "b02a4a199e93f8fd06921e9049a5a56a",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "async"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/HTMLScriptElement"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "HTMLScriptElement"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface is a boolean value that controls how the script should be executed. For classic scripts, if the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property is set to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the external script will be fetched in parallel to parsing and evaluated as soon as it is available. For "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "href": "/en-US/docs/Web/JavaScript/Guide/Modules"
+                },
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "module scripts"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", if the "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "async"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " property is set to "
+              },
+              {
+                "type": "element",
+                "tagName": "code",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "true"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": ", the script and all their dependencies will be fetched in parallel to parsing and evaluated as soon as they are available."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "99b3f798f2e2dc105481503f477cac08",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "internal": "",
+                      "href": "/api/HTMLScriptElement/defer"
+                    },
+                    "children": [
+                      {
+                        "type": "element",
+                        "tagName": "code",
+                        "properties": {},
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "HTMLScriptElement.defer"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "3d57022613fbc562cc948938972aeffcaece819b",
+    "date": "2024-05-07T14:49:43.000Z"
   },
   "usage": 0.9577900000000001,
   "support": {
