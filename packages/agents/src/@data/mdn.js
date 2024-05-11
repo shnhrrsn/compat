@@ -4,6 +4,13 @@ const mdn = {
 		name: 'Chrome',
 		versions: new Map([
 			[
+				"126.0.0",
+				{
+					"date": 1718064000,
+					"usage": null
+				}
+			],
+			[
 				"125.0.0",
 				{
 					"date": 1715644800,
@@ -876,6 +883,13 @@ const mdn = {
 	chrome_android: {
 		name: 'Chrome Android',
 		versions: new Map([
+			[
+				"126.0.0",
+				{
+					"date": 1718064000,
+					"usage": null
+				}
+			],
 			[
 				"125.0.0",
 				{
@@ -4741,6 +4755,13 @@ const mdn = {
 		name: 'Opera Android',
 		versions: new Map([
 			[
+				"82.0.0",
+				{
+					"date": 1714608000,
+					"usage": null
+				}
+			],
+			[
 				"81.0.0",
 				{
 					"date": 1710374400,
@@ -6160,6 +6181,13 @@ const mdn = {
 	webview_android: {
 		name: 'WebView Android',
 		versions: new Map([
+			[
+				"126.0.0",
+				{
+					"date": 1718064000,
+					"usage": null
+				}
+			],
 			[
 				"125.0.0",
 				{
