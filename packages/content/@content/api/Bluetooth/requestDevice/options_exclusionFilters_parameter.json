@@ -1,0 +1,509 @@
+{
+  "self": [
+    "api",
+    "Bluetooth",
+    "requestDevice",
+    "options_exclusionFilters_parameter"
+  ],
+  "type": "page",
+  "title": "Bluetooth: requestDevice() method",
+  "links": {
+    "mdn": "https://developer.mozilla.org/docs/Web/API/Bluetooth/requestDevice",
+    "spec": "https://webbluetoothcg.github.io/web-bluetooth/#dom-requestdeviceoptions-exclusionfilters",
+    "github": "https://github.com/mdn/content/blob/main/files/en-us/web/api/bluetooth/requestdevice/index.md"
+  },
+  "content": {
+    "intro": {
+      "id": "a91e56f71d2c1d18f581e56887b2ca11",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The "
+              },
+              {
+                "type": "element",
+                "tagName": "strong",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Bluetooth.requestDevice()"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " method of the "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/Bluetooth"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Bluetooth"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " interface returns a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/javascript/builtins/Promise"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Promise"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " that fulfills with a "
+              },
+              {
+                "type": "element",
+                "tagName": "a",
+                "properties": {
+                  "internal": "",
+                  "href": "/api/BluetoothDevice"
+                },
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "code",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "BluetoothDevice"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": " object matching the specified options.\nIf there is no chooser UI, this method returns the first device matching the criteria."
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    },
+    "seeAlso": {
+      "id": "e6fb15e5c92014507df13ba84461c0d2",
+      "tree": {
+        "type": "root",
+        "children": [
+          {
+            "type": "element",
+            "tagName": "ul",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "\n"
+              },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "element",
+                    "tagName": "a",
+                    "properties": {
+                      "href": "https://developer.chrome.com/docs/capabilities/bluetooth"
+                    },
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Communicating with Bluetooth devices over JavaScript"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": " on "
+                  },
+                  {
+                    "type": "element",
+                    "tagName": "em",
+                    "properties": {},
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "developer.chrome.com"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "value": "\n"
+              }
+            ]
+          }
+        ],
+        "data": {
+          "quirksMode": false
+        }
+      }
+    }
+  },
+  "commit": {
+    "sha": "b74d3eda5ee907ba49acc0624722a93c027d47e7",
+    "date": "2024-03-14T23:59:31.000Z"
+  },
+  "usage": 0.6548300000000001,
+  "support": {
+    "chrome": {
+      "name": "Chrome",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685404800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.1985000000000001,
+        "relative": 0.8375527426160335
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.1985000000000001,
+            "relative": 0.8375527426160335
+          }
+        }
+      ]
+    },
+    "chrome_android": {
+      "name": "Chrome Android",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685404800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.3750300000000001,
+        "relative": 0.9618620159015132
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685404800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.3750300000000001,
+            "relative": 0.9618620159015132
+          }
+        }
+      ]
+    },
+    "edge": {
+      "name": "Edge",
+      "added": {
+        "version": "114.0.0",
+        "date": 1685664000
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.04999999999999999,
+        "relative": 0.9803921568627452
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "114.0.0",
+            "date": 1685664000
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.04999999999999999,
+            "relative": 0.9803921568627452
+          }
+        }
+      ]
+    },
+    "firefox": {
+      "name": "Firefox",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "firefox_android": {
+      "name": "Firefox for Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "ie": {
+      "name": "Internet Explorer",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "oculus": {
+      "name": "Quest Browser",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "opera": {
+      "name": "Opera",
+      "added": {
+        "version": "100.0.0",
+        "date": 1687996800
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0104,
+        "relative": 0.488262910798122
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "100.0.0",
+            "date": 1687996800
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0104,
+            "relative": 0.488262910798122
+          }
+        }
+      ]
+    },
+    "opera_android": {
+      "name": "Opera Android",
+      "added": {
+        "version": "76.0.0",
+        "date": 1687737600
+      },
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "76.0.0",
+            "date": 1687737600
+          },
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari": {
+      "name": "Safari",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "safari_ios": {
+      "name": "Safari on iOS",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    },
+    "samsunginternet_android": {
+      "name": "Samsung Internet",
+      "added": {
+        "version": "23.0.0",
+        "date": 1697587200
+      },
+      "removed": null,
+      "usage": {
+        "global": 0.0209,
+        "relative": 0.8393574297188762
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": {
+            "version": "23.0.0",
+            "date": 1697587200
+          },
+          "removed": null,
+          "usage": {
+            "global": 0.0209,
+            "relative": 0.8393574297188762
+          }
+        }
+      ]
+    },
+    "webview_android": {
+      "name": "WebView Android",
+      "added": null,
+      "removed": null,
+      "usage": {
+        "global": null,
+        "relative": null
+      },
+      "history": [
+        {
+          "notes": null,
+          "added": null,
+          "removed": null,
+          "usage": {
+            "global": null,
+            "relative": null
+          }
+        }
+      ]
+    }
+  },
+  "status": {
+    "deprecated": false,
+    "experimental": true,
+    "standard_track": true
+  }
+}

@@ -1993,6 +1993,13 @@ const mdn = {
 		name: 'Firefox',
 		versions: new Map([
 			[
+				"129.0.0",
+				{
+					"date": 1722902400,
+					"usage": null
+				}
+			],
+			[
 				"128.0.0",
 				{
 					"date": 1720483200,
@@ -2914,6 +2921,13 @@ const mdn = {
 	firefox_android: {
 		name: 'Firefox for Android',
 		versions: new Map([
+			[
+				"129.0.0",
+				{
+					"date": 1722902400,
+					"usage": null
+				}
+			],
 			[
 				"128.0.0",
 				{
@@ -5243,6 +5257,13 @@ const mdn = {
 		name: 'Safari',
 		versions: new Map([
 			[
+				"17.5.0",
+				{
+					"date": 1715558400,
+					"usage": null
+				}
+			],
+			[
 				"17.4.0",
 				{
 					"date": 1709596800,
@@ -5556,10 +5577,17 @@ const mdn = {
 		name: 'Safari on iOS',
 		versions: new Map([
 			[
+				"17.5.0",
+				{
+					"date": 1715558400,
+					"usage": 0.068
+				}
+			],
+			[
 				"17.4.0",
 				{
 					"date": 1709596800,
-					"usage": 7.4719999999999995
+					"usage": 7.404
 				}
 			],
 			[
